@@ -1,0 +1,774 @@
+{
+    "id": "ID_1551174414",
+    "text": "Weight loss",
+    "perform-physical-exam": "Mouth:Tongue Dryness;Face:Swollen Face;Neck:Thyroid swelling;Abdomen:Tenderness;Abdomen:Lumps;Arm:Blood Glucose (RBS);",
+    "display-or": "ଓଜନ କମେଇବା",
+    "options": [
+        {
+            "id": "ID_1636203610",
+            "text": "Weight loss (kg)",
+            "display": "How much weight have you lost?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "କେତେ କିଲୋ ଓଜନ କମିଛି*",
+            "language": "%",
+            "options": [
+                {
+                    "id": "ID_42058366",
+                    "text": "Enter approximate number of kgs",
+                    "input-type": "number",
+                    "language": "Approx amount of weight lost by patient in kgs:",
+                    "display-or": "କେତେ କେଜି  ଲେଖ",
+                    "display-hi": "अनुमान से भरें कि कितना किलोग्राम –कम हो गया है ",
+                    "display-gu": "કિગ્રાનો અંદાજિત આંકડો દાખલ કરો",
+                    "display-as": "অনুমানিক সংখ্যা কেজি লিখা",
+                    "display-bn": "কেজির আনুমানিক সংখ্যা লিখুন",
+                    "display-kn": "ಅಂದಾಜು ಸಂಖ್ಯೆಯನ್ನು ಕೆಜಿಗಳಲ್ಲಿ ನಮೂದಿಸಿ",
+                    "display-mr": "किलोची अंदाजे संख्या प्रविष्ट करा"
+                },
+                {
+                    "id": "ID_1926521806",
+                    "text": "Don't know",
+                    "language": "amount of weight loss unknown",
+                    "display-or": "ଜଣା ନାହିଁ",
+                    "options": [
+                        {
+                            "id": "ID_1819309979",
+                            "text": "Have your clothes become loose or ill-fitting?*",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "language": "%",
+                            "display-or": "ତୁମ୍ଭର ପୋଷାକ ଢିଲା ହେଉଛି କି ?ଖରାପ ଭାବରେ ପିନ୍ଧୁଛ କି ?*",
+                            "options": [
+                                {
+                                    "id": "ID_782992789",
+                                    "text": "Yes",
+                                    "language": "clothes have become loose or ill-fitting",
+                                    "display-or": "ହଁ",
+                                    "display-hi": "हाँ ",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                },
+                                {
+                                    "id": "ID_1254613982",
+                                    "text": "No",
+                                    "language": "clothes have not become loose or ill-fitting",
+                                    "display-or": "ନା",
+                                    "display-hi": "नहीं ",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                }
+                            ],
+                            "display-hi": "क्या आपके कपड़े ढीले हो गए हैं या ठीक से फीट नहीं हो रहे हैं?*",
+                            "display-gu": "શું આપને કપડાં ઢીલાં પડવા લાગ્યાં છે કે યોગ્ય રીતે ફિટ થતાં નથી?*",
+                            "display-as": "আপোনাৰ পিন্ধাকাপোৰ বেলেগ ভাবে বা অসুস্থ ফিট হয় গৈছে?*",
+                            "display-bn": "আপনার জামাকাপড় কি ঢিলেঢালা নাকি ভালো মানায় না?*",
+                            "display-kn": "ನಿಮ್ಮ ಬಟ್ಟೆ ಸಡಿಲವಾಗಿದೆಯೇ ಅಥವಾ ಅಸಮರ್ಪಕವಾಗಿದೆಯೇ?*",
+                            "display-mr": "तुमचे कपडे सैल झाले आहेत किंवा नीट होत नाहीत का?"
+                        }
+                    ],
+                    "display-hi": "नहीं मालूम ",
+                    "display-gu": "ખબર નથી",
+                    "display-as": "নাজানো",
+                    "display-bn": "জানি না",
+                    "display-kn": "ಗೊತ್ತಿಲ್ಲ",
+                    "display-mr": "माहीत नाही"
+                }
+            ],
+            "display-hi": "आपका वजन कितना कम हो गया है?*",
+            "display-gu": "આપે કેટલું વજન ઉતાર્યું?*",
+            "display-as": "কিমান ওজন কমিছে*",
+            "display-bn": "আপনি কত ওজন হারিয়েছেন?*",
+            "display-kn": "ನೀವು ಎಷ್ಟು ತೂಕವನ್ನು ಕಳೆದುಕೊಂಡಿದ್ದೀರಿ?*",
+            "display-mr": "तुमचे वजन किती कमी झाले आहे?"
+        },
+        {
+            "id": "ID_313791833",
+            "text": "Duration",
+            "display": "Since when have you had this symptom?*",
+            "isRequired": true,
+            "display-or": "କେବେଠାରୁ*",
+            "options": [
+                {
+                    "id": "ID_826155781",
+                    "text": "[Enter since when]",
+                    "input-type": "duration",
+                    "language": "since",
+                    "display-or": "କେବେଠାରୁ",
+                    "display-hi": "(कब से है - भरें)",
+                    "display-gu": "[ક્યારથી તે લખી જણાવો]",
+                    "display-as": "তেতিয়া পৰা আৰম্ভ কৰা",
+                    "display-bn": "[কখন থেকে লিখুন]",
+                    "display-kn": "[ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]",
+                    "display-mr": "[केव्हापासून प्रविष्ट करा]"
+                }
+            ],
+            "display-hi": "आपको यह लक्षण कब से है?*",
+            "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+            "display-as": "কেতিয়াৰ পৰা আপুনি এই লক্ষণবোৰ পাইছে ?*",
+            "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+            "display-kn": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?"
+        },
+        {
+            "id": "ID_160957752",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?*",
+            "isRequired": true,
+            "pos-condition": "c.",
+            "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?*",
+            "neg-condition": "s.",
+            "options": [
+                {
+                    "id": "ID_1360420450",
+                    "text": "Constipation",
+                    "display-or": "କୋଷ୍ଠ କାଠିନ୍ୟ",
+                    "display-hi": "कब्ज ",
+                    "display-gu": "કબજિયાત",
+                    "display-as": "কোষ্ঠকাঠিন্",
+                    "display-bn": "কোষ্ঠকাঠিন্য",
+                    "display-kn": "ಮಲಬದ್ಧತೆ",
+                    "display-mr": "बद्धकोष्ठता"
+                },
+                {
+                    "id": "ID_434143146",
+                    "text": "Diarrhea",
+                    "display-or": "ଝାଡା ବାନ୍ତି",
+                    "display-hi": "दस्त / पेट चलना ",
+                    "display-gu": "ઝાડા",
+                    "display-as": "ডায়ৰিয়া",
+                    "display-bn": "ডায়রিয়া",
+                    "display-kn": "ಅತಿಸಾರ",
+                    "display-mr": "अतिसार"
+                },
+                {
+                    "id": "ID_1803096819",
+                    "text": "Alternating episodes of constipation and diarrhea",
+                    "display-or": "କାଠିନ୍ଯ ଓ ପତଳାଝାଡ଼ା",
+                    "display-hi": "कभी कब्ज, तो कभी पतला दस्त होना ",
+                    "display-gu": "કબજિયાત અને ઝાડાનાં વૈકલ્પિક એપિસોડ",
+                    "display-as": "কোষ্ঠকাঠিন্ আৰু ডায়ৰিয়াৰ বিকল্প পূর্ব",
+                    "display-bn": "কোষ্ঠকাঠিন্য এবং ডায়রিয়ার বিকল্প পর্ব",
+                    "display-kn": "ಮಲಬದ್ಧತೆ ಮತ್ತು ಅತಿಸಾರದ ಪರ್ಯಾಯ",
+                    "display-mr": "आलटून पालटून बद्धकोष्ठता आणि अतिसार"
+                },
+                {
+                    "id": "ID_1687854572",
+                    "text": "Bloating",
+                    "display-or": "ଫୁଲିବା",
+                    "display-hi": "पेट फूलना ",
+                    "display-gu": "ફૂલી જવું",
+                    "display-as": "ফুলি যায়া",
+                    "display-bn": "ফোলা",
+                    "display-kn": "ಉಬ್ಬುವುದು",
+                    "display-mr": "गोळा येणे"
+                },
+                {
+                    "id": "ID_785697286",
+                    "text": "Passing gas",
+                    "display-or": "ହାକୁଟି ଆସିବା ବା ପେଟରେ ବାୟୁର ଅନୁଭବ",
+                    "display-hi": "हवा छूटना ",
+                    "display-gu": "ગેસ નીકળવો",
+                    "display-as": "পাদ উলায়",
+                    "display-bn": "গ্যাস পাসিং",
+                    "display-kn": "ಅನಿಲವನ್ನು ಹೊರಹಾಕುವುದು",
+                    "display-mr": "वायू सरणे/पादणे"
+                },
+                {
+                    "id": "ID_1918126603",
+                    "text": "Abdominal cramping",
+                    "display-or": "ପେଟ ମୋଡିବା",
+                    "display-hi": "पेट में ऐंठन ",
+                    "display-gu": "પેટ ખેંચાવું",
+                    "display-as": "পেট পকাই",
+                    "display-bn": "পেট ফাঁপা",
+                    "display-kn": "ಕಿಬ್ಬೊಟ್ಟೆಯ ಸೆಳೆತ",
+                    "display-mr": "ओटीपोटात पेटके/ स्नायूंचे आखडणे"
+                },
+                {
+                    "id": "ID_492847870",
+                    "text": "Dysphagia",
+                    "display": "Difficulty swallowing",
+                    "display-or": "ଗିଳିବାରେ କଷ୍ଟ",
+                    "display-hi": "घोंटने / निगलने में तकलीफ ",
+                    "display-gu": "ગળવામાં તકલીફ થવી",
+                    "display-as": "গিলোতে অসুবিধা",
+                    "display-bn": "গিলতে অসুবিধা",
+                    "display-kn": "ನುಂಗಲು ತೊಂದರೆ",
+                    "display-mr": "गिळण्यास त्रास होतो"
+                },
+                {
+                    "id": "ID_802312323",
+                    "text": "Tremor",
+                    "display-or": "ଝଟକା",
+                    "display-hi": "कंपन ",
+                    "display-gu": "ધ્રુજારી",
+                    "display-as": "কম্পন",
+                    "display-bn": "কাঁপুনি",
+                    "display-kn": "ನಡುಕ",
+                    "display-mr": "कंपवात"
+                },
+                {
+                    "id": "ID_1464139543",
+                    "text": "Palpitations",
+                    "display-or": "ନାଡୀ ଗତି ବା ଆଙ୍ଗୁଠିରେ ଜାଣିବ",
+                    "display-hi": "दिल की तेज धड़कन ",
+                    "display-gu": "થડકારા",
+                    "display-as": "প্রতাৰণা",
+                    "display-bn": "ধড়ফড়",
+                    "display-kn": "ಹೃದಯ ಬಡಿತ",
+                    "display-mr": "धडधडणे"
+                },
+                {
+                    "id": "ID_1496698245",
+                    "text": "Heat / Cold intolerance",
+                    "perform-physical-exam": "Face:Swollen Face;Neck:Thyroid swelling;",
+                    "display": "Feeling uncomfortable in hot/cold environments",
+                    "display-or": "ଥଣ୍ଡା / ଗରମ ସହି ନ ପାରିବ",
+                    "options": [
+                        {
+                            "id": "ID_1057424061",
+                            "text": "Heat intolerance",
+                            "display": "Feels uncomfortable in hot environments",
+                            "display-or": "ଥଣ୍ଡା ସହି ନ ପାରିବ",
+                            "display-hi": "गर्म वातावरण में असुविधा महसूस करना",
+                            "display-gu": "ગરમ વાતાવરણમાં અસુખ થાય",
+                            "display-as": "গৰম পৰিবেশ অস্বস্তি বোধ কৰে",
+                            "display-bn": "গরম পরিবেশে অস্বস্তি লাগে",
+                            "display-kn": "ಉಷ್ಣ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
+                            "display-mr": "गरम वातावरणात अस्वस्थ वाटते"
+                        },
+                        {
+                            "id": "ID_1030198983",
+                            "text": "Cold intolerance",
+                            "display": "Feels uncomfortable in cold environments",
+                            "display-or": "ଗରମ ସହି ନ ପାରିବ",
+                            "display-hi": "ठंड वातावरण में असुविधा महसूस करना",
+                            "display-gu": "ઠંડાં વાતાવરણમાં અસુખ થાય",
+                            "display-as": "শীতল পৰিবেশ অস্বস্তি বোধ কৰে",
+                            "display-bn": "ঠান্ডা পরিবেশে অস্বস্তি লাগে",
+                            "display-kn": "ಶೀತ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
+                            "display-mr": "थंड वातावरणात अस्वस्थ वाटते"
+                        }
+                    ],
+                    "display-hi": "गर्म या ठंड वातावरण में असुविधा महसूस करना",
+                    "display-gu": "ગરમ/ઠંડાં વાતાવરણમાં અસુખ થાય",
+                    "display-as": "গৰম / ঠান্ডা পৰিবেশ অস্বস্তি বোধ কৰা হয়",
+                    "display-bn": "গরম/ঠান্ডা পরিবেশে অস্বস্তি বোধ করা",
+                    "display-kn": "ಉಷ್ಣ/ಶೀತ ಪರಿಸರದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
+                    "display-mr": "गरम/थंड वातावरणात अस्वस्थ वाटणे"
+                },
+                {
+                    "id": "ID_1600647341",
+                    "text": "Increase in quantity of urine output",
+                    "perform-physical-exam": "Mouth:Tongue Dryness;",
+                    "display-or": "ମୂତ୍ର ପରିମାଣ ଅଧିକ ହେବ",
+                    "display-hi": "पेशाब की मात्रा में वृद्धि ",
+                    "display-gu": "મૂત્ર પ્રમાણમાં વધારો થવો",
+                    "display-as": "প্রস্রাব আউটপুট(বাহিৰ হওঁতে) পৰিমাণ বৃদ্ধি",
+                    "display-bn": "প্রস্রাব আউটপুট পরিমাণ বৃদ্ধি",
+                    "display-kn": "ಮೂತ್ರ ವಿಸರ್ಜನೆಯ ಪ್ರಮಾಣದಲ್ಲಿ ಹೆಚ್ಚಳ",
+                    "display-mr": "लघवीचे प्रमाण वाढणे"
+                },
+                {
+                    "id": "ID_282411053",
+                    "text": "Increase in frequency of urination",
+                    "perform-physical-exam": "Mouth:Tongue Dryness;",
+                    "display-or": "ବାର ବାର ପରିସ୍ରା ଯିବା",
+                    "display-hi": "पेशाब के बार-बार होने  में वृद्धि ",
+                    "display-gu": "મૂત્રત્યાગ માટે જવાનું વધ્યું",
+                    "display-as": "প্রস্রাবৰ ফ্রিকোয়েন্সি( আবৃত্তি) বৃদ্ধি",
+                    "display-bn": "প্রস্রাবের ফ্রিকোয়েন্সি বৃদ্ধি",
+                    "display-kn": "ಮೂತ್ರ ವಿಸರ್ಜನೆಯ ಆವರ್ತನದಲ್ಲಿ ಹೆಚ್ಚಳ",
+                    "display-mr": "लघवीच्या वारंवारतेत वाढ"
+                },
+                {
+                    "id": "ID_585613375",
+                    "text": "Polydipsia",
+                    "display": "Increased/excessive thirst",
+                    "perform-physical-exam": "Mouth:Tongue Dryness;",
+                    "display-or": "ଶୋଷ ଲାଗିବା",
+                    "display-hi": "अधिक प्यास लगना ",
+                    "display-gu": "તરસમાં વધારો/વધઆરે પડતી તરસલાગવી",
+                    "display-as": "বর্ধিত / অতিৰিক্ত তৃষ্ণা",
+                    "display-bn": "বর্ধিত/অতিরিক্ত তৃষ্ণা",
+                    "display-kn": "ಹೆಚ್ಚಿದ/ಅತಿಯಾದ ಬಾಯಾರಿಕೆ",
+                    "display-mr": "वाढलेली / जास्त तहान"
+                },
+                {
+                    "id": "ID_145924908",
+                    "text": "Polyphagia",
+                    "display": "Increased hunger",
+                    "perform-physical-exam": "Mouth:Tongue Dryness;",
+                    "display-or": "ଭୁକ ବଢିବା",
+                    "display-hi": "अधिक भूख लगना ",
+                    "display-gu": "ભૂખ વધવી",
+                    "display-as": "ভুক বাঢ়িছে",
+                    "display-bn": "ক্ষুধা বেড়েছে",
+                    "display-kn": "ಹೆಚ್ಚಿದ ಹಸಿವು",
+                    "display-mr": "भूक वाढली"
+                },
+                {
+                    "id": "ID_1212855779",
+                    "text": "Change in smell or taste",
+                    "display-or": "ଗନ୍ଧ ଓ ସ୍ଵାଦରେ ପରିବର୍ତନ",
+                    "display-hi": "सुगंध या स्वाद में बदलाव ",
+                    "display-gu": "ગંધ અથવા સ્વાદમાં ફેરફાર",
+                    "display-as": "গোন্ধ বা সোৱাদ পৰিবর্তন",
+                    "display-bn": "গন্ধ বা স্বাদ পরিবর্তন",
+                    "display-kn": "ವಾಸನೆ ಅಥವಾ ರುಚಿಯಲ್ಲಿ ಬದಲಾವಣೆ",
+                    "display-mr": "वास किंवा चव मध्ये बदल"
+                },
+                {
+                    "id": "ID_284795186",
+                    "text": "Black/tarry stool",
+                    "display-or": "କଲା ଝାଡା ହେଇବା",
+                    "display-hi": "काला / अति काला दस्त ",
+                    "display-gu": "કાળો/છૂટોછવાયો મળ",
+                    "display-as": "কলা / কঠোৰ মল",
+                    "display-bn": "কালো/ট্যারি মল",
+                    "display-kn": "ಕಪ್ಪು/ಟಾರಿ ಮಲ",
+                    "display-mr": "काळे/डांबराप्रमाणे शौच होणे"
+                },
+                {
+                    "id": "ID_1597444506",
+                    "text": "Blood in stool",
+                    "display-or": "ଝାଡ଼ାରେ ରକ୍ତ",
+                    "display-hi": "पाखाने में खून आना ",
+                    "display-gu": "ઝાડા (સ્ટૂલ)માં લોહી",
+                    "display-as": "মল ৰক্ত",
+                    "display-bn": "মলে রক্ত",
+                    "display-kn": "ಮಲದಲ್ಲಿ ರಕ್ತ",
+                    "display-mr": "शौचावाटे रक्त पडणे"
+                },
+                {
+                    "id": "ID_830080984",
+                    "text": "Color change in stool [describe]",
+                    "input-type": "text",
+                    "display-or": "ଝାଡା ର ରଂଗ ପରିବର୍ତନ (ବର୍ଣନା କର)",
+                    "display-hi": "पाखाने के रंग में बदलाव (वर्णन करें)",
+                    "display-gu": "મળનો રંદ બદલાઈ જવો [વર્ણવો]",
+                    "display-as": "মলৰ ৰং পৰিবর্তন [বর্ণন]",
+                    "display-bn": "মলের রঙ পরিবর্তন [বর্ণনা]",
+                    "display-kn": "ಮಲದ ಬಣ್ಣದಲ್ಲಿ ಬದಲಾವಣೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "शौचाच्या रंगामध्ये बदल [वर्णन]"
+                },
+                {
+                    "id": "ID_10454262",
+                    "text": "Involuntary passage of stools",
+                    "display-or": "ଅଜାଣତରେ  ଝାଡ଼ା ହୋଇଯିବା",
+                    "display-hi": "कठिनाई से पाखाना होना ",
+                    "display-gu": "ઇચ્છા વગર જ સંડાસ થઈ જવો",
+                    "display-as": "মলৰ অবিচ্ছিন্ন উত্তৰণ",
+                    "display-bn": "মল এর অনিচ্ছাকৃত উত্তরণ",
+                    "display-kn": "ಮಲಗಳ ಅನೈಚ್ಛಿಕ ಅಂಗೀಕಾರ",
+                    "display-mr": "अनैच्छिकपणे शौचास होणे"
+                },
+                {
+                    "id": "ID_682684850",
+                    "text": "Depressed mood",
+                    "display": "feeling sad/depressed/lonely/isolated",
+                    "display-or": "ଦୁଃଖ/ ଚିନ୍ତା ଗ୍ରସ୍ତ",
+                    "display-hi": "दुखी / उदास / अकेलापन / अलग-थलग महसूस करना",
+                    "display-gu": "દુઃખી/હતાશા/એકલતા/એકલા પડી જવાની લાગણી થવી",
+                    "display-as": "দু: ষিত / হতাশ / নিঃসঙ্গ / বিচ্ছিন্ন বোধ কৰা",
+                    "display-bn": "দু: খিত/বিষণ্ন/একাকী/বিচ্ছিন্ন বোধ করা",
+                    "display-kn": "ದುಃಖ/ಖಿನ್ನತೆ/ಒಂಟಿ/ಏಕಾಂಗಿ ಭಾವನೆ",
+                    "display-mr": "उदास/एकाकी वाटणे"
+                },
+                {
+                    "id": "ID_1648101093",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ",
+                    "display-hi": "अन्य [वर्णन करें]",
+                    "display-gu": "અન્ય [વર્ણન કરો]",
+                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]\n",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर [वर्णन]"
+                }
+            ],
+            "display-hi": "क्या आपको यह/ये निम्न लक्षण है/हैं?*",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+            "display-as": "নিম্নলিখিত লক্ষণবোৰ আপোনাৰ আছে ?*",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला खालील लक्षण (लक्षणे) आहेत का?"
+        },
+        {
+            "id": "ID_962232225",
+            "text": "Associated diseases",
+            "display": "Have you ever been diagnosed with any of the following diseases?*",
+            "isRequired": true,
+            "display-or": "ଆପଣ କେବେ ନିମ୍ନ ଲିଖିତ ରୋଗ ବିଷୟରେ ପରୀକ୍ଷା ହୋଇ ନିରୁପିତ ହୋଇଥିଲ କି?*",
+            "pos-condition": "h/o",
+            "neg-condition": "no h/o",
+            "options": [
+                {
+                    "id": "ID_1798517123",
+                    "text": "Diabetes",
+                    "display-or": "ମଧୁମେହ",
+                    "display-hi": "डायबिटीज",
+                    "display-gu": "ડાયાબિટીસ",
+                    "display-as": "ডায়েবিটিছ",
+                    "display-bn": "ডায়াবেটিস",
+                    "display-kn": "ಮಧುಮೇಹ",
+                    "display-mr": "मधुमेह"
+                },
+                {
+                    "id": "ID_1350991569",
+                    "text": "Hyperthyroidism",
+                    "display-or": "ଥାଇରଏଡ ହରମୋନ ଜନିତ ରୋଗ",
+                    "display-hi": "हाइपर थायरायड   ",
+                    "display-gu": "હાઇપરથાઇરોઇડિઝમ",
+                    "display-as": "হাইপাৰথাইৰয়ডিজম(অতিগলগ্ৰন্থি)",
+                    "display-bn": "হাইপারথাইরয়েডিজম",
+                    "display-kn": "ಹೈಪರ್ ಥೈರಾಯ್ಡಿಸಮ್",
+                    "display-mr": "हायपरथायरॉईडीझम"
+                },
+                {
+                    "id": "ID_1035853403",
+                    "text": "HIV/AIDS",
+                    "display-or": "ଏଚ.ଆଇ.ଭି / ଏଡସ",
+                    "display-hi": "एच आई वी/एड्स ",
+                    "display-gu": "એચ. આઈ.વી. / એ ઈ ડ સ",
+                    "display-as": "এইচ আই ভি/এইডছ",
+                    "display-bn": "এইচআইভি/এইডস",
+                    "display-kn": "ಎಚ್ಐವಿ/ಏಡ್ಸ್",
+                    "display-mr": "एचआयव्ही/एड्स"
+                },
+                {
+                    "id": "ID_1776148017",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ",
+                    "display-hi": "अन्य [वर्णन करें ]",
+                    "display-gu": "અન્ય [વર્ણન કરો]",
+                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]\n",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर [वर्णन]"
+                },
+                {
+                    "id": "ID_1194978958",
+                    "text": "None",
+                    "display-or": "କିଛି ନକଲେ/ ମନା",
+                    "exclude-from-multi-choice": true,
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपको कभी इनमें से कोई बीमारी हुई है ?*",
+            "display-gu": "શું તમને ક્યારેય નીચેનામાંથી કોઈ પણ બીમારીનું નિદાન થયું છે?*",
+            "display-as": "আপুনি কেতিয়াবা তলত উল্লেখ কৰা কোনো ৰোগত আক্ৰান্ত হৈছেনে?*",
+            "display-bn": "আপনি কি কখনো নিচের কোন রোগে আক্রান্ত হয়েছেন?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ರೋಗಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ ?*",
+            "display-mr": "तुम्हाला खालीलपैकी कोणत्याही आजाराचे निदान झाले आहे का?"
+        },
+        {
+            "id": "ID_560750173",
+            "text": "Change in appetite",
+            "multi-choice": false,
+            "display-or": "ଭୋକରେ ପରିବର୍ତନ",
+            "options": [
+                {
+                    "id": "ID_1618124256",
+                    "text": "Normal",
+                    "language": "apettite is normal",
+                    "display-or": "ସାଧାରଣ",
+                    "display-hi": "सामान्य ",
+                    "display-gu": "સામાન્ય",
+                    "display-as": "সাধাৰণ",
+                    "display-bn": "স্বাভাবিক",
+                    "display-kn": "ಸಾಮಾನ್ಯ",
+                    "display-mr": "सामान्य"
+                },
+                {
+                    "id": "ID_1433786321",
+                    "text": "Reduced",
+                    "language": "apettite is reduced",
+                    "display-or": "କମିଯିବ",
+                    "display-hi": "कम होना ",
+                    "display-gu": "ઘટવો",
+                    "display-as": "হ্রাস পায়ছে",
+                    "display-bn": "হ্রাস করা হয়েছে",
+                    "display-kn": "ಕಡಿಮೆಯಾಗಿದೆ",
+                    "display-mr": "कमी झाली"
+                },
+                {
+                    "id": "ID_1072716764",
+                    "text": "Increased",
+                    "language": "apettite is increased",
+                    "display-or": "ବଢି ଯିବା",
+                    "display-hi": "बढ़ना",
+                    "display-gu": "વધી છે",
+                    "display-as": "বাঢ়িছে",
+                    "display-bn": "বেড়েছে",
+                    "display-kn": "ಹೆಚ್ಚಿದೆ",
+                    "display-mr": "वाढली"
+                }
+            ],
+            "display-hi": "भूख में बदलाव ",
+            "display-gu": "ભૂખમાં ફેરફાર થવો",
+            "display-as": "ভুকৰ পৰিবর্তন কোৱা",
+            "display-bn": "ক্ষুধা পরিবর্তন",
+            "display-kn": "ಹಸಿವಿನಲ್ಲಿ ಬದಲಾವಣೆ",
+            "display-mr": "भुकेच्या जाणिवेमध्ये बदल"
+        },
+        {
+            "id": "ID_1931939860",
+            "text": "Do you still enjoy your food?",
+            "multi-choice": false,
+            "language": "%",
+            "display-or": "ଖାଦ୍ୟ କଣ ଠିକ ଭାବରେ ଖାଉଛ",
+            "options": [
+                {
+                    "id": "ID_1740307354",
+                    "text": "Yes",
+                    "language": "Patient still enjoys food",
+                    "display-or": "ହଁ",
+                    "display-hi": "हाँ ",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_1696704548",
+                    "text": "No",
+                    "language": "Patient does not enjoy food",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं ",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आप अभी भी  अपना भोजन चाव से करते हैं?",
+            "display-gu": "શું આપ હજુ પણ આપના ભોજનને માણી શકો છો?",
+            "display-as": "আপুনি এতিয়া আপোনাৰ খোৱাৰ উপভোগ কৰে?",
+            "display-bn": "আপনি কি এখনও আপনার খাবার উপভোগ করেন?",
+            "display-kn": "ನೀವು ಇನ್ನೂ ನಿಮ್ಮ ಆಹಾರವನ್ನು ಆನಂದಿಸುತ್ತೀರಾ?",
+            "display-mr": "तुम्हाला आहार घेताना आनंद वाटतो का?"
+        },
+        {
+            "id": "ID_1627371317",
+            "text": "Do you use a toilet?",
+            "multi-choice": false,
+            "language": "%",
+            "display-or": "ତୁମେ ପାଇଖାନା ବ୍ୟବହାର କରୁଛ କି?",
+            "options": [
+                {
+                    "id": "ID_600142673",
+                    "text": "Yes",
+                    "language": "Patient uses a toilet",
+                    "display-or": "ହଁ",
+                    "display-hi": "हाँ ",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_322708843",
+                    "text": "No",
+                    "language": "Patient does not use toilet",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं ",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आप शौचालय का प्रयोग करते हैं?",
+            "display-gu": "શું આપ શૌચાલયનો ઉપયોગ કરો છો?",
+            "display-as": "আপুনি কি টয়লেট(ঔষধ) ব্যবহাৰ কৰে?",
+            "display-bn": "আপনি কি  টয়লেট ব্যবহার করেন?",
+            "display-kn": "ನೀವು ಶೌಚಾಲಯವನ್ನು ಬಳಸುತ್ತೀರಾ?",
+            "display-mr": "तुम्ही शौचालय वापरता का?"
+        },
+        {
+            "id": "ID_652494550",
+            "text": "Do you walk barefoot?",
+            "multi-choice": false,
+            "language": "%",
+            "display-or": "ତୁମେ ଖାଲି ପାଦରେ ଚାଲୁଛକି",
+            "options": [
+                {
+                    "id": "ID_569208318",
+                    "text": "Yes",
+                    "language": "Patient walks barefoot",
+                    "display-or": "ହଁ",
+                    "display-hi": "हाँ ",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_382604249",
+                    "text": "No",
+                    "language": "Patient does not walk barefoot",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं ",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आप नंगे पैर चलते हैं?",
+            "display-gu": "શું આપ ઉઘાડા પગે ચાલો છો?",
+            "display-as": "খালি ভৰিয়ে খোজকাৰে",
+            "display-bn": "আপনি কি খালি পায়ে হাঁটছেন?",
+            "display-kn": "ನೀವು ಬರಿಗಾಲಿನಲ್ಲಿ ನಡೆಯುತ್ತೀರಾ?",
+            "display-mr": "तुम्ही अनवाणी चालता का?"
+        },
+        {
+            "id": "ID_1595990554",
+            "text": "Recent stressful condition",
+            "display": "Have you recently ever experienced death of a loved or stress?",
+            "display-or": "ଆଗରୁ କୋଣସି ବ୍ୟକ୍ତି ର ମୃତ୍ୟୁ ରେ/ ଚିନ୍ତା କରିଥିଲା କି?",
+            "options": [
+                {
+                    "id": "ID_1229564462",
+                    "text": "Experience of death of a loved one",
+                    "display-or": "କୋଣସି ଏକ ବ୍ୟକ୍ତି ର ମୃତ୍ୟୁ ହୋଇଥିଲା",
+                    "options": [
+                        {
+                            "id": "ID_1575886001",
+                            "text": "When",
+                            "input-type": "date",
+                            "language": "on",
+                            "display-or": "ଯେତେ ବେଳେ",
+                            "display-hi": "कब ",
+                            "display-gu": "ક્યારે",
+                            "display-as": "কেতিয়",
+                            "display-bn": "কখন",
+                            "display-kn": "ಯಾವಾಗ",
+                            "display-mr": "कधी"
+                        }
+                    ],
+                    "display-hi": "अपने किसी प्रिय की मौत का अनुभव ",
+                    "display-gu": "પ્રિયજનના મૃત્યુની ઘટનાનો અનુભવ થવો",
+                    "display-as": "প্রিয়জনৰ মৃত্যুৰ অভিজ্ঞতা",
+                    "display-bn": "প্রিয়জনের মৃত্যুর অভিজ্ঞতা",
+                    "display-kn": "ಪ್ರೀತಿಪಾತ್ರರ ಸಾವಿನ ಅನುಭವ",
+                    "display-mr": "एखाद्या प्रिय व्यक्तीच्या मृत्यूचा अनुभव"
+                },
+                {
+                    "id": "ID_1148479840",
+                    "text": "Other stressors (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟ କୌଣସି  ଚିନ୍ତା ଅଛି କି ? ବର୍ଣନା କର",
+                    "display-hi": "अन्य तनाव (बर्णन करें)",
+                    "display-gu": "અન્ય તણાવ ના કારક (વર્ણન કરો)",
+                    "display-as": "অন্যান্য দুঃখময় (বর্ণনা)",
+                    "display-bn": "অন্যান্য মানসিক চাপ (বর্ণনা করুন)",
+                    "display-kn": "ಇತರ ರೀತಿಯ ಒತ್ತಡಗಳು (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर ताणतणाव (वर्णन करा)"
+                }
+            ],
+            "display-hi": "क्या हाल में आपके किसी प्रिय की मौत हुई है या आप तनाव महसूस करते हैं? ",
+            "display-gu": "શું હાલમાં જ આપના કોઈ પ્રિયજનનું મૃત્યુ થયું છે કે શું આપ તણાવમાં છો?",
+            "display-as": "আপুনি কি সম্প্রতি বা কেতিয়া কোন প্রিয়জন বা আত্ময় সমন্ধীয় মৃত্যু অভিজ্ঞতা পায়ছে?",
+            "display-bn": "আপনি কি সম্প্রতি প্রিয়জনের মৃত্যু বা মানসিক চাপের সম্মুখীন হয়েছেন?",
+            "display-kn": "ನೀವು ಇತ್ತೀಚೆಗೆ ಎಂದಾದರೂ ಪ್ರೀತಿಪಾತ್ರರ ಮರಣ ಅಥವಾ ಒತ್ತಡವನ್ನು ಅನುಭವಿಸಿದ್ದೀರಾ?",
+            "display-mr": "तुम्ही अलीकडेच एखाद्या प्रिय व्यक्तीचा मृत्यू किंवा तणाव अनुभवला आहे का?"
+        },
+        {
+            "id": "ID_1979332642",
+            "text": "Prior treatment sought",
+            "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ତମେ ଆଗରୁ କୌଣସି  ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)*",
+            "options": [
+                {
+                    "id": "ID_1280089148",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                    "display-hi": "हाँ (वर्णन करें)",
+                    "display-gu": "હા [વિગતે જણાવો]",
+                    "display-as": "হয় [বর্ণনা কৰা]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "होय [वर्णन करा]"
+                },
+                {
+                    "id": "ID_1226925547",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "इनमें से कोई भी नहीं ",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपने, आज यहां आने से पहले, इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?*",
+            "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?*",
+            "display-as": "আজি ইয়াত আহা আগতে আপুনি কি কোনো চিকিৎসা কৰিছিলে (স্ব-ঔষধ বা ঘৰোৱা প্রতিকাৰ সহ ) বা কোনো স্বাস্থ্য সৰবৰাহকাৰীক এই সমস্যাৰ বিষযে দেখোৱা ছিলে ?*",
+            "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?*",
+            "display-kn": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?*",
+            "display-mr": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरला दाखवले होते का?"
+        },
+        {
+            "id": "ID_476266061",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_1770951777",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "(अन्य जानकारी भरें)",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য লিখা]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "[अतिरिक्त माहिती प्रविष्ट करा]"
+                }
+            ],
+            "display-hi": "अन्य जानकारी ",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अतिरिक्त माहिती"
+        }
+    ],
+    "display-hi": "वजन कम होना ",
+    "display-gu": "વજન ઘટવું",
+    "display-as": "ওজন কমিছে",
+    "display-bn": "ওজন কমানো",
+    "display-kn": "ತೂಕದಲ್ಲಿ  ಇಳಿಕೆ",
+    "display-mr": "वजन कमी होणे"
+}

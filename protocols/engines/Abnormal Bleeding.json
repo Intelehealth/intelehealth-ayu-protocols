@@ -1,0 +1,1206 @@
+{
+    "id": "ID_335315468",
+    "text": "Abnormal Bleeding",
+    "perform-physical-exam": "Arm:Lying BP;Mouth:Gum bleeding;Face:Swollen Face;Neck:Thyroid swelling;Abdomen:Distension;Any Location:Skin Rash;Any Location:Skin Bruise;",
+    "display-or": "ରକ୍ତ ବୋହିବା",
+    "options": [
+        {
+            "id": "ID_1645056800",
+            "text": "Bleeding site(s)",
+            "display": "Where did the bleeding occur?*",
+            "isRequired": true,
+            "multi-choice": true,
+            "display-or": "କେଉଁ ଯାଗାରୁ*",
+            "options": [
+                {
+                    "id": "ID_974614299",
+                    "text": "Epistaxis",
+                    "display": "Nose bleeding",
+                    "display-or": "ନାକ",
+                    "display-hi": "नाक से खून बहना",
+                    "display-gu": "નાકમાંથી",
+                    "display-as": "নাকৰ পৰা তেজ ওলোৱা",
+                    "display-bn": "নাকে রক্তক্ষরণ",
+                    "display-kn": "ಮೂಗಿನಲ್ಲಿ  ರಕ್ತಸ್ರಾವ",
+                    "display-mr": "नाकातुन रक्तस्त्राव"
+                },
+                {
+                    "id": "ID_1048830425",
+                    "text": "From minor wound",
+                    "display": "Minor wound (i.e. not requiring stitches)",
+                    "display-or": "ଘା",
+                    "display-hi": "छोटा घाव (जैसे कि टांके लगाने की जरूरत नहीं)",
+                    "display-gu": "નાનો ઘા પડ્યો (ટાંકા લેવાની જરૂર ન હોય તેવો)",
+                    "display-as": "সৰু ঘাঁ (অৰ্থাৎ চিলাইৰ প্ৰয়োজন নহয়)",
+                    "display-bn": "ছোট ক্ষত (যেমন সেলাই প্রয়োজন হয় না)",
+                    "display-kn": "ಸಣ್ಣ ಗಾಯ (ಅಂದರೆ ಹೊಲಿಗೆಗಳ ಅಗತ್ಯವಿಲ್ಲ)",
+                    "display-mr": "किरकोळ जखमा (म्हणजे टाके घालणे आवश्यक नाही)"
+                },
+                {
+                    "id": "ID_594550224",
+                    "text": "Oral cavity",
+                    "display": "Mouth",
+                    "display-or": "ପାଟି",
+                    "display-hi": "मुंह से",
+                    "display-gu": "મોઢાંમાંથી",
+                    "display-as": "মুখ",
+                    "display-bn": "মুখ",
+                    "display-kn": "ಬಾಯಿ",
+                    "display-mr": "तोंड"
+                },
+                {
+                    "id": "ID_1183464336",
+                    "text": "Hematemesis",
+                    "display": "Bloody vomiting",
+                    "display-or": "ରକ୍ତ ବାନ୍ତି",
+                    "display-hi": "खूनी उल्टी",
+                    "display-gu": "લોહીવાળી ઊલટી",
+                    "display-as": "তেজ ওলোৱা বমি",
+                    "display-bn": "রক্তাক্ত বমি",
+                    "display-kn": "ರಕ್ತಸಿಕ್ತ ವಾಂತಿ",
+                    "display-mr": "रक्तरंजित उलट्या"
+                },
+                {
+                    "id": "ID_515804603",
+                    "text": "Hemoptysis",
+                    "display": "Bloody sputum",
+                    "display-or": "ରକ୍ତ କଫ",
+                    "display-hi": "खूनी बलगम",
+                    "display-gu": "લોહીવાળો ગળફો",
+                    "display-as": "তেজ ওলোৱা কফ",
+                    "display-bn": "রক্তাক্ত থুতনি",
+                    "display-kn": "ರಕ್ತಸಿಕ್ತ ಕಫ",
+                    "display-mr": "रक्तरंजित थुंकी"
+                },
+                {
+                    "id": "ID_1231104854",
+                    "text": "Melena",
+                    "display": "Dark/black/tarry feces",
+                    "display-or": "କଳା ବା ପିଚୁ ଝାଡ଼ା",
+                    "display-hi": "काला/थोड़ा बंधा हुआ दस्त",
+                    "display-gu": "ઘેરો/કાળો/દુર્ગંધવાળો મળ",
+                    "display-as": "ডাঠ/ক’লা/ৰখি থকা মল",
+                    "display-bn": "গাঢ়/কালো/ট্যারি মল",
+                    "display-kn": "ಗಾಢ/ಕಪ್ಪು/ಟಾರಿ ಮಲ",
+                    "display-mr": "गडद/काळी/डांबराप्रमाणे विष्ठा"
+                },
+                {
+                    "id": "ID_1143010367",
+                    "text": "Hematochezia",
+                    "display": "Bloody feces",
+                    "display-or": "ରକ୍ତଝାଡ଼ା",
+                    "display-hi": "खूनी दस्त/मल में खून आना",
+                    "display-gu": "મળમાં લોહી પડવું",
+                    "display-as": "তেজ ওলোৱা মল",
+                    "display-bn": "রক্তাক্ত মল",
+                    "display-kn": "ರಕ್ತಸಿಕ್ತ ಮಲ",
+                    "display-mr": "रक्तरंजित विष्ठा"
+                },
+                {
+                    "id": "ID_596861092",
+                    "text": "Hematuria",
+                    "display": "Bloody urine",
+                    "display-or": "ରକ୍ତ ମୁତ୍ର",
+                    "options": [
+                        {
+                            "id": "ID_1628291287",
+                            "text": "H/o specific illness of kidney / bladder / urinary track",
+                            "display": "Have you ever been diagnosed with specific kidney/bladder/urinary tract diseases?*",
+                            "isRequired": true,
+                            "multi-choice": true,
+                            "display-or": "ଆଗରୁ କେବେ ବୃକକ୍ ବା ମୃତ୍ରାଶୟ ରୋଗ ହୁଇଥିଲା କି?*",
+                            "options": [
+                                {
+                                    "id": "ID_1208662782",
+                                    "text": "Urinary stone",
+                                    "display-or": "ମୂତ୍ରାଶୟ ରେ ପଥର",
+                                    "display-hi": "पेशाब के मार्ग में पथरी",
+                                    "display-gu": "મૂત્રમાર્ગમાં પથરી",
+                                    "display-as": "প্ৰস্ৰাৱত পাথৰ",
+                                    "display-bn": "প্রস্রাবের পাথর",
+                                    "display-kn": "ಮೂತ್ರನಾಳದ ಕಲ್ಲು",
+                                    "display-mr": "मूत्रमार्गात अश्मरी"
+                                },
+                                {
+                                    "id": "ID_1136391254",
+                                    "text": "Urinary Infection",
+                                    "display-or": "ଇନଫେକ୍ସନ",
+                                    "display-hi": "पेशाब संबंधी संक्रमण",
+                                    "display-gu": "મૂત્રમાર્ગમાં ચેપ",
+                                    "display-as": "প্ৰস্ৰাৱৰ সংক্ৰমণ",
+                                    "display-bn": "মূত্রনালির সংক্রমণ",
+                                    "display-kn": "ಮೂತ್ರನಾಳದಲ್ಲಿ  ಸೋಂಕು",
+                                    "display-mr": "लघवी संसर्ग"
+                                },
+                                {
+                                    "id": "ID_244959522",
+                                    "text": "Kidney/bladder disease",
+                                    "display-or": "ବୃକକ୍ ବା ମୁତ୍ରାଶୟ ରୋଗ",
+                                    "display-hi": "किडनी/मूत्राशय की बीमारी",
+                                    "display-gu": "કિડની/બ્લેડર રોગ",
+                                    "display-as": "বৃক্ক/মূত্ৰাশয়ৰ ৰোগ",
+                                    "display-bn": "কিডনি/মূত্রাশয় রোগ",
+                                    "display-kn": "ಮೂತ್ರಪಿಂಡ / ಮೂತ್ರಕೋಶದ ಕಾಯಿಲೆ",
+                                    "display-mr": "मूत्रपिंड / मूत्राशय रोग"
+                                },
+                                {
+                                    "id": "ID_99617704",
+                                    "text": "None",
+                                    "exclude-from-multi-choice": true,
+                                    "display-or": "କିଛି ନାହିଁ",
+                                    "display-hi": "इनमें से कोई नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "একো নাই",
+                                    "display-bn": "কোনোটিই নয়",
+                                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                                    "display-mr": "काहीही नाही"
+                                }
+                            ],
+                            "display-hi": "क्या आपको कभी किडनी/मूत्राशय/मूत्र मार्ग संबंधी कोई विशिष्ट बीमारी हुई है?*",
+                            "display-gu": "તમને ક્યારેય કિડની/બ્લેડર/મૂત્રમાર્ગનો રોગ હોવાનું નિદાન કરાયું છે?*",
+                            "display-as": "আপুনি কেতিয়াবা বৃক্ক/মূত্ৰাশয়/মূত্ৰনলীৰ নিৰ্দিষ্ট ৰোগত আক্ৰান্ত হৈছেনে?*",
+                            "display-bn": "আপনি কি কখনও নির্দিষ্ট কিডনি/মূত্রাশয়/মূত্রনালীর রোগে আক্রান্ত হয়েছেন?*",
+                            "display-kn": "ನೀವು ಎಂದಾದರೂ ನಿರ್ದಿಷ್ಟ ಮೂತ್ರಪಿಂಡ/ಮೂತ್ರಕೋಶ/ಮೂತ್ರನಾಳದ ಕಾಯಿಲೆಗಳನ್ನು ಗುರುತಿಸಿದ್ದೀರಾ?*",
+                            "display-mr": "तुम्हाला कधी विशिष्ट किडनी/मूत्राशय/मूत्रमार्गाच्या आजारांचे निदान झाले आहे का?*"
+                        }
+                    ],
+                    "display-hi": "खूनी पेशाब/पेशाब में कून आना",
+                    "display-gu": "પેશાબમાં લોહી આવવું",
+                    "display-as": "তেজ ওলোৱা প্ৰস্ৰাৱ",
+                    "display-bn": "রক্তাক্ত প্রস্রাব",
+                    "display-kn": "ರಕ್ತಸಿಕ್ತ ಮೂತ್ರ",
+                    "display-mr": "रक्तरंजित मूत्र"
+                },
+                {
+                    "id": "ID_1589696570",
+                    "text": "Tooth extraction",
+                    "display-or": "ଦାନ୍ତ ଓପାଡ଼ିଲେ",
+                    "display-hi": "दांत निकलवाया है",
+                    "display-gu": "દાંત પડાવવો",
+                    "display-as": "দাঁত নিষ্কাশন(উলিয়াই)",
+                    "display-bn": "দাঁত নিষ্কাশন",
+                    "display-kn": "ಹಲ್ಲು ತೆಗೆಯುವುದು",
+                    "display-mr": "दात काढणे"
+                },
+                {
+                    "id": "ID_864754770",
+                    "text": "After surgery/trauma",
+                    "display-or": "ଅପରେସନ ବା ଦୁର୍ଘଟଣା ପରେ",
+                    "display-hi": "सर्जरी/ गम्भीर चोट के बाद",
+                    "display-gu": "ઑપરેશન/ટ્રૉમા પછી",
+                    "display-as": "অস্ত্ৰোপচাৰ/আঘাতৰ পিছত",
+                    "display-bn": "অস্ত্রোপচার/ট্রমা পরে",
+                    "display-kn": "ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ / ಗಾಯದ ನಂತರ",
+                    "display-mr": "शस्त्रक्रिया/आघातानंतर"
+                },
+                {
+                    "id": "ID_88604905",
+                    "text": "Abnormal menstrual bleeding (passage of clots >1 inch in diameter & changing a pad more than hourly)",
+                    "display-or": "ମାସିକିଅା ବେଳେ ଦିନକୁ ଗୋଟିଏରୁ ଅଧିକା ପ୍ଯାଡ଼୍",
+                    "gender": "0",
+                    "age_min": "8",
+                    "age_max": "120",
+                    "display-hi": "असामान्य मासिक धर्म रक्तस्राव (मार्ग में थक्के/पिंड > 1 इंच व्यास के जिसके चलते कम से कम हर घंटे पैड बदलना)",
+                    "display-gu": "વધારે પડતો માસિક રક્તસ્રાવ (>1 ઇંચથી વધારે વ્યાસવાળા લોચા પડવા અને એક કલાકમાં એક કરતાં વધારે પેડ બદલવાં)",
+                    "display-as": "ঋতুস্ৰাৱৰ সময়ত অস্বাভাৱিক ৰক্তক্ষৰণ (জমা হোৱাৰ মাৰ্গ >১ ইঞ্চি ব্যাসৰ পাৰ হয় আৰু ঘণ্টাৰ পিছত ঘণ্টাতকৈ অধিক পেড সলনি কৰা)",
+                    "display-bn": "অস্বাভাবিক মাসিক রক্তপাত (জমাট বাঁধা 1 ইঞ্চি ব্যাস এবং একটি প্যাড প্রতি ঘন্টার বেশি পরিবর্তন)",
+                    "display-kn": "ಅಸಹಜ ಮುಟ್ಟಿನ ರಕ್ತಸ್ರಾವ (ಹೆಪ್ಪುಗಟ್ಟುವಿಕೆಯ ಮಾರ್ಗ > 1 ಇಂಚು ವ್ಯಾಸ ಮತ್ತು ಗಂಟೆಗೊಮ್ಮೆ ಪ್ಯಾಡ್ ಅನ್ನು ಬದಲಾಯಿಸುವುದು)",
+                    "display-mr": "मासिक पाळीत असामान्य रक्तस्त्राव (1 इंच व्यासाच्या गुठळ्या जाणे आणि दर तासाला किंवा त्याहून आधी पॅड बदलणे)"
+                },
+                {
+                    "id": "ID_1473897639",
+                    "text": "Post-partum hemorrhage",
+                    "display-or": "ପ୍ରସୂତି ପରେ ରକ୍ତ ଶ୍ରାବ",
+                    "gender": "0",
+                    "age_min": "14",
+                    "age_max": "120",
+                    "options": [
+                        {
+                            "id": "ID_235379650",
+                            "text": "<24 hours after delivery",
+                            "display-or": "ପ୍ରସୂତି ର ୨୪ ଘଣ୍ଟା ପରେ",
+                            "display-hi": "प्रसव के 24 घंटे के भीतर",
+                            "display-gu": "પ્રસૂતિ પછી <24 કલાક",
+                            "display-as": "<প্ৰসৱৰ পিছত ২৪ ঘণ্টা",
+                            "display-bn": "<২৪ ঘণ্টা ডেলিভারির পর",
+                            "display-kn": "<24 ಗಂಟೆಗಳ ನಂತರ ಡೆಲಿವರಿ",
+                            "display-mr": "प्रसूतीनंतर  <24 तास"
+                        },
+                        {
+                            "id": "ID_1033247778",
+                            "text": "24hours-6weeks after delivery",
+                            "display-or": "ଜନ୍ମ ହେବ ର ୧ ଦିନ ରୁ ୬ ସପ୍ତାହ ପରେ",
+                            "display-hi": "प्रसव के 24 घंटे से लेकर 6 हफ्ते बाद",
+                            "display-gu": "પ્રસૂતિ પછી 24 કલાક-6 અઠવાડિયાં",
+                            "display-as": "প্ৰসৱৰ পিছত ২৪ঘন্টা-৬সপ্তাহ",
+                            "display-bn": "প্রসবের পর 24 ঘন্টা-6 সপ্তাহ",
+                            "display-kn": "24 ಗಂಟೆಗಳು - 6 ವಾರಗಳ ನಂತರ ಹೆರಿಗೆ",
+                            "display-mr": "प्रसूतीनंतर 24 तास-6 आठवडे"
+                        }
+                    ],
+                    "display-hi": "प्रसव के बाद खून बहना",
+                    "display-gu": "પોસ્ટ-પાર્ટમ હેમરેજ",
+                    "display-as": "প্রসৱৰ পিছত ৰক্তক্ষৰণ",
+                    "display-bn": "প্রসবোত্তর রক্তক্ষরণ",
+                    "display-kn": "ಹೆರಿಗೆಯ ನಂತರ ರಕ್ತಸ್ರಾವ",
+                    "display-mr": "प्रसवोत्तर रक्तस्त्राव"
+                },
+                {
+                    "id": "ID_1355034332",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বৰ্ণনা কৰক)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "खून कहां से बहना शुरू हुआ?*",
+            "display-gu": "લોહી ક્યાંથી પડ્યું?*",
+            "display-as": "ৰক্তক্ষৰণ ক’ত হৈছিল?*",
+            "display-bn": "কোথায় রক্তপাত ঘটেছে?*",
+            "display-kn": "ರಕ್ತಸ್ರಾವ ಎಲ್ಲಿ ಸಂಭವಿಸಿತು?*",
+            "display-mr": "रक्तस्त्राव कुठे झाला?*"
+        },
+        {
+            "id": "ID_1607108375",
+            "text": "Duration",
+            "display": "Since when have you had this symptom?*",
+            "isRequired": true,
+            "display-or": "କେବେଠାରୁ*",
+            "language": "%",
+            "options": [
+                {
+                    "id": "ID_765622105",
+                    "text": "[Enter since when]",
+                    "input-type": "duration",
+                    "language": "Since",
+                    "display-or": "କେବେ ଠାରୁ ଲେଖ",
+                    "display-hi": "(कब से है- दर्ज करें)",
+                    "display-gu": "[ક્યારથી તે લખી જણાવો]",
+                    "display-as": "[কেতিয়াৰ পৰা প্ৰৱেশ কৰক]",
+                    "display-bn": "[কখন থেকে লিখুন]",
+                    "display-kn": "[ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]",
+                    "display-mr": "[केव्हापासून प्रविष्ट करा]"
+                }
+            ],
+            "display-hi": "आपको यह लक्षण कब से है?*",
+            "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+            "display-as": "কেতিয়াৰ পৰা এই লক্ষণ দেখা গৈছে?*",
+            "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+            "display-kn": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?*"
+        },
+        {
+            "id": "ID_1455402884",
+            "text": "Amount of blood",
+            "display": "What is the amount of blood?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ମାତ୍ର*",
+            "options": [
+                {
+                    "id": "ID_448851243",
+                    "text": "Large",
+                    "display-or": "ବହୁତ",
+                    "display-hi": "ज्यादा",
+                    "display-gu": "મોટો",
+                    "display-as": "ডাঙৰ",
+                    "display-bn": "বড়",
+                    "display-kn": "ದೊಡ್ಡದು",
+                    "display-mr": "अधिक"
+                },
+                {
+                    "id": "ID_1413991834",
+                    "text": "Moderate",
+                    "display-or": "ମଧ୍ୟମ",
+                    "display-hi": "सामान्य",
+                    "display-gu": "મધ્યમ",
+                    "display-as": "মধ্যমীয়া",
+                    "display-bn": "পরিমিত",
+                    "display-kn": "ಮಧ್ಯಮ",
+                    "display-mr": "मध्यम"
+                },
+                {
+                    "id": "ID_160304978",
+                    "text": "Small",
+                    "display-or": "ଅଳ୍ପ",
+                    "display-hi": "कम",
+                    "display-gu": "થોડું",
+                    "display-as": "সৰু",
+                    "display-bn": "ছোট",
+                    "display-kn": "ಚಿಕ್ಕದು",
+                    "display-mr": "कमी"
+                }
+            ],
+            "display-hi": "कितनी मात्रा में खून आता है?*",
+            "display-gu": "લોહીનું પ્રમાણ કેટલું છે?*",
+            "display-as": "তেজৰ পৰিমাণ কিমান?*",
+            "display-bn": "রক্তের পরিমাণ কত?*",
+            "display-kn": "ರಕ್ತದ ಪ್ರಮಾಣ ಎಷ್ಟು?*",
+            "display-mr": "रक्ताचे प्रमाण किती आहे?*"
+        },
+        {
+            "id": "ID_1401562769",
+            "text": "Prolonged bleeding history",
+            "display": "Have you ever had abnormal bleeding from any site?*",
+            "language": "%",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ଅନ୍ଯ ଯାଗାରୁ ଅସାମାନ୍ୟ ରକ୍ତ ବୋହିବା*",
+            "options": [
+                {
+                    "id": "ID_339991415",
+                    "text": "Yes",
+                    "language": "Patient has h/o prolonged bleeding",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_827970491",
+                            "text": "Bleeding required treatment",
+                            "display": "Did the bleeding require treatment (Consultation/Transfusion/Surgery)?*",
+                            "language": "%",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "display-or": "ଚିକିସତ୍ା ଦରକାର ହୁଏ (ପରାମର୍ଶ ରକ୍ତଦାନ, ଅପରେସନ)*",
+                            "options": [
+                                {
+                                    "id": "ID_1772471215",
+                                    "text": "Yes",
+                                    "language": "Yes treatment for bleeding was required",
+                                    "display-or": "ହଁ",
+                                    "options": [
+                                        {
+                                            "id": "ID_1930699934",
+                                            "text": "Number of episodes that required treatment*",
+                                            "isRequired": true,
+                                            "multi-choice": false,
+                                            "display-or": "(କେତେ ଥର ଚିକିସ୍ତା ଦରକାର)*",
+                                            "options": [
+                                                {
+                                                    "id": "ID_410112830",
+                                                    "text": "1-2",
+                                                    "display-or": "୧ - ୨",
+                                                    "display-hi": "1 से 2 बार",
+                                                    "display-gu": "1-2",
+                                                    "display-as": "১-২",
+                                                    "display-bn": "1-2",
+                                                    "display-kn": "1-2",
+                                                    "display-mr": "1-2"
+                                                },
+                                                {
+                                                    "id": "ID_560986218",
+                                                    "text": "3-5",
+                                                    "display-or": "୩ - ୫",
+                                                    "display-hi": "3 से 5 बार",
+                                                    "display-gu": "3-5",
+                                                    "display-as": "৩-৫",
+                                                    "display-bn": "3-5",
+                                                    "display-kn": "3-5",
+                                                    "display-mr": "3-5"
+                                                },
+                                                {
+                                                    "id": "ID_489503394",
+                                                    "text": "6-10",
+                                                    "display-or": "୬ - ୧୦",
+                                                    "display-hi": "6 से 10 बार",
+                                                    "display-gu": "6-10",
+                                                    "display-as": "৬-১০",
+                                                    "display-bn": "6-10",
+                                                    "display-kn": "6-10",
+                                                    "display-mr": "6-10"
+                                                },
+                                                {
+                                                    "id": "ID_715269967",
+                                                    "text": ">10",
+                                                    "display-or": "୧୦ ରୁ ଅଧିକ",
+                                                    "display-hi": "10 बार से ज्यादा",
+                                                    "display-gu": ">10",
+                                                    "display-as": ">১০",
+                                                    "display-bn": ">10",
+                                                    "display-kn": ">10",
+                                                    "display-mr": ">१०"
+                                                }
+                                            ],
+                                            "display-hi": "कितनी बार इलाज़ करवाया*",
+                                            "display-gu": "ઉપચાર કરાવવાની જરૂર પડી હોય તેવું કેટલી વાર બન્યું ?*",
+                                            "display-as": "চিকিৎসাৰ প্ৰয়োজন হোৱা এপিচ’ডৰ সংখ্যা*",
+                                            "display-bn": "এপিসোডের সংখ্যা যাতে চিকিত্সার প্রয়োজন হয়৷*",
+                                            "display-kn": "ಅಗತ್ಯವಿರುವ ಚಿಕಿತ್ಸೆಯ ಕಂತುಗಳ ಸಂಖ್ಯೆ*",
+                                            "display-mr": "उपचार आवश्यक असलेल्या भागांची संख्या*"
+                                        }
+                                    ],
+                                    "display-hi": "हां",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                },
+                                {
+                                    "id": "ID_463766461",
+                                    "text": "No",
+                                    "language": "No treatment required for bleeding",
+                                    "display-or": "ନାଁ",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                }
+                            ],
+                            "display-hi": "क्या इस खून बहने को रोकने के लिए दवा करानी पड़ी (डॉक्टरी परामर्श/खून चढ़वाना/सर्जरी)?*",
+                            "display-gu": "લોહી પડવાને કારણે ઉપચારની જરૂર પડી ? (માર્ગદર્શન/પ્રત્યારોપણ/શલ્યચિકિત્સા)*",
+                            "display-as": "ৰক্তপাতৰ হোৱাৰ বাবে চিকিৎসাৰ প্রয়োজন হৈছিল (পৰামর্শ/ট্রান্সফিউশন/সার্জাৰি)?*",
+                            "display-bn": "রক্তপাতের কি চিকিৎসার প্রয়োজন ছিল (পরামর্শ/ট্রান্সফিউশন/সার্জারি)?*",
+                            "display-kn": "ರಕ್ತಸ್ರಾವಕ್ಕೆ ಚಿಕಿತ್ಸೆಯ ಅಗತ್ಯವಿದೆಯೇ (ಸಮಾಲೋಚನೆ/ವರ್ಗಾವಣೆ/ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ)?*",
+                            "display-mr": "रक्तस्त्रावासाठी उपचारांची आवश्यकता लागली का (सल्ला / रक्तसंक्रमण / शस्त्रक्रिया)?*"
+                        },
+                        {
+                            "id": "ID_1100521112",
+                            "text": "Bleeding site (Description)",
+                            "display": "Where did bleeds occur?",
+                            "input-type": "text",
+                            "display-or": "କେଉଁ ଯାଗାରୁ",
+                            "display-hi": "खून बहना कहां से शुरू हुआ?",
+                            "display-gu": "લોહી ક્યારે પડ્યું ?",
+                            "display-as": "ৰক্তক্ষৰণ ক’ত হৈছিল?",
+                            "display-bn": "কোথায় রক্তপাত ঘটেছে?",
+                            "display-kn": "ರಕ್ತಸ್ರಾವ ಎಲ್ಲಿ ಸಂಭವಿಸಿತು?",
+                            "display-mr": "रक्तस्त्राव कोठे झाला?"
+                        },
+                        {
+                            "id": "ID_65627619",
+                            "text": "Since when",
+                            "input-type": "duration",
+                            "language": "Prolonged bleeding since",
+                            "display-or": "କେବେଠାରୁ",
+                            "display-hi": "कब से",
+                            "display-gu": "ક્યારથી",
+                            "display-as": "কেতিয়াৰ পৰা",
+                            "display-bn": "কখন থেকে",
+                            "display-kn": "ಯಾವತ್ತಿಂದ",
+                            "display-mr": "केव्हा पासून"
+                        }
+                    ],
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_593378868",
+                    "text": "No",
+                    "language": "No history of prolonged bleeding",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपके शरीर के किसी अन्य भाग से असामान्य खून बहा है?*",
+            "display-gu": "તમને ક્યારેય, ગમે ત્યાંથી વધારે પડતું લોહી પડ્યું છે ?*",
+            "display-as": "আপুনি কেতিয়াবা কোনো ঠাইৰ পৰা অস্বাভাৱিক ৰক্তক্ষৰণ হৈছেনে?*",
+            "display-bn": "আপনার কি কখনো কোন সাইট থেকে অস্বাভাবিক রক্তপাত হয়েছে?*",
+            "display-kn": "ನೀವು ಯಾವಾಗಲಾದರೂ ದೇಹದ ಯಾವುದೇ ಸ್ಥಳದಿಂದ ಅಸಹಜ ರಕ್ತಸ್ರಾವವನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला कधीही कोणत्याही स्थानांवाटे असामान्य रक्तस्त्राव झाला आहे का?*"
+        },
+        {
+            "id": "ID_150388147",
+            "text": "Family history of abnormal bleeding*",
+            "display-or": "ପରିବାର ରେ ଅସମୟ ରକ୍ତ ବହିବା*",
+            "isRequired": true,
+            "multi-choice": false,
+            "language": "Has any member in your family had any abnormal bleeding?",
+            "options": [
+                {
+                    "id": "ID_337497343",
+                    "text": "Abnormal bleeding has happened in a family member",
+                    "multi-choice": true,
+                    "display-or": "ପରିବାର ରେ କୋଣସି ସଦସ୍ୟ କୁ ଅସାମାନ୍ୟ ରକ୍ତ ବହିବା ହୋଇଥିଲା କି?",
+                    "options": [
+                        {
+                            "id": "ID_1848359570",
+                            "text": "Parents",
+                            "display-or": "ବାପା ମା",
+                            "display-hi": "माता-पिता",
+                            "display-gu": "માતાપિતાનો",
+                            "display-as": "পিতৃ-মাতৃ",
+                            "display-bn": "পিতামাতা",
+                            "display-kn": "ಪೋಷಕರು",
+                            "display-mr": "पालक"
+                        },
+                        {
+                            "id": "ID_852562272",
+                            "text": "Grand parents",
+                            "display-or": "ଜେଜେ ଓ ଅଜା ଅାଇ",
+                            "display-hi": "दादा-दादी",
+                            "display-gu": "દાદાદાદી/નાનાનાનીનો",
+                            "display-as": "আইতা-ককা",
+                            "display-bn": "দাদা - দাদী",
+                            "display-kn": "ಅಜ್ಜಿ ತಾತ",
+                            "display-mr": "आजी-आजोबा"
+                        },
+                        {
+                            "id": "ID_557241421",
+                            "text": "Sibling",
+                            "display-or": "ଭାଇ ଭଉଣୀ",
+                            "display-hi": "भाई-बहन",
+                            "display-gu": "ભાઇ-બહેનોનો",
+                            "display-as": "সহোদৰ",
+                            "display-bn": "ভাইবোন",
+                            "display-kn": "ಒಡಹುಟ್ಟಿದವರು",
+                            "display-mr": "भावंड"
+                        },
+                        {
+                            "id": "ID_33995120",
+                            "text": "Aunt/uncle",
+                            "display-or": "ମାମୁଁ, ଦାଦା",
+                            "display-hi": "चाची-चाचा",
+                            "display-gu": "કાકાકાકી/ મામામામી/ ફઇફુઆ / માસામાસીનો",
+                            "display-as": "পেহী/ককাই",
+                            "display-bn": "চাচা চাচি",
+                            "display-kn": "ಚಿಕ್ಕಮ್ಮ ಚಿಕ್ಕಪ್ಪ",
+                            "display-mr": "काका/मामा/मावशी/आत्या"
+                        },
+                        {
+                            "id": "ID_1843128192",
+                            "text": "Other (Describe)",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]",
+                            "display-hi": "अन्य (वर्णन करें)",
+                            "display-gu": "અન્ય (વિગતે જણાવો)",
+                            "display-as": "অন্যান্য (বৰ্ণনা কৰক)",
+                            "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                            "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                            "display-mr": "इतर (वर्णन करा)"
+                        }
+                    ],
+                    "display-hi": "किसी परिवार के सदस्य को असामान्य खून बहा है",
+                    "display-gu": "પરિવારના સભ્યને વધારે પડતું લોહી પડ્યું હતું",
+                    "display-as": "পৰিয়ালৰ এজন সদস্যৰ অস্বাভাৱিক ৰক্তক্ষৰণ হৈছে",
+                    "display-bn": "পরিবারের এক সদস্যের মধ্যে অস্বাভাবিক রক্তপাত হয়েছে",
+                    "display-kn": "ಕುಟುಂಬದ ಸದಸ್ಯರೊಬ್ಬರಲ್ಲಿ ಅಸಹಜ ರಕ್ತಸ್ರಾವ ಸಂಭವಿಸಿದೆ",
+                    "display-mr": "कुटुंबातील एका सदस्यामध्ये असामान्य रक्तस्त्राव झाला आहे"
+                },
+                {
+                    "id": "ID_859184183",
+                    "text": "Diagnosed bleeding disorder in family member [Describe]",
+                    "input-type": "text",
+                    "display-or": "ପରିବାର ରେ ସଦସ୍ୟ କୁ ରକ୍ତ ବହିବା ରୋଗ ରେ ହୋଇଥିଲା କି?",
+                    "language": "Diagnosed bleeding disorder in family member",
+                    "display-hi": "परिवार के सदस्य में खून बहने का किया गया निदान (वर्णन करें)",
+                    "display-gu": "પરિવારના સભ્યને રક્તસ્રાવની વિકૃતિનું નિદાન થયું હોય [વિગતો જણાવો]",
+                    "display-as": "পৰিয়ালৰ সদস্যৰ ৰক্তক্ষৰণৰ বিকাৰ ধৰা পৰিছে [ বর্ণনা কৰা]",
+                    "display-bn": "পরিবারের সদস্যদের মধ্যে রক্তক্ষরণ ব্যাধি নির্ণয় করা [বর্ণনা]",
+                    "display-kn": "ಕುಟುಂಬದ ಸದಸ್ಯರಲ್ಲಿ ರಕ್ತಸ್ರಾವದ ಅಸ್ವಸ್ಥತೆಯನ್ನು ಗುರುತಿಸಲಾಗಿದೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "कुटुंबातील सदस्यामध्ये रक्तस्त्राव विकाराचे निदान [वर्णन करा]"
+                },
+                {
+                    "id": "ID_487385524",
+                    "text": "No family history of abnormal bleeding",
+                    "display-or": "ଅସାମାନ୍ୟ ରକ୍ତ ବହିବାରେ କୋଣସି ପାରିବାରିକ ଇଠାସ ନାହିଁ",
+                    "display-hi": "असामान्य खून बहने का पारिवारिक इतिहास नहीं है",
+                    "display-gu": "પરિવારમાં કોઇને અસાધારણ રક્તસ્રાવનો ઇતિહાસ નથી",
+                    "display-as": "অস্বাভাৱিক ৰক্তক্ষৰণৰ কোনো পাৰিবাৰিক ইতিহাস নাই",
+                    "display-bn": "অস্বাভাবিক রক্তপাতের কোনো পারিবারিক ইতিহাস নেই",
+                    "display-kn": "ಅಸಹಜ ರಕ್ತಸ್ರಾವದ ಯಾವುದೇ ಕೌಟುಂಬಿಕ  ಇತಿಹಾಸವಿಲ್ಲ",
+                    "display-mr": "असामान्य रक्तस्रावाचा कौटुंबिक इतिहास नाही"
+                }
+            ],
+            "display-hi": "असामान्य खून बहने का पारिवारिक इतिहास*",
+            "display-gu": "વધારે પડતું લોહી પડવાનો પારિવારિક ઇતિહાસ*",
+            "display-as": "অস্বাভাৱিক ৰক্তক্ষৰণৰ পাৰিবাৰিক ইতিহাস*",
+            "display-bn": "অস্বাভাবিক রক্তপাতের পারিবারিক ইতিহাস*",
+            "display-kn": "ಕುಟುಂಬದ ಸದಸ್ಯರೊಬ್ಬರಲ್ಲಿ ಅಸಹಜ ರಕ್ತಸ್ರಾವ ಸಂಭವಿಸಿದೆ*",
+            "display-mr": "असामान्य रक्तस्त्रावाचा कौटुंबिक इतिहास*"
+        },
+        {
+            "id": "ID_1895808889",
+            "text": "H/o specific illness",
+            "display": "Have you ever been diagnosed with any of the following specific diseases?*",
+            "isRequired": true,
+            "multi-choice": true,
+            "display-or": "ତମେ କେବେ ଆଗରୁ ଏହି ବିଶିଷ୍ଟ ରୋଗ ର ଲକ୍ଷସହାନ ଦେଖେଇ ଥିଲ କି?*",
+            "pos-condition": "h/o",
+            "neg-condition": "no h/o",
+            "options": [
+                {
+                    "id": "ID_1178222787",
+                    "text": "Hemophilia",
+                    "display-or": "ବହୁ ରୁତୁସ୍ରାବ ଯାହା ବନ୍ଦହେବାପାଇଁ ବହୁ ସମୟ ଲାଗେ",
+                    "display-hi": "हीमोफीलिया",
+                    "display-gu": "હિમોફીલિઆ",
+                    "display-as": "হিমোফিলিয়া",
+                    "display-bn": "হিমোফিলিয়া",
+                    "display-kn": "ಹಿಮೋಫಿಲಿಯಾ",
+                    "display-mr": "हिमोफिलिया"
+                },
+                {
+                    "id": "ID_1234225086",
+                    "text": "Bleeding disorder",
+                    "display-or": "ରକ୍ତସ୍ରାବ ଅସୁବିଧା",
+                    "display-hi": "खून बहने से संबंधी परेशानी",
+                    "display-gu": "રક્તસ્રાવની વિકૃતિ",
+                    "display-as": "ৰক্তক্ষৰণৰ বিকাৰ",
+                    "display-bn": "রক্তক্ষরণ ব্যাধি",
+                    "display-kn": "ರಕ್ತಸ್ರಾವದ ಕಾಯಿಲೆ",
+                    "display-mr": "रक्तस्त्राव विकार"
+                },
+                {
+                    "id": "ID_318995588",
+                    "text": "Heart attack",
+                    "age_min": "30",
+                    "age_max": "120",
+                    "display-or": "ହୃତପିଣ୍ଡ ସଂକ୍ରମଣ",
+                    "display-hi": "दिल का दौरा",
+                    "display-gu": "હૃદયરોગ",
+                    "display-as": "হাৰ্ট এটেক",
+                    "display-bn": "হৃদপিন্ডে হঠাৎ আক্রমণ",
+                    "display-kn": "ಹೃದಯಾಘಾತ",
+                    "display-mr": "हृदयविकाराचा झटका"
+                },
+                {
+                    "id": "ID_1651870813",
+                    "text": "Stroke",
+                    "age_min": "30",
+                    "age_max": "120",
+                    "display-or": "ଆଘାତ",
+                    "display-hi": "स्ट्रोक",
+                    "display-gu": "લકવો",
+                    "display-as": "আঘাত",
+                    "display-bn": "স্ট্রোক",
+                    "display-kn": "ಪಾರ್ಶ್ವವಾಯು",
+                    "display-mr": "पक्षाघात"
+                },
+                {
+                    "id": "ID_299115302",
+                    "text": "Liver disease",
+                    "display-or": "ତୀବ୍ର/ପୁରୁଣା ଯକୃତ ରୋଗ",
+                    "display-hi": "लीवर से जुड़ी बीमारी",
+                    "display-gu": "લિવરનો રોગ",
+                    "display-as": "যকৃতৰ ৰোগ",
+                    "display-bn": "যকৃতের রোগ",
+                    "display-kn": "ಯಕೃತ್ತಿನ ಕಾಯಿಲೆ",
+                    "display-mr": "यकृत रोग"
+                },
+                {
+                    "id": "ID_1302005375",
+                    "text": "Acute/chronic kidney disease",
+                    "display-or": "ତୀବ୍ର/ପୁରୁଣା ବୃକକ୍ ରୋଗ",
+                    "display-hi": "गंभीर/पुरानी कीडनी की बीमारी",
+                    "display-gu": "કિડનીનો તીવ્ર/હઠીલો રોગ",
+                    "display-as": "তীব্ৰ/দীৰ্ঘদিনীয়া বৃক্কৰ ৰোগ",
+                    "display-bn": "তীব্র/দীর্ঘস্থায়ী কিডনি রোগ",
+                    "display-kn": "ತೀವ್ರ/ದೀರ್ಘಕಾಲದ ಮೂತ್ರಪಿಂಡ ಕಾಯಿಲೆ",
+                    "display-mr": "तीव्र/जुना किडनी रोग"
+                },
+                {
+                    "id": "ID_1553605481",
+                    "text": "Hypothyroidism",
+                    "display-or": "ଥାଇରୟଡ଼ ରୋଗ",
+                    "display": "Thyroid problem",
+                    "language": "Thyroid problem",
+                    "display-hi": "थायराइड की समस्या",
+                    "display-gu": "થાયરોઇડની સમસ્યા",
+                    "display-as": "থাইৰয়ডৰ সমস্যা",
+                    "display-bn": "থাইরয়েড সমস্যা",
+                    "display-kn": "ಥೈರಾಯ್ಡ್ ಸಮಸ್ಯೆ",
+                    "display-mr": "थायरॉईडची समस्या"
+                },
+                {
+                    "id": "ID_1226925001",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपको कभी भी निम्न में से कोई बीमारी हुई है?*",
+            "display-gu": "તમને નીચેનામાંથી કોઇ ચોક્કસ રોગ હોવાનું નિદાન ક્યારેય થયું છે?*",
+            "display-as": "আপুনি কেতিয়াবা তলত উল্লেখ কৰা কোনো নিৰ্দিষ্ট ৰোগত আক্ৰান্ত হৈছেনে?*",
+            "display-bn": "আপনি কি কখনও নিম্নলিখিত নির্দিষ্ট রোগে আক্রান্ত হয়েছেন?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ರೋಗಗಳನ್ನು ಹೊಂದಿದ್ದೀರ ?*",
+            "display-mr": "तुम्हाला खालीलपैकी कोणत्याही विशिष्ट आजाराचे निदान झाले आहे का?*"
+        },
+        {
+            "id": "ID_889902202",
+            "text": "H/o recent snakebite",
+            "display": "Have you recently had a snakebite?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "language": "%",
+            "options": [
+                {
+                    "id": "ID_518356736",
+                    "text": "Yes",
+                    "language": "Patient has h/o recent snakebite",
+                    "display-or": "ହଁ",
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_567456191",
+                    "text": "No",
+                    "language": "No h/o recent snakebite",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-or": "ନିକଟରେ ତୁମକୁ ସାପ କାମୁଡି ଥିଲା କି?*",
+            "display-hi": "क्या आपको हाल में सांप ने काटा है?*",
+            "display-gu": "તાજેતરમાં તમને સાપે ડંખ માર્યો હતો ?*",
+            "display-as": "শেহতীয়াকৈ আপুনিক সাপ কামোৰ পাইছেনে?*",
+            "display-bn": "আপনার  কি  একটি সাপের কামড় ছিল?*",
+            "display-kn": "ನಿಮಗೆ ಇತ್ತೀಚೆಗೆ ಹಾವು ಕಚ್ಚಿದೆಯೇ?*",
+            "display-mr": "तुम्हाला अलीकडेच सर्पदंश झाला आहे का?*"
+        },
+        {
+            "id": "ID_743017222",
+            "text": "Recent h/o taking drugs (interfering with blood clotting)",
+            "display": "Have you taken any medication recently?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_539739668",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "display-or": "ହଁ [ବର୍ଣ୍ଣନାକର]",
+                    "display-hi": "हां (वर्णन करें)",
+                    "display-gu": "હા [વિગતે જણાવો]",
+                    "display-as": "হয় [বৰ্ণনা কৰক]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "होय [वर्णन]"
+                },
+                {
+                    "id": "ID_1783182896",
+                    "text": "No",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                },
+                {
+                    "id": "ID_171307435",
+                    "text": "Don't know",
+                    "display-or": "ଜାଣି ନାହିଁ",
+                    "display-hi": "पता नहीं",
+                    "display-gu": "ખબર નથી",
+                    "display-as": "নাজানো",
+                    "display-bn": "জানি না",
+                    "display-kn": "ಗೊತ್ತಿಲ್ಲ",
+                    "display-mr": "माहीत नाही"
+                }
+            ],
+            "display-or": "ଏବେ କୌଣସି ଔଷଧବ୍ୟବହାର କରୁଛି କି?*",
+            "display-hi": "क्या आपने हाल में कोई दवा कराई है?*",
+            "display-gu": "તાજેતરમાં તમે કોઇ દવા લીધી છે?*",
+            "display-as": "শেহতীয়াকৈ আপুনি কিবা ঔষধ খাইছেনে?*",
+            "display-bn": "আপনি কি  কোন ঔষধ গ্রহণ করেছেন?*",
+            "display-kn": "ನೀವು ಇತ್ತೀಚೆಗೆ ಯಾವುದೇ ಔಷಧಿಗಳನ್ನು ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्ही अलीकडे काही औषध घेतले आहे का?*"
+        },
+        {
+            "id": "ID_278596583",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?*",
+            "isRequired": true,
+            "display-or": "ଅନ୍ଯ ଲକ୍ଷଣ*",
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "options": [
+                {
+                    "id": "ID_887077450",
+                    "text": "Oedema",
+                    "display-or": "ଫୁଲିବା",
+                    "display-hi": "शोफ/सूजन",
+                    "display-gu": "ઓડેમા",
+                    "display-as": "এডিমা(শোথ)",
+                    "display-bn": "শোথ",
+                    "display-kn": "ಎಡಿಮಾ",
+                    "display-mr": "सूज"
+                },
+                {
+                    "id": "ID_328451323",
+                    "text": "Fatigue",
+                    "display-or": "ହାଲିଅା ଲାଗିବା",
+                    "display-hi": "थकान ",
+                    "display-gu": "થાક",
+                    "display-as": "ভাগৰ",
+                    "display-bn": "ক্লান্তি",
+                    "display-kn": "ಆಯಾಸ",
+                    "display-mr": "थकवा"
+                },
+                {
+                    "id": "ID_335684483",
+                    "text": "Hoarseness",
+                    "display-or": "କର୍କଶ ସ୍ବର",
+                    "display-hi": "आवाज़ में घरघराहट",
+                    "display-gu": "ખોખરો અવાજ (હોર્સનેસ)",
+                    "display-as": "হুৰহুৰাই",
+                    "display-bn": "কর্কশতা",
+                    "display-kn": "ಒರಟುತನ",
+                    "display-mr": "कर्कशपणा"
+                },
+                {
+                    "id": "ID_1080847481",
+                    "text": "Muscle weakness",
+                    "display-or": "ମାଂସପେଶୀ ଦୁର୍ବଳ",
+                    "display-hi": "मांसपेशी में कमजोरी",
+                    "display-gu": "સ્નાયુની નબળાઇ",
+                    "display-as": "পেশীৰ দুৰ্বলতা",
+                    "display-bn": "পেশীর দূর্বলতা",
+                    "display-kn": "ಸ್ನಾಯು ದೌರ್ಬಲ್ಯ",
+                    "display-mr": "स्नायूंमध्ये कमजोरी"
+                },
+                {
+                    "id": "ID_1265671189",
+                    "text": "Joint pain",
+                    "perform-physical-exam": "Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;",
+                    "display-or": "ଗଣ୍ଠି ଯନ୍ତ୍ରଣା",
+                    "options": [
+                        {
+                            "id": "ID_385555119",
+                            "text": "Involvement",
+                            "language": "with involvement of",
+                            "display": "Does the pain involve single or multiple joints?",
+                            "display-or": "କେତେଟା ଗଣ୍ଠି",
+                            "options": [
+                                {
+                                    "id": "ID_1452749525",
+                                    "text": "Single joint [Describe which joint]",
+                                    "input-type": "text",
+                                    "display-or": "ଗୋଟେ (କେଉଁ ଗଣ୍ଠି)",
+                                    "language": "single joint",
+                                    "display-hi": "एक जोड़ (बताएं कि किस जोड़ में)",
+                                    "display-gu": "એક સાંધો [કયા સાંધામાં, જણાવો]",
+                                    "display-as": "একক সংযোগ [কোন সংযোগস্থল বৰ্ণনা কৰক]",
+                                    "display-bn": "একক জয়েন্ট [কোন জয়েন্ট বর্ণনা কর]",
+                                    "display-kn": "ಒಂದೇ ಕೀಲು[ಯಾವ ಕೀಲು ವಿವರಿಸಿ]",
+                                    "display-mr": "एकल संयुक्त [सांध्याचे वर्णन करा]"
+                                },
+                                {
+                                    "id": "ID_1850264673",
+                                    "text": "Multiple joints [Describe which joints]",
+                                    "display-or": "ବହୁତ (କେଉଁ ଗଣ୍ଠି ରେ)",
+                                    "input-type": "text",
+                                    "language": "multiple joints",
+                                    "display-hi": "अनेक जोड़ (बताएं कि कौन-से जोड़ों में)",
+                                    "display-gu": "ઘણા સાંધાઓમાં [કયા સાંધામાં, જણાવો]",
+                                    "display-as": "একাধিক সংযোগ [কোন সংযোগৰ বৰ্ণনা কৰক]",
+                                    "display-bn": "একাধিক জয়েন্ট [কোন সন্ধি বর্ণনা কর]",
+                                    "display-kn": "ಬಹು ಕೀಲುಗಳು [ಯಾವ ಕೀಲುಗಳನ್ನು ವಿವರಿಸಿ]",
+                                    "display-mr": "अनेक सांधे  [सांध्याचे वर्णन करा]"
+                                }
+                            ],
+                            "display-hi": "यह दर्द एक जोड़ में है या अनेक जोड़ों में?",
+                            "display-gu": "એક અથવા વધારે સાંધાઓમાં પણ દુખાવો થાય છે?",
+                            "display-as": "বিষ একক বা একাধিক গাঁঠি জড়িত হৈ থাকে নেকি?",
+                            "display-bn": "ব্যথা কি এক বা একাধিক জয়েন্টে জড়িত?",
+                            "display-kn": "ನೋವು ಒಂದೇ ಅಥವಾ ಬಹು ಕೀಲುಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆಯೇ?",
+                            "display-mr": "वेदना एका किंवा अनेक सांध्यांमध्ये जाणवते?"
+                        },
+                        {
+                            "id": "ID_1930789915",
+                            "text": "Migratory",
+                            "language": "%",
+                            "display": "Does the pain move to other parts of the body?",
+                            "display-or": "ଯନ୍ତ୍ରଣା ଅନ୍ଯଯାଗାକୁ ଯାଉଛି",
+                            "options": [
+                                {
+                                    "id": "ID_1924496479",
+                                    "text": "No",
+                                    "language": "pain is not migratory in nature",
+                                    "display-or": "ନାହିଁ",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_790875526",
+                                    "text": "Yes",
+                                    "language": "pain is migratory in nature",
+                                    "display-or": "ହଁ",
+                                    "display-hi": "हां",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                }
+                            ],
+                            "display-hi": "क्या दर्द शरीर के अन्य भाग में जाता है?",
+                            "display-gu": "દુખાવો શરીરના બીજા ભાગમાં જાય છે?",
+                            "display-as": "বিষটো শৰীৰৰ আন অংশলৈ গতি কৰেনে?",
+                            "display-bn": "ব্যথা কি শরীরের অন্য অংশে চলে যায়?",
+                            "display-kn": "ನೋವು ದೇಹದ ಇತರ ಭಾಗಗಳಿಗೆ ಹರಡುತ್ತದೆಯೇ ?",
+                            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?"
+                        }
+                    ],
+                    "display-hi": "जोड़ों का दर्द",
+                    "display-gu": "સાંધાનો દુખાવો",
+                    "display-as": "গাঁঠিৰ বিষ",
+                    "display-bn": "সংযোগে ব্যথা",
+                    "display-kn": "ಕೀಲು ನೋವು",
+                    "display-mr": "सांधे दुखी"
+                },
+                {
+                    "id": "ID_1246497456",
+                    "text": "Abdominal distension",
+                    "display-or": "ପେଟ ଫୁଲା",
+                    "display-hi": "पेट फूलना",
+                    "display-gu": "પેટ વધવું",
+                    "display-as": "পেটৰ বিস্তৃতি",
+                    "display-bn": "পেটের ফাঁপ",
+                    "display-kn": "ಕಿಬ್ಬೊಟ್ಟೆಯ ಹಿಗ್ಗುವಿಕೆ",
+                    "display-mr": "पोट फुगणे किंवा सुजणे"
+                },
+                {
+                    "id": "ID_1262077953",
+                    "text": "Fever",
+                    "display-or": "ଜ୍ୱର",
+                    "display-hi": "बुखार",
+                    "display-gu": "તાવ",
+                    "display-as": "জ্বৰ",
+                    "display-bn": "জ্বর",
+                    "display-kn": "ಜ್ವರ",
+                    "display-mr": "ताप"
+                },
+                {
+                    "id": "ID_1608247078",
+                    "text": "Skin bruises",
+                    "display-or": "ଚର୍ମରେ ଗୋଲାକାର ଘା ପରି ଦେଖାଯିବ",
+                    "display-hi": "त्वचा पर छाले/घाव",
+                    "display-gu": "ત્વચામાં ધઝરડા",
+                    "display-as": "ছালৰ ঘাঁ",
+                    "display-bn": "ত্বকের ক্ষত",
+                    "display-kn": "ಚರ್ಮದ ಮೂಗೇಟುಗಳು",
+                    "display-mr": "त्वचेवर जखमा"
+                },
+                {
+                    "id": "ID_896570466",
+                    "text": "Weight change (kg)",
+                    "language": "%",
+                    "display-or": "ଓଜନ ପରିବର୍ତନ",
+                    "options": [
+                        {
+                            "id": "ID_867149692",
+                            "text": "Weight gain",
+                            "input-type": "number",
+                            "language": "Patient reports weight gain (kgs)",
+                            "display-or": "ବୃଦ୍ଧି",
+                            "display-hi": "वजन बढ़ना",
+                            "display-gu": "વજન વધવું",
+                            "display-as": "ওজন বৃদ্ধি",
+                            "display-bn": "ওজন বৃদ্ধি",
+                            "display-kn": "ತೂಕ ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುವುದು",
+                            "display-mr": "वजन वाढणे"
+                        },
+                        {
+                            "id": "ID_362965028",
+                            "text": "Weight loss",
+                            "input-type": "number",
+                            "language": "Patient reports weight loss (kgs)",
+                            "display-or": "ହ୍ରାସ",
+                            "display-hi": "वजन घटना",
+                            "display-gu": "વજન ઘટવું",
+                            "display-as": "ওজন কম",
+                            "display-bn": "ওজন কমানো",
+                            "display-kn": "ತೂಕದಲ್ಲಿ  ಇಳಿಕೆ",
+                            "display-mr": "वजन कमी होणे"
+                        },
+                        {
+                            "id": "ID_894111749",
+                            "text": "since when",
+                            "input-type": "duration",
+                            "language": "since",
+                            "display-or": "କେବେ ଠାରୁ ଲେଖ",
+                            "display-hi": "कब से",
+                            "display-gu": "ક્યારથી",
+                            "display-as": "কেতিয়াৰ পৰা",
+                            "display-bn": "কখন থেকে",
+                            "display-kn": "ಯಾವತ್ತಿಂದ",
+                            "display-mr": "केव्हा पासून"
+                        }
+                    ],
+                    "display-hi": "वजन में बदलाव (किग्रा)",
+                    "display-gu": "વજનમાં ફેરફાર (કિલો)",
+                    "display-as": "ওজনৰ পৰিৱৰ্তন (কিলোগ্ৰাম)",
+                    "display-bn": "ওজন পরিবর্তন (কেজি)",
+                    "display-kn": "ತೂಕದಲ್ಲಿ ಬದಲಾವಣೆ (ಕೆಜಿ)",
+                    "display-mr": "वजनात बदल (किलो)"
+                },
+                {
+                    "id": "ID_1857092180",
+                    "text": "Skin rash",
+                    "display-or": "ଚର୍ମ ଚିହ୍ନ",
+                    "display-hi": "त्वचा पर चकत्ते",
+                    "display-gu": "ત્વચા પર ફોલ્લી",
+                    "display-as": "ছালৰ ফোহা",
+                    "display-bn": "চামড়া ফুসকুড়ি",
+                    "display-kn": "ಚರ್ಮದ ದದ್ದು",
+                    "display-mr": "त्वचेवर पुरळ"
+                },
+                {
+                    "id": "ID_1556537544",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বৰ্ণনা কৰা]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर [वर्णन]"
+                }
+            ],
+            "display-hi": "क्या आपको निम्न लक्षण है/हैं?*",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+            "display-as": "আপোনাৰ তলত দিয়া লক্ষ্যণ(সমূহ) আছেনে?*",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला खालील लक्षण (लक्षणे) आहेत का?*"
+        },
+        {
+            "id": "ID_1075884583",
+            "text": "Recent drug h/o taking herbal medicines",
+            "display": "Have you recently taken any herbs/herbal medicines?",
+            "display-or": "ଆଗରୁ ତମେ କିଛି ଆୟୁର୍ବେଦିକ ଔଷଧ ନେଇଥିଲା କି?",
+            "language": "%",
+            "options": [
+                {
+                    "id": "ID_256582776",
+                    "text": "Yes",
+                    "display-or": "ହଁ",
+                    "language": "Patient has recently taken herbal medicines",
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_1175240124",
+                    "text": "No",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपने हाल में कोई जड़ी-बूटी/आयुर्वेदिक दवा ली है?",
+            "display-gu": "તાજેતરમાં તમે કોઇ જડીબુટ્ટી/જડીબુટ્ટીની દવાઓ લીધી છે?",
+            "display-as": "শেহতীয়াকৈ আপুনি কিবা বনৌষধি/বনৌষধি ঔষধ সেৱন কৰিছেনে?",
+            "display-bn": "আপনি কি  কোনো ভেষজ/ভেষজ ওষুধ খেয়েছেন?",
+            "display-kn": "ನೀವು ಇತ್ತೀಚೆಗೆ ಯಾವುದೇ ಗಿಡಮೂಲಿಕೆಗಳು/ಮೂಲಿಕೆ ಔಷಧಿಗಳನ್ನು ಸೇವಿಸಿದ್ದೀರಾ?",
+            "display-mr": "तुम्ही नुकतीच औषधी/हर्बल औषधे घेतली आहेत का?"
+        },
+        {
+            "id": "ID_828902561",
+            "text": "Prior treatment sought",
+            "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?",
+            "display-or": "ତମେ ଆଗରୁ କୌଣସି ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)",
+            "options": [
+                {
+                    "id": "ID_742876589",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ହାଁ [ବର୍ଣନା କର]",
+                    "display-hi": "हां (वर्णन करें)",
+                    "display-gu": "હા [વિગતે જણાવો]",
+                    "display-as": "হয় [বৰ্ণনা কৰক]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "होय [वर्णन]"
+                },
+                {
+                    "id": "ID_1226925547",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपने, आज यहां आने से पहले, इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?",
+            "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?",
+            "display-as": "আজি ইয়াত অহাৰ আগতে আপুনি এই সমস্যাৰ বাবে কোনো চিকিৎসা গ্ৰহণ কৰিছেনে (স্ব-ঔষধ বা ঘৰুৱা প্ৰতিকাৰকে ধৰি) বা কোনো স্বাস্থ্য প্ৰদানকাৰীক দেখা কৰিছেনে?",
+            "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?",
+            "display-kn": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?",
+            "display-mr": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरला दाखवले होते का?"
+        },
+        {
+            "id": "ID_44259515",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_552880340",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "(अन्य जानकारी दर्ज करें)",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য দিয়ক]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "[अतिरिक्त माहिती प्रविष्ट करा]"
+                }
+            ],
+            "display-hi": "अन्य जानकारी",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अतिरिक्त माहिती"
+        }
+    ],
+    "display-hi": "असामान्य खून बहना",
+    "display-gu": "વધારે પડતું લોહી પડવું",
+    "display-as": "অস্বাভাৱিক ৰক্তক্ষৰণ",
+    "display-bn": "অস্বাভাবিক রক্তপাত",
+    "display-kn": "ಅಸಹಜ ರಕ್ತಸ್ರಾವ",
+    "display-mr": "असामान्य रक्तस्त्राव"
+}

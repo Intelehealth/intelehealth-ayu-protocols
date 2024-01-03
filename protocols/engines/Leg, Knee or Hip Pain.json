@@ -1,0 +1,1283 @@
+{
+    "id": "ID_1944482225",
+    "text": "Leg, Knee or Hip Pain",
+    "perform-physical-exam": "Back:Tenderness;Leg:Peripheral pulsations;Knee:Swelling;Knee:Deformity;Knee:Cracking sound on movement;Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;Joint:Movement range;",
+    "display-or": "ଗୋଡ, ଆଣ୍ଠୁ ବା ଅଂଟା ଦରଜ",
+    "options": [
+        {
+            "id": "ID_471602377",
+            "text": "Site",
+            "display": "Which part of the leg or hip do you feel pain?*",
+            "isRequired": true,
+            "multi-choice": true,
+            "display-or": "ଗୋଡ଼ ବା ଅଣ୍ଟା ଯନ୍ତ୍ରଣା*",
+            "options": [
+                {
+                    "id": "ID_274596701",
+                    "text": "Right leg",
+                    "multi-choice": true,
+                    "display-or": "ଡାହାଣ ଗୋଡ",
+                    "options": [
+                        {
+                            "id": "ID_66036265",
+                            "text": "Hip",
+                            "display-or": "ଅଣ୍ଟା",
+                            "display-hi": "कूल्हा",
+                            "display-gu": "થાપો",
+                            "display-as": "তপিনা (উৰু)",
+                            "display-bn": "নিতম্ব",
+                            "display-kn": "ತೊಡೆ",
+                            "display-mr": "कंबर"
+                        },
+                        {
+                            "id": "ID_1359561608",
+                            "text": "Buttock",
+                            "display-or": "ପିଚା",
+                            "display-hi": "नितंब",
+                            "display-gu": "નિતંબ",
+                            "display-as": "তপিনা",
+                            "display-bn": "পাছা",
+                            "display-kn": "ಅಂಡು",
+                            "display-mr": "नितंब"
+                        },
+                        {
+                            "id": "ID_764294841",
+                            "text": "Thigh",
+                            "display-or": "ଜଂଘ",
+                            "display-hi": "जांघ",
+                            "display-gu": "ઝાંઘ",
+                            "display-as": "ঊৰু",
+                            "display-bn": "উরু",
+                            "display-kn": "ತೊಡೆ",
+                            "display-mr": "मांडी"
+                        },
+                        {
+                            "id": "ID_1148122124",
+                            "text": "Knee",
+                            "display-or": "ଅାଣ୍ଠୁ",
+                            "pop-up": "Show the patient the physiotherapy videos from the video library",
+                            "options": [
+                                {
+                                    "id": "ID_493011564",
+                                    "text": "Site of knee pain",
+                                    "display": "Which part of the knee is paining?*",
+                                    "isRequired": true,
+                                    "multi-choice": true,
+                                    "display-or": "ଆନ୍ଥୋ ରୁ କେଉଁ ଜାଗା ରୁ*",
+                                    "options": [
+                                        {
+                                            "id": "ID_1986253244",
+                                            "text": "Front",
+                                            "display-or": "ଅାଗପଟେ",
+                                            "display-hi": "आगे",
+                                            "display-gu": "આગળ",
+                                            "display-as": "সন্মুখত",
+                                            "display-bn": "সামনে",
+                                            "display-kn": "ಮುಂಭಾಗ",
+                                            "display-mr": "पुढे"
+                                        },
+                                        {
+                                            "id": "ID_229203471",
+                                            "text": "Back",
+                                            "display-or": "ପଛପଟେ",
+                                            "display-hi": "पीछे",
+                                            "display-gu": "પાછળ",
+                                            "display-as": "পিছফালে",
+                                            "display-bn": "পেছনে",
+                                            "display-kn": "ಹಿಂದೆ",
+                                            "display-mr": "मागे"
+                                        },
+                                        {
+                                            "id": "ID_708669482",
+                                            "text": "Lateral/medial",
+                                            "display-or": "ଭିତର ବା ବାହାର ପଟୁ",
+                                            "display-hi": "बगल /मध्य में",
+                                            "display-gu": "બાજુમાં/વચ્ચે",
+                                            "display-as": "এদাঁতিৰ / মধ্যস্থ",
+                                            "display-bn": "পাশ্বর্ীয়/মধ্যস্থ",
+                                            "display-kn": "ಪಾರ್ಶ್ವ/ಮಧ್ಯ",
+                                            "display-mr": "बाजूला"
+                                        }
+                                    ],
+                                    "display-hi": "घुटने के किस भाग में दर्द है?*",
+                                    "display-gu": "ઘૂંટણના કયા ભાગમાં દુઃખાવો થઈ રહ્યો છે?*",
+                                    "display-as": "আঠুৰ কোন অংশত বিষ হৈছে?*",
+                                    "display-bn": "হাঁটুর কোন অংশে ব্যথা হয়?*",
+                                    "display-kn": "ನೀವು ಕಾಲು ಅಥವಾ ಸೊಂಟದ ಯಾವ ಭಾಗದಲ್ಲಿ ನೋವನ್ನು ಅನುಭವಿಸುತ್ತೀರಿ?*",
+                                    "display-mr": "गुडघ्याचा कोणता भागात दुखत आहे?"
+                                },
+                                {
+                                    "id": "ID_963851111",
+                                    "text": "Swelling",
+                                    "display": "Is there any swelling?*",
+                                    "isRequired": true,
+                                    "multi-choice": false,
+                                    "display-or": "ଫୁଲା*",
+                                    "options": [
+                                        {
+                                            "id": "ID_1317276113",
+                                            "text": "Yes",
+                                            "display-or": "ହଁ",
+                                            "display-hi": "हाँ",
+                                            "display-gu": "હા",
+                                            "display-as": "হয়",
+                                            "display-bn": "হ্যাঁ",
+                                            "display-kn": "ಹೌದು",
+                                            "display-mr": "हो"
+                                        },
+                                        {
+                                            "id": "ID_642417123",
+                                            "text": "No",
+                                            "display-or": "ନା",
+                                            "display-hi": "नहीं",
+                                            "display-gu": "ના",
+                                            "display-as": "নহয়",
+                                            "display-bn": "না",
+                                            "display-kn": "ಅಲ್ಲ",
+                                            "display-mr": "नाही"
+                                        }
+                                    ],
+                                    "display-hi": "क्या कोई सूजन है?*",
+                                    "display-gu": "શું સોજો આવ્યો છે?*",
+                                    "display-as": "কোনফালে ফোলা আছে?*",
+                                    "display-bn": "কোন ফোলা আছে?*",
+                                    "display-kn": "ಯಾವುದೇ ಊತವಿದೆಯೇ?*",
+                                    "display-mr": "तिथे सूज आहे का?"
+                                }
+                            ],
+                            "display-hi": "घुटना",
+                            "display-gu": "ઘૂંટણ",
+                            "display-as": "আঠু",
+                            "display-bn": "হাঁটু",
+                            "display-kn": "ಮೊಣಕಾಲು",
+                            "display-mr": "गुडघा"
+                        },
+                        {
+                            "id": "ID_984035593",
+                            "text": "Calf",
+                            "display-or": "ପୁଟିଅା",
+                            "display-hi": "पिंडली (काफ)",
+                            "display-gu": "પિંડી",
+                            "display-as": "দামুৰি(কলাফুল)",
+                            "display-bn": "বাছুর",
+                            "display-kn": "ಕಾಫ್",
+                            "display-mr": "पोटरीचा स्नायू"
+                        }
+                    ],
+                    "display-hi": "दांया पैर",
+                    "display-gu": "જમણો પગ",
+                    "display-as": "সোঁ ভৰি",
+                    "display-bn": "ডান পা",
+                    "display-kn": "ಬಲ ಕಾಲು",
+                    "display-mr": "उजवा पाय"
+                },
+                {
+                    "id": "ID_1753721531",
+                    "text": "Left leg",
+                    "multi-choice": true,
+                    "display-or": "ବାମ ଗୋଡ",
+                    "options": [
+                        {
+                            "id": "ID_1050864883",
+                            "text": "Hip",
+                            "display-or": "ଅଣ୍ଟା",
+                            "display-hi": "कूल्हा",
+                            "display-gu": "થાપો",
+                            "display-as": "তপিনা (উৰু)",
+                            "display-bn": "নিতম্ব",
+                            "display-kn": "ತೊಡೆ",
+                            "display-mr": "कंबर"
+                        },
+                        {
+                            "id": "ID_492795362",
+                            "text": "Buttock",
+                            "display-or": "ପିଚା",
+                            "display-hi": "नितंब",
+                            "display-gu": "નિતંબ",
+                            "display-as": "তপিনা",
+                            "display-bn": "পাছা",
+                            "display-kn": "ಅಂಡು",
+                            "display-mr": "नितंब"
+                        },
+                        {
+                            "id": "ID_374386773",
+                            "text": "Thigh",
+                            "display-or": "ଜଂଘ",
+                            "display-hi": "जांघ",
+                            "display-gu": "ઝાંઘ",
+                            "display-as": "ঊৰু",
+                            "display-bn": "উরু",
+                            "display-kn": "ತೊಡೆ",
+                            "display-mr": "मांडी"
+                        },
+                        {
+                            "id": "ID_1934960338",
+                            "text": "Knee",
+                            "display-or": "ଅାଣ୍ଠୁ",
+                            "pop-up": "Show the patient the physiotherapy videos from the video library",
+                            "options": [
+                                {
+                                    "id": "ID_783447971",
+                                    "text": "Site of knee pain",
+                                    "display": "Which part of the knee is paining?*",
+                                    "isRequired": true,
+                                    "multi-choice": true,
+                                    "display-or": "ଆନ୍ଥୋ ରୁ କେଉଁ ଜାଗା ରୁ*",
+                                    "options": [
+                                        {
+                                            "id": "ID_1220431978",
+                                            "text": "Front",
+                                            "display-or": "ଅାଗପଟେ",
+                                            "display-hi": "आगे",
+                                            "display-gu": "આગળ",
+                                            "display-as": "সন্মুখত",
+                                            "display-bn": "সামনে",
+                                            "display-kn": "ಮುಂಭಾಗ",
+                                            "display-mr": "पुढे"
+                                        },
+                                        {
+                                            "id": "ID_110374024",
+                                            "text": "Back",
+                                            "display-or": "ପଛପଟେ",
+                                            "display-hi": "पीछे",
+                                            "display-gu": "પાછળ",
+                                            "display-as": "পিছফালে",
+                                            "display-bn": "পেছনে",
+                                            "display-kn": "ಹಿಂದೆ",
+                                            "display-mr": "मागे"
+                                        },
+                                        {
+                                            "id": "ID_1779103886",
+                                            "text": "Lateral/medial",
+                                            "display-or": "ବାହାର ବା ଭିତର ପଟେ",
+                                            "display-hi": "बगल /मध्य में",
+                                            "display-gu": "બાજુમાં/વચ્ચે",
+                                            "display-as": "এদাঁতিৰ / মধ্যস্থ",
+                                            "display-bn": "পাশ্বর্ীয়/মধ্যস্থ",
+                                            "display-kn": "ಪಾರ್ಶ್ವ/ಮಧ್ಯ",
+                                            "display-mr": "बाजूला"
+                                        }
+                                    ],
+                                    "display-hi": "घुटने के किस भाग में दर्द है?",
+                                    "display-gu": "ઘૂંટણના કયા ભાગમાં દુઃખાવો થઈ રહ્યો છે?",
+                                    "display-as": "আঠুৰ কোন অংশত বিষ হৈছে?",
+                                    "display-bn": "হাঁটুর কোন অংশে ব্যথা হয়?",
+                                    "display-kn": "ಮೊಣಕಾಲಿನ ಯಾವ ಭಾಗವು ನೋವುಂಟುಮಾಡುತ್ತದೆ?",
+                                    "display-mr": "गुडघ्याचा कोणता भागात दुखत आहे?"
+                                },
+                                {
+                                    "id": "ID_588834415",
+                                    "text": "Swelling",
+                                    "display": "Is there any swelling?*",
+                                    "isRequired": true,
+                                    "multi-choice": false,
+                                    "display-or": "ଫୁଲା",
+                                    "options": [
+                                        {
+                                            "id": "ID_717108598",
+                                            "text": "Yes",
+                                            "display-or": "ହଁ",
+                                            "display-hi": "हाँ",
+                                            "display-gu": "હા",
+                                            "display-as": "হয়",
+                                            "display-bn": "হ্যাঁ",
+                                            "display-kn": "ಹೌದು",
+                                            "display-mr": "हो"
+                                        },
+                                        {
+                                            "id": "ID_1909735181",
+                                            "text": "No",
+                                            "display-or": "ନା",
+                                            "display-hi": "नहीं",
+                                            "display-gu": "ના",
+                                            "display-as": "নহয়",
+                                            "display-bn": "না",
+                                            "display-kn": "ಅಲ್ಲ",
+                                            "display-mr": "नाही"
+                                        }
+                                    ],
+                                    "display-hi": "क्या कोई सूजन है?",
+                                    "display-gu": "શું સોજો આવ્યો છે?",
+                                    "display-as": "কোনফালে ফোলা আছে?",
+                                    "display-bn": "কোন ফোলা আছে?",
+                                    "display-kn": "ಯಾವುದೇ ಊತವಿದೆಯೇ?",
+                                    "display-mr": "तिथे सूज आहे का?"
+                                }
+                            ],
+                            "display-hi": "घुटना",
+                            "display-gu": "ઘૂંટણ",
+                            "display-as": "আঠু",
+                            "display-bn": "হাঁটু",
+                            "display-kn": "ಮೊಣಕಾಲು",
+                            "display-mr": "गुडघा"
+                        },
+                        {
+                            "id": "ID_959406919",
+                            "text": "Calf",
+                            "display-or": "ପୁଟିଅା",
+                            "display-hi": "पिंडली (काफ)",
+                            "display-gu": "પિંડી",
+                            "display-as": "দামুৰি(কলাফুল)",
+                            "display-bn": "বাছুর",
+                            "display-kn": "ಕಾಫ್",
+                            "display-mr": "पोटरीचा स्नायू"
+                        }
+                    ],
+                    "display-hi": "बांया पैर",
+                    "display-gu": "ડાબો પગ",
+                    "display-as": "বাওঁ ভৰি",
+                    "display-bn": "বাম পা",
+                    "display-kn": "ಎಡ ಕಾಲು",
+                    "display-mr": "डावा पाय"
+                },
+                {
+                    "id": "ID_1358875093",
+                    "text": "Hip",
+                    "display-or": "ଅଣ୍ଟା",
+                    "display-hi": "कूल्हा",
+                    "display-gu": "થાપો",
+                    "display-as": "তপিনা (উৰু)",
+                    "display-bn": "নিতম্ব",
+                    "display-kn": "ತೊಡೆ",
+                    "display-mr": "कंबर"
+                }
+            ],
+            "display-hi": "पैर या कुल्हे के किस भाग में दर्द महसूस होता है?*",
+            "display-gu": "આપને પગ કે થાપાના કયા ભાગમાં દુઃખાવો થાય છે?*",
+            "display-as": "আপোনাৰ কোন ভৰি বা উৰুৰ কোন অংশত বিষ অনুভব কৰিছে?*",
+            "display-bn": "পা বা নিতম্বের কোন অংশে ব্যথা অনুভব করেন?*",
+            "display-kn": "ನೀವು ಕಾಲು ಅಥವಾ ಸೊಂಟದ ಯಾವ ಭಾಗದಲ್ಲಿ ನೋವನ್ನು ಅನುಭವಿಸುತ್ತೀರಿ?*",
+            "display-mr": "पाय किंवा नितंबाच्या कोणत्या भागात वेदना जाणवते?"
+        },
+        {
+            "id": "ID_313791833",
+            "text": "Duration",
+            "display": "Since when have you had this symptom?*",
+            "isRequired": true,
+            "display-or": "କେତେଦିନ*",
+            "options": [
+                {
+                    "id": "ID_826155781",
+                    "text": "[Enter since when]",
+                    "input-type": "duration",
+                    "language": "since",
+                    "display-or": "କେବେଠାରୁ",
+                    "display-hi": "[कब से है – दर्ज करें]",
+                    "display-gu": "[ક્યારથી તે લખી જણાવો]",
+                    "display-as": "যেতিয়া পৰা আৰম্ভ লিখা",
+                    "display-bn": "[কখন থেকে লিখুন]",
+                    "display-kn": "[ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]",
+                    "display-mr": "(केव्हापासून आहे ते भरा)"
+                }
+            ],
+            "display-hi": "आपको यह लक्षण कब से है?*",
+            "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+            "display-as": "কেতিয় পৰা আপুনি এই লক্ষণটো পাইছে?*",
+            "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+            "display-kn": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*",
+            "display-mr": "तुम्हाला हे लक्षण किती दिवसांपासून आहे?"
+        },
+        {
+            "id": "ID_1922246229",
+            "text": "Pain characteristics",
+            "multi-choice": false,
+            "display-or": "ଯନ୍ତ୍ରଣା",
+            "options": [
+                {
+                    "id": "ID_670016068",
+                    "text": "Dull aching",
+                    "display-or": "ଧିରେ ଧିରେ",
+                    "display-hi": "सुस्त दर्द",
+                    "display-gu": "સંવેદનહિન થઈ જવું / પીડા થવી",
+                    "display-as": "কুংঠিত,বিষ ধৰা",
+                    "display-bn": "নিস্তেজ ধরা",
+                    "display-kn": "ಮಂದವಾದ ನೋವು",
+                    "display-mr": "सौम्य वेदना"
+                },
+                {
+                    "id": "ID_289306922",
+                    "text": "Tingling numbness",
+                    "display-or": "ଝିମଝିମ",
+                    "display-hi": "झुनझुनी और सुन्न होना",
+                    "display-gu": "ઝણઝણાટી, સુન્ન થઈ જવું,",
+                    "display-as": "অচেতন ঝিনঋিননী",
+                    "display-bn": "টিংলিং অসাড়তা",
+                    "display-kn": "ಜುಮ್ಮೆನಿಸುವ ಮರಗಟ್ಟುವಿಕೆ",
+                    "display-mr": "मुंग्या येणे आणि बधीरपणा"
+                },
+                {
+                    "id": "ID_428414146",
+                    "text": "Sharp shooting",
+                    "display-or": "ଜୋରରେ",
+                    "display-hi": "तेज चुभन वाला दर्द",
+                    "display-gu": "તીક્ષ્ણ દુઃખાવો",
+                    "display-as": "তীব্র ধৰি থকা",
+                    "display-bn": "শার্প শুটিং",
+                    "display-kn": "ತೀಕ್ಷ್ಣವಾದ ನೋವು",
+                    "display-mr": "सुया टोचल्यासारखी वेदना"
+                },
+                {
+                    "id": "ID_1909035660",
+                    "text": "Burning",
+                    "display-or": "ପୋଡ଼ିବା",
+                    "display-hi": "जलन",
+                    "display-gu": "બળતરાવાળો",
+                    "display-as": "জ্বলন্ত",
+                    "display-bn": "জ্বলন্ত",
+                    "display-kn": "ಉರಿಯುತ್ತಿದೆ",
+                    "display-mr": "जळजळ / आग होणे"
+                },
+                {
+                    "id": "ID_1397300844",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ଯାନ୍ଯ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বর্ণনা)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "दर्द के लक्षण",
+            "display-gu": "દુઃખાવાની લાક્ષણિકતાઓ",
+            "display-as": "বিষ বৈশিষ্ট্",
+            "display-bn": "ব্যথার বৈশিষ্ট্য",
+            "display-kn": "ನೋವಿನ ಗುಣಲಕ್ಷಣಗಳು",
+            "display-mr": "वेदनांचे स्वरूप"
+        },
+        {
+            "id": "ID_1901253935",
+            "text": "Onset ",
+            "display": "How did the symptom start?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "କେମିତି ଅାରମ୍ଭ ହେଲା",
+            "options": [
+                {
+                    "id": "ID_1092086128",
+                    "text": "Sudden (minutes to hours)",
+                    "display-or": "ହଠାତ୍",
+                    "display-hi": "अचानक (मिनटों से लेकर घंटों में)",
+                    "display-gu": "અચાનક (મિનિટોથી કલાકોમાં)",
+                    "display-as": "হঠাৎ (মিনিট পৰা ঘন্টা)",
+                    "display-bn": "হঠাৎ (মিনিট থেকে ঘন্টা)",
+                    "display-kn": "ಅಕಸ್ಮಾತ್ (ನಿಮಿಷಗಳಿಂದ ಗಂಟೆಗಳ ವರೆಗೆ)",
+                    "display-mr": "अचानक (काही मिनिटे ते तास)"
+                },
+                {
+                    "id": "ID_1867002119",
+                    "text": "Gradual",
+                    "display-or": "ଧିରେ ଧିରେ",
+                    "display-hi": "धीरे-धीरे",
+                    "display-gu": "ધીમે ધીમે",
+                    "display-as": "লাহে-লাহে",
+                    "display-bn": "ক্রমান্বয়ে",
+                    "display-kn": "ಹಂತಹಂತವಾಗಿ",
+                    "display-mr": "हळूहळू"
+                }
+            ],
+            "display-hi": "आपको यह लक्षण कैसे शुरू हुआ?*",
+            "display-gu": "લક્ષણની શરૂઆત કેવી રીતે થઇ?*",
+            "display-as": "এই লক্ষণটো কিভাবে আৰম্ভ হয়?*",
+            "display-bn": "লক্ষণটি কীভাবে শুরু হয়েছিল?*",
+            "display-kn": "ರೋಗಲಕ್ಷಣವು ಹೇಗೆ ಪ್ರಾರಂಭವಾಯಿತು?*",
+            "display-mr": "हे लक्षण कसे सुरू झाले?"
+        },
+        {
+            "id": "ID_1639558522",
+            "text": "Progress",
+            "display": "How has the symptom progressed?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "କେମିତି ବଢ଼ିଲା*",
+            "options": [
+                {
+                    "id": "ID_733026420",
+                    "text": "Progressive (Worsening)",
+                    "display-or": "ଅଧିକ ହେଲା",
+                    "display-hi": "ख़राब हुआ है (और बिगड़ा है)",
+                    "display-gu": "વધી રહ્યાં છે (બદત્તર થઈ રહ્યાં છે)",
+                    "display-as": "প্রগতিশীল (ক্রমবর্ধমান)",
+                    "display-bn": "প্রগতিশীল (ক্ষয়প্রাপ্ত)",
+                    "display-kn": "ಏಳಿಗೆ (ಹದಗೆಡುತ್ತಿದೆ)",
+                    "display-mr": "लक्षण वाढत गेले"
+                },
+                {
+                    "id": "ID_533116357",
+                    "text": "Static (Not changed)",
+                    "display-or": "ସ୍ଥିର ରହିବା",
+                    "display-hi": "स्थिर है (कोई बदलाव नहीं)",
+                    "display-gu": "સ્થિર છે (કોઈ ફેરફાર નહીં)",
+                    "display-as": "স্থিৰ (পৰিবর্তিত নাই)",
+                    "display-bn": "স্ট্যাটিক (পরিবর্তিত হয়নি)",
+                    "display-kn": "ಸ್ಥಿರ (ಬದಲಾವಣೆ ಇಲ್ಲ)",
+                    "display-mr": "काहीही बदल नाही"
+                },
+                {
+                    "id": "ID_1365410119",
+                    "text": "Wax and wane",
+                    "display-or": "କମିଯିବା",
+                    "display-hi": "कभी कम, कभी ज्यादा",
+                    "display-gu": "ચઢ-ઉતર",
+                    "display-as": "মমৰ নিচিনা আৰু ক্ষয়",
+                    "display-bn": "মোম এবং ক্ষয়",
+                    "display-kn": "ಮೇಣ ಮತ್ತು ಕ್ಷೀಣಿಸುವಿಕೆ",
+                    "display-mr": "कधी कमी - कधी जास्त"
+                }
+            ],
+            "display-hi": "लक्षण कैसे बढ़ा है?*",
+            "display-gu": "લક્ષણોમાં વધારો કેવી રીતે થયો?*",
+            "display-as": "লক্ষণটো কি ভাবে বাঢ়িছে?*",
+            "display-bn": "কিভাবে উপসর্গ অগ্রগতি হয়েছে?*",
+            "display-kn": "ರೋಗಲಕ್ಷಣವು ಹೇಗೆ ಜಾಸ್ಥಿ ಆಗುತ್ತವೆ ?*",
+            "display-mr": "लक्षणात कशी वाढ झाली?"
+        },
+        {
+            "id": "ID_334440965",
+            "text": "Radiation",
+            "display": "Does the pain move to other parts of the body?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ଯନ୍ତ୍ରଣା ଅନ୍ୟ ଜାଗା  ଯାଉଛି*",
+            "language": "%",
+            "options": [
+                {
+                    "id": "ID_1457415162",
+                    "text": "Pain does not radiate",
+                    "display-or": "ନାହିଁ, ଯଦିହିଁ",
+                    "display-hi": "दर्द कहीं नहीं जाता है",
+                    "display-gu": "દુઃખાવો ફેલાતો નથી",
+                    "display-as": "বিষ বিকিৰণ নহয়",
+                    "display-bn": "ব্যথা বিকিরণ করে না",
+                    "display-kn": "ನೋವು ಹೊರಸೂಸುವುದಿಲ್ಲ",
+                    "display-mr": "जात नाही"
+                },
+                {
+                    "id": "ID_1228815375",
+                    "text": "Pain radiates to [describe where]",
+                    "display-or": "ଦରଜ ଗତି କରୁଛି?",
+                    "input-type": "text",
+                    "language": "Pain radiates to",
+                    "display-hi": "दर्द जाता है [बताएं कि कहाँ पर]",
+                    "display-gu": "દુઃખાવો આ ભાગમાં ફેલાય છે [ક્યાં તે વર્ણવો]",
+                    "display-as": "বিষ এৰি যায় [যি ঠাই যায় বর্ণনা কৰা]",
+                    "display-bn": "ব্যথা বিকিরণ করে [কোথায় বর্ণনা করুন]",
+                    "display-kn": "ನೋವು [ಎಲ್ಲಾಗುತ್ತದೆ ವಿವರಿಸಿ]",
+                    "display-mr": "वेदना इतर भागात जातात (कुठे ते सांगा)"
+                }
+            ],
+            "display-hi": "क्या दर्द शरीर के अन्य भाग में जाता है?*",
+            "display-gu": "દુખાવો શરીરના બીજા ભાગમાં જાય છે?*",
+            "display-as": "বিষ শৰীৰিৰ অন্য অংশ যায় ?*",
+            "display-bn": "ব্যথা কি শরীরের অন্য অংশে চলে যায়?*",
+            "display-kn": "ನೋವು ದೇಹದ ಇತರ ಭಾಗಗಳಿಗೆ ಹರಡುತ್ತದೆಯೇ ?*",
+            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?"
+        },
+        {
+            "id": "ID_619244992",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?",
+            "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?",
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "options": [
+                {
+                    "id": "ID_462182261",
+                    "text": "Fever",
+                    "display-or": "ଜ୍ୱର",
+                    "display-hi": "बुखार",
+                    "display-gu": "તાવ",
+                    "display-as": "জ্বৰ",
+                    "display-bn": "জ্বর",
+                    "display-kn": "ಜ್ವರ",
+                    "display-mr": "ताप"
+                },
+                {
+                    "id": "ID_1938558704",
+                    "text": "Difficulty breathing",
+                    "display-or": "ନିଶ୍ୱାସ ନେବାରେ କଷ୍ଟ",
+                    "display-hi": "सांस लेने में तकलीफ",
+                    "display-gu": "શ્વાસ લેવામાં મુશ્કેલી",
+                    "display-as": "শ্বাসকষ্ট",
+                    "display-bn": "শ্বাস নিতে কষ্ট হওয়া",
+                    "display-kn": "ಉಸಿರಾಟದ ತೊಂದರೆ",
+                    "display-mr": "धाप लागणे"
+                },
+                {
+                    "id": "ID_297934917",
+                    "text": "Swelling in the painful area",
+                    "display-or": "ଯନ୍ତ୍ରଣା ଯାଗାରେ ଫୁଲା",
+                    "display-hi": "दर्द वाली जगह पर सूजन",
+                    "display-gu": "દદુઃખતું હોય તે ભાગમાં સોજો આવી જવો",
+                    "display-as": "বেদনাদায়ক ঠাইত ফোলা",
+                    "display-bn": "বেদনাদায়ক এলাকায় ফোলা",
+                    "display-kn": "ನೋವಿನ ಪ್ರದೇಶದಲ್ಲಿ ಊತ",
+                    "display-mr": "वेदनेच्या ठिकाणी सूज येणे"
+                },
+                {
+                    "id": "ID_1854749464",
+                    "text": "Redness in the painful area",
+                    "display-or": "ଯନ୍ତ୍ରଣାଯାଗାରେ ନାଲି",
+                    "display-hi": "दर्द वाली जगह पर लालिमा",
+                    "display-gu": "ુઃખતું હોય તે ભાગ લાલ થઈ જવો",
+                    "display-as": "বেদনাদায়ক অঞ্চলত ৰঙাভাব",
+                    "display-bn": "বেদনাদায়ক এলাকায় লালভাব",
+                    "display-kn": "ನೋವಿನ ಪ್ರದೇಶದಲ್ಲಿ ಕೆಂಪಾಗುವುದು",
+                    "display-mr": "वेदनेच्या ठिकाणी लालसरपणा"
+                },
+                {
+                    "id": "ID_1512485900",
+                    "text": "Affected leg feels shorter",
+                    "display-or": "ଗୋଡ଼ ଛୋଟ ହୋଇଯିବା",
+                    "display-hi": "जिस पैर में दर्द है, वह छोटा लग रहा है",
+                    "display-gu": "પ્રભાવિત થયેલો પગ નાનો હોય તેમ અનુભવાય છે",
+                    "display-as": "আক্রান্ত ভৰি সৰু যেন হয়",
+                    "display-bn": "আক্রান্ত পা খাটো মনে হয়",
+                    "display-kn": "ಬಾಧಿತ ಕಾಲು ಚಿಕ್ಕದಾಗಿದೆ",
+                    "display-mr": "ज्या पायामध्ये हे घडले तो लहान वाटतोय"
+                },
+                {
+                    "id": "ID_671958087",
+                    "text": "Stiffness",
+                    "display-or": "ଟାଇଟ୍",
+                    "options": [
+                        {
+                            "id": "ID_545324755",
+                            "text": "Timing",
+                            "display": "What time of the day do you feel the stiffness?*",
+                            "isRequired": true,
+                            "display-or": "ସମୟ*",
+                            "options": [
+                                {
+                                    "id": "ID_1284247767",
+                                    "text": "Morning",
+                                    "display-or": "ସକାଳ",
+                                    "options": [
+                                        {
+                                            "id": "ID_1428584231",
+                                            "text": "lasting > 60minutes",
+                                            "display-or": "ଘଣ୍ଟାଏରୁ ଅଧିକ",
+                                            "display-hi": "60 मिनट से ज्यादा",
+                                            "display-gu": "કેટલો સમય રહે છે > 60 મિનિટ",
+                                            "display-as": "স্থায়ী> 60 মিনিট",
+                                            "display-bn": "স্থায়ী> 60 মিনিট",
+                                            "display-kn": "60 ನಿಮಿಷಗಳ ಕಾಲ",
+                                            "display-mr": "दीर्घकाळ, 60 मिनिटांपेक्षा जास्त"
+                                        },
+                                        {
+                                            "id": "ID_816060705",
+                                            "text": "lasting <= 60 minutes",
+                                            "display-or": "ଘଣ୍ଟାଏରୁ କମ",
+                                            "display-hi": "60 मिनट या उससे कम",
+                                            "display-gu": "કેટલો સમય રહે છે <= 60 મિનિટ",
+                                            "display-as": "দীর্ঘস্থায়ী <= 60 মিনিট",
+                                            "display-bn": "স্থায়ী <= 60 মিনিট",
+                                            "display-kn": "<= 60 ನಿಮಿಷಗಳ ಕಾಲ",
+                                            "display-mr": "60 मिनिटे किंवा त्यापेक्षा कमी"
+                                        }
+                                    ],
+                                    "display-hi": "सुबह",
+                                    "display-gu": "સવારે",
+                                    "display-as": "ৰাতিপুৱা",
+                                    "display-bn": "সকাল",
+                                    "display-kn": "ಬೆಳಗ್ಗೆ",
+                                    "display-mr": "सकाळी"
+                                },
+                                {
+                                    "id": "ID_430493357",
+                                    "text": "Constant",
+                                    "display-or": "ସ୍ଥିର",
+                                    "display-hi": "लगातार",
+                                    "display-gu": "સતત",
+                                    "display-as": "ধ্রুৱক,অটল",
+                                    "display-bn": "ধ্রুবক",
+                                    "display-kn": "ನಿರಂತರ",
+                                    "display-mr": "सतत"
+                                }
+                            ],
+                            "display-hi": "आपको दिन के किस समय में अकड़न महसूस होती है?*",
+                            "display-gu": "આપને દિવસે કયા સમયે અક્કડતા અનુભવાય છે?*",
+                            "display-as": "দিনৰ কোন সময়ত আপুনি কঠোৰ অনুভব কৰে?*",
+                            "display-bn": "দিনের কোন সময়ে আপনি কঠোরতা অনুভব করেন?*",
+                            "display-kn": "ದಿನದ ಯಾವ ಸಮಯದಲ್ಲಿ ನೀವು ಬಿಗಿತವನ್ನು ಅನುಭವಿಸುತ್ತೀರಿ?*",
+                            "display-mr": "तुम्हाला दिवसाच्या कोणत्या वेळी  दुखणाऱ्या ठिकाणी कडकपणा जाणवतो?"
+                        }
+                    ],
+                    "display-hi": "कठोरता",
+                    "display-gu": "અક્કડતા",
+                    "display-as": "কঠোৰ",
+                    "display-bn": "দৃঢ়তা",
+                    "display-kn": "ಬಿಗಿತ",
+                    "display-mr": "कडकपणा"
+                },
+                {
+                    "id": "ID_1388117131",
+                    "text": "Unable to walk",
+                    "display-or": "ଚାଲି ହେଉନି",
+                    "display-hi": "चल नहीं सकते",
+                    "display-gu": "ચાલી ન શકવું",
+                    "display-as": "খোজ কাঢ়োতে দুৰ্বল",
+                    "display-bn": "হাঁটতে অক্ষম",
+                    "display-kn": "ನಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
+                    "display-mr": "चालता येत नाही"
+                },
+                {
+                    "id": "ID_876029843",
+                    "text": "Unable to bear weight",
+                    "display-or": "ଓଜନ ସହି ହେଉନି",
+                    "display-hi": "वजन नहीं सँभाल सकते",
+                    "display-gu": "વજન ઊંચકી ન શકવું",
+                    "display-as": "ওজন সহ্য কৰোতে অক্ষম",
+                    "display-bn": "ওজন সহ্য করতে অক্ষম",
+                    "display-kn": "ಭಾರ ಹೊರಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ",
+                    "display-mr": "पायावर उभे राहणे अशक्य होते"
+                },
+                {
+                    "id": "ID_609788019",
+                    "text": "Movement limitation",
+                    "display-or": "ହଲଚଲ କମ",
+                    "display-hi": "हिलने-डुलने में दिक्कत",
+                    "display-gu": "હલનચલન મર્યાદિત થઈ જવું",
+                    "display-as": "চলাচলৰ সীমাবদ্ধতা",
+                    "display-bn": "চলাচলের সীমাবদ্ধতা",
+                    "display-kn": "ಚಲನೆಯ ಮಿತಿ",
+                    "display-mr": "मर्यादित हालचाल"
+                },
+                {
+                    "id": "ID_351149424",
+                    "text": "Night pain",
+                    "display-or": "ରାତି ଯନ୍ତ୍ରଣା",
+                    "display-hi": "रात में दर्द",
+                    "display-gu": "રાત્રે દુઃખાવો થવો",
+                    "display-as": "ৰাতি ব্যথা",
+                    "display-bn": "রাতের ব্যথা",
+                    "display-kn": "ರಾತ್ರಿ ಸಮಯದಲ್ಲಿ  ನೋವು",
+                    "display-mr": "रात्री होणाऱ्या वेदना"
+                },
+                {
+                    "id": "ID_1723004368",
+                    "text": "Locking in a specific position",
+                    "display-or": "ଗୋଟେ ଅବସ୍ଥାରେ ରହିଯିବା",
+                    "display-hi": "एक स्थिति में जड़ हो जाना",
+                    "display-gu": "ચોક્કસ સ્થિતિમાં અકડાઈ જવું",
+                    "display-as": "এইটো নির্দিষ্ট অৱস্থানত বন্ধ কৰা",
+                    "display-bn": "একটি নির্দিষ্ট অবস্থানে তালা দেওয়া",
+                    "display-kn": "ನಿರ್ದಿಷ್ಟ ಸ್ಥಾನದಲ್ಲಿ ಲಾಕ್ ಮಾಡುವುದು",
+                    "display-mr": "विशिष्ट स्थितीत आखडणे"
+                },
+                {
+                    "id": "ID_1547610180",
+                    "text": "Groin pain",
+                    "display-or": "ଜଂଘ ସନ୍ଧି ଯନ୍ତ୍ରଣା",
+                    "display-hi": "जांघ के जोड़ में दर्द",
+                    "display-gu": "જંઘામૂળમાં દુઃખાવો",
+                    "display-as": "তপিনাত বিষ",
+                    "display-bn": "কুঁচকি ব্যথা",
+                    "display-kn": "ಸೊಂಟದ ನೋವು",
+                    "display-mr": "जांघेत वेदना"
+                },
+                {
+                    "id": "ID_480047856",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
+                    "display-hi": "अन्य [वर्णन करें]",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বর্ণনা]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "क्या आपको निम्न लक्षण है/हैं?",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?",
+            "display-as": "আপোনাৰ নিম্নলিখিত লক্ষণবোৰ আছে ?",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?"
+        },
+        {
+            "id": "ID_880975242",
+            "text": "Aggravating factors",
+            "display": "Is the pain in your leg made worse by the following(s)?*",
+            "isRequired": true,
+            "display-or": "ନିମ୍ନ ଲିହିତ କାରଣପାଇଁ ଆପଣଙ୍କ ଲକ୍ଷଣ ବଢ଼ୁ ଛି କି?*",
+            "options": [
+                {
+                    "id": "ID_516940499",
+                    "text": "Symptom aggravated by motion",
+                    "display-or": "ଯନ୍ତ୍ରଣା ଅଧିକ ହୁଏ",
+                    "options": [
+                        {
+                            "id": "ID_1191460316",
+                            "text": "Not associated with movement",
+                            "display-or": "ଗତିସଙ୍ଗେ ସମ୍ପର୍କ ନାହିଁ",
+                            "display-hi": "हिलने-डुलने से कोई संबंध नहीं",
+                            "display-gu": "ગતિ સાથે સંકળાયેલ નથી",
+                            "display-as": "আন্দোলনৰ লগত জড়িত নাই",
+                            "display-bn": "আন্দোলনের সাথে যুক্ত নয়",
+                            "display-kn": "ಚಲನೆಗೆ ಸಂಬಂಧಿಸಿಲ್ಲ",
+                            "display-mr": "हालचालीशी संबंधित नाही"
+                        },
+                        {
+                            "id": "ID_1085607826",
+                            "text": "Associated with motion",
+                            "display-or": "ଗତି ସହିତ ବଢ଼ୁ ଛି",
+                            "options": [
+                                {
+                                    "id": "ID_1472978738",
+                                    "text": "All planes of motion",
+                                    "display-or": "ଗତିକଲେ",
+                                    "display-hi": "हर तरफ़ हिलने-डुलने से",
+                                    "display-gu": "ગતિના તમામ સમસ્તરો",
+                                    "display-as": "গতিৰ সমস্ত প্লেন(বিষ)",
+                                    "display-bn": "গতির সমস্ত সমতল",
+                                    "display-kn": "ಸಮತಲವಾದ ಚಲನೆ",
+                                    "display-mr": "सर्व दिशेने हालचाल केल्यास"
+                                },
+                                {
+                                    "id": "ID_772401883",
+                                    "text": "Movement toward specific direction ",
+                                    "input-type": "text",
+                                    "display-or": "ଗୋଟେ ନିର୍ଦ୍ଦିଷ୍ଟ ପଟକୁ",
+                                    "display-hi": "किसी खास तरफ़ हिलने-डुलने से",
+                                    "display-gu": "કોઈ ચોક્કસ દિશા તરફ ગતિ",
+                                    "display-as": "নির্দিষ্ট দিশৰ দিশ চলাচল",
+                                    "display-bn": "নির্দিষ্ট দিকের দিকে আন্দোলন",
+                                    "display-kn": "ನಿರ್ದಿಷ್ಟ ದಿಕ್ಕಿನ ಕಡೆಗೆ ಚಲನೆ",
+                                    "display-mr": "विशिष्ट दिशेने हालचाल केल्यास"
+                                },
+                                {
+                                    "id": "ID_253206444",
+                                    "text": "Climbing stairs",
+                                    "display-or": "ସିଡ଼ି ଚଢ଼ିଲେ",
+                                    "display-hi": "सीढ़ी चढ़ने से",
+                                    "display-gu": "સીડી ચઢવી",
+                                    "display-as": "ফটফটি নিচিনা আৰোহণ",
+                                    "display-bn": "সিঁড়ি আরোহণ",
+                                    "display-kn": "ಮೆಟ್ಟಿಲುಗಳನ್ನು ಹತ್ತುವುದು",
+                                    "display-mr": "पायऱ्या चढणे"
+                                }
+                            ],
+                            "display-hi": "हिलने-डुलने से संबंधित",
+                            "display-gu": "ગતિ સાથે સંકળાયેલ છે",
+                            "display-as": "গতিৰ লগত যুক্ত",
+                            "display-bn": "গতির সাথে যুক্ত",
+                            "display-kn": "ಚಲನೆಯೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿದೆ",
+                            "display-mr": "हालचालीशी संबंधित"
+                        }
+                    ],
+                    "display-hi": "लक्षण हिलने-डुलने से बढ़ा",
+                    "display-gu": "ગતિમાં આવવાની સાથે જ લક્ષણોમાં વધારો થવો",
+                    "display-as": "গতিবেগৰ লগত লক্ষণবোৰ আৰু বাঢ়ি যায়",
+                    "display-bn": "গতির দ্বারা উপসর্গ বৃদ্ধি",
+                    "display-kn": "ನಡೆದಾಡಿದಾಗ ರೋಗಲಕ್ಷಣವು ಉಲ್ಬಣಗೊಳ್ಳುತ್ತದೆ",
+                    "display-mr": "गतीने हालचाल केल्यामुळे वेदना वाढल्या"
+                },
+                {
+                    "id": "ID_145619504",
+                    "text": "Worsened by rest (relieved by activity)",
+                    "display-or": "ବିଶ୍ରାମ ନେଲେ ଅଧିକ ହୁଏ",
+                    "display-hi": "आराम करने से बढ़ता है (काम करने से आराम मिलता है)",
+                    "display-gu": "આરામ કરવાથી બદત્તર થવું (પ્રવૃત્તિ કરતાં રાહત મળે છે)",
+                    "display-as": "বিশ্রাম দ্বাৰা ক্ষতিগ্রস্থ (ক্রিয়াকলাপ দ্বাৰা মুক্তি)",
+                    "display-bn": "বিশ্রাম দ্বারা খারাপ (ক্রিয়াকলাপ দ্বারা উপশম)",
+                    "display-kn": "ವಿಶ್ರಾಂತಿಯಿಂದ ಹದಗೆಟ್ಟಿದೆ (ಚಟುವಟಿಕೆಯಿಂದ ಪರಿಹಾರ)",
+                    "display-mr": "विश्रांतीमुळे वेदना वाढतात (काम करताना वेदना कमी होतात)"
+                },
+                {
+                    "id": "ID_1999015442",
+                    "text": "Cough/sneezing",
+                    "display-or": "କାଶିଲେ ବା ଛିଙ୍କିଲେ",
+                    "display-hi": "खांसना/छींकना",
+                    "display-gu": "કફ/છીંક ખાવી",
+                    "display-as": "কাহ / হাঁচি",
+                    "display-bn": "কাশি/হাঁচি",
+                    "display-kn": "ಕೆಮ್ಮು / ಸೀನುವಿಕೆ",
+                    "display-mr": "खोकणे/शिंकणे"
+                },
+                {
+                    "id": "ID_1647407538",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ଯାନ୍ଯ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বর্ণনা)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1008303409",
+                    "text": "None",
+                    "display-or": "କିଛି ନକଲେ",
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "यापैकी काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपका पैर का दर्द निम्न से और बिगड़ जाता है?*",
+            "display-gu": "શું અહીં નીચે જણાવેલ બાબત(તો)ની સાથે આપના પગમાં થઈ રહેલો દુઃખાવો બદત્તર થઈ જાય છે?*",
+            "display-as": "নিম্নলিখিত (বোৰ) দ্বাৰা আপোনাৰ ভৰিত বিষ আৰু বেয়া হৈছে?*",
+            "display-bn": "নিম্নলিখিত (গুলি) দ্বারা আপনার পায়ে ব্যথা আরও খারাপ হয়েছে?*",
+            "display-kn": "ಕೆಳಗಿನವುಗಳಿಂದ ನಿಮ್ಮ ಕಾಲಿನ ನೋವು ಉಲ್ಬಣಗೊಂಡಿದೆಯೇ?*",
+            "display-mr": "तुमच्या पायातील दुखणे खालील कारणाने आणखी वाढते का?"
+        },
+        {
+            "id": "ID_559202150",
+            "text": "H/o specific illness",
+            "display": "Have you ever been diagnosed with any of following specific diseases?*",
+            "isRequired": true,
+            "display-or": "ତମକୁ କେବେ ଆଗରୁ ନିମ୍ନ ଲିଖିତ ବିଶିଷ୍ଟ ରୋଗ ଚିହ୍ନଟ ହୋଇଥିଲା କି?*",
+            "pos-condition": "h/o",
+            "neg-condition": "no h/o",
+            "options": [
+                {
+                    "id": "ID_1629593502",
+                    "text": "Diabetes",
+                    "display-or": "ମଧୁମେହ",
+                    "display-hi": "मधुमेह (डायबिटीज)",
+                    "display-gu": "મધુપ્રમેહ",
+                    "display-as": "ডায়াবেটিচ",
+                    "display-bn": "ডায়াবেটিস",
+                    "display-kn": "ಮಧುಮೇಹ",
+                    "display-mr": "मधुमेह"
+                },
+                {
+                    "id": "ID_171659259",
+                    "text": "Hypertension",
+                    "display-or": "ଉଚ୍ଚ ରକ୍ତଚାପ",
+                    "display-hi": "हाइपरटेंशन ",
+                    "display-gu": "હાયપરટેન્શન",
+                    "display-as": "উচ্চ ৰক্তচাপ",
+                    "display-bn": "উচ্চ রক্তচাপ",
+                    "display-kn": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡ",
+                    "display-mr": "उच्च रक्तदाब"
+                },
+                {
+                    "id": "ID_237719112",
+                    "text": "Abnormal bleeding disorder",
+                    "display-or": "ପେଟର ରକ୍ତସ୍ରାବ ବ୍ୟତିକ୍ରମ",
+                    "display-hi": "अत्यधिक खून निकलना ",
+                    "display-gu": "અસામાન્ય રક્તસ્રાવ ડિસઓર્ડર",
+                    "display-as": "অস্বাভাৱিক ৰক্তক্ষৰণৰ বিকাৰ",
+                    "display-bn": "অস্বাভাবিক রক্তপাত ব্যাধি",
+                    "display-kn": "ಅಸಹಜ ರಕ್ತಸ್ರಾವದ ಕಾಯಿಲೆ",
+                    "display-mr": "असामान्य रक्तस्त्राव (जखमेतून रक्त न थांबणे)"
+                },
+                {
+                    "id": "ID_897022499",
+                    "text": "Recent/constant overuse of lower extremities",
+                    "display-or": "ଗୋଡ଼ର ଅଧିକ ବ୍ଯବହାର",
+                    "display-hi": "हाल में / लगातार हद से ज्यादा पैरो का इस्तेमाल करना",
+                    "display-gu": "શરીરના નીચલા ભાગનો હાલમાં જ/સતત વધારે પડતો ઉપયોગ",
+                    "display-as": "নিম্নতৰ অংশবোৰৰ সাম্প্রতিক / ধ্রুবক অতিৰিক্ত ব্যবহাৰ",
+                    "display-bn": "নিম্ন প্রান্তের সাম্প্রতিক/ধ্রুবক অত্যধিক ব্যবহার",
+                    "display-kn": "ಕೆಳಗಿನ ತುದಿಗಳ ಇತ್ತೀಚಿನ / ನಿರಂತರ ಅತಿಯಾದ ಬಳಕೆ",
+                    "display-mr": "अलीकडे वारंवार पायांचा ताण येईपर्यंत वापर /जास्त वेळ उभं राहणं"
+                },
+                {
+                    "id": "ID_1988861801",
+                    "text": "Unknown",
+                    "language": "No known history of specific illnesses",
+                    "display-or": "ଜଣାନାହିଁ",
+                    "display-hi": "पता नहीं",
+                    "display-gu": "ખબર નથી",
+                    "display-as": "অজান(নাজানো)",
+                    "display-bn": "অজানা",
+                    "display-kn": "ತಿಳಿದಿಲ್ಲ",
+                    "display-mr": "माहीत नाही"
+                },
+                {
+                    "id": "ID_1706423944",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ଯାନ୍ଯ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বর্ণনা)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर (वर्णन करा)"
+                },
+                {
+                    "id": "ID_270855617",
+                    "text": "None",
+                    "display-or": "କିଛି ନୁହେଁ",
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "यापैकी काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपको कभी निम्न बीमारियां हुई हैं?*",
+            "display-gu": "શું આપને ક્યારેય અહીં નીચે જણાવેલ બીમારીઓમાંથી કોઇનું નિદાન થયું છે?*",
+            "display-as": "আপুনি নিম্নলিখিত ৰোগৰ কোনো ৰোগ নির্ণয় কৰিছে?*",
+            "display-bn": "আপনি কি কখনও নিম্নলিখিত নির্দিষ্ট রোগের সাথে নির্ণয় করেছেন?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ರೋಗಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ ?*",
+            "display-mr": "तुम्हाला कधी खालीलपैकी आजाराचे निदान झाले आहे का?"
+        },
+        {
+            "id": "ID_1350554066",
+            "text": "Trauma/surgery history",
+            "display": "Recently have you had a trauma or surgery?*",
+            "isRequired": true,
+            "display-or": "ଅାଘାତ / ଅପରେସନ",
+            "options": [
+                {
+                    "id": "ID_5319440",
+                    "text": "No",
+                    "language": "No recent h/o trauma/surgery",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                },
+                {
+                    "id": "ID_865689059",
+                    "text": "Yes",
+                    "language": "Recent h/o trauma / surgery",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_1688286619",
+                            "text": "When",
+                            "input-type": "date",
+                            "language": "on",
+                            "display-or": "କେବେ",
+                            "display-hi": "कब",
+                            "display-gu": "ક્યારે",
+                            "display-as": "কেতিয়া",
+                            "display-bn": "কখন",
+                            "display-kn": "ಯಾವಾಗ",
+                            "display-mr": "कधी"
+                        },
+                        {
+                            "id": "ID_1817538464",
+                            "text": "Involved area",
+                            "display-or": "କେଉଁ ଯାଗା",
+                            "options": [
+                                {
+                                    "id": "ID_1064391958",
+                                    "text": "Hip & Buttock",
+                                    "display-or": "ଅଣ୍ଟା, ପିଚାା",
+                                    "display-hi": "कूल्हा और नितंब",
+                                    "display-gu": "નિતંબ અને થાપો",
+                                    "display-as": "ঊৰু বা তপিনা",
+                                    "display-bn": "নিতম্ব ও নিতম্ব",
+                                    "display-kn": "ಸೊಂಟ ಮತ್ತು ಅಂಡು",
+                                    "display-mr": "कंबर आणि नितंब"
+                                },
+                                {
+                                    "id": "ID_1402030762",
+                                    "text": "Back",
+                                    "display-or": "ପିଠି",
+                                    "display-hi": "पीछे",
+                                    "display-gu": "પાછળ",
+                                    "display-as": "পিছফালে",
+                                    "display-bn": "পেছনে",
+                                    "display-kn": "ಹಿಂದೆ",
+                                    "display-mr": "मागे"
+                                },
+                                {
+                                    "id": "ID_65878618",
+                                    "text": "Leg",
+                                    "display-or": "ଗୋଡ଼",
+                                    "display-hi": "पैर",
+                                    "display-gu": "પગ",
+                                    "display-as": "ভৰি",
+                                    "display-bn": "পা",
+                                    "display-kn": "ಲೆಗ್",
+                                    "display-mr": "पाय"
+                                }
+                            ],
+                            "display-hi": "प्रभावित क्षेत्र",
+                            "display-gu": "સંકળાયેલા ભાગો",
+                            "display-as": "জড়িত অঞ্চল",
+                            "display-bn": "জড়িত এলাকা",
+                            "display-kn": "ಒಳಗೊಂಡಿರುವ ಪ್ರದೇಶ",
+                            "display-mr": "प्रभावित जागा"
+                        }
+                    ],
+                    "display-hi": "हाँ",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "हो"
+                }
+            ],
+            "display-hi": "क्या आपको कभी गहरी चोट लगी या आपकी सर्जरी हुई है?*",
+            "display-gu": "શું આપને હાલમાં જ કોઈ ઇજા થઈ છે કે સર્જરી કરાવી છે?*",
+            "display-as": "সম্প্রতি আপুনাৰ কোনো ট্রমা বা সার্জাৰি হৈছে?*",
+            "display-bn": "সম্প্রতি আপনার ট্রমা বা অস্ত্রোপচার হয়েছে?*",
+            "display-kn": "ಇತ್ತೀಚಿಗೆ ನಿಮಗೆ ಆಘಾತ ಅಥವಾ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಯಾಗಿದೆಯೇ?*",
+            "display-mr": "तुम्हाला कधी गंभीर दुखापत झाली आहे किंवा ऑपरेशन झाली आहे का?"
+        },
+        {
+            "id": "ID_683390650",
+            "text": "Injection drug use",
+            "display": "Have you ever taken any kind of injection drug?*",
+            "isRequired": true,
+            "display-or": "କିଛି ଇଞ୍ଜେକସନ ଦେବା*",
+            "options": [
+                {
+                    "id": "ID_1002893825",
+                    "text": "No",
+                    "language": "No h/o injection / drug use",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                },
+                {
+                    "id": "ID_1516971391",
+                    "text": "Yes ",
+                    "language": "Patient has h/o use of Injection / drug",
+                    "display-or": "ହଁ",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_206817544",
+                            "text": "Medication name (Describe)",
+                            "input-type": "text",
+                            "language": "Medication name",
+                            "display-or": "ଔଷଧ ର ନା",
+                            "display-hi": "दवा का नाम (वर्णन करें)",
+                            "display-gu": "દવાનું નામ (જણાવો)",
+                            "display-as": "ঔষধৰ নাম (বর্ণনা)",
+                            "display-bn": "ওষুধের নাম (বর্ণনা করুন)",
+                            "display-kn": "ಔಷಧದ ಹೆಸರು (ವಿವರಿಸಿ)",
+                            "display-mr": "औषधाचे नाव"
+                        },
+                        {
+                            "id": "ID_20738022",
+                            "text": "From",
+                            "input-type": "date",
+                            "display-or": "କେବେଠାରୁ",
+                            "display-hi": "कब से",
+                            "display-gu": "ક્યારથી",
+                            "display-as": "পৰা",
+                            "display-bn": "থেকে",
+                            "display-kn": "ಇಂದ",
+                            "display-mr": "कधी पासून?"
+                        },
+                        {
+                            "id": "ID_872108355",
+                            "text": "To",
+                            "input-type": "date",
+                            "display-or": "କେଉଁ ପର୍ଯ୍ଯନ୍ତ",
+                            "display-hi": "कब तक",
+                            "display-gu": "ક્યાં સુધી",
+                            "display-as": "প্রতি",
+                            "display-bn": "প্রতি",
+                            "display-kn": "ವರೆಗೆ",
+                            "display-mr": "कधी पर्यंत?"
+                        }
+                    ],
+                    "display-hi": "हाँ",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "हो"
+                }
+            ],
+            "display-hi": "क्या आपने कभी किसी प्रकार की दवा या इंजेक्शन ली है?*",
+            "display-gu": "શું આપે ક્યારેય ઇન્જેક્શન વડે કોઈ દવા લીધી છે?*",
+            "display-as": "আপুনি কেতিয়াও কোনো ধৰণৰ ইনজেকশন ড্রাগ(বেজি,দৰব খায় ছিলে নে?*",
+            "display-bn": "আপনি কি কখনও কোন ধরনের ইনজেকশন ড্রাগ গ্রহণ করেছেন?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಯಾವುದೇ ರೀತಿಯ ಇಂಜೆಕ್ಷನ್ ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्ही कधी कोणतेही औषध इंजेक्शनद्वारे घेतले आहे का?"
+        },
+        {
+            "id": "ID_766645158",
+            "text": "Prior treatment sought",
+            "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?*",
+            "isRequired": true,
+            "display-or": "ତମେ ଆଗରୁ କୌଣସି  ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)*",
+            "options": [
+                {
+                    "id": "ID_212707272",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                    "display-hi": "हाँ [वर्णन करें]",
+                    "display-gu": "હા [વિગતે જણાવો]",
+                    "display-as": "হয় [বর্ণনা কৰা]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "हो (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1226925547",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "यापैकी काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपने आज यहां आने से पहले इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?*",
+            "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?*",
+            "display-as": "আজি ইয়াত আহা আগতে আপুনি কি কোনো চিকিৎসা কৰিছিলে (স্ব-ঔষধ বা ঘৰোৱা প্রতিকাৰ সহ ) বা কোনো স্বাস্থ্য সৰবৰাহকাৰীক এই সমস্যাৰ বিষযে দেখোছিলে ?*",
+            "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?*",
+            "display-kn": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरला दाखवले आहे का?"
+        },
+        {
+            "id": "ID_576538883",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_1354454302",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "[अन्य जानकारी दर्ज करें]",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য লিখা]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "(अजून काही माहिती असल्यास भरा)"
+                }
+            ],
+            "display-hi": "अन्य जानकारी",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अजून काही माहिती असल्यास भरा"
+        }
+    ],
+    "display-hi": "पैर, घुटने और कुल्हे का दर्द",
+    "display-gu": "પગ, ઘૂંટણ અથવા થાપામાં દુઃખાવો",
+    "display-as": "ভৰি,আঠু বা তপিনা (উৰুৰ জোৰা)বিষ",
+    "display-bn": "পা, হাঁটু বা নিতম্বের ব্যথা",
+    "display-kn": "ಕಾಲು, ಮೊಣಕಾಲು ಅಥವಾ ಸೊಂಟ ನೋವು",
+    "display-mr": "पाय, गुडघा किंवा नितंब वेदना"
+}
