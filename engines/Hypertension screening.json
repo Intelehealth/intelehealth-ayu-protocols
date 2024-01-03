@@ -1,0 +1,1165 @@
+{
+    "id": "ID_947228699",
+    "text": "Hypertension screening",
+    "pop-up": "Measure BP for all patients above 30 years, after resting them for 5 minutes",
+    "display-or": "ଉଚ୍ଚରକ୍ତଚାପ ମାପକ ହେବା",
+    "age_min": "30",
+    "age_max": "120",
+    "options": [
+        {
+            "id": "ID_1004478691",
+            "text": "Hypertension",
+            "display": "Do you have BP more than 140/90 mmHg?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ଆପଣଙ୍କର ରକ୍ତଚାପ ୧୪୦/୯୦ ରୁ ଅଧିକ ଅଛିକି?*",
+            "options": [
+                {
+                    "id": "ID_1619358653",
+                    "text": "Yes",
+                    "language": "The patient has hypertension",
+                    "pop-up": "Measure in other limb also",
+                    "display-or": "ହଁ",
+                    "display-hi": "हा",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_1404197665",
+                    "text": "No",
+                    "language": "The patient does not have hypertension",
+                    "pop-up": "Advise the patient on proper life style to be followed to prevent hypertension",
+                    "display-or": "ନାଁ",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपका बीपी 140/90 से ज्यादा है?*",
+            "display-gu": "તમારું બીપી 140/90એમએમએચજી કરતાં વધારે રહે છે?*",
+            "display-as": "আপোনাৰ বি পি ১৪০/৯০ মিলিমিটাৰকৈ অধিক নেকি?*",
+            "display-bn": "আপনার কি 140/90 mmHg এর বেশি BP আছে?*",
+            "display-kn": "ನೀವು 140/90 mmHg ಗಿಂತ ಹೆಚ್ಚು BP ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुमचा रक्तदाब 140/90 mmHg पेक्षा जास्त आहे का?"
+        },
+        {
+            "id": "ID_906160124",
+            "text": "Diagnosed for first time?",
+            "display": "Is this the first time you have been diagnosed with hypertension?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ଏହା କଣ ପ୍ରଥମ ଥର ତୁମେ ଉଚ୍ଚରକ୍ତଚାପ ରୋଗର ନିରୁପିତ ହୋଇଛ ?*",
+            "language": "%",
+            "options": [
+                {
+                    "id": "ID_902859234",
+                    "text": "Yes",
+                    "language": "It is the first patient has been diagnosed with hypertension",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_84080428",
+                            "text": "Age <40?",
+                            "display": "What is your age?*",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "display-or": "ତୁମର ବୟସ କେତେ*",
+                            "options": [
+                                {
+                                    "id": "ID_1173776147",
+                                    "text": "Less than 40",
+                                    "language": "Patient age is <40",
+                                    "display-or": "୪୦ବର୍ଷରୁ କମ",
+                                    "options": [
+                                        {
+                                            "id": "ID_1687423404",
+                                            "text": "Send to consultant to rule out secondary hypertension",
+                                            "display-or": "ମାଧ୍ୟମିକ ଉଚ୍ଚରକ୍ତ ଚାପ ନିମନ୍ତେ ପରମର୍ଶଦାତାଙ୍କ ପାଖକୁ ପଠାଇବା",
+                                            "display-hi": "किसी विशेषज्ञ के पास भेजे ताकि गंभीरता का अनुमान लगा सके",
+                                            "display-gu": "સેકન્ડરી હાઇપરટેન્શન ન હોવાની ખાતરી કરવા કન્સલ્ટન્ટ પાસે મોકલો",
+                                            "display-as": "মাধ্যমিক উচ্চ ৰক্তচাপ নুই কৰিবলৈ পৰামৰ্শদাতালৈ পঠাওক",
+                                            "display-bn": "সেকেন্ডারি হাইপারটেনশন বাতিল করতে পরামর্শককে পাঠান",
+                                            "display-kn": "ಸೆಕೆಂಡರಿ ಅಧಿಕ ರಕ್ತದೊತ್ತಡವನ್ನು ತಳ್ಳಿಹಾಕಲು ಸಲಹೆಗಾರರಿಗೆ ಕಳುಹಿಸಿ",
+                                            "display-mr": "उच्च रक्तदाबाचे निदान निश्चिती साठी वैद्यकीय सल्ला सुचवा"
+                                        }
+                                    ],
+                                    "display-hi": "40 से कम",
+                                    "display-gu": "40 કરતાં ઓછી",
+                                    "display-as": "৪০ তকৈ কম",
+                                    "display-bn": "40 এর কম",
+                                    "display-kn": "40 ಕ್ಕಿಂತ ಕಡಿಮೆ",
+                                    "display-mr": "40 पेक्षा कमी"
+                                },
+                                {
+                                    "id": "ID_1255352071",
+                                    "text": "More than 40",
+                                    "language": "Patient age is >40",
+                                    "display-or": "୪୦ବର୍ଷରୁ ଅଧିକ",
+                                    "options": [
+                                        {
+                                            "id": "ID_1791230013",
+                                            "text": "Teleconsult and initiate treatment according to NCD guidelines",
+                                            "display-or": "ଏନ୍.ସି.ଡି. ନିୟମ ଅନୁସାରେ ଦୂରଭାଷ ମାଧ୍ୟମରେ ଚିକିତ୍ସା କରିବା",
+                                            "display-hi": "सलाह ले और इलाज़ जरुरी मापदंड के हिसाब से शुरू करे",
+                                            "display-gu": "એનસીડીની માર્ગદર્શિકાઓ મુજબ ફોનથી સલાહ (ટેલિકન્સલ્ટ) કરીને ઉપચાર શરૂ કરો",
+                                            "display-as": "এনচিডিৰ নিৰ্দেশনা অনুসৰি টেলিকনচালট কৰি চিকিৎসা আৰম্ভ কৰা",
+                                            "display-bn": "টেলিকনসাল্ট করুন এবং NCD নির্দেশিকা অনুযায়ী চিকিৎসা শুরু করুন",
+                                            "display-kn": "NCD ಮಾರ್ಗಸೂಚಿಗಳ ಪ್ರಕಾರ ದೂರವಾಣಿ ಮೂಲಕ ಭೇಟಿ ಮಾಡಿ ಮತ್ತು ಚಿಕಿತ್ಸೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+                                            "display-mr": "NCD मार्गदर्शक तत्त्वांनुसार दूरस्थ चिकित्सकांच्या सल्ल्याने उपचारांना सुरुवात करा"
+                                        }
+                                    ],
+                                    "display-hi": "40 से ज्यादा",
+                                    "display-gu": "40થી વધુ",
+                                    "display-as": "৪০ তকৈ অধিক",
+                                    "display-bn": "40 এর বেশি",
+                                    "display-kn": "40 ಕ್ಕಿಂತ ಹೆಚ್ಚು",
+                                    "display-mr": "40 पेक्षा जास्त"
+                                }
+                            ],
+                            "display-hi": "आपकी आयु क्या है?*",
+                            "display-gu": "તમારી ઉંમર કેટલી?*",
+                            "display-as": "আপোনাৰ বয়স কিমান?*",
+                            "display-bn": "তোমার বয়স কত?*",
+                            "display-kn": "ನಿನ್ನ ವಯಸ್ಸು ಎಷ್ಟು?*",
+                            "display-mr": "तुमचे वय काय आहे?"
+                        }
+                    ],
+                    "display-hi": "हा",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "होय"
+                },
+                {
+                    "id": "ID_534973635",
+                    "text": "No",
+                    "language": "Patient is known case of Hypertension",
+                    "display-or": "ନାଁ",
+                    "options": [
+                        {
+                            "id": "ID_478477018",
+                            "text": "Whether treatment advised?",
+                            "display": "Had you been advised treatment for hypertension?*",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "display-or": "ତୁମେ କେବେ ଉଚ୍ଚରକ୍ତଚାପ ରୋଗ ନିମନ୍ତେ ଚିକିତ୍ସା ପାଇଁ ପରାମର୍ଶ ପାଇଛନ୍ତି କି?*",
+                            "options": [
+                                {
+                                    "id": "ID_1806595363",
+                                    "text": "No",
+                                    "language": "Patient has not been advised treatment for HTN",
+                                    "display-or": "ନାଁ",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_222740358",
+                                    "text": "Yes",
+                                    "language": "Patient had been advised treatment",
+                                    "display-or": "ହଁ",
+                                    "options": [
+                                        {
+                                            "id": "ID_1419634154",
+                                            "text": "When?",
+                                            "display": "When was the treatment advised?*",
+                                            "isRequired": true,
+                                            "display-or": "କେବେ ଚିକିତ୍ସା ନିମନ୍ତେ ପରାମର୍ଶ ଦିଆ ଯାଇଥିଲା ?*",
+                                            "input-type": "date",
+                                            "language": "on",
+                                            "display-hi": "आपका यह इलाज़ कब बताया गया था?*",
+                                            "display-gu": "તમને ઉપચારની સલાહ ક્યારે અપાઇ હતી?*",
+                                            "display-as": "কেতিয়া চিকিৎসাৰ পৰামৰ্শ দিয়া হৈছিল?*",
+                                            "display-bn": "কখন চিকিত্সার পরামর্শ দেওয়া হয়েছিল?*",
+                                            "display-kn": "ಚಿಕಿತ್ಸೆಯನ್ನು ಯಾವಾಗ ಸೂಚಿಸಲಾಗುತ್ತದೆ?*",
+                                            "display-mr": "उपचाराचा सल्ला कधी देण्यात आला?"
+                                        },
+                                        {
+                                            "id": "ID_120272344",
+                                            "text": "What?",
+                                            "display": "What treatment had been advised?*",
+                                            "isRequired": true,
+                                            "display-or": "କେଉଁ ଚିକିତ୍ସା ପାଇଁ ପରାମର୍ଶ ଦିଆଯାଇଥିଲା ?*",
+                                            "language": "Treatment advised:",
+                                            "options": [
+                                                {
+                                                    "id": "ID_1763201920",
+                                                    "text": "[Describe]",
+                                                    "input-type": "text",
+                                                    "language": "%",
+                                                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                                                    "display-hi": "(वर्णन करे) ",
+                                                    "display-gu": "[વિગતે જણાવો]",
+                                                    "display-as": "[বৰ্ণনা কৰা]",
+                                                    "display-bn": "[বর্ণনা]",
+                                                    "display-kn": "[ವಿವರಿಸಿ]",
+                                                    "display-mr": "[वर्णन करणे]"
+                                                }
+                                            ],
+                                            "display-hi": "आपको कौन सा इलाज़ बताया गया था?*",
+                                            "display-gu": "કયા ઉપચારની સલાહ અપાઈ હતી?*",
+                                            "display-as": "কি চিকিৎসাৰ পৰামৰ্শ দিয়া হৈছিল?*",
+                                            "display-bn": "আপনি কি চিকিৎসার পরামর্শ দিয়েছেন?*",
+                                            "display-kn": "ಯಾವ ಚಿಕಿತ್ಸೆಯನ್ನು ಸೂಚಿಸಲಾಗಿದೆ?*",
+                                            "display-mr": "कोणत्या उपचारांचा सल्ला देण्यात आला होता?"
+                                        },
+                                        {
+                                            "id": "ID_670076519",
+                                            "text": "Whether continued?",
+                                            "display": "Were you able to continue the treatment?*",
+                                            "isRequired": true,
+                                            "multi-choice": false,
+                                            "display-or": "କେଉଁଠାରେ ତୁମେ ଚିକିତ୍ସା ନିମନ୍ତେ ଚିକିତ୍ସାପାଇଁ ସକ୍ଷମ ହୋଇଥିଲ ?*",
+                                            "language": "Compliance:",
+                                            "options": [
+                                                {
+                                                    "id": "ID_1656056737",
+                                                    "text": "Yes",
+                                                    "language": "The patient continued the treatment",
+                                                    "display-or": "ହଁ",
+                                                    "display-hi": "हा",
+                                                    "display-gu": "હા",
+                                                    "display-as": "হয়",
+                                                    "display-bn": "হ্যাঁ",
+                                                    "display-kn": "ಹೌದು",
+                                                    "display-mr": "होय"
+                                                },
+                                                {
+                                                    "id": "ID_721588907",
+                                                    "text": "No",
+                                                    "language": "The patient did not continue the treatment",
+                                                    "display-or": "ନାଁ",
+                                                    "options": [
+                                                        {
+                                                            "id": "ID_1150734688",
+                                                            "text": "Why discontinued",
+                                                            "display": "Why was the treatment discontinued?*",
+                                                            "isRequired": true,
+                                                            "multi-choice": true,
+                                                            "display-or": "କାହିକି ଚିକିତ୍ସା ବନ୍ଦ ହୋଇଥିଲା ?*",
+                                                            "options": [
+                                                                {
+                                                                    "id": "ID_608335540",
+                                                                    "text": "As per advise of doctor",
+                                                                    "display": "Advised to discontinue by doctor",
+                                                                    "display-or": "ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ ଅନୁସାରେ",
+                                                                    "display-hi": "डाक्टर ने बोला",
+                                                                    "display-gu": "ડૉક્ટરે કહ્યું",
+                                                                    "display-as": "চিকিৎসকৰ দ্বাৰা বন্ধ কৰিবলৈ পৰামৰ্শ দিয়া হৈছে",
+                                                                    "display-bn": "ডাক্তার বন্ধ করার পরামর্শ দিয়েছেন",
+                                                                    "display-kn": "ವೈದ್ಯರು ನಿಲ್ಲಿಸಲು ಸಲಹೆ ನೀಡಿದರು",
+                                                                    "display-mr": "डॉक्टरांनी बंद करण्याचा सल्ला दिला"
+                                                                },
+                                                                {
+                                                                    "id": "ID_1228521705",
+                                                                    "text": "As BP was controlled",
+                                                                    "display-or": "ରକ୍ତଚାପ ନିୟନ୍ତ୍ରଣରେ ରହିବା ହେତୁ",
+                                                                    "display-hi": "बीपी नियंत्रण में आ गयी ",
+                                                                    "display-gu": "બીપી અંકુશમાં આવી ગયું",
+                                                                    "display-as": "যিদৰে বি পি নিয়ন্ত্ৰণ কৰা হৈছিল",
+                                                                    "display-bn": "যেহেতু রক্তচাপ নিয়ন্ত্রণে ছিল",
+                                                                    "display-kn": "ಬಿಪಿ ಕಂಟ್ರೋಲ್ ಆದಂತೆ",
+                                                                    "display-mr": "रक्तदाब नियंत्रित होता म्हणून"
+                                                                },
+                                                                {
+                                                                    "id": "ID_1279628610",
+                                                                    "text": "Side effects",
+                                                                    "language": "Patient experienced side effects",
+                                                                    "display-or": "ପାଶ୍ୱର୍ପ୍ରତିକ୍ରିୟା ହେତୁ",
+                                                                    "display-hi": "कोई ख़राब असर",
+                                                                    "display-gu": "આડઅસરો",
+                                                                    "display-as": "পাৰ্শ্বক্ৰিয়া",
+                                                                    "display-bn": "ক্ষতিকর দিক",
+                                                                    "display-kn": "ಅಡ್ಡ ಪರಿಣಾಮಗಳು",
+                                                                    "display-mr": "दुष्परिणाम"
+                                                                },
+                                                                {
+                                                                    "id": "ID_1417416543",
+                                                                    "text": "Cost",
+                                                                    "language": "as it was costly",
+                                                                    "display-or": "ମୂଲ୍ୟ ବୃଦ୍ଧି ହେତୁ",
+                                                                    "display-hi": "महंगाई",
+                                                                    "display-gu": "ખર્ચ",
+                                                                    "display-as": "খৰচ",
+                                                                    "display-bn": "খরচ",
+                                                                    "display-kn": "ವೆಚ್ಚ",
+                                                                    "display-mr": "खर्च"
+                                                                },
+                                                                {
+                                                                    "id": "ID_1785326460",
+                                                                    "text": "Switched to other system of medicine",
+                                                                    "display-or": "ଅନ୍ୟ ଚିକିତ୍ସା ପଦ୍ଧତିକୁ ଆପଣେଇବା ହେତୁ",
+                                                                    "display-hi": "कोई अन्य प्रकार के इलाज़ करने लगे",
+                                                                    "display-gu": "બીજા પ્રકારની ઉપચાર પદ્ધતિ શરૂ કરી",
+                                                                    "display-as": "চিকিৎসাৰ অন্য ব্যৱস্থালৈ সলনি কৰা হ’ল",
+                                                                    "display-bn": "মেডিসিনের অন্য সিস্টেমে স্যুইচ করা হয়েছে",
+                                                                    "display-kn": "ಬೇರೆ ಔಷಧ ಪದ್ಧತಿಗೆ ಬದಲಾದರು",
+                                                                    "display-mr": "अन्य चिकित्सा-पद्धतीचा वापर केला"
+                                                                },
+                                                                {
+                                                                    "id": "ID_1450345498",
+                                                                    "text": "Other [Describe]",
+                                                                    "input-type": "text",
+                                                                    "language": "%",
+                                                                    "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
+                                                                    "display-hi": "अन्य (वर्णन करे)",
+                                                                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                                                                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
+                                                                    "display-bn": "অন্যান্য [বর্ণনা]",
+                                                                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                                                                    "display-mr": "इतर [वर्णन करा]"
+                                                                }
+                                                            ],
+                                                            "display-hi": "आपको इलाज़ क्यों बंद करना पड़ा?*",
+                                                            "display-gu": "ઉપચાર શા માટે છોડી દીધો?*",
+                                                            "display-as": "কিয় চিকিৎসা বন্ধ কৰা হ’ল?*",
+                                                            "display-bn": "কেন চিকিৎসা বন্ধ করতে হলো?*",
+                                                            "display-kn": "ಚಿಕಿತ್ಸೆಯನ್ನು ಏಕೆ ನಿಲ್ಲಿಸಲಾಯಿತು?*",
+                                                            "display-mr": "उपचार का बंद केले?"
+                                                        }
+                                                    ],
+                                                    "display-hi": "नहीं",
+                                                    "display-gu": "ના",
+                                                    "display-as": "নহয়",
+                                                    "display-bn": "না",
+                                                    "display-kn": "ಅಲ್ಲ",
+                                                    "display-mr": "नाही"
+                                                }
+                                            ],
+                                            "display-hi": "क्या आप इलाज़ चालु रख सके?*",
+                                            "display-gu": "તમે ઉપચાર ચાલુ રાખી શક્યા?*",
+                                            "display-as": "চিকিৎসা অব্যাহত ৰাখিবলৈ সক্ষম হৈছিল নেকি?*",
+                                            "display-bn": "আপনি কি চিকিৎসা চালিয়ে যেতে পেরেছেন?*",
+                                            "display-kn": "ನೀವು ಚಿಕಿತ್ಸೆಯನ್ನು ಮುಂದುವರಿಸಲು ಸಾಧ್ಯವೇ?*",
+                                            "display-mr": "तुम्ही उपचार सुरू ठेवू शकलात का?"
+                                        }
+                                    ],
+                                    "display-hi": "हा",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                }
+                            ],
+                            "display-hi": "क्या आपको हाई बीपी के लिए इलाज़ बताया गया है?*",
+                            "display-gu": "તમને હાઇપરટેન્શનનો ઉપચાર કરાવવાની સલાહ અપાઇ હતી?*",
+                            "display-as": "উচ্চ ৰক্তচাপৰ চিকিৎসাৰ পৰামৰ্শ দিয়া হৈছিল নেকি?*",
+                            "display-bn": "আপনার কি উচ্চ রক্তচাপের জন্য চিকিত্সা নির্ধারিত হয়েছে?*",
+                            "display-kn": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡಕ್ಕೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ನಿಮಗೆ ಸಲಹೆ ನೀಡಲಾಗಿದೆಯೇ?*",
+                            "display-mr": "तुम्हाला हायपरटेन्शनसाठी उपचारांचा सल्ला देण्यात आला होता का?"
+                        }
+                    ],
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपको पहली बार हाई बीपी पता चला है?*",
+            "display-gu": "તમને હાઇપરટેન્શન હોવાનું નિદાન પહેલી જ વખત થયું છે?*",
+            "display-as": "এইবাৰ প্ৰথমবাৰৰ বাবে উচ্চ ৰক্তচাপ ধৰা পৰিছে নেকি?*",
+            "display-bn": "এই প্রথম আপনি উচ্চ রক্তচাপ নির্ণয় করা হয়েছে?*",
+            "display-kn": "ನೀವು ಅಧಿಕ ರಕ್ತದೊತ್ತಡದಿಂದ ಬಳಲುತ್ತಿರುವುದು ಇದೇ ಮೊದಲೇ ?*",
+            "display-mr": "तुमचा रक्तदाब अधिक आढळण्याची ही पहिलीच वेळ आहे का?"
+        },
+        {
+            "id": "ID_1606310369",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?*",
+            "isRequired": true,
+            "display-or": "ଆପଣଙ୍କ ନିମ୍ନ ଲିଖିତ ଲକ୍ଷଣ ଅଛି କି?*",
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "options": [
+                {
+                    "id": "ID_1951423950",
+                    "text": "Headache",
+                    "display-or": "ମୁଣ୍ଡବ୍ୟଥା",
+                    "display-hi": "सरदर्द",
+                    "display-gu": "માથાંનો દુખાવો",
+                    "display-as": "মূৰৰ বিষ",
+                    "display-bn": "মাথাব্যথা",
+                    "display-kn": "ತಲೆನೋವು",
+                    "display-mr": "डोकेदुखी"
+                },
+                {
+                    "id": "ID_1450606073",
+                    "text": "Visual disturbances",
+                    "display-or": "ଦେଖିବାରେ ଅସୁବିଧା",
+                    "display-hi": "देखने में परेशानी",
+                    "display-gu": "નજરમાં તકલીફ",
+                    "display-as": "দৃষ্টিশক্তিৰ বিঘিনি",
+                    "display-bn": "চাক্ষুষ ব্যাঘাত",
+                    "display-kn": "ದೃಷ್ಟಿ ಅಡಚಣೆಗಳು",
+                    "display-mr": "दृष्टीमध्ये अडचणी"
+                },
+                {
+                    "id": "ID_813814413",
+                    "text": "Chest pain",
+                    "display-or": "ଛାତି ଯନ୍ତ୍ରଣା",
+                    "display-hi": "छाती में दर्द",
+                    "display-gu": "છાતીમાં દુખાવો",
+                    "display-as": "বুকুৰ বিষ",
+                    "display-bn": "বুক ব্যাথা",
+                    "display-kn": "ಎದೆ ನೋವು",
+                    "display-mr": "छाती दुखणे"
+                },
+                {
+                    "id": "ID_95194261",
+                    "text": "Palpitation",
+                    "display-or": "ସ୍ପନ୍ଦନ ହାର/ଅନ୍ରିମିତତା",
+                    "display-hi": "घबराहट",
+                    "display-gu": "થડકારા",
+                    "display-as": "ধপধপনি",
+                    "display-bn": "ধড়ফড়",
+                    "display-kn": "ಹೃದಯ ಬಡಿತ",
+                    "display-mr": "धडधडणे"
+                },
+                {
+                    "id": "ID_1998110815",
+                    "text": "Difficulty breathing",
+                    "display-or": "ଶ୍ୱାସ ନେବାରେ ଅସୁବିଧା",
+                    "display-hi": "सांस लेने में तकलीफ",
+                    "display-gu": "શ્વાસ લેવામાં મુશ્કેલી",
+                    "display-as": "উশাহ লোৱাত অসুবিধা",
+                    "display-bn": "শ্বাস নিতে কষ্ট হওয়া",
+                    "display-kn": "ಉಸಿರಾಟದ ತೊಂದರೆ",
+                    "display-mr": "श्वास घेण्यात अडचण"
+                },
+                {
+                    "id": "ID_193466342",
+                    "text": "Giddiness",
+                    "display-or": "ମୁଣ୍ଡବୁଲାଇବା",
+                    "display-hi": "चक्कर आना ",
+                    "display-gu": "ચકકર",
+                    "display-as": "মূঘোৰণী",
+                    "display-bn": "অস্থিরতা",
+                    "display-kn": "ತಲೆ ಸುತ್ತುವುದು",
+                    "display-mr": "चक्कर"
+                },
+                {
+                    "id": "ID_1592397376",
+                    "text": "Other [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
+                    "display-hi": "अन्य (वर्णन करे)",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर [वर्णन करा]"
+                }
+            ],
+            "display-hi": "क्या आपको निम्नलिखित लक्षण है?*",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+            "display-as": "আপোনাৰ তলত দিয়া লক্ষণ(সমূহ) আছেনে?*",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला खालील लक्षण (लक्षणे) आहेत का?"
+        },
+        {
+            "id": "ID_1263177299",
+            "text": "Life style",
+            "language": "Lifestyle:",
+            "display-or": "ଜୀବନ ଶୈଳୀ ଗି ବିଶେଷତା",
+            "options": [
+                {
+                    "id": "ID_1619310041",
+                    "text": "Do you do physical exercises?",
+                    "language": "Physical exercise:",
+                    "display-or": "ଶାରିରୀକ ବ୍ୟାୟାମ କରକି ?",
+                    "options": [
+                        {
+                            "id": "ID_228080956",
+                            "text": "Yes",
+                            "language": "Patient does physical exercises",
+                            "display-or": "ହଁ",
+                            "options": [
+                                {
+                                    "id": "ID_1651486343",
+                                    "text": "[Describe]",
+                                    "input-type": "text",
+                                    "language": "%",
+                                    "display-or": "[ବର୍ଣ୍ଣନା କର]",
+                                    "display-hi": "(वर्णन करे) ",
+                                    "display-gu": "[વિગતે જણાવો]",
+                                    "display-as": "[বৰ্ণনা কৰা]",
+                                    "display-bn": "[বর্ণনা]",
+                                    "display-kn": "[ವಿವರಿಸಿ]",
+                                    "display-mr": "[वर्णन करणे]"
+                                }
+                            ],
+                            "display-hi": "हा",
+                            "display-gu": "હા",
+                            "display-as": "হয়",
+                            "display-bn": "হ্যাঁ",
+                            "display-kn": "ಹೌದು",
+                            "display-mr": "होय"
+                        },
+                        {
+                            "id": "ID_1700627525",
+                            "text": "No",
+                            "language": "Patient does not do physical exercises",
+                            "display-or": "ନାଁ",
+                            "display-hi": "नहीं",
+                            "display-gu": "ના",
+                            "display-as": "নহয়",
+                            "display-bn": "না",
+                            "display-kn": "ಅಲ್ಲ",
+                            "display-mr": "नाही"
+                        }
+                    ],
+                    "display-hi": "क्या आप शारीरिक करते है",
+                    "display-gu": "તમે કસરતો કરો છો?",
+                    "display-as": "আপুনি শাৰীৰিক ব্যায়াম কৰে নেকি?",
+                    "display-bn": "আপনি কি শারীরিক ব্যায়াম করেন?",
+                    "display-kn": "ನೀವು ದೈಹಿಕ ವ್ಯಾಯಾಮ ಮಾಡುತ್ತೀರಾ?",
+                    "display-mr": "तुम्ही शारीरिक व्यायाम करता का?"
+                },
+                {
+                    "id": "ID_1576958311",
+                    "text": "Diet",
+                    "display": "Do you have the following in your diet?",
+                    "language": "Diet:",
+                    "display-or": "ଆପଣ ନିଜ ଖାଦ୍ୟରେ ନିମ୍ନ ଲିଖିତ ଦ୍ରବ୍ୟ ନିଅ କି ?",
+                    "options": [
+                        {
+                            "id": "ID_1987412773",
+                            "text": "[Describe your diet]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "[ନିଜ ଖାଦ୍ୟ ବର୍ଣ୍ଣନା କର]",
+                            "display-hi": "आपने खान पान का वर्णन करे",
+                            "display-gu": "[આહારમાં શું શું લો છો તે જણાવો ]",
+                            "display-as": "[আপোনাৰ খাদ্যৰ বৰ্ণনা কৰক]",
+                            "display-bn": "[আপনার খাদ্য বর্ণনা করুন]",
+                            "display-kn": "[ನಿಮ್ಮ ಆಹಾರಕ್ರಮವನ್ನು ವಿವರಿಸಿ]",
+                            "display-mr": "[तुमच्या आहाराचे वर्णन करा]"
+                        },
+                        {
+                            "id": "ID_781505304",
+                            "text": "High fat",
+                            "language": "%",
+                            "display-or": "ଅଧିକ ଚର୍ବୀ ଜାତୀୟ",
+                            "options": [
+                                {
+                                    "id": "ID_974540132",
+                                    "text": "No",
+                                    "language": "No high fat diet",
+                                    "display-or": "ନାଁ",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_1836618712",
+                                    "text": "Yes",
+                                    "language": "Patient has high fat diet",
+                                    "display-or": "ହଁ",
+                                    "options": [
+                                        {
+                                            "id": "ID_331074588",
+                                            "text": "[Describe]",
+                                            "input-type": "text",
+                                            "language": "%",
+                                            "display-or": "[ବର୍ଣ୍ଣନା କର]",
+                                            "display-hi": "(वर्णन करे) ",
+                                            "display-gu": "[વિગતે જણાવો]",
+                                            "display-as": "[বৰ্ণনা কৰা]",
+                                            "display-bn": "[বর্ণনা]",
+                                            "display-kn": "[ವಿವರಿಸಿ]",
+                                            "display-mr": "[वर्णन करणे]"
+                                        }
+                                    ],
+                                    "display-hi": "हा",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                }
+                            ],
+                            "display-hi": "ज्यादा वसा",
+                            "display-gu": "વધારે ચરબી",
+                            "display-as": "বেছি চৰ্বিযুক্ত",
+                            "display-bn": "উচ্চ চর্বি",
+                            "display-kn": "ಅಧಿಕ ಕೊಬ್ಬು",
+                            "display-mr": "उच्च चरबी"
+                        },
+                        {
+                            "id": "ID_127981405",
+                            "text": "High salt",
+                            "language": "%",
+                            "display-or": "ଅଧିକ ଲୁଣ",
+                            "options": [
+                                {
+                                    "id": "ID_123899022",
+                                    "text": "No",
+                                    "language": "No high salt diet",
+                                    "display-or": "ନାଁ",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_214333073",
+                                    "text": "Yes",
+                                    "language": "Patient has high salt diet",
+                                    "display-or": "ହଁ",
+                                    "display-hi": "हा",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                }
+                            ],
+                            "display-hi": "ज्यादा नमक",
+                            "display-gu": "વધારે મીઠું",
+                            "display-as": "বেছি নিমখ",
+                            "display-bn": "উচ্চ লবণ",
+                            "display-kn": "ಹೆಚ್ಚಿನ ಉಪ್ಪು",
+                            "display-mr": "जास्त मीठ"
+                        },
+                        {
+                            "id": "ID_865363227",
+                            "text": "Fast food",
+                            "language": "%",
+                            "display-or": "ଶିଘ୍ର ତିଆରି ଖାଦ୍ୟ",
+                            "options": [
+                                {
+                                    "id": "ID_224085907",
+                                    "text": "No",
+                                    "language": "No fast food in diet",
+                                    "display-or": "ନାଁ",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_1194109916",
+                                    "text": "Yes",
+                                    "language": "Patient consumes fast food",
+                                    "display-or": "ହଁ",
+                                    "options": [
+                                        {
+                                            "id": "ID_756045040",
+                                            "text": "[Describe]",
+                                            "input-type": "text",
+                                            "language": "%",
+                                            "display-or": "[ବର୍ଣ୍ଣନା କର]",
+                                            "display-hi": "(वर्णन करे) ",
+                                            "display-gu": "[વિગતે જણાવો]",
+                                            "display-as": "[বৰ্ণনা কৰা]",
+                                            "display-bn": "[বর্ণনা]",
+                                            "display-kn": "[ವಿವರಿಸಿ]",
+                                            "display-mr": "[वर्णन करणे]"
+                                        }
+                                    ],
+                                    "display-hi": "हा",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "होय"
+                                }
+                            ],
+                            "display-hi": "फ़ास्ट फ़ूड",
+                            "display-gu": "ફાસ્ટ ફુડ",
+                            "display-as": "ফাষ্ট ফুড",
+                            "display-bn": "ফাস্ট ফুড",
+                            "display-kn": "ಫಾಸ್ಟ್ ಫೂಡ್",
+                            "display-mr": "फास्ट फूड"
+                        }
+                    ],
+                    "display-hi": "क्या आपके खान पान में निम्नलिखित है",
+                    "display-gu": "તમારા આહારમાં નીચેની વસ્તુઓ લો છો?",
+                    "display-as": "আপোনাৰ খাদ্য তালিকাত তলত দিয়া বস্তুবোৰ আছেনে?",
+                    "display-bn": "আপনার খাদ্যতালিকায় নিম্নলিখিত আছে?",
+                    "display-kn": "ನಿಮ್ಮ ಆಹಾರದಲ್ಲಿ ಈ ಕೆಳಗಿನವುಗಳಿವೆಯೇ?",
+                    "display-mr": "तुमच्या आहारात खालील गोष्टी आहेत का?"
+                },
+                {
+                    "id": "ID_1571045837",
+                    "text": "Addiction",
+                    "display": "Are you addicted to any of the following?*",
+                    "isRequired": true,
+                    "display-or": "ଆପଣ ନିମ୍ନ ଲିଖିତ ବିଷୟରେ ଅଭ୍ୟସ୍ତ ଅଛନ୍ତି କି?*",
+                    "age_min": "8",
+                    "age_max": "120",
+                    "options": [
+                        {
+                            "id": "ID_1744539685",
+                            "text": "Nil",
+                            "display-or": "କିଛି ନାହିଁ",
+                            "display-hi": "किसी का भी नहीं ",
+                            "display-gu": "કંઇ નહીં",
+                            "display-as": "শূন্য",
+                            "display-bn": "শূন্য",
+                            "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                            "display-mr": "शून्य"
+                        },
+                        {
+                            "id": "ID_320974226",
+                            "text": "Alcohol",
+                            "display-or": "ମଦ",
+                            "display-hi": "शराब",
+                            "display-gu": "મદિરા",
+                            "display-as": "সুৰা",
+                            "display-bn": "মদ",
+                            "display-kn": "ಮದ್ಯ",
+                            "display-mr": "दारू"
+                        },
+                        {
+                            "id": "ID_1301273125",
+                            "text": "Tobacco",
+                            "display-or": "ତମାଖୁ",
+                            "display-hi": "तम्बाकू",
+                            "display-gu": "તમાકુ",
+                            "display-as": "ধঁপাত",
+                            "display-bn": "তামাক",
+                            "display-kn": "ತಂಬಾಕು",
+                            "display-mr": "तंबाखू"
+                        },
+                        {
+                            "id": "ID_355844527",
+                            "text": "Other [Describe]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣ୍ଣନା କର]",
+                            "display-hi": "अन्य (वर्णन करे)",
+                            "display-gu": "અન્ય [વિગતે જણાવો]",
+                            "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
+                            "display-bn": "অন্যান্য [বর্ণনা]",
+                            "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                            "display-mr": "इतर [वर्णन करा]"
+                        }
+                    ],
+                    "display-hi": "क्या आपको इनमे से किसी की लत है?*",
+                    "display-gu": "તમને, નીચેનામાંથી કોઇ વ્યસન છે?*",
+                    "display-as": "আপুনি তলত দিয়া কোনো এটাৰ প্ৰতি ব্যৱহাৰ নেকি?*",
+                    "display-bn": "আপনি কি এগুলোর কোনোটিতে আসক্ত?*",
+                    "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ಯಾವುದಾದರ ವ್ಯಸನಿಯಾಗಿದ್ದೀರಾ?*",
+                    "display-mr": "तुम्हाला खालीलपैकी कशाचेही व्यसन आहे का?"
+                }
+            ],
+            "display-hi": "जीवन शैली",
+            "display-gu": "જીવનશૈલી",
+            "display-as": "জীৱন শৈলী",
+            "display-bn": "জীবনধারা",
+            "display-kn": "ಜೀವನ ಶೈಲಿ",
+            "display-mr": "जीवनशैली"
+        },
+        {
+            "id": "ID_1372269071",
+            "text": "Associated conditions",
+            "display": "Have you ever been diagnosed with any of the following conditions?*",
+            "isRequired": true,
+            "display-or": "ଆପଣ କେବେ ନିମ୍ନଲିଖିତ ବିଷୟରେ ରୋଗ ନିରୁପଣ କରାଇଛନ୍ତି କି?*",
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "options": [
+                {
+                    "id": "ID_103770317",
+                    "text": "Pregnancy",
+                    "display-or": "ଗର୍ଭାବସ୍ଥା",
+                    "gender": "0",
+                    "options": [
+                        {
+                            "id": "ID_1993285149",
+                            "text": "Number of months",
+                            "input-type": "number",
+                            "display-or": "କେତେ ମାସ",
+                            "display-hi": "कितने महीनो का गर्भ है",
+                            "display-gu": "મહિનાની સંખ્યા",
+                            "display-as": "মাহৰ সংখ্যা",
+                            "display-bn": "মাসের সংখ্যা",
+                            "display-kn": "ಎಷ್ಟು ತಿಂಗಳು",
+                            "display-mr": "महिन्यांची संख्या"
+                        }
+                    ],
+                    "display-hi": "गर्भधारण",
+                    "display-gu": "ગર્ભાવસ્થા",
+                    "display-as": "গৰ্ভাৱস্থা",
+                    "display-bn": "গর্ভাবস্থা",
+                    "display-kn": "ಗರ್ಭಾವಸ್ಥೆ",
+                    "display-mr": "गर्भधारणा"
+                },
+                {
+                    "id": "ID_722230540",
+                    "text": "Heart disease",
+                    "display-or": "ହୃତପିଣ୍ଡ ଗତ ରୋଗ",
+                    "display-hi": "दिल की बीमारी",
+                    "display-gu": "હૃદયરોગ",
+                    "display-as": "হৃদৰোগ",
+                    "display-bn": "হৃদরোগ",
+                    "display-kn": "ಹೃದಯ ಸಂಭಂದಿ ರೋಗ",
+                    "display-mr": "हृदयरोग"
+                },
+                {
+                    "id": "ID_1922360468",
+                    "text": "Kidney disease",
+                    "display-or": "ବୃକକ ରୋଗ",
+                    "options": [
+                        {
+                            "id": "ID_1974447190",
+                            "text": "Stone",
+                            "display-or": "ପଥୁରୀ",
+                            "display-hi": "पथरी",
+                            "display-gu": "પથરી",
+                            "display-as": "পাথৰ",
+                            "display-bn": "পাথর",
+                            "display-kn": "ಮೂತ್ರಪಿಂಡದಲ್ಲಿ ಕಲ್ಲು",
+                            "display-mr": "मूत्राश्मरी"
+                        },
+                        {
+                            "id": "ID_1431593083",
+                            "text": "Other disorder [Describe]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
+                            "display-hi": "अन्य बीमारी (वर्णन करे)",
+                            "display-gu": "અન્ય [વિગતે જણાવો]",
+                            "display-as": "অন্যান্য বিকাৰ [বৰ্ণনা কৰক]",
+                            "display-bn": "অন্যান্য ব্যাধি [বর্ণনা]",
+                            "display-kn": "ಇತರ ಅಸ್ವಸ್ಥತೆ [ವಿವರಿಸಿ]",
+                            "display-mr": "इतर विकार [वर्णन करा]"
+                        }
+                    ],
+                    "display-hi": "किडनी का रोग",
+                    "display-gu": "કિડની રોગ",
+                    "display-as": "বৃক্কৰ ৰোগ",
+                    "display-bn": "কিডনীর রোগ",
+                    "display-kn": "ಮೂತ್ರಪಿಂಡದ ರೋಗ",
+                    "display-mr": "मूत्रपिंडाचा आजार"
+                },
+                {
+                    "id": "ID_525273226",
+                    "text": "Obesity (BMI>25)",
+                    "display-or": "ମୋଟାପଣ ( ବି.ଏମ.ଆଇ. ୨୫ ରୁ କମ)",
+                    "display-hi": "मोटापा",
+                    "display-gu": "મેદસ્વીતા (બીએમઆઇ>25)",
+                    "display-as": "মেদবহুলতা(শকত)(বি এম আই>২৫)",
+                    "display-bn": "স্থূলতা (BMI>25)",
+                    "display-kn": "ಬೊಜ್ಜು (BMI>25)",
+                    "display-mr": "लठ्ठपणा (BMI>25)"
+                },
+                {
+                    "id": "ID_1560255969",
+                    "text": "Psychiatric condition",
+                    "display-or": "ମାନସିକ ଅବସ୍ଥା",
+                    "options": [
+                        {
+                            "id": "ID_1779697703",
+                            "text": "Anxiety",
+                            "display-or": "ଉଦ୍ବେଗ",
+                            "display-hi": "घबराहट ",
+                            "display-gu": "વ્યગ્રતા",
+                            "display-as": "উদ্বেগ",
+                            "display-bn": "দুশ্চিন্তা",
+                            "display-kn": "ಆತಂಕ",
+                            "display-mr": "चिंता"
+                        },
+                        {
+                            "id": "ID_1687474379",
+                            "text": "Phobia",
+                            "display-or": "ଉଦ୍ବେଗ",
+                            "display-hi": "किसी चीज़ का अनावश्यक डर",
+                            "display-gu": "કાલ્પનિક ભય (ફોબિઆ)",
+                            "display-as": "ভয়",
+                            "display-bn": "ফোবিয়া",
+                            "display-kn": "ಫೋಬಿಯಾ",
+                            "display-mr": "भयगंड"
+                        },
+                        {
+                            "id": "ID_781638224",
+                            "text": "Psychosis",
+                            "display-or": "ମନୋବିକୃତି",
+                            "display-hi": "पागलपन",
+                            "display-gu": "મનોવિકાર",
+                            "display-as": "মনোৰোগ",
+                            "display-bn": "সাইকোসিস",
+                            "display-kn": "ಸೈಕೋಸಿಸ್",
+                            "display-mr": "मनोविकार"
+                        },
+                        {
+                            "id": "ID_541343392",
+                            "text": "Any other [Describe]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ଅସ୍ୱଭାବିକ ଭୟ",
+                            "display-hi": "अन्य (वर्णन करे)",
+                            "display-gu": "અન્ય કોઇ [વિગતે જણાવો]",
+                            "display-as": "অন্য কোনো [বৰ্ণনা কৰক]",
+                            "display-bn": "অন্য কোন [বর্ণনা]",
+                            "display-kn": "ಬೇರೆ ಯಾವುದೇ [ವಿವರಿಸಿ]",
+                            "display-mr": "इतर कोणतेही [वर्णन करा]"
+                        },
+                        {
+                            "id": "ID_392214670",
+                            "text": "Do not know",
+                            "display-or": "ଜାଣିନାହିଁ",
+                            "display-hi": "पता नहीं ",
+                            "display-gu": "ખબર નથી",
+                            "display-as": "নাজানে",
+                            "display-bn": "জানি না",
+                            "display-kn": "ಗೊತ್ತಿಲ್ಲ",
+                            "display-mr": "माहित नाही"
+                        }
+                    ],
+                    "display-hi": "कोई दिमागी परेशानी",
+                    "display-gu": "માનસિક અસ્વસ્થતા",
+                    "display-as": "মানসিক অৱস্থা",
+                    "display-bn": "মানসিক অবস্থা",
+                    "display-kn": "ಮನೋವೈದ್ಯಕೀಯ ಸ್ಥಿತಿ",
+                    "display-mr": "मानसिक स्थिती"
+                },
+                {
+                    "id": "ID_1254933390",
+                    "text": "Other [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣ୍ଣନାକର]",
+                    "display-hi": "अन्य (वर्णन करे)",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर [वर्णन करा]"
+                }
+            ],
+            "display-hi": "क्या आपको कभी निम्नलिखित बीमारी हुई है?*",
+            "display-gu": "તમને, નીચે જણાવેલી સ્થિતિઓમાંથી કોઇ પણ હોવાનું નિદાન ક્યારેય કરાયું છે?*",
+            "display-as": "আপুনি কেতিয়াবা তলত উল্লেখ কৰা কোনো অৱস্থাত আক্ৰান্ত হৈছেনে?*",
+            "display-bn": "আপনি কি কখনও নিম্নলিখিত অবস্থার সাথে নির্ণয় করা হয়েছে?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला खालीलपैकी कोणत्याही परिस्थितीचे निदान झाले आहे का?"
+        },
+        {
+            "id": "ID_297131398",
+            "text": "H/o recent medication",
+            "display": "Have you recently taken/are taking any of the following medication?*",
+            "isRequired": true,
+            "display-or": "ଆପଣ ନିକଟରେ ନିମ୍ନଲିଖିତ ଔଷଧ ସେବନ କରୁଛନ୍ତିି/କରିଛନ୍ତି କି?*",
+            "options": [
+                {
+                    "id": "ID_625048684",
+                    "text": "Steroids",
+                    "display-or": "ହରମୋନ ଘଟିତ ଔଷଧ",
+                    "options": [
+                        {
+                            "id": "ID_212022175",
+                            "text": "[List]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                            "display-hi": "सूची",
+                            "display-gu": "[યાદી કરો]",
+                            "display-as": "[সূচী]",
+                            "display-bn": "[তালিকা]",
+                            "display-kn": "[ಪಟ್ಟಿ ಮಾಡಿ]",
+                            "display-mr": "[यादी]"
+                        }
+                    ],
+                    "display-hi": "स्टेरोयड",
+                    "display-gu": "સ્ટીરોઇડ",
+                    "display-as": "ষ্টেৰইড",
+                    "display-bn": "স্টেরয়েড",
+                    "display-kn": "ಸ್ಟೀರಾಯ್ಡ್ಗಳು",
+                    "display-mr": "स्टिरॉइड्स"
+                },
+                {
+                    "id": "ID_749856421",
+                    "text": "For psychiatric conditions",
+                    "display-or": "ମାନସିକ ଅବସ୍ଥା ପାଇଁ",
+                    "options": [
+                        {
+                            "id": "ID_231715446",
+                            "text": "[List]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                            "display-hi": "सूची",
+                            "display-gu": "[યાદી કરો]",
+                            "display-as": "[সূচী]",
+                            "display-bn": "[তালিকা]",
+                            "display-kn": "[ಪಟ್ಟಿ ಮಾಡಿ]",
+                            "display-mr": "[यादी]"
+                        }
+                    ],
+                    "display-hi": "दिमागी बीमारी के लिए",
+                    "display-gu": "માનસિક અસ્વસ્થતા માટે",
+                    "display-as": "মানসিক অৱস্থাৰ বাবে",
+                    "display-bn": "মানসিক অবস্থার জন্য",
+                    "display-kn": "ಮನೋವೈದ್ಯಕೀಯ ಪರಿಸ್ಥಿತಿಗಳಿಗಾಗಿ",
+                    "display-mr": "मानसिक स्थितींसाठी"
+                },
+                {
+                    "id": "ID_482559636",
+                    "text": "Decongestants",
+                    "display-or": "ଶ୍ୱାସ ପ୍ରଣାଳୀର ଅବରୁଦ୍ଧ ଦ୍ୱର କରୁଥିବା ଔଷଧ",
+                    "options": [
+                        {
+                            "id": "ID_1959237726",
+                            "text": "[List]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                            "display-hi": "सूची",
+                            "display-gu": "[યાદી કરો]",
+                            "display-as": "[সূচী]",
+                            "display-bn": "[তালিকা]",
+                            "display-kn": "[ಪಟ್ಟಿ ಮಾಡಿ]",
+                            "display-mr": "[यादी]"
+                        }
+                    ],
+                    "display-hi": "पेट की तकलीफ के लिए",
+                    "display-gu": "બંધ નાક ખોલવાની",
+                    "display-as": "ডিকনজেষ্টেন্ট",
+                    "display-bn": "ডিকনজেস্ট্যান্ট",
+                    "display-kn": "ಡಿಕೊಂಗಸ್ಟೆಂಟ್ಸ್",
+                    "display-mr": "चोंदलेले नाक मोकळे करणारी औषधे"
+                },
+                {
+                    "id": "ID_456352259",
+                    "text": "Analgesics",
+                    "display": "Painkillers",
+                    "display-or": "ପିଡା ନିବାରଣକାରୀ ଔଷଧ",
+                    "options": [
+                        {
+                            "id": "ID_1383078250",
+                            "text": "[List]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                            "display-hi": "सूची",
+                            "display-gu": "[યાદી કરો]",
+                            "display-as": "[সূচী]",
+                            "display-bn": "[তালিকা]",
+                            "display-kn": "[ಪಟ್ಟಿ ಮಾಡಿ]",
+                            "display-mr": "[यादी]"
+                        }
+                    ],
+                    "display-hi": "दर्द के लिए",
+                    "display-gu": "દુખાવો ઓછો કરવાની (પેઇન કિલર)",
+                    "display-as": "বিষনাশক",
+                    "display-bn": "ব্যথানাশক",
+                    "display-kn": "ನೋವು ನಿವಾರಕಗಳು",
+                    "display-mr": "वेदनाशामक"
+                },
+                {
+                    "id": "ID_1976351356",
+                    "text": "Hormonal contraceptives",
+                    "gender": "0",
+                    "display-or": "ହରମୋଯୁକ୍ତ ଗର୍ଭନିରୋଧକ ଔଷଧ",
+                    "options": [
+                        {
+                            "id": "ID_1775043114",
+                            "text": "[List]",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                            "display-hi": "सूची",
+                            "display-gu": "[યાદી કરો]",
+                            "display-as": "[সূচী]",
+                            "display-bn": "[তালিকা]",
+                            "display-kn": "[ಪಟ್ಟಿ ಮಾಡಿ]",
+                            "display-mr": "[यादी]"
+                        }
+                    ],
+                    "display-hi": "कोई गर्भनिरोधक गोली",
+                    "display-gu": "અંતઃસ્રાવીય (હોર્મોનલ) ગર્ભનિરોધક",
+                    "display-as": "হৰম’নযুক্ত গৰ্ভনিৰোধক",
+                    "display-bn": "হরমোনাল গর্ভনিরোধক",
+                    "display-kn": "ಹಾರ್ಮೋನ್ ಗರ್ಭನಿರೋಧಕಗಳು",
+                    "display-mr": "हार्मोनल गर्भनिरोधक"
+                },
+                {
+                    "id": "ID_3623231",
+                    "text": "Other [Give list]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
+                    "display-hi": "अन्य (वर्णन करे)",
+                    "display-gu": "અન્ય [યાદી કરો]",
+                    "display-as": "অন্যান্য [তালিকা দিয়ক]",
+                    "display-bn": "অন্যান্য [তালিকা দিন]",
+                    "display-kn": "ಇತರೆ [ಪಟ್ಟಿ ನೀಡಿ]",
+                    "display-mr": "इतर [यादी द्या]"
+                },
+                {
+                    "id": "ID_66504077",
+                    "text": "None",
+                    "display-or": "କିଛି ନୁହେଁ",
+                    "display-hi": "इनमे से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या अओने इनमे से कोई दवा हाल में ली है?*",
+            "display-gu": "નીચેનામાંથી કોઇ દવા તમે તાજેતરમાં લીધી હતી કે હાલે લો છો?*",
+            "display-as": "আপুনি শেহতীয়াকৈ তলত দিয়া ঔষধবোৰৰ কোনোবা এটা গ্ৰহণ কৰিছেনে/খাই আছেনে?*",
+            "display-bn": "আপনি কি সম্প্রতি নিম্নলিখিত ওষুধগুলির মধ্যে কোনটি গ্রহণ করেছেন/করছেন?*",
+            "display-kn": "ನೀವು ಇತ್ತೀಚೆಗೆ ಈ ಕೆಳಗಿನ ಯಾವುದಾದರೂ ಔಷಧಿಯನ್ನು ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ/ ತೆಗೆದುಕೊಳ್ಳುತ್ತಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्ही अलीकडे खालीलपैकी कोणतेही औषध घेतले/घेत आहात का?"
+        },
+        {
+            "id": "ID_1065741634",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_1894895710",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "(अतिरिक्त जानकारी भरे)",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য দিয়ক]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "[अतिरिक्त माहिती प्रविष्ट करा]"
+                }
+            ],
+            "display-hi": "अतिरिक्त जानकारी",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अतिरिक्त माहिती"
+        }
+    ],
+    "display-hi": "बीपी की जांच करना",
+    "display-gu": "હાઇપરટેન્શન સ્ક્રીનિંગ",
+    "display-as": "উচ্চ ৰক্তচাপৰ পৰীক্ষা",
+    "display-bn": "উচ্চ রক্তচাপ স্ক্রীনিং",
+    "display-kn": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡದ  ತಪಾಸಣೆ",
+    "display-mr": "उच्च रक्तदाब तपासणी"
+}
