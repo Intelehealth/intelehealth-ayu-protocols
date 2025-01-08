@@ -6,6 +6,7 @@
     "gender": "0",
     "age_min": "10",
     "age_max": "120",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_706528500",
@@ -968,7 +969,6 @@
                     "text": "Yes",
                     "language": "Patient is taking/has recently taken postmenopausal medications/contraceptives",
                     "display-or": "ହଁ",
-                    "multi-choice": true,
                     "options": [
                         {
                             "id": "ID_227507943",

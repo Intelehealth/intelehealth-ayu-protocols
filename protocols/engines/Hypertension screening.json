@@ -5,6 +5,7 @@
     "display-or": "ଉଚ୍ଚରକ୍ତଚାପ ମାପକ ହେବା",
     "age_min": "30",
     "age_max": "120",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1004478691",
@@ -61,250 +62,130 @@
                     "id": "ID_902859234",
                     "text": "Yes",
                     "language": "It is the first patient has been diagnosed with hypertension",
-                    "display-or": "ହଁ",
+                    "havingNestedQuestion": "true",
                     "options": [
                         {
-                            "id": "ID_84080428",
-                            "text": "Age <40?",
-                            "display": "What is your age?*",
-                            "isRequired": true,
-                            "multi-choice": false,
-                            "display-or": "ତୁମର ବୟସ କେତେ*",
+                            "id": "ID_45682181",
+                            "text": "Is the age less than or more than 40?",
+                            "language": "%",
                             "options": [
                                 {
                                     "id": "ID_1173776147",
-                                    "text": "Less than 40",
-                                    "language": "Patient age is <40",
-                                    "display-or": "୪୦ବର୍ଷରୁ କମ",
-                                    "options": [
-                                        {
-                                            "id": "ID_1687423404",
-                                            "text": "Send to consultant to rule out secondary hypertension",
-                                            "display-or": "ମାଧ୍ୟମିକ ଉଚ୍ଚରକ୍ତ ଚାପ ନିମନ୍ତେ ପରମର୍ଶଦାତାଙ୍କ ପାଖକୁ ପଠାଇବା",
-                                            "display-hi": "किसी विशेषज्ञ के पास भेजे ताकि गंभीरता का अनुमान लगा सके",
-                                            "display-gu": "સેકન્ડરી હાઇપરટેન્શન ન હોવાની ખાતરી કરવા કન્સલ્ટન્ટ પાસે મોકલો",
-                                            "display-as": "মাধ্যমিক উচ্চ ৰক্তচাপ নুই কৰিবলৈ পৰামৰ্শদাতালৈ পঠাওক",
-                                            "display-bn": "সেকেন্ডারি হাইপারটেনশন বাতিল করতে পরামর্শককে পাঠান",
-                                            "display-kn": "ಸೆಕೆಂಡರಿ ಅಧಿಕ ರಕ್ತದೊತ್ತಡವನ್ನು ತಳ್ಳಿಹಾಕಲು ಸಲಹೆಗಾರರಿಗೆ ಕಳುಹಿಸಿ",
-                                            "display-mr": "उच्च रक्तदाबाचे निदान निश्चिती साठी वैद्यकीय सल्ला सुचवा"
-                                        }
-                                    ],
-                                    "display-hi": "40 से कम",
-                                    "display-gu": "40 કરતાં ઓછી",
-                                    "display-as": "৪০ তকৈ কম",
-                                    "display-bn": "40 এর কম",
-                                    "display-kn": "40 ಕ್ಕಿಂತ ಕಡಿಮೆ",
-                                    "display-mr": "40 पेक्षा कमी"
+                                    "text": "Age Less than 40",
+                                    "language": "Patient age is less than 40",
+                                    "notify": "Send to consultant to rule out  secondary hypertension",
+                                    "display-hi": "उम्र ४० से कम"
                                 },
                                 {
                                     "id": "ID_1255352071",
-                                    "text": "More than 40",
-                                    "language": "Patient age is >40",
-                                    "display-or": "୪୦ବର୍ଷରୁ ଅଧିକ",
-                                    "options": [
-                                        {
-                                            "id": "ID_1791230013",
-                                            "text": "Teleconsult and initiate treatment according to NCD guidelines",
-                                            "display-or": "ଏନ୍.ସି.ଡି. ନିୟମ ଅନୁସାରେ ଦୂରଭାଷ ମାଧ୍ୟମରେ ଚିକିତ୍ସା କରିବା",
-                                            "display-hi": "सलाह ले और इलाज़ जरुरी मापदंड के हिसाब से शुरू करे",
-                                            "display-gu": "એનસીડીની માર્ગદર્શિકાઓ મુજબ ફોનથી સલાહ (ટેલિકન્સલ્ટ) કરીને ઉપચાર શરૂ કરો",
-                                            "display-as": "এনচিডিৰ নিৰ্দেশনা অনুসৰি টেলিকনচালট কৰি চিকিৎসা আৰম্ভ কৰা",
-                                            "display-bn": "টেলিকনসাল্ট করুন এবং NCD নির্দেশিকা অনুযায়ী চিকিৎসা শুরু করুন",
-                                            "display-kn": "NCD ಮಾರ್ಗಸೂಚಿಗಳ ಪ್ರಕಾರ ದೂರವಾಣಿ ಮೂಲಕ ಭೇಟಿ ಮಾಡಿ ಮತ್ತು ಚಿಕಿತ್ಸೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ",
-                                            "display-mr": "NCD मार्गदर्शक तत्त्वांनुसार दूरस्थ चिकित्सकांच्या सल्ल्याने उपचारांना सुरुवात करा"
-                                        }
-                                    ],
-                                    "display-hi": "40 से ज्यादा",
-                                    "display-gu": "40થી વધુ",
-                                    "display-as": "৪০ তকৈ অধিক",
-                                    "display-bn": "40 এর বেশি",
-                                    "display-kn": "40 ಕ್ಕಿಂತ ಹೆಚ್ಚು",
-                                    "display-mr": "40 पेक्षा जास्त"
+                                    "text": "Age More than 40",
+                                    "notify": "Teleconsult and initiate treatment  according to NCD guidelines",
+                                    "language": "Patient age is more than 40",
+                                    "display-hi": "उम्र ४० से ज्यादा"
                                 }
                             ],
-                            "display-hi": "आपकी आयु क्या है?*",
-                            "display-gu": "તમારી ઉંમર કેટલી?*",
-                            "display-as": "আপোনাৰ বয়স কিমান?*",
-                            "display-bn": "তোমার বয়স কত?*",
-                            "display-kn": "ನಿನ್ನ ವಯಸ್ಸು ಎಷ್ಟು?*",
-                            "display-mr": "तुमचे वय काय आहे?"
+                            "display-hi": "उम्र ४० से कम या  ४० से ज्यादा है?"
                         }
                     ],
-                    "display-hi": "हा",
-                    "display-gu": "હા",
-                    "display-as": "হয়",
-                    "display-bn": "হ্যাঁ",
-                    "display-kn": "ಹೌದು",
-                    "display-mr": "होय"
+                    "display-hi": "हां"
                 },
                 {
                     "id": "ID_534973635",
                     "text": "No",
                     "language": "Patient is known case of Hypertension",
-                    "display-or": "ନାଁ",
+                    "havingNestedQuestion": "true",
                     "options": [
                         {
                             "id": "ID_478477018",
                             "text": "Whether treatment advised?",
-                            "display": "Had you been advised treatment for hypertension?*",
-                            "isRequired": true,
-                            "multi-choice": false,
-                            "display-or": "ତୁମେ କେବେ ଉଚ୍ଚରକ୍ତଚାପ ରୋଗ ନିମନ୍ତେ ଚିକିତ୍ସା ପାଇଁ ପରାମର୍ଶ ପାଇଛନ୍ତି କି?*",
+                            "display": "Had you been advised treatment for hypertension?",
+                            "isRequired": "true",
+                            "language": "%",
                             "options": [
                                 {
                                     "id": "ID_1806595363",
                                     "text": "No",
                                     "language": "Patient has not been advised treatment for HTN",
-                                    "display-or": "ନାଁ",
-                                    "display-hi": "नहीं",
-                                    "display-gu": "ના",
-                                    "display-as": "নহয়",
-                                    "display-bn": "না",
-                                    "display-kn": "ಅಲ್ಲ",
-                                    "display-mr": "नाही"
+                                    "display-hi": "नही"
                                 },
                                 {
                                     "id": "ID_222740358",
                                     "text": "Yes",
                                     "language": "Patient had been advised treatment",
-                                    "display-or": "ହଁ",
+                                    "isRequired": "true",
+                                    "multi-choice": "true",
+                                    "havingNestedQuestion": "true",
                                     "options": [
                                         {
                                             "id": "ID_1419634154",
                                             "text": "When?",
-                                            "display": "When was the treatment advised?*",
-                                            "isRequired": true,
-                                            "display-or": "କେବେ ଚିକିତ୍ସା ନିମନ୍ତେ ପରାମର୍ଶ ଦିଆ ଯାଇଥିଲା ?*",
-                                            "input-type": "date",
+                                            "display": "When was the treatment advised?",
                                             "language": "on",
-                                            "display-hi": "आपका यह इलाज़ कब बताया गया था?*",
-                                            "display-gu": "તમને ઉપચારની સલાહ ક્યારે અપાઇ હતી?*",
-                                            "display-as": "কেতিয়া চিকিৎসাৰ পৰামৰ্শ দিয়া হৈছিল?*",
-                                            "display-bn": "কখন চিকিত্সার পরামর্শ দেওয়া হয়েছিল?*",
-                                            "display-kn": "ಚಿಕಿತ್ಸೆಯನ್ನು ಯಾವಾಗ ಸೂಚಿಸಲಾಗುತ್ತದೆ?*",
-                                            "display-mr": "उपचाराचा सल्ला कधी देण्यात आला?"
-                                        },
-                                        {
-                                            "id": "ID_120272344",
-                                            "text": "What?",
-                                            "display": "What treatment had been advised?*",
-                                            "isRequired": true,
-                                            "display-or": "କେଉଁ ଚିକିତ୍ସା ପାଇଁ ପରାମର୍ଶ ଦିଆଯାଇଥିଲା ?*",
-                                            "language": "Treatment advised:",
                                             "options": [
                                                 {
-                                                    "id": "ID_1763201920",
-                                                    "text": "[Describe]",
-                                                    "input-type": "text",
-                                                    "language": "%",
-                                                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
-                                                    "display-hi": "(वर्णन करे) ",
-                                                    "display-gu": "[વિગતે જણાવો]",
-                                                    "display-as": "[বৰ্ণনা কৰা]",
-                                                    "display-bn": "[বর্ণনা]",
-                                                    "display-kn": "[ವಿವರಿಸಿ]",
-                                                    "display-mr": "[वर्णन करणे]"
+                                                    "id": "ID_112137713",
+                                                    "text": "[Enter Date]",
+                                                    "input-type": "date",
+                                                    "display-hi": "तारीख लिखें"
                                                 }
                                             ],
-                                            "display-hi": "आपको कौन सा इलाज़ बताया गया था?*",
-                                            "display-gu": "કયા ઉપચારની સલાહ અપાઈ હતી?*",
-                                            "display-as": "কি চিকিৎসাৰ পৰামৰ্শ দিয়া হৈছিল?*",
-                                            "display-bn": "আপনি কি চিকিৎসার পরামর্শ দিয়েছেন?*",
-                                            "display-kn": "ಯಾವ ಚಿಕಿತ್ಸೆಯನ್ನು ಸೂಚಿಸಲಾಗಿದೆ?*",
-                                            "display-mr": "कोणत्या उपचारांचा सल्ला देण्यात आला होता?"
+                                            "display-hi": "आपको इलाज कब बताया गया था?"
                                         },
                                         {
                                             "id": "ID_670076519",
                                             "text": "Whether continued?",
-                                            "display": "Were you able to continue the treatment?*",
-                                            "isRequired": true,
-                                            "multi-choice": false,
-                                            "display-or": "କେଉଁଠାରେ ତୁମେ ଚିକିତ୍ସା ନିମନ୍ତେ ଚିକିତ୍ସାପାଇଁ ସକ୍ଷମ ହୋଇଥିଲ ?*",
+                                            "display": "Were you able to continue the treatment?",
+                                            "isRequired": "true",
                                             "language": "Compliance:",
                                             "options": [
                                                 {
                                                     "id": "ID_1656056737",
                                                     "text": "Yes",
                                                     "language": "The patient continued the treatment",
-                                                    "display-or": "ହଁ",
-                                                    "display-hi": "हा",
-                                                    "display-gu": "હા",
-                                                    "display-as": "হয়",
-                                                    "display-bn": "হ্যাঁ",
-                                                    "display-kn": "ಹೌದು",
-                                                    "display-mr": "होय"
+                                                    "display-hi": "हां"
                                                 },
                                                 {
                                                     "id": "ID_721588907",
                                                     "text": "No",
                                                     "language": "The patient did not continue the treatment",
-                                                    "display-or": "ନାଁ",
+                                                    "isRequired": "true",
+                                                    "havingNestedQuestion": "true",
                                                     "options": [
                                                         {
                                                             "id": "ID_1150734688",
                                                             "text": "Why discontinued",
-                                                            "display": "Why was the treatment discontinued?*",
-                                                            "isRequired": true,
-                                                            "multi-choice": true,
-                                                            "display-or": "କାହିକି ଚିକିତ୍ସା ବନ୍ଦ ହୋଇଥିଲା ?*",
+                                                            "display": "Why was the treatment discontinued?",
+                                                            "isRequired": "true",
+                                                            "multi-choice": "true",
+                                                            "language": "%",
                                                             "options": [
                                                                 {
                                                                     "id": "ID_608335540",
                                                                     "text": "As per advise of doctor",
                                                                     "display": "Advised to discontinue by doctor",
-                                                                    "display-or": "ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ ଅନୁସାରେ",
-                                                                    "display-hi": "डाक्टर ने बोला",
-                                                                    "display-gu": "ડૉક્ટરે કહ્યું",
-                                                                    "display-as": "চিকিৎসকৰ দ্বাৰা বন্ধ কৰিবলৈ পৰামৰ্শ দিয়া হৈছে",
-                                                                    "display-bn": "ডাক্তার বন্ধ করার পরামর্শ দিয়েছেন",
-                                                                    "display-kn": "ವೈದ್ಯರು ನಿಲ್ಲಿಸಲು ಸಲಹೆ ನೀಡಿದರು",
-                                                                    "display-mr": "डॉक्टरांनी बंद करण्याचा सल्ला दिला"
+                                                                    "display-hi": "डॉक्टर ने इलाज बंद करने की सलाह दी"
                                                                 },
                                                                 {
                                                                     "id": "ID_1228521705",
                                                                     "text": "As BP was controlled",
-                                                                    "display-or": "ରକ୍ତଚାପ ନିୟନ୍ତ୍ରଣରେ ରହିବା ହେତୁ",
-                                                                    "display-hi": "बीपी नियंत्रण में आ गयी ",
-                                                                    "display-gu": "બીપી અંકુશમાં આવી ગયું",
-                                                                    "display-as": "যিদৰে বি পি নিয়ন্ত্ৰণ কৰা হৈছিল",
-                                                                    "display-bn": "যেহেতু রক্তচাপ নিয়ন্ত্রণে ছিল",
-                                                                    "display-kn": "ಬಿಪಿ ಕಂಟ್ರೋಲ್ ಆದಂತೆ",
-                                                                    "display-mr": "रक्तदाब नियंत्रित होता म्हणून"
+                                                                    "display-hi": "क्योंकि उच्च रक्तचाप नियंत्रण में था"
                                                                 },
                                                                 {
                                                                     "id": "ID_1279628610",
                                                                     "text": "Side effects",
                                                                     "language": "Patient experienced side effects",
-                                                                    "display-or": "ପାଶ୍ୱର୍ପ୍ରତିକ୍ରିୟା ହେତୁ",
-                                                                    "display-hi": "कोई ख़राब असर",
-                                                                    "display-gu": "આડઅસરો",
-                                                                    "display-as": "পাৰ্শ্বক্ৰিয়া",
-                                                                    "display-bn": "ক্ষতিকর দিক",
-                                                                    "display-kn": "ಅಡ್ಡ ಪರಿಣಾಮಗಳು",
-                                                                    "display-mr": "दुष्परिणाम"
+                                                                    "display-hi": "दवाई के दुष्प्रभाव के कारण"
                                                                 },
                                                                 {
                                                                     "id": "ID_1417416543",
                                                                     "text": "Cost",
                                                                     "language": "as it was costly",
-                                                                    "display-or": "ମୂଲ୍ୟ ବୃଦ୍ଧି ହେତୁ",
-                                                                    "display-hi": "महंगाई",
-                                                                    "display-gu": "ખર્ચ",
-                                                                    "display-as": "খৰচ",
-                                                                    "display-bn": "খরচ",
-                                                                    "display-kn": "ವೆಚ್ಚ",
-                                                                    "display-mr": "खर्च"
+                                                                    "display-hi": "खर्चे के कारण"
                                                                 },
                                                                 {
                                                                     "id": "ID_1785326460",
                                                                     "text": "Switched to other system of medicine",
-                                                                    "display-or": "ଅନ୍ୟ ଚିକିତ୍ସା ପଦ୍ଧତିକୁ ଆପଣେଇବା ହେତୁ",
-                                                                    "display-hi": "कोई अन्य प्रकार के इलाज़ करने लगे",
-                                                                    "display-gu": "બીજા પ્રકારની ઉપચાર પદ્ધતિ શરૂ કરી",
-                                                                    "display-as": "চিকিৎসাৰ অন্য ব্যৱস্থালৈ সলনি কৰা হ’ল",
-                                                                    "display-bn": "মেডিসিনের অন্য সিস্টেমে স্যুইচ করা হয়েছে",
-                                                                    "display-kn": "ಬೇರೆ ಔಷಧ ಪದ್ಧತಿಗೆ ಬದಲಾದರು",
-                                                                    "display-mr": "अन्य चिकित्सा-पद्धतीचा वापर केला"
+                                                                    "display-hi": "दुसरी तरह की दवाइयां शुरू की गई"
                                                                 },
                                                                 {
                                                                     "id": "ID_1450345498",
@@ -312,60 +193,62 @@
                                                                     "input-type": "text",
                                                                     "language": "%",
                                                                     "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
-                                                                    "display-hi": "अन्य (वर्णन करे)",
-                                                                    "display-gu": "અન્ય [વિગતે જણાવો]",
-                                                                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
-                                                                    "display-bn": "অন্যান্য [বর্ণনা]",
-                                                                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
-                                                                    "display-mr": "इतर [वर्णन करा]"
+                                                                    "display-hi": "कुछ और कारण(विस्तार से लिखें)"
                                                                 }
                                                             ],
-                                                            "display-hi": "आपको इलाज़ क्यों बंद करना पड़ा?*",
-                                                            "display-gu": "ઉપચાર શા માટે છોડી દીધો?*",
-                                                            "display-as": "কিয় চিকিৎসা বন্ধ কৰা হ’ল?*",
-                                                            "display-bn": "কেন চিকিৎসা বন্ধ করতে হলো?*",
-                                                            "display-kn": "ಚಿಕಿತ್ಸೆಯನ್ನು ಏಕೆ ನಿಲ್ಲಿಸಲಾಯಿತು?*",
-                                                            "display-mr": "उपचार का बंद केले?"
+                                                            "display-hi": "इलाज या दवाइयां किस वजह से बंद की?"
                                                         }
                                                     ],
-                                                    "display-hi": "नहीं",
-                                                    "display-gu": "ના",
-                                                    "display-as": "নহয়",
-                                                    "display-bn": "না",
-                                                    "display-kn": "ಅಲ್ಲ",
-                                                    "display-mr": "नाही"
+                                                    "display-hi": "नही"
                                                 }
                                             ],
-                                            "display-hi": "क्या आप इलाज़ चालु रख सके?*",
-                                            "display-gu": "તમે ઉપચાર ચાલુ રાખી શક્યા?*",
-                                            "display-as": "চিকিৎসা অব্যাহত ৰাখিবলৈ সক্ষম হৈছিল নেকি?*",
-                                            "display-bn": "আপনি কি চিকিৎসা চালিয়ে যেতে পেরেছেন?*",
-                                            "display-kn": "ನೀವು ಚಿಕಿತ್ಸೆಯನ್ನು ಮುಂದುವರಿಸಲು ಸಾಧ್ಯವೇ?*",
-                                            "display-mr": "तुम्ही उपचार सुरू ठेवू शकलात का?"
+                                            "display-hi": "आप इलाज शुरू रखने में सक्षम रहें?"
+                                        },
+                                        {
+                                            "id": "ID_120272344",
+                                            "text": "What?",
+                                            "display": "What treatment had been advised?",
+                                            "language": "Treatment advised:",
+                                            "multi-choice": "true",
+                                            "isRequired": "true",
+                                            "options": [
+                                                {
+                                                    "id": "ID_1763201920",
+                                                    "text": "Describe the treatment",
+                                                    "language": "%",
+                                                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                                                    "havingNestedQuestion": "true",
+                                                    "options": [
+                                                        {
+                                                            "id": "ID_1286067890",
+                                                            "text": "Describe the treatment",
+                                                            "language": "%",
+                                                            "options": [
+                                                                {
+                                                                    "id": "ID_1345724801",
+                                                                    "text": "[Describe the treament]",
+                                                                    "input-type": "text",
+                                                                    "language": "%",
+                                                                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                                                                    "display-hi": "इलाज विस्तार में बताएं"
+                                                                }
+                                                            ],
+                                                            "display-hi": "इलाज विस्तार में बताएं"
+                                                        }
+                                                    ],
+                                                    "display-hi": "इलाज विस्तार में बताएं"
+                                                }
+                                            ],
+                                            "display-hi": "आपको कौनसे इलाज की सलाह दी गई?"
                                         }
                                     ],
-                                    "display-hi": "हा",
-                                    "display-gu": "હા",
-                                    "display-as": "হয়",
-                                    "display-bn": "হ্যাঁ",
-                                    "display-kn": "ಹೌದು",
-                                    "display-mr": "होय"
+                                    "display-hi": "हां"
                                 }
                             ],
-                            "display-hi": "क्या आपको हाई बीपी के लिए इलाज़ बताया गया है?*",
-                            "display-gu": "તમને હાઇપરટેન્શનનો ઉપચાર કરાવવાની સલાહ અપાઇ હતી?*",
-                            "display-as": "উচ্চ ৰক্তচাপৰ চিকিৎসাৰ পৰামৰ্শ দিয়া হৈছিল নেকি?*",
-                            "display-bn": "আপনার কি উচ্চ রক্তচাপের জন্য চিকিত্সা নির্ধারিত হয়েছে?*",
-                            "display-kn": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡಕ್ಕೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ನಿಮಗೆ ಸಲಹೆ ನೀಡಲಾಗಿದೆಯೇ?*",
-                            "display-mr": "तुम्हाला हायपरटेन्शनसाठी उपचारांचा सल्ला देण्यात आला होता का?"
+                            "display-hi": "क्या आपको उच्च रक्तचाप का ईलाज बताया गया है?"
                         }
                     ],
-                    "display-hi": "नहीं",
-                    "display-gu": "ના",
-                    "display-as": "নহয়",
-                    "display-bn": "না",
-                    "display-kn": "ಅಲ್ಲ",
-                    "display-mr": "नाही"
+                    "display-hi": "नही"
                 }
             ],
             "display-hi": "क्या आपको पहली बार हाई बीपी पता चला है?*",

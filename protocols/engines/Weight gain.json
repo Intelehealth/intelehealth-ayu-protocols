@@ -3,6 +3,7 @@
     "text": "Weight gain",
     "perform-physical-exam": "Face:Swollen Face;Neck:Thyroid swelling;Any Location:Skin Bruise;Arm:Blood Glucose (RBS);",
     "display-or": "ଓଜନ ବୃଦ୍ଧି",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_413942457",
@@ -493,7 +494,6 @@
             "text": "Regular exercise > 30 min/day",
             "display": "Do you exercise regularly (>30 min/day)?*",
             "isRequired": true,
-            "language": "%",
             "display-or": "ବ୍ୟାୟାମ(ଅଧଘଂଟାରୁ ଅଧିକ) କରୁଛି କି?*",
             "options": [
                 {

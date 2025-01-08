@@ -3,6 +3,7 @@
     "text": "Numbness, Tingling, Sensory loss",
     "perform-physical-exam": "Head:Injury;Neurologic Exam:Neurologic Exam 1;Neurologic Exam:Neurologic Exam 2;Neurologic Exam:Neurologic Exam 3;Neurologic Exam:Neurologic Exam 4;Neurologic Exam:Neurologic Exam 5;Neurologic Exam:Neurologic Exam 8;Hands:Power 1;Hands:Power 2;Hands:Power 3;Leg:Strength;Language:Repetition;Arm:Lying BP;Arm:Blood Glucose (RBS);Any Location:Skin Rash;",
     "display-or": "ବଧିରା, ଝିମଝିମ, ସ୍ପର୍ଶହୀନତା",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_807121433",
@@ -592,41 +593,7 @@
                     "id": "ID_578042209",
                     "text": "Difficulty hearing",
                     "display-or": "ଶୁଣିବାରେ ଅସୁବିଧା",
-                    "options": [
-                        {
-                            "id": "ID_818114222",
-                            "text": "Both ears",
-                            "display-or": "ଉଭୟ",
-                            "display-hi": "दोनों कान से",
-                            "display-gu": "બંને કાનમાં",
-                            "display-as": "দুটা কাণ",
-                            "display-bn": "উভয় কান",
-                            "display-kn": "ಎರಡೂ ಕಿವಿಗಳು",
-                            "display-mr": "दोन्ही कान"
-                        },
-                        {
-                            "id": "ID_1660211070",
-                            "text": "Right ear",
-                            "display-or": "ଡ଼ାହାଣ",
-                            "display-hi": "दाएं कान से",
-                            "display-gu": "જમણા કાનમાં",
-                            "display-as": "সোঁ কাণ",
-                            "display-bn": "ডান কান",
-                            "display-kn": "ಬಲ ಕಿವಿ",
-                            "display-mr": "उजवा कान"
-                        },
-                        {
-                            "id": "ID_569441319",
-                            "text": "Left ear",
-                            "display-or": "ବାମ",
-                            "display-hi": "बाएं कान से",
-                            "display-gu": "ડાબા કાનમાં",
-                            "display-as": "বাওঁ কাণ",
-                            "display-bn": "বাম কান",
-                            "display-kn": "ಎಡ ಕಿವಿ",
-                            "display-mr": "डावा कान"
-                        }
-                    ],
+
                     "display-hi": "सुनने में तकलीफ",
                     "display-gu": "સાંભળવામાં તકલીફ",
                     "display-as": "অসুবিধা শ্রবণ(শুনাত)",
@@ -638,65 +605,6 @@
                     "id": "ID_541253484",
                     "text": "Visual impairment/Change in vision",
                     "display-or": "ଢୃସ୍ତି ଶକ୍ତିର ପରିବର୍ତନ ଅନୁଭବ",
-                    "options": [
-                        {
-                            "id": "ID_1280591515",
-                            "text": "Double vision",
-                            "display-or": "ଟେରା ଦୃଷ୍ଟି",
-                            "display-hi": "दोहरी दृष्टि/ दो दिखना",
-                            "display-gu": "બમણું દેખાવું",
-                            "display-as": "উভয় দৃষ্টি (দুটাকে দেখে)",
-                            "display-bn": "ডবল দৃষ্টি",
-                            "display-kn": "ದ್ವೀ ದೃಷ್ಟಿ",
-                            "display-mr": "दुहेरी दृष्टी"
-                        },
-                        {
-                            "id": "ID_1998825623",
-                            "text": "Blurred vision",
-                            "display-or": "ଅନ୍ଧାରିଆ ଦେଖାଯିବା",
-                            "display-hi": "धुंधला दिखना",
-                            "display-gu": "ધૂંધળી નજર",
-                            "display-as": "দৃষ্টি ধোঁৱলি দেখা",
-                            "display-bn": "ঝাপসা দৃষ্টি",
-                            "display-kn": "ಮಂದ ದೃಷ್ಟಿ",
-                            "display-mr": "धूसर दृष्टी"
-                        },
-                        {
-                            "id": "ID_1108042093",
-                            "text": "Decreased eyesight",
-                            "display-or": "ଦୃଷ୍ଟି ଶକ୍ତି କାମ ହେବା",
-                            "display-hi": "देखने की शक्ति में कमी",
-                            "display-gu": "આંખો ઝાંખી થવી",
-                            "display-as": "দৃষ্টিশক্তি হ্রাস",
-                            "display-bn": "দৃষ্টিশক্তি কমে যাওয়া",
-                            "display-kn": "ದೃಷ್ಟಿ ಕಡಿಮೆಯಾಗಿದೆ",
-                            "display-mr": "दृष्टी कमी होणे"
-                        },
-                        {
-                            "id": "ID_134482317",
-                            "text": "Change in field of vision",
-                            "display-or": "ଦେଖେଇବା କ୍ଷେତ୍ରରେ ପରିଵର୍ତନ ହେବା",
-                            "display-hi": "दृष्टि दोष",
-                            "display-gu": "દ્રષ્ટિનાં ક્ષેત્રમાં ફેરફાર",
-                            "display-as": "দৃষ্টি ক্ষেত্রত পৰিবর্তন",
-                            "display-bn": "দৃষ্টি ক্ষেত্রের পরিবর্তন",
-                            "display-kn": "ದೃಷ್ಟಿ ಕ್ಷೇತ್ರದಲ್ಲಿ ಬದಲಾವಣೆ",
-                            "display-mr": "दृष्टीच्या क्षेत्रात बदल"
-                        },
-                        {
-                            "id": "ID_1714394067",
-                            "text": "Other",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
-                            "display-hi": "अन्य",
-                            "display-gu": "અન્ય",
-                            "display-as": "অন্যান্য",
-                            "display-bn": "অন্যান্য",
-                            "display-kn": "ಇತರ",
-                            "display-mr": "इतर"
-                        }
-                    ],
                     "display-hi": "दृष्टि हानि/ देखने में दिक्कत/दृष्टि में परिवर्तन",
                     "display-gu": "નજરમાં ખામી/નજરમાં ફરક",
                     "display-as": "দৃষ্টি প্রতিবন্ধকতা / দর্শন পৰিবর্তন",
@@ -811,32 +719,6 @@
                     "perform-physical-exam": "Face:Swollen Face;Neck:Thyroid swelling;",
                     "display": "Feeling uncomfortable in hot/cold environments",
                     "display-or": "ଥଣ୍ଡା / ଗରମ ସହି ନ ପାରିବ",
-                    "options": [
-                        {
-                            "id": "ID_1057424061",
-                            "text": "Heat intolerance",
-                            "display": "Feels uncomfortable in hot environments",
-                            "display-or": "ଥଣ୍ଡା ସହି ନ ପାରିବ",
-                            "display-hi": "गरम वातावरण में असहज महसूस करना",
-                            "display-gu": "ગરમ વાતાવરણમાં અસુખ થાય",
-                            "display-as": "গৰিম পৰিবেশত অস্বস্তি অনুভৱ কৰে",
-                            "display-bn": "গরম পরিবেশে অস্বস্তি লাগে",
-                            "display-kn": "ಉಷ್ಣ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
-                            "display-mr": "गरम वातावरणात अस्वस्थ वाटते"
-                        },
-                        {
-                            "id": "ID_1030198983",
-                            "text": "Cold intolerance",
-                            "display": "Feels uncomfortable in cold environments",
-                            "display-or": "ଗରମ ସହି ନ ପାରିବ",
-                            "display-hi": "ठंडे वातावरण में असहज महसूस करना",
-                            "display-gu": "ઠંડાં વાતાવરણમાં અસુખ થાય",
-                            "display-as": "শীতল পৰিবেশত অস্বস্তি অনুভৱ কৰে",
-                            "display-bn": "ঠান্ডা পরিবেশে অস্বস্তি লাগে",
-                            "display-kn": "ಶೀತ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
-                            "display-mr": "थंड वातावरणात अस्वस्थ वाटते"
-                        }
-                    ],
                     "display-hi": "गरम या ठंडे वातावरण में असहज महसूस करना",
                     "display-gu": "ગરમ/ઠંડાં વાતાવરણમાં અસુખ થાય",
                     "display-as": "গৰম / ঠান্ডা পৰিবেশত অস্বস্তি অনুভৱ কৰা হৈছে",

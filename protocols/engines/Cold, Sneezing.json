@@ -2,6 +2,7 @@
     "id": "ID_1038379814",
     "text": "Cold, Sneezing",
     "display-or": "ଥଣ୍ଡା ଛିଙ୍କ",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_313791833",
@@ -9,13 +10,12 @@
             "display": "Since when have you had this symptom?*",
             "isRequired": true,
             "display-or": "କେବେଠାରୁ*",
-            "language": "%",
+            "language": "Since",
             "options": [
                 {
                     "id": "ID_826155781",
                     "text": "[Enter since when]",
                     "input-type": "duration",
-                    "language": "Since",
                     "display-or": "କେବେ ଠାରୁ ଲେଖ",
                     "display-hi": "[कब से है – दर्ज करें]",
                     "display-gu": "[ક્યારથી તે લખી જણાવો]",
@@ -142,111 +142,7 @@
                     "id": "ID_157243198",
                     "text": "Cough",
                     "display-or": "କାଶ",
-                    "options": [
-                        {
-                            "id": "ID_1699941000",
-                            "text": "Dry",
-                            "display-or": "ଶୁଖିଲା",
-                            "display-hi": "सुखी खांसी",
-                            "display-gu": "સૂકો",
-                            "display-as": "শুকন",
-                            "display-bn": "শুষ্ক",
-                            "display-kn": "ಒಣ",
-                            "display-mr": "कोरडा"
-                        },
-                        {
-                            "id": "ID_66542167",
-                            "text": "Productive (With sputum)",
-                            "display-or": "କଫି",
-                            "options": [
-                                {
-                                    "id": "ID_40884973",
-                                    "text": "Color of sputum",
-                                    "display-or": "କଫ ର ରଙ୍ଗ",
-                                    "options": [
-                                        {
-                                            "id": "ID_127709783",
-                                            "text": "Clear",
-                                            "display-or": "ପରିସ୍କାର",
-                                            "display-hi": "साफ़",
-                                            "display-gu": "સ્પષ્ટ",
-                                            "display-as": "পৰিষ্কাৰ",
-                                            "display-bn": "স্পষ্ট",
-                                            "display-kn": "ಸ್ಪಷ್ಟ",
-                                            "display-mr": "स्वच्छ/पाण्यासारखा"
-                                        },
-                                        {
-                                            "id": "ID_1390255618",
-                                            "text": "Yellow",
-                                            "display-or": "ହଳଦିଆ",
-                                            "display-hi": "पीला",
-                                            "display-gu": "પીળો",
-                                            "display-as": "হালধীয়া",
-                                            "display-bn": "হলুদ",
-                                            "display-kn": "ಹಳದಿ",
-                                            "display-mr": "पिवळा"
-                                        },
-                                        {
-                                            "id": "ID_1829782527",
-                                            "text": "Green",
-                                            "display-or": "ସବୁଜ",
-                                            "display-hi": "हरा",
-                                            "display-gu": "લીલો",
-                                            "display-as": "সেউজীয়া",
-                                            "display-bn": "সবুজ",
-                                            "display-kn": "ಹಸಿರು",
-                                            "display-mr": "हिरवा"
-                                        },
-                                        {
-                                            "id": "ID_1306609508",
-                                            "text": "Red or pink",
-                                            "display-or": "ଲାଲ ବା ଗୋଲାପି",
-                                            "display-hi": "लाल या गुलाबी",
-                                            "display-gu": "લાલ અથવા ગુલાબી",
-                                            "display-as": "ৰঙা বা গোলোপীয়া",
-                                            "display-bn": "লাল বা গোলাপী",
-                                            "display-kn": "ಕೆಂಪು ಅಥವಾ ಗುಲಾಬಿ",
-                                            "display-mr": "लाल किंवा गुलाबी"
-                                        },
-                                        {
-                                            "id": "ID_254084860",
-                                            "text": "Brown",
-                                            "display-or": "ମାଟିଆ ବା ବାଦାମି",
-                                            "display-hi": "भूरा",
-                                            "display-gu": "છીંકણી",
-                                            "display-as": "বাদামী (মুগা ৰঙৰ)",
-                                            "display-bn": "বাদামী",
-                                            "display-kn": "ಕಂದು",
-                                            "display-mr": "तपकिरी"
-                                        },
-                                        {
-                                            "id": "ID_1146006116",
-                                            "text": "Black or grey",
-                                            "display-or": "କଳା ବା ଧୁସର",
-                                            "display-hi": "काला या स्लेटी",
-                                            "display-gu": "કાળો અથવા રાખોડી",
-                                            "display-as": "কলা বা ধোঁৱা",
-                                            "display-bn": "কালো বা ধূসর",
-                                            "display-kn": "ಕಪ್ಪು ಅಥವಾ ಬೂದು",
-                                            "display-mr": "काळा किंवा राखाडी"
-                                        }
-                                    ],
-                                    "display-hi": "बलगम का रंग",
-                                    "display-gu": "ગળફાનો રંગ",
-                                    "display-as": "থুতৰ ৰঙ",
-                                    "display-bn": "থুতনির রঙ",
-                                    "display-kn": "ಕಫದ ಬಣ್ಣ",
-                                    "display-mr": "थुंकीचा रंग"
-                                }
-                            ],
-                            "display-hi": "खांसी के साथ बलगम का आना",
-                            "display-gu": "પ્રોડક્ટિવ (ગળફો)",
-                            "display-as": "উত্পাদনশীল (থুৰ সহ)",
-                            "display-bn": "উত্পাদনশীল (থুথু সহ)",
-                            "display-kn": "ಉತ್ಪಾದಕ (ಕಫದೊಂದಿಗೆ)",
-                            "display-mr": "ओला (थुंकीसह)"
-                        }
-                    ],
+
                     "display-hi": "खांसी",
                     "display-gu": "કફ",
                     "display-as": "কাহ",
@@ -323,7 +219,7 @@
                     "display-mr": "इतर (वर्णन करा)"
                 }
             ],
-            "display-hi": "क्या आपको ये लक्षण हैं?*",
+            "display-hi": "क्या आपको निम्न लक्षण है?*",
             "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
             "display-as": "নিম্নলিখিত লক্ষণবোৰ আপোনাৰ আছে ?*",
             "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",

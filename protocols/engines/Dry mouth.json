@@ -3,6 +3,7 @@
     "text": "Dry mouth",
     "perform-physical-exam": "Temperature:Fever;Face:Swollen Face;Mouth:Tongue Dryness;Any Location:Joint Examination;Any Location:Joint Tenderness;Any Location:Skin Rash;",
     "display-or": "ଶୁଖିଲା ପାଟି",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_313791833",
@@ -10,12 +11,13 @@
             "display": "Since when have you had this symptom?*",
             "isRequired": true,
             "display-or": "କେବେଠାରୁ*",
+            "language": "since",
             "options": [
                 {
                     "id": "ID_826155781",
                     "text": "[Enter since when]",
                     "input-type": "duration",
-                    "language": "since",
+
                     "display-or": "ତାରିଖ",
                     "display-hi": "[कब से है,  दर्ज करें]",
                     "display-gu": "[ક્યારથી તે લખી જણાવો]",
@@ -144,33 +146,7 @@
                     "id": "ID_706688255",
                     "text": "Skin lesions",
                     "display-or": "ଚର୍ମରେ କ୍ଷତି",
-                    "options": [
-                        {
-                            "id": "ID_544810340",
-                            "text": "Yes [describe]",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ଅନ୍ୟାନ୍ୟ",
-                            "display-hi": "हाँ[वर्णन करें ]",
-                            "display-gu": "હા [વર્ણન કરો]",
-                            "display-as": "হয় [বৰ্ণনা কৰক]",
-                            "display-bn": "হ্যাঁ [বর্ণনা]",
-                            "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
-                            "display-mr": "हो ( वर्णन करा)"
-                        },
-                        {
-                            "id": "ID_199574476",
-                            "text": "No",
-                            "language": "No skin lesions",
-                            "display-or": "ନାଁ ",
-                            "display-hi": "नहीं ",
-                            "display-gu": "ના",
-                            "display-as": "নহয়",
-                            "display-bn": "না",
-                            "display-kn": "ಅಲ್ಲ",
-                            "display-mr": "नाही"
-                        }
-                    ],
+
                     "display-hi": "त्वचा पर घाव ",
                     "display-gu": "ચામડી(ત્વચા)ના રોગ",
                     "display-as": "ছালৰ ঘাঁ",

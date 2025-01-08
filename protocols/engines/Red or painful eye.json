@@ -3,6 +3,7 @@
     "text": "Red or painful eye",
     "perform-physical-exam": "Eyes:Redness;Eyes:Discharge;Eyes:Swelling;Eyes:Pupillary movement;Any Location:Skin Rash;",
     "display-or": "ଲାଲ/କିମ୍ବା ସ୍ପଷ୍ଟ ଦାୟକ ଆଖି",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1978648532",
@@ -161,65 +162,6 @@
                     "id": "ID_541253484",
                     "text": "Visual impairment/Change in vision",
                     "display-or": "ଢୃସ୍ତି ଶକ୍ତିର ପରିବର୍ତନ ଅନୁଭବ",
-                    "options": [
-                        {
-                            "id": "ID_1280591515",
-                            "text": "Double vision",
-                            "display-or": "ଟେରା ଦୃଷ୍ଟି",
-                            "display-hi": "दोहरी दृष्टि (डबल विजन)",
-                            "display-gu": "બમણું દેખાવું",
-                            "display-as": "দুটাকৈ দেখা",
-                            "display-bn": "ডবল দৃষ্টি",
-                            "display-kn": "ದ್ವೀ ದೃಷ್ಟಿ",
-                            "display-mr": "दुहेरी दृष्टी (एक वस्तू दोन असल्याप्रमाणे दिसणे)"
-                        },
-                        {
-                            "id": "ID_1998825623",
-                            "text": "Blurred vision",
-                            "display-or": "ଅନ୍ଧାରିଆ ଦେଖାଯିବା",
-                            "display-hi": "धुंधलापन",
-                            "display-gu": "ધૂંધળી નજર",
-                            "display-as": "ধোঁৱাকুৱা দেখা",
-                            "display-bn": "ঝাপসা দৃষ্টি",
-                            "display-kn": "ಮಂದ ದೃಷ್ಟಿ",
-                            "display-mr": "धूसर दृष्टी (धुरकट दृष्टी)"
-                        },
-                        {
-                            "id": "ID_1108042093",
-                            "text": "Decreased eyesight",
-                            "display-or": "ଦୃଷ୍ଟି ଶକ୍ତି କାମ ହେବା",
-                            "display-hi": "आंख का कमजोर पड़ना ",
-                            "display-gu": "આંખો ઝાંખી થવી",
-                            "display-as": "দৃষ্টিশক্তি হ্রাস",
-                            "display-bn": "দৃষ্টিশক্তি কমে যাওয়া",
-                            "display-kn": "ದೃಷ್ಟಿ ಕಡಿಮೆಯಾಗಿದೆ",
-                            "display-mr": "दृष्टी कमी होणे"
-                        },
-                        {
-                            "id": "ID_134482317",
-                            "text": "Change in field of vision",
-                            "display-or": "ଦେଖେଇବା କ୍ଷେତ୍ରରେ ପରିଵର୍ତନ ହେବା",
-                            "display-hi": "देखने के क्षेत्र में बदलाव",
-                            "display-gu": "દ્રષ્ટિનાં ક્ષેત્રમાં ફેરફાર",
-                            "display-as": "দৃষ্টি ক্ষেত্র পৰিবর্তন",
-                            "display-bn": "দৃষ্টি ক্ষেত্রের পরিবর্তন",
-                            "display-kn": "ದೃಷ್ಟಿ ಕ್ಷೇತ್ರದಲ್ಲಿ ಬದಲಾವಣೆ",
-                            "display-mr": "डोळ्यांनी बघू शकणाऱ्या एकूण जागेच्या आकारात/ क्षेत्रामध्ये बदल"
-                        },
-                        {
-                            "id": "ID_1714394067",
-                            "text": "Other",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
-                            "display-hi": "अन्य",
-                            "display-gu": "અન્ય",
-                            "display-as": "অন্যান্য",
-                            "display-bn": "অন্যান্য",
-                            "display-kn": "ಇತರ",
-                            "display-mr": "इतर"
-                        }
-                    ],
                     "display-hi": "दृष्टि दोष/दृष्टि में परिवर्तन",
                     "display-gu": "નજરમાં ખામી/નજરમાં ફરક",
                     "display-as": "দৃষ্টি প্রতিবন্ধকতা / দর্শন পৰিবর্তন",
@@ -287,41 +229,6 @@
                     "id": "ID_72549314",
                     "text": "Discharge from the eye",
                     "display-or": "ଆଖିରୁ ଶ୍ରାବ ହେଵ",
-                    "options": [
-                        {
-                            "id": "ID_1004739225",
-                            "text": "Clear discharge",
-                            "display-or": "ପାଣି",
-                            "display-hi": "साफ़ रिसाव",
-                            "display-gu": "ચોખ્ખો સ્રાવ",
-                            "display-as": "পৰিষ্কাৰ স্রাব",
-                            "display-bn": "পরিষ্কার স্রাব",
-                            "display-kn": "ಸ್ಪಷ್ಟವಾದ ಸ್ರಾವ",
-                            "display-mr": "स्वच्छ स्त्राव"
-                        },
-                        {
-                            "id": "ID_1592912865",
-                            "text": "Pus",
-                            "display-or": "ପୂଜ",
-                            "display-hi": "पस",
-                            "display-gu": "પરૂ",
-                            "display-as": "পুঁজ",
-                            "display-bn": "পুঁজ",
-                            "display-kn": "ಕೀವು",
-                            "display-mr": "पू"
-                        },
-                        {
-                            "id": "ID_157417128",
-                            "text": "Blood",
-                            "display-or": "ରକ୍ତ",
-                            "display-hi": "खून",
-                            "display-gu": "લોહી",
-                            "display-as": "তেজ",
-                            "display-bn": "রক্ত",
-                            "display-kn": "ರಕ್ತ",
-                            "display-mr": "रक्त"
-                        }
-                    ],
                     "display-hi": "आँख से पानी आना ",
                     "display-gu": "આંખોમાંથી સ્રાવ નીકળવો",
                     "display-as": "চকু পৰা স্রাব",
@@ -378,88 +285,6 @@
                     "text": "Joint pain",
                     "perform-physical-exam": "Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;",
                     "display-or": "ଗଣ୍ଠି ଯନ୍ତ୍ରଣା",
-                    "options": [
-                        {
-                            "id": "ID_385555119",
-                            "text": "Involvement",
-                            "language": "with involvement of",
-                            "display": "Does the pain involve single or multiple joints?",
-                            "display-or": "କେତେଟା ଗଣ୍ଠି",
-                            "options": [
-                                {
-                                    "id": "ID_1452749525",
-                                    "text": "Single joint [Describe which joint]",
-                                    "input-type": "text",
-                                    "display-or": "ଗୋଟେ (କେଉଁ ଗଣ୍ଠି)",
-                                    "language": "single joint",
-                                    "display-hi": "एक जोड़ (बताएं कि कौन-सा जोड़)",
-                                    "display-gu": "એક સાંધો [કયા સાંધામાં, જણાવો]",
-                                    "display-as": "একক ষোৰত [কোন যোৰটো বর্ণনা কৰা]",
-                                    "display-bn": "একক জয়েন্ট [কোন জয়েন্ট বর্ণনা কর]",
-                                    "display-kn": "ಒಂದೇ ಕೀಲು[ಯಾವ ಕೀಲು ವಿವರಿಸಿ]",
-                                    "display-mr": "एका सांध्यामध्ये (कोणत्या सांध्या मध्ये)"
-                                },
-                                {
-                                    "id": "ID_1850264673",
-                                    "text": "Multiple joints [Describe which joints]",
-                                    "display-or": "ବହୁତ (କେଉଁ ଗଣ୍ଠି ରେ)",
-                                    "input-type": "text",
-                                    "language": "multiple joints",
-                                    "display-hi": "कई जोड़ (बताएं कि कौन-से जोड़)",
-                                    "display-gu": "ઘણા સાંધાઓમાં [કયા સાંધામાં, જણાવો]",
-                                    "display-as": "একাধিক জয়েন্টবোৰত [কোন জয়েন্ট(জোৰ)বোৰত বর্ণনা কৰা]",
-                                    "display-bn": "একাধিক জয়েন্ট [কোন সন্ধি বর্ণনা কর]",
-                                    "display-kn": "ಬಹು ಕೀಲುಗಳು [ಯಾವ ಕೀಲುಗಳನ್ನು ವಿವರಿಸಿ]",
-                                    "display-mr": "अनेक सांध्यांमध्ये ( कोणते सांधे)"
-                                }
-                            ],
-                            "display-hi": "दर्द एक जोड़ में होता है, कि कई जोड़ों में?",
-                            "display-gu": "એક અથવા વધારે સાંધાઓમાં પણ દુખાવો થાય છે?",
-                            "display-as": "বিষ কি একক বা একাধিক জয়েন্ট(জোৰ)বোৰত জড়িত?",
-                            "display-bn": "ব্যথা কি একক বা একাধিক জয়েন্টে জড়িত?",
-                            "display-kn": "ನೋವು ಒಂದೇ ಅಥವಾ ಬಹು ಕೀಲುಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆಯೇ?",
-                            "display-mr": "वेदना एका सांध्यामध्ये आहे की अनेक सांध्यांमध्ये"
-                        },
-                        {
-                            "id": "ID_1930789915",
-                            "text": "Migratory",
-                            "language": "%",
-                            "display": "Does the pain move to other parts of the body?",
-                            "display-or": "ଯନ୍ତ୍ରଣା ଅନ୍ଯଯାଗାକୁ ଯାଉଛି",
-                            "options": [
-                                {
-                                    "id": "ID_1924496479",
-                                    "text": "No",
-                                    "language": "pain is not migratory in nature",
-                                    "display-or": "ନାହିଁ",
-                                    "display-hi": "नहीं",
-                                    "display-gu": "ના",
-                                    "display-as": "নহয়",
-                                    "display-bn": "না",
-                                    "display-kn": "ಅಲ್ಲ",
-                                    "display-mr": "नाही"
-                                },
-                                {
-                                    "id": "ID_790875526",
-                                    "text": "Yes",
-                                    "language": "pain is migratory in nature",
-                                    "display-or": "ହଁ",
-                                    "display-hi": "हां",
-                                    "display-gu": "હા",
-                                    "display-as": "হয়",
-                                    "display-bn": "হ্যাঁ",
-                                    "display-kn": "ಹೌದು",
-                                    "display-mr": "हो"
-                                }
-                            ],
-                            "display-hi": "क्या दर्द शरीर के अन्य भाग में जाता है?",
-                            "display-gu": "દુખાવો શરીરના બીજા ભાગમાં જાય છે?",
-                            "display-as": "বিষ শৰীৰৰ অন্যান্য অংশত চলি যায়?",
-                            "display-bn": "ব্যথা কি শরীরের অন্য অংশে চলে যায়?",
-                            "display-kn": "ನೋವು ದೇಹದ ಇತರ ಭಾಗಗಳಿಗೆ ಹರಡುತ್ತದೆಯೇ ?",
-                            "display-mr": "वेदना शरीराच्या इतर भागात जाते का"
-                        }
-                    ],
                     "display-hi": "जोड़ों का दर्द",
                     "display-gu": "સાંધાનો દુખાવો",
                     "display-as": "গাঠিযোৰৰ বিষ",
