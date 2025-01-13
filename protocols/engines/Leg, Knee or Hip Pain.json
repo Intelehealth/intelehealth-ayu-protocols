@@ -3,6 +3,7 @@
     "text": "Leg, Knee or Hip Pain",
     "perform-physical-exam": "Back:Tenderness;Leg:Peripheral pulsations;Knee:Swelling;Knee:Deformity;Knee:Cracking sound on movement;Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;Joint:Movement range;",
     "display-or": "ଗୋଡ, ଆଣ୍ଠୁ ବା ଅଂଟା ଦରଜ",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_471602377",
@@ -583,6 +584,7 @@
             "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?",
             "pos-condition": "c.",
             "neg-condition": "s.",
+            "isRequired": true,
             "options": [
                 {
                     "id": "ID_462182261",
@@ -643,69 +645,7 @@
                     "id": "ID_671958087",
                     "text": "Stiffness",
                     "display-or": "ଟାଇଟ୍",
-                    "options": [
-                        {
-                            "id": "ID_545324755",
-                            "text": "Timing",
-                            "display": "What time of the day do you feel the stiffness?*",
-                            "isRequired": true,
-                            "display-or": "ସମୟ*",
-                            "options": [
-                                {
-                                    "id": "ID_1284247767",
-                                    "text": "Morning",
-                                    "display-or": "ସକାଳ",
-                                    "options": [
-                                        {
-                                            "id": "ID_1428584231",
-                                            "text": "lasting > 60minutes",
-                                            "display-or": "ଘଣ୍ଟାଏରୁ ଅଧିକ",
-                                            "display-hi": "60 मिनट से ज्यादा",
-                                            "display-gu": "કેટલો સમય રહે છે > 60 મિનિટ",
-                                            "display-as": "স্থায়ী> 60 মিনিট",
-                                            "display-bn": "স্থায়ী> 60 মিনিট",
-                                            "display-kn": "60 ನಿಮಿಷಗಳ ಕಾಲ",
-                                            "display-mr": "दीर्घकाळ, 60 मिनिटांपेक्षा जास्त"
-                                        },
-                                        {
-                                            "id": "ID_816060705",
-                                            "text": "lasting <= 60 minutes",
-                                            "display-or": "ଘଣ୍ଟାଏରୁ କମ",
-                                            "display-hi": "60 मिनट या उससे कम",
-                                            "display-gu": "કેટલો સમય રહે છે <= 60 મિનિટ",
-                                            "display-as": "দীর্ঘস্থায়ী <= 60 মিনিট",
-                                            "display-bn": "স্থায়ী <= 60 মিনিট",
-                                            "display-kn": "<= 60 ನಿಮಿಷಗಳ ಕಾಲ",
-                                            "display-mr": "60 मिनिटे किंवा त्यापेक्षा कमी"
-                                        }
-                                    ],
-                                    "display-hi": "सुबह",
-                                    "display-gu": "સવારે",
-                                    "display-as": "ৰাতিপুৱা",
-                                    "display-bn": "সকাল",
-                                    "display-kn": "ಬೆಳಗ್ಗೆ",
-                                    "display-mr": "सकाळी"
-                                },
-                                {
-                                    "id": "ID_430493357",
-                                    "text": "Constant",
-                                    "display-or": "ସ୍ଥିର",
-                                    "display-hi": "लगातार",
-                                    "display-gu": "સતત",
-                                    "display-as": "ধ্রুৱক,অটল",
-                                    "display-bn": "ধ্রুবক",
-                                    "display-kn": "ನಿರಂತರ",
-                                    "display-mr": "सतत"
-                                }
-                            ],
-                            "display-hi": "आपको दिन के किस समय में अकड़न महसूस होती है?*",
-                            "display-gu": "આપને દિવસે કયા સમયે અક્કડતા અનુભવાય છે?*",
-                            "display-as": "দিনৰ কোন সময়ত আপুনি কঠোৰ অনুভব কৰে?*",
-                            "display-bn": "দিনের কোন সময়ে আপনি কঠোরতা অনুভব করেন?*",
-                            "display-kn": "ದಿನದ ಯಾವ ಸಮಯದಲ್ಲಿ ನೀವು ಬಿಗಿತವನ್ನು ಅನುಭವಿಸುತ್ತೀರಿ?*",
-                            "display-mr": "तुम्हाला दिवसाच्या कोणत्या वेळी  दुखणाऱ्या ठिकाणी कडकपणा जाणवतो?"
-                        }
-                    ],
+
                     "display-hi": "कठोरता",
                     "display-gu": "અક્કડતા",
                     "display-as": "কঠোৰ",
@@ -1153,7 +1093,6 @@
                     "text": "Yes ",
                     "language": "Patient has h/o use of Injection / drug",
                     "display-or": "ହଁ",
-                    "multi-choice": true,
                     "options": [
                         {
                             "id": "ID_206817544",

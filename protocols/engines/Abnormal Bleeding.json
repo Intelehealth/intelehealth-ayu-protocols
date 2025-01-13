@@ -3,6 +3,7 @@
     "text": "Abnormal Bleeding",
     "perform-physical-exam": "Arm:Lying BP;Mouth:Gum bleeding;Face:Swollen Face;Neck:Thyroid swelling;Abdomen:Distension;Any Location:Skin Rash;Any Location:Skin Bruise;",
     "display-or": "ରକ୍ତ ବୋହିବା",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1645056800",
@@ -101,6 +102,7 @@
                     "text": "Hematuria",
                     "display": "Bloody urine",
                     "display-or": "ରକ୍ତ ମୁତ୍ର",
+                    "havingNestedQuestion": "true",
                     "options": [
                         {
                             "id": "ID_1628291287",
@@ -887,88 +889,6 @@
                     "text": "Joint pain",
                     "perform-physical-exam": "Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;",
                     "display-or": "ଗଣ୍ଠି ଯନ୍ତ୍ରଣା",
-                    "options": [
-                        {
-                            "id": "ID_385555119",
-                            "text": "Involvement",
-                            "language": "with involvement of",
-                            "display": "Does the pain involve single or multiple joints?",
-                            "display-or": "କେତେଟା ଗଣ୍ଠି",
-                            "options": [
-                                {
-                                    "id": "ID_1452749525",
-                                    "text": "Single joint [Describe which joint]",
-                                    "input-type": "text",
-                                    "display-or": "ଗୋଟେ (କେଉଁ ଗଣ୍ଠି)",
-                                    "language": "single joint",
-                                    "display-hi": "एक जोड़ (बताएं कि किस जोड़ में)",
-                                    "display-gu": "એક સાંધો [કયા સાંધામાં, જણાવો]",
-                                    "display-as": "একক সংযোগ [কোন সংযোগস্থল বৰ্ণনা কৰক]",
-                                    "display-bn": "একক জয়েন্ট [কোন জয়েন্ট বর্ণনা কর]",
-                                    "display-kn": "ಒಂದೇ ಕೀಲು[ಯಾವ ಕೀಲು ವಿವರಿಸಿ]",
-                                    "display-mr": "एकल संयुक्त [सांध्याचे वर्णन करा]"
-                                },
-                                {
-                                    "id": "ID_1850264673",
-                                    "text": "Multiple joints [Describe which joints]",
-                                    "display-or": "ବହୁତ (କେଉଁ ଗଣ୍ଠି ରେ)",
-                                    "input-type": "text",
-                                    "language": "multiple joints",
-                                    "display-hi": "अनेक जोड़ (बताएं कि कौन-से जोड़ों में)",
-                                    "display-gu": "ઘણા સાંધાઓમાં [કયા સાંધામાં, જણાવો]",
-                                    "display-as": "একাধিক সংযোগ [কোন সংযোগৰ বৰ্ণনা কৰক]",
-                                    "display-bn": "একাধিক জয়েন্ট [কোন সন্ধি বর্ণনা কর]",
-                                    "display-kn": "ಬಹು ಕೀಲುಗಳು [ಯಾವ ಕೀಲುಗಳನ್ನು ವಿವರಿಸಿ]",
-                                    "display-mr": "अनेक सांधे  [सांध्याचे वर्णन करा]"
-                                }
-                            ],
-                            "display-hi": "यह दर्द एक जोड़ में है या अनेक जोड़ों में?",
-                            "display-gu": "એક અથવા વધારે સાંધાઓમાં પણ દુખાવો થાય છે?",
-                            "display-as": "বিষ একক বা একাধিক গাঁঠি জড়িত হৈ থাকে নেকি?",
-                            "display-bn": "ব্যথা কি এক বা একাধিক জয়েন্টে জড়িত?",
-                            "display-kn": "ನೋವು ಒಂದೇ ಅಥವಾ ಬಹು ಕೀಲುಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆಯೇ?",
-                            "display-mr": "वेदना एका किंवा अनेक सांध्यांमध्ये जाणवते?"
-                        },
-                        {
-                            "id": "ID_1930789915",
-                            "text": "Migratory",
-                            "language": "%",
-                            "display": "Does the pain move to other parts of the body?",
-                            "display-or": "ଯନ୍ତ୍ରଣା ଅନ୍ଯଯାଗାକୁ ଯାଉଛି",
-                            "options": [
-                                {
-                                    "id": "ID_1924496479",
-                                    "text": "No",
-                                    "language": "pain is not migratory in nature",
-                                    "display-or": "ନାହିଁ",
-                                    "display-hi": "नहीं",
-                                    "display-gu": "ના",
-                                    "display-as": "নহয়",
-                                    "display-bn": "না",
-                                    "display-kn": "ಅಲ್ಲ",
-                                    "display-mr": "नाही"
-                                },
-                                {
-                                    "id": "ID_790875526",
-                                    "text": "Yes",
-                                    "language": "pain is migratory in nature",
-                                    "display-or": "ହଁ",
-                                    "display-hi": "हां",
-                                    "display-gu": "હા",
-                                    "display-as": "হয়",
-                                    "display-bn": "হ্যাঁ",
-                                    "display-kn": "ಹೌದು",
-                                    "display-mr": "होय"
-                                }
-                            ],
-                            "display-hi": "क्या दर्द शरीर के अन्य भाग में जाता है?",
-                            "display-gu": "દુખાવો શરીરના બીજા ભાગમાં જાય છે?",
-                            "display-as": "বিষটো শৰীৰৰ আন অংশলৈ গতি কৰেনে?",
-                            "display-bn": "ব্যথা কি শরীরের অন্য অংশে চলে যায়?",
-                            "display-kn": "ನೋವು ದೇಹದ ಇತರ ಭಾಗಗಳಿಗೆ ಹರಡುತ್ತದೆಯೇ ?",
-                            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?"
-                        }
-                    ],
                     "display-hi": "जोड़ों का दर्द",
                     "display-gu": "સાંધાનો દુખાવો",
                     "display-as": "গাঁঠিৰ বিষ",
@@ -1012,49 +932,9 @@
                 {
                     "id": "ID_896570466",
                     "text": "Weight change (kg)",
-                    "language": "%",
+                    "language": "Weight change",
                     "display-or": "ଓଜନ ପରିବର୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_867149692",
-                            "text": "Weight gain",
-                            "input-type": "number",
-                            "language": "Patient reports weight gain (kgs)",
-                            "display-or": "ବୃଦ୍ଧି",
-                            "display-hi": "वजन बढ़ना",
-                            "display-gu": "વજન વધવું",
-                            "display-as": "ওজন বৃদ্ধি",
-                            "display-bn": "ওজন বৃদ্ধি",
-                            "display-kn": "ತೂಕ ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುವುದು",
-                            "display-mr": "वजन वाढणे"
-                        },
-                        {
-                            "id": "ID_362965028",
-                            "text": "Weight loss",
-                            "input-type": "number",
-                            "language": "Patient reports weight loss (kgs)",
-                            "display-or": "ହ୍ରାସ",
-                            "display-hi": "वजन घटना",
-                            "display-gu": "વજન ઘટવું",
-                            "display-as": "ওজন কম",
-                            "display-bn": "ওজন কমানো",
-                            "display-kn": "ತೂಕದಲ್ಲಿ  ಇಳಿಕೆ",
-                            "display-mr": "वजन कमी होणे"
-                        },
-                        {
-                            "id": "ID_894111749",
-                            "text": "since when",
-                            "input-type": "duration",
-                            "language": "since",
-                            "display-or": "କେବେ ଠାରୁ ଲେଖ",
-                            "display-hi": "कब से",
-                            "display-gu": "ક્યારથી",
-                            "display-as": "কেতিয়াৰ পৰা",
-                            "display-bn": "কখন থেকে",
-                            "display-kn": "ಯಾವತ್ತಿಂದ",
-                            "display-mr": "केव्हा पासून"
-                        }
-                    ],
+
                     "display-hi": "वजन में बदलाव (किग्रा)",
                     "display-gu": "વજનમાં ફેરફાર (કિલો)",
                     "display-as": "ওজনৰ পৰিৱৰ্তন (কিলোগ্ৰাম)",

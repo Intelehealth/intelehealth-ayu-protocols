@@ -3,6 +3,7 @@
     "text": "Shoulder, arm or hand pain",
     "perform-physical-exam": "Joint:Examination instructions;Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;Joint:Movement range;",
     "display-or": "କାନ୍ଧ ବହୁ କିମ୍ବା ହାତ ଯନ୍ତ୍ରଣା",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_694852736",
@@ -96,13 +97,13 @@
                     "id": "ID_1618340054",
                     "text": "Wrist",
                     "display-or": "ମଣିବନ୍ଧ",
+                    "havingNestedQuestion": "true",
                     "options": [
                         {
                             "id": "ID_1033618575",
                             "text": "Any pain or weakness of the first 2-3 digits of the hand?*",
                             "isRequired": true,
                             "multi-choice": false,
-                            "language": "%",
                             "display-or": "ଅଙ୍ଗୁଠିରେ ଦୁର୍ବଳତା*",
                             "options": [
                                 {
@@ -531,49 +532,8 @@
                 {
                     "id": "ID_896570466",
                     "text": "Weight change (kg)",
-                    "language": "%",
+                    "language": "Weight change",
                     "display-or": "ଓଜନ ପରିବର୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_867149692",
-                            "text": "Weight gain",
-                            "input-type": "number",
-                            "language": "Patient reports weight gain (kgs)",
-                            "display-or": "ବୃଦ୍ଧି",
-                            "display-hi": "वजन बढ़ना",
-                            "display-gu": "વજન વધવું",
-                            "display-as": "ওজন বৃদ্ধি",
-                            "display-bn": "ওজন বৃদ্ধি",
-                            "display-kn": "ತೂಕ ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುವುದು",
-                            "display-mr": "वजन वाढणे"
-                        },
-                        {
-                            "id": "ID_362965028",
-                            "text": "Weight loss",
-                            "input-type": "number",
-                            "language": "Patient reports weight loss (kgs)",
-                            "display-or": "ହ୍ରାସ",
-                            "display-hi": "वजन घटना",
-                            "display-gu": "વજન ઘટવું",
-                            "display-as": "ওজন কম",
-                            "display-bn": "ওজন কমানো",
-                            "display-kn": "ತೂಕದಲ್ಲಿ  ಇಳಿಕೆ",
-                            "display-mr": "वजन घटने"
-                        },
-                        {
-                            "id": "ID_894111749",
-                            "text": "since when",
-                            "input-type": "duration",
-                            "language": "since",
-                            "display-or": "କେବେ ଠାରୁ ଲେଖ",
-                            "display-hi": "कब से",
-                            "display-gu": "ક્યારથી",
-                            "display-as": "কেতিয়াৰ",
-                            "display-bn": "কখন থেকে",
-                            "display-kn": "ಯಾವತ್ತಿಂದ",
-                            "display-mr": "केव्हा पासून?"
-                        }
-                    ],
                     "display-hi": "वजन में बदलाव (किग्रा)",
                     "display-gu": "વજનમાં ફેરફાર (કિલો)",
                     "display-as": "ওজন পৰিবর্তন (কেজি)",
@@ -607,67 +567,6 @@
                     "id": "ID_671958087",
                     "text": "Stiffness",
                     "display-or": "ଟାଇଟ ଲାଗିବା",
-                    "options": [
-                        {
-                            "id": "ID_545324755",
-                            "text": "Timing",
-                            "display-or": "କେତେ ବେଳେ",
-                            "options": [
-                                {
-                                    "id": "ID_1284247767",
-                                    "text": "Morning",
-                                    "display-or": "ସକାଳ",
-                                    "options": [
-                                        {
-                                            "id": "ID_1428584231",
-                                            "text": "lasting > 60minutes",
-                                            "display-or": "ଘାନ୍ତାକରୁ ଅଧିକ",
-                                            "display-hi": "60 मिनट से ज्यादा",
-                                            "display-gu": "કેટલો સમય રહે છે > 60 મિનિટ",
-                                            "display-as": "স্থায়ী> 60 মিনিট",
-                                            "display-bn": "স্থায়ী> 60 মিনিট",
-                                            "display-kn": "60 ನಿಮಿಷಗಳ ಕಾಲ",
-                                            "display-mr": "दीर्घकाळ, 60 मिनिटांपेक्षा जास्त"
-                                        },
-                                        {
-                                            "id": "ID_816060705",
-                                            "text": "lasting <= 60 minutes",
-                                            "display-or": "ଘାନ୍ତାକରୁ କମ",
-                                            "display-hi": "60 मिनट से कम",
-                                            "display-gu": "કેટલો સમય રહે છે <= 60 મિનિટ",
-                                            "display-as": "দীর্ঘস্থায়ী <= 60 মিনিট",
-                                            "display-bn": "স্থায়ী <= 60 মিনিট",
-                                            "display-kn": "<= 60 ನಿಮಿಷಗಳ ಕಾಲ",
-                                            "display-mr": "60 मिनिटे किंवा त्यापेक्षा कमी"
-                                        }
-                                    ],
-                                    "display-hi": "सुबह",
-                                    "display-gu": "સવારે",
-                                    "display-as": "ৰাতিপুৱা",
-                                    "display-bn": "সকাল",
-                                    "display-kn": "ಬೆಳಗ್ಗೆ",
-                                    "display-mr": "सकाळी"
-                                },
-                                {
-                                    "id": "ID_430493357",
-                                    "text": "Constant",
-                                    "display-or": "ସ୍ଥିର",
-                                    "display-hi": "हमेशा एक जैसा",
-                                    "display-gu": "સતત",
-                                    "display-as": "ধ্রুৱক বা অটল",
-                                    "display-bn": "ধ্রুবক",
-                                    "display-kn": "ನಿರಂತರ",
-                                    "display-mr": "सतत, एकसारखी"
-                                }
-                            ],
-                            "display-hi": "समय ",
-                            "display-gu": "સમય",
-                            "display-as": "সময়",
-                            "display-bn": "টাইমিং",
-                            "display-kn": "ಸಮಯ",
-                            "display-mr": "वेळ"
-                        }
-                    ],
                     "display-hi": "कठोरता/अकड़न",
                     "display-gu": "અક્કડતા",
                     "display-as": "কঠোৰ",

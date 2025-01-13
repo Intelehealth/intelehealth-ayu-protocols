@@ -3,6 +3,7 @@
     "text": "Sleep disorder",
     "perform-physical-exam": "Head:Injury;",
     "display-or": "ନିଦ ସମସ୍ୟା",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1605557048",
@@ -93,48 +94,6 @@
                     "id": "ID_189076848",
                     "text": "Restless legs",
                     "display-or": "ଗୋଡ ଯନ୍ତ୍ରଣା",
-                    "options": [
-                        {
-                            "id": "ID_998404623",
-                            "text": "Worsening in the evening",
-                            "language": "%",
-                            "display": "Does it worsen in the evenings?*",
-                            "isRequired": true,
-                            "display-or": "ରାତିରେ ଅଧିକ*",
-                            "options": [
-                                {
-                                    "id": "ID_534109215",
-                                    "text": "Yes",
-                                    "language": "worsens in the evening",
-                                    "display-or": "ହଁ",
-                                    "display-hi": "हां",
-                                    "display-gu": "હા",
-                                    "display-as": "হয়",
-                                    "display-bn": "হ্যাঁ",
-                                    "display-kn": "ಹೌದು",
-                                    "display-mr": "हो"
-                                },
-                                {
-                                    "id": "ID_78255002",
-                                    "text": "No",
-                                    "language": "does not worsen in the evening",
-                                    "display-or": "ନା",
-                                    "display-hi": "नहीं",
-                                    "display-gu": "ના",
-                                    "display-as": "নহয়",
-                                    "display-bn": "না",
-                                    "display-kn": "ಅಲ್ಲ",
-                                    "display-mr": "नाही"
-                                }
-                            ],
-                            "display-hi": "क्या यह शाम को और बिगड़/बढ़ जाता है?*",
-                            "display-gu": "સાંજે સ્થિતિ વધુ ખરાબ થાય છે?*",
-                            "display-as": "এটো কি সন্ধ্যা সময় বেছি বেয়া হয়?*",
-                            "display-bn": "এটা কি সন্ধ্যায় খারাপ হয়ে যায়?*",
-                            "display-kn": "ಸಂಜೆ ಆಗುತ್ತಿದ್ದಂತೆ ಇದು ಹದಗೆಡುತ್ತದೆಯೇ?*",
-                            "display-mr": "हे लक्षण संध्याकाळी वाढते का?"
-                        }
-                    ],
                     "display-hi": "चंचल पैर/पैरों का बराबर हिलते-डुलते रहना",
                     "display-gu": "પગમાં અસુખ",
                     "display-as": "অস্থিৰ ভৰি",
@@ -193,32 +152,6 @@
                     "perform-physical-exam": "Face:Swollen Face;Neck:Thyroid swelling;",
                     "display": "Feeling uncomfortable in hot/cold environments",
                     "display-or": "ଥଣ୍ଡା / ଗରମ ସହି ନ ପାରିବ",
-                    "options": [
-                        {
-                            "id": "ID_1057424061",
-                            "text": "Heat intolerance",
-                            "display": "Feels uncomfortable in hot environments",
-                            "display-or": "ଥଣ୍ଡା ସହି ନ ପାରିବ",
-                            "display-hi": "गर्मी में असहज महसूस करना",
-                            "display-gu": "ગરમ વાતાવરણમાં અસુખ થાય",
-                            "display-as": "গৰম পৰিবেশত অস্বস্তি অনুভৱ কৰে",
-                            "display-bn": "গরম পরিবেশে অস্বস্তি লাগে",
-                            "display-kn": "ಉಷ್ಣ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
-                            "display-mr": "गरम वातावरणात अस्वस्थ वाटणे"
-                        },
-                        {
-                            "id": "ID_1030198983",
-                            "text": "Cold intolerance",
-                            "display": "Feels uncomfortable in cold environments",
-                            "display-or": "ଗରମ ସହି ନ ପାରିବ",
-                            "display-hi": "ठंड में असहज महसूस करना",
-                            "display-gu": "ઠંડાં વાતાવરણમાં અસુખ થાય",
-                            "display-as": "শীতল পৰিবেশত অস্বস্তি অনুভৱ কৰে",
-                            "display-bn": "ঠান্ডা পরিবেশে অস্বস্তি লাগে",
-                            "display-kn": "ಶೀತ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
-                            "display-mr": "थंड वातावरणात अस्वस्थ वाटणे"
-                        }
-                    ],
                     "display-hi": "गर्मी/ठंड में असहज महसूस करना",
                     "display-gu": "ગરમ/ઠંડાં વાતાવરણમાં અસુખ થાય",
                     "display-as": "গৰম / ঠান্ডা পৰিবেশত অস্বস্তি অনুভৱ কৰা হৈছে",
@@ -801,7 +734,6 @@
                     "id": "ID_733346684",
                     "text": "Yes",
                     "display-or": "ହଁ",
-                    "multi-choice": true,
                     "options": [
                         {
                             "id": "ID_1000947112",

@@ -3,6 +3,7 @@
     "text": "Chest Discomfort or Pain",
     "perform-physical-exam": "Arm:Lying BP;Pulse:Rhythm;Chest:Indrawing;Chest:Wall tenderness;",
     "display-or": "ଛାତି କଷ୍ଟ ବା ଯନ୍ତ୍ରଣା",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1097284051",
@@ -727,122 +728,7 @@
                     "id": "ID_157243198",
                     "text": "Cough",
                     "display-or": "କାଶ",
-                    "options": [
-                        {
-                            "id": "ID_1699941000",
-                            "text": "Dry",
-                            "display-or": "ଶୁଖିଲା",
-                            "display-hi": "सूखा ",
-                            "display-gu": "શુકી",
-                            "display-as": "শুকান",
-                            "display-bn": "শুষ্ক",
-                            "display-kn": "ಒಣ",
-                            "display-mr": "कोरडे"
-                        },
-                        {
-                            "id": "ID_66542167",
-                            "text": "Productive (With sputum)",
-                            "display-or": "କଫି",
-                            "options": [
-                                {
-                                    "id": "ID_40884973",
-                                    "text": "Color of sputum",
-                                    "display-or": "କଫ ର ରଙ୍ଗ",
-                                    "options": [
-                                        {
-                                            "id": "ID_127709783",
-                                            "text": "White/clear",
-                                            "display-or": "ଧଳା / ସଫା",
-                                            "display-hi": "उजला / सादा ",
-                                            "display-gu": "સફેદ/પ્રવાહી",
-                                            "display-as": "বগা/স্পষ্ট",
-                                            "display-bn": "সাদা/স্বচ্ছ",
-                                            "display-kn": "ಬಿಳಿ/ಸ್ಪಷ್ಟ",
-                                            "display-mr": "पांढरा/स्पष्ट"
-                                        },
-                                        {
-                                            "id": "ID_1390255618",
-                                            "text": "Yellow",
-                                            "display-or": "ହଳଦିଆ",
-                                            "display-hi": "पीला ",
-                                            "display-gu": "પીળો",
-                                            "display-as": "হালধীয়া",
-                                            "display-bn": "হলুদ",
-                                            "display-kn": "ಹಳದಿ",
-                                            "display-mr": "पिवळा"
-                                        },
-                                        {
-                                            "id": "ID_1829782527",
-                                            "text": "Green",
-                                            "display-or": "ସବୁଜ",
-                                            "display-hi": "हरा",
-                                            "display-gu": "લીલો",
-                                            "display-as": "সেউজীয়া",
-                                            "display-bn": "সবুজ",
-                                            "display-kn": "ಹಸಿರು",
-                                            "display-mr": "हिरवा"
-                                        },
-                                        {
-                                            "id": "ID_1306609508",
-                                            "text": "Red or pink",
-                                            "display-or": "ନାଲି ଏବଂ ଗୋଲାପି",
-                                            "display-hi": "लाल या गुलाबी ",
-                                            "display-gu": "લાલ અથવા ગુલાબી",
-                                            "display-as": "ৰঙা বা গোলাপী ৰঙৰ",
-                                            "display-bn": "লাল বা গোলাপী",
-                                            "display-kn": "ಕೆಂಪು ಅಥವಾ ಗುಲಾಬಿ",
-                                            "display-mr": "लाल किंवा गुलाबी"
-                                        },
-                                        {
-                                            "id": "ID_254084860",
-                                            "text": "Brown",
-                                            "display-or": "ବାଦାମି / ମାଟିଆ",
-                                            "display-hi": "भूरा ",
-                                            "display-gu": "બ્રાઉન/કોફી જેવું",
-                                            "display-as": "মটিয়া",
-                                            "display-bn": "বাদামী",
-                                            "display-kn": "ಕಂದು",
-                                            "display-mr": "तपकिरी"
-                                        },
-                                        {
-                                            "id": "ID_1391811662",
-                                            "text": "Hemoptysis",
-                                            "display-or": "କଫରେ ରକ୍ତ ଆସିବା",
-                                            "display-hi": "खून जैसा ",
-                                            "display-gu": "હેમોપ્ટીસીસ/ગડફાં માં લોહી પડવું",
-                                            "display-as": "ৰক্তক্ষৰণ",
-                                            "display-bn": "হেমোপটাইসিস",
-                                            "display-kn": "ಹೆಮೊಪ್ಟಿಸಿಸ್",
-                                            "display-mr": "थुंकीवाटे रक्त पडणे"
-                                        },
-                                        {
-                                            "id": "ID_1146006116",
-                                            "text": "Black or grey",
-                                            "display-or": "କଳା ବା ଧୁସର",
-                                            "display-hi": "काला या भूरा",
-                                            "display-gu": "કાળો અથવા રાખોડી",
-                                            "display-as": "ক’লা বা ধোঁৱা বৰ্ণৰ",
-                                            "display-bn": "কালো বা ধূসর",
-                                            "display-kn": "ಕಪ್ಪು ಅಥವಾ ಬೂದು",
-                                            "display-mr": "काळा किंवा राखाडी"
-                                        }
-                                    ],
-                                    "display-hi": "बलगम का रंग ",
-                                    "display-gu": "ગળફાં(સ્પુટમ)નો રંગ.",
-                                    "display-as": "কফৰ ৰং",
-                                    "display-bn": "থুতনির রঙ",
-                                    "display-kn": "ಕಫದ ಬಣ್ಣ",
-                                    "display-mr": "थुंकीचा रंग"
-                                }
-                            ],
-                            "display-hi": "खाँसी के साथ बलगम आना ",
-                            "display-gu": "ઉત્પાદક (ગડફાંસાથે)",
-                            "display-as": "উৎপাদনশীল (কফৰ সৈতে)",
-                            "display-bn": "উত্পাদনশীল (থুথু সহ)",
-                            "display-kn": "ಉತ್ಪಾದಕ (ಕಫದೊಂದಿಗೆ)",
-                            "display-mr": "ओला खोकला (थुंकीसह)"
-                        }
-                    ],
+
                     "display-hi": "कफ़",
                     "display-gu": "ઉધરસ",
                     "display-as": "কাহ",

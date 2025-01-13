@@ -4,6 +4,7 @@
     "perform-physical-exam": "Arm:Lying BP;Abdomen:Distension;Abdomen:Liver;Arm:Blood Glucose (RBS);Hands:Nails cyanosis;Any Location:Skin Bruise;Pulse:Rhythm;Chest:Audible sounds;Chest:Indrawing;Chest:Orthopnoea;Neck:Veins;",
     "display": "Difficulty breathing",
     "display-or": "ନିଶ୍ୱାସ ନେବାରେ କଷ୍ଟ",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_168871915",
@@ -328,111 +329,7 @@
                     "id": "ID_157243198",
                     "text": "Cough",
                     "display-or": "କାଶ",
-                    "options": [
-                        {
-                            "id": "ID_1699941000",
-                            "text": "Dry",
-                            "display-or": "ଶୁଖିଲା",
-                            "display-hi": "सूखी खांसी",
-                            "display-gu": "સૂકો",
-                            "display-as": "শুকান",
-                            "display-bn": "শুষ্ক",
-                            "display-kn": "ಒಣ",
-                            "display-mr": "कोरडा खोकला"
-                        },
-                        {
-                            "id": "ID_66542167",
-                            "text": "Productive (With sputum)",
-                            "display-or": "କଫି",
-                            "options": [
-                                {
-                                    "id": "ID_40884973",
-                                    "text": "Color of sputum",
-                                    "display-or": "କଫ ର ରଙ୍ଗ",
-                                    "options": [
-                                        {
-                                            "id": "ID_127709783",
-                                            "text": "Clear",
-                                            "display-or": "ସ୍ୱଚ୍ଛ କଫ",
-                                            "display-hi": "साफ़  ",
-                                            "display-gu": "સ્પષ્ટ",
-                                            "display-as": "পৰিষ্কাৰ",
-                                            "display-bn": "স্পষ্ট",
-                                            "display-kn": "ಸ್ಪಷ್ಟ",
-                                            "display-mr": "स्वच्छ"
-                                        },
-                                        {
-                                            "id": "ID_1390255618",
-                                            "text": "Yellow",
-                                            "display-or": "ହଳଦିଆ କଫ",
-                                            "display-hi": "पीला",
-                                            "display-gu": "પીળો",
-                                            "display-as": "হালধীয়া",
-                                            "display-bn": "হলুদ",
-                                            "display-kn": "ಹಳದಿ",
-                                            "display-mr": "पिवळा"
-                                        },
-                                        {
-                                            "id": "ID_1829782527",
-                                            "text": "Green",
-                                            "display-or": "ନୀଳ କଫ",
-                                            "display-hi": "हरा",
-                                            "display-gu": "લીલો",
-                                            "display-as": "সেউজীয়া",
-                                            "display-bn": "সবুজ",
-                                            "display-kn": "ಹಸಿರು",
-                                            "display-mr": "हिरवा"
-                                        },
-                                        {
-                                            "id": "ID_1306609508",
-                                            "text": "Red or pink",
-                                            "display-or": "ଲାଲ ବା ଧୂସର କଫ",
-                                            "display-hi": "लाल या गुलाबी",
-                                            "display-gu": "લાલ અથવા ગુલાબી",
-                                            "display-as": "ৰঙা বা গোলপীয়া",
-                                            "display-bn": "লাল বা গোলাপী",
-                                            "display-kn": "ಕೆಂಪು ಅಥವಾ ಗುಲಾಬಿ",
-                                            "display-mr": "लाल किंवा गुलाबी"
-                                        },
-                                        {
-                                            "id": "ID_254084860",
-                                            "text": "Brown",
-                                            "display-or": "ଧୂସର ବା ଫିକା କଫ",
-                                            "display-hi": "भूरा",
-                                            "display-gu": "છીંકણી",
-                                            "display-as": "বাদামী(মুগা)",
-                                            "display-bn": "বাদামী",
-                                            "display-kn": "ಕಂದು",
-                                            "display-mr": "तपकिरी"
-                                        },
-                                        {
-                                            "id": "ID_1146006116",
-                                            "text": "Black or grey",
-                                            "display-or": "କଲା ବା ଅଳପ ଧୂସର କଫ",
-                                            "display-hi": "काला या स्लेटी",
-                                            "display-gu": "કાળો અથવા રાખોડી",
-                                            "display-as": "কলা বা ধোঁৱাবৰণীয়া",
-                                            "display-bn": "কালো বা ধূসর",
-                                            "display-kn": "ಕಪ್ಪು ಅಥವಾ ಬೂದು",
-                                            "display-mr": "काळा किंवा राखाडी"
-                                        }
-                                    ],
-                                    "display-hi": "बलगम का रंग",
-                                    "display-gu": "ગળફાનો રંગ",
-                                    "display-as": "থু ৰঙ",
-                                    "display-bn": "থুতনির রঙ",
-                                    "display-kn": "ಕಫದ ಬಣ್ಣ",
-                                    "display-mr": "कफाचा रंग"
-                                }
-                            ],
-                            "display-hi": "(बलगम) वाली खांसी",
-                            "display-gu": "પ્રોડક્ટિવ (ગળફો)",
-                            "display-as": "উৎপাদনশীল (থু সহ)",
-                            "display-bn": "উত্পাদনশীল (থুথু সহ)",
-                            "display-kn": "ಉತ್ಪಾದಕ (ಕಫದೊಂದಿಗೆ)",
-                            "display-mr": "ओला (थुंकीसह)"
-                        }
-                    ],
+
                     "display-hi": "खांसी",
                     "display-gu": "કફ",
                     "display-as": "কাহ",
@@ -476,49 +373,9 @@
                 {
                     "id": "ID_896570466",
                     "text": "Weight change (kg)",
-                    "language": "%",
+                    "language": "Weight change",
                     "display-or": "ଓଜନ ପରିବର୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_867149692",
-                            "text": "Weight gain",
-                            "input-type": "number",
-                            "language": "Patient has gained weight (kgs)",
-                            "display-or": "ବୃଦ୍ଧି",
-                            "display-hi": "वजन बढ़ना",
-                            "display-gu": "વજન વધવું",
-                            "display-as": "ওজন বৃদ্ধি",
-                            "display-bn": "ওজন বৃদ্ধি",
-                            "display-kn": "ತೂಕ ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುವುದು",
-                            "display-mr": "वजन वाढणे"
-                        },
-                        {
-                            "id": "ID_362965028",
-                            "text": "Weight loss",
-                            "input-type": "number",
-                            "language": "Patient has lost weight (kgs)",
-                            "display-or": "ହ୍ରାସ",
-                            "display-hi": "वजन घटना",
-                            "display-gu": "વજન ઘટવું",
-                            "display-as": "ওজন কমোৱা",
-                            "display-bn": "ওজন কমানো",
-                            "display-kn": "ತೂಕದಲ್ಲಿ  ಇಳಿಕೆ",
-                            "display-mr": "वजन कमी होणे"
-                        },
-                        {
-                            "id": "ID_894111749",
-                            "text": "since when",
-                            "input-type": "duration",
-                            "language": "since",
-                            "display-or": "କେବେ ଠାରୁ ଲେଖ",
-                            "display-hi": "कब से",
-                            "display-gu": "ક્યારથી",
-                            "display-as": "কেতিয়াৰ পৰা",
-                            "display-bn": "কখন থেকে",
-                            "display-kn": "ಯಾವತ್ತಿಂದ",
-                            "display-mr": "केव्हापासून"
-                        }
-                    ],
+
                     "display-hi": "वजन में उतार-चढ़ाव  (किग्रा)",
                     "display-gu": "વજનમાં ફેરફાર (કિલો)",
                     "display-as": "ওজন পৰিবর্তন (কেজি)",
@@ -563,41 +420,7 @@
                     "id": "ID_1961038042",
                     "text": "Leg swelling",
                     "display-or": "ଗୋଡ଼ରେ ଫୁଲା",
-                    "options": [
-                        {
-                            "id": "ID_1895596256",
-                            "text": "Right",
-                            "display-or": "ଡାହାଣ",
-                            "display-hi": "दायां",
-                            "display-gu": "જમણી",
-                            "display-as": "ঠিক",
-                            "display-bn": "ঠিক",
-                            "display-kn": "ಬಲಕ್ಕೆ",
-                            "display-mr": "उजवा"
-                        },
-                        {
-                            "id": "ID_327643764",
-                            "text": "Left",
-                            "display-or": "ବାମ",
-                            "display-hi": "बायां",
-                            "display-gu": "ડાબી",
-                            "display-as": "বাওঁ",
-                            "display-bn": "বাম",
-                            "display-kn": "ಎಡಕ್ಕೆ",
-                            "display-mr": "डावा"
-                        },
-                        {
-                            "id": "ID_1061901855",
-                            "text": "Both",
-                            "display-or": "ଉଭୟ",
-                            "display-hi": "दोनों",
-                            "display-gu": "બંને",
-                            "display-as": "দুটাই",
-                            "display-bn": "উভয়",
-                            "display-kn": "ಎರಡೂ",
-                            "display-mr": "दोन्ही"
-                        }
-                    ],
+
                     "display-hi": "पैरों में सूजन",
                     "display-gu": "પગમાં સોજો ચઢવો",
                     "display-as": "ভৰি ফোলা",

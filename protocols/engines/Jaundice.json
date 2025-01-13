@@ -3,6 +3,7 @@
     "text": "Jaundice",
     "perform-physical-exam": "Abdomen:Distension;Abdomen:Tenderness;Abdomen:Lumps;Abdomen:Liver;Abdomen:Spleen;Abdomen:Ascites;Abdomen:Engorged veins on surface;Any Location:Skin Rash;",
     "display-or": "ଜଣ୍ଡିସ୍ ବା କାମଳ",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_313791833",
@@ -100,21 +101,7 @@
                     "id": "ID_324440987",
                     "text": "Changes in color of urine",
                     "display-or": "ପରିସ୍ରାରେ ପରିବର୍ତ୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_761462362",
-                            "text": "[describe]",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ବର୍ଣ୍ଣନା କର",
-                            "display-hi": "वर्णन करें",
-                            "display-gu": "[વર્ણવો]",
-                            "display-as": "[বৰ্ণনা কৰা]",
-                            "display-bn": "[বর্ণনা]",
-                            "display-kn": "[ವಿವರಿಸಿ]",
-                            "display-mr": "(वर्णन करा)"
-                        }
-                    ],
+
                     "display-hi": "पेशाब के रंग में बदलाव ",
                     "display-gu": "પેશાબના રંગમાં ફેરફાર",
                     "display-as": "প্ৰস্ৰাৱৰ ৰং সলনি হয়",
@@ -126,21 +113,7 @@
                     "id": "ID_35337066",
                     "text": "Changes in odor of urine",
                     "display-or": "ପରିସ୍ରାରେ ପରିବର୍ତ୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_530964976",
-                            "text": "[describe]",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ବର୍ଣ୍ଣନା କର",
-                            "display-hi": "वर्णन करें",
-                            "display-gu": "[વર્ણવો]",
-                            "display-as": "[বৰ্ণনা কৰা]",
-                            "display-bn": "[বর্ণনা]",
-                            "display-kn": "[ವಿವರಿಸಿ]",
-                            "display-mr": "(वर्णन करा)"
-                        }
-                    ],
+
                     "display-hi": "पेशाब की गंध में बदलाव",
                     "display-gu": "પેશાબની દુર્ગંધમાં ફેરફાર થવો",
                     "display-as": "প্রস্রাবৰ গোন্ধত পৰিবর্তন",
@@ -152,21 +125,7 @@
                     "id": "ID_600573114",
                     "text": "Changes in color of stool",
                     "display-or": "ଝାଡ଼ାରେ ପରିବର୍ତ୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_1828079427",
-                            "text": "[describe]",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ବର୍ଣ୍ଣନା କର",
-                            "display-hi": "वर्णन करें",
-                            "display-gu": "[વર્ણવો]",
-                            "display-as": "[বৰ্ণনা কৰা]",
-                            "display-bn": "[বর্ণনা]",
-                            "display-kn": "[ವಿವರಿಸಿ]",
-                            "display-mr": "(वर्णन करा)"
-                        }
-                    ],
+
                     "display-hi": "मल के रंग में बदलाव ",
                     "display-gu": "(સ્ટૂલ) ઝાડા ના રંગમાં ફેરફાર",
                     "display-as": "মলৰ ৰং সলনি হয়",
@@ -178,21 +137,7 @@
                     "id": "ID_186181426",
                     "text": "Changes in odor of stool",
                     "display-or": "ଝାଡ଼ାରେ ପରିବର୍ତ୍ତନ",
-                    "options": [
-                        {
-                            "id": "ID_391888850",
-                            "text": "[describe]",
-                            "input-type": "text",
-                            "language": "%",
-                            "display-or": "ବର୍ଣ୍ଣନା କର",
-                            "display-hi": "वर्णन करें",
-                            "display-gu": "[વર્ણવો]",
-                            "display-as": "[বৰ্ণনা কৰা]",
-                            "display-bn": "[বর্ণনা]",
-                            "display-kn": "[ವಿವರಿಸಿ]",
-                            "display-mr": "(वर्णन करा)"
-                        }
-                    ],
+
                     "display-hi": "मल की गंध में बदलाव",
                     "display-gu": "મળની દુર્ગંધમાં ફેરફાર થવો",
                     "display-as": "মলৰ গোন্ধত পৰিবর্তন",
@@ -216,34 +161,7 @@
                     "text": "Weight loss",
                     "language": "Patient has lost weight",
                     "display-or": "ହ୍ରାସ",
-                    "options": [
-                        {
-                            "id": "ID_205295457",
-                            "text": "[Enter amount of weight lost in kgs]",
-                            "input-type": "number",
-                            "language": "Amt lost in kgs",
-                            "display-or": "ଓଜନ କମିବାର ପରିମାଣ ଲେଖ",
-                            "display-hi": "[कितने किलो वजन कम हुआ ]",
-                            "display-gu": "[કિલોમાં ઘટેલા વજનની માત્રા દાખલ કરો]",
-                            "display-as": "[কিলোগ্ৰামত হ্ৰাস পোৱা ওজনৰ পৰিমাণ দিয়ক]",
-                            "display-bn": "[কেজিতে হারানো ওজনের পরিমাণ লিখুন]",
-                            "display-kn": "[ಕಳೆದ ತೂಕದ ಪ್ರಮಾಣವನ್ನು ಕೆಜಿಗಳಲ್ಲಿ ನಮೂದಿಸಿ]",
-                            "display-mr": "(कमी झालेले वजन किलोग्राम मध्ये भरा)"
-                        },
-                        {
-                            "id": "ID_1768966652",
-                            "text": "[Enter duration of weight loss]",
-                            "input-type": "duration",
-                            "language": "over",
-                            "display-or": "[ଓଜନ ହ୍ରାସର ଅବଧି]",
-                            "display-hi": "[वजन कम होने की अवधि]",
-                            "display-gu": "[વજન ઘટાડવાની અવધિ દાખલ કરો]",
-                            "display-as": "[ওজন কমাব পৰা সময়সীমা লিখক]",
-                            "display-bn": "[ওজন কমানোর সময়কাল লিখুন]",
-                            "display-kn": "[ತೂಕ ನಷ್ಟದ ಅವಧಿಯನ್ನು ನಮೂದಿಸಿ]",
-                            "display-mr": "(वजन कमी होण्याचा कालावधी भरा)"
-                        }
-                    ],
+
                     "display-hi": "रोगी का वजन कम हुआ है ",
                     "display-gu": "વજનમાં ઘટાડો",
                     "display-as": "ওজন কমা",

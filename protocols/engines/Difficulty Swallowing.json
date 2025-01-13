@@ -3,6 +3,7 @@
     "text": "Difficulty Swallowing",
     "perform-physical-exam": "Face:Swollen Face;Hands:Nails cyanosis;",
     "display-or": "ଖାଦ୍ୟ ଗିଳିବାରେ କଷ୍ଟ",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1161621112",
@@ -16,7 +17,6 @@
                     "text": "[Enter since when]",
                     "input-type": "duration",
                     "display-or": "କେବେଠାରୁ",
-                    "language": "%",
                     "display-hi": "[कब से है,  दर्ज करें]",
                     "display-gu": "[ક્યારથી તે લખી જણાવો]",
                     "display-as": "যেতিয়া পৰা আৰম্ভ লিখা",
@@ -197,57 +197,7 @@
                     "id": "ID_1114228159",
                     "text": "Heartburn",
                     "display-or": "ଛାତି ପୋଡିବା",
-                    "options": [
-                        {
-                            "id": "ID_816294101",
-                            "text": "Aggravated by",
-                            "display": "When does the heartburn get worse?",
-                            "display-or": "କେତେ ବେଳେ ଛାତି ପୋଡା ବନ୍ଦ",
-                            "options": [
-                                {
-                                    "id": "ID_631044662",
-                                    "text": "Lying down",
-                                    "display-or": "ଶୋଇପଡ଼ିଲେ",
-                                    "display-hi": "लेटने से",
-                                    "display-gu": "પડ્યાં રહો ત્યારે",
-                                    "display-as": "বাগৰী যায়",
-                                    "display-bn": "শায়িত",
-                                    "display-kn": "ವಿಶ್ರಮಿಸುವಾಗ",
-                                    "display-mr": "झोपल्यावर"
-                                },
-                                {
-                                    "id": "ID_309396318",
-                                    "text": "spicy food intake",
-                                    "display-or": "ମସଲା ଖାଦ୍ୟ ଖାଇଲେ",
-                                    "display-hi": "मसाला युक्त भोजन करने से",
-                                    "display-gu": "મસાલેદાર ખાઓ ત્યારે",
-                                    "display-as": "মচলাদাৰ খোৱাৰ গ্রহণ কৰে",
-                                    "display-bn": "মশলাদার খাবার গ্রহণ",
-                                    "display-kn": "ಮಸಾಲೆಯುಕ್ತ ಆಹಾರ ಸೇವನೆ ಮಾಡಿದಾಗ",
-                                    "display-mr": "मसालेदार पदार्थ खाल्ल्यावर"
-                                },
-                                {
-                                    "id": "ID_1788890884",
-                                    "text": "Other [Describe]",
-                                    "input-type": "text",
-                                    "language": "%",
-                                    "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]",
-                                    "display-hi": "अन्य (वर्णन करें)",
-                                    "display-gu": "અન્ય (વિગતે જણાવો)",
-                                    "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
-                                    "display-bn": "অন্যান্য [বর্ণনা]",
-                                    "display-kn": "ಇತರೆ[ವಿವರಿಸಿ]",
-                                    "display-mr": "इतर ( वर्णन करा)"
-                                }
-                            ],
-                            "display-hi": "सीने में जलन (हार्टबर्न) कब बढ़ जाती है?",
-                            "display-gu": "હૃદયમાં બળતરા ક્યારે બહુ વધી જાય છે?",
-                            "display-as": "হৃদয়ৰ গতি কেতিয়া বেয়া হয় ?",
-                            "display-bn": "অম্বল কখন খারাপ হয়?",
-                            "display-kn": "ಎದೆಯುರಿ ಯಾವಾಗ ಉಲ್ಬಣಗೊಳ್ಳುತ್ತದೆ?",
-                            "display-mr": "छाती मध्ये जळजळ केव्हा वाढते"
-                        }
-                    ],
+
                     "display-hi": "सीने में जलन (हार्टबर्न)",
                     "display-gu": "હૃદયમાં બળતરા",
                     "display-as": "হৃদয়ৰ গতি",
@@ -270,111 +220,7 @@
                     "id": "ID_250348148",
                     "text": "Cough",
                     "display-or": "କାଶ",
-                    "options": [
-                        {
-                            "id": "ID_666739841",
-                            "text": "Dry",
-                            "display-or": "ଶୁଖିଲା",
-                            "display-hi": "सूखी खांसी",
-                            "display-gu": "સૂકો",
-                            "display-as": "শুকান",
-                            "display-bn": "শুষ্ক",
-                            "display-kn": "ಒಣ",
-                            "display-mr": "कोरडा"
-                        },
-                        {
-                            "id": "ID_688803727",
-                            "text": "Productive (With sputum)",
-                            "display-or": "କଫି",
-                            "options": [
-                                {
-                                    "id": "ID_40884973",
-                                    "text": "Color of sputum",
-                                    "display-or": "କଫ ର ରଙ୍ଗ",
-                                    "options": [
-                                        {
-                                            "id": "ID_127709783",
-                                            "text": "Clear",
-                                            "display-or": "ସ୍ୱଚ୍ଛ କଫ",
-                                            "display-hi": "साफ",
-                                            "display-gu": "સ્પષ્ટ",
-                                            "display-as": "পৰিষ্কাৰ",
-                                            "display-bn": "স্পষ্ট",
-                                            "display-kn": "ಸ್ಪಷ್ಟ",
-                                            "display-mr": "स्वच्छ"
-                                        },
-                                        {
-                                            "id": "ID_1390255618",
-                                            "text": "Yellow",
-                                            "display-or": "ହଳଦିଆ କଫ",
-                                            "display-hi": "पीला",
-                                            "display-gu": "પીળો",
-                                            "display-as": "হালধীয়া",
-                                            "display-bn": "হলুদ",
-                                            "display-kn": "ಹಳದಿ",
-                                            "display-mr": "पिवळा"
-                                        },
-                                        {
-                                            "id": "ID_1829782527",
-                                            "text": "Green",
-                                            "display-or": "ନୀଳ କଫ",
-                                            "display-hi": "हरा",
-                                            "display-gu": "લીલો",
-                                            "display-as": "সেউজীয়া",
-                                            "display-bn": "সবুজ",
-                                            "display-kn": "ಹಸಿರು",
-                                            "display-mr": "हिरवा"
-                                        },
-                                        {
-                                            "id": "ID_1306609508",
-                                            "text": "Red or pink",
-                                            "display-or": "ଲାଲ ବା ଧୂସର କଫ",
-                                            "display-hi": "गुलाबी या लाल",
-                                            "display-gu": "લાલ અથવા ગુલાબી",
-                                            "display-as": "ৰঙা বা গোলপীয়া",
-                                            "display-bn": "লাল বা গোলাপী",
-                                            "display-kn": "ಕೆಂಪು ಅಥವಾ ಗುಲಾಬಿ",
-                                            "display-mr": "गुलाबी किंवा लाल"
-                                        },
-                                        {
-                                            "id": "ID_254084860",
-                                            "text": "Brown",
-                                            "display-or": "ଧୂସର ବା ଫିକା କଫ",
-                                            "display-hi": "भूरा",
-                                            "display-gu": "છીંકણી",
-                                            "display-as": "বাদামী(মুগা)",
-                                            "display-bn": "বাদামী",
-                                            "display-kn": "ಕಂದು",
-                                            "display-mr": "तपकिरी"
-                                        },
-                                        {
-                                            "id": "ID_1146006116",
-                                            "text": "Black or grey",
-                                            "display-or": "କଲା ବା ଅଳପ ଧୂସର କଫ",
-                                            "display-hi": "काला या स्लेटी",
-                                            "display-gu": "કાળો અથવા રાખોડી",
-                                            "display-as": "কলা বা ধোঁৱাবৰণীয়া",
-                                            "display-bn": "কালো বা ধূসর",
-                                            "display-kn": "ಕಪ್ಪು ಅಥವಾ ಬೂದು",
-                                            "display-mr": "काळा किंवा राखाडी"
-                                        }
-                                    ],
-                                    "display-hi": "बलगम का रंग",
-                                    "display-gu": "ગળફાનો રંગ",
-                                    "display-as": "থু ৰঙ",
-                                    "display-bn": "থুতনির রঙ",
-                                    "display-kn": "ಕಫದ ಬಣ್ಣ",
-                                    "display-mr": "थुंकीचा रंग"
-                                }
-                            ],
-                            "display-hi": "बलगम वाली खांसी ",
-                            "display-gu": "પ્રોડક્ટિવ (ગળફો)",
-                            "display-as": "উত্পাদনশীল (থু সহ)",
-                            "display-bn": "উত্পাদনশীল (থুথু সহ)",
-                            "display-kn": "ಉತ್ಪಾದಕ (ಕಫದೊಂದಿಗೆ)",
-                            "display-mr": "थुंकीसह /ओला"
-                        }
-                    ],
+
                     "display-hi": "खांसी",
                     "display-gu": "કફ",
                     "display-as": "কাহ",
@@ -388,83 +234,7 @@
                     "display": "Do you feel like food is getting stuck when you swallow?*",
                     "isRequired": true,
                     "display-or": "ଖାଇବା ବେଳେ ଖାଦ୍ୟ ଅଟକି ଯିବା ପରି ଲାଗିବା*",
-                    "options": [
-                        {
-                            "id": "ID_515545314",
-                            "text": "Describe where it is getting stuck",
-                            "language": "%",
-                            "display-or": "କେଉଁଠି ଅଟକୁଛି",
-                            "options": [
-                                {
-                                    "id": "ID_1867036448",
-                                    "text": "Stomach level",
-                                    "language": "at the stomach level",
-                                    "display-or": "ପେଟରେ",
-                                    "display-hi": "पेट के स्तर पर",
-                                    "display-gu": "પેટનાં સ્તર",
-                                    "display-as": "পেটৰ স্তৰ",
-                                    "display-bn": "পেটের স্তর",
-                                    "display-kn": "ಹೊಟ್ಟೆಯ ಮಟ್ಟ",
-                                    "display-mr": "पोटाच्या जागी"
-                                },
-                                {
-                                    "id": "ID_1129186937",
-                                    "text": "Lower chest",
-                                    "language": "at the lower chest level",
-                                    "display-or": "ତଳଛାତି",
-                                    "display-hi": "निचले छाती के स्तर पर",
-                                    "display-gu": "છાતીની નીચેના ભાગે",
-                                    "display-as": "বুকুৰ তলত",
-                                    "display-bn": "নিচের বুক",
-                                    "display-kn": "ಕೆಳಗಿನ ಎದೆ",
-                                    "display-mr": "छातीच्या खालच्या बाजूला"
-                                },
-                                {
-                                    "id": "ID_469562681",
-                                    "text": "Upper chest",
-                                    "language": "at the upper chest level",
-                                    "display-or": "ଉପର ଛାତି",
-                                    "display-hi": "उपरी छाती के स्तर पर",
-                                    "display-gu": "છાતીના ઉપરના ભાગે",
-                                    "display-as": "বুকুৰ উপৰিভাগ",
-                                    "display-bn": "বুকের উপরিভাগ",
-                                    "display-kn": "ಮೇಲಿನ ಎದೆ",
-                                    "display-mr": "छातीच्या वरच्या बाजूला"
-                                },
-                                {
-                                    "id": "ID_1854288824",
-                                    "text": "Throat",
-                                    "language": "at the level of the throat",
-                                    "display-or": "ଗଳା",
-                                    "display-hi": "गले में",
-                                    "display-gu": "ગળાંમાં",
-                                    "display-as": "ডিঙিত",
-                                    "display-bn": "গলা",
-                                    "display-kn": "ಗಂಟಲು",
-                                    "display-mr": "घश्या मध्ये"
-                                },
-                                {
-                                    "id": "ID_1935902951",
-                                    "text": "Other[describe]",
-                                    "input-type": "text",
-                                    "language": "%",
-                                    "display-or": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]",
-                                    "display-hi": "अन्य [वर्णन करें]",
-                                    "display-gu": "અન્ય [વિગતે જણાવો]",
-                                    "display-as": "অন্যান্য [বর্ণনা]",
-                                    "display-bn": "অন্যান্য [বর্ণনা]",
-                                    "display-kn": "ಇತರೆ[ವಿವರಿಸಿ]",
-                                    "display-mr": "इतर ( वर्णन करा)"
-                                }
-                            ],
-                            "display-hi": "कहां अटकता है, वर्णन करें",
-                            "display-gu": "ક્યાં અટકી જાય છે તે જણાવો",
-                            "display-as": "কত লাগি ধৰে বর্ণনা কৰা",
-                            "display-bn": "এটি কোথায় আটকে যাচ্ছে তা বর্ণনা করুন",
-                            "display-kn": "ಅದು ಎಲ್ಲಿ ಸಿಲುಕಿಕೊಂಡಿದೆ ಎಂಬುದನ್ನು ವಿವರಿಸಿ",
-                            "display-mr": "कुठे अडकतो (वर्णन करा)"
-                        }
-                    ],
+
                     "display-hi": "क्या आपको भोजन निगलते समय अटकता है?*",
                     "display-gu": "તમે જ્યારે કોળિયો ગળો ત્યારે અટકી જતું લાગે?*",
                     "display-as": "আপুনি মন কৰক যে আপুনি গিলোতে খোৱা বস্তু লাগি যায় ?*",
@@ -477,43 +247,9 @@
                     "text": "Regurgitation",
                     "display": "Food coming back up*",
                     "isRequired": true,
-                    "language": "%",
+
                     "display-or": "ଖାଦ୍ୟ ଉପରକୁ ବାହାରିବା*",
-                    "options": [
-                        {
-                            "id": "ID_127463449",
-                            "text": "from nose",
-                            "display-or": "ନାକରୁ",
-                            "display-hi": "नाक से",
-                            "display-gu": "નાકમાંથી",
-                            "display-as": "নাক পৰা",
-                            "display-bn": "নাক থেকে",
-                            "display-kn": "ಮೂಗಿನಿಂದ",
-                            "display-mr": "नाकामधून"
-                        },
-                        {
-                            "id": "ID_1190181422",
-                            "text": "from mouth",
-                            "display-or": "ପାଟିରୁ",
-                            "display-hi": "मुंह से",
-                            "display-gu": "મોઢાંમાંથી",
-                            "display-as": "মুখ পৰা",
-                            "display-bn": "মুখ থেকে",
-                            "display-kn": "ಬಾಯಿಯಿಂದ",
-                            "display-mr": "तोंडातून"
-                        },
-                        {
-                            "id": "ID_1945551963",
-                            "text": "from both",
-                            "display-or": "ଉଭୟରୁ",
-                            "display-hi": "दोनों से",
-                            "display-gu": "બંનેમાંથી",
-                            "display-as": "উভয় পৰা",
-                            "display-bn": "উভয় থেকে",
-                            "display-kn": "ಎರಡರಿಂದಲೂ",
-                            "display-mr": "दोन्ही मधून"
-                        }
-                    ],
+
                     "display-hi": "खाना वापस निकलना*",
                     "display-gu": "ખોરાક પાછો આવવો*",
                     "display-as": "খোৱা ঘুৰি আহে*",
@@ -527,46 +263,7 @@
                     "language": "Patient has lost weight*",
                     "isRequired": true,
                     "display-or": "ହ୍ରାସ*",
-                    "options": [
-                        {
-                            "id": "ID_205295457",
-                            "text": "[Enter amount of weight lost in kgs]",
-                            "input-type": "number",
-                            "language": "Amt lost in kgs",
-                            "display-or": "ଓଜନ କମିବାର ପରିମାଣ ଲେଖ",
-                            "display-hi": "[वजन कितने किलो कम हुआ]",
-                            "display-gu": "[કિલોમાં ઘટેલા વજનની માત્રા દાખલ કરો]",
-                            "display-as": "[কিলোগ্ৰামত হ্ৰাস পোৱা ওজনৰ পৰিমাণ দিয়ক]",
-                            "display-bn": "[কেজিতে হারানো ওজনের পরিমাণ লিখুন]",
-                            "display-kn": "[ಕಳೆದ ತೂಕದ ಪ್ರಮಾಣವನ್ನು ಕೆಜಿಗಳಲ್ಲಿ ನಮೂದಿಸಿ]",
-                            "display-mr": "वजन किती घटले ते लिहा ( किलो ग्रॅम मध्ये)"
-                        },
-                        {
-                            "id": "ID_582880022",
-                            "text": "",
-                            "options": [
-                                {
-                                    "id": "ID_1768966652",
-                                    "text": "[Enter duration of weight loss]",
-                                    "input-type": "duration",
-                                    "language": "over",
-                                    "display-or": "[ଓଜନ ହ୍ରାସ ଅବଧି]",
-                                    "display-hi": "[वजन कितने दिनों में कम हुआ]",
-                                    "display-gu": "[વજન ઘટાડવાની અવધિ દાખલ કરો]",
-                                    "display-as": "[ওজন হ্ৰাসৰ ম্যাদ প্ৰবিষ্ট কৰক]",
-                                    "display-bn": "[ওজন কমানোর সময়কাল লিখুন]",
-                                    "display-kn": "[ತೂಕ ನಷ್ಟದ ಅವಧಿಯನ್ನು ನಮೂದಿಸಿ]",
-                                    "display-mr": "(वजन घटण्याचा कालावधी किती ते लिहा)"
-                                }
-                            ],
-                            "display-hi": "",
-                            "display-gu": "",
-                            "display-as": "",
-                            "display-bn": "",
-                            "display-kn": "",
-                            "display-mr": "Translation Not Found"
-                        }
-                    ],
+
                     "display-hi": "रोगी का वजन कम हुआ है*",
                     "display-gu": "વજનમાં ઘટાડો*",
                     "display-as": "ওজন কমা*",

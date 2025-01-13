@@ -3,6 +3,7 @@
     "text": "Ear pain",
     "perform-physical-exam": "Ear:Bleeding;Ear:Discharge;Ear:Swelling;Ear:Redness;Ear:Mastoid;",
     "display-or": "କାନ ଯନ୍ତ୍ରଣା",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_330731525",
@@ -87,7 +88,6 @@
             "text": "Associated symptoms",
             "display": "Do you have the following symptom(s)?*",
             "isRequired": true,
-            "multi-choice": true,
             "pos-condition": "c.",
             "neg-condition": "s.",
             "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?*",
@@ -96,41 +96,7 @@
                     "id": "ID_471545653",
                     "text": "Difficulty hearing",
                     "display-or": "ଶ୍ରବଣ ସମସ୍ଯା",
-                    "options": [
-                        {
-                            "id": "ID_818114222",
-                            "text": "Both ears",
-                            "display-or": "ଉଭୟ",
-                            "display-hi": "दोनों कान",
-                            "display-gu": "બંને કાનમાં",
-                            "display-as": "দুটা কাণ",
-                            "display-bn": "উভয় কান",
-                            "display-kn": "ಎರಡೂ ಕಿವಿಗಳು",
-                            "display-mr": "दोन्ही कान"
-                        },
-                        {
-                            "id": "ID_1660211070",
-                            "text": "Right ear",
-                            "display-or": "ଡ଼ାହାଣ",
-                            "display-hi": "दायां कान",
-                            "display-gu": "જમણા કાનમાં",
-                            "display-as": "সোঁ কাণ",
-                            "display-bn": "ডান কান",
-                            "display-kn": "ಬಲ ಕಿವಿ",
-                            "display-mr": "उजवा कान"
-                        },
-                        {
-                            "id": "ID_569441319",
-                            "text": "Left ear",
-                            "display-or": "ବାମ",
-                            "display-hi": "बायां कान",
-                            "display-gu": "ડાબા કાનમાં",
-                            "display-as": "বাওঁ কাণ",
-                            "display-bn": "বাম কান",
-                            "display-kn": "ಎಡ ಕಿವಿ",
-                            "display-mr": "डावा कान"
-                        }
-                    ],
+
                     "display-hi": "सुनने में तकलीफ",
                     "display-gu": "સાંભળવામાં તકલીફ",
                     "display-as": "শুনাত অসুবিধা (শ্রবণ)",
@@ -164,41 +130,7 @@
                     "id": "ID_87486851",
                     "text": "Ear swelling",
                     "display-or": "କାନ ଫୁଲା",
-                    "options": [
-                        {
-                            "id": "ID_1335088414",
-                            "text": "Behind ear",
-                            "display-or": "କାନ ପଛପଟ",
-                            "display-hi": "कान के पीछे",
-                            "display-gu": "કાનની પાછળ",
-                            "display-as": "কাণৰ পিছফালে",
-                            "display-bn": "কানের পিছনে",
-                            "display-kn": "ಕಿವಿಯ ಹಿಂದೆ",
-                            "display-mr": "काना मागे"
-                        },
-                        {
-                            "id": "ID_65780295",
-                            "text": "In front of ear",
-                            "display-or": "କାନର ଆଗପଟ",
-                            "display-hi": "कान के आगे ",
-                            "display-gu": "કાનની સામે",
-                            "display-as": "কাণৰ সন্মুখত",
-                            "display-bn": "কানের সামনে",
-                            "display-kn": "ಕಿವಿಯ ಮುಂದೆ",
-                            "display-mr": "काना समोर"
-                        },
-                        {
-                            "id": "ID_778713875",
-                            "text": "All over",
-                            "display-or": "ସବୁଆଡେ",
-                            "display-hi": "सब तरफ ",
-                            "display-gu": "બધી જગ્યાપર",
-                            "display-as": "সকলো শেষ",
-                            "display-bn": "সব শেষ",
-                            "display-kn": "ಎಲ್ಲಾ ಕಡೆ",
-                            "display-mr": "कानाच्या सर्व बाजूंना"
-                        }
-                    ],
+
                     "display-hi": "कान की सूजन",
                     "display-gu": "કાનમાં સોજો",
                     "display-as": "কাণৰ ফোলাভাব",
@@ -210,116 +142,7 @@
                     "id": "ID_421619111",
                     "text": "Ear discharge",
                     "display-or": "କାନରୁ ଝରିବା",
-                    "options": [
-                        {
-                            "id": "ID_216807676",
-                            "text": "Site",
-                            "display": "Is the discharge from one ear or both ears?",
-                            "language": "discharge is",
-                            "display-or": "ଗୋଟିଏ କାନରୁ ବା ଦୁଇଟି ଜାକରୁ",
-                            "options": [
-                                {
-                                    "id": "ID_223477593",
-                                    "text": "Right ear (Unilateral)",
-                                    "display-or": "ଡାହାଣ କାନ (ଏକ ପାଶ୍ୱିର୍କ)",
-                                    "display-hi": "दायां कान (एकांगी)",
-                                    "display-gu": "જમણો કાન (એક તરફી)",
-                                    "display-as": "সোঁ কাণ (একতৰফা)",
-                                    "display-bn": "ডান কান (একতরফা)",
-                                    "display-kn": "ಬಲ ಕಿವಿ (ಒಂದೇ ಪಕ್ಕ)",
-                                    "display-mr": "उजव्या कानातून (एका बाजूने)"
-                                },
-                                {
-                                    "id": "ID_1400484364",
-                                    "text": "Left ear (Unilateral)",
-                                    "display-or": "ବାମ କାନ  (ଏକ ପାଶ୍ୱିର୍କ)",
-                                    "display-hi": "बायां कान (एकांगी)",
-                                    "display-gu": "ડાબો કાન (એક તરફી)",
-                                    "display-as": "বাওঁ কাণ (একতৰফা)",
-                                    "display-bn": "বাম কান (একতরফা)",
-                                    "display-kn": "ಎಡ ಕಿವಿ (ಒಂದೇ ಪಕ್ಕ)",
-                                    "display-mr": "डाव्या कानातून (एका बाजूने)"
-                                },
-                                {
-                                    "id": "ID_732556538",
-                                    "text": "Bilateral",
-                                    "display": "Both ears",
-                                    "display-or": "ଦୁଇଟି କାନରୁ",
-                                    "display-hi": "दोनों कान",
-                                    "display-gu": "બંને કાનમાં",
-                                    "display-as": "দুটা কাণ",
-                                    "display-bn": "উভয় কান",
-                                    "display-kn": "ಎರಡೂ ಕಿವಿಗಳು",
-                                    "display-mr": "दोन्ही कान"
-                                }
-                            ],
-                            "display-hi": "एक कान बहता है, या दोनों?",
-                            "display-gu": "શું આ પ્રકારનો સ્રાવ એક જ કાનમાંથી નીકળે છે કે બંનેમાંથી?",
-                            "display-as": "একটা কাণ বা উভয় কাণ পৰা স্রাব হয়?",
-                            "display-bn": "এক কান থেকে স্রাব হয় নাকি উভয় কান থেকে?",
-                            "display-kn": "ಸ್ರವಿಸುವಿಕೆಯು ಒಂದು ಕಿವಿ ಅಥವಾ ಎರಡೂ ಕಿವಿಗಳಿಂದ ?",
-                            "display-mr": "स्त्राव दोन्ही कानातून होत आहे की एका कानातून?"
-                        },
-                        {
-                            "id": "ID_1947406702",
-                            "text": "Nature of discharge",
-                            "display-or": "ଝରିବା ପ୍ରକାର",
-                            "options": [
-                                {
-                                    "id": "ID_508374100",
-                                    "text": "Watery",
-                                    "display-or": "ଜଳ ପରି",
-                                    "display-hi": "पानी जैसा",
-                                    "display-gu": "પાણીવાળા",
-                                    "display-as": "জলযুক্ত",
-                                    "display-bn": "জলময়",
-                                    "display-kn": "ನೀರಿನಂತಹ",
-                                    "display-mr": "पाण्या सारखा"
-                                },
-                                {
-                                    "id": "ID_507979821",
-                                    "text": "Pus",
-                                    "display-or": "ପୂଜ",
-                                    "display-hi": "पस",
-                                    "display-gu": "પરૂ",
-                                    "display-as": "পুঁজ",
-                                    "display-bn": "পুঁজ",
-                                    "display-kn": "ಕೀವು",
-                                    "display-mr": "पू"
-                                },
-                                {
-                                    "id": "ID_764500786",
-                                    "text": "Blood",
-                                    "display-or": "ରକ୍ତ",
-                                    "display-hi": "खून",
-                                    "display-gu": "લોહી",
-                                    "display-as": "ৰক্ত",
-                                    "display-bn": "রক্ত",
-                                    "display-kn": "ರಕ್ತ",
-                                    "display-mr": "रक्त"
-                                },
-                                {
-                                    "id": "ID_1658208182",
-                                    "text": "Other (Describe)",
-                                    "input-type": "text",
-                                    "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
-                                    "language": "%",
-                                    "display-hi": "अन्य (वर्णन करें)",
-                                    "display-gu": "અન્ય (વિગતે જણાવો)",
-                                    "display-as": "অন্যান্য (বর্ণনা)",
-                                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
-                                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
-                                    "display-mr": "इतर ( वर्णन करा)"
-                                }
-                            ],
-                            "display-hi": "रिसाव की प्रकृति",
-                            "display-gu": "સ્રાવનો પ્રકાર",
-                            "display-as": "স্রাব প্রকৃতি",
-                            "display-bn": "স্রাবের প্রকৃতি",
-                            "display-kn": "ಸ್ರಾವದ ಸ್ವರೂಪ",
-                            "display-mr": "स्त्रावाचा प्रकार"
-                        }
-                    ],
+
                     "display-hi": "कान बहना",
                     "display-gu": "કાનમાંથી સ્રાવ નીકળવો",
                     "display-as": "কাণৰ স্রাব",
@@ -331,111 +154,7 @@
                     "id": "ID_250348148",
                     "text": "Cough",
                     "display-or": "କାଶ",
-                    "options": [
-                        {
-                            "id": "ID_666739841",
-                            "text": "Dry",
-                            "display-or": "ଶୁଖିଲା",
-                            "display-hi": "सुखी",
-                            "display-gu": "સૂકો",
-                            "display-as": "শুকান",
-                            "display-bn": "শুষ্ক",
-                            "display-kn": "ಒಣ",
-                            "display-mr": "कोरडा"
-                        },
-                        {
-                            "id": "ID_688803727",
-                            "text": "Productive (With sputum)",
-                            "display-or": "କଫି",
-                            "options": [
-                                {
-                                    "id": "ID_40884973",
-                                    "text": "Color of sputum",
-                                    "display-or": "କଫ ର ରଙ୍ଗ",
-                                    "options": [
-                                        {
-                                            "id": "ID_127709783",
-                                            "text": "Clear",
-                                            "display-or": "ସ୍ୱଚ୍ଛ କଫ",
-                                            "display-hi": "साफ़",
-                                            "display-gu": "સ્પષ્ટ",
-                                            "display-as": "পৰিষ্কাৰ",
-                                            "display-bn": "স্পষ্ট",
-                                            "display-kn": "ಸ್ಪಷ್ಟ",
-                                            "display-mr": "स्वच्छ"
-                                        },
-                                        {
-                                            "id": "ID_1390255618",
-                                            "text": "Yellow",
-                                            "display-or": "ହଳଦିଆ କଫ",
-                                            "display-hi": "पीला",
-                                            "display-gu": "પીળો",
-                                            "display-as": "হালধীয়া",
-                                            "display-bn": "হলুদ",
-                                            "display-kn": "ಹಳದಿ",
-                                            "display-mr": "पिवळा"
-                                        },
-                                        {
-                                            "id": "ID_1829782527",
-                                            "text": "Green",
-                                            "display-or": "ନୀଳ କଫ",
-                                            "display-hi": "हरा",
-                                            "display-gu": "લીલો",
-                                            "display-as": "সেউজীয়া",
-                                            "display-bn": "সবুজ",
-                                            "display-kn": "ಹಸಿರು",
-                                            "display-mr": "हिरवा"
-                                        },
-                                        {
-                                            "id": "ID_1306609508",
-                                            "text": "Red or pink",
-                                            "display-or": "ଲାଲ ବା ଧୂସର କଫ",
-                                            "display-hi": "लाल या गुलाबी",
-                                            "display-gu": "લાલ અથવા ગુલાબી",
-                                            "display-as": "ৰঙা বা গোলপীয়া",
-                                            "display-bn": "লাল বা গোলাপী",
-                                            "display-kn": "ಕೆಂಪು ಅಥವಾ ಗುಲಾಬಿ",
-                                            "display-mr": "लाल किंवा गुलाबी"
-                                        },
-                                        {
-                                            "id": "ID_254084860",
-                                            "text": "Brown",
-                                            "display-or": "ଧୂସର ବା ଫିକା କଫ",
-                                            "display-hi": "भूरा",
-                                            "display-gu": "છીંકણી",
-                                            "display-as": "বাদামী(মুগা)",
-                                            "display-bn": "বাদামী",
-                                            "display-kn": "ಕಂದು",
-                                            "display-mr": "तपकिरी"
-                                        },
-                                        {
-                                            "id": "ID_1146006116",
-                                            "text": "Black or grey",
-                                            "display-or": "କଲା ବା ଅଳପ ଧୂସର କଫ",
-                                            "display-hi": "काला या स्लेटी",
-                                            "display-gu": "કાળો અથવા રાખોડી",
-                                            "display-as": "কলা বা ধোঁৱাবৰণীয়া",
-                                            "display-bn": "কালো বা ধূসর",
-                                            "display-kn": "ಕಪ್ಪು ಅಥವಾ ಬೂದು",
-                                            "display-mr": "काळा किंवा राखाडी"
-                                        }
-                                    ],
-                                    "display-hi": "बलगम का रंग",
-                                    "display-gu": "ગળફાનો રંગ",
-                                    "display-as": "থু ৰঙ",
-                                    "display-bn": "থুতনির রঙ",
-                                    "display-kn": "ಕಫದ ಬಣ್ಣ",
-                                    "display-mr": "कफाचा रंग"
-                                }
-                            ],
-                            "display-hi": "बढ़ती हुई (बलगम के साथ)",
-                            "display-gu": "પ્રોડક્ટિવ (ગળફો)",
-                            "display-as": "উত্পাদনশীল (থু সহ)",
-                            "display-bn": "উত্পাদনশীল (থুথু সহ)",
-                            "display-kn": "ಉತ್ಪಾದಕ (ಕಫದೊಂದಿಗೆ)",
-                            "display-mr": "कफासहीत"
-                        }
-                    ],
+
                     "display-hi": "खांसी",
                     "display-gu": "કફ",
                     "display-as": "কাহ",

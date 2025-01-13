@@ -4,6 +4,7 @@
     "perform-physical-exam": "Neck:Thyroid swelling;",
     "language": "Patient is suffering from palpitations",
     "display-or": "ଛାତି ଧଡ଼ ଧଡ଼",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_313791833",
@@ -340,6 +341,7 @@
             "display": "Do you have the following symptom(s)?",
             "pos-condition": "c.",
             "neg-condition": "s.",
+            "isRequired": true,
             "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?",
             "options": [
                 {
@@ -468,34 +470,6 @@
                     "text": "Weight loss",
                     "language": "Patient has lost weight",
                     "display-or": "ହ୍ରାସ",
-                    "options": [
-                        {
-                            "id": "ID_205295457",
-                            "text": "[Enter amount of weight lost in kgs]",
-                            "input-type": "number",
-                            "language": "Amt lost in kgs",
-                            "display-or": "ଓଜନ କମିବାର ପରିମାଣ ଲେଖ",
-                            "display-hi": "(वजन कितना कम हुआ - किलोग्राम में)",
-                            "display-gu": "[કેટલા કિલો વજન ઘટ્યું તે લખો]",
-                            "display-as": "[কিলোগ্ৰামত হ্ৰাস পোৱা ওজনৰ পৰিমাণ দিয়ক]",
-                            "display-bn": "[কেজিতে হারানো ওজনের পরিমাণ লিখুন]",
-                            "display-kn": "[ಕಳೆದ ತೂಕದ ಪ್ರಮಾಣವನ್ನು ಕೆಜಿಗಳಲ್ಲಿ ನಮೂದಿಸಿ]",
-                            "display-mr": "[किलोमध्ये कमी झालेले वजन प्रविष्ट करा]"
-                        },
-                        {
-                            "id": "ID_1768966652",
-                            "text": "[Enter duration of weight loss]",
-                            "input-type": "duration",
-                            "language": "over",
-                            "display-or": "[ଓଜନ ହ୍ରାସର ଅବଧି]",
-                            "display-hi": "(कितने दिनों में वजन कम हुआ)",
-                            "display-gu": "[કેટલા સમયગાળામાં વજન ઘટ્યું તે લખો]",
-                            "display-as": "[ওজন কমাব পৰা সময়সীমা লিখক]",
-                            "display-bn": "[ওজন কমানোর সময়কাল লিখুন]",
-                            "display-kn": "[ತೂಕ ನಷ್ಟದ ಅವಧಿಯನ್ನು ನಮೂದಿಸಿ]",
-                            "display-mr": "[वजन कमी करण्याचा कालावधी प्रविष्ट करा]"
-                        }
-                    ],
                     "display-hi": "वजन में कमी",
                     "display-gu": "વજન ઘટવું",
                     "display-as": "ওজন কমা",

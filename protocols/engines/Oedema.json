@@ -3,6 +3,7 @@
     "text": "Oedema",
     "display-or": "ଗୋଇଠି ଫୁଲିବା",
     "perform-physical-exam": "Abdomen:Liver;Neck:Veins;",
+    "engineVersion": "3.0",
     "options": [
         {
             "id": "ID_1892712557",
@@ -255,61 +256,13 @@
             "options": [
                 {
                     "id": "ID_888423698",
-                    "text": "Difficulty breathing [Describe]",
+                    "text": "Difficulty breathing",
                     "display-or": "ନିଶ୍ୱାସ ନେବାରେ କଷ୍ଟ",
-                    "options": [
-                        {
-                            "id": "ID_1235536954",
-                            "text": "During rest",
-                            "display-or": "ବିଶ୍ରାମ ସମୟରେ",
-                            "display-hi": "आराम करते समय",
-                            "display-gu": "આરામ દરમિયાન",
-                            "display-as": "বিশ্রামৰ সময়ত",
-                            "display-bn": "বিশ্রামের সময়",
-                            "display-kn": "ವಿಶ್ರಾಂತಿ ಸಮಯದಲ್ಲಿ",
-                            "display-mr": "आराम करताना"
-                        },
-                        {
-                            "id": "ID_1045889475",
-                            "text": "On exertion",
-                            "display-or": "ପରିଶ୍ରମ ସମୟରେ",
-                            "display-hi": "शारीरिक श्रम करते समय",
-                            "display-gu": "થાક લાગે (એક્સર્શન) વખતે",
-                            "display-as": "পৰিশ্রমৰ উপৰত",
-                            "display-bn": "পরিশ্রমের উপর",
-                            "display-kn": "ಪರಿಶ್ರಮದ ಮೇಲೆ",
-                            "display-mr": "शारीरिक श्रम करताना"
-                        },
-                        {
-                            "id": "ID_768922406",
-                            "text": "At night",
-                            "display-or": "ରାତିରେ",
-                            "display-hi": "रात में",
-                            "display-gu": "રાત્રે",
-                            "display-as": "ৰাতি",
-                            "display-bn": "রাতে",
-                            "display-kn": "ರಾತ್ರಿಯಲ್ಲಿ",
-                            "display-mr": "रात्री"
-                        },
-                        {
-                            "id": "ID_1441617391",
-                            "text": "Other [Describe]",
-                            "language": "%",
-                            "display-or": "ଅନ୍ୟ(ବର୍ଣନା କର)",
-                            "input-type": "text",
-                            "display-hi": "अन्य (वर्णन करें)",
-                            "display-gu": "અન્ય [વિગતે જણાવો]",
-                            "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
-                            "display-bn": "অন্যান্য [বর্ণনা]",
-                            "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
-                            "display-mr": "इतर ( वर्णन करा)"
-                        }
-                    ],
-                    "display-hi": "सांस लेने में तकलीफ (वर्णन करें)",
-                    "display-gu": "શ્વાસ લેવામાં તકલીફ [વર્ણવો]",
-                    "display-as": "শ্বাস প্রশ্বাস অসুবিধা [বর্ণনা]",
-                    "display-bn": "শ্বাস নিতে অসুবিধা [বর্ণনা]",
-                    "display-kn": "ಉಸಿರಾಟದ ತೊಂದರೆ [ವಿವರಿಸಿ]",
+                    "display-hi": "सांस लेने में तकलीफ",
+                    "display-gu": "શ્વાસ લેવામાં તકલીફ ",
+                    "display-as": "শ্বাস প্রশ্বাস অসুবিধা",
+                    "display-bn": "শ্বাস নিতে অসুবিধা ",
+                    "display-kn": "ಉಸಿರಾಟದ ತೊಂದರೆ",
                     "display-mr": "श्वास घेण्यास अडथळा"
                 },
                 {
@@ -338,43 +291,6 @@
                     "id": "ID_565923432",
                     "text": "Change in taste",
                     "display-or": "ସ୍ୱାଦ ଅଲଗା ଲାଗିବା",
-                    "options": [
-                        {
-                            "id": "ID_893794347",
-                            "text": "Metallic",
-                            "display-or": "ଧାତୁ",
-                            "display-hi": "धातु जैसा स्वाद",
-                            "display-gu": "ધાતુ જેવું",
-                            "display-as": "ধাত্বিক",
-                            "display-bn": "ধাতব",
-                            "display-kn": "ಲೋಹೀಯ",
-                            "display-mr": "धातू सारखी चव"
-                        },
-                        {
-                            "id": "ID_41192607",
-                            "text": "Fishy",
-                            "display-or": "ଆମିଷ ଗନ୍ଧ",
-                            "display-hi": "मछली के गंध जैसा",
-                            "display-gu": "માછલી જેવું",
-                            "display-as": "মজা (ভাল)",
-                            "display-bn": "মৎস",
-                            "display-kn": "ಫಿಶಿ",
-                            "display-mr": "माशांच्या वासासारखा"
-                        },
-                        {
-                            "id": "ID_1340988170",
-                            "text": "Other (Describe)",
-                            "language": "%",
-                            "display-or": "ଅନ୍ୟ(ବର୍ଣନା କର)",
-                            "input-type": "text",
-                            "display-hi": "अन्य (वर्णन करें)",
-                            "display-gu": "અન્ય (વિગતે જણાવો)",
-                            "display-as": "অন্যান্য (বর্ণনা)",
-                            "display-bn": "অন্যান্য (বর্ণনা করুন)",
-                            "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
-                            "display-mr": "इतर (वर्णन करा)"
-                        }
-                    ],
                     "display-hi": "स्वाद में बदलाव",
                     "display-gu": "સ્વાદ બદલાઈ જવો",
                     "display-as": "সোৱাদত পৰিবর্তন",
@@ -388,32 +304,6 @@
                     "perform-physical-exam": "Face:Swollen Face;Neck:Thyroid swelling;",
                     "display": "Feeling uncomfortable in hot/cold environments",
                     "display-or": "ଥଣ୍ଡା ବା ଗରମ ବାତାବରଣ ଅସହ୍ୟ",
-                    "options": [
-                        {
-                            "id": "ID_1974116495",
-                            "text": "Heat intolerance",
-                            "display": "Feels uncomfortable in hot environments",
-                            "display-or": "ଗରମ ବାତା ବରଣରେ ଠିକ ନଲାଗିବା",
-                            "display-hi": "गर्म वातावरण में असहज महसूस करना",
-                            "display-gu": "ગરમ વાતાવરણમાં અસુખ થાય",
-                            "display-as": "গৰম পৰিবেশত অস্বস্তি অনুভৱ কৰে",
-                            "display-bn": "গরম পরিবেশে অস্বস্তি লাগে",
-                            "display-kn": "ಉಷ್ಣ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
-                            "display-mr": "गरम वातावरणात अस्वस्थ वाटणे"
-                        },
-                        {
-                            "id": "ID_404543370",
-                            "text": "Cold intolerance",
-                            "display": "Feels uncomfortable in cold environments",
-                            "display-or": "ଥଣ୍ଡା ବାତାବରଣରେ ଠିକ ନ ଲାଗିବା",
-                            "display-hi": "ठंडे वातावरण में असहज महसूस करना",
-                            "display-gu": "ઠંડાં વાતાવરણમાં અસુખ થાય",
-                            "display-as": "শীতল পৰিবেশত অস্বস্তি অনুভৱ কৰে",
-                            "display-bn": "ঠান্ডা পরিবেশে অস্বস্তি লাগে",
-                            "display-kn": "ಶೀತ ವಾತಾವರಣದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
-                            "display-mr": "थंड वातावरणात अस्वस्थ वाटणे"
-                        }
-                    ],
                     "display-hi": "गर्म/ ठंडे वातावरण में असहज/परेशानी महसूस करना",
                     "display-gu": "ગરમ/ઠંડાં વાતાવરણમાં અસુખ થાય",
                     "display-as": "গৰম / ঠান্ডা পৰিবেশত অস্বস্তি অনুভৱ কৰা হৈছে",
