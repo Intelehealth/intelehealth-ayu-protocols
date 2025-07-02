@@ -1,0 +1,741 @@
+{
+    "id": "ID_41ee6a1e-0562-444c-9aaa-6b80cb62dbd8",
+    "text": "Groin swelling",
+    "engineVersion": "3.0",
+    "display-mr": "मांडीच्या सांध्यांना सूज",
+    "display-hi": "जांध में सूजन",
+    "options": [
+        {
+            "id": "ID_be33bd58-bd0a-4587-8127-32936c57d100",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5064880a-5b22-47f7-803b-64d47846520d",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_1d33dd22-eb15-4d12-a3fa-40c9552672df",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a5e8eb7a-7162-4af8-9cab-6b3f67770687",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_233dd50b-d6c1-4692-8f7d-9c2c4ea5f416",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_f5850640-4f5d-4185-95cc-feec2ad7c2ed",
+            "text": "Which side of groin do you have swelling?",
+            "display-mr": "मांडीच्या सांध्याच्या कोणत्या बाजूला सूज आहे?",
+            "display-hi": "कमर के किस तरफ सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_467c4072-c5fe-4a51-a574-a71c3b1e1c3a",
+                    "text": "Left groin",
+                    "display-mr": "मांडीचा डावा सांधा",
+                    "display-hi": "बाएं कमर के नीचे"
+                },
+                {
+                    "id": "ID_94eaf502-e33b-406c-8174-945cf8902a5d",
+                    "text": "Right groin",
+                    "display-mr": "मांडीचा उजवा सांधा",
+                    "display-hi": "दाएं कमर के नीचे"
+                },
+                {
+                    "id": "ID_5a6c0bf8-2558-4593-9649-91ea7392576d",
+                    "text": "Both groins",
+                    "display-mr": "मांडीचे दोन्ही सांधे",
+                    "display-hi": "कमर के नीचे दोनों ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_b9ae9d5d-be2c-46d2-a890-abe212af2cd6",
+            "text": "Did the swelling develop after any of the events?",
+            "display-mr": "यापैकी कोणत्याही प्रसंगानंतर सूज विकसित झाली का?",
+            "display-hi": "क्या किसी घटना के बाद सूजन हुई?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fca164d7-da45-4a4f-847e-2ae43a1f8a0a",
+                    "text": "None",
+                    "display-mr": "कोणत्याही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1a688e56-8bd4-4356-823d-f7185b72e93c",
+                    "text": "Injury",
+                    "display-mr": "इजा",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_4bc96f58-b94e-4409-aa80-c3d1765fea3e",
+                    "text": "Straining",
+                    "display-mr": "ताणणे",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_0fce84b2-aa04-4eb8-9457-b7a62b00049e",
+                    "text": "Vigorous activity",
+                    "display-mr": "जोरदार हालचाली",
+                    "display-hi": "जोरदार गतिविधि"
+                },
+                {
+                    "id": "ID_6cc9942b-9300-4851-baa4-a777f0a8ccb6",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_aaf9bf1f-d2dd-45d0-94dc-5d94056cfc0e",
+            "text": "How can you describe the groin swelling?",
+            "display-mr": "तुम्ही मांडीच्या सांध्याला आलेल्या सूजेचे वर्णन कसे करू शकाल?",
+            "display-hi": "आप कमर के नीचे की सूजन का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f09692b9-6080-404e-9665-b96a13c8bf0c",
+                    "text": "Single swelling",
+                    "display-mr": "एकच सूज",
+                    "display-hi": "एकल सूजन"
+                },
+                {
+                    "id": "ID_79468ea6-e3f2-4b6e-ab1d-952b3453ad3c",
+                    "text": "Multiple swellings",
+                    "display-mr": "एकापेक्षा जास्त सूज",
+                    "display-hi": "कई सूजन"
+                },
+                {
+                    "id": "ID_1f93e7d9-d42d-4bdf-957c-c9c79f0e5be1",
+                    "text": "Hard consistency",
+                    "display-mr": "कठोर सातत्य",
+                    "display-hi": "छूने पर कठोर"
+                },
+                {
+                    "id": "ID_2e93f016-2f2e-4056-a819-b6b99745b155",
+                    "text": "Firm consistency",
+                    "display-mr": "दृढ सातत्य",
+                    "display-hi": "छूने पर दृढ़"
+                },
+                {
+                    "id": "ID_f3ba18f9-a057-48c2-af1a-c328461e84cc",
+                    "text": "Soft consistency",
+                    "display-mr": "सौम्य सातत्य",
+                    "display-hi": "छूने पर नरम"
+                },
+                {
+                    "id": "ID_38f1e27c-b130-4fe8-86d4-57857f8b01a7",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c0b44d6a-785b-4287-88bd-38d1d831a7cb",
+            "text": "Do you have any of the local associated features with the swelling?",
+            "display-mr": "तुमच्यात सूजेशी संबंधित स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको सूजन के साथ इनमें से कोई समस्याएं जुड़ी हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_c9cb6f99-8dba-4381-be18-4869927585f6",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_869899be-447b-455d-ae1e-73038baa5389",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_57169dff-9470-448f-8eaf-d2c9e4a277f6",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श करताना वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_89d8e950-e0b0-48c5-8849-032bacfb9d72",
+                    "text": "Warmth",
+                    "display-mr": "अंग गरम राहणे",
+                    "display-hi": "गर्माहट"
+                },
+                {
+                    "id": "ID_d991515e-b6c3-41df-8893-9418e363ff91",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर",
+                    "display-hi": "अल्सर"
+                },
+                {
+                    "id": "ID_07fcdfd0-da58-4906-bd9c-641a36e3b380",
+                    "text": "Skin discoloration",
+                    "display-mr": "त्वचेचा रंग फिकट पडणे",
+                    "display-hi": "त्वचा का रंग बदलना"
+                },
+                {
+                    "id": "ID_f72a1b4f-120a-40d0-b9ee-6eb491fcc259",
+                    "text": "Discharge",
+                    "display-mr": "स्राव",
+                    "display-hi": "तरल पदार्थ का निकलना"
+                },
+                {
+                    "id": "ID_0a4c6923-0c1c-4beb-a92b-be1f8b7d588a",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_6106b01a-8584-4a81-aed2-9e1c32e66bcd",
+            "text": "Do you have pain associated with groin swelling?",
+            "display-mr": "तुम्हाला मांडीच्या सांध्याच्या सूजेशी संबंधित वेदना आहे का?",
+            "display-hi": "क्या आपको कमर के नीचे की सूजन से जुड़ा दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_65d08d77-01f0-42db-b1d0-67b94e54f3dc",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d646dc4d-af1f-475c-ae3a-2c02b132ec28",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_951f61c5-94da-4b40-9ccb-f835ed29afc1",
+                            "text": "How can you describe the character of pain?",
+                            "display-mr": "तुम्ही या वेदनेच्या स्वरूपाचे वर्णन कसे करू शकाल?",
+                            "display-hi": "आप दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_9a2b55ad-2ae3-4933-9658-9d22df98cfa1",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळणारी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_62639961-e7b1-4b42-8af6-7aca31bc5861",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_52ce7210-8d7c-4ce4-a4f5-e49fd8babcfa",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                                    "display-hi": "चीरे जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_3275ddea-cf02-441a-80f2-e59cede62d66",
+                                    "text": "Pressure pain",
+                                    "display-mr": "दाब वेदना",
+                                    "display-hi": "दबाव वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_1f7efb6e-7398-4411-831b-eb26bc2ece52",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "सतत मंद वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_776ad919-b14e-49f6-8764-e9cf1323c035",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_210a6924-9648-44c0-8312-d6ab0b655bde",
+                                    "text": "Shooting pain",
+                                    "display-mr": "एकदम वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_4a31e3dc-9720-4940-baa1-b50b530732fd",
+                                    "text": "Don't know",
+                                    "display-mr": "माहीत नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_38d617f3-b8d8-4309-b57b-78438ca4deb4",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_37c158fb-b58d-4d60-bc64-5832d4eb7bce",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_a5ce9ad3-149d-4e23-b1a9-5c9fc30e5c29",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_75983d90-94d7-48af-9ad4-8c9f34f81059",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_1e92bde7-07fc-47a9-b68e-7d256678f3cd",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "अतिशय तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_ec48a074-6ea3-45cc-b7d4-5eeade8e2c7d",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_df5beca1-ae0e-4017-bd0c-4ac464482190",
+                            "text": "Does the pain moves to other parts of body?",
+                            "display-mr": "वेदना शरीराच्या इतर अवयवांपर्यंत पसरते का?",
+                            "display-hi": "क्या दर्द शरीर के अन्य भागों में फैल जाता है?",
+                            "options": [
+                                {
+                                    "id": "ID_01b41523-74a1-4445-a954-4498cb56a8b4",
+                                    "text": "None",
+                                    "display-mr": "कोणत्याही नाही",
+                                    "display-hi": "कोई नहीं",
+                                    "exclude-from-multi-choice": "true"
+                                },
+                                {
+                                    "id": "ID_7ecbf5c1-01fe-428d-89ff-3b9b1d737bf2",
+                                    "text": "External genitalia",
+                                    "display-mr": "बाह्य जननेंद्रि.",
+                                    "display-hi": "बाहरी जननांग"
+                                },
+                                {
+                                    "id": "ID_88bc7a6b-f453-4b58-ab5f-110bac442fb9",
+                                    "text": "Lower abdomen",
+                                    "display-mr": "ओटीपोटाचा खालील भाग",
+                                    "display-hi": "पेट के निचले हिस्से"
+                                },
+                                {
+                                    "id": "ID_033b610e-dcf7-4c58-9a7e-69e846b59ec4",
+                                    "text": "Flank",
+                                    "display-mr": "बगल",
+                                    "display-hi": "पेट के दोनों ओर की बगल"
+                                },
+                                {
+                                    "id": "ID_9c96aa66-3f25-40c1-a5e4-35717e7de598",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f2a7a859-4d4e-4ba0-9beb-105da1350dad",
+            "text": "What reduces or lessens the groin swelling?",
+            "display-mr": "मांडीच्या सांध्याची सूज कशामुळे कमी होते किंवा उतरते?",
+            "display-hi": "कमर के नीचे की सूजन को क्या कम करता या घटाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6c0e8a83-8570-4ab1-9b1d-50b9fc2d919d",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_17811139-c221-428f-b254-327110fe9404",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_138f8412-1f3e-4d2e-a89b-4e52934cbb66",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_ecf0b0fb-c6f9-4709-b6e3-13071e3a1ea3",
+                    "text": "Pressing on it",
+                    "display-mr": "त्यावर दाबणे",
+                    "display-hi": "उस पर दबाव डालना"
+                },
+                {
+                    "id": "ID_053405b9-65f6-469f-8c91-5777a59e8561",
+                    "text": "Certain position",
+                    "display-mr": "विशिष्ट स्थिती",
+                    "display-hi": "कुछ खास मुद्राएं"
+                },
+                {
+                    "id": "ID_2d44eb67-7849-4fa7-8ead-0806b391c923",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_078b4fb3-5c36-4315-9bb9-86afbcb2410a",
+            "text": "What increases or worsens the groin swelling?",
+            "display-mr": "मांडीच्या सांध्याची सूज कशामुळे वाढते किंवा तीव्र होते?",
+            "display-hi": "कमर के नीचे की सूजन को क्या बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4f5459e4-7bde-4353-ba10-93acf2d5dfd5",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a5558abe-ca52-448e-b0b1-f20a1f8fda86",
+                    "text": "Straining",
+                    "display-mr": "ताणणे",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_5cf86d60-3771-418d-89f1-d375264b2087",
+                    "text": "Coughing",
+                    "display-mr": "खोकणे",
+                    "display-hi": "खांसना"
+                },
+                {
+                    "id": "ID_a226b448-1fee-44aa-ba73-19ac7a47c6f7",
+                    "text": "Sneezing",
+                    "display-mr": "शिंकणे",
+                    "display-hi": "छींकना"
+                },
+                {
+                    "id": "ID_773cbac2-7866-4fa3-925c-4f7faf93fe7d",
+                    "text": "Urination",
+                    "display-mr": "मूत्रविसर्जन",
+                    "display-hi": "पेशाब करना"
+                },
+                {
+                    "id": "ID_124c602a-f369-4965-8ee1-b8aa51c35cf6",
+                    "text": "Standing",
+                    "display-mr": "उभे राहणे",
+                    "display-hi": "खड़ा होना"
+                },
+                {
+                    "id": "ID_289b3b13-3667-4ca1-bec7-c728ff46dd38",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_f9e40a97-4071-413e-b571-7bdd43c282cc",
+            "text": "How is the swelling size progressing?",
+            "display-mr": "सूजेचा आकारा मध्ये काही बदल झाला का?",
+            "display-hi": "सूजन के आकार में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_41f9bbca-2809-4f63-941c-7533990974a2",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_cc0c9409-8da6-417c-8f4c-e1ae9e5ff1e2",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_dde5a8f6-ee97-4485-aa87-ff741df33c79",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा येत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_a6496e9e-735d-405a-9f35-9bcb65d646be",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_1fe63b81-625f-4e97-852f-327b4e3a48f3",
+            "text": "Does the swelling have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रामध्ये सूज येण्याचा काही विशिष्ट नमुना आहे का?",
+            "display-hi": "क्या सूजन का 24 घंटे के चक्र के दौरान कोई पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e53030f1-25bc-4644-b2a9-9e4a04785ec3",
+                    "text": "Constant",
+                    "display-mr": "सातत्यपूर्ण",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_1bf389d0-8b02-4aa2-9148-361dcdb6585c",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता—जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_87e30fd4-9cd2-47be-bc89-54c814b4fe6d",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a50d92e7-7bb6-4ca4-9d23-a105bcbfc6ae",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात सूज/फुगवटा",
+                    "display-hi": "पेट भारी होना"
+                },
+                {
+                    "id": "ID_a00e41d7-c634-406f-9f3d-30e132faeb18",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_a7326335-63b2-4d8a-8513-14af2fa53f43",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठ",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_a05904a7-6a45-424a-95df-8e92748ed512",
+                    "text": "Burning urination",
+                    "display-mr": "लघवी करताना जळजळणे",
+                    "display-hi": "पेशाब में जलन"
+                },
+                {
+                    "id": "ID_be0ca069-b750-429e-8754-ed55752aad8c",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_c20f0df9-deaa-4a83-ba46-800e0f0630af",
+                    "text": "Urethral discharge",
+                    "display-mr": "मूत्रमार्गातून स्त्राव होणे",
+                    "display-hi": "मूत्रमार्ग से तरल पदार्थ का निकलना"
+                },
+                {
+                    "id": "ID_f9d778c3-eeaa-48c8-824a-60b1782012ae",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीतून रक्त जाणे",
+                    "display-hi": "पेशाब में खून"
+                },
+                {
+                    "id": "ID_16575db0-0ed7-4de2-b7e6-10a22b1b0b19",
+                    "text": "Scrotal pain",
+                    "display-mr": "अंडकोष वेदना",
+                    "display-hi": "अंडकोष में दर्द"
+                },
+                {
+                    "id": "ID_1900d4f6-5041-4e72-9d8a-e348fce75c95",
+                    "text": "Scrotal swelling",
+                    "display-mr": "अंडकोषाला सूज",
+                    "display-hi": "अंडकोष में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_a077d9f3-1999-4a33-8cbf-65b8e6932871",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ec22d923-46af-4538-8886-55ede3256d38",
+                    "text": "None",
+                    "display-mr": "नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9d7c95a3-b65d-4404-a585-d698ac2907ce",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_659d89c4-6e74-4906-9421-7f9f4ab920a2",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "ठंड लगना और दर्द"
+                },
+                {
+                    "id": "ID_4115d9bb-9cfa-459a-83d1-54590e699a0c",
+                    "text": "Terminal dribbling of urine",
+                    "display-mr": "शेवटी थेंब थेंब लघवी गळणे",
+                    "display-hi": "पेशाब का टपकना"
+                },
+                {
+                    "id": "ID_e0cf74d3-f65d-4381-a823-97fed4eac58c",
+                    "text": "Abnormal vaginal discharge",
+                    "display-mr": "योनीमधून असामान्य स्राव होणे",
+                    "display-hi": "योनि से असामान्य रूप से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_ec026a39-9e66-435a-af8f-605c5fee0120",
+                    "text": "Discharge from penis",
+                    "display-mr": "शिश्नामधून स्राव",
+                    "display-hi": "लिंग से तरल पदार्थ का निकलना"
+                },
+                {
+                    "id": "ID_a78d07da-42cc-4fec-9ae4-5d09615308f0",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_f0b24867-841b-4cd6-9fde-7afa613f9747",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_c1137ba6-80de-4350-a58a-d04f96b15973",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_f1f15efa-1fbb-439b-a4c4-b1ada4da4b03",
+                    "text": "Abdominal pain",
+                    "display-mr": "ओटीपोटात दुखणे",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_147fa9e5-8f38-4a22-9360-b6c3346b5892",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ में दर्द"
+                },
+                {
+                    "id": "ID_d2c702cc-b502-4b3b-85a3-ce3f5c522ce2",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fb96d0b1-c257-4aea-926f-9aeb17401781",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_41f745c7-71e2-42bd-95a0-7e111e1ad82c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_f6bcea47-7d45-4813-93c4-e3726122cce2",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_e8c0a87d-7eb7-4e19-9614-9ede4eb1182f",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_b93b8896-56c3-4e4d-b3c5-5de28b5a45d6",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_96dda699-9df2-4dc1-bfb8-f89660705839",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

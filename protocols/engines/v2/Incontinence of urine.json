@@ -1,0 +1,440 @@
+{
+    "id": "ID_b0762f6d-ac42-419a-b854-64150ec7a6e1",
+    "text": "Incontinence of urine",
+    "engineVersion": "3.0",
+    "display-mr": "मूत्रविसर्जनाचे नियंत्रण नसणे/कमी होणे",
+    "display-hi": "पेशाब करने में असंयम",
+    "options": [
+        {
+            "id": "ID_8e47affe-380f-4a89-80ed-4f3e4f2d0aa8",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_cfffe3fb-2a7c-4059-a492-5883d673f44e",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_daf4a33d-e864-4c5f-8cc7-11148f987c70",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_baebe8a3-1d29-4957-bdb8-7c2d8c0749fd",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_4bb0ef1f-5175-4c9f-b104-29c435689e6a",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_6b5a48a6-a944-441b-afdb-5e167398e18e",
+            "text": "How do you describe the nature of your incontinence of urine?",
+            "display-mr": "तुमच्या लघवीच्या असंयमचे स्वरूप तुम्ही कसे वर्णन कराल?",
+            "display-hi": "आप अपनी पेशाब की बीमारी को कैसे बताते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f3ba02be-f0f0-4407-bc52-458397d6568c",
+                    "text": "Leakage with cough or sneeze",
+                    "display-mr": "खोकला किंवा शिंकल्याने गळती",
+                    "display-hi": "खांसी या छींक के साथ लीक"
+                },
+                {
+                    "id": "ID_5bcdb84d-9008-4748-bad4-9c425447fbb9",
+                    "text": "Lekage with sudden urges",
+                    "display-mr": "अचानक तातडी सह गळती",
+                    "display-hi": "अचानक पेशाब की इच्छा के साथ लीक"
+                },
+                {
+                    "id": "ID_4ae8586f-ba8f-42d6-bc91-e55fd03213c2",
+                    "text": "Continuous leakage",
+                    "display-mr": "सतत गळती",
+                    "display-hi": "निरंतर लीक"
+                }
+            ]
+        },
+        {
+            "id": "ID_dfa47f39-43aa-4f93-b48e-fc336b0cf60d",
+            "text": "What is the amount of urine passed in incontinence of urine?",
+            "display-mr": "लघवीच्या असंयम मध्ये किती लघवी जाते?",
+            "display-hi": "पेशाब पर नियंत्रण न होने के दौरान कितनी मात्रा में पेशाब निकला है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b6a81ee4-c254-481f-80be-a061372117d9",
+                    "text": "Small volume (drops)",
+                    "display-mr": "कमी मात्रा (थेंब)",
+                    "display-hi": "छोटी मात्रा (बूंदें)"
+                },
+                {
+                    "id": "ID_d5829342-7730-415a-bef1-c42f5c871b7a",
+                    "text": "Normal (regular)",
+                    "display-mr": "सामान्य मात्रा",
+                    "display-hi": "सामान्य (नियमित)"
+                },
+                {
+                    "id": "ID_143bf9bf-7152-42f9-b6bb-83ccea5a7b6d",
+                    "text": "Large volume",
+                    "display-mr": "अधिक मात्रा",
+                    "display-hi": "बड़ी मात्रा"
+                }
+            ]
+        },
+        {
+            "id": "ID_d215b942-6ca5-4253-b99b-38c07178d49f",
+            "text": "What does improve or lessen incontinence of urine?",
+            "display-mr": "लघवीची असंयम काय सुधारते किंवा कमी करते?",
+            "display-hi": "पेशाब नियंत्रण को बेहतर या कम करने में क्या मदद करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_707f36e8-f3c4-4426-b1f7-2d12e1f3174c",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_4fc31b4e-f603-4ac2-8289-73356fa3144c",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_8308f61a-366a-4962-a6e9-d3e0385c9712",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब करना"
+                },
+                {
+                    "id": "ID_97d87be6-891d-453b-a206-0408d980a6fc",
+                    "text": "Restriction of oral fluids",
+                    "display-mr": "तोंडी द्रवपदार्थांवर निर्बंध",
+                    "display-hi": "कम तरल पदार्थ पीना"
+                },
+                {
+                    "id": "ID_3026912e-03ee-4f31-b0ed-c3f14f346e70",
+                    "text": "Pelvic floor exercises",
+                    "display-mr": "ओटीपोटाच्या स्नायूंचा व्यायाम",
+                    "display-hi": "पेल्विक फ्लोर व्यायाम"
+                },
+                {
+                    "id": "ID_7b490949-41ed-4615-a88f-cd9b65938793",
+                    "text": "Medication",
+                    "display-mr": "औषध",
+                    "display-hi": "दवाई"
+                }
+            ]
+        },
+        {
+            "id": "ID_ad9a55d7-5b97-4307-b5b3-f44bb3075fd6",
+            "text": "What does increase or worsen incontinence of urine?",
+            "display-mr": "लघवीची असंयम कशामुळे वाढते किंवा बिघडते?",
+            "display-hi": "पेशाब की समस्या को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_24b73e5b-67dd-43f8-bb18-68ef03c10354",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ff16e77f-a46d-4da5-b8e6-d696839dda15",
+                    "text": "Coughing",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_badecac9-5e0e-40e6-b4a1-e18f29299595",
+                    "text": "Sneezing",
+                    "display-mr": "शिंकणे",
+                    "display-hi": "छींकना"
+                },
+                {
+                    "id": "ID_6b23360c-a57f-4c1e-954f-76114b0f4dcb",
+                    "text": "Laughing",
+                    "display-mr": "हसणे",
+                    "display-hi": "हंसना"
+                },
+                {
+                    "id": "ID_de376fa0-3d68-4397-ae78-4d49d90acfac",
+                    "text": "Certain movements",
+                    "display-mr": "काही हालचाली",
+                    "display-hi": "कुछ खास गतिविधियां"
+                }
+            ]
+        },
+        {
+            "id": "ID_d7f77b98-ccf5-499d-8f5f-9e7e6c9df70b",
+            "text": "Is there a timing pattern of incontinence of urine during a 24 hr cycle?",
+            "display-mr": "२४ तासांच्या चक्रात लघवी असंयम होण्याचा काही वेळेचा पॅटर्न असतो का?",
+            "display-hi": "क्या पेशाब की समस्या 24 घंटों के दौरान किसी खास समय पर बढ़ती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9431ae24-cff9-464b-8f2f-a5d99ca19346",
+                    "text": "Constant (throughout)",
+                    "display-mr": "सतत (संपूर्ण)",
+                    "display-hi": "निरंतर (संपूर्ण समय)"
+                },
+                {
+                    "id": "ID_d3720a9b-b471-4802-b835-78924f735687",
+                    "text": "Night time",
+                    "display-mr": "रात्रीची वेळ",
+                    "display-hi": "रात का समय"
+                },
+                {
+                    "id": "ID_63e19eb1-074e-454c-8b60-e751da618cd6",
+                    "text": "Day time",
+                    "display-mr": "दिवसाची वेळ",
+                    "display-hi": "दिन का समय"
+                },
+                {
+                    "id": "ID_6aebf370-adce-418c-879e-e042fd7e99d5",
+                    "text": "After activity",
+                    "display-mr": "क्रियाकलापानंतर",
+                    "display-hi": "गतिविधि के बाद",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_91b63cf9-bb1e-4043-844a-0f7051aad746",
+                            "text": "How many times you have leakage of urine?",
+                            "display-mr": "तुम्हाला किती वेळा लघवीची गळती होते?",
+                            "display-hi": "आपको कितनी बार अपने आप पेशाब का रिसाव हो जाता है?",
+                            "options": [
+                                {
+                                    "id": "ID_da57e868-0428-4ada-bac3-ea3eb86df170",
+                                    "text": "Once",
+                                    "display-mr": "एकदा",
+                                    "display-hi": "एक बार"
+                                },
+                                {
+                                    "id": "ID_346f2ea5-b3b1-4e20-aeb0-c28f19d6708e",
+                                    "text": "Twice",
+                                    "display-mr": "दोनदा",
+                                    "display-hi": "दो बार"
+                                },
+                                {
+                                    "id": "ID_db70f40e-99e4-4ab8-bbe5-ddea5edad00b",
+                                    "text": "Three & above",
+                                    "display-mr": "तीन आणि त्यापेक्षा जास्त",
+                                    "display-hi": "तीन बार और ऊपर"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_a83e0d0f-3088-4c4a-82b2-d14c1f8ab7ca",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_dddd22f5-3bcb-4dfa-b293-177f83061085",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीमध्ये रक्त",
+                    "display-hi": "पेशाब में खून"
+                },
+                {
+                    "id": "ID_7cf03ac7-c6d5-4eb6-b7ca-23bdeb81e3fb",
+                    "text": "Frequency of urination",
+                    "display-mr": "लघवीची वारंवारता",
+                    "display-hi": "बार-बार पेशाब करने की इच्छा होना"
+                },
+                {
+                    "id": "ID_57414554-9e05-45a6-9cbf-a82f716a8962",
+                    "text": "Urinary urgency",
+                    "display-mr": "लघवीची तातडीची गरज",
+                    "display-hi": "पेशाब आने की जल्दी"
+                },
+                {
+                    "id": "ID_a3061eff-99c0-4fd4-bfc0-ac6a3ddbb73f",
+                    "text": "Urinary hesitancy",
+                    "display-mr": "लघवीचा संकोच",
+                    "display-hi": "पेशाब करने में झिझक"
+                },
+                {
+                    "id": "ID_26fb84cc-bbbd-41b0-b42f-e185134449bb",
+                    "text": "Poor stream of urine",
+                    "display-mr": "लघवी ची बारीक धार",
+                    "display-hi": "पेशाब की धारा में कमी"
+                },
+                {
+                    "id": "ID_0d0a0ea9-f830-4447-b060-ba695c547eec",
+                    "text": "Terminal dribbling of urine",
+                    "display-mr": "शेवटी थेंब थेंब लघवी गळणे",
+                    "display-hi": "पेशाब के अंतिम चरण में टपकना"
+                },
+                {
+                    "id": "ID_954d6ccd-591d-44a0-9c94-ded2806cf387",
+                    "text": "Flank pain",
+                    "display-mr": "पार्श्वभाग वेदना",
+                    "display-hi": "कमर के दर्द"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_233bd831-7082-49e8-8738-4ceb951d5a99",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f2d9858d-7f7d-4b16-91be-bf7ce453cca3",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0bbb9b9a-5279-49bc-a721-c05fb8c86ae9",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_6c02ccc1-cc23-48b8-87a1-d31d5790834f",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "कांपना और ठंड के झटके"
+                },
+                {
+                    "id": "ID_ed614991-a054-4a7c-a4d8-dee35c85b8a0",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_1d1b645f-8d8b-4ffc-91fc-cebe0c0161ec",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ में दर्द"
+                },
+                {
+                    "id": "ID_3cc15fdb-cb65-47c3-b557-abca26e92d06",
+                    "text": "Excessive thirst",
+                    "display-mr": "जास्त तहान लागते",
+                    "display-hi": "अत्यधिक प्यास"
+                },
+                {
+                    "id": "ID_c6920212-f468-4a7f-a995-cc0cd7f084b9",
+                    "text": "Swelling on back",
+                    "display-mr": "पाठीला सूज येणे",
+                    "display-hi": "पीठ पर सूजन"
+                },
+                {
+                    "id": "ID_4c798b43-df36-4932-863b-6032c30a05d2",
+                    "text": "Incontinence of stools",
+                    "display-mr": "शौचाची अनियमतता",
+                    "display-hi": "शौच पर नियंत्रण न होना"
+                },
+                {
+                    "id": "ID_befa55f7-2d70-4243-b23b-c26a0f11876c",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख नहीं लगना"
+                },
+                {
+                    "id": "ID_bf48ddeb-7e78-4cf0-9372-b27132fb4d66",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_dcfc08cf-7f2a-4d50-a590-220974797709",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_3cd04e69-e4e2-4423-b876-502e1fc61429",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_73b7eca5-7dd8-469d-b4db-97e56b450b5d",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e701fa25-44e3-4025-95a8-92112cf5bce3",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_558fa35b-b39f-4908-9671-edf0c141ac3a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_39397152-f051-4dcc-acd1-f480a6a0f59b",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_a9f496a3-e477-481d-9eaf-862087f3ec49",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_09fe43f5-d206-46d0-8ebf-bfd51a92e3d5",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

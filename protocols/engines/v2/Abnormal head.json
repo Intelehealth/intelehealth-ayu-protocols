@@ -1,0 +1,514 @@
+{
+    "id": "ID_b436a95a-72bd-4cc5-9b5a-ce702a4f221d",
+    "text": "Abnormal head",
+    "engineVersion": "3.0",
+    "display-mr": "शीर/डोक्याच्या रचने मध्ये विकृती",
+    "display-hi": "सिर की रचना में विकार",
+    "options": [
+        {
+            "id": "ID_258db52d-6e3d-4078-bd24-3d4a05bc0831",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ad57c70d-e656-49ec-a563-d6a08ccf0f79",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_e2d586e7-aa15-4e56-8fa1-7a66f03f66da",
+            "text": "How can you describe the abnormal head?",
+            "display-mr": "आपण डोक्याच्या रचने मध्ये विकृतीचे वर्णन कसे करू शकता?",
+            "display-hi": "आप सिर की रचना में विकार का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_04246d0b-c95a-4987-9d1d-a0230e2b4166",
+                    "text": "Small head",
+                    "display-mr": "लहान डोके",
+                    "display-hi": "छोटा सिर"
+                },
+                {
+                    "id": "ID_b7533673-167b-4545-995c-fe2362694c11",
+                    "text": "Large head",
+                    "display-mr": "मोठे डोके",
+                    "display-hi": "बड़ा सिर"
+                },
+                {
+                    "id": "ID_e42db4cb-5999-4dd4-8daf-18b6ca8563ea",
+                    "text": "Irregular shape",
+                    "display-mr": "अनियमित आकार",
+                    "display-hi": "अनियमित आकार"
+                },
+                {
+                    "id": "ID_96ca4249-75d0-40bb-9483-5a39f56b29c5",
+                    "text": "Asymmetric shape",
+                    "display-mr": "असममित आकार",
+                    "display-hi": "सिर दोनों ओर से एक जैसा न होना"
+                },
+                {
+                    "id": "ID_df60a531-793a-4f78-babf-5a9ead099781",
+                    "text": "Flat back of head",
+                    "display-mr": "डोक्याच्या मागच्या बाजूला सपाट",
+                    "display-hi": "सिर का पिछला भाग सपाट होना"
+                },
+                {
+                    "id": "ID_37340e86-d091-4d80-b783-f3f496239b5f",
+                    "text": "Bulging of forehead",
+                    "display-mr": "कपाळाचा फुगवटा",
+                    "display-hi": "माथे का उभार"
+                },
+                {
+                    "id": "ID_2a0ac53a-806e-419f-806e-bb808db74168",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_6a6e0f48-092f-4d63-ad1e-a8b83cb71d31",
+            "text": "Was the child’s head shape normal at birth?",
+            "display-mr": "जन्माच्या वेळी मुलाच्या डोक्याचा आकार सामान्य होता का?",
+            "display-hi": "क्या जन्म के समय बच्चे के सिर का आकार सामान्य था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b61b5405-2158-4493-b237-efb1fd421b30",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_3e564b23-19e1-4a37-a55d-f17391be4190",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_30546069-a4b1-4a68-9900-87ad5b0684f9",
+            "text": "Does the child have any prior history?",
+            "display-mr": "मुलाचा काही पूर्वीचा इतिहास आहे का?",
+            "display-hi": "क्या बच्चे का कोई पूर्व इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_22ca84ce-4010-4f4f-9233-b57d4e800b96",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_84d1f05c-3b88-4ced-913c-dd4df736d232",
+                    "text": "Head surgery",
+                    "display-mr": "डोक्यावर शस्त्रक्रिया",
+                    "display-hi": "सिर की सर्जरी"
+                },
+                {
+                    "id": "ID_793cf7e8-5979-4690-99e3-e016b6bd88ed",
+                    "text": "Delayed milestones",
+                    "display-mr": "विलंबित टप्पे",
+                    "display-hi": "विकासात्मक उपलब्धि प्राप्त करने में देरी"
+                },
+                {
+                    "id": "ID_43f72a86-b53e-4549-8173-cc9471ef8811",
+                    "text": "Head injury",
+                    "display-mr": "डोक्याला झालेली दुखापत",
+                    "display-hi": "सिर पर चोट"
+                },
+                {
+                    "id": "ID_7c981acf-70f5-41d4-a72b-840b980090e5",
+                    "text": "Difficulty labor",
+                    "display-mr": "प्रसूती दरम्यान त्रास",
+                    "display-hi": "प्रसव में परेशानी"
+                },
+                {
+                    "id": "ID_8dd6bb44-7878-4da5-a7f3-a1ae4f9961e3",
+                    "text": "Delayed cry at birth",
+                    "display-mr": "जन्माच्या वेळी उशिराने  रडणे",
+                    "display-hi": "जन्म के समय रोने में देरी"
+                },
+                {
+                    "id": "ID_e8cdf009-c61e-43e9-b152-369f1a9442e5",
+                    "text": "Birth injury",
+                    "display-mr": "जन्मत:  झालेली दुखापत",
+                    "display-hi": "जन्म के समय चोट"
+                },
+                {
+                    "id": "ID_273dbe86-478d-48ec-95b3-258fa5995d1a",
+                    "text": "Assisted delivery",
+                    "display-mr": "सहाय्यक डिलिव्हरी",
+                    "display-hi": "सहायता प्राप्त प्रसव"
+                },
+                {
+                    "id": "ID_946c1b7c-d073-4f22-bb46-16835b292f7c",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d6d8d027-1079-46cc-bb56-72febeef936a",
+            "text": "Does the child have any difficulties with feeding?",
+            "display-mr": "मुलाला दूध पिण्यात काही अडचण आहे का?",
+            "display-hi": "क्या बच्चे को दूध पीने में कोई परेशानी होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4850590e-ead7-4d14-9fa0-38aa20ac214d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_af9c4372-2fef-4415-882c-9ca8ce41139d",
+                    "text": "Difficulty sucking",
+                    "display-mr": "चोखण्यात अडचण",
+                    "display-hi": "चूसने में परेशानी"
+                },
+                {
+                    "id": "ID_b883b0ff-cca2-4863-9639-f4c3342a2af5",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होतो",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_b652d5dc-ea60-4360-9451-29fced4468ee",
+                    "text": "Difficulty gaining weight",
+                    "display-mr": "वजन वाढण्यात अडचण",
+                    "display-hi": "वजन बढ़ने में परेशानी"
+                },
+                {
+                    "id": "ID_1ca12e68-f7c2-4955-9ee2-31d40540f72e",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fbf19f58-ec83-4306-968d-f3fc43ab9b95",
+            "text": "Does the child tend to sleep in the same position every night?",
+            "display-mr": "मुलाला दररोज रात्री एकाच स्थितीत झोपण्याची सवय आहे का?",
+            "display-hi": "क्या बच्चा हर रात एक ही स्थिति में सोता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a75769c2-5e86-46cf-b633-7d4b96ce9188",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_26c50f9e-feb8-4ac3-8756-afef40a20910",
+                    "text": "Always on one side",
+                    "display-mr": "नेहमी एका बाजूला",
+                    "display-hi": "हमेशा एक तरफ"
+                },
+                {
+                    "id": "ID_a9f99fbf-ad37-4929-af33-fbdfd70c9e91",
+                    "text": "Always on back",
+                    "display-mr": "नेहमी पाठीवर",
+                    "display-hi": "हमेशा पीठ के बल"
+                },
+                {
+                    "id": "ID_d651cfd3-60e5-440d-99b7-214dbcb8cb40",
+                    "text": "Always on stomach",
+                    "display-mr": "नेहमी पोटावर",
+                    "display-hi": "हमेशा पेट के बल"
+                },
+                {
+                    "id": "ID_7420ac4e-c908-46f6-81a0-78cd630dc561",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_993db7ce-67c8-4288-8fe2-29cdea7a2525",
+            "text": "Does the child have any delay in developmental milestones?",
+            "display-mr": "मुलाच्या विकासाच्या टप्प्यात काही विलंब झाला आहे का?",
+            "display-hi": "क्या बच्चे के विकास में कोई देरी हो रही है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f7a7c300-9a87-401f-81e8-da4768db4fbd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_07012f30-b5df-49e6-859d-f4f92efb7085",
+                    "text": "Neck holding",
+                    "display-mr": "मान धारण करणे",
+                    "display-hi": "गर्दन सीधी रखना"
+                },
+                {
+                    "id": "ID_ce69c779-a1cf-4b22-a6ab-bdc4d2561ce2",
+                    "text": "Sitting",
+                    "display-mr": "बसणे",
+                    "display-hi": "बैठना"
+                },
+                {
+                    "id": "ID_4f791fc6-43d1-40b3-bba5-b265bf9df40f",
+                    "text": "Crawling",
+                    "display-mr": "रांगणे",
+                    "display-hi": "रेंगना"
+                },
+                {
+                    "id": "ID_63688f7c-a46c-4dcf-9485-62383d17f879",
+                    "text": "Standing",
+                    "display-mr": "उभे राहणे",
+                    "display-hi": "खड़ा होना"
+                },
+                {
+                    "id": "ID_3eed3d89-4e8a-4299-b26d-7fc10f72d2af",
+                    "text": "Walking",
+                    "display-mr": "चालणे",
+                    "display-hi": "चलना"
+                },
+                {
+                    "id": "ID_aba3507b-3ceb-4acf-9faa-dccd7fe839b4",
+                    "text": "Speaking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बोलना"
+                },
+                {
+                    "id": "ID_5badcd49-3a41-4b80-b801-a3337fedfd3a",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_89944f2a-5ab7-4162-b09b-f04920006d24",
+            "text": "Associated symptoms",
+            "display-mr": "मुलामध्ये खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके बच्चे में निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_049b90a7-05d4-447a-8fb7-bd0972a31307",
+                    "text": "Crossed eyes",
+                    "display-mr": "तिरके डोळे",
+                    "display-hi": "आंखें टेढ़ी होना"
+                },
+                {
+                    "id": "ID_9c854ccc-973d-4fb9-8a8b-902701bd7f18",
+                    "text": "Abnormal head movements",
+                    "display-mr": "डोक्याच्या असामान्य हालचाली",
+                    "display-hi": "सिर की असामान्य हरकतें"
+                },
+                {
+                    "id": "ID_a60f3e48-05c1-4c59-af99-198df0955766",
+                    "text": "Loss of balance",
+                    "display-mr": "तोल जाणे",
+                    "display-hi": "संतुलन की कमी"
+                },
+                {
+                    "id": "ID_aeb71605-2b6a-4402-b86c-586123d9424f",
+                    "text": "Poor muscle tone",
+                    "display-mr": "कमकुवत स्नायू टोन",
+                    "display-hi": "मांसपेशियों की कमजोरी"
+                },
+                {
+                    "id": "ID_fd85cbe7-79ca-4405-be5f-a7244662da03",
+                    "text": "Fits",
+                    "display-mr": "फिट येणे",
+                    "display-hi": "दौरे"
+                },
+                {
+                    "id": "ID_47ba40fa-e922-4202-8b60-923ec2a51895",
+                    "text": "Stiff limbs",
+                    "display-mr": "हातपाय ताठ  होणे",
+                    "display-hi": "अंगों में अकड़न"
+                },
+                {
+                    "id": "ID_c44c0986-1fc1-47df-9eeb-9176e74dbec5",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातपाय कमजोर होणे",
+                    "display-hi": "अंगों में कमजोरी"
+                },
+                {
+                    "id": "ID_762c5463-506a-4b7b-9d83-3388f652d910",
+                    "text": "Family history of abnormal head",
+                    "display-mr": "असामान्य डोक्याचा कौटुंबिक इतिहास",
+                    "display-hi": "सिर के असामान्य होने का पारिवारिक इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_e30f311a-d9c0-4426-bd7c-842d05846556",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "मुलामध्ये खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके बच्चे में निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0ec5cb99-6164-4082-93c7-7caa484cabf7",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_328e8507-f183-4ebc-96fc-9b125b2b6b1f",
+                    "text": "Hearing difficulty",
+                    "display-mr": "ऐकण्यात अडचण",
+                    "display-hi": "सुनने में परेशानी"
+                },
+                {
+                    "id": "ID_7303d6be-b734-4fe9-b016-d18ab40eecd0",
+                    "text": "Cleft lip",
+                    "display-mr": "फाटलेले ओठ",
+                    "display-hi": "फटे होंठ"
+                },
+                {
+                    "id": "ID_bb1900f3-e5bf-4437-a9b3-fc166bc4cab3",
+                    "text": "Cleft palate",
+                    "display-mr": "फाटलेले टाळू",
+                    "display-hi": "फटा तालू"
+                },
+                {
+                    "id": "ID_d3112ad9-7272-45f1-ac5d-3b0b7bb7205a",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_599bd43f-6a3e-4f08-9bc4-1a5e5d44f3eb",
+                    "text": "Irritability",
+                    "display-mr": "चिडचिड",
+                    "display-hi": "चिड़चिड़ापन"
+                },
+                {
+                    "id": "ID_758ad945-8b92-45df-87c1-0778a38829ce",
+                    "text": "Noisy breathing",
+                    "display-mr": "आवाज करणारा श्वास",
+                    "display-hi": "सांस लेने में शोर"
+                },
+                {
+                    "id": "ID_82c49929-29ca-4c5a-ae9a-e3d310f79d2d",
+                    "text": "Diminished vision",
+                    "display-mr": "दृष्टी कमी होणे",
+                    "display-hi": "दृष्टि में कमी"
+                },
+                {
+                    "id": "ID_d9194e15-b152-40e3-9d7e-1889e91a9cd4",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_a56735a8-e9f6-4dcc-b43e-b1016377468e",
+                    "text": "Fainting",
+                    "display-mr": "मूर्च्छा येणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_74e640b9-1b60-41d6-b436-3689e7d34beb",
+                    "text": "Snoring",
+                    "display-mr": "घोरणे",
+                    "display-hi": "खर्राटे"
+                },
+                {
+                    "id": "ID_bd199989-5226-4e97-9356-3830b223b5ad",
+                    "text": "Abnormal movements",
+                    "display-mr": "असाधारण हालचाली",
+                    "display-hi": "असामान्य हरकतें"
+                },
+                {
+                    "id": "ID_7bff9f59-facf-4f10-ad0a-7566f75a76d5",
+                    "text": "Low set ears",
+                    "display-mr": "लो सेट इअर्स",
+                    "display-hi": "कान नीचे की ओर होना"
+                },
+                {
+                    "id": "ID_5fdd3796-a2c0-455c-9909-da8a8bba8baf",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_2af9cb61-7624-46b9-bbd7-da952d600591",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4724e6d4-de8a-4c54-a3b0-d25f41bae092",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d480a9ff-08d2-49ca-9072-844a07d7dbfc",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_acf98c33-c87b-4fb3-962e-2aa6484bce50",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_97588f18-833f-4a69-9a70-14c17547549f",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_90185ae2-2d98-49f5-b465-4c58dd9a5daa",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

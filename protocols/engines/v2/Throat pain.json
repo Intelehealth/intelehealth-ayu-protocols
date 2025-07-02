@@ -1,0 +1,618 @@
+{
+    "id": "ID_05ef97ed-c233-47ec-9b83-373c9e5297bd",
+    "text": "Throat pain",
+    "engineVersion": "3.0",
+    "display-mr": "घसा दुखणे",
+    "display-hi": "गले का दर्द",
+    "options": [
+        {
+            "id": "ID_3df79e15-af92-449b-89eb-cc558199a820",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1850e7e6-6faa-4832-b92e-853d8a480731",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_73b7a57e-e7d7-4123-b2d1-2efe7a591471",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_44285a01-81bc-4b83-8959-62037a389e7a",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_f31a2de1-aa3b-47a0-838a-7ccaba313890",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_59269924-bfe5-44f8-8fa9-aac0ec08c2a2",
+            "text": "Location of throat pain?",
+            "display-mr": "घशातील वेदनांचे स्थान?",
+            "display-hi": "गले में दर्द का स्थान?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                
+                {
+                    "id": "ID_4e0c74b5-086d-4c0a-a315-2299ef238864",
+                    "text": "Back of throat",
+                    "display-mr": "घसा मागे",
+                    "display-hi": "गले के पीछे"
+                },
+                {
+                    "id": "ID_5d585fb9-bce4-40d7-b08e-624c0001cd13",
+                    "text": "Front of throat",
+                    "display-mr": "घश्याचा पुढील भाग",
+                    "display-hi": "गले के सामने"
+                },
+                {
+                    "id": "ID_b98fc7de-968e-4034-a034-a1fa47187e67",
+                    "text": "Sides of throat",
+                    "display-mr": "घश्याच्या बाजू",
+                    "display-hi": "गले के किनारे"
+                },
+                {
+                    "id": "ID_a9255ee7-c47b-40b6-ba58-8d983a8870e7",
+                    "text": "Entire throat",
+                    "display-mr": "संपूर्ण घसा",
+                    "display-hi": "पूरा गला"
+                }
+            ]
+        },
+        {
+            "id": "ID_8a2da3e1-3acb-4786-904e-33f6afa8dc6d",
+            "text": "How can you describe the character of throat pain?",
+            "display-mr": "घशातील वेदनांचे वर्णन कसे कराल?",
+            "display-hi": "आप गले के दर्द के प्रकार के बारे में कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7ce57cfe-2765-4e62-b955-11004b75ef9e",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_abe75eec-fd3e-4bf7-8dea-a7f53bbdbe20",
+                    "text": "Sharp pain",
+                    "display-mr": "तीव्र वेदना",
+                    "display-hi": "चुभने जैसा दर्द"
+                },
+                {
+                    "id": "ID_f1009709-0afb-49a9-8d19-23bb5c3a4fa0",
+                    "text": "Dull pain",
+                    "display-mr": "मंद वेदना",
+                    "display-hi": "हल्का दर्द"
+                },
+                {
+                    "id": "ID_0d698fa9-a164-4bd0-b20a-498df4c267c6",
+                    "text": "Scratching pain",
+                    "display-mr": "खारवडल्याप्रमाणे वेदना",
+                    "display-hi": "खरोंचने जैसा दर्द"
+                }
+            ]
+        },
+        {
+            "id": "ID_344e075f-20d6-4abd-869d-ab4d64e1390d",
+            "text": "How severe is the throat pain?",
+            "display-mr": "घशातील वेदना किती तीव्र आहे?",
+            "display-hi": "गले का दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_94103d56-a461-41f8-930c-cf0133e4da8a",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_e40da05f-d7d3-4275-9403-0d40793402d6",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_82d66db4-62a3-4021-886e-4f00bec74fb5",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "चुभने जैसा दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_bf1843dd-bcc4-4dc9-94f8-0ddad5014658",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "(अति) तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत चुभने जैसा दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_6f6df9aa-aa84-47e5-8141-e6c49dd6ccfc",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_31460510-082b-46f1-bab6-c0fe7a228859",
+            "text": "What does relieve or lessen the throat pain?",
+            "display-mr": "घशातील वेदना कशाने कमी होते किंवा कमी करते?",
+            "display-hi": "किस चीज से गले के दर्द में राहत मिलती है या यह कम होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_74a012d0-327f-48ae-95dc-9caf432d3a3f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a72dcf4f-d231-4e8e-9e0c-65f834c7b86f",
+                    "text": "Cold drinks",
+                    "display-mr": "थंड पेय",
+                    "display-hi": "ठंडे पेय"
+                },
+                {
+                    "id": "ID_f3c8b5ee-742a-4086-bc7e-aadc4d0e6676",
+                    "text": "Hot drinks",
+                    "display-mr": "गरम पेय",
+                    "display-hi": "गर्म पेय"
+                },
+                {
+                    "id": "ID_3e30e167-a3e8-434c-a9e4-366c4ccc0645",
+                    "text": "Medication",
+                    "display-mr": "औषध",
+                    "display-hi": "दवा"
+                },
+                {
+                    "id": "ID_3c08e483-ed95-4e00-b03f-1da5a8bffbe1",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_5205e0d7-94b1-4f0e-8359-f86ac45e6ea7",
+            "text": "What does increase or worsen the throat pain?",
+            "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
+            "display-hi": "गले का दर्द किस कारण बढ़ता या बिगड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6b4611dc-67b8-4bce-a356-ec0e9ae49397",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_39d54482-ffd3-4844-afda-9f1c28facf12",
+                    "text": "Swallowing",
+                    "display-mr": "गिळणे",
+                    "display-hi": "निगलने में"
+                },
+                {
+                    "id": "ID_60ac2002-e592-4d7d-9d27-757f602114aa",
+                    "text": "Chewing",
+                    "display-mr": "चघळणे",
+                    "display-hi": "चबाने में"
+                },
+                {
+                    "id": "ID_1b00c5fd-be44-4678-9fe8-47b42ac20c5a",
+                    "text": "Coughing",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसने में"
+                },
+                {
+                    "id": "ID_6590a1d5-188e-46a5-8ec4-85c31d33c2bd",
+                    "text": "Sneezing",
+                    "display-mr": "शिंकणे",
+                    "display-hi": "छींकने में"
+                },
+                {
+                    "id": "ID_f0d8d07d-0122-4533-92b7-6d7b2cecda13",
+                    "text": "Talking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बोलने में"
+                },
+                {
+                    "id": "ID_a4893cef-5069-458a-974a-017bb2c43cb0",
+                    "text": "Yawning",
+                    "display-mr": "जांभई येणे",
+                    "display-hi": "जंभाई लेने में"
+                },
+                {
+                    "id": "ID_a1dde3e7-8f40-45e2-8f28-bbd52936ff3e",
+                    "text": "Laughing",
+                    "display-mr": "हसणे",
+                    "display-hi": "हँसने में"
+                },
+                {
+                    "id": "ID_39879343-ae19-4d0b-84e4-b4c5443dd0d1",
+                    "text": "Sour drinks",
+                    "display-mr": "आंबट पेय",
+                    "display-hi": "खट्टे पेय"
+                },
+                {
+                    "id": "ID_c055cc38-de19-47bb-a2f7-f0fc217f5b66",
+                    "text": "Solid foods",
+                    "display-mr": "घन पदार्थ",
+                    "display-hi": "ठोस भोजन"
+                }
+            ]
+        },
+        {
+            "id": "ID_89a13174-619c-40f9-a5c4-0ecb4349bc7c",
+            "text": "How throat pain progressed over the duration of time",
+            "display-mr": "घशाच्या वेदनेमध्ये कालांतरामध्ये काही बदल झाला का?",
+            "display-hi": "गले का दर्द समय के साथ कैसे बढ़ता गया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_c4e0a066-6317-43d0-8187-3d3cb98fcbb6",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_26d9d269-4d15-4ae3-be7d-73d913448718",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रहा है"
+                },
+                {
+                    "id": "ID_2ce90b72-8932-4478-821d-2996e0392706",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_778ac52f-fa05-42c3-982d-4a9ce3ec15e1",
+            "text": "Does the throat pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रात घशातील दुखण्याचे पैटर्न  आहेत का?",
+            "display-hi": "क्या गले का दर्द 24 घंटे के चक्र में किसी खास समय पर बढ़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_67451922-a843-4a5e-9602-175f09ff8d17",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_b859733e-cbd1-4cc9-80fb-a8256185e2a2",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुक कर दर्द (आता-जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_05ac7bc0-6353-4561-96aa-38dcfcabd870",
+            "text": "Does the throat pain move to other parts of the body?",
+            "display-mr": "घशातील वेदना शरीराच्या इतर भागात जातात का?",
+            "display-hi": "क्या गले का दर्द शरीर के अन्य हिस्सों तक भी फैल जाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_07edff59-b8a1-470f-a1c5-ea20a81892fd",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_12e6ad99-5ac1-491d-b8b7-67ee27fd86ed",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_1405e829-3781-4d72-b4f6-e38f7af7973a",
+                            "text": "The pain moves to",
+                            "display-mr": "वेदना पुढे सरकते",
+                            "display-hi": "दर्द किस तरफ बढ़ता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_51f1800f-9572-446c-9d5f-2e1ef358dece",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_dac3c0fd-4570-4c2b-873d-c14033a2beb1",
+                                    "text": "Jaw",
+                                    "display-mr": "जबडा",
+                                    "display-hi": "जबड़ा"
+                                },
+                                {
+                                    "id": "ID_fe78f590-f1f1-4a28-8924-737d8337a5a3",
+                                    "text": "Ear",
+                                    "display-mr": "कान",
+                                    "display-hi": "कान"
+                                },
+                                {
+                                    "id": "ID_d08888f0-ee46-41bb-91de-86d28e5f2936",
+                                    "text": "Umbilical area",
+                                    "display-mr": "नाळे जवळचा भाग",
+                                    "display-hi": "नाभि क्षेत्र"
+                                },
+                                {
+                                    "id": "ID_73aa852d-6a27-4b36-980d-199b4e8bd5c0",
+                                    "text": "Shoulder",
+                                    "display-mr": "खांदा",
+                                    "display-hi": "कंधा"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_43af3d14-58c6-48cf-9f42-9d56f415335e",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपमें निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6d2cb659-1cdb-49d8-b462-ccfd96d1a358",
+                    "text": "Runny nose",
+                    "display-mr": "वाहणारे नाक",
+                    "display-hi": "बहती नाक"
+                },
+                {
+                    "id": "ID_c666a8ac-5c5d-4754-a737-2bf08b4738e3",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_148e43a6-eb65-4f5a-8147-db199f53b660",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होतो",
+                    "display-hi": "निगलने में कठिनाई"
+                },
+                {
+                    "id": "ID_53bb7028-6378-43be-bbde-0a5d46c929ca",
+                    "text": "Difficulty in breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में दिक्कत होना"
+                },
+                {
+                    "id": "ID_314ba03d-76be-4513-aa9d-052a6a1e55d6",
+                    "text": "Painful swallowing",
+                    "display-mr": "वेदनादायक गिळणे",
+                    "display-hi": "निगलने में दर्द होना"
+                },
+                {
+                    "id": "ID_e171690a-1055-4870-9693-c9ea7f8067ab",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार का बहना"
+                },
+                {
+                    "id": "ID_8970ee88-453f-4726-8a70-f7ba4ff51fa6",
+                    "text": "Loss of smell",
+                    "display-mr": "गंध(ज्ञान) कमी होणे",
+                    "display-hi": "गंध महसूस न होना"
+                },
+                {
+                    "id": "ID_312eaeb1-312d-4f96-b242-cd79efd4379d",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाजाचा कर्कशपणा",
+                    "display-hi": "आवाज का भारी होना"
+                },
+                {
+                    "id": "ID_029fedf2-2c24-40fb-bca8-b04ae2d24c70",
+                    "text": "Stridor",
+                    "display-mr": "श्वास घेताना आवाज येणे",
+                    "display-hi": "श्वास में घरघराहट"
+                },
+                {
+                    "id": "ID_3e3965eb-fad2-4755-a69c-81d99812ef77",
+                    "text": "Swollen nodes in neck",
+                    "display-mr": "गळ्यात (लिम्फ)नोडस् सुजलेल्या",
+                    "display-hi": "गर्दन में सूजी हुई गांठे"
+                },
+                {
+                    "id": "ID_ac985795-5ee0-4af1-9905-c3a241d88b35",
+                    "text": "Recent exposure to smoke or air pollutants",
+                    "display-mr": "धूम्रपान किंवा वायू प्रदूषकांचा अलीकडील संपर्क",
+                    "display-hi": "हाल ही में धुएं या वायु प्रदूषकों के संपर्क में आना"
+                },
+                {
+                    "id": "ID_0addf69f-85ff-4657-abe2-3699cfd97756",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासात दुर्गंधी",
+                    "display-hi": "मुंह से दुर्गंध"
+                },
+                {
+                    "id": "ID_21b5c2af-750f-4c13-8adf-18ede7ceb978",
+                    "text": "Neck pain",
+                    "display-mr": "मान दुखणे",
+                    "display-hi": "गर्दन में दर्द"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_9dfe29cd-bc79-4569-9e6b-0c7e748893ae",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f401d489-330f-47e8-a7e9-d717fdcb8c52",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0c56d1ed-9508-403c-95e7-a6ea62ba5e02",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_dc5fb8c3-ff3c-41d7-8671-05564abf1860",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "ठंड और कपकपी"
+                },
+                {
+                    "id": "ID_e4bec60f-807c-4b40-857b-2d92fd1bcd8d",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_e85247b1-ae61-41ef-ad38-ff3e6cdecb47",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_7461881f-c66d-4819-9d48-11058ad61d22",
+                    "text": "Body pains",
+                    "display-mr": "शरीराच्या वेदना",
+                    "display-hi": "शरीर में दर्द"
+                },
+                {
+                    "id": "ID_5da2db41-595e-4827-a57d-c0945c88439b",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_f89080e6-a49a-41a8-a14d-03233f8c92ae",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_170121c0-1345-400e-a759-1296f70685cd",
+                    "text": "Dark urine",
+                    "display-mr": "गडद लघवी",
+                    "display-hi": "काले रंग का पेशाब"
+                },
+                {
+                    "id": "ID_d42f537f-dc2e-47c5-8cdd-474e9448aaf6",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_c65bc5f1-e756-45c9-84a7-53aa24d55525",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_33913107-e454-4dc9-8e2a-a1e04d30c807",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ",
+                    "display-hi": "सीने में जलन"
+                },
+                {
+                    "id": "ID_2e4bd282-29a1-4d78-8d35-82d73ed8b11c",
+                    "text": "Belching (burping)",
+                    "display-mr": "ढेकर (ढेकर देणे)",
+                    "display-hi": "डकारें आना"
+                },
+                {
+                    "id": "ID_7bc3a8cb-af14-4272-b3e0-12ff3aefa652",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ef3f5ce2-9210-4701-9973-00066e2631a2",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3761836f-2130-4438-b0ef-106ac9cc7edf",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_5f731c97-7aa8-46b9-bf8e-12de3fca3869",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_f5a79310-d613-4733-a8c5-328d3a3a1a1f",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d00e7bf7-c436-40dd-9374-89c4cb1fcd6a",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_63b43ae5-704e-4a57-96ca-05a41ea4227e",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

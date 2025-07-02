@@ -1,0 +1,699 @@
+{
+    "id": "ID_1873293512",
+    "text": "Skin disorder",
+    "perform-physical-exam": "Any Location:Skin Rash;",
+    "display-or": "ଚର୍ମ ସମସ୍ୟା",
+    "engineVersion": "3.0",
+    "options": [
+        {
+            "id": "ID_543358284",
+            "text": "Type of the skin lesion*",
+            "isRequired": true,
+            "multi-choice": true,
+            "display-or": "ପ୍ରକାର*",
+            "options": [
+                {
+                    "id": "ID_1427135351",
+                    "text": "Eczematous skin",
+                    "display": "Itchy/scaly/dry skin",
+                    "display-or": "କୁଣ୍ଡେଇ ହେବା/ଚୋପା ଛାଡିବା/ଶୁଖିଲା ଚର୍ମ",
+                    "display-hi": "खुजली वाली/पपड़ीदार/सूखी त्वचा ",
+                    "display-gu": "ખંજવાળ/પોપડીવાળી /સૂકી ત્વચા",
+                    "display-as": "খজুতি / খহতা / শুকান ত্বক",
+                    "display-bn": "চুলকানি/আঁশযুক্ত/শুষ্ক ত্বক",
+                    "display-kn": "ತುರಿಕೆ / ಪೊರೆ / ಒಣ ಚರ್ಮ",
+                    "display-mr": "खाज सुटणे / खवले / कोरडी त्वचा"
+                },
+                {
+                    "id": "ID_1931872946",
+                    "text": "Skin rash",
+                    "display-or": "ଚର୍ମ ଚିହ୍ନ",
+                    "display-hi": "चकत्ते",
+                    "display-gu": "ત્વચા પર ફોલ્લી",
+                    "display-as": "চাৰ্মত ৰঙা ওখৰা",
+                    "display-bn": "চামড়া ফুসকুড়ি",
+                    "display-kn": "ಚರ್ಮದ ದದ್ದು",
+                    "display-mr": "त्वचेवरील पुरळ"
+                },
+                {
+                    "id": "ID_1468978251",
+                    "text": "Vesiculobullous skin",
+                    "display": "Bullae/blister",
+                    "display-or": "ଫୋଟକା",
+                    "display-hi": "फफोला/छाला",
+                    "display-gu": "ફોલ્લા/ચાંદાં",
+                    "display-as": "ফোঁহা বা জলজলীয়া",
+                    "display-bn": "বুলা/ফোস্কা",
+                    "display-kn": "ಬುಗ್ಗೆ/ಗುಳ್ಳೆ",
+                    "display-mr": "फोड"
+                },
+                {
+                    "id": "ID_739003073",
+                    "text": "Subcutaneous nodules",
+                    "display": "Bumps",
+                    "display-or": "ଫୁଲ",
+                    "display-hi": "ददोड़ा/गुमड़ा",
+                    "display-gu": "ઢીમણું",
+                    "display-as": "ফোহা",
+                    "display-bn": "বাম্পস",
+                    "display-kn": "ಉಬ್ಬುಗಳು",
+                    "display-mr": "पुटकुळी"
+                },
+                {
+                    "id": "ID_1192122591",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বর্ণনা)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "त्वचा की क्षति/विकार के प्रकार*",
+            "display-gu": "ત્વચાને નુકસાનનો પ્રકાર*",
+            "display-as": "ছালৰ ক্ষতি প্রকাৰ*",
+            "display-bn": "ত্বকের ক্ষতের ধরন*",
+            "display-kn": "ಚರ್ಮದ ಗಾಯದ ವಿಧ*",
+            "display-mr": "त्वचेच्या जखमांचा प्रकार"
+        },
+        {
+            "id": "ID_1209174097",
+            "text": "Site",
+            "display": "Which part of your body has the problem?*",
+            "isRequired": true,
+            "multi-choice": true,
+            "display-or": "କେଉଁ ଅଂଶ*",
+            "options": [
+                {
+                    "id": "ID_871100778",
+                    "text": "Face",
+                    "display-or": "ମୁଁହ",
+                    "display-hi": "चेहरे",
+                    "display-gu": "ચહેરો",
+                    "display-as": "মুখ",
+                    "display-bn": "মুখ",
+                    "display-kn": "ಮುಖ",
+                    "display-mr": "चेहरा"
+                },
+                {
+                    "id": "ID_725351901",
+                    "text": "Scalp",
+                    "display-or": "ମୁଣ୍ଡ",
+                    "display-hi": "सिर/खोपड़ी ",
+                    "display-gu": "ખોપરી",
+                    "display-as": "মূৰৰ ছালত",
+                    "display-bn": "মাথার খুলি",
+                    "display-kn": "ನೆತ್ತಿ",
+                    "display-mr": "डोके"
+                },
+                {
+                    "id": "ID_1245359448",
+                    "text": "Hands",
+                    "display-or": "ହାତ",
+                    "display-hi": "हाथ",
+                    "display-gu": "હાથ",
+                    "display-as": "হাত",
+                    "display-bn": "হাত",
+                    "display-kn": "ಕೈಗಳು",
+                    "display-mr": "हात"
+                },
+                {
+                    "id": "ID_26618894",
+                    "text": "Feet",
+                    "display-or": "ପାଦ",
+                    "display-hi": "पैर",
+                    "display-gu": "પગના પંજા",
+                    "display-as": "দুটা ভৰিত",
+                    "display-bn": "পা দুটো",
+                    "display-kn": "ಪಾದಗಳು",
+                    "display-mr": "पाय"
+                },
+                {
+                    "id": "ID_1001087244",
+                    "text": "Palms/soles",
+                    "display-or": "ପାପୁଲି/ପାଦତଳ",
+                    "display-hi": "हथेली/तलवा",
+                    "display-gu": "હથેળી/પગનાં તળિયાં",
+                    "display-as": "হাতৰ তলুৱাত / ভৰিৰ তলুৱাত",
+                    "display-bn": "হাতের তালু/তলে",
+                    "display-kn": "ಅಂಗೈ / ಅಡಿಭಾಗಗಳು",
+                    "display-mr": "तळहात/ तळवा"
+                },
+                {
+                    "id": "ID_1414819752",
+                    "text": "Legs",
+                    "display-or": "ଗୋଡ",
+                    "display-hi": "टांगें",
+                    "display-gu": "પગ",
+                    "display-as": "ভৰিত",
+                    "display-bn": "পাগুলো",
+                    "display-kn": "ಕಾಲುಗಳು",
+                    "display-mr": "पाय"
+                },
+                {
+                    "id": "ID_811291049",
+                    "text": "Skin creases(Elbow folds/behind the knees)",
+                    "display-or": "ଚର୍ମ ମୁଟା(କହୁଣୀ/ଆଂଠୁ)",
+                    "display-hi": "त्वचा की सिकुड़न/झुर्री पड़ना (कोहनी मोड़ने पर/घुटनों के पीछे)",
+                    "display-gu": "ત્વચામાં કરચલી (કોણી વાળતાં/ઘૂંટણની પાછળ)",
+                    "display-as": "ছালত কম হৈ যায় (কিলাকুটিৰ ভাঁজ / আঠুৰ পিছত)",
+                    "display-bn": "ত্বকের দাগ (কনুই ভাঁজ/হাঁটুর পিছনে)",
+                    "display-kn": "ಚರ್ಮದ ಸುಕ್ಕುಗಳು (ಮೊಣಕೈ ಮಡಿಕೆಗಳಲ್ಲಿ/ಮೊಣಕಾಲುಗಳ ಹಿಂದೆ)",
+                    "display-mr": "त्वचेचे चट्टे (कोपराची घडी/आतली बाजू /गुडघ्यांच्या मागे)"
+                },
+                {
+                    "id": "ID_1413141131",
+                    "text": "Trunk",
+                    "display-or": "ଦେହ",
+                    "display-hi": "धड़ ",
+                    "display-gu": "ધડ",
+                    "display-as": "কাণ্ড (মুল শৰীৰ)",
+                    "display-bn": "কাণ্ড",
+                    "display-kn": "ಟ್ರಂಕ್",
+                    "display-mr": "धड / शरीरावर"
+                },
+                {
+                    "id": "ID_764259373",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বর্ণনা)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "शरीर के किस भाग में समस्या/विकार है?*",
+            "display-gu": "શરીરના કયા ભાગમાં તકલીફ છે?*",
+            "display-as": "আপুনাৰ শৰীৰৰ কোন অংশ সমস্যা আছে?*",
+            "display-bn": "আপনার শরীরের কোন অংশে সমস্যা আছে?*",
+            "display-kn": "ನಿಮ್ಮ ದೇಹದ ಯಾವ ಭಾಗದಲ್ಲಿ ಸಮಸ್ಯೆ ಇದೆ?*",
+            "display-mr": "शरीराच्या कोणत्या भागात समस्या आहे"
+        },
+        {
+            "id": "ID_450837244",
+            "text": "No. of lesions*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ସଂଖ୍ୟା*",
+            "options": [
+                {
+                    "id": "ID_548084807",
+                    "text": "Single",
+                    "language": "Single lesions",
+                    "display-or": "ଗୋଟିଏ",
+                    "display-hi": "एक",
+                    "display-gu": "એક",
+                    "display-as": "একক",
+                    "display-bn": "একক",
+                    "display-kn": "ಒಂದು",
+                    "display-mr": "एक"
+                },
+                {
+                    "id": "ID_585074090",
+                    "text": "Multiple",
+                    "language": "Multiple lesions",
+                    "display-or": "ଅନେକ",
+                    "display-hi": "बहुत सारे",
+                    "display-gu": "એક કરતાં વધારે",
+                    "display-as": "একাধিক",
+                    "display-bn": "একাধিক",
+                    "display-kn": "ಬಹು",
+                    "display-mr": "खूप सारे"
+                }
+            ],
+            "display-hi": "कितने विकार/समस्या",
+            "display-gu": "પ્રકારનોની સંખ્યા",
+            "display-as": "ক্ষতি সংখ্যা",
+            "display-bn": "ক্ষত সংখ্যা*",
+            "display-kn": "ಗಾಯಗಳ ಸಂಖ್ಯೆ*",
+            "display-mr": "किती जखमा"
+        },
+        {
+            "id": "ID_1540807963",
+            "text": "Duration",
+            "display": "Since when have you had this symptom?*",
+            "isRequired": true,
+            "display-or": "କେବେଠାରୁ*",
+            "options": [
+                {
+                    "id": "ID_1023405961",
+                    "text": "[Enter since when]",
+                    "input-type": "duration",
+                    "language": "since",
+                    "display-or": "ତାରିଖ",
+                    "display-hi": "(कब से है- दर्ज करें)",
+                    "display-gu": "[ક્યારથી તે લખી જણાવો]",
+                    "display-as": "যেতিয়া পৰা আৰম্ভ লিখা",
+                    "display-bn": "[কখন থেকে লিখুন]",
+                    "display-kn": "[ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]",
+                    "display-mr": "(कधी पासून आहे ते भरा)"
+                }
+            ],
+            "display-hi": "आपको यह लक्षण कब से है?*",
+            "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+            "display-as": "কেতিয় পৰা আপুনি এই লক্ষণটো পাইছে?*",
+            "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+            "display-kn": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*",
+            "display-mr": "तुम्हाला हे लक्षण केव्हा पासून आहे"
+        },
+        {
+            "id": "ID_104489958",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?*",
+            "isRequired": true,
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?*",
+            "options": [
+                {
+                    "id": "ID_1361426891",
+                    "text": "Skin discharge",
+                    "display-or": "ଚର୍ମରୁ ଝରିବା",
+                    "display-hi": "त्वचा से बहना/निकलना",
+                    "display-gu": "ત્વચામાંથી સ્રાવ (ડિસ્ચાર્જ)",
+                    "display-as": "ছালত স্রাব",
+                    "display-bn": "ত্বকের স্রাব",
+                    "display-kn": "ಚರ್ಮದಲ್ಲಿ ಸ್ರಾವ",
+                    "display-mr": "त्वचेमधून स्त्राव"
+                },
+                {
+                    "id": "ID_777488009",
+                    "text": "Painful skin lesion",
+                    "display-or": "ଯନ୍ତ୍ରଣା ଦାୟକ",
+                    "display-hi": "दर्द वाला त्वचा विकार",
+                    "display-gu": "દુખાવાયુક્ત ત્વચા પ્રકાર",
+                    "display-as": "বেদনাদায়ক ছালৰ ক্ষতি",
+                    "display-bn": "বেদনাদায়ক ত্বকের ক্ষত",
+                    "display-kn": "ನೋವಿನ ಚರ್ಮದ ಗಾಯ",
+                    "display-mr": "वेदनादायक त्वचेवरील जखमा"
+                },
+                {
+                    "id": "ID_478157864",
+                    "text": "Skin bruises",
+                    "perform-physical-exam": "Any Location:Skin Bruise;",
+                    "display-or": "ଚର୍ମରେ ଗୋଲାକାର ଘା ପରି ଦେଖାଯିବ",
+                    "display-hi": "त्वचा पर चोट/खरोंच",
+                    "display-gu": "ત્વચામાં ધઝરડા",
+                    "display-as": "চাৰ্মৰ ক্ষতি(আঘাত)",
+                    "display-bn": "ত্বকের ক্ষত",
+                    "display-kn": "ಚರ್ಮದ ಮೂಗೇಟುಗಳು",
+                    "display-mr": "त्वचेवर जखमा"
+                },
+                {
+                    "id": "ID_1399868089",
+                    "text": "Nose bleed",
+                    "display-or": "ନାକ ରେ ଘା ହେବା",
+                    "display-hi": "नाक से खून बहना",
+                    "display-gu": "નાકમાંથી લોહી પડવું",
+                    "display-as": "নাকে দিয় ৰক্ত ​​উলাইছে",
+                    "display-bn": "নাক দিয়ে রক্ত ​​পড়া",
+                    "display-kn": "ಮೂಗಿನಲ್ಲಿ ರಕ್ತಸ್ರಾವ",
+                    "display-mr": "नाकामधून रक्त येणे"
+                },
+                {
+                    "id": "ID_1421275178",
+                    "text": "Gum bleeding",
+                    "perform-physical-exam": "Mouth:Gum bleeding;",
+                    "display-or": "ମାଢ଼ିରୁ ରକ୍ତ ଝରିବା",
+                    "display-hi": "मसूड़े से खून आना",
+                    "display-gu": "પેઢાંમાંથી લોહી નીકળવું",
+                    "display-as": "দাঁত আলু পৰা তেজ উলোৱা",
+                    "display-bn": "মাড়ির রক্তপাত",
+                    "display-kn": "ಗಮ್ ರಕ್ತಸ್ರಾವ",
+                    "display-mr": "हिरड्या मधून रक्तस्त्राव होणे"
+                },
+                {
+                    "id": "ID_1055037560",
+                    "text": "Abdominal pain",
+                    "display-or": "ପେଟ ଯନ୍ତ୍ରଣା",
+                    "display-hi": "पेट में दर्द",
+                    "display-gu": "પેટમાં દુખાવો",
+                    "display-as": "পেটৰ বিষ",
+                    "display-bn": "পেটে ব্যথা",
+                    "display-kn": "ಹೊಟ್ಟೆ ನೋವು",
+                    "display-mr": "पोटामध्ये वेदना"
+                },
+                {
+                    "id": "ID_786296024",
+                    "text": "Fever",
+                    "display-or": "ଜ୍ୱର",
+                    "display-hi": "बुखार",
+                    "display-gu": "તાવ",
+                    "display-as": "জ্বৰ",
+                    "display-bn": "জ্বর",
+                    "display-kn": "ಜ್ವರ",
+                    "display-mr": "ताप"
+                },
+                {
+                    "id": "ID_1429481546",
+                    "text": "Itchy skin",
+                    "display-or": "ଚର୍ମ କୁଣ୍ଡେଇ ହେବା",
+                    "display-hi": "खुजली वाली त्वचा",
+                    "display-gu": "ખંજવાળવાળી ત્વચા",
+                    "display-as": "খজুতি চাৰ্ম",
+                    "display-bn": "চামড়া",
+                    "display-kn": "ತುರಿಕೆ ಚರ್ಮ",
+                    "display-mr": "खाज येणारी त्वचा"
+                },
+                {
+                    "id": "ID_1666828935",
+                    "text": "Runny nose",
+                    "display-or": "ନାକରୁ ପାଣି",
+                    "display-hi": "बहती नाक",
+                    "display-gu": "ગળતું નાક",
+                    "display-as": "সর্দি",
+                    "display-bn": "সর্দি",
+                    "display-kn": "ಸ್ರವಿಸುವ ಮೂಗು",
+                    "display-mr": "नाक वाहणे"
+                },
+                {
+                    "id": "ID_1265671189",
+                    "text": "Joint pain",
+                    "perform-physical-exam": "Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;",
+                    "display-or": "ଗଣ୍ଠି ଯନ୍ତ୍ରଣା",
+                    "display-hi": "जोड़ में दर्द",
+                    "display-gu": "સાંધાનો દુખાવો",
+                    "display-as": "সংযোগ বিষ",
+                    "display-bn": "সংযোগে ব্যথা",
+                    "display-kn": "ಕೀಲು ನೋವು",
+                    "display-mr": "सांध्यामध्ये वेदना"
+                },
+                {
+                    "id": "ID_1290432013",
+                    "text": "Dandruff",
+                    "display-or": "ମୁଣ୍ଡରେ ରୁପି",
+                    "display-hi": "रूसी/ डैंड्रफ",
+                    "display-gu": "ખોડો",
+                    "display-as": "উফি",
+                    "display-bn": "খুশকি",
+                    "display-kn": "ತಲೆಹೊಟ್ಟು",
+                    "display-mr": "कोंडा"
+                },
+                {
+                    "id": "ID_947976734",
+                    "text": "Sensitive to the sun",
+                    "display-or": "ସୂର୍ଯ୍ୟ ଲୋକକୁ ଆଲେର୍ଜି",
+                    "display-hi": "धूप के प्रति संवेदनशील",
+                    "display-gu": "સૂર્યકિરણો ન સહેવાય",
+                    "display-as": "সূৰ্য্য নিচিনা সংবেদনশীল",
+                    "display-bn": "সূর্যের প্রতি সংবেদনশীল",
+                    "display-kn": "ಸೂರ್ಯನ ಬೆಳಕಿಗೆ ಸೂಕ್ಷ್ಮ",
+                    "display-mr": "सूर्यप्रकाशाला संवेदशील"
+                },
+                {
+                    "id": "ID_1594835214",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বর্ণনা]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "क्या आपको निम्न लक्षण है/हैं?*",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+            "display-as": "আপোনাৰ নিম্নলিখিত লক্ষণবোৰ আছে?*",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला खाली दिलेली लक्षण आहेत का"
+        },
+        {
+            "id": "ID_698835646",
+            "text": "Progression",
+            "display-or": "ଲକ୍ଷଣ କେମିତି ବଢ଼ୁଛି",
+            "options": [
+                {
+                    "id": "ID_839431679",
+                    "text": "Consistent",
+                    "display-or": "ସବୁବେଳେ",
+                    "display-hi": "लगातार",
+                    "display-gu": "એકધારું",
+                    "display-as": "ধাৰাবাহিক",
+                    "display-bn": "সামঞ্জস্যপূর্ণ",
+                    "display-kn": "ಸ್ಥಿರ",
+                    "display-mr": "सतत"
+                },
+                {
+                    "id": "ID_1415846436",
+                    "text": "Transient",
+                    "display-or": "ବେଳେବେଳ",
+                    "display-hi": "रुक-रुक कर",
+                    "display-gu": "થાય અને મટે",
+                    "display-as": "ক্ষণস্থায়ী",
+                    "display-bn": "ক্ষণস্থায়ী",
+                    "display-kn": "ಕ್ಷಣಿಕ",
+                    "display-mr": "थांबून थांबून"
+                },
+                {
+                    "id": "ID_1009088860",
+                    "text": "Recurrent/Relapsing",
+                    "display-or": "ଆସେ ଯାଏ",
+                    "display-hi": "आता-जाता है",
+                    "display-gu": "ફરી ફરી થાય/ઊથલો મારે",
+                    "display-as": "পুনৰাবৃত্তি / পুনৰায় আবৰণ",
+                    "display-bn": "পুনরাবৃত্ত/রিল্যাপিং",
+                    "display-kn": "ಮರುಕಳಿಸುವ/ಮರಳಿ ಬರುವ",
+                    "display-mr": "येतो/ जातो"
+                }
+            ],
+            "display-hi": "कैसे बढ़ा",
+            "display-gu": "ધીમેધીમે વધવું",
+            "display-as": "অগ্রগতি",
+            "display-bn": "অগ্রগতি",
+            "display-kn": "ಪ್ರಗತಿ",
+            "display-mr": "कसे वाढले"
+        },
+        {
+            "id": "ID_1047953557",
+            "text": "H/o specific illness",
+            "display": "Have you ever been diagnosed with any of the following specific diseases?*",
+            "isRequired": true,
+            "pos-condition": "h/o",
+            "neg-condition": "no h/o",
+            "display-or": "ତମକୁ କେବେ ଆଗରୁ ନିମ୍ନ ଲିଖିତ ବିଶିଷ୍ଟ ରୋଗ ଚିହ୍ନଟ ହୋଇଥିଲା କି?*",
+            "options": [
+                {
+                    "id": "ID_760253196",
+                    "text": "Allergic rhinitis",
+                    "display-or": "ଥଣ୍ଡା ୱାଲେର୍ଜି",
+                    "display-hi": "एलर्जी से नाक में विकार ",
+                    "display-gu": "એલર્જિક હ્રાઇનિટિસ",
+                    "display-as": "অ্যালার্জিক ৰাইনাইটিচ(এলাৰ্জি)",
+                    "display-bn": "অ্যালার্জিক রাইনাইটিস",
+                    "display-kn": "ಅಲರ್ಜಿಕ್ ರಿನಿಟಿಸ್",
+                    "display-mr": "अलेर्जी नाकाचा प्रदाह/दाह"
+                },
+                {
+                    "id": "ID_1858737060",
+                    "text": "Eczema",
+                    "display-or": "ଏକ୍ଜିମା",
+                    "display-hi": "एक्जिमा",
+                    "display-gu": "એક્ઝિમા",
+                    "display-as": "একজিমা",
+                    "display-bn": "একজিমা",
+                    "display-kn": "ಎಸ್ಜಿಮಾ",
+                    "display-mr": "एक्जिमा"
+                },
+                {
+                    "id": "ID_1004978958",
+                    "text": "None",
+                    "display-or": "କିଛି ନକଲେ/ ମନା",
+                    "exclude-from-multi-choice": true,
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "या पैकी कोणतेही नाही"
+                }
+            ],
+            "display-hi": "क्या आपको  कभी निम्न कोई बीमारी हुई है?*",
+            "display-gu": "તમને નીચેનામાંથી કોઇ ચોક્કસ રોગ હોવાનું નિદાન ક્યારેય થયું છે?*",
+            "display-as": "আপুনি নিম্নলিখিত নির্দিষ্ট ৰোগৰ লগত চিনাক্ত কৰাছে ?*",
+            "display-bn": "আপনি কি কখনও নিম্নলিখিত নির্দিষ্ট রোগে আক্রান্ত হয়েছেন?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ರೋಗಗಳನ್ನು ಹೊಂದಿದ್ದೀರ ?*",
+            "display-mr": "तुम्ही खालील आजारांनी ग्रस्त आहात का"
+        },
+        {
+            "id": "ID_971080308",
+            "text": "Exposure to irritants/offending agents",
+            "display": "Have you recently started using new cosmetics/jewelry/body products/topical medication/other specific agents before the symptom started?",
+            "display-or": "ନୂଆ ଅଳଙ୍କାର/ବସ୍ତ୍ର/ଔଷଧ/ଅନ୍ୟ ଦ୍ରବ୍ୟ  ସଂସ୍ପର୍ଶ",
+            "options": [
+                {
+                    "id": "ID_1195429700",
+                    "text": "Yes",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_1835727610",
+                            "text": "Duration from contact to a symptom development",
+                            "input-type": "duration",
+                            "display-or": "ସଂସ୍ପର୍ଶ ରୁ ଲକ୍ଷଣ",
+                            "display-hi": "लक्षण उत्पन्न करने वाली चीज के उपयोग की/संपर्क में आने की अवधि",
+                            "display-gu": "ઉપયોગની શરૂઆતથી લઇને, લક્ષણ દેખાવાં શરૂ થયા વચ્ચેનો સમયગાળો કેટલો",
+                            "display-as": "যোগাযোগ পৰা এটা লক্ষণ বিকাশৰ সময়কাল",
+                            "display-bn": "যোগাযোগ থেকে একটি উপসর্গ বিকাশের সময়কাল",
+                            "display-kn": "ರೋಗಲಕ್ಷಣದ  ಸಂಪರ್ಕದಿಂದ ಬೆಳವಣಿಗೆಯವರೆಗೆ ಅವಧಿ",
+                            "display-mr": "संपर्क आल्यापासून लक्षणे दिसू लागल्या पर्यंत चा काळ"
+                        },
+                        {
+                            "id": "ID_1051192036",
+                            "text": "Prior exposure to the same agent",
+                            "display": "Were you exposed to the same agent earlier?",
+                            "display-or": "ଲକ୍ଷଣ ପୂର୍ବରୁ",
+                            "options": [
+                                {
+                                    "id": "ID_1726612554",
+                                    "text": "Yes",
+                                    "display-or": "ହଁ",
+                                    "display-hi": "हां",
+                                    "display-gu": "હા",
+                                    "display-as": "হয়",
+                                    "display-bn": "হ্যাঁ",
+                                    "display-kn": "ಹೌದು",
+                                    "display-mr": "हो"
+                                },
+                                {
+                                    "id": "ID_1366100908",
+                                    "text": "No",
+                                    "display-or": "ନା",
+                                    "display-hi": "नहीं",
+                                    "display-gu": "ના",
+                                    "display-as": "নহয়",
+                                    "display-bn": "না",
+                                    "display-kn": "ಅಲ್ಲ",
+                                    "display-mr": "नाही"
+                                }
+                            ],
+                            "display-hi": "क्या आप पहले उस चीज के संपर्क में आए हैं?",
+                            "display-gu": "અગાઉ પણ તમે તે જ એજન્ટનો ઉપયોગ કર્યો છે?",
+                            "display-as": "আপুনি কি আগে একে এজেন্টেৰ সংস্পর্শ আহিছে?",
+                            "display-bn": "আপনি কি আগে একই এজেন্টের সংস্পর্শে এসেছিলেন?",
+                            "display-kn": "ನೀವು ಮೊದಲು ಅದೇ ಏಜೆಂಟ್‌ಅನ್ನು ಬಳಸುತ್ತಿದ್ದೀರ?",
+                            "display-mr": "या आधी त्या वस्तुशी संपर्क आला होता का"
+                        },
+                        {
+                            "id": "ID_874296629",
+                            "text": "Irritant/agents  (Describe)",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "ଦ୍ରବ୍ୟ / ସାମଗ୍ରୀର  ବିବରଣୀ",
+                            "display-hi": "खुजली/बेचैनी के कारण (वर्णन करें)",
+                            "display-gu": "બળતરા/એજન્ટ્સ (વર્ણન કરો)",
+                            "display-as": "খজুৱতি/এজেণ্ট (বৰ্ণনা কৰক)",
+                            "display-bn": "বিরক্তিকর/এজেন্ট (বর্ণনা করুন)",
+                            "display-kn": "ಕಿರಿ ಕಿರಿ ಉಂಟುಮಾಡುವ/ಏಜೆಂಟ್‌ಗಳು (ವಿವರಿಸಿ)",
+                            "display-mr": "उत्तेजन  (वर्णन करा)"
+                        }
+                    ],
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "हो"
+                },
+                {
+                    "id": "ID_1773655283",
+                    "text": "No",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपने लक्षण शुरू होने से पहले, हाल में किसी नयी प्रसाधन सामग्री/ गहना/लगाने वाली दवा/ अन्य कोई चीज का उपयोग शुरू किया है? ",
+            "display-gu": "લક્ષણ શરૂ થયાં તે પહેલાં, તમે હાલમાં કોઇ નવું કૉસ્મેટિક/ઘરેણું/શરીર માટેની કોઇ પ્રોડક્ટ/ટૉપિકલ દવા/અન્ય કોઇ ચોક્કસ એજન્ટનો ઉપયોગ શરૂ કર્યો છે?",
+            "display-as": "লক্ষণটো আৰম্ভ আগে আপুনি কি নতুন কচমেটিকচ / গহনা / দেহৰ পণ্য / সাময়ক ঔষধ / অন্যান্য নির্দিষ্ট এজেন্টৰ ব্যবহাৰ আৰম্ভ কৰিছে?",
+            "display-bn": "লক্ষণ শুরু হওয়ার আগে আপনি কি সম্প্রতি নতুন প্রসাধনী/গয়না/বডি প্রোডাক্ট/টপিকাল ওষুধ/অন্যান্য নির্দিষ্ট এজেন্ট ব্যবহার করা শুরু করেছেন?",
+            "display-kn": "ರೋಗಲಕ್ಷಣವು ಪ್ರಾರಂಭವಾಗುವ ಮೊದಲು ನೀವು ಇತ್ತೀಚೆಗೆ ಹೊಸ ಸೌಂದರ್ಯವರ್ಧಕಗಳು/ಆಭರಣಗಳು/ದೇಹ ಉತ್ಪನ್ನಗಳು/ಸ್ಥಳೀಯ ಔಷಧ/ಇತರ ನಿರ್ದಿಷ್ಟ ಏಜೆಂಟ್‌ಗಳನ್ನು ಬಳಸಲು ಪ್ರಾರಂಭಿಸಿದ್ದೀರಾ?",
+            "display-mr": "लक्षणे सुरू होण्यापूर्वी तुम्ही अलीकडे नवीन सौंदर्यप्रसाधने/दागिने/शरीर उत्पादने/स्थानिक औषधे/इतर विशिष्ट वस्तू वापरायला सुरुवात केली आहे का?"
+        },
+        {
+            "id": "ID_1155953940",
+            "text": "Prior treatment sought",
+            "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?",
+            "display-or": "ତମେ ଆଗରୁ କୌଣସି  ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)",
+            "options": [
+                {
+                    "id": "ID_670997731",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                    "display-hi": "हां (वर्णन करें)",
+                    "display-gu": "હા [વિગતે જણાવો]",
+                    "display-as": "হয় [বর্ণনা কৰা]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "हो  (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1226925547",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "या पैकी कोणतेही नाही"
+                }
+            ],
+            "display-hi": "क्या आपने आज यहां आने से पहले इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?",
+            "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?",
+            "display-as": "আজি ইয়াত আহা আগতে আপুনি কি কোনো চিকিৎসা কৰিছিলে (স্ব-ঔষধ বা ঘৰোৱা প্রতিকাৰ সহ ) বা কোনো স্বাস্থ্য সৰবৰাহকাৰীক এই সমস্যাৰ বিষযে দেখোছিলে ?",
+            "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?",
+            "display-kn": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?",
+            "display-mr": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार  किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टर ला दाखवले आहे का?"
+        },
+        {
+            "id": "ID_504169556",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_554914043",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "(अन्य जानकारी दर्ज करें)",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য লিখা]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "(अधिक माहिती भरा)"
+                }
+            ],
+            "display-hi": "अन्य जानकारी",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अधिक माहिती"
+        }
+    ],
+    "display-hi": "त्वचा की बीमारी/त्वचा विकार",
+    "display-gu": "ત્વચામાં વિકાર",
+    "display-as": "ছালৰ ৰোগ(ব্যাধি)",
+    "display-bn": "ত্বকের ব্যাধি",
+    "display-kn": "ಚರ್ಮದ ಖಾಯಿಲೆ",
+    "display-mr": "त्वचा विकार"
+}

@@ -1,0 +1,598 @@
+{
+    "id": "ID_f5570606-1131-4cf4-8d35-00971d7c3281",
+    "text": "Bleeding from mouth",
+    "engineVersion": "3.0",
+    "display-mr": "तोंडातून रक्त येणे",
+    "display-hi": "मुंह से खून आना",
+    "options": [
+        {
+            "id": "ID_2f03ef8c-c5e2-40d6-bf76-5ead297cf2c9",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5663116b-c14f-4722-85c7-6f81bd40c5f8",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_69dd1d2e-866a-40ff-b9ed-516bd4d7295b",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e8d89ea7-fbaa-48b9-adfa-fcae0c9bb30e",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_8e92946f-4d1b-489e-a62d-b07c84fb34d9",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_dbcdd038-0d39-41fb-bc9c-22d9f1f251d1",
+            "text": "Which part of mouth you have had noticed the bleed?",
+            "display-mr": "तोंडाच्या कोणत्या भागातून रक्त येत असल्याचे तुमच्या लक्षात आले?",
+            "display-hi": "आपने मुँह के किस हिस्से से खून बहता हुआ देखा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b51ec630-1710-477f-8b09-88c2b84efe36",
+                    "text": "Upper lip",
+                    "display-mr": "वरील ओठ",
+                    "display-hi": "ऊपरी होंठ"
+                },
+                {
+                    "id": "ID_cb91218b-3e5c-4640-b3a7-aa4a4f17f6d9",
+                    "text": "Lower lip",
+                    "display-mr": "खालील ओठ",
+                    "display-hi": "निचला होंठ"
+                },
+                {
+                    "id": "ID_7ce8f25c-150a-4bb3-b0f4-61666ec7b5f7",
+                    "text": "Tongue",
+                    "display-mr": "जीभ",
+                    "display-hi": "जीभ"
+                },
+                {
+                    "id": "ID_cdc3ab3b-46a9-431e-8331-897e9b326791",
+                    "text": "Upper gum",
+                    "display-mr": "वरील हिरड्या",
+                    "display-hi": "ऊपरी मसूड़ा"
+                },
+                {
+                    "id": "ID_d98001c2-6d09-48c2-993d-c858d5430b0f",
+                    "text": "Lower gum",
+                    "display-mr": "खालील हिरड्या",
+                    "display-hi": "निचला मसूड़ा"
+                },
+                {
+                    "id": "ID_79d68e60-7c56-4c85-8c8b-21399819525e",
+                    "text": "Upper teeth",
+                    "display-mr": "वरील दात",
+                    "display-hi": "ऊपरी दांत"
+                },
+                {
+                    "id": "ID_5f481e6a-eb72-4efe-acb4-c7af96f723fb",
+                    "text": "Lower teeth",
+                    "display-mr": "खालील दात",
+                    "display-hi": "निचले दांत"
+                },
+                {
+                    "id": "ID_19c5d2e3-bb3b-480f-a58e-470a30ad229f",
+                    "text": "Cheek",
+                    "display-mr": "गाल",
+                    "display-hi": "गाल"
+                },
+                {
+                    "id": "ID_02d0ea99-51a8-4f48-8dcb-ec8f74371469",
+                    "text": "Palate",
+                    "display-mr": "टाळू",
+                    "display-hi": "तालू"
+                },
+                {
+                    "id": "ID_cf5c8cf9-485d-44e8-83ef-ef08c634b343",
+                    "text": "Floor of mouth",
+                    "display-mr": "जबडा",
+                    "display-hi": "मुंह का तल"
+                },
+                {
+                    "id": "ID_790fc3b6-4eed-4a61-9f6d-b0a5743a22ba",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "नहीं पता"
+                }
+            ]
+        },
+        {
+            "id": "ID_4a5a31fa-b120-4640-9ed5-de8f724765e6",
+            "text": "Which side of the mouth the bleed coming from?",
+            "display-mr": "तोंडाच्या कोणत्या भागातून रक्त येत आहे?",
+            "display-hi": "मुंह के किस तरफ से खून आ रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d5a6cc23-00ad-4ae4-a139-8771eb2e6187",
+                    "text": "Right",
+                    "display-mr": "उजव्या",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_b0012df2-9c9a-4bcf-9cdf-a7d853f6969a",
+                    "text": "Left",
+                    "display-mr": "डाव्या",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_76c9cceb-0909-42d6-9274-120c1b115b3c",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजू",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_eb770679-18fb-4179-9a9a-cee5de1025ae",
+            "text": "How much blood was lost in mouth bleeding?",
+            "display-mr": "तोंडातून होणाऱ्या रक्तस्त्रावात किती रक्त वाहून गेल आहे?",
+            "display-hi": "मुंह से खून आने में कितना खून बह गया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4b92616d-0d2e-4a1d-aa39-e4f15a8bdc13",
+                    "text": "Scanty (drops)",
+                    "display-mr": "थोडेसे (थेंब थेंब)",
+                    "display-hi": "हल्का (बूंदें)"
+                },
+                {
+                    "id": "ID_909c0e2d-7d6a-44ef-bcdb-90523c88630f",
+                    "text": "Teaspoonful",
+                    "display-mr": "चमचाभर",
+                    "display-hi": "चम्मच भर"
+                },
+                {
+                    "id": "ID_b10ba448-38ab-4180-85ef-74872bccc1cc",
+                    "text": "Cupful",
+                    "display-mr": "कपभर",
+                    "display-hi": "कप भर"
+                }
+            ]
+        },
+        {
+            "id": "ID_64e702eb-dd43-4910-907e-e70da371ccc2",
+            "text": "Character of mouth bleeding",
+            "display-mr": "तोंडून होणाऱ्या रक्तस्त्रावाचे वैशिष्ट्य",
+            "display-hi": "मुंह से खून आने के लक्षण क्या हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_24b0a511-f82d-4406-a7ce-425213cca915",
+                    "text": "Bright red",
+                    "display-mr": "लालभडक",
+                    "display-hi": "चमकीला लाल"
+                },
+                {
+                    "id": "ID_0d1141b0-c961-4f85-9aa7-f9b68fb17f15",
+                    "text": "Dark colour",
+                    "display-mr": "गडद रंग",
+                    "display-hi": "काले रंग का"
+                },
+                {
+                    "id": "ID_b3e8ca6e-6eed-4a65-bdc2-578393829760",
+                    "text": "Blood clotting",
+                    "display-mr": "रक्ताच्या गुठळ्या",
+                    "display-hi": "खून का थक्का"
+                },
+                {
+                    "id": "ID_6e1d8dfb-5ea3-4284-b9d4-f6134932b1da",
+                    "text": "Continuously flowing",
+                    "display-mr": "सतत रक्तस्राव",
+                    "display-hi": "लगातार बह रहा"
+                }
+            ]
+        },
+        {
+            "id": "ID_db154eba-f9d3-40dc-bb23-bc4fc8b1bdcf",
+            "text": "Any prior associated cause for mouth bleeding?",
+            "display-mr": "तोंडातून रक्त येण्यामागे आधीचे काही कारण संबंधित आहे का?",
+            "display-hi": "क्या मुंह से खून आने का पहले से कोई संबंधित कारण है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8bc88485-079d-4ca6-9b11-a0a9f82254a2",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f2ee7400-e436-48ee-af22-382b97017b6f",
+                    "text": "Food lodgement",
+                    "display-mr": "तोंडात अन्नाचे कण राहणे",
+                    "display-hi": "खाना फंसना"
+                },
+                {
+                    "id": "ID_af464657-9966-40c9-852a-3ac867ba6102",
+                    "text": "Foreignbody insertion (tooth picking)",
+                    "display-mr": "एखादी वस्तू गिळणे (दात कोरणे)",
+                    "display-hi": "बाहरी वस्तु को डाला था (जैसे टूथ पिक)"
+                },
+                {
+                    "id": "ID_3ca8be4f-842a-44f0-9e7d-0a3d7b3234be",
+                    "text": "Accidental bite",
+                    "display-mr": "अपघाती दंश",
+                    "display-hi": "भूल से काट लेना"
+                },
+                {
+                    "id": "ID_48354a75-5983-44c4-8d2b-3f1f5df27ab7",
+                    "text": "Tooth removal",
+                    "display-mr": "दात काढणे",
+                    "display-hi": "दांत निकाला गया"
+                },
+                {
+                    "id": "ID_0d332d7d-88e6-494f-8cd4-e30ab03b6828",
+                    "text": "Injury to oral cavity",
+                    "display-mr": "तोंडाच्या पोकळीला (कॅव्हिटीला) इजा होणे",
+                    "display-hi": "मुंह के अंदर चोट"
+                },
+                {
+                    "id": "ID_61e31703-2c38-4486-9015-b95b28dcd143",
+                    "text": "Vigorous coughing",
+                    "display-mr": "प्रचंड खोकला",
+                    "display-hi": "तेज खांसी"
+                },
+                {
+                    "id": "ID_77822569-0168-4e8b-a526-53e46711b2a2",
+                    "text": "Oral ulcers",
+                    "display-mr": "तोंडात अल्सर येणे",
+                    "display-hi": "मुंह के छाले"
+                }
+            ]
+        },
+        {
+            "id": "ID_50ca12ec-90ce-4919-81ff-39ef6277cd68",
+            "text": "How is this symptom progressing?",
+            "display-mr": "लक्षणांमध्ये काही बदल?",
+            "display-hi": "लक्षण में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ab881929-b719-48a2-886f-027999bd229d",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहेत",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_e0123ffb-ca6f-4aae-b466-c0875ef2358d",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहेत",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_c34c2a0f-1533-4c4c-9ca9-c113650f11a1",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार हो रहा है"
+                },
+                {
+                    "id": "ID_d128a428-5b3c-489e-8d09-5095dbeccc35",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_7589e9f0-5ffe-405f-9d7f-5e228b4a556e",
+            "text": "How frequently the mouth bleeding occurs?",
+            "display-mr": "तोंडातून किती वेळा रक्त येते?",
+            "display-hi": "मुंह से खून अक्सर कितनी बार आता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_adef57a9-4065-4310-9b30-ff6c03740c6e",
+                    "text": "On & off",
+                    "display-mr": "येते आणि जाते (ऑन आणि ऑफ)",
+                    "display-hi": "रुक-रुक कर"
+                },
+                {
+                    "id": "ID_3f2f6073-6e83-4690-865f-41ddabae717d",
+                    "text": "Daily",
+                    "display-mr": "दररोज",
+                    "display-hi": "हर रोज"
+                },
+                {
+                    "id": "ID_89f4b544-b591-4b0c-82a2-3dfb714b916e",
+                    "text": "Weekly",
+                    "display-mr": "आठवड्यातून एकदा",
+                    "display-hi": "साप्ताहिक"
+                },
+                {
+                    "id": "ID_6d41f313-a0a1-4337-9214-8b89fdfd8c24",
+                    "text": "Monthly",
+                    "display-mr": "महिन्यातून एकदा",
+                    "display-hi": "मासिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_603fce4d-0adf-4092-88e3-08eaada50b44",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_dee78da1-1fad-4762-b746-795460f782a2",
+                    "text": "Pain in mouth",
+                    "display-mr": "तोंड दुखणे",
+                    "display-hi": "मुंह में दर्द",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_a45a8ab7-a005-45d3-b7a2-816e2f95bb3a",
+                    "text": "Bad breath (halitosis)",
+                    "display-mr": "श्वासाची दुर्गंधी (हॅलिटॉसिस)",
+                    "display-hi": "मुंह से दुर्गंध",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_1f0b3ad0-a892-46a5-8ee4-937c8c7ef2c7",
+                    "text": "Tooth hypersensitivity",
+                    "display-mr": "दात अतिसंवेदनशील होणे",
+                    "display-hi": "दांत की अतिसंवेदनशीलता",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_69d46422-e107-4b2f-9315-ab75eeda2e39",
+                    "text": "Throat pain",
+                    "display-mr": "घसादुखी",
+                    "display-hi": "गले में दर्द",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_c4c69b3e-b9e1-488a-99c7-0aee231df053",
+                    "text": "Burning sensation of mouth",
+                    "display-mr": "तोंडात जळजळ होणे",
+                    "display-hi": "मुंह में जलन",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_738563f7-3920-4aaf-b59b-130df8ee8ed8",
+                    "text": "Gum swelling",
+                    "display-mr": "हिरड्या सुजणे",
+                    "display-hi": "मसूड़ों में सूजन",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_12e96fa4-c1b9-4787-918a-d7246ef33300",
+                    "text": "Ulcers in mouth",
+                    "display-mr": "तोंडात अल्सर्स होणे (तोंड येणे)",
+                    "display-hi": "मुंह में छाले",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_03573441-e1d5-46fa-aaa8-76220ee2244c",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाज बसणे",
+                    "display-hi": "आवाज का भारी होना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_0d9ed643-a8d1-446a-b0df-ae5d22c729bd",
+                    "text": "Stridor",
+                    "display-mr": "श्वासाचा आवाज येणे",
+                    "display-hi": "श्वास में घरघराहट",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_fef7a905-45c7-49fe-a6ee-61a0ee8a8d9e",
+                    "text": "Swelling or bruising around mouth",
+                    "display-mr": "तोंडाभोवती सूज येणे किंवा जखम होणे",
+                    "display-hi": "मुंह के आसपास सूजन या चोट",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_cb2c5674-da94-4e32-aa4e-b0a7551da7b2",
+                    "text": "Recent dental procedure",
+                    "display-mr": "दातांवर नुकतीच काही प्रक्रिया केली आहे का",
+                    "display-hi": "हाल की दंत प्रक्रिया",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_01aea1b5-a13d-469c-9d22-0bb5fc98a898",
+                    "text": "Swelling of glands in neck",
+                    "display-mr": "गळ्यातील ग्रंथींना सूज येणे",
+                    "display-hi": "गर्दन में गांठों की सूजन",
+                    "multi-choice": false
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_1584346f-8b33-41c8-ab21-d0cfff32dcc3",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_418970a8-58ba-4de1-b304-c8a38f5560b6",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_cc591fb5-8c44-4bcc-b8bb-d43e64093a40",
+                    "text": "Vomiting up blood",
+                    "display-mr": "रक्ताची उलटी होणे",
+                    "display-hi": "खून की उल्टी"
+                },
+                {
+                    "id": "ID_d0cb3aa6-6e4d-4ce9-906c-ed4e862bd440",
+                    "text": "Coffee brown vomitus",
+                    "display-mr": "रक्तातून कॉफीच्या रंगाचा स्राव पडणे",
+                    "display-hi": "कॉफी जैसी भूरे रंग की उल्टी"
+                },
+                {
+                    "id": "ID_dace7494-ed29-4483-9145-b80d58fc008c",
+                    "text": "Coughing up blood",
+                    "display-mr": "खोकल्यातून (कफातून) रक्त पडणे",
+                    "display-hi": "कफ में खून निकलना"
+                },
+                {
+                    "id": "ID_fe31e9a0-10c1-4a62-b63b-ae240a75674d",
+                    "text": "Painful swallowing",
+                    "display-mr": "गिळताना वेदना  होणे",
+                    "display-hi": "निगलने में दर्द"
+                },
+                {
+                    "id": "ID_7ae21ab8-be99-4e7c-8fe5-d6968bb5d80b",
+                    "text": "Difficulty in swallowing",
+                    "display-mr": "गिळण्यास त्रास होणे",
+                    "display-hi": "निगलने में कठिनाई"
+                },
+                {
+                    "id": "ID_b83d4db2-6456-4039-aa94-ac82cd0d52d0",
+                    "text": "Black stools",
+                    "display-mr": "शौचास काळी होणे",
+                    "display-hi": "काले मल"
+                },
+                {
+                    "id": "ID_8d66eb27-3ad3-4790-8fdd-b724ab2d2594",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_cf477f4b-77f0-4569-9ac9-786e3f6efea8",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_9acf06d8-cb32-4ee6-b409-db244cc457d7",
+                    "text": "Fatigue (general weakness)",
+                    "display-mr": "थकवा (सर्वसाधारण अशक्तपणा)",
+                    "display-hi": "थकान (सामान्य कमजोरी)"
+                },
+                {
+                    "id": "ID_440e99b5-5c2c-4d64-878c-a6b97b4dc6ef",
+                    "text": "Pale skin",
+                    "display-mr": "निस्तेज त्वचा",
+                    "display-hi": "पीली त्वचा"
+                },
+                {
+                    "id": "ID_14e6e9bc-9754-4bb6-bb3d-29f2f9869ee8",
+                    "text": "Easy skin bruising",
+                    "display-mr": "त्वचेवर सहज जखम होणे",
+                    "display-hi": "त्वचा पर आसानी से चोट लगना"
+                },
+                {
+                    "id": "ID_33461722-932c-4342-93cb-79cf8af312e2",
+                    "text": "Bone or joint pains",
+                    "display-mr": "हाडे किंवा सांधेदुखी",
+                    "display-hi": "हड्डी या जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_390e03c0-c008-412b-9bb5-76bd5a32e643",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_df9ed3a9-214b-4f69-95fb-9045467609b7",
+                    "text": "Swelling of feet",
+                    "display-mr": "पाय सुजणे",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_e941271d-50aa-460c-ba3c-02e62c44ac68",
+                    "text": "History of use of medications (Eg. Aspirin)",
+                    "display-mr": "औषधे वापरण्याचा इतिहास (उदा. ॲस्पिरिन)",
+                    "display-hi": "दवाओं के उपयोग का इतिहास (जैसे: एस्पिरिन)"
+                },
+                {
+                    "id": "ID_b8ff31f3-4e8a-4544-9615-e7bb5a48f465",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8e958142-e0fd-4172-8b27-5b9480dadbce",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_38d3f37e-fd0a-49e9-97f6-3def35779a6f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0b98d6cd-3873-4148-aa95-e1b74acd0923",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_2ad0999b-fb79-4aa7-9336-ec02092f6eec",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_849fd667-54aa-448c-9bae-3523ac5dc61a",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_9bad7389-3473-46c4-8de4-c421eaee1bb8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
