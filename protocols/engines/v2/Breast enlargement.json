@@ -1,0 +1,373 @@
+{
+    "id": "ID_3104d2a4-9a5e-4a23-8817-8a98ee37c098",
+    "text": "Breast enlargement",
+    "engineVersion": "3.0",
+    "display-mr": "स्तन मोठे होणे",
+    "display-hi": "स्तन में बढ़ोतरी",
+    "options": [
+        {
+            "id": "ID_5ba6fa0b-9a38-416f-a05a-cf981726ad17",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_acbb090b-fc25-4f35-9c2c-987eeaff37d2",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_005be16e-59b1-49da-b6a9-68434a99f21c",
+            "text": "How fast did breast enlargement develop?",
+            "display-mr": "स्तन मोठे होण्यामध्ये किती झपाट्याने वाढ झाली?",
+            "display-hi": "स्तन बढ़ने की समस्या कितनी तेजी से बढ़ी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9e5dcd47-c604-4c2e-93a3-628e080bf41e",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_a06df6e8-79e6-4b0c-bd31-3d1b668d756d",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_ff5fe4bd-e05e-4cfb-a25c-662c78b13fd4",
+            "text": "Which breast do you have the enlargement?",
+            "display-mr": "तुमचा कोणता स्तन मोठा झाला आहे?",
+            "display-hi": "आपके किस स्तन में बढ़ोतरी हुई है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_886de277-a95e-477f-b290-8f10a6c475a6",
+                    "text": "Left breast",
+                    "display-mr": "डावा स्तन",
+                    "display-hi": "बायां स्तन"
+                },
+                {
+                    "id": "ID_c61277ff-abb5-426c-9ad6-fd4db0c07c72",
+                    "text": "Right breast",
+                    "display-mr": "उजवा स्तन",
+                    "display-hi": "दायां स्तन"
+                },
+                {
+                    "id": "ID_a406cd22-818e-4c81-9aa2-5f1ab091cd5d",
+                    "text": "Both breasts",
+                    "display-mr": "दोन्ही स्तन",
+                    "display-hi": "दोनों स्तन"
+                }
+            ]
+        },
+        {
+            "id": "ID_08a3bca9-d233-4b1c-9b06-388cb77022a9",
+            "text": "Do you have any of the following features associated with breast enlargement?",
+            "display-mr": "तुम्हाला स्तन मोठे होण्याशी संबंधित पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको स्तन के बढ़ने से जुड़ी निम्नलिखित में से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a3c9ba0c-ac68-4802-8547-940bf826d523",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_52ae9d8a-73ff-4076-b9ca-8c70662be98e",
+                    "text": "Swelling (lump)",
+                    "display-mr": "सूज (गाठ)",
+                    "display-hi": "सूजन (गांठ)"
+                },
+                {
+                    "id": "ID_544a4789-a0e4-4666-a04f-2600f516b074",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_4ce6d69a-a05f-4da3-bf4b-490f0c4c0a02",
+                    "text": "Nipple discharge",
+                    "display-mr": "स्तनाग्रांमधून स्राव",
+                    "display-hi": "निप्पल से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_6902c0f3-3cbd-48f0-a670-a12c6ddce4ae",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_387de8d9-392c-4176-ab25-4561300b30db",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श केल्यानंतर वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_85a0a2e8-5088-45a2-b5f1-7162c91048e8",
+                    "text": "Dimpling of skin",
+                    "display-mr": "त्वचेला खळी पडणे",
+                    "display-hi": "त्वचा में गड्ढे पड़ना"
+                },
+                {
+                    "id": "ID_3bcbd8f9-da98-401d-b9ea-f1b88c923804",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_3fafc5e2-35ed-4516-b958-2dd51fceffc9",
+            "text": "How is the breast enlargement progressing?",
+            "display-mr": "स्तन मोठे होण्याची प्रगती कशाप्रकारे होत आहे?",
+            "display-hi": "स्तन के बढ़ने की समस्या किस तरह से बढ़ रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_925dc774-c0de-4934-8a83-db801535263a",
+                    "text": "Increasing",
+                    "display-mr": "वाढणे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_9d188fe5-b4f7-400a-aa69-f6aaa81001dc",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होणे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_ae8b55a5-002b-4308-ba96-4686f23fee31",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होणे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_dd77028d-2e2f-4454-bfd4-abe7acb8e655",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_b4c6910d-0678-4f4f-a4bd-92838f1a6228",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f13a7ee0-6ab5-4143-a522-491e4d418ae6",
+                    "text": "Reduced body hair",
+                    "display-mr": "शरीरावरील केस कमी होणे",
+                    "display-hi": "शरीर के बाल कम होना"
+                },
+                {
+                    "id": "ID_93a44fa2-7adc-4a2f-8f6b-4ed76afad262",
+                    "text": "Scrotal swelling",
+                    "display-mr": "अंडकोशावर सूज",
+                    "display-hi": "अंडकोष की सूजन"
+                },
+                {
+                    "id": "ID_bbaf2f5f-3031-418e-ace2-48063484c637",
+                    "text": "Scrotal pain",
+                    "display-mr": "अंडकोशामध्ये वेदना",
+                    "display-hi": "अंडकोष में दर्द"
+                },
+                {
+                    "id": "ID_9aa70b4a-abf9-4eff-a34d-3b05000b17d0",
+                    "text": "Pain in underarm",
+                    "display-mr": "काखेत वेदना",
+                    "display-hi": "बगल में दर्द"
+                },
+                {
+                    "id": "ID_86f9d3d1-338f-4033-a791-d8d54f1bde17",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "लसिका ग्रंथींवर सूज",
+                    "display-hi": "सूजे हुए लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_52d71cde-ddd4-4e44-9a6b-a3635f18d3e9",
+                    "text": "Milky nipple discharge",
+                    "display-mr": "स्तनाग्रांमधून दूध झिरपणे",
+                    "display-hi": "निप्पल से दूध जैसा निकलना"
+                },
+                {
+                    "id": "ID_432513f1-6f42-4534-87f1-33ec90fe44f6",
+                    "text": "Decreased libido",
+                    "display-mr": "कामभावना कमी होणे",
+                    "display-hi": "संभोग की इच्छा में कमी"
+                },
+                {
+                    "id": "ID_d33f554e-41a4-4888-b2bd-43dd7f3b82f8",
+                    "text": "Erectile dysfunction",
+                    "display-mr": "लिंग ताठ न होणे",
+                    "display-hi": "लिंग का कड़ा न होना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_5fe557e6-cd95-4dee-b57b-96b6b0f65456",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0e9d6ba5-d34f-4427-ba7e-56239f771cab",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_abd3ca94-beac-4d0b-a7d3-71161398c457",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_f5f7e8d3-de0e-4873-b65c-400cb34c7a7a",
+                    "text": "Weight loss",
+                    "display-mr": "वजन घटणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_890dbe22-e44b-45ee-9c37-c0b9aa91779e",
+                    "text": "Infertility",
+                    "display-mr": "नपुंसकत्व",
+                    "display-hi": "बांझपन"
+                },
+                {
+                    "id": "ID_31afc908-e924-41d0-9fad-16f7bd7bd9a4",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_95dbc984-0ce5-4178-9c39-314346c2be25",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत वेदना",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_d9798557-9b93-4d7c-a0a9-dd3df5cfb4ad",
+                    "text": "Breathing difficulty",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_032d4df8-45e5-453b-8a52-6e2786c882ee",
+                    "text": "Mood changes",
+                    "display-mr": "मनस्थितीतील बदल",
+                    "display-hi": "मूड में बदलाव"
+                },
+                {
+                    "id": "ID_0696b718-6953-4f15-b2a5-b467f895ec79",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_84dd39e8-fbce-4f12-b595-60137ea018e9",
+                    "text": "Abdominal distension",
+                    "display-mr": "ओटीपोट फुगणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_120d2176-509d-4e9a-9ed3-8d66ac73ae58",
+                    "text": "Hot flashes",
+                    "display-mr": "चेहरा लाल होणे",
+                    "display-hi": "गर्मी का एहसास"
+                },
+                {
+                    "id": "ID_8f1172dd-5dab-4292-8b76-3bed4955b6c5",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_0211bd52-c7d3-4695-bf6b-db60cbe6f0f7",
+                    "text": "Cold Intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न कर पाना"
+                },
+                {
+                    "id": "ID_96863c7d-d069-4da7-a22d-2c779e6d7c41",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a75229d7-207a-495f-8dbe-ae56d4edb7bf",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_57bf818d-b757-40de-a3be-fedc02e24f8b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1285bd61-5444-449a-b37c-781c64e7857b",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_3dba4b29-7536-4410-b9fb-a30a15ec6ba2",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f5554436-1293-43e0-8e54-23f9d8e211a7",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_b26eaccd-91a7-486d-b537-ebd2faf34d9a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

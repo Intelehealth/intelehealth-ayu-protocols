@@ -1,0 +1,1079 @@
+{
+    "id": "ID_1cbf113f-a119-4d13-8920-04914e12afb7",
+    "text": "Oral screening",
+    "engineVersion": "3.0",
+    "display-mr": "मुख तपासणी (ओरल स्क्रीनिंग)",
+    "display-hi": "मुँह की जाँच",
+    "options": [
+        {
+            "id": "ID_4bcb49ec-0896-4856-9c77-4d7868db1f81",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cca2a038-20dc-4a1c-aa52-0864c827d222",
+                    "text": "Difficulty in opening mouth",
+                    "display-mr": "तोंड उघडण्यास त्रास होतो",
+                    "display-hi": "मुंह खोलने में परेशानी"
+                },
+                {
+                    "id": "ID_b7697959-c848-4583-9428-b680cf3bd458",
+                    "text": "Any ulcers in mouth that has not healed in two weeks",
+                    "display-mr": "तोंडातील कोणतेही व्रण जे दोन आठवड्यांत बरे झाले नाहीत",
+                    "display-hi": "मुंह में कोई ऐसा छाला जो दो सप्ताह में ठीक नहीं हुआ हो"
+                },
+                {
+                    "id": "ID_6d94f7c4-a05e-47a2-b90d-300aa513a9e1",
+                    "text": "Any growth in mouth that has not healed in two weeks",
+                    "display-mr": "तोंडातील कोणतीही वाढ जी दोन आठवड्यात बरी झाली नाही",
+                    "display-hi": "मुंह में कोई ऐसा उभार जो दो सप्ताह में ठीक नहीं हुआ हो"
+                },
+                {
+                    "id": "ID_e7a916d7-3d63-40ca-b82b-39ff1e580fd1",
+                    "text": "Any white or red patch in mouth that has not healed in two weeks",
+                    "display-mr": "तोंडात कोणताही पांढरा किंवा लाल ठिपका जो दोन आठवड्यांत बरा झालेला नाही",
+                    "display-hi": "मुंह में कोई ऐसा सफेद या लाल धब्बा जो दो सप्ताह में ठीक नहीं हुआ हो"
+                },
+                {
+                    "id": "ID_aec4237e-6675-4d59-abd1-dc32c0d79b4d",
+                    "text": "Pain while chewing",
+                    "display-mr": "चघळताना वेदना",
+                    "display-hi": "चबाते समय दर्द"
+                },
+                {
+                    "id": "ID_9b9edfbb-df63-45ea-a593-681b227d5544",
+                    "text": "Any change in the tone of your voice",
+                    "display-mr": "तुमच्या आवाजातील कोणताही बदल",
+                    "display-hi": "आपकी आवाज के लहजे में कोई बदलाव"
+                },
+                {
+                    "id": "ID_e939fe36-101e-40bd-a877-1e17dd6e7832",
+                    "text": "Other oral symptoms",
+                    "display-mr": "इतर मौखिक (आरोग्याशी संबंधित) लक्षणे",
+                    "display-hi": "मुंह के (आरोग्य से सम्बंधित) अन्य लक्षण"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_b1af9fff-5de5-4ea8-a352-7ab4e0dc99a7",
+            "text": "Oral Visual Examination (OVE)",
+            "display-mr": "तोंडाची दर्शन परीक्षा (OVE)",
+            "display-hi": "मौखिक दृश्य परीक्षण (OVE)",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_de715244-7f55-461e-9eba-a9fc0557924f",
+                    "text": "Mouth opening",
+                    "display-mr": "तोंड उघडणे",
+                    "display-hi": "मुंह खुलने की क्षमता",
+                    "multi-choice": false,
+                    "options": [
+                        {
+                            "id": "ID_39b96a21-a6eb-4b42-9efc-04ccd9520456",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_7ab8e2c6-e584-4162-bddf-3ab216853467",
+                            "text": "Restricted to 2 fingers",
+                            "display-mr": "2 बोटांपर्यंत मर्यादित",
+                            "display-hi": "2 उंगुलियों तक सीमित"
+                        },
+                        {
+                            "id": "ID_b8a7907e-bd8a-4bad-b9ca-06e43890b07e",
+                            "text": "Restricted to 1 finger",
+                            "display-mr": "1 बोटापर्यंत मर्यादित",
+                            "display-hi": "1 उंगुलियों तक सीमित"
+                        },
+                        {
+                            "id": "ID_30943764-171f-4d88-b898-bd0b1b69f5b8",
+                            "text": "Completely Restricted",
+                            "display-mr": "पूर्णपणे मर्यादित",
+                            "display-hi": "पूरी तरह से प्रतिबंधित"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_7e073500-e2dc-445e-8b5d-e8bdcc8b459c",
+                    "text": "Upper lip",
+                    "display-mr": "वरचा ओठ",
+                    "display-hi": "ऊपरी होंठ",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_f5b5a004-665c-485a-88dc-9970ff9ed177",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_96548446-feb7-4a9a-9afa-32540ab97858",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_cfa2bf13-e6ae-4a7e-8840-432dd396e7e8",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_1439e781-039f-47e9-8024-2706ee6266ed",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_2b2b275f-5ffa-4205-b6db-546f8c24996b",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_48f49a37-a358-458f-abc3-a0499e239359",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_71f7f9c7-e386-46fc-aa31-16043e0ab46a",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_62161750-6dab-41be-a34a-f36cef56aa2a",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_5f988170-22d9-493d-a2d1-f1a5ffa213c9",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_7c51cbf8-649a-4e7d-bb2a-3182cf17754d",
+                    "text": "Lower lip",
+                    "display-mr": "खालचा ओठ",
+                    "display-hi": "निचला होंठ",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_6686d71b-4d17-42be-b2d0-13be628a2798",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_8e7f028b-e6cb-4a83-972b-2d76594d61e5",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_47a07643-031e-442b-8c6f-97be6d66ff03",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_f2e52b77-43b0-4ad0-bdae-47d26ef11fcd",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_0282b6c1-1381-46f3-8166-2ac7740f59a8",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_b4e81407-232b-4131-a4f0-d2dfb49dfee4",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_2f176593-a26b-49dd-940e-6c57d5a7cf8b",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_60078f88-5fab-46ac-864b-f00337eb05fb",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_bcd431c7-dfb3-4103-9c88-4ef8e1fd246d",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_8fcdf5b4-59c5-4bd6-af79-21ac28c65573",
+                    "text": "Inside of cheek: Left",
+                    "display-mr": "गालाच्या आत: डावीकडे",
+                    "display-hi": "गाल के अंदर: बायां",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_af0849b3-41dc-46a5-b66a-f28257c4aee3",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_4f5d4a21-20df-4945-a499-e77610172406",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_d90164ad-064a-485c-92cf-70d5c321900a",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_3d8563e9-570e-40fd-bdee-8a634f6edd9c",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_d2cacc1a-4169-4f4d-8bc7-722fa7ced6a3",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_cd321eb0-13c4-4033-9986-2f5ae89c3352",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_d5985796-de7e-47b7-97d0-b6a73e51ad92",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_f11e5ac6-3308-4ab5-b426-e70d97e7259d",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_4e87ab00-9b8d-4278-831b-b58b7cdc0829",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_eddc3db5-c7dd-4cc3-8d1f-65bfb91573be",
+                    "text": "Inside of cheek: Right",
+                    "display-mr": "गालाच्या आत: उजवीकडे",
+                    "display-hi": "गाल के अंदर: दायां",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_260664fb-8ece-4c5b-abe5-c6c358ab58cc",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_ca408c49-5993-4e57-a527-76204595e2fa",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_6955ef9f-c81c-4c14-a851-5d5f37a7571e",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_593f9c03-f3fa-4e49-ac6a-5fdbb99a0dc0",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_dd3fd748-0429-4f6c-9113-725820de4b0e",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_b6ffa05b-b0d0-445c-9b9d-38d54f30e54b",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_f212f64c-6649-45ce-8e17-c67f8f1aa245",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_8c7145e9-5108-4c1b-8cdb-4a3823396469",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_69ba2f96-69ea-415e-8839-be76f3020f27",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_bdb2d3fb-d8e4-42ef-b811-6db0cf86cec0",
+                    "text": "Upper gum",
+                    "display-mr": "वरच्या हिरड्या",
+                    "display-hi": "ऊपरी मसूडे",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_956a1a44-cebd-4cf4-9541-4c912020a887",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_05c45bb8-ee3a-4bc6-a962-432358e3792d",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_05434e22-6b02-439b-971a-268d08379807",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_6336f1e6-0031-4d9f-b9b9-04eb74762e15",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_1934cf76-1ec2-400d-bb68-9b6cbd1ed92a",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_c007b900-21f3-4229-ada2-234a2f7715a6",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_f04a3b71-17a5-4610-b2f5-fc4683bdc048",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_5e898669-406c-4bfd-8e96-d2d974019d30",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_49d6dd32-3bc8-4636-bfb6-0c5d97c93924",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_66d44e7b-50a1-49fb-8234-e5543f0ffea7",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_2b6366b0-fcc1-4a9f-b08a-627117bc6338",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता स्पर्श"
+                        },
+                        {
+                            "id": "ID_528bbb52-6b4b-4d46-8468-0b9457790c92",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_95e29788-dedc-4759-8a11-0acd8b3c0926",
+                    "text": "Lower gum",
+                    "display-mr": "खालच्या हिरड्या",
+                    "display-hi": "निचला मसूड़ा",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_b2de6dad-dd78-4926-9496-9a8e5f93fc71",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_4dffeb8a-d72e-42a0-bdff-71460c936eea",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_f0b21989-1219-4891-8dda-9095370e6d24",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_079348ec-b510-4aec-b0f2-91e65934b701",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_c309187c-4b13-456f-975e-d636bb4138cf",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_1b73689f-7dae-4fe1-b0f5-e6401f4305f2",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_fa7c6dcf-5f2f-4c9c-bf60-e5a6753ddcd9",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_61a44483-a850-48cb-80b6-cd5d821fb4d7",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_ab1acf4f-35d3-4e0f-91fd-344b4636a64f",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_db437e8c-d1e5-4f71-9cea-f3cec413d530",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_5650b4df-1f92-400b-a3f9-fedeeaae7d50",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_ecfa138e-2755-4354-8907-527abcd3d6d4",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_89c0b0ba-9135-4afb-acba-601ea0cce779",
+                    "text": "Tongue",
+                    "display-mr": "जीभ",
+                    "display-hi": "जीभ",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_344191f8-1180-4b09-ac34-1a2d2a028ce4",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_5b075b9e-02fd-4caa-a598-9740e8db7a3e",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_ec89492a-2ce7-4ab1-a67a-915476a7518a",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_4ad0d436-b5d2-4ccd-b27f-22d4e23eb99c",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_7a4feb93-15a7-4fc5-b129-cf07e6b21485",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_e38431c6-7db0-4abb-bf37-fd089146b1d5",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_82b94505-440a-476b-95a9-edbb085353d6",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव या तरल निकलना"
+                        },
+                        {
+                            "id": "ID_682438fd-da80-4d96-9ee6-a434fff0161f",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_fa35767f-7288-48f2-95b3-72b0d51eba16",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_459e28ff-cf52-40e2-9804-5e849b7c0fc1",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_82625629-dbfb-4a94-9130-4fb07a9e1f7b",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_26fff6a0-814c-4c2b-8606-049dea4266ee",
+                            "text": "Restricted movement of tongue",
+                            "display-mr": "जिभेची मर्यादित हालचाल",
+                            "display-hi": "जीभ की सीमित गति"
+                        },
+                        {
+                            "id": "ID_8983d0a5-a463-469c-b8da-8bda15044a0f",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_b4c93b00-e69b-46b4-ac21-f13a5544d802",
+                    "text": "Floor of mouth",
+                    "display-mr": "तोंडाचा खालचा भाग",
+                    "display-hi": "मुंह का तल",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_bd333a7d-32f5-4436-9961-b2fe3c76af8a",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_22eaea8f-f973-4b24-b8db-e5e89dee6f5b",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_023562be-c0c9-4c24-bc4c-6d8952084a4b",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_a8236acc-81ab-49f6-a476-6b5e9755849e",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_c9c5f476-ce65-45e1-93ec-8cab6edb3682",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_5521f5b7-522d-4067-abf0-91ef9b3f9171",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_10665107-f3cb-488b-aa78-9dd6c471cef6",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_aa5c7cb5-5cdd-4a96-a105-82ff956172af",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_accb8bc8-e18a-4157-99e0-91e4490a06e1",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_45f9be95-734a-49f0-8e53-63f7e46bd079",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_ee402cf7-ce28-402d-81c8-523211ad05c0",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_5a0cfcb6-3046-4620-a3bc-a541b5034790",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_a19731b9-6732-4a3d-8ef3-434a613fc05a",
+                    "text": "Palate (roof of mouth)",
+                    "display-mr": "टाळू (तोंडातील वरचा भाग )",
+                    "display-hi": "तालू (मुंह की छत)",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_354428b8-9aba-4dbf-8044-c751ddfbc5fc",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_d78c31f2-ca64-4dfb-bfe9-78d0aecdea77",
+                            "text": "Ulcer",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_ec271a85-d0c9-4967-9fe0-d3a3393a1845",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_8174bc15-f98e-4b50-bb23-538b478533a7",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_4f250aac-d64a-4212-9787-2564d582b1aa",
+                            "text": "Red patch",
+                            "display-mr": "लाल पॅच",
+                            "display-hi": "लाल धब्बा"
+                        },
+                        {
+                            "id": "ID_8cda6754-311f-424e-99af-bf26b005fcb8",
+                            "text": "White patch",
+                            "display-mr": "पांढरा ठिपका",
+                            "display-hi": "सफेद धब्बा"
+                        },
+                        {
+                            "id": "ID_566c0f6c-67fd-43d3-aea1-4cd8bd16c9c6",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_eb983061-0abb-4ad9-b552-93582e577c92",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_10401dca-d164-4bba-81df-ca1fc4fc29a4",
+                            "text": "Crusts",
+                            "display-mr": "पापडी / क्रस्ट",
+                            "display-hi": "पपड़ी"
+                        },
+                        {
+                            "id": "ID_1364d3fd-f2f6-4df7-a885-e3b3acb51bb3",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_167e5a91-984b-4a92-bee1-2c30d558fe3c",
+                            "text": "Hardness on palpation",
+                            "display-mr": "तपासतांना कडकपणा जाणवतो",
+                            "display-hi": "स्पर्श पर कठोरता"
+                        },
+                        {
+                            "id": "ID_52b54fbd-3045-4028-9796-551d5801aa1d",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_806ea2cc-41fb-4c98-a4da-ff15d08d9a93",
+                    "text": "Teeth (upper jaw)",
+                    "display-mr": "दात (वरचा जबडा)",
+                    "display-hi": "दांत (ऊपरी जबड़ा)",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_cc5269d3-5da1-4d85-9b14-cea5c759e46d",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_a6c691f0-a634-448f-8e13-8c73aec0d06e",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_ee0d0159-dbdf-4a6b-9fbd-ea498aba4ca7",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_deb2aac8-4171-4a02-90fc-cfdd901bf017",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_952a8f3b-d759-45ef-a61b-3773f1fd0152",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_0f821d2c-03f0-4213-b1bf-d301e637e397",
+                            "text": "Tooth decay",
+                            "display-mr": "दात किडणे",
+                            "display-hi": "दांतों की सड़न"
+                        },
+                        {
+                            "id": "ID_7c22898c-4e50-472a-a109-2120e55702b8",
+                            "text": "Tenderness on touch",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_7bc5fc9f-d0df-45be-8470-a9aafc576db7",
+                            "text": "Loosening of tooth",
+                            "display-mr": "दात सैल होणे",
+                            "display-hi": "दांतों का ढीला होना"
+                        },
+                        {
+                            "id": "ID_2164856b-7459-4064-8578-5880c1bf5a5e",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_4a6c4808-c47c-47b2-8f23-54689f9dfea5",
+                    "text": "Teeth (lower jaw)",
+                    "display-mr": "दात (खालचा जबडा)",
+                    "display-hi": "दांत (निचला जबड़ा)",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_54a3d973-ed4e-49df-9a92-0bb985ace289",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_bb40d588-7221-4bce-b6ee-e2a4f2d14c88",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_34f6d580-56fa-4356-bb29-e921193dd676",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_ace70d29-0e61-4428-ab0c-2ce4c7ffedd6",
+                            "text": "Discharge",
+                            "display-mr": "स्त्राव",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_d6db2b68-5fb4-444d-8898-ccbb0f98e893",
+                            "text": "Bleeding",
+                            "display-mr": "रक्तस्त्राव",
+                            "display-hi": "रक्तस्राव"
+                        },
+                        {
+                            "id": "ID_7be8ac15-38d6-4b5c-b308-49f84e99a1e9",
+                            "text": "Tooth decay",
+                            "display-mr": "दात किडणे",
+                            "display-hi": "दांतों की सड़न"
+                        },
+                        {
+                            "id": "ID_3a335fd3-418d-4589-8687-c01822907174",
+                            "text": "Tenderness on touch",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_5f888d96-c23e-4916-b887-ebfc903e408c",
+                            "text": "Loosening of tooth",
+                            "display-mr": "दात सैल होणे",
+                            "display-hi": "दांतों का ढीला होना"
+                        },
+                        {
+                            "id": "ID_90d26073-a4cf-40db-9a4f-b0d423a337ae",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_2862ddda-68ab-44dd-930b-dff48b84215e",
+                    "text": "Temporomandibular Joint (TMJ): Left",
+                    "display-mr": "जबड्याचा सांधा (TMJ): डावा",
+                    "display-hi": "टेम्पोरोमैंडिबुलर जोड़ (TMJ): बायां",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_e57c4d32-afc3-44b1-84ba-a67712b97870",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_6ef482f2-062b-4a87-a4f1-c48c7c54cfe3",
+                            "text": "Clicking sound",
+                            "display-mr": "क्लिक सारखा आवाज",
+                            "display-hi": "क्लिक की आवाज"
+                        },
+                        {
+                            "id": "ID_abb2d0b1-5503-4124-bcd1-d840fd9367cc",
+                            "text": "Difficulty in mouth opening",
+                            "display-mr": "तोंड उघडण्यास त्रास",
+                            "display-hi": "मुंह खोलने में परेशानी"
+                        },
+                        {
+                            "id": "ID_9ecb3fd8-fde5-4c6c-9060-2b5f060bb754",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_b91181ef-dcf6-4735-950e-4d5a57b97f23",
+                            "text": "Redness",
+                            "display-mr": "लालसरपणा",
+                            "display-hi": "लालिमा"
+                        },
+                        {
+                            "id": "ID_520d4556-922f-4c7d-8b31-1e92d57cf44c",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_ea1171b4-ddbe-4c09-b533-2818e4a8744e",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_e7c2aee6-e3da-425e-8234-79120b8afb5b",
+                    "text": "Temporomandibular Joint (TMJ): Right",
+                    "display-mr": "जबड्याचा सांधा (TMJ): उजवा",
+                    "display-hi": "टेम्पोरोमैंडिबुलर जोड़ (TMJ): दायां",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_b7760436-f4ee-43ab-8161-12d384c5d706",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_f39191c0-1a38-4a55-9280-cf235aa86670",
+                            "text": "Clicking sound",
+                            "display-mr": "क्लिक सारखा आवाज",
+                            "display-hi": "क्लिक की आवाज"
+                        },
+                        {
+                            "id": "ID_f20de0a8-dbc8-43df-b97f-64015645b0c5",
+                            "text": "Difficulty in mouth opening",
+                            "display-mr": "तोंड उघडण्यास त्रास",
+                            "display-hi": "मुंह खोलने में परेशानी"
+                        },
+                        {
+                            "id": "ID_c0a3cae9-c788-4c7a-99b4-c64a15d547ed",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_608d6f97-9362-440a-944e-190203d0dbc4",
+                            "text": "Redness",
+                            "display-mr": "लालसरपणा",
+                            "display-hi": "लालिमा"
+                        },
+                        {
+                            "id": "ID_b4b49a1e-716d-4eeb-b4eb-a2204d824540",
+                            "text": "Tenderness on palpation",
+                            "display-mr": "स्पर्श केल्यावर वेदना जाणवते",
+                            "display-hi": "स्पर्श पर वेदना"
+                        },
+                        {
+                            "id": "ID_5c0d9502-f8b3-409b-a1aa-a0de52ba34ea",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_596f06a3-8bdc-4e68-82e1-4cae4f1709f9",
+                    "text": "Face & Neck region",
+                    "display-mr": "चेहरा आणि मानेचे क्षेत्र",
+                    "display-hi": "चेहरा और गर्दन का क्षेत्र",
+                    "multi-choice": true,
+                    "options": [
+                        {
+                            "id": "ID_210133dd-c321-4619-b646-22f143358a53",
+                            "text": "Normal",
+                            "display-mr": "सामान्य",
+                            "display-hi": "सामान्य"
+                        },
+                        {
+                            "id": "ID_0d815a03-ee2d-4b58-bd9a-328b1ed52dee",
+                            "text": "Swelling",
+                            "display-mr": "सूज येणे",
+                            "display-hi": "सूजन"
+                        },
+                        {
+                            "id": "ID_303b1bb4-fe22-4864-a9f0-f01af7a4849f",
+                            "text": "Growth",
+                            "display-mr": "वाढ",
+                            "display-hi": "उभार"
+                        },
+                        {
+                            "id": "ID_33887892-9cf7-444b-8eb9-a08ce402586f",
+                            "text": "Discharge",
+                            "display-mr": "डिस्चार्ज",
+                            "display-hi": "बहाव"
+                        },
+                        {
+                            "id": "ID_a6e98735-127b-482e-8171-a586ad6bcf1d",
+                            "text": "Ulcers",
+                            "display-mr": "व्रण",
+                            "display-hi": "अल्सर"
+                        },
+                        {
+                            "id": "ID_748da614-7a33-481d-a6af-418751dc29ec",
+                            "text": "Scars",
+                            "display-mr": "चट्टे",
+                            "display-hi": "निशान"
+                        },
+                        {
+                            "id": "ID_b507cc64-e3bc-47bb-9ab2-f96de9758e27",
+                            "text": "Sinus",
+                            "display-mr": "सायनस",
+                            "display-hi": "साइनस"
+                        },
+                        {
+                            "id": "ID_8fa05646-96f2-43f2-862a-247253f7a8b6",
+                            "text": "Fistula",
+                            "display-mr": "फिस्टुला (नाडीव्रण)",
+                            "display-hi": "फिस्टुला (नाडीव्रण)"
+                        },
+                        {
+                            "id": "ID_8483a578-040f-4237-8352-b2acc2aa9348",
+                            "text": "Other",
+                            "display-mr": "इतर",
+                            "display-hi": "अन्य",
+                            "input-type": "text"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_675cf3a6-d7cd-42db-bc0b-ec56405e2f8d",
+                    "text": "Other findings",
+                    "display-mr": "इतर निष्कर्ष",
+                    "display-hi": "अन्य परिणाम",
+                    "input-type": "text"
+                }
+            ]
+        }
+    ]
+}

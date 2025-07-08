@@ -1,0 +1,164 @@
+{
+    "id": "ID_4d2117ee-ee73-4ccc-b5f2-45ce12fb711b",
+    "text": "Sick child (2 mo-5 yr) with Diarrhea",
+    "engineVersion": "3.0",
+    "display-mr": "अतिसार / जुलाब होत असलेले आजारी मूल (2 ते 5 वर्षे)",
+    "display-hi": "पतले दस्त से पीड़ित बीमार बच्चा (2 से 5 वर्ष)",
+    "options": [
+        {
+            "id": "ID_26ae76a4-7fee-410f-b311-b9c20f658525",
+            "text": "Since when the child have had diarrhea?",
+            "display-mr": "मुलाला कधीपासून अतिसार / जुलाब होत आहे?",
+            "display-hi": "बच्चे को कब से पतले दस्त हो रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_92497870-4edc-46be-b35f-f0abe2bbeb4e",
+                    "text": "Since when the child have had diarrhea?",
+                    "display-mr": "मुलाला कधीपासून अतिसार / जुलाब होत आहे?",
+                    "display-hi": "बच्चे को कब से पतले दस्त हो रहे हैं?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_b1e7966f-64d1-46c2-a13c-2d52ad28428c",
+            "text": "Has the child had blood in stools?",
+            "display-mr": "मुलाच्या संडास मध्ये रक्त येत आहे का?",
+            "display-hi": "क्या बच्चे के मल में खून आया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2b222f9f-be0a-4782-8829-377e0b3bd7c0",
+                    "text": "No",
+                    "display-mr": "नाही"
+                },
+                {
+                    "id": "ID_a888e3f3-e56e-4f1b-a66d-f79239f19bb7",
+                    "text": "Yes",
+                    "display-mr": "होय"
+                }
+            ]
+        },
+        {
+            "id": "ID_ea77a032-2a1a-4974-b51d-6d5fc7eced92",
+            "text": "General condition?",
+            "display-mr": "सामान्य स्थिती?",
+            "display-hi": "सामान्य हालत?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_08b71525-36fb-466a-bd55-16d1527e9b3e",
+                    "text": "Active",
+                    "display-mr": "सक्रिय",
+                    "display-hi": "सक्रिय"
+                },
+                {
+                    "id": "ID_c4f2c6c7-6c95-49e6-b70b-67f9bc3b7a83",
+                    "text": "Lethargic",
+                    "display-mr": "सुस्त",
+                    "display-hi": "सुस्त"
+                },
+                {
+                    "id": "ID_c3c29d1d-6389-4594-acba-b58d41669ade",
+                    "text": "Unconscious",
+                    "display-mr": "बेशुद्ध",
+                    "display-hi": "बेहोश"
+                },
+                {
+                    "id": "ID_86db3ea2-eec6-4709-b7c9-ae2c0c09e0ee",
+                    "text": "Restless and irritable",
+                    "display-mr": "अस्वस्थ आणि चिडचिड",
+                    "display-hi": "बेचैन और चिड़चिड़ा"
+                }
+            ]
+        },
+        {
+            "id": "ID_5ab0363a-3da4-4abb-9b02-2f76b1ea66d2",
+            "text": "Sunken eyes?",
+            "display-mr": "आत खोल गेलेले डोळे",
+            "display-hi": "धंसी हुई आंखें?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_08bc0a73-839e-49b7-bae6-37085a9fd037",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_39eb9a09-9fec-4501-abc7-ca29de13d12d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हाँ"
+                }
+            ]
+        },
+        {
+            "id": "ID_92ba6998-7bef-43ee-9f51-945cd557c915",
+            "text": "Is the child able to drink the offered fluid?",
+            "display-mr": "मूल दिलेले द्रव /तरल पदार्थ पिऊ शकते का?",
+            "display-hi": "क्या बच्चा दिया गया तरल पदार्थ पी सकता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1c224709-7390-44cb-99ce-b642c4301e08",
+                    "text": "Drinking normally",
+                    "display-mr": "सामान्यपणे पीत आहे",
+                    "display-hi": "सामान्य रूप से पीना"
+                },
+                {
+                    "id": "ID_6083749a-e003-402e-8e15-2315ea226c60",
+                    "text": "Drinking eagerly & thirsty",
+                    "display-mr": "तहान लागल्याने भरभर पीत आहे",
+                    "display-hi": "प्यास की वजह से तेजी से पीना"
+                },
+                {
+                    "id": "ID_09686856-3196-4829-9e96-2223a92fdfe0",
+                    "text": "Drinking poorly",
+                    "display-mr": "खूप कमी पित आहे",
+                    "display-hi": "कम पीना"
+                },
+                {
+                    "id": "ID_fe97e556-fb0c-4736-bc98-233f1047027a",
+                    "text": "Not able to drink",
+                    "display-mr": "प्यायला जमत नाही",
+                    "display-hi": "पीने में असमर्थ"
+                }
+            ]
+        },
+        {
+            "id": "ID_729afd09-b5dd-49e5-ac2d-473c1d6cd817",
+            "text": "Does the skin go back after skin pinch?",
+            "display-mr": "चिमटा काढल्यानंतर त्वचा परत आत जाते का?",
+            "display-hi": "क्या चिकोटी कटाने के बाद त्वचा वापस सामान्य हो जाती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8625035f-ed90-4127-980c-0069eb7d3721",
+                    "text": "Normally",
+                    "display-mr": "साधारणपणे",
+                    "display-hi": "सामान्य रूप से"
+                },
+                {
+                    "id": "ID_f695b813-5e6b-4e9c-bd76-59c47abe3ff4",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                },
+                {
+                    "id": "ID_9dd32c0c-c407-4a51-ab04-353192a4db26",
+                    "text": "Very slowly (greater than 2 seconds)",
+                    "display-mr": "खूप हळू (greater than 2 सेकंद)",
+                    "display-hi": "बहुत धीरे-धीरे (greater than 2 सेकंड)"
+                }
+            ]
+        }
+    ]
+}

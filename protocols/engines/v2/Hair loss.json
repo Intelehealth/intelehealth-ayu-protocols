@@ -1,0 +1,431 @@
+{
+    "id": "ID_55063605-bbb6-4b77-abc2-4d3dd7781f95",
+    "text": "Hair loss",
+    "engineVersion": "3.0",
+    "display-mr": "केस गळणे",
+    "display-hi": "बालों का झड़ना",
+    "options": [
+        {
+            "id": "ID_d2790d56-382e-4b18-9326-aa8e8045b04b",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a3dfbce3-92f3-4453-a39f-1fd3fde2ad27",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_3291962a-c68b-4b45-ad2f-4f222d36ee98",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने विकसित झाली?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_21f63097-a5a7-4978-8bd0-4f0cf442b4bc",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_c031cf7f-f942-4775-8ada-c34d28e5b316",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_837a67b3-f55d-48a8-b00e-189c59ef3b1c",
+            "text": "Where do you have the hair loss problem?",
+            "display-mr": "केस गळण्याची समस्या तुम्हाला कुठे आहे?",
+            "display-hi": "आपको बाल झड़ने की समस्या कहां है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_aec331a2-00ad-4006-a4dd-bd53da8cfefc",
+                    "text": "Front of scalp",
+                    "display-mr": "टाळूचा पुढचा भाग",
+                    "display-hi": "खोपड़ी का अगला भाग"
+                },
+                {
+                    "id": "ID_4446b189-ac00-4a1a-abbc-202fdd11180f",
+                    "text": "Centre of scalp",
+                    "display-mr": "टाळूच्या मध्यभागी",
+                    "display-hi": "खोपड़ी का मध्य भाग"
+                },
+                {
+                    "id": "ID_df8aebeb-c79f-4e65-b06a-708fa0531374",
+                    "text": "Sides of scalp",
+                    "display-mr": "टाळूच्या बाजूला",
+                    "display-hi": "खोपड़ी के किनारे"
+                },
+                {
+                    "id": "ID_41040383-a078-47bd-8b71-5fc91956bf06",
+                    "text": "Back of scalp",
+                    "display-mr": "टाळूच्या मागे",
+                    "display-hi": "खोपड़ी का पिछला भाग"
+                },
+                {
+                    "id": "ID_1786bf19-093a-460d-ac48-7f21db1c6c46",
+                    "text": "Eyebrows",
+                    "display-mr": "भुवया",
+                    "display-hi": "भौंहें"
+                },
+                {
+                    "id": "ID_712074e0-c2fa-4a42-9b1c-9cab07b19feb",
+                    "text": "Eyelashes",
+                    "display-mr": "पापण्या",
+                    "display-hi": "पलकें"
+                },
+                {
+                    "id": "ID_97780f5b-eb1d-4a96-b3d7-0b9a17e75f61",
+                    "text": "Moustache",
+                    "display-mr": "मिशा",
+                    "display-hi": "मूंछें"
+                },
+                {
+                    "id": "ID_4df5081e-ecf3-4d65-9bcd-f9125ed02574",
+                    "text": "Beard",
+                    "display-mr": "दाढी",
+                    "display-hi": "दाढ़ी"
+                },
+                {
+                    "id": "ID_319a6adc-52a3-46ac-a881-b4256f03bcd0",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fe1107c4-fc2e-4c4e-8ae9-ddf41e878836",
+            "text": "How can you describe the nature of hair loss?",
+            "display-mr": "केसगळतीचे स्वरूप कसे वर्णन करावे?",
+            "display-hi": "आप बाल झड़ने के प्रकार के बारे में कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a14e6836-e0fc-477d-a507-a2c3c1128949",
+                    "text": "Patchy hair loss",
+                    "display-mr": "काही भागात केस गळती",
+                    "display-hi": "पैच में बालों का झड़ना"
+                },
+                {
+                    "id": "ID_9477a187-a503-4fd5-917b-41f956c63c68",
+                    "text": "Diffuse hair loss",
+                    "display-mr": "अधिक भागावरील केस गळणे",
+                    "display-hi": "विस्तृत हिस्से से बालों का झड़ना"
+                },
+                {
+                    "id": "ID_74bd30a6-482e-40a6-af64-3b1cbbcf95b2",
+                    "text": "Thinning of hair",
+                    "display-mr": "केस पातळ होणे",
+                    "display-hi": "बालों का पतला होना"
+                },
+                {
+                    "id": "ID_56c22bd2-635c-43b9-9f39-09fc8d98e483",
+                    "text": "Excess hair shedding",
+                    "display-mr": "जास्त केस गळणे",
+                    "display-hi": "अत्यधिक बालों का गिरना"
+                },
+                {
+                    "id": "ID_f0efacfe-92a5-4b4b-91da-88eb2a11ab73",
+                    "text": "Hair breakage",
+                    "display-mr": "केस तुटणे",
+                    "display-hi": "बालों का टूटना"
+                },
+                {
+                    "id": "ID_240d423d-0132-49db-bf3d-18f0f94d5953",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_6d555e93-008b-40c4-8f49-65cff1454949",
+            "text": "Do you have any of the local features associated with the hair loss?",
+            "display-mr": "केसगळतीशी संबंधित स्थानिक वैशिष्ट्ये तुमच्याकडे आहेत का?",
+            "display-hi": "क्या आपको बाल झड़ने से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_035725e6-4a56-498b-852f-bbba91b37fcf",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5fbc44e0-e4c7-4921-b8f4-6ce9180280a2",
+                    "text": "Burning sensation",
+                    "display-mr": "जळजळ होणे",
+                    "display-hi": "जलन"
+                },
+                {
+                    "id": "ID_335b0744-c13e-498e-90e3-645b8baf1368",
+                    "text": "Itching sensation",
+                    "display-mr": "खाज सुटणे",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_e22bba0b-6a96-46e8-9fe4-6f176268a50e",
+                    "text": "Scaling of skin",
+                    "display-mr": "त्वचेचे स्केलिंग",
+                    "display-hi": "त्वचा पर पपड़ी जमना"
+                },
+                {
+                    "id": "ID_92c53320-e84f-4e53-81db-3b0e583caeb1",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_211a71d7-f9a3-4e24-9560-7c3056c2a0db",
+                    "text": "Ulcers",
+                    "display-mr": "व्रण",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_db562089-14ce-4a92-a87b-82a02f986127",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                }
+            ]
+        },
+        {
+            "id": "ID_67688947-0154-4702-996d-cb67e0f9636d",
+            "text": "How is the hair loss progressing?",
+            "display-mr": "केस गळणे कसे वाढत आहे?",
+            "display-hi": "बाल झड़ने की प्रक्रिया किस तरह से आगे बढ़ रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_20844cc5-81c1-416f-b221-cf361032b71b",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_99a080ed-886f-4856-b744-55e6bdf04718",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_5ae431bc-a87e-4ba5-a8fa-ce08fbe76d40",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_2dcf51b4-0e76-43ef-8a42-2b39d42ef453",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_94076323-2d9c-4c2d-94d7-2813dba5ab1c",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_4dc70fcd-4f98-45ab-85eb-fdfd542958f0",
+                    "text": "Scaly scalp",
+                    "display-mr": "खवलेयुक्त टाळू",
+                    "display-hi": "पपड़ीदार खोपड़ी"
+                },
+                {
+                    "id": "ID_7a2880c0-e8ea-46a8-b616-981af818f5e4",
+                    "text": "Itching of scalp",
+                    "display-mr": "टाळूची खाज सुटणे",
+                    "display-hi": "खोपड़ी में खुजली"
+                },
+                {
+                    "id": "ID_05e881d9-e4c6-44c9-a1a9-a6d7d83068a3",
+                    "text": "Menstrual irregularities",
+                    "display-mr": "मासिक पाळीत अनियमितता",
+                    "display-hi": "माहवारी की अनियमितता"
+                },
+                {
+                    "id": "ID_92ce20c8-b58e-44a7-a1de-bed2bd0a7bda",
+                    "text": "Hair plucking",
+                    "display-mr": "केस उपटणे",
+                    "display-hi": "बालों का झड़ना"
+                },
+                {
+                    "id": "ID_0c27430c-6183-4234-ba58-59d3b0afe7ec",
+                    "text": "Pitting of nails",
+                    "display-mr": "नखांवर खड्डा",
+                    "display-hi": "नाखूनों में गड्ढे"
+                },
+                {
+                    "id": "ID_5ec4da0f-5457-472a-9950-6143981c5305",
+                    "text": "Brittle nails",
+                    "display-mr": "ठिसूळ नखे",
+                    "display-hi": "नाखूनों का टूट जाना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_956816a0-ee14-4ab2-9d6b-30b36ad7e6ab",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_30d5cb0d-1e39-462c-af93-92d852e496c8",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_612d8e13-85de-4f25-bae1-b5f0e42271b8",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_c49a5aa4-b2eb-4edd-bdb0-20afe1228c57",
+                    "text": "Pimples",
+                    "display-mr": "मुरूम",
+                    "display-hi": "मुंहासे"
+                },
+                {
+                    "id": "ID_891cf559-620c-4b93-a1b3-6878893925ea",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_022cb260-ab13-4070-a7e9-ad4a5d17e110",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_5dc332e5-bee9-40a8-bc41-16aac9cec717",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेची खाज सुटणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_6ac5bb48-8d71-46d5-b1ee-64903050a79e",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_faab1a0d-a487-4d18-9f45-3d0227f21929",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_9f905e72-0e0a-45ba-bdb6-cb912e203d23",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडीसाठी असहनशील",
+                    "display-hi": "ठंड बर्दाश्त न कर पाना"
+                },
+                {
+                    "id": "ID_3d6b4c65-703c-416f-9e0b-5a0e725f3bc3",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_921cdb3b-cd05-4708-a35a-4b7729f2f80f",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_55bad7d9-d6d1-4a9d-a3ce-a62d9f9b1812",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_890cb6dd-8361-4e36-8921-c9f85f9ec3de",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fd3ab5e4-eeb7-44fb-af2a-02aafcea81e5",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_809f2d43-4af3-4749-a000-f606ce259317",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_a2464f91-0b3a-40fe-9cbe-32605feab23f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_45037865-6dcb-4ff0-8e38-1aa87fdd163b",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_41f76a7e-5604-4679-a339-83b07f83ddf1",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2f3ae924-5e69-4331-a9b4-4ddc2e8e9aca",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
