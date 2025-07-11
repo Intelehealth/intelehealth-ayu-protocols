@@ -335,7 +335,7 @@
                     "display-hi": "उच्च दबाव के संपर्क में आना (जैसे हवाई यात्रा या स्कूबा डाइविंग)"
                 }
             ],
-            "display": "Do you have the following symptoms?"
+            "display": "Do you have the following symptom(s)?"
         },
         {
             "id": "ID_c8de8f6b-0fb2-4a03-bc65-05259117e286",
