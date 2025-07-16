@@ -174,12 +174,7 @@
             "isRequired": true,
             "multi-choice": false,
             "options": [
-                {
-                    "id": "ID_bd801f1a-fe22-4892-a959-1e5f8381079c",
-                    "text": "Has there been any change in frequency or severity over time?",
-                    "display-mr": "काळाच्या ओघात त्याच्या वारंवारतेमध्ये  किंवा तीव्रतेमध्ये काही फरक पडला आहे का?",
-                    "display-hi": "क्या समय के साथ इसकी आवृत्ति या गंभीरता में कोई बदलाव आया है?"
-                },
+               
                 {
                     "id": "ID_b979b084-e4a9-4b3f-b742-ce957706697c",
                     "text": "Worsening",
@@ -256,7 +251,7 @@
                     "display-hi": "कब्ज"
                 }
             ],
-            "display": "Do you have the following symptom(s)?"
+            "display": "Do you have the following symptoms?"
         },
         {
             "id": "ID_fdaf517f-2cec-4929-bf2e-a2977b90ac17",

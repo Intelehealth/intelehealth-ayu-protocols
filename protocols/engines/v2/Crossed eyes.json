@@ -297,7 +297,7 @@
                     "multi-choice": false
                 }
             ],
-            "display": "Do you have the following symptom(s)?"
+            "display": "Do you have the following symptoms?"
         },
         {
             "id": "ID_63e0f221-45b1-4c11-81ca-ce0bc6351851",

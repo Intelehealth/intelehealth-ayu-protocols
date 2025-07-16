@@ -1,0 +1,467 @@
+{
+    "id": "ID_355a95df-5248-4799-b7c8-7e51f728e79b",
+    "text": "Foreskin problem",
+    "engineVersion": "3.0",
+    "display-mr": "जननेंद्रियाच्या पुढच्या त्वचेची समस्या",
+    "display-hi": "लिंग के बाह्य त्वचा की समस्या",
+    "options": [
+        {
+            "id": "ID_04a52770-a35c-4671-b96d-363b98748dbc",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_caf37dd8-7c4e-458a-90d8-ec8a37c19ea3",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_a781a004-33eb-4854-8034-3cdceab72b29",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने विकसित झाली?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_89b5a197-5247-4517-90c3-07318242658d",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_a7baf794-4350-49bb-b185-6898c22c2243",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_504677cd-e987-4859-a600-eeef59e13ff3",
+            "text": "How can you describe the nature of the foreskin problem?",
+            "display-mr": "तुम्ही जननेंद्रियाच्या पुढच्या त्वचेच्या समस्येच्या स्वरूपाचे वर्णन कसे करू शकाल?",
+            "display-hi": "आप लिंग की चमड़ी की समस्या के बारे में कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_40518083-a92e-48b3-bae0-e22acad5d073",
+                    "text": "Ballooning of foreskin",
+                    "display-mr": "पुढच्या त्वचेचा फुगा",
+                    "display-hi": "फोरस्किन का फूलना"
+                },
+                {
+                    "id": "ID_524495ad-c046-4538-a516-6e747a3fd095",
+                    "text": "Swelling of foreskin",
+                    "display-mr": "पुढच्या त्वचेची सूज",
+                    "display-hi": "फोरस्किन की सूजन"
+                },
+                {
+                    "id": "ID_2a8969e8-61c9-4f2d-8b3d-cf05e53900a3",
+                    "text": "Hooded foreskin",
+                    "display-mr": "हूड केलेली शिस्नाची पुढची त्वचा",
+                    "display-hi": "हुड जैसी फोरस्किन"
+                },
+                {
+                    "id": "ID_e405b4f8-b139-4b33-bb13-4344188f3715",
+                    "text": "Tight foreskin",
+                    "display-mr": "घट्ट पुढची त्वचा",
+                    "display-hi": "कसी हुई फोरस्किन"
+                },
+                {
+                    "id": "ID_ef25a958-62d7-4ac8-a23b-c93783595379",
+                    "text": "Narrow outlet of foreskin",
+                    "display-mr": "शिस्नाच्या पुढच्या त्वचेचा अरुंद आउटलेट",
+                    "display-hi": "फोरस्किन का संकरा छोर"
+                },
+                {
+                    "id": "ID_c16d4dd3-5d58-4b7b-ba84-153f390f0814",
+                    "text": "Foreskin not retractable",
+                    "display-mr": "शिस्नाची पुढची त्वचा मागे घेता येत नाही",
+                    "display-hi": "फोरस्किन पीछे न जा पाना"
+                },
+                {
+                    "id": "ID_8e1f1307-4bc4-4b7f-b3e0-6c9ded37fccf",
+                    "text": "Tighly retracted foreskin",
+                    "display-mr": "घट्ट मागे घेतलेली शिस्नाची पुढची त्वचा",
+                    "display-hi": "कसकर पीछे खिंची हुई फोरस्किन"
+                },
+                {
+                    "id": "ID_48acc432-81cd-4122-821f-14c4a4b9c107",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_1b43477c-c7dd-4a6c-9962-23d5ea7c1af8",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_d9547ffa-96a7-41c8-baa7-2934cb3ccca7",
+            "text": "Do you have pain associated with foreskin problem?",
+            "display-mr": "तुम्हाला जननेंद्रियाच्या पुढच्या त्वचेच्या  समस्येशी संबंधित कोणतीही वेदना होते का?",
+            "display-hi": "क्या आपको लिंग की चमड़ी की समस्या से जुड़ा दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_67593158-68ff-430e-bd13-aff22296685f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_a12c971a-2223-444c-8621-207c127bf06a",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_0ada28b9-adaa-4ec9-b6e3-d801b9870078",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_ab100fcc-134a-46bf-ac95-32dc12c17744",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                                },
+                                {
+                                    "id": "ID_bda3eb65-6e65-4f3d-83e6-ee574f0022b6",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                                },
+                                {
+                                    "id": "ID_78962827-3d98-48dc-a6bf-14439cfc5d82",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                                },
+                                {
+                                    "id": "ID_392a025e-ca6b-4780-9956-a0f41d90ec43",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "खूप तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                                },
+                                {
+                                    "id": "ID_2dd57e06-b1c1-419a-a402-7b4537995f15",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "शक्य तितती सर्वात वाईट वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_8e331a29-e12c-45b2-930c-bc440f8d182f",
+            "text": "Do you have any discharge from foreskin?",
+            "display-mr": "जननेंद्रियाच्या पुढच्या त्वचेमधून कोणताही स्राव होतो का?",
+            "display-hi": "क्या आपकी लिंग की चमड़ी से कोई तरल निकलताा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_35358621-650c-40af-bf1e-8dc29540f868",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_cf46912a-f9f7-4874-9c44-2d51ac4896f7",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_e689e0a6-5b11-4fbb-9105-e25444baec19",
+                            "text": "Did you notice any smell of the discharge?",
+                            "display-mr": "तुम्हाला स्रावाला कोणताही वास येत असल्याचे जाणवले आहे का?",
+                            "display-hi": "निकलने वाले तरल में कैसी गंध है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_b95a409e-89ff-4d4b-8591-fb7f0df702c2",
+                                    "text": "None",
+                                    "display-mr": "कोणताही नाही",
+                                    "display-hi": "कोई नहीं",
+                                    "exclude-from-multi-choice": "true"
+                                },
+                                {
+                                    "id": "ID_47705778-449f-47bb-8263-65fa97aab7dc",
+                                    "text": "Smell of urine",
+                                    "display-mr": "लघवीचा वास",
+                                    "display-hi": "पेशाब की गंध"
+                                },
+                                {
+                                    "id": "ID_ac9642bf-23b9-43e4-9697-c49dcee0305c",
+                                    "text": "Foul smell",
+                                    "display-mr": "दुर्गंधी",
+                                    "display-hi": "बदबू"
+                                },
+                                {
+                                    "id": "ID_71ca643a-ed60-4cd8-a1c6-75137693934f",
+                                    "text": "Fishy smell",
+                                    "display-mr": "माशांसारखा वास",
+                                    "display-hi": "मछली जैसी गंध"
+                                },
+                                {
+                                    "id": "ID_e6eb4300-693d-49de-9846-767ce1315f67",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_84c82906-48eb-4139-82b9-160664cec13c",
+            "text": "How is the foreskin problem progressing?",
+            "display-mr": "जननेंद्रियाच्या पुढच्या त्वचेच्या समस्येमध्ये काही बदल झाला का?",
+            "display-hi": "लिंग की चमड़ी की समस्या में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bee3ce9d-fd8d-48c8-894d-e0521912b466",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_a5f302ca-31a5-4043-b934-53667a6b9162",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_d148cafb-0106-4b2d-8645-950999f92a16",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_eaf7da00-97dd-45c7-92f4-f5976565e80c",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_11f3b84a-d292-4798-b9f2-a460da2bf2ab",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_bbd89b44-02a4-462b-8c8b-8ac087860ec0",
+                    "text": "Discharge from penis",
+                    "display-mr": "शिश्नातून स्त्राव",
+                    "display-hi": "लिंग से तरल निकलना"
+                },
+                {
+                    "id": "ID_9f1972ea-dc5a-4b87-85bf-82e65a9a053b",
+                    "text": "Swelling of penis",
+                    "display-mr": "शिश्नाला सूज येणे",
+                    "display-hi": "लिंग की सूजन"
+                },
+                {
+                    "id": "ID_b13ebd5b-3971-4f19-bdc9-d2f352dc0be3",
+                    "text": "Painful urination",
+                    "display-mr": "वेदनादायक लघवी",
+                    "display-hi": "पेशाब करते समय दर्द होना"
+                },
+                {
+                    "id": "ID_10455ce4-c7fc-4cf5-92fe-028e5946dc07",
+                    "text": "Dribbling of urine",
+                    "display-mr": "लघवीची गळती",
+                    "display-hi": "पेशाब का टपकना"
+                },
+                {
+                    "id": "ID_3b4ec3f2-9e44-4087-b580-917865ff33b6",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार बार पेशाब आना"
+                },
+                {
+                    "id": "ID_782a1c3b-c0d3-4e37-9aba-5c85955d1664",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_d363e5f3-3ecf-4abc-9fab-ba291a86d8d3",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीमध्ये रक्त",
+                    "display-hi": "पेशाब में खून आना"
+                },
+                {
+                    "id": "ID_14a92a5a-30db-4648-8143-742afc584727",
+                    "text": "Itching of penis",
+                    "display-mr": "शिश्नाला खाज सुटणे",
+                    "display-hi": "लिंग की खुजली"
+                },
+                {
+                    "id": "ID_a60c5a85-2bb8-4a08-b4b9-cbe4bcc5b1ff",
+                    "text": "Poor stream of urine",
+                    "display-mr": "लघवीचा अपुरा प्रवाह",
+                    "display-hi": "पेशाब की कमजोर धारा"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_5523308c-7c30-41b5-a151-ac5e633a2a81",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_fd89f93c-a4fb-48b8-9fea-6b2d1e389caf",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_310d70b9-c794-4905-bb2b-19c298f7da24",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_20b732e0-bd6c-46e1-9112-ffe169722338",
+                    "text": "Burning urination",
+                    "display-mr": "लघवी करताना जळजळ होणे",
+                    "display-hi": "जलन के साथ पेशाब"
+                },
+                {
+                    "id": "ID_d7e19daa-d5bf-4e5b-aaa1-9a464cc31400",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "कंपकंपी और ठंड लगना"
+                },
+                {
+                    "id": "ID_f03c0fe8-7ba2-498d-b65c-e80b8f6c71c7",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_9db49195-f663-43d2-ba66-9e2600ffde55",
+                    "text": "Scrotal swelling",
+                    "display-mr": "अंडकोषाला सूज",
+                    "display-hi": "अंडकोष की सूजन"
+                },
+                {
+                    "id": "ID_fdca885a-2bae-4658-bfcc-1cf924b3c107",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_283d7ef0-16cd-4512-a026-4df6e127e186",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजे हुए लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_16bb59b1-f624-4ec9-b85f-578cb8be478d",
+                    "text": "Groin swelling",
+                    "display-mr": "मांडीच्या सांध्याला सूज येणे",
+                    "display-hi": "कमर के नीचे की सूजन"
+                },
+                {
+                    "id": "ID_af5fbce6-5b4f-4fe1-8f09-28a73f111cc8",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_eea251c3-69c4-41c2-9233-5e42c5772cc1",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_eabee7fb-4202-4d6b-925d-5e89e3d92bc6",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b05d7c30-b353-4aef-bca2-ce35d489e96a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_75222c84-e605-422b-a97a-3f367aed5817",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_7342200b-2eb2-42d5-a1cc-56c62674c544",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9886685b-4a57-4b88-942f-c4d38bed2b3c",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f9c4c327-b93f-42c3-8f26-7e81bd1aed93",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

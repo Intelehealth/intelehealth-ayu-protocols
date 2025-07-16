@@ -1,0 +1,847 @@
+{
+    "id": "ID_2e1e53fe-7ba7-4fda-b250-4f55ae47b4fa",
+    "text": "Foot pain",
+    "engineVersion": "3.0",
+    "display-mr": "पाय दुखणे",
+    "display-hi": "पैर में दर्द",
+    "options": [
+        {
+            "id": "ID_73309d81-c7c0-423a-b49e-b11b575531a8",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_07f0ac4f-f8f2-4a69-9b46-b38a9c754d2c",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_52f6d90f-7f59-41f1-a1b0-c48e1a07a053",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_61c4745f-eb58-425c-8adb-26c830e4cfb6",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_8cf0d66d-0455-4de4-89a9-9619b05ab733",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_2d5ad42b-869b-4ac5-a1b2-3c5ab809b1ba",
+            "text": "Did the Foot pain develop after any of these events?",
+            "display-mr": "यापैकी कोणत्याही घटनेनंतर पाय दुखणे विकसित होते का",
+            "display-hi": "क्या यह पैर का दर्द इन घटनाओं के बाद बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0fa7948a-3764-4c81-ab47-ce25444bbc29",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a61ec40d-e696-45a4-9a72-498c0fff98fc",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_cf414b13-241f-4ef4-beaf-d238ecf06ceb",
+                    "text": "Sprain",
+                    "display-mr": "मुरगळणे",
+                    "display-hi": "मोच"
+                }
+            ]
+        },
+        {
+            "id": "ID_ab644fe4-a29f-404b-b379-3c651a7589ee",
+            "text": "Which side of Foot do you have the pain?",
+            "display-mr": "पायाच्या कोणत्या बाजूला दुखत आहे?",
+            "display-hi": "आपको किस पैर में दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2c2731c8-1ba9-4e95-b2d8-4e9cec5e4654",
+                    "text": "Left foot",
+                    "display-mr": "डावा पाय",
+                    "display-hi": "बायां पैर"
+                },
+                {
+                    "id": "ID_79577a26-78f4-4ad3-b607-9948e7a7c503",
+                    "text": "Right foot",
+                    "display-mr": "उजवा पाय",
+                    "display-hi": "दायां पैर"
+                },
+                {
+                    "id": "ID_764d8f8a-54ba-42f8-8f81-a7dc487e65fa",
+                    "text": "Both feet",
+                    "display-mr": "दोन्ही पाय",
+                    "display-hi": "दोनों पैर"
+                }
+            ]
+        },
+        {
+            "id": "ID_67a7776d-9583-403c-b560-6743dc1a25cf",
+            "text": "Which part of the foot do you have the pain?",
+            "display-mr": "पायाचा कोणता भाग तुम्हाला दुखत आहे का?",
+            "display-hi": "पैर के किस हिस्से में आपको दर्द है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d455d3d5-4b14-4c01-9bad-665c2580b8db",
+                    "text": "Forefoot",
+                    "display-mr": "पुढचा पाय",
+                    "display-hi": "पैर का सामने वाल हिस्सा"
+                },
+                {
+                    "id": "ID_901c0f0e-ec9d-435b-961c-38ce5fc9f394",
+                    "text": "Heel",
+                    "display-mr": "टाच",
+                    "display-hi": "एड़ी"
+                },
+                {
+                    "id": "ID_7a072887-cfc9-45e2-81d3-f1cc92f7738f",
+                    "text": "Outer side",
+                    "display-mr": "बाहेरील बाजू",
+                    "display-hi": "बाहरी हिस्सा"
+                },
+                {
+                    "id": "ID_935d39e5-5270-443e-923a-8dd521d4ef38",
+                    "text": "Inner side",
+                    "display-mr": "आतील बाजू",
+                    "display-hi": "अंदर का हिस्सा"
+                },
+                {
+                    "id": "ID_cd4743b1-19f6-4922-bc58-98d7e80e0bc8",
+                    "text": "Sole",
+                    "display-mr": "तळवा",
+                    "display-hi": "तलवा"
+                },
+                {
+                    "id": "ID_2af4479a-cd65-45e1-8ab6-2d6ac31b25f7",
+                    "text": "Upper part",
+                    "display-mr": "वरचा भाग",
+                    "display-hi": "ऊपरी हिस्सा"
+                },
+                {
+                    "id": "ID_680f9c27-bd28-42ae-968b-1733fe7829f1",
+                    "text": "Entire foot",
+                    "display-mr": "संपूर्ण पाय",
+                    "display-hi": "पूरा पैर"
+                }
+            ]
+        },
+        {
+            "id": "ID_958141b5-ce83-4f0f-b9f8-d3485dcb8df2",
+            "text": "How can you describe the character of foot pain?",
+            "display-mr": "पायाच्या वेदनांचे वर्णन कसे कराल?",
+            "display-hi": "आप पैर के दर्द के लक्षण को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6b9b496b-8491-4450-957b-9001dc60b675",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ वेदना",
+                    "display-hi": "जलन जैसा दर्द"
+                },
+                {
+                    "id": "ID_b33c881c-f96a-44eb-9d6e-c367bc90a449",
+                    "text": "Sharp pain",
+                    "display-mr": "तीव्र वेदना",
+                    "display-hi": "चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_2dfd619b-1e9b-4022-8f0c-2ebc25c093de",
+                    "text": "Stabbing pain",
+                    "display-mr": "घाव घातल्यासारखे दुखणे",
+                    "display-hi": "तीव्र चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_f6110063-1c35-4f1e-a40c-d910ea758fc3",
+                    "text": "Pressure pain",
+                    "display-mr": "दबाव वेदना",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_57b83d93-8875-4058-8792-63cdb8888191",
+                    "text": "Dull aching pain",
+                    "display-mr": "निस्तेज वेदनादायक वेदना",
+                    "display-hi": "धीमा-धीमा दर्द"
+                },
+                {
+                    "id": "ID_1408f68b-4ec0-4099-a079-0ba14dd08aa9",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधडणारी वेदना",
+                    "display-hi": "धड़कता हुआ दर्द"
+                },
+                {
+                    "id": "ID_9b92ee02-28e1-4736-940d-266528ddb338",
+                    "text": "Shooting pain",
+                    "display-mr": "शूटींग वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_fc208cba-104a-4ef6-9f23-0c3ca6cb812e",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "नहीं पता"
+                }
+            ]
+        },
+        {
+            "id": "ID_8d075ba7-2692-4daf-aa45-7af8d6c03d59",
+            "text": "How severe is the foot pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "पैर के दर्द की गंभीरता कितनी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e21bfba9-c241-4ae2-b8ba-5a3fb02ff55e",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_70b2d512-3b79-4e26-9c9d-779d0e0ff14a",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_dd54313d-056b-46e5-9e98-14b611aa101d",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_4a398e7f-aba5-4438-a9a8-c3bd654794f3",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_11feada5-3657-4f39-8350-6a8d20f461e6",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_c733647f-d94e-4918-812f-ef1a79aaa8f0",
+            "text": "What does relieve or lessen the foot pain?",
+            "display-mr": "पाय दुखणे कशाने आराम देते किंवा कमी होते?",
+            "display-hi": "क्या चीजें पैर के दर्द को कम या राहत देती हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0f72d1f9-0762-4953-830a-d6098f6df2ef",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f6f0d0f4-a5f1-4c11-8577-2940b7ed5017",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_6d57f6a0-db58-41a9-ac35-d8ce147a292b",
+                    "text": "Ice packs",
+                    "display-mr": "आईस पॅक्स",
+                    "display-hi": "बर्फ के पैक"
+                },
+                {
+                    "id": "ID_a59da9e2-651f-466f-b3e7-92421719e2cd",
+                    "text": "Heating packs",
+                    "display-mr": "हीटिंग पॅक",
+                    "display-hi": "गर्मी के पैक"
+                },
+                {
+                    "id": "ID_cdf9eaed-8995-4574-a27e-984a4f85d3cf",
+                    "text": "Elevation of part",
+                    "display-mr": "सदर भाग उंचावर ठेवल्यास",
+                    "display-hi": "दर्द वाले भाग  को ऊंचा करना"
+                },
+                {
+                    "id": "ID_71df57c6-e680-40a4-9228-0d4b233d423e",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (विवरण दें)",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_d53d58a8-13f0-4181-9fdb-497ffff93e39",
+                    "text": "Other (describe)",
+                    "display-mr": "इतर (वर्णन)",
+                    "display-hi": "अन्य (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1fbb58ee-6432-486d-8c1c-8551d747559d",
+            "text": "What does increase or worsen the foot pain?",
+            "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
+            "display-hi": "पैर के दर्द को क्या बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1da9a1a3-46b2-4af8-a107-3f4db5159546",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_84752496-701f-45ee-b720-3a27da0eb1ac",
+                    "text": "Walking",
+                    "display-mr": "चालणे",
+                    "display-hi": "चलना"
+                },
+                {
+                    "id": "ID_3ea3ac38-ed93-4e92-bf26-aabef31bb971",
+                    "text": "Running",
+                    "display-mr": "धावणे",
+                    "display-hi": "दौड़ना"
+                },
+                {
+                    "id": "ID_33e20b90-bb44-479e-acb1-1f4f3587703c",
+                    "text": "Jumping",
+                    "display-mr": "उड्या मारणे",
+                    "display-hi": "कूदना"
+                },
+                {
+                    "id": "ID_ec2cba59-cb45-4c9e-af1a-f892118a3c9b",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_ebb09b24-feb1-4385-b2ac-8c1397e5c5d1",
+                    "text": "Certain footwear",
+                    "display-mr": "काही पादत्राणे",
+                    "display-hi": "कुछ जूते"
+                },
+                {
+                    "id": "ID_6a9815ca-b0ab-42bf-86dd-56fdde24546b",
+                    "text": "Climbing upstairs",
+                    "display-mr": "वरच्या मजल्यावर चढणे",
+                    "display-hi": "सीढ़ियां चढ़ना"
+                },
+                {
+                    "id": "ID_936476f3-b6fa-47e0-ade8-86e826e658dc",
+                    "text": "Going downstairs",
+                    "display-mr": "खाली उतरणे",
+                    "display-hi": "सीढ़ियां उतरना"
+                },
+                {
+                    "id": "ID_41b913df-8ee6-4f00-9718-39fc035d67aa",
+                    "text": "Prolonged sitting",
+                    "display-mr": "प्रदीर्घ बसणे",
+                    "display-hi": "लंबे समय तक बैठना"
+                },
+                {
+                    "id": "ID_d914319d-8e7f-44c8-b6d5-5f473c0d4cba",
+                    "text": "Prolonged standing",
+                    "display-mr": "प्रदीर्घ उभे राहणे",
+                    "display-hi": "लंबे समय तक खड़ा रहना"
+                },
+                {
+                    "id": "ID_fa714f03-1d25-4737-95ce-55aace341c0a",
+                    "text": "Certain foods",
+                    "display-mr": "काही खाद्यपदार्थ",
+                    "display-hi": "कुछ खास खाने-पीने की चीजें"
+                },
+                {
+                    "id": "ID_8c329948-9c60-400d-9cfc-afbf7bacf4ea",
+                    "text": "Other (describe)",
+                    "display-mr": "इतर (वर्णन)",
+                    "display-hi": "अन्य (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4b31884e-54df-4217-b405-c1c06f6c6731",
+            "text": "How is foot pain progressing?",
+            "display-mr": "पायाच्या दुखण्यामध्ये काही बदल?",
+            "display-hi": "पैर के दर्द में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c5e4b055-2c0e-4fe1-9089-b55eaca680b5",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_307be116-26d8-4961-bde4-9357849714ea",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_865ffe2e-2d39-42cb-a2fa-b6f1af44ce16",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार—बार होने वाला"
+                },
+                {
+                    "id": "ID_d6dff5fe-8a54-4438-99d1-12d325497dc2",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_63f9bf3f-0bfd-48d1-9b22-8108824eab9d",
+            "text": "Does the foot pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासां दरम्यान पाय दुखण्याचे काही चक्र असते का?",
+            "display-hi": "क्या पैर का दर्द 24 घंटे के दौरान किसी विशेष तरीके से होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5a32db95-f20f-40d4-93c9-13b3618acc6a",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_242be109-7177-4ed5-8104-0bdb2df93596",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "कभी आने वाला और कभी जाने वाला दर्द",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_745f32af-13e7-45db-a8af-7a8f604a37a2",
+                            "text": "How does the foot pain change during the 24 hour period?",
+                            "display-mr": "24 तासांच्या कालावधीत पाय दुखणे कसे बदलते?",
+                            "display-hi": "24 घंटे के दौरान पैर के दर्द में कैसे बदलाव आता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_a2113907-8095-4eb5-802a-203b55993133",
+                                    "text": "Worse in morning",
+                                    "display-mr": "पहाटेची स्थिती आणखीनच बिकट",
+                                    "display-hi": "सुबह ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_5e57b354-e316-4bf3-a6e1-75630d1effc4",
+                                    "text": "Worse in night",
+                                    "display-mr": "रात्रीच्या वेळी तर आणखीनच त्रास होतो",
+                                    "display-hi": "रात को ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_74496278-faea-48ec-a1ae-4fc2ae837692",
+                                    "text": "Worse when first moving",
+                                    "display-mr": "प्रथम हालचाल करताना वाईट",
+                                    "display-hi": "पहली बार हिलने पर ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_ca10d58b-a1e6-457c-aa18-0e19236cd46b",
+                                    "text": "Better on moving",
+                                    "display-mr": "हालचाल करणे चांगले",
+                                    "display-hi": "हिलने से आराम मिलता है"
+                                },
+                                {
+                                    "id": "ID_dda4a74a-b1de-4d14-a1a1-d62c77058e61",
+                                    "text": "Worsens during day",
+                                    "display-mr": "दिवसा बिघडते",
+                                    "display-hi": "दिन में ज्यादा बढ़ता है"
+                                },
+                                {
+                                    "id": "ID_257beedf-0bc8-45d1-a91f-4ffc15e42d1b",
+                                    "text": "Worsens on prolonged use",
+                                    "display-mr": "दीर्घकाळापर्यंत वापरल्यास बिघडते",
+                                    "display-hi": "लंबे समय तक उपयोग करने से बढ़ता है"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9df169af-b0db-4e8d-80fa-6e777832acf3",
+            "text": "Does the Foot pain move to other parts of the body?",
+            "display-mr": "पाय दुखणे शरीराच्या इतर भागात जाते का?",
+            "display-hi": "क्या पैर का दर्द शरीर के अन्य हिस्सों में फैलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b11aae9e-93c9-41ac-9fc8-b56dd6058d4a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1ae95817-4791-4da0-bef5-6d7eb22b7abe",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_71352c7d-db40-4e4a-ae21-9075ef5546a8",
+                            "text": "The Foot pain moves to",
+                            "display-mr": "पाय दुखणे पुढे सरकते",
+                            "display-hi": "पैर का दर्द कहां फैलता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_99a80c9d-9856-40a7-b5c5-e3e38b3bb477",
+                                    "text": "Toes",
+                                    "display-mr": "पायाचे बोट",
+                                    "display-hi": "पैर की उंगलियों में"
+                                },
+                                {
+                                    "id": "ID_90bfeb7b-28f1-4a16-a68e-a0760badd613",
+                                    "text": "Ankle",
+                                    "display-mr": "घोट्याचा घोट",
+                                    "display-hi": "टखना"
+                                },
+                                {
+                                    "id": "ID_976734c5-403d-4f50-ad99-ef49bb968652",
+                                    "text": "Shin of lower leg",
+                                    "display-mr": "खालच्या पायाची नडगी",
+                                    "display-hi": "निचले पैर की हड्डी"
+                                },
+                                {
+                                    "id": "ID_78e142f0-0688-4e74-8243-6c32d7469140",
+                                    "text": "Calf",
+                                    "display-mr": "पोटरी",
+                                    "display-hi": "पिंडली"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_a702462a-c235-4928-9e8b-aa0af88c9c73",
+            "text": "Do you have any of these local associated features with the foot pain?",
+            "display-mr": "तुमच्या पायाच्या दुखण्याशी संबंधित स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या पैर के दर्द के साथ इनमें से कोई और जुड़े हुए लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_22870e73-9cc5-4499-8bfe-7d5aa059bce0",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_8a6799f9-d972-4958-9195-62c77a191ec9",
+                    "text": "Swelling",
+                    "display-mr": "सूज येणे",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_ba3a387c-ee2a-4793-8fa7-322906343f7d",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_6eb13eb3-743f-45f3-b2dc-e49375797591",
+                    "text": "Stiffness",
+                    "display-mr": "कडकपणा",
+                    "display-hi": "जकड़न"
+                },
+                {
+                    "id": "ID_684505dd-cb2d-4c44-a3fb-f6892a399439",
+                    "text": "Deformity",
+                    "display-mr": "अनैसर्गिकता",
+                    "display-hi": "विकृति"
+                },
+                {
+                    "id": "ID_c5f84047-3fa6-495c-9233-fa265165fbe1",
+                    "text": "Warmth",
+                    "display-mr": "उष्णता",
+                    "display-hi": "गर्माहट"
+                }
+            ]
+        },
+        {
+            "id": "ID_74ec5d66-3235-4a62-8d18-0463f56d06df",
+            "text": "Does the foot pain affect any of your daily activities?",
+            "display-mr": "पायदुखीचा तुमच्या दैनंदिन कामांवर परिणाम होतो का?",
+            "display-hi": "क्या पैर का दर्द आपकी दैनिक गतिविधियों को प्रभावित करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e249a042-a4d5-414e-8267-208f717fff92",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b0f80e6d-7b83-4a47-9cd0-773c3b6174de",
+                    "text": "Walking with a limp",
+                    "display-mr": "लंगडत चालणे",
+                    "display-hi": "लंगड़ाकर चलना"
+                },
+                {
+                    "id": "ID_d67aeaa3-c38e-49a7-b62c-82a1cf6285dc",
+                    "text": "Unable to walk",
+                    "display-mr": "चालता येत नाही",
+                    "display-hi": "चल नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_26a0332d-13ab-4938-bdf1-dd18adb85228",
+                    "text": "Unable to run",
+                    "display-mr": "धावता येत नाही",
+                    "display-hi": "दौड़ नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_e14e70f6-1d46-4196-81b6-878ecf5efa42",
+                    "text": "Unable to climb",
+                    "display-mr": "चढता येत नाही",
+                    "display-hi": "चढ़ नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_ce409444-6633-4dfb-aefa-cd7e3b3793b9",
+                    "text": "Unable to bear weight",
+                    "display-mr": "वजन सहन करू शकत नाही",
+                    "display-hi": "वजन सहन नहीं कर पा रहे हैं"
+                },
+                {
+                    "id": "ID_201241ef-45c0-4a02-9772-fb36946c1e6e",
+                    "text": "Unable to fold",
+                    "display-mr": "दुमडण्यास असमर्थ",
+                    "display-hi": "मोड़ नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_a47b96c7-e225-452b-991c-9782a317106a",
+                    "text": "Unable to stretch",
+                    "display-mr": "ताणणे शक्य नाही",
+                    "display-hi": "फैला नहीं पा रहे हैं"
+                }
+            ]
+        },
+        {
+            "id": "ID_4e73bd7c-e70a-4ecc-8a1a-912a76c4be22",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_cd869047-c343-4c84-82c9-3fa66149a55b",
+                    "text": "Swelling of feet",
+                    "display-mr": "पायांना सूज येणे",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_120f3713-99d5-4562-bd4c-28973010d04c",
+                    "text": "Swelling of toe joints",
+                    "display-mr": "पायाच्या सांध्यातील सूज",
+                    "display-hi": "पैर की उंगलियों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_0a898064-25f8-40ff-8552-34b81167231e",
+                    "text": "Ankle pain",
+                    "display-mr": "घोट्याचे दुखणे",
+                    "display-hi": "टखने में दर्द"
+                },
+                {
+                    "id": "ID_17e96f36-dc0e-4481-a6b0-0a10d2758c4c",
+                    "text": "Swelling of ankle joints",
+                    "display-mr": "घोट्याच्या सांध्यातील सूज",
+                    "display-hi": "टखने के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_2fadd5d4-ef64-45f4-8984-35ffd480bc4b",
+                    "text": "Foot ulcers",
+                    "display-mr": "पायाच्या अल्सर",
+                    "display-hi": "पैरों में घाव (फोड़ा)"
+                },
+                {
+                    "id": "ID_03c5fa19-b87d-4bcf-8b30-05078d07493d",
+                    "text": "Corn on foot",
+                    "display-mr": "तळपायाला घट्टा",
+                    "display-hi": "पैर पर मस्सा"
+                },
+                {
+                    "id": "ID_6a9a81c1-fb36-47cd-9fad-e7d96912540c",
+                    "text": "Swelling of elbow joints",
+                    "display-mr": "कोपर सांध्यामध्ये सूज",
+                    "display-hi": "कोहनी के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_2fec33de-3b23-48a9-b087-5c265522430c",
+                    "text": "Wrist pain",
+                    "display-mr": "मनगटात वेदना",
+                    "display-hi": "कलाई में दर्द"
+                },
+                {
+                    "id": "ID_22f775f6-7a6a-4e8d-a44f-b339eb8831fd",
+                    "text": "Swelling of wrist joints",
+                    "display-mr": "मनगटाच्या सांध्यातील सूज",
+                    "display-hi": "कलाई के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_a630b7d6-2b49-4dc1-8c38-0df94aa335db",
+                    "text": "Swelling of finger joints",
+                    "display-mr": "बोटांच्या सांध्याची सूज",
+                    "display-hi": "उंगलियों के जोड़ों में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_ca771cbe-e005-4ebf-a26f-50f5c29ecc3f",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_3fd5fd1b-f74d-4647-8312-032b4df7616c",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3b78b95b-8812-43d7-b0e1-53231c36126f",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_628c6fdc-d7fe-41f1-9fcd-2ce78aa810a4",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "कांपना और ठंड के झटके"
+                },
+                {
+                    "id": "ID_6341a4c9-e344-4102-84da-52def27063ec",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_2c2f86b2-90e0-4721-b3cc-b42f9fb96bf7",
+                    "text": "Mouth ulcers",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह के छाले"
+                },
+                {
+                    "id": "ID_e5582bbf-f8d7-4ae3-b026-e1c68d0d4e6a",
+                    "text": "Eye redness",
+                    "display-mr": "डोळ्याचा लालसरपणा",
+                    "display-hi": "आंखों में लालिमा"
+                },
+                {
+                    "id": "ID_a7dda81a-38ea-447c-83e8-aceb3345cb28",
+                    "text": "Photosensitivity",
+                    "display-mr": "प्रकाशसंवेदनशीलता",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_b257e2f8-eb0d-4f70-b216-f6013fd6c775",
+                    "text": "Fatigue (general weakness)",
+                    "display-mr": "थकवा (सामान्य कमकुवतपणा)",
+                    "display-hi": "थकान (सामान्य कमजोरी)"
+                },
+                {
+                    "id": "ID_f22945f3-98e1-4b38-a538-b0d8743fd78b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_3283312c-ede0-4409-820c-d8e1bf674019",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4a06b585-3f7a-4d38-aabe-b5cff025a203",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_24a1b04d-429f-48c8-a888-dd00af05c327",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_4fa9d2c1-22c4-49e6-ba0e-56df73a9bff6",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_955b5c18-060b-4f97-ab92-e8050f61bee2",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_9a9f8609-c116-4363-94e3-4932a865ff3f",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
