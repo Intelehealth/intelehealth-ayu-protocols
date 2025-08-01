@@ -1,0 +1,359 @@
+{
+    "id": "ID_7ea81934-28b2-4e40-ab47-3bcebc7d6a1b",
+    "text": "Deviation of mouth",
+    "engineVersion": "3.0",
+    "display-mr": "तोंड वाकडे होणे",
+    "display-hi": "मुंह का टेढ़ा होना",
+    "options": [
+        {
+            "id": "ID_ef04d719-4b4a-485c-8ffe-274541e123f9",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8c5679a9-5828-4fb6-8e9a-f330f4b3ef67",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_bee61ff2-69a3-4d04-8056-30146c33af95",
+            "text": "How fast did the deviation of mouth develop?",
+            "display-mr": "तोंडाचे विचलन  / तोंड वाकडे होणे किती वेगाने विकसित झाले?",
+            "display-hi": "मुंह का टेढ़ा होना कितनी तेजी से बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_84e3d6bc-0c2c-44c8-b756-d41fa385d3ff",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_14b95058-094a-49c0-8761-f14dbe8bc525",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_adb52d87-a493-40b6-b86a-665211f25da1",
+            "text": "Which side of mouth do you have deviation?",
+            "display-mr": "तुमच्या तोंडाच्या कोणत्या बाजूला विचलन झाले आहे?",
+            "display-hi": "आपके मुंह के किस तरफ टेढ़ापन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_61bc8961-924a-4577-940d-856588c8a531",
+                    "text": "Left",
+                    "display-mr": "डावीकडे",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_81f10a19-22ee-4840-a502-032c93255887",
+                    "text": "Right",
+                    "display-mr": "उजवाकडे",
+                    "display-hi": "दाहिने"
+                },
+                {
+                    "id": "ID_20f0323a-e13c-4934-94d7-fce6bfac5e9c",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंना",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_2e458245-98b0-45e4-a024-1e291940283a",
+            "text": "Do you have any pattern in mouth deviation in a 24 hour day cycle?",
+            "display-mr": "दिवसाच्या 24 तासांमध्ये तुमच्या तोंडाचे विचलन होण्याचे काही चक्र आहे का?",
+            "display-hi": "क्या आपको 24 घंटे के दैनिक चक्र में मुंह का टेढ़ापन का कोई पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d1fe5017-64a1-43ef-a588-e80e082981d9",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_978903ef-9243-4bbd-a803-0639402f8169",
+                    "text": "Intermittent (come & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता—जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_5feb73b0-918e-4752-b823-4863a876c0ce",
+                            "text": "Which part of the day do you notice deviation of mouth the worst?",
+                            "display-mr": "तुमच्या तोंडाच्या कोणत्या भागाचे सर्वात जास्त विचलन झाल्याचे तुम्हाला आढळते?",
+                            "display-hi": "दिन के किस भाग में आपको मुंह का टेढ़ापन सबसे अधिक हुआ लगता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_90135452-5939-474e-81c3-98a23e893d07",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_627f6386-3c0b-407d-84a1-da852ab0b811",
+                                    "text": "Afternoon",
+                                    "display-mr": "दूपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_d0ff9b89-ac83-4f44-88e8-94c7a523889f",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_c478d363-335e-456a-85a1-5feb14de6ca3",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_eef11861-fda5-4f5f-aeaf-e9ee0f0f587f",
+            "text": "How is the progress of the deviation of mouth?",
+            "display-mr": "तोंडाच्या विचलनाची स्थिती कशी आहे?",
+            "display-hi": "मुंह के टेढेपन में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9016bb74-56e6-423c-9fb4-f4c3bbe893ae",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_3bf2798c-7f2e-4576-8554-ae702adb72bd",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_3abcda31-8dfc-4e23-a7d6-40f6b30314b2",
+                    "text": "Recurrent (on & off)",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार बार आना (आता और जाता है)"
+                },
+                {
+                    "id": "ID_024304d3-1929-4ba0-aa89-c4e9afbb1a6a",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_a40c7a38-0423-431c-93f2-e753f31f2a3c",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8f350861-141b-4df8-a93b-5badd3c2509b",
+                    "text": "Difficulty speaking",
+                    "display-mr": "बोलताना त्रास होणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_c0201f56-6f15-4f7f-96db-95537fc4a768",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_620f824d-2e54-4540-b9aa-ade745a49bb6",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार का बहना"
+                },
+                {
+                    "id": "ID_be9d4c18-5bc1-48a9-b6c2-4ded7462a3d1",
+                    "text": "Poor closure of eyelid",
+                    "display-mr": "पापणी नीट बंद न होणे",
+                    "display-hi": "आंख पूरी तरह से नहीं बंद होती"
+                },
+                {
+                    "id": "ID_735aef17-ae65-4aeb-9189-32c363f299a1",
+                    "text": "Loss of taste",
+                    "display-mr": "तोंडाची चव जाणे",
+                    "display-hi": "स्वाद खत्म हो जाना"
+                },
+                {
+                    "id": "ID_348284cc-a2fa-4cd8-ac0c-f0088e777a38",
+                    "text": "Change in taste",
+                    "display-mr": "तोंडाची चव बदलणे",
+                    "display-hi": "स्वाद में बदलाव"
+                },
+                {
+                    "id": "ID_c7cb5127-3360-4492-913b-d48766ba7acd",
+                    "text": "Increased sensitivity to sound",
+                    "display-mr": "आवाजाबद्दल वाढलेली संवेदनशीलता",
+                    "display-hi": "ध्वनि से चिढ़"
+                },
+                {
+                    "id": "ID_6cc2f69d-02b0-4c5b-a3b3-7127d50c1dcf",
+                    "text": "Jaw pain",
+                    "display-mr": "जबडा दुखणे",
+                    "display-hi": "जबड़े का दर्द"
+                },
+                {
+                    "id": "ID_60cef060-0f05-4239-8ab7-59ed61b8822b",
+                    "text": "Ear discharge",
+                    "display-mr": "कानातून स्राव होणे",
+                    "display-hi": "कान का बहना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_ce6f23de-6d4c-44f5-8cbe-53513cda64e4",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_eed84b1c-0a65-4588-a9f1-abce55c28125",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ba2cf321-9b33-49c1-b1c4-f99de961d962",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_d2b1f626-94a9-4fd4-bf3a-522dddf105f2",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_8b181d02-8868-4e81-a94e-2344688c7233",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी होना"
+                },
+                {
+                    "id": "ID_5f8c0bb4-625b-4f77-8bb5-d5db96da2db7",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातपाय अशक्त होणे",
+                    "display-hi": "अंगों की कमजोरी"
+                },
+                {
+                    "id": "ID_78ef7784-94ba-4022-9da2-61cd0a430053",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_9eeb98ae-0c54-41b3-bd12-3b506f6865cd",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटना"
+                },
+                {
+                    "id": "ID_eb819ec5-d2dc-4f28-925c-25f995cfe730",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_5b74615b-8f73-4a3d-9f8f-669f7aae2ac5",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार बार पेशाब आना"
+                },
+                {
+                    "id": "ID_2bf8f361-722c-41cf-8217-ba3380876ee1",
+                    "text": "Tingling and numbness",
+                    "display-mr": "मुंग्या येणे आणि बधीरपणा",
+                    "display-hi": "झुनझुनी और सुन्नता"
+                },
+                {
+                    "id": "ID_0d50fa53-f9b3-4437-b4c4-f34a630d5f04",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7a4bbd2d-8865-43d1-bfca-b780fa45cebc",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_556fa55a-a5f1-464b-bf55-5939ef8d540f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d70a45ce-b8be-4902-b583-6eb47c52188a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_2c72cfac-f043-440a-b351-8716bd5042ba",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_130bd3e2-ba93-4272-8fe6-44b056da6a12",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1d0b783d-c5db-4d91-8e84-1b508eb6441f",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

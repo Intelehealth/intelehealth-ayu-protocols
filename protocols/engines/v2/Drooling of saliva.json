@@ -1,0 +1,458 @@
+{
+    "id": "ID_5ef2112a-5f14-4fa0-96ff-f1a887be5404",
+    "text": "Drooling of saliva",
+    "engineVersion": "3.0",
+    "display-mr": "लाळ गळणे",
+    "display-hi": "लार टपकना",
+    "options": [
+        {
+            "id": "ID_940926ff-e142-4c38-bd66-c1bb599ee3dc",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d65c68e-3fde-4999-b44f-419e14df0625",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_f69e8fe1-b3ae-4e1b-bf49-227dc780655b",
+            "text": "How fast did drooling of saliva develop?",
+            "display-mr": "लाळ गळणे किती वेगाने वाढले?",
+            "display-hi": "लार टपकने की समस्या कितनी तेजी से बढ़ी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fe9c55cc-42d2-44ca-9be4-9da19905191e",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_64ce9856-d266-464d-a846-c55e6b13de2f",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_005b4713-b644-4523-8926-73a93457d893",
+            "text": "Which side of mouth do you have drooling of saliva?",
+            "display-mr": "तुमची लाळ तोंडाच्या कुठल्या बाजूने गळते?",
+            "display-hi": "मुंह के किस तरफ से आपको लार टपकने की समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5ca1a6ff-5054-4838-9edd-36bcb8742914",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बाईं ओर"
+                },
+                {
+                    "id": "ID_06499d0d-66b9-41ac-a5ba-84b880adaf17",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दाईं ओर"
+                },
+                {
+                    "id": "ID_22464b44-86d7-471a-9c8b-0be9c14cdef2",
+                    "text": "Both sides of mouth",
+                    "display-mr": "तोंडाच्या दोन्ही बाजूने",
+                    "display-hi": "मुंह के दोनों ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_894feb44-537e-4f45-a837-508d23e36cdd",
+            "text": "What worsens the drooling of saliva?",
+            "display-mr": "लाळ गळणे कशामुळे बळावते?",
+            "display-hi": "लार टपकने की समस्या किस वजह से और खराब होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_814d53e5-4bdb-4fb1-995d-c904cfe1ee77",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_bea7d780-6399-489d-8176-ee154d72e01d",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_8a4a4cb7-f362-4bf0-b8e7-2f8f2b637752",
+                    "text": "Ill-fitting denture",
+                    "display-mr": "व्यवस्थित न बसणारी कवळी",
+                    "display-hi": "ठीक से फिट न होने वाला डेन्चर"
+                },
+                {
+                    "id": "ID_9a8897b4-deb9-45a7-b601-99cae6c66de4",
+                    "text": "Certain posture",
+                    "display-mr": "विशिष्ट स्थिती",
+                    "display-hi": "कुछ खास मुद्राएं"
+                },
+                {
+                    "id": "ID_60e30889-75d6-4b82-8fe5-8578c8b839fc",
+                    "text": "Certain food",
+                    "display-mr": "विशिष्ट अन्नपदार्थ",
+                    "display-hi": "कुछ भोजन"
+                },
+                {
+                    "id": "ID_a6473b66-794d-4539-8ddb-bee404281b3b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c4d85e81-e90a-45b5-8569-7535cdcdbeac",
+            "text": "How severe is the drooling?",
+            "display-mr": "लाळ गळणे कशामुळे तीव्र होते?",
+            "display-hi": "लार टपकने की समस्या कितनी गंभीर होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6359a2c6-b397-45a9-901a-841d3f4c2228",
+                    "text": "Mild",
+                    "display-mr": "सौम्य",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_32fb56f4-ed70-48c0-a769-d756552fec57",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_b41dda24-ed9f-4d78-9ae8-3483f8ad5ae8",
+                    "text": "Severe",
+                    "display-mr": "तीव्र",
+                    "display-hi": "गंभीर"
+                }
+            ]
+        },
+        {
+            "id": "ID_715a1165-f58a-4dc7-b2b8-f2da3bb4f5b7",
+            "text": "Does drooling of saliva have any pattern during a 24 hr cycle?",
+            "display-mr": "लाळ गळण्याचे गेल्या 24 तासांच्या आवर्तनामध्ये काही स्वरूप होते का?",
+            "display-hi": "क्या 24 घंटे के चक्र में लार टपकने की कोई पैटर्न होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2155c005-955a-4153-94b6-a8f6cc2a6b37",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_1fbbaf1f-2372-4edb-9d1e-a20e8ca4fe1e",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधून-मधून (येते व जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_e136a375-6fb1-4349-8566-99d79341da26",
+                            "text": "When do you have the drooling of saliva worst?",
+                            "display-mr": "तुमचे लाळ गळणे सर्वात वाईट कधी असते?",
+                            "display-hi": "आपको लार टपकने की समस्या सबसे ज्यादा कब होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_cff28181-2d15-44b4-8b98-cf9701f28c20",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_48400f9e-afbc-4f59-af61-e4625138a1e0",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_b3f27f64-b211-4c59-8a55-65f05989a6d3",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_84a8c774-f99f-489c-adb2-a09925a774d2",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_7a60767f-fb22-4261-8d68-00c6e61da3b2",
+            "text": "How long does drooling of saliva last?",
+            "display-mr": "लाळ गळणे किती काळ चालते?",
+            "display-hi": "लार टपकने की समस्या कितने समय तक रहती है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_22761a85-caee-4150-8a88-d2b6e164de7c",
+                    "text": "A few seconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_8319e884-567b-45d7-8089-4fd48a0b7e68",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_a08bd066-a2f4-4ee5-8880-14c2b747d4c1",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                }
+            ]
+        },
+        {
+            "id": "ID_3a9e30e5-b1c1-4fb2-92a4-0ad429025c2c",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्न लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_967ac4a0-6cce-42ba-ba68-25c24b2aa41d",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासाला दुर्गंधी येणे",
+                    "display-hi": "सांसों की बदबू"
+                },
+                {
+                    "id": "ID_3c1adfda-b663-42a5-b617-469b775f3537",
+                    "text": "Neck swelling",
+                    "display-mr": "मानेवर सूज",
+                    "display-hi": "गर्दन में सूजन"
+                },
+                {
+                    "id": "ID_c8884ec5-812e-4cbc-9be5-0f084b955d25",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में दिक्कत"
+                },
+                {
+                    "id": "ID_0de6b645-9861-4ea1-af30-b95e44d77924",
+                    "text": "Throat pain",
+                    "display-mr": "घशात वेदना",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_8aa7074e-3f36-4cde-917d-322020059a76",
+                    "text": "Toothache",
+                    "display-mr": "दात दुखणे",
+                    "display-hi": "दांतों में दर्द"
+                },
+                {
+                    "id": "ID_d9f3f41a-5ee7-427c-b28a-7df67a32400f",
+                    "text": "Tremors",
+                    "display-mr": "कंप",
+                    "display-hi": "कंपकंपी"
+                },
+                {
+                    "id": "ID_34c81806-4d3e-4048-9a00-9d0f2cc12a10",
+                    "text": "Facial weakness",
+                    "display-mr": "चेहऱ्याचा अशक्तपणा",
+                    "display-hi": "चेहरे में कमजोरी"
+                },
+                {
+                    "id": "ID_dc542ee4-7680-4572-90ed-3938da7a1f78",
+                    "text": "Slurred speech",
+                    "display-mr": "अस्पष्ट बोलणे",
+                    "display-hi": "बोलने में दिक्कत"
+                },
+                {
+                    "id": "ID_d329753c-59a1-429b-b4d9-c21886264efe",
+                    "text": "Choking",
+                    "display-mr": "श्वास गुदमरणे",
+                    "display-hi": "घुटन"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_c19973c4-95ed-48a9-9567-82435a087798",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_04817d9a-679c-4d64-a787-d2c9d3b12f9a",
+                    "text": "None",
+                    "display-mr": "अजिबात नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fd24b20b-d04c-46f6-b9ae-9dfcd775d6fd",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_41040361-3fa2-4e6e-a9bb-18db0784bb3e",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_994ce2a5-a42b-494d-a7b3-1feb7046582a",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_fd9bca91-68a8-463a-ae0a-2dd07dcff7ee",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_84442196-60d8-4906-895f-2f5fffa3bf75",
+                    "text": "Acid reflux",
+                    "display-mr": "पोटातील आम्ल अन्ननलिका व घशात येणे",
+                    "display-hi": "मुंह में अम्ल आना"
+                },
+                {
+                    "id": "ID_1565e468-bd50-4b9b-b4f6-9e1d89fd56b2",
+                    "text": "Stridor",
+                    "display-mr": "कर्कश्श आवाज",
+                    "display-hi": "सांस लेने में आवाज"
+                },
+                {
+                    "id": "ID_269e728c-3729-4842-9b69-85cd702f2074",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाज घोगरा होणे",
+                    "display-hi": "आवाज में कर्कशता"
+                },
+                {
+                    "id": "ID_d1b0b146-42c0-449d-b47d-8aab0cb10ab8",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_acda7da4-3283-48dd-80f0-b4b2cc126f2c",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_c12b16ac-f036-4b83-8d1c-980b613cf485",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_07a7b018-f49e-47b2-a2da-bda1056d8d73",
+                    "text": "Excessive sweating",
+                    "display-mr": "अतिरिक्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_a0baea9e-c0c4-4723-aa78-f53ad57b5e0b",
+                    "text": "Mouth ulcer",
+                    "display-mr": "तोंडामध्ये व्रण",
+                    "display-hi": "मुंह में छाले"
+                },
+                {
+                    "id": "ID_403b89bd-eb82-4075-a835-4dd072e5682f",
+                    "text": "Loss of balance",
+                    "display-mr": "तोल जाणे",
+                    "display-hi": "संतुलन खोना"
+                },
+                {
+                    "id": "ID_f62ca029-c467-48a4-bac4-65a6173c7d1f",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_dfd63513-1761-4a91-962a-3aee2624f492",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d3352ee4-408d-4d54-999f-e66706bde30a",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a377d794-d81d-4407-8f76-8cf79a8435a7",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_289730f7-bf18-4732-9517-09666856bf5b",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_3e21083a-8f1b-4cda-abb8-b03d066ec270",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_841437c0-df81-49ee-ad34-e0845d9b022c",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8ecd9ad5-80d7-490a-b622-eb6eda31e980",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

@@ -11,7 +11,7 @@
             "text": "Since when have you had this symptom?",
             "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
             "display-hi": "आपको यह लक्षण कब से है?",
-            "isRequired": true,x
+            "isRequired": true,
             "multi-choice": false,
             "options": [
                 {

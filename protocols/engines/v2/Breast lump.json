@@ -1,0 +1,739 @@
+{
+    "id": "ID_ef1c5ea3-a031-49af-848d-ea8eaa358904",
+    "text": "Breast lump",
+    "engineVersion": "3.0",
+    "display-mr": "स्तनांतील गाठी",
+    "display-hi": "स्तन की गांठ",
+    "options": [
+        {
+            "id": "ID_e86dc95d-1f6f-4222-abba-a2312b15bda2",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "ही लक्षणे तुम्हाला कधीपासून आहेत?",
+            "display-hi": "यह लक्षण कब से है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f7efda0d-12a4-43d8-b439-fe58ffd8b6de",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "ही लक्षणे तुम्हाला कधीपासून आहेत?",
+                    "display-hi": "यह लक्षण कब से है?",
+                    "isRequired": "reqiured",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_1dcb9ba6-d858-4e4c-8142-a033048da4a1",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने पसरली आहेत?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_03794365-3530-4dc2-a84f-d1be9079fb60",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_ecaaa19e-d038-4dd5-a60f-b04b9efee2c7",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_8bde76d6-e5ac-4a7c-92ea-51e3900a0179",
+            "text": "Number of lumps?",
+            "display-mr": "किती गाठी आहेत?",
+            "display-hi": "गांठों की संख्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_fa9d708a-b1ba-4732-8236-1fb7cdfe8fd7",
+                    "text": "Single",
+                    "display-mr": "एक",
+                    "display-hi": "एकल"
+                },
+                {
+                    "id": "ID_223b2afc-924c-4c4e-b025-d50d5aedfb3d",
+                    "text": "Multiple (2 or more)",
+                    "display-mr": "अनेक ( 2 किंवा त्यापेक्षा जास्त)",
+                    "display-hi": "कई (2 या उससे ज्यादा)"
+                }
+            ]
+        },
+        {
+            "id": "ID_9d9d1d06-f090-4591-95b8-45079162a849",
+            "text": "Which side of breast do you have lump?",
+            "display-mr": "तुमच्या कोणत्या स्तनावर गाठ आहे?",
+            "display-hi": "क्या आपको पहले से इनमें से कोई समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f41dfafa-05de-42d2-ab70-b22573470cd1",
+                    "text": "Left breast",
+                    "display-mr": "डावा स्तन",
+                    "display-hi": "बायां स्तन"
+                },
+                {
+                    "id": "ID_f334f7cf-8f0d-4391-aed5-c41963ae170f",
+                    "text": "Right breast",
+                    "display-mr": "उजवा स्तन",
+                    "display-hi": "दायां स्तन"
+                },
+                {
+                    "id": "ID_3b6cfb9d-3950-47ba-9a98-5730dd2578f8",
+                    "text": "Both breasts",
+                    "display-mr": "दोन्ही स्तन",
+                    "display-hi": "दोनों स्तन"
+                }
+            ]
+        },
+        {
+            "id": "ID_91d55fed-89bf-4918-a957-3340321cf17b",
+            "text": "Which part of breast do you have lump?",
+            "display-mr": "स्तनाच्या कोणत्या भागावर गाठ आहे?",
+            "display-hi": "आपके स्तन के किस भाग में गांठ है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_bbc1a5cc-9114-4e8f-b3e6-b854043ca338",
+                    "text": "Upper inner",
+                    "display-mr": "वरच्या भागात आतील बाजूस",
+                    "display-hi": "ऊपरी भीतरी"
+                },
+                {
+                    "id": "ID_6c460e1e-9417-43bd-a6f2-e56737f30241",
+                    "text": "Lower inner",
+                    "display-mr": "खालच्या भागात आतील बाजूस",
+                    "display-hi": "निचला भीतरी"
+                },
+                {
+                    "id": "ID_2164e58f-30aa-4e3a-98d1-4176a774ab8a",
+                    "text": "Upper outer",
+                    "display-mr": "वरच्या भागात बाहेरील बाजूस",
+                    "display-hi": "ऊपरी बाहरी"
+                },
+                {
+                    "id": "ID_1b54568b-c7ee-4c5b-9a8f-5ccf45ae750c",
+                    "text": "Lower outer",
+                    "display-mr": "खालच्या भागात बाहेरील बाजूस",
+                    "display-hi": "निचला बाहरी"
+                },
+                {
+                    "id": "ID_570e69fd-35c9-4367-ad44-10f0278910fd",
+                    "text": "Central (areola)",
+                    "display-mr": "मध्यवर्ती (एरेओला)",
+                    "display-hi": "मध्य (एरिओला)"
+                },
+                {
+                    "id": "ID_5a4c581c-edef-4194-a8df-591d5682d155",
+                    "text": "Axillary tail of breast",
+                    "display-mr": "स्तनांचे अक्षीय टोक (ॲक्सिलरी टेल)",
+                    "display-hi": "स्तन की एक्सिलरी टेल"
+                }
+            ]
+        },
+        {
+            "id": "ID_a12ddc08-2034-462e-96ec-e588a383adb6",
+            "text": "How can you describe the character of breast lump?",
+            "display-mr": "तुमच्या स्तनावर असलेल्या गाठीचे वर्णन कसे कराल?",
+            "display-hi": "आप स्तन की गांठ के लक्षण को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f681b5fa-3c3b-4274-ae5c-f9a954b147d1",
+                    "text": "Soft",
+                    "display-mr": "मऊ",
+                    "display-hi": "मुलायम"
+                },
+                {
+                    "id": "ID_d90bfc18-c3ce-4cc6-93e1-7c07fb42589e",
+                    "text": "Firm",
+                    "display-mr": "घट्ट",
+                    "display-hi": "मजबूत"
+                },
+                {
+                    "id": "ID_3a09dbcd-4f87-46a8-9fa2-6e942d090f04",
+                    "text": "Hard",
+                    "display-mr": "कडक",
+                    "display-hi": "कठोर"
+                },
+                {
+                    "id": "ID_a24972a4-e384-481a-ad2d-2b755eb59dff",
+                    "text": "Irregular",
+                    "display-mr": "अनियमित",
+                    "display-hi": "अनियमित"
+                }
+            ]
+        },
+        {
+            "id": "ID_ca31f930-f974-4dc2-9bc0-b5306194a9d2",
+            "text": "What is the approximate size of the breast lump if compared with these?",
+            "display-mr": "या गोष्टींशी तुलना करता तुमच्या स्तनाच्या गाठीचा आकार केवढा आहे?",
+            "display-hi": "यदि तुलना की जाए तो स्तन की गांठ का आकार कितना होगा?\"",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0025b1f1-a4f4-4f27-9130-7266eb167778",
+                    "text": "Peanut",
+                    "display-mr": "शेंगदाण्याएवढा",
+                    "display-hi": "मूंगफली"
+                },
+                {
+                    "id": "ID_d375e11f-e29e-4e36-8049-8c4bf1a68045",
+                    "text": "Grape",
+                    "display-mr": "द्राक्षाएवढा",
+                    "display-hi": "अंगूर"
+                },
+                {
+                    "id": "ID_eaf1c950-8ff3-4394-a836-2a232f6d26f0",
+                    "text": "Lemon",
+                    "display-mr": "लिंबाएवढा",
+                    "display-hi": "नींबू"
+                },
+                {
+                    "id": "ID_aea6faf6-1de0-4893-8804-561f90fac6ce",
+                    "text": "Orange",
+                    "display-mr": "संत्र्याएवढा",
+                    "display-hi": "संतरा"
+                }
+            ]
+        },
+        {
+            "id": "ID_ce552024-51eb-4389-83e4-050e4b082a9a",
+            "text": "Is the lump moving inside the breast?",
+            "display-mr": "गाठ स्तनाच्या आतमध्ये हलते का?",
+            "display-hi": "क्या गांठ स्तन के अंदर हिलती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4ae46715-be00-4a98-b3a0-4f2bc6373eea",
+                    "text": "Mobile",
+                    "display-mr": "हलत आहे",
+                    "display-hi": "हिलने-डोलनेवाला"
+                },
+                {
+                    "id": "ID_24731322-1fa5-4a7b-91ce-0276a278be8e",
+                    "text": "Fixed",
+                    "display-mr": "एकाच जागेवर स्थिर आहे",
+                    "display-hi": "स्थिर"
+                },
+                {
+                    "id": "ID_2d2caa44-1718-4c17-97f8-d74befb43f98",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_7d39c3e7-13d6-401f-b080-3365fac8defe",
+            "text": "Does the breast lump change in size with menstrual cycle?",
+            "display-mr": "मासिक पाळीनुसार स्तनाच्या गाठीचा आकार बदलतो का?",
+            "display-hi": "क्या माहवारी चक्र के साथ स्तन की गांठ का आकार बदलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "age_min": "10",
+            "options": [
+                {
+                    "id": "ID_4ae0d347-194b-45a1-87be-01af564a7f03",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_149cfc51-a9d2-4f64-9acc-abe834e133f4",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_b8396fe7-2580-482f-a0b6-51864f32b784",
+            "text": "Is the breast lump painful?",
+            "display-mr": "स्तनातील गाठ वेदनादायी आहे का?",
+            "display-hi": "क्या स्तन की गांठ में दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e7c21733-62c8-483f-9a4f-b755f73e4cfa",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_26d805e4-003a-4a88-90a4-a3a89d26033b",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "multi-choice": true,
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_41cbc136-153b-4df8-ad4a-559196ee62f4",
+                            "text": "How severe is the pain?",
+                            "display-mr": "दुखणे किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना गंभीर है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_9f82c89c-9245-4fc4-80b2-85194b218193",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "कमी वेदना  (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                                },
+                                {
+                                    "id": "ID_4ae4b70e-165d-44da-bc02-1c12882a91e0",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than 5)"
+                                },
+                                {
+                                    "id": "ID_4308a293-16ed-4f40-8459-859ba1982a2a",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                                },
+                                {
+                                    "id": "ID_a7af92c7-a06c-435d-ba4a-df0702228947",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "खूप तीव्र वेदना  (7 ते less than  9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than 9)"
+                                },
+                                {
+                                    "id": "ID_6ff2718a-fee1-4982-81cb-9e0d14914324",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "असह्य वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_6d726635-b986-42bd-a96f-5d188774e03a",
+            "text": "Does the pain move or radiate to the other parts of body?",
+            "display-mr": "शरीराच्या अन्य भागांतही वेदना जाणवते का?",
+            "display-hi": "क्या दर्द शरीर के अन्य हिस्सों में भी होता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d57596a0-3827-494b-b6f3-5dd93ccdc9ba",
+                    "text": "None",
+                    "display-mr": "नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e71afd2c-0bff-4567-9634-c520cafc1443",
+                    "text": "Armpit (Axilla)",
+                    "display-mr": "काखेत",
+                    "display-hi": "बगल (एक्सिला)"
+                },
+                {
+                    "id": "ID_8fead1c4-389a-4e11-b520-ac775965eccc",
+                    "text": "Entire breast",
+                    "display-mr": "संपूर्ण छातीमध्ये/ स्तनांमध्ये",
+                    "display-hi": "पूरा स्तन"
+                },
+                {
+                    "id": "ID_99e480b0-0102-445f-a06c-5ad4542ccf6a",
+                    "text": "Chest wall",
+                    "display-mr": "बरगड्या (चेस्ट वॉल)",
+                    "display-hi": "छाती की दीवार"
+                },
+                {
+                    "id": "ID_7dae71f9-8205-4ef4-a8cb-72ce9c6f1512",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_643c068d-a331-4974-8aee-1ee3b1ff20cc",
+                    "text": "Back",
+                    "display-mr": "पाठ",
+                    "display-hi": "पीठ"
+                }
+            ]
+        },
+        {
+            "id": "ID_0d3e203e-7318-4c85-b153-2c6e137a4f48",
+            "text": "What does relieve or lessen the pain?",
+            "display-mr": "वेदना कशामुळे थांबतात किंवा कमी होतात?",
+            "display-hi": "क्या दर्द से राहत देता है या उसे कम करता है?",
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7c9cc7c5-1df6-4e38-a098-1b1d3b043d44",
+                    "text": "None",
+                    "display-mr": "कशामुळेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_4c5f0aeb-440d-4d2d-a73a-a47d17cdf1da",
+                    "text": "Rest (relaxation)",
+                    "display-mr": "विश्रांती (आराम)",
+                    "display-hi": "आराम (विश्राम)"
+                },
+                {
+                    "id": "ID_1d0c50bf-a06c-4dc5-8994-78fd8f6457e7",
+                    "text": "Warm compress",
+                    "display-mr": "उब दिल्याने",
+                    "display-hi": "गर्म सेक"
+                },
+                {
+                    "id": "ID_c7274f7a-2bd2-4e78-aac9-785ebf699e37",
+                    "text": "Supportive bra",
+                    "display-mr": "सपोर्टिव्ह ब्रा",
+                    "display-hi": "सहायक ब्रा"
+                },
+                {
+                    "id": "ID_84daa954-d231-4b94-a439-8f3b8210ee3e",
+                    "text": "Over-the-Counter (OTC) drugs",
+                    "display-mr": "ओव्हर -द- काऊंटर (OTC) औषधे",
+                    "display-hi": "ओवर-द-काउंटर (OTC) दवाएं"
+                },
+                {
+                    "id": "ID_71b161ef-4061-415b-84e0-b0dde2232990",
+                    "text": "Oral contraceptive pills (OCP)",
+                    "display-mr": "तोंडावाटे घेण्यात येणाऱ्या गोळ्या (OCP)",
+                    "display-hi": "मौखिक गर्भनिरोधक गोलियां (OCP)"
+                },
+                {
+                    "id": "ID_81f9e044-b1e3-4269-984d-ec8c00056a63",
+                    "text": "Topical creams",
+                    "display-mr": "टॉपिकल क्रिम्स",
+                    "display-hi": "टॉपिकल क्रीम"
+                }
+            ]
+        },
+        {
+            "id": "ID_3bb294f6-a6c5-4a9a-9b26-7ea1cf77f557",
+            "text": "What does increase or worsen the pain?",
+            "display-mr": "वेदना कशामुळे वाढतात किंवा असह्य होतात?",
+            "display-hi": "क्या कुछ दर्द को बढ़ाता या खराब करता है?",
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_40847322-c575-485d-b441-711d3e430c82",
+                    "text": "None",
+                    "display-mr": "कशामुळेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_319ed613-dac2-401c-bdd5-78b9bceb4a5e",
+                    "text": "Touch",
+                    "display-mr": "स्पर्श",
+                    "display-hi": "स्पर्श"
+                },
+                {
+                    "id": "ID_c997ec09-0d8c-4a9b-9dac-f29ee56f6c9d",
+                    "text": "Pressure",
+                    "display-mr": "दाब",
+                    "display-hi": "दबाव"
+                },
+                {
+                    "id": "ID_5b46294f-eade-4667-8129-37dd294c8171",
+                    "text": "Menstrual period",
+                    "display-mr": "मासिक पाळी",
+                    "display-hi": "माहवारी"
+                },
+                {
+                    "id": "ID_29767f52-892b-454e-bf16-13109ef84633",
+                    "text": "Exercise",
+                    "display-mr": "व्यायाम",
+                    "display-hi": "व्यायाम"
+                },
+                {
+                    "id": "ID_517bdf36-7cc2-4ad8-bde0-f771cf8bd7d8",
+                    "text": "Tight bra",
+                    "display-mr": "घट्ट ब्रा",
+                    "display-hi": "तंग ब्रा"
+                },
+                {
+                    "id": "ID_62dc9543-5067-4d02-adfa-e257de535c05",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                }
+            ]
+        },
+        {
+            "id": "ID_f96eea13-0b05-433f-a3fe-b3828e40e750",
+            "text": "Does the pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांमध्ये वेदनेचे चक्र कसे असते?",
+            "display-hi": "क्या दर्द 24 घंटे के दौरान किसी विशेष तरीके से होता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c427ae69-79ec-4936-9921-81b37b000b72",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_93d86229-be57-4e00-9533-f7b5569fbd46",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूममधून होणाऱ्या वेदना (दुखते आणि थांबते)",
+                    "display-hi": "दोहराने वाला दर्द"
+                }
+            ]
+        },
+        {
+            "id": "ID_ed5467e5-a386-4a6b-af9e-9bee469c7c7d",
+            "text": "How is the breast lump size progressing?",
+            "display-mr": "स्तनावर असलेल्या गाठीच्या आकारामध्ये काही बदल आहे का?",
+            "display-hi": "स्तन की गांठ के आकार में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5e5269c6-7b5e-446d-8059-7633d5d2d19f",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_45b5c5a9-ed58-4b23-8e92-d25b691ca7ca",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_878f43c2-9393-4133-babc-01a0b3c1fa83",
+                    "text": "Fluctuant",
+                    "display-mr": "सतत बदलता",
+                    "display-hi": "उतार-चढ़ाव वाला"
+                },
+                {
+                    "id": "ID_c6452f95-2b4b-44fa-a632-abfeff722fb2",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_752e6030-9d75-4bd5-99df-1ad1367b6526",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1e0f6a3a-d136-4cc2-af12-572e13f60493",
+                    "text": "Breast pain",
+                    "display-mr": "स्तनांमध्ये वेदना",
+                    "display-hi": "स्तन में दर्द"
+                },
+                {
+                    "id": "ID_244fb5c5-cb6a-4b8a-9684-127f5373c8e1",
+                    "text": "Breast swelling",
+                    "display-mr": "स्तनांची सूज",
+                    "display-hi": "स्तन की सूजन"
+                },
+                {
+                    "id": "ID_b4e9c081-9c34-4f71-9f05-390858aac938",
+                    "text": "Asymmetry of breasts",
+                    "display-mr": "स्तनांचे आकार असमान असणे",
+                    "display-hi": "स्तनों का असमान आकार"
+                },
+                {
+                    "id": "ID_a9ddf11e-5616-46a9-b4e9-8c9b9050c890",
+                    "text": "Dimpling of breast skin",
+                    "display-mr": "स्तनांच्या त्वचेवर खड्डे पडणे",
+                    "display-hi": "स्तन की त्वचा में गड्ढे पड़ना"
+                },
+                {
+                    "id": "ID_a2fc9d3a-9918-4dff-899b-599ba4de02e8",
+                    "text": "Rash or itching over breast skin",
+                    "display-mr": "स्तनांच्या त्वचेवर पुरळ किंवा खाज",
+                    "display-hi": "स्तन की त्वचा पर दाने या खुजली"
+                },
+                {
+                    "id": "ID_cd4ede66-5481-4059-b2d6-f70202a56774",
+                    "text": "Ulceration of breast skin",
+                    "display-mr": "स्तनांच्या त्वचेवर व्रण उमटणे",
+                    "display-hi": "स्तन की त्वचा पर घाव"
+                },
+                {
+                    "id": "ID_dad2c755-d7dc-4892-92c1-679e7d0878d0",
+                    "text": "Nipple discharge",
+                    "display-mr": "स्तनांग्रांमधून वाहणारा द्रव",
+                    "display-hi": "निप्पल से तरल निकलना"
+                },
+                {
+                    "id": "ID_e2355311-e5c8-4ced-a6b5-caf42720f9fb",
+                    "text": "Retracted nipple",
+                    "display-mr": "आतील बाजूस वळलेली स्तनाग्रे",
+                    "display-hi": "निप्पल का धंसना"
+                },
+                {
+                    "id": "ID_19728faa-83ac-4c0f-83c8-71d82d685f95",
+                    "text": "Swelling in armpit",
+                    "display-mr": "बगलेमध्ये सूज येणे",
+                    "display-hi": "बगल में सूजन"
+                },
+                {
+                    "id": "ID_34356961-bb1b-49cd-90a5-e16e16dc46ff",
+                    "text": "History of injury to breast",
+                    "display-mr": "स्तनांना दुखापत झाल्याचा पूर्वइतिहास",
+                    "display-hi": "स्तन पर चोट का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_8dbd77c8-519e-40be-bf49-01f37d9cea82",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d00ef4f6-fe48-4b10-acc1-22e42de01a2b",
+                    "text": "None",
+                    "display-mr": "कोणतीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a16d7596-23a9-422d-9b92-955b17ced944",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_d8ec56da-6215-4b60-9486-e703b5f2d956",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_a62dca78-7a59-41b5-b059-ffe5731ccc74",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_5b9d4d6b-a540-466e-917c-ef1dd2bf7cd1",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात को पसीना"
+                },
+                {
+                    "id": "ID_f666ad4a-df81-440b-b7a0-ee630828eba9",
+                    "text": "Swollen lymph nodes in neck",
+                    "display-mr": "मानेतील लिम्फ नोड्सला सूज येणे",
+                    "display-hi": "गर्दन में सूजन लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_462b530d-6557-4828-b43c-fea033a1cfd2",
+                    "text": "Difficulty in breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_084b0134-0abc-4484-b5d6-1afc5704f194",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ दर्द"
+                },
+                {
+                    "id": "ID_f5155b78-cac4-47fb-86f9-642c064f6bab",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिर दर्द"
+                },
+                {
+                    "id": "ID_292c387d-3274-4942-b5d2-e0d87d67e221",
+                    "text": "Heavy periods",
+                    "display-mr": "त्रासदायक मासिक पाळी",
+                    "display-hi": "भारी माहवारी",
+                    "age_min": "10"
+                },
+                {
+                    "id": "ID_dbf81f80-8e47-4869-ba97-4613fc6f13fe",
+                    "text": "Irregular periods",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "मासिक का समय पर न होना",
+                    "age_min": "10"
+                },
+                {
+                    "id": "ID_7409694c-163e-4c85-9e2b-85a18a2c623b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_da58020f-c7c7-4679-8fd0-d48fbcac2ebb",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_28cf8130-8101-47bf-b4ca-e1c952a3f460",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_ba12f79f-5288-49a5-a089-55a4c82bd418",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_88da18fc-223c-4b40-b6f2-b3eefa717980",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f209ac2d-5ec0-40c9-9111-5a4cd37fd540",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_3138f873-130d-4195-8869-14c2d3daa8e5",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

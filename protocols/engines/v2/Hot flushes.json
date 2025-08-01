@@ -1,0 +1,502 @@
+{
+    "id": "ID_f5ae51e2-97ea-4376-ba4e-dc3ef00432fc",
+    "text": "Hot flushes",
+    "engineVersion": "3.0",
+    "display-mr": "शरीराची उष्णता अचानक वाढणे",
+    "display-hi": "गर्मी के दौरे",
+    "options": [
+        {
+            "id": "ID_78b1ebb4-af4a-48db-b51b-6600bde0ee72",
+            "text": "Since when have you had hot flushes?",
+            "display-mr": "तुम्हाला कधीपासून शरीराची उष्णता अचानक वाढल्यासारखी वाटत आहे?",
+            "display-hi": "आपको कब से गर्मी के दौरे (अचानक तेज गर्मी लगना) हो रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_872594b2-9780-4604-9c85-caac91a3103c",
+                    "text": "Since when have you had hot flushes?",
+                    "display-mr": "तुम्हाला कधीपासून शरीराची उष्णता अचानक वाढल्यासारखी वाटत आहे?",
+                    "display-hi": "आपको कब से गर्मी के दौरे (अचानक तेज गर्मी लगना) हो रहे हैं?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_0912b8cf-e11e-4a64-8364-3886f861b2e6",
+            "text": "How fast did hot flushes develop?",
+            "display-mr": "शरीराची उष्णता अचानक वाढणे किती वेगाने सुरू झाले?",
+            "display-hi": "गर्मी के दौरे कितनी तेजी से बढ़े हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2ac27414-742f-43d7-a8a9-7aaf0733fabd",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_e3fc8765-71bc-4893-8b82-ed76a9468ad1",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_91c740e3-acd1-4515-b4e4-b21caf3ba445",
+            "text": "How can you describe your hot flushes?",
+            "display-mr": "तुम्ही तुमच्या शरीरातील उष्णता अचानक वाढण्याचे वर्णन कशाप्रकारे करू शकता?",
+            "display-hi": "आप अपने गर्मी के दौरे का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7366ce9c-1524-4a8e-97e4-7ebfceac50ed",
+                    "text": "Feeling of warmth",
+                    "display-mr": "उष्णता जाणवणे",
+                    "display-hi": "गर्मी का अहसास"
+                },
+                {
+                    "id": "ID_1854136e-5816-4eed-b4e5-e8b15281530f",
+                    "text": "Redness of the skin",
+                    "display-mr": "त्वचा लालसर होणे",
+                    "display-hi": "त्वचा का लाल होना"
+                },
+                {
+                    "id": "ID_53f34f1f-f212-4a11-8915-babbe9828d2c",
+                    "text": "Excessive sweating",
+                    "display-mr": "अतिशय जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_79e58e1b-a4d2-41d5-a9a3-e05c99e75007",
+                    "text": "Fast heart beat",
+                    "display-mr": "हृदयाचे ठोके वेगाने पडणे",
+                    "display-hi": "तेज दिल की धड़कन"
+                },
+                {
+                    "id": "ID_a5f0c3cd-f080-4f91-b540-fd412f8fdb6d",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_e0a318aa-3959-48f1-befc-157da649befc",
+            "text": "Where do you have hot flushes?",
+            "display-mr": "तुम्हाला शरीरातील उष्णता अचानक वाढणे कोणत्या भागात होते?",
+            "display-hi": "आपको गर्मी के दौरे कहां होते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3222f4eb-26cb-45cc-8782-7136a5efad16",
+                    "text": "All over body",
+                    "display-mr": "शरीरावर सगळीकडे",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_bfdf7dc9-f92c-440b-9681-9aeb92ad4465",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचा काही भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_0aaae1c1-b01f-4d08-ac56-295df7704bc1",
+                            "text": "Which part of body do you have hot flushes?",
+                            "display-mr": "तुमच्या शरीराच्या कोणत्या भागात उष्णता अचानक वाढते?",
+                            "display-hi": "आपको शरीर के किस हिस्से में गर्मी के दौरे होते हैं?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_618923a9-82a9-49d2-9b25-5413d5cacb25",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_81126e3c-b69d-49b2-96fc-05439d35ce93",
+                                    "text": "Lips",
+                                    "display-mr": "ओठ",
+                                    "display-hi": "होंठ"
+                                },
+                                {
+                                    "id": "ID_5ce1de8d-9626-4f23-b206-208d3281338c",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_fa5324aa-c93a-48d2-9ec8-e6d04683e97d",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_ba3b006e-3d42-4141-bd3d-a879d9e3ed19",
+                                    "text": "Hands",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_6cf64206-8a1b-46bc-acef-8b3bdb5120cb",
+                                    "text": "Fingers",
+                                    "display-mr": "बोटे",
+                                    "display-hi": "उंगलियां"
+                                },
+                                {
+                                    "id": "ID_1db01073-67cb-4eb7-9c4b-7528c7675fef",
+                                    "text": "Trunk",
+                                    "display-mr": "धड",
+                                    "display-hi": "धड़"
+                                },
+                                {
+                                    "id": "ID_fffb8601-54fc-4ff4-a174-d631227cba32",
+                                    "text": "Legs",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_9844accd-a7fa-42ae-8314-7f93acd26875",
+                                    "text": "Feet",
+                                    "display-mr": "पावले",
+                                    "display-hi": "पद"
+                                },
+                                {
+                                    "id": "ID_9d14fddd-bff8-4bef-ba99-553d6587e2fe",
+                                    "text": "Toes",
+                                    "display-mr": "पायाची बोटे",
+                                    "display-hi": "पैर की उंगलियां"
+                                },
+                                {
+                                    "id": "ID_ccf9b286-cf8f-421b-8819-2a004c58bd18",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_885f6982-d4a4-44c7-8dae-00288ec35227",
+            "text": "What worsens or increases the hot flushes?",
+            "display-mr": "शरीराची उष्णता अचानक वाढणे कशामुळे बळावते किंवा वाढते?",
+            "display-hi": "गर्मी के दौरे को क्या खराब या बढ़ा देता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b15ea96b-3e5a-4471-aaf7-8527c96a289e",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_8aef3881-b8e0-4d49-8afe-73d5e8105b15",
+                    "text": "Hot weather",
+                    "display-mr": "उष्ण हवामान",
+                    "display-hi": "गर्म मौसम"
+                },
+                {
+                    "id": "ID_71332359-2168-45b4-9c4f-2e00391fed38",
+                    "text": "Hot foods or drinks",
+                    "display-mr": "गरम खाद्यपदार्थ किंवा पेये",
+                    "display-hi": "गर्म खाना या पेय"
+                },
+                {
+                    "id": "ID_93085995-5538-484c-bec8-d7c3219df977",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_17a6a1dc-2bbb-47cd-9252-aa6d4916fada",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d2af13e7-7462-41a2-8544-436bf9ff4046",
+            "text": "Does the hot flushes have any pattern during 24 hours?",
+            "display-mr": "शरीराची उष्णता वाढण्याचे गेल्या 24 तासांदरम्यान काही स्वरूप आहे का?",
+            "display-hi": "क्या 24 घंटों के दौरान गर्मी के दौरे का कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ee1a467e-94d3-46d0-a287-c0b02dab9feb",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_323a7309-9b88-497a-a59d-8410cf564c4b",
+                    "text": "Intermittent (on & off)",
+                    "display-mr": "अधून-मधून (काहीवेळा होते व काहीवेळा होत नाही)",
+                    "display-hi": "रुक-रुक कर (शुरू और बंद)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_29d62033-2939-4c57-b340-c0cdb88f75b6",
+                            "text": "When do you have or feel the hot flushes worst?",
+                            "display-mr": "तुमच्या शरीराची उष्णता अचानक कधी वाढते किंवा वाढल्याचे जाणवते?",
+                            "display-hi": "आपको गर्मी के दौरे कब होते हैं या सबसे ज्यादा महसूस होते हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_b8e3dcef-4ddc-44b7-9f57-9a455bd0d46f",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_b428f62f-ed30-434e-89a9-db6599a2b699",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_2bea16d0-875f-4f59-b3b4-6f46fa8b405d",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_407f5045-a1ea-4172-a0e3-317234d1393f",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_76f38c0b-83ca-4f3f-b375-0dc2166b2248",
+            "text": "How is the hot flushes progressing?",
+            "display-mr": "शरीराची उष्णता अचानक वाढल्याची प्रगती कशी होत आहे?",
+            "display-hi": "गर्मी के दौरे कैसे बढ़ रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7fc64fbb-c569-47b3-85fa-a1362ba6b09c",
+                    "text": "Worsening",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बिगड़ना"
+                },
+                {
+                    "id": "ID_24fe94e3-8d46-4b4c-9891-177b89c6ada6",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_8281aa50-2d1f-4e06-9e4f-99077ff88296",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_31bf7f30-0682-48e9-aa81-feb420a30d64",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_13818b2c-b3c5-4108-89dc-c0745b0eaf9c",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_cf057751-356c-4e37-8306-42381fce170c",
+                    "text": "Dry skin",
+                    "display-mr": "त्वचा कोरडी पडणे",
+                    "display-hi": "रूखी त्वचा"
+                },
+                {
+                    "id": "ID_4551b29f-7eea-4b1b-ac24-be4429fadc4b",
+                    "text": "Pale skin",
+                    "display-mr": "त्वचा निस्तेज होणे",
+                    "display-hi": "त्वचा का फीकापन"
+                },
+                {
+                    "id": "ID_e7b62ce9-db29-484b-8750-651eff1f6257",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_26fb45b3-c6f5-4dbd-af0a-1d0655433eac",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_1a7a4185-3595-489f-8ed4-7f6ff3bc88bc",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_2f304492-3594-40fb-a23f-2c76211abcad",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_6b15ced8-e938-475c-805a-9ce5374df5d5",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_aac098f1-7e33-46d8-8512-d34dcd6e8288",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_666497f7-dd26-445d-a017-1acbc9a07183",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_739cf355-9607-4637-98e7-9c84487a5bee",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_275dc7c7-84d7-4b42-9d5b-3649f01a0f3a",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_4e2be8ad-2dcf-459c-8529-ec367832350a",
+                    "text": "Faintness",
+                    "display-mr": "बेशुद्ध पडणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_b5e2c5ea-97eb-4eb8-b9a3-cceceb01aa5d",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_b1c65f30-476e-4c7f-8389-8d8dfc0fbb04",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_2604ba22-cc2e-4fab-b5a2-a76324642d1e",
+                    "text": "Calf pain",
+                    "display-mr": "पोटऱ्या दुखणे",
+                    "display-hi": "पिंडली में दर्द"
+                },
+                {
+                    "id": "ID_3aba6260-d655-4632-ac08-344a941faea9",
+                    "text": "Foot ulcers",
+                    "display-mr": "पावलांमध्ये जखमा होणे",
+                    "display-hi": "पैर के छाले"
+                },
+                {
+                    "id": "ID_4368d179-4f97-4011-b55c-3c218b6e20ec",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_165fc969-90e3-48a4-89ce-50bcafc8bcc0",
+                    "text": "Visual disturbances",
+                    "display-mr": "दृष्टीमध्ये अडथळे",
+                    "display-hi": "दिखाई देने  में समस्या"
+                },
+                {
+                    "id": "ID_94ca159a-ea74-4504-8619-0d186be30b82",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_0637d473-79bf-4df0-a765-ee03c0d23863",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bab1dad7-dd1b-462f-930c-2a3761f960df",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_98a34836-cba7-46cd-81a2-933c5e5521ca",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_b60bad43-63d5-4159-9827-b3b8d414bf08",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d5c67cf6-d12b-496d-a10b-eb4e25f12588",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a96a8a77-ea6f-4014-b793-5b2d597aa2d8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

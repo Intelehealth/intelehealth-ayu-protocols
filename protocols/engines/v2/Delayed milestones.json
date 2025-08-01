@@ -1,0 +1,621 @@
+{
+    "id": "ID_0105bc97-5b79-48ca-a5ae-d748d3598fb4",
+    "text": "Delayed milestones",
+    "engineVersion": "3.0",
+    "display-mr": "विकासाच्या टप्प्यात विलंब",
+    "display-hi": "विकसन मानक में देरी",
+    "options": [
+        {
+            "id": "ID_2870c4fb-89b5-476c-b64d-67ebd66c76db",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b34f3e4b-2bf4-4dbc-b92c-bc941cfaba82",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_7f5126a3-d0e8-4417-bfd7-9b873d3bcb5b",
+            "text": "At what age of the child the delayed milestones noticed first?",
+            "display-mr": "मुलाच्या कोणत्या वयात प्रथम विलंबित टप्पे लक्षात आले?",
+            "display-hi": "बच्चे की किस उम्र में देरी से होने वाली विकासात्मक उपलब्धियों पर सबसे पहले ध्यान गया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_dfca9965-b72c-40f0-9c78-59f97aac0946",
+                    "text": "At what age of the child the delayed milestones noticed first?",
+                    "display-mr": "मुलाच्या कोणत्या वयात प्रथम विलंबित टप्पे लक्षात आले?",
+                    "display-hi": "बच्चे की किस उम्र में देरी से होने वाली विकासात्मक उपलब्धियों पर सबसे पहले ध्यान गया?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_62287552-cee7-47e3-89bf-274a1e5a5f7b",
+            "text": "What are the milestones that your child has already achieved?",
+            "display-mr": "तुमच्या मुलाने आधीच गाठलेले टप्पे कोणते आहेत?",
+            "display-hi": "आपके बच्चे ने पहले से कौन-कौन सी विकासात्मक उपलब्धियां हासिल की हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7e42816c-7f8f-4cec-a2f9-54bf47380588",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c4376808-980e-4afa-94b9-178eeb9fcda8",
+                    "text": "Social smile",
+                    "display-mr": "पाहून हसणे",
+                    "display-hi": "सामाजिक मुस्कान"
+                },
+                {
+                    "id": "ID_cf28f1f1-e6ff-4ccc-9237-7f93c081e1cf",
+                    "text": "Neck holding",
+                    "display-mr": "मान पकडणे",
+                    "display-hi": "गर्दन सीधी  रखना"
+                },
+                {
+                    "id": "ID_95f804b1-f3cc-43c7-928e-9fb0564f957f",
+                    "text": "Turning over",
+                    "display-mr": "वळणे",
+                    "display-hi": "पलटना"
+                },
+                {
+                    "id": "ID_7837e178-f8de-43a9-b24f-c955e3b8fd26",
+                    "text": "Sitting with support",
+                    "display-mr": "आधार घेऊन बसणे",
+                    "display-hi": "सहारे के साथ बैठना"
+                },
+                {
+                    "id": "ID_5d50c7dd-97ab-4554-bbb1-b764d7fbf73a",
+                    "text": "Tranfering objects between hands",
+                    "display-mr": "हातांमध्ये वस्तूंची देवाणघेवाण",
+                    "display-hi": "एक हाथ से दूसरे हाथ में वस्तु देना"
+                },
+                {
+                    "id": "ID_2cb67bb0-1507-4e6e-b8c3-9478203b309c",
+                    "text": "Sitting without support",
+                    "display-mr": "आधाराशिवाय बसणे",
+                    "display-hi": "बिना सहारे के बैठना"
+                },
+                {
+                    "id": "ID_e092f532-2ede-476d-b498-40fe226680c7",
+                    "text": "Crawling",
+                    "display-mr": "रांगणे",
+                    "display-hi": "रेंगना"
+                },
+                {
+                    "id": "ID_8cd5be39-4df7-4bfd-841c-7dd470885f22",
+                    "text": "Waving hands (bye-bye)",
+                    "display-mr": "हात हलवणे (बाय-बाय)",
+                    "display-hi": "हाथों को हिलाना (बाय-बाय करना)"
+                },
+                {
+                    "id": "ID_f3ade99f-2cff-4124-95e2-662c9a0f175a",
+                    "text": "Standing with support",
+                    "display-mr": "आधार घेऊन उभे राहणे",
+                    "display-hi": "सहारा लेकर खड़े होना"
+                },
+                {
+                    "id": "ID_992b9e2a-dc5a-48ae-8e2a-ecff2fc40212",
+                    "text": "Standing without support",
+                    "display-mr": "आधाराशिवाय उभे राहणे",
+                    "display-hi": "बिना सहारे के खड़े होना"
+                },
+                {
+                    "id": "ID_8b5a71bf-ad54-4549-9ac8-53f2d914c76d",
+                    "text": "Walking with support",
+                    "display-mr": "आधार घेऊन चालणे",
+                    "display-hi": "सहारा लेकर चलना"
+                },
+                {
+                    "id": "ID_c7502495-2480-485a-9d20-f9c973f9a5b5",
+                    "text": "Walking without support",
+                    "display-mr": "आधाराशिवाय चालणे",
+                    "display-hi": "बिना सहारे के चलना"
+                },
+                {
+                    "id": "ID_7a7bfe36-ba23-4a19-a1a4-04fbf7c98565",
+                    "text": "Running",
+                    "display-mr": "धावणे",
+                    "display-hi": "दौड़ना"
+                },
+                {
+                    "id": "ID_f863624a-4c3d-4098-8b6e-d18a89ce8cd2",
+                    "text": "Climbing stairs",
+                    "display-mr": "पायऱ्या चढणे",
+                    "display-hi": "सीढ़ियां चढ़ना"
+                },
+                {
+                    "id": "ID_35db7a4d-b951-484b-aee2-3f1c77d9c225",
+                    "text": "Speaking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बोलना"
+                },
+                {
+                    "id": "ID_24b2b3bc-b695-4f27-8a97-205a5c2636e9",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_0394e218-2dd9-47b5-a966-fb8e11b1a12d",
+            "text": "What are the milestones that your child did not achieve yet?",
+            "display-mr": "तुमच्या मुलाने अजून कोणते टप्पे गाठले नाहीत?",
+            "display-hi": "आपके बच्चे ने अभी तक कौन सी विकासात्मक उपलब्धियां हासिल नहीं की हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_841b03d9-fc76-4966-9b27-c3fd55547c6d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_088617dd-b849-4e86-9774-d6aebee9c57d",
+                    "text": "Social smile",
+                    "display-mr": "पाहून हसणे",
+                    "display-hi": "सामाजिक मुस्कान"
+                },
+                {
+                    "id": "ID_37298edf-f7d0-4676-9f9e-44be407c77dc",
+                    "text": "Neck holding",
+                    "display-mr": "मान पकडणे",
+                    "display-hi": "गर्दन सीधी रखना"
+                },
+                {
+                    "id": "ID_fb87198f-3c45-4598-9392-9c813d00d969",
+                    "text": "Turning over",
+                    "display-mr": "वळणे",
+                    "display-hi": "पलटना"
+                },
+                {
+                    "id": "ID_58ca66bd-9036-454f-83a5-5f6c37205b66",
+                    "text": "Sitting with support",
+                    "display-mr": "आधार घेऊन बसणे",
+                    "display-hi": "सहारे के साथ बैठना"
+                },
+                {
+                    "id": "ID_c033d089-b5a5-49fb-99db-2e9cf0b9721a",
+                    "text": "Tranfering objects between hands",
+                    "display-mr": "हातांमध्ये वस्तूंची देवाणघेवाण",
+                    "display-hi": "एक हाथ से दूसरे हाथ में वस्तु देना"
+                },
+                {
+                    "id": "ID_1fa0586e-47d6-4181-89d8-dbb3cf095186",
+                    "text": "Sitting without support",
+                    "display-mr": "आधाराशिवाय बसणे",
+                    "display-hi": "बिना सहारे के बैठना"
+                },
+                {
+                    "id": "ID_dff06663-99b7-4964-82e9-2697e9839d77",
+                    "text": "Crawling",
+                    "display-mr": "रांगणे",
+                    "display-hi": "रेंगना"
+                },
+                {
+                    "id": "ID_750d9389-f0ad-4946-aa59-b0b7b588739e",
+                    "text": "Waving hands (bye-bye)",
+                    "display-mr": "हात हलवणे (बाय-बाय)",
+                    "display-hi": "हाथों को हिलाना (बाय-बाय करना)"
+                },
+                {
+                    "id": "ID_d5c2af35-0761-4e4c-b630-b135f4a106ff",
+                    "text": "Standing with support",
+                    "display-mr": "आधार घेऊन उभे राहणे",
+                    "display-hi": "सहारा लेकर खड़े होना"
+                },
+                {
+                    "id": "ID_768cf384-aff4-44bc-ba9d-ea2cd45aa47a",
+                    "text": "Standing without support",
+                    "display-mr": "आधाराशिवाय उभे राहणे",
+                    "display-hi": "बिना सहारे के खड़े होना"
+                },
+                {
+                    "id": "ID_0669d6f1-c125-46d9-85d5-542ae92356db",
+                    "text": "Walking with support",
+                    "display-mr": "आधार घेऊन चालणे",
+                    "display-hi": "सहारा लेकर चलना"
+                },
+                {
+                    "id": "ID_76bd148a-5d2c-4b31-9132-5d22d06f09f4",
+                    "text": "Walking without support",
+                    "display-mr": "आधाराशिवाय चालणे",
+                    "display-hi": "बिना सहारे के चलना"
+                },
+                {
+                    "id": "ID_f66ccbd1-e3ff-43ac-8836-0365750f6684",
+                    "text": "Running",
+                    "display-mr": "धावणे",
+                    "display-hi": "दौड़ना"
+                },
+                {
+                    "id": "ID_e2499b4e-1d92-4868-a0a5-82aae3fa00f2",
+                    "text": "Climbing stairs",
+                    "display-mr": "पायऱ्या चढणे",
+                    "display-hi": "सीढ़ियां चढ़ना"
+                },
+                {
+                    "id": "ID_492615f5-48a3-4ee4-a9de-525aa07e51dd",
+                    "text": "Speaking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बोलना"
+                },
+                {
+                    "id": "ID_489c815b-560b-4450-943a-b8ae99dbe03b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_77fbe2b9-f6bb-41e8-a850-374c4fa1c723",
+            "text": "At what age did your child achieve neck holding?",
+            "display-mr": "कोणत्या वयात तुमच्या मुलाच्या  मानेला आधार आला?",
+            "display-hi": "आपके बच्चे ने किस उम्र में गर्दन को सीधा रखना सीखा?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_80a7093a-a334-4634-a046-73afc99e7a28",
+                    "text": "At what age did your child achieve neck holding?",
+                    "display-mr": "कोणत्या वयात तुमच्या मुलाच्या  मानेला आधार आला?",
+                    "display-hi": "आपके बच्चे ने किस उम्र में गर्दन को सीधा रखना सीखा?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_6c105faa-91c1-474c-b05e-2b2be22b0f5b",
+            "text": "At what age did your child sit without support?",
+            "display-mr": "तुमचे मूल कोणत्या वयात आधाराशिवाय बसले?",
+            "display-hi": "आपका बच्चा किस उम्र में बिना सहारे के बैठा?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bbef6579-62a6-43bf-b0fd-b5d59b6fc577",
+                    "text": "At what age did your child sit without support?",
+                    "display-mr": "तुमचे मूल कोणत्या वयात आधाराशिवाय बसले?",
+                    "display-hi": "आपका बच्चा किस उम्र में बिना सहारे के बैठा?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_9893a4c3-67e3-4de2-9e01-d4dd35132492",
+            "text": "When did your child start crawling?",
+            "display-mr": "तुमचे मूल कधी रांगायला लागले?",
+            "display-hi": "आपके बच्चे ने कब रेंगना शुरू किया?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6e3c3340-ed7e-4d15-b563-05a76177709d",
+                    "text": "When did your child start crawling?",
+                    "display-mr": "तुमचे मूल कधी रांगायला लागले?",
+                    "display-hi": "आपके बच्चे ने कब रेंगना शुरू किया?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_af96c5e5-44ae-4aca-acb6-5451e8e3dac0",
+            "text": "When did your child start standing without support?",
+            "display-mr": "तुमच्या मुलाने आधाराशिवाय कधी उभे राहण्यास सुरुवात केली?",
+            "display-hi": "आपके बच्चे ने बिना सहारे के कब खड़ा होना शुरू किया?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f938b0c4-9084-4f65-9654-e09c406868b0",
+                    "text": "When did your child start standing without support?",
+                    "display-mr": "तुमच्या मुलाने आधाराशिवाय कधी उभे राहण्यास सुरुवात केली?",
+                    "display-hi": "आपके बच्चे ने बिना सहारे के कब खड़ा होना शुरू किया?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_a9c11c16-c6f1-45d4-8543-e540519190f0",
+            "text": "When did your child start walking without support?",
+            "display-mr": "तुमच्या मुलाने आधाराशिवाय कधी चालायला सुरुवात केली?",
+            "display-hi": "आपके बच्चे ने बिना सहारे के कब चलना शुरू किया?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_96cf483e-3a4e-4db2-b2f7-70635bf1a754",
+                    "text": "When did your child start walking without support?",
+                    "display-mr": "तुमच्या मुलाने आधाराशिवाय कधी चालायला सुरुवात केली?",
+                    "display-hi": "आपके बच्चे ने बिना सहारे के कब चलना शुरू किया?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_95a19b0c-74a5-43a1-81cb-6f20458b4d2b",
+            "text": "When did your child say their first words?",
+            "display-mr": "तुमच्या मुलाने त्यांचे पहिले शब्द कधी बोलले?",
+            "display-hi": "आपके बच्चे ने अपना पहला शब्द कब बोला?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f252db2a-f387-404c-9339-31b4b38b8657",
+                    "text": "When did your child say their first words?",
+                    "display-mr": "तुमच्या मुलाने त्यांचे पहिले शब्द कधी बोलले?",
+                    "display-hi": "आपके बच्चे ने अपना पहला शब्द कब बोला?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_29eb8808-857b-45ff-9dda-0bca855bf700",
+            "text": "Does your child have any prior history?",
+            "display-mr": "तुमच्या मुलाचा (खालिलपैकी) पूर्व इतिहास आहे का?",
+            "display-hi": "क्या आपके बच्चे का कोई पिछला इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4c1ef6a1-8835-4890-97eb-06b38459a54a",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_dfed4b26-bb83-4b84-b56d-abbef5bf19bb",
+                    "text": "Head injury",
+                    "display-mr": "डोक्याला दुखापत",
+                    "display-hi": "सिर पर चोट"
+                },
+                {
+                    "id": "ID_2f30142a-6088-46ba-8d1b-6020ce10cf2a",
+                    "text": "Delayed cry at birth",
+                    "display-mr": "जन्माच्या वेळी उशिराने रडणे",
+                    "display-hi": "जन्म के समय देरी से रोना"
+                },
+                {
+                    "id": "ID_ef9becdf-9716-44b0-8211-d97888cc0edb",
+                    "text": "Birth injury",
+                    "display-mr": "जन्मत: झालेली दुखापत",
+                    "display-hi": "जन्म के समय चोट"
+                },
+                {
+                    "id": "ID_6b816a1b-ae4b-4836-9714-615cf25a9574",
+                    "text": "Complicated birth",
+                    "display-mr": "क्लिष्ट जन्म",
+                    "display-hi": "जन्म के दौरान जटिलताएं"
+                },
+                {
+                    "id": "ID_15f9c384-8313-4a3b-8d65-8ebcf80879fe",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_5b602e22-31ed-4fa6-87c5-9df91e17b43e",
+            "text": "Has the child ever met a milestone and then lost that ability?",
+            "display-mr": "मुलाने आधी टप्पे गाठले आहे आणि नंतर ती क्षमता गमावली आहे का?",
+            "display-hi": "क्या बच्चे ने कभी कोई विकासात्मक उपलब्धि हासिल करने के बाद उसे खो दिया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_83edb10b-5a2c-469e-8725-e786c9e109e1",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_cac133ab-44ac-43b5-a5db-335418dadea6",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_e527ba27-39d6-42a9-ad61-dad9bba6f7f6",
+            "text": "Associated symptoms",
+            "display-mr": "मुलामध्ये खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके बच्चे में निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_9f752703-c3b7-46f1-9a8e-92925aaa054c",
+                    "text": "Inattention",
+                    "display-mr": "एकाग्र न होणे",
+                    "display-hi": "ध्यान नहीं दे पाना"
+                },
+                {
+                    "id": "ID_77a3bcf3-472f-4a9d-ab4b-3906eab75d42",
+                    "text": "Decreased hearing",
+                    "display-mr": "कमी ऐकू येणे",
+                    "display-hi": "कम सुनाई देना"
+                },
+                {
+                    "id": "ID_c3a625ce-3569-45d4-82de-ffb07022c0a9",
+                    "text": "Hearing loss",
+                    "display-mr": "श्रवणशक्ती कमी होणे",
+                    "display-hi": "सुनाई न देना"
+                },
+                {
+                    "id": "ID_d6b4eef3-dcea-433e-9807-3f7c9d19d08a",
+                    "text": "Hyperactivity",
+                    "display-mr": "हायपरॅक्टिव्हिटी / अतिक्रियाशील",
+                    "display-hi": "अति सक्रियता"
+                },
+                {
+                    "id": "ID_b64ebd87-e94b-4dda-bd79-7a96608665b1",
+                    "text": "Crossed eyes",
+                    "display-mr": "तिरके डोळे",
+                    "display-hi": "आंखें टेढ़ी होना"
+                },
+                {
+                    "id": "ID_d583db27-7fd9-4514-898a-f6e85d8f267b",
+                    "text": "Small head",
+                    "display-mr": "लहान डोके",
+                    "display-hi": "छोटा सिर"
+                },
+                {
+                    "id": "ID_dc347024-d2bd-4b6a-8e13-0e4b66c79e0a",
+                    "text": "Large head",
+                    "display-mr": "मोठे  डोके",
+                    "display-hi": "बड़ा सिर"
+                },
+                {
+                    "id": "ID_405a5bbd-4e49-47fd-b726-6e49d67a374a",
+                    "text": "Family history of developmental delay",
+                    "display-mr": "विकासाच्या विलंबाचा कौटुंबिक इतिहास",
+                    "display-hi": "देरी से विकास होने का पारिवारिक इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_35e8023f-0690-4e50-9ade-1eb59403db1f",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "मुलामध्ये खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके बच्चे में निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_dc8d6723-1d14-44b1-99dd-d957d4c4866d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1999a967-57f9-43df-9e5e-651bf2a73d06",
+                    "text": "Irritability",
+                    "display-mr": "चिडचिड",
+                    "display-hi": "चिड़चिड़ापन"
+                },
+                {
+                    "id": "ID_d169ce76-8327-4519-8bb5-0c0e57731da4",
+                    "text": "Aggression",
+                    "display-mr": "आक्रमकता",
+                    "display-hi": "आक्रामकता"
+                },
+                {
+                    "id": "ID_8295fb3e-1e2b-4bcf-b693-f1ddb33fc985",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातपाय कमजोर होणे",
+                    "display-hi": "अंगों की कमजोरी"
+                },
+                {
+                    "id": "ID_1d55f72b-d582-46c5-8b9d-8be3fc87687f",
+                    "text": "Stiffness of limbs",
+                    "display-mr": "हातपाय कडक होणे",
+                    "display-hi": "अंगों की अकड़न"
+                },
+                {
+                    "id": "ID_c949e44b-272a-4b7d-8799-a25796eddbe1",
+                    "text": "Fits",
+                    "display-mr": "फिट येणे",
+                    "display-hi": "दौरे"
+                },
+                {
+                    "id": "ID_349130aa-8dc0-4ac7-b927-f5f4fd912492",
+                    "text": "Abnormal walking",
+                    "display-mr": "असामान्य चालणे",
+                    "display-hi": "असामान्य तरीके से चलना"
+                },
+                {
+                    "id": "ID_52ff44c4-c54c-43c5-8433-d1b734ef69f0",
+                    "text": "Fainting",
+                    "display-mr": "मूर्च्छा येणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_59248353-d17a-4c1c-9fa6-ffde719b6a77",
+                    "text": "Feeding difficulty",
+                    "display-mr": "आहार घेण्यात अडचण",
+                    "display-hi": "खाने में परेशानी"
+                },
+                {
+                    "id": "ID_0884b9ed-69a7-4eed-8864-8f6ea008a0b1",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंड सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न कर पाना"
+                },
+                {
+                    "id": "ID_ae4d296f-dfa8-436d-a44b-72b649d6187c",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_9e4a708b-b21a-4ff9-b6f2-7ed778ab11d5",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_13bbb238-11a2-4474-b692-e8e79ee63a39",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_241e010d-7785-4d6d-ac2b-86060be57785",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_48b2cde5-d67a-4aef-9557-d090663809b0",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_5ce11287-468e-4ac1-ac46-2cd22339b63f",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_004afefc-33e9-41de-9faf-97b69887e8c7",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
