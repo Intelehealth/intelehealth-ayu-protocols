@@ -1,0 +1,753 @@
+{
+    "id": "ID_7267d5bc-b378-48f0-8632-ab32dedaa84f",
+    "text": "Oral pain",
+    "engineVersion": "3.0",
+    "display-mr": "तोंडाच्या वेदना",
+    "display-hi": "मुंह में दर्द",
+    "options": [
+        {
+            "id": "ID_9b8e5c6a-119c-47d5-9019-e08f5457050a",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ef03df8a-1054-437a-b4ba-336196cdd117",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_0cadd2e9-1012-4459-a1fe-83875f7ad26f",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5a8317f6-a89f-49f5-9995-b7e2104ee4df",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_1e66a7e0-f790-40ae-b877-166d352f722a",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_64b75ca8-c1ba-474d-ae76-27200a22d457",
+            "text": "Where do you feel the pain in mouth?",
+            "display-mr": "तोंडात कुठे वेदना जाणवतात?",
+            "display-hi": "आपको मुंह में कहाँ दर्द हो रहा है",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ce417632-86e9-403d-85da-73dcf580e1eb",
+                    "text": "All over",
+                    "display-mr": "सगळी कडे",
+                    "display-hi": "पूरा मुंह"
+                },
+                {
+                    "id": "ID_dc19ed88-3d1b-4aa1-a2e3-e649d58eaa95",
+                    "text": "Part of mouth",
+                    "display-mr": "तोंडाचा काही भाग",
+                    "display-hi": "मुंह का एक हिस्सा"
+                },
+                {
+                    "id": "ID_67949ddf-ef50-45d6-9acb-ec0f40d5ca94",
+                    "text": "Which part of mouth do you feel pain?",
+                    "display-mr": "तुमच्या तोंडाचा कोणता भाग दुखत आहे?",
+                    "display-hi": "आपको मुंह के किस हिस्से में दर्द महसूस होता है?",
+                    "multi-choice": false,
+                    "options": [
+                        {
+                            "id": "ID_3f1af40b-da6c-495f-9eb0-f1be33463122",
+                            "text": "Roof of mouth",
+                            "display-mr": "तोंडाचा वरील भाग",
+                            "display-hi": "तालू"
+                        },
+                        {
+                            "id": "ID_01f3047b-0816-418a-bacc-35f4c1499572",
+                            "text": "Floor of mouth",
+                            "display-mr": "तोंडाचा भाग",
+                            "display-hi": "जीभ के नीचे"
+                        },
+                        {
+                            "id": "ID_0c9b94b8-9253-48cd-9da9-5cf85689fd8a",
+                            "text": "Cheek",
+                            "display-mr": "गालावर",
+                            "display-hi": "गाल"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_82f9ae7d-9457-4d1c-8a6c-34a5aac492c6",
+            "text": "Which side of mouth do you feel pain?",
+            "display-mr": "तुमच्या तोंडाचा कोणता भाग दुखत आहे?",
+            "display-hi": "आपको मुंह के किस तरफ दर्द महसूस होता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_08b8273e-eda1-4422-afa4-1990243791ce",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बाईं ओर"
+                },
+                {
+                    "id": "ID_47979712-3b62-4655-924e-bf7c1994fa1b",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दाईं ओर"
+                },
+                {
+                    "id": "ID_7787a976-7aa8-4d90-aef3-92642196560a",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंनी",
+                    "display-hi": "दोनों ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_2628e891-9a35-4d2e-9a10-c3f487d13d52",
+            "text": "Is the oral pain associated with these changes inside the mouth?",
+            "display-mr": "तोंडाच्या आतल्या या बदलांशी तोंडी वेदना संबंधित आहे का?",
+            "display-hi": "क्या मुंह का दर्द मुंह के अंदर इन बदलावों से जुड़ा हुआ है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_233d117d-a6c3-450b-b451-0f045114e4fd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c5497a42-3067-4aae-9e6f-2d9f27769eea",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_1cfe6413-6249-46a7-b18e-22e75a1117c2",
+                    "text": "Sores",
+                    "display-mr": "फोड",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_8df50b95-6212-4132-80b4-1ca5eab1d605",
+                    "text": "Ulcers",
+                    "display-mr": "अल्सर",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_e5e08699-6d68-41dc-9e26-44d9a089f272",
+                    "text": "Swelling",
+                    "display-mr": "सूज येणे",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_8c1936e8-0f34-4bc0-af3f-16be7d05315e",
+                    "text": "Bad taste",
+                    "display-mr": "खराब चव",
+                    "display-hi": "खराब स्वाद"
+                },
+                {
+                    "id": "ID_27ee7e91-3645-4365-8413-af4e84b77004",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्त्राव",
+                    "display-hi": "खून आना"
+                },
+                {
+                    "id": "ID_1de0d525-2c8d-4e14-b569-2e8a1c39cf2a",
+                    "text": "Pus",
+                    "display-mr": "पु",
+                    "display-hi": "मवाद"
+                }
+            ]
+        },
+        {
+            "id": "ID_067fcf65-7cad-4e9d-be0d-e8356e96e41f",
+            "text": "How can you describe the character of oral pain?",
+            "display-mr": "तोंडाच्या दुखण्याचं वर्णन कसं करता येईल?",
+            "display-hi": "मुंह के दर्द को आप कैसे महसूस करते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bdf2406a-816e-4168-bc98-569efe8d0434",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_fa19cc90-2df7-4dc5-91aa-2a286c5acf52",
+                    "text": "Pricking pain",
+                    "display-mr": "काटेरी वेदना",
+                    "display-hi": "चुभन वाला दर्द"
+                },
+                {
+                    "id": "ID_fab2f310-0609-4964-b4ae-f4080a426c9e",
+                    "text": "Sharp pain",
+                    "display-mr": "तीव्र वेदना",
+                    "display-hi": "चुभने जैसा दर्द"
+                },
+                {
+                    "id": "ID_d51542ae-67f0-43fe-93bd-7de3d778df30",
+                    "text": "Dull aching pain",
+                    "display-mr": "मंद सतत होणारी वेदना",
+                    "display-hi": "धीमा-धीमा दर्द"
+                },
+                {
+                    "id": "ID_79086684-2ac5-4bea-b930-8e35feff3132",
+                    "text": "Shooting pain",
+                    "display-mr": "शूटींग वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_c6e4d82d-03aa-425a-81c8-9abf08d9ba47",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधडणारी वेदना",
+                    "display-hi": "धड़कता हुआ दर्द"
+                },
+                {
+                    "id": "ID_8a7f6321-081f-40bc-9bdc-3351d53c539a",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_48489c90-a0e7-4554-bdfd-6ccf06063810",
+            "text": "How severe is the oral pain?",
+            "display-mr": "तोंडाच्या वेदना किती तीव्र आहेत?",
+            "display-hi": "मुंह का दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e86e37b7-7f81-4615-a862-07ceed3b358c",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_b24f054d-fbd1-46ca-9829-f64bcc36e494",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_adb28642-a4a9-4c97-9bf7-81b805413f2f",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "चुभने जैसा दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_a8e7a746-ae87-46ce-9d55-7fac931a7847",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत चुभने जैसा दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_0a131434-6885-4749-bb10-d319e1bea1b0",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_efe5c956-9c8d-4cb4-876a-87f5fae98471",
+            "text": "What does relieve or lessen the pain?",
+            "display-mr": "कशाने वेदनेला आराम किंवा कमी होतात?",
+            "display-hi": "किस चीज से दर्द में राहत मिलती है या दर्द को कम करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cf3ccb95-9227-4f1b-ab4c-89992d28865d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_73336627-ed79-4b7f-835e-438a2eb23d2e",
+                    "text": "Cold compresses",
+                    "display-mr": "कोल्ड कॉम्प्रेसेस",
+                    "display-hi": "ठंडी पट्टियां"
+                },
+                {
+                    "id": "ID_64e91b3a-7b51-4f68-806d-3174aaceaedf",
+                    "text": "Salt water rinses",
+                    "display-mr": "मीठाच्या पाण्याने धुवून टाकणे",
+                    "display-hi": "नमक पानी से कुल्ला"
+                },
+                {
+                    "id": "ID_3f1bd96d-87e4-4abb-92df-73dd7e36640a",
+                    "text": "Cool drinks",
+                    "display-mr": "थंड पेय",
+                    "display-hi": "ठंडे पेय"
+                },
+                {
+                    "id": "ID_536b9413-5a46-4103-a4b4-5c645237d8cf",
+                    "text": "Liquid foods",
+                    "display-mr": "द्रव पदार्थ",
+                    "display-hi": "तरल खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_41443656-6c97-4e87-85b1-f67e45a6ee83",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_783f1603-4128-42e2-a28a-6ffc49966447",
+            "text": "What does increase or worsen the pain?",
+            "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
+            "display-hi": "दर्द किससे बढ़ता या बिगड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_fba460f5-160a-45ce-bfa9-231cb9caee4a",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_cc2f0aa9-11f4-4d8c-bb1f-405effa3a1bc",
+                    "text": "Eating (Chewing)",
+                    "display-mr": "खाणे (चघळणे)",
+                    "display-hi": "खाना (चबाना)"
+                },
+                {
+                    "id": "ID_ca1fad46-4b52-489a-b679-f2b38ac9eef7",
+                    "text": "Brushing teeth",
+                    "display-mr": "दात घासणे",
+                    "display-hi": "दांत ब्रश करना"
+                },
+                {
+                    "id": "ID_95c048b2-8ca8-4669-86ff-42a31fdb1be9",
+                    "text": "Coughing",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसना"
+                },
+                {
+                    "id": "ID_b5467522-9533-41e7-914c-923290c9e76c",
+                    "text": "Swallowing",
+                    "display-mr": "गिळणे",
+                    "display-hi": "निगलना"
+                },
+                {
+                    "id": "ID_bc7571c1-ef74-45ac-bcd5-f50c97b22c9e",
+                    "text": "Talking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बात करना"
+                },
+                {
+                    "id": "ID_e0b9d690-d0f2-423a-b085-577360f0301e",
+                    "text": "Drinking",
+                    "display-mr": "पिणे",
+                    "display-hi": "कुछ पीना"
+                },
+                {
+                    "id": "ID_6205105a-5d45-4500-8225-0eb854b1b6ac",
+                    "text": "Lying down",
+                    "display-mr": "झोपणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_f14a2af3-94e8-4fbf-999d-69895da5e68a",
+                    "text": "Hot foods",
+                    "display-mr": "गरम पदार्थ",
+                    "display-hi": "गर्म भोजन"
+                },
+                {
+                    "id": "ID_ff7604ed-43bf-4398-bb52-72fe2e4a2ead",
+                    "text": "Sour foods",
+                    "display-mr": "आंबट खाद्यपदार्थ",
+                    "display-hi": "खट्टे खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_0e1da7fc-4a30-45aa-be2a-eacf0e578c96",
+                    "text": "Spicy foods",
+                    "display-mr": "मसालेदार पदार्थ",
+                    "display-hi": "मसालेदार भोजन"
+                },
+                {
+                    "id": "ID_5e190513-69df-4e56-94ff-9bd11369a759",
+                    "text": "Salty foods",
+                    "display-mr": "मीठयुक्त पदार्थ",
+                    "display-hi": "नमकीन भोजन"
+                }
+            ]
+        },
+        {
+            "id": "ID_836c7a90-f46b-43d2-a28b-4f546de41ba7",
+            "text": "How is the oral pain progressing?",
+            "display-mr": "तोंडदुखी मध्ये काही बदल झाला का?",
+            "display-hi": "मुंह के दर्द में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b6c989f4-1cbd-447a-ad0b-ac461bd2c7e0",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_2f1d25de-1f7b-413a-b751-9b52ea322ad7",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रहा है"
+                },
+                {
+                    "id": "ID_f4c132d2-8a40-4ac8-a6ef-f08fcd799486",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)"
+                },
+                {
+                    "id": "ID_c1be274b-0b71-457c-8b87-60404e44a0e9",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_3df28f0c-e00d-4a3e-abaf-9b556290e2cb",
+            "text": "Does the pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रादरम्यान वेदनांचे काही पॅटर्न असतात का?",
+            "display-hi": "क्या दर्द 24 घंटों के दौरान किसी खास समय पर बढ़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_497edf3b-4d7d-4462-a05e-8edb4054f819",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_e9128dc9-73b7-4d14-981d-84e35324cf85",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुक कर होने वाला दर्द",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_aed3d2cc-b9ad-43cb-be6e-53399968a302",
+                            "text": "Which part of a day the oral pain is worse?",
+                            "display-mr": "दिवसाच्या कोणत्या भागात तोंडातील दुखणे अधिक वाईट असते?",
+                            "display-hi": "दिन के किस समय मुँह का दर्द ज्यादा होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_fa724f94-c23a-4e97-ae64-eadc13d8840f",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_0f5dc2f0-384f-4df7-b397-2684b75b32ca",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_ed817c0f-f1f5-4ad3-a7ee-331839d948a7",
+                                    "text": "Night",
+                                    "display-mr": "रात्र",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ae409fef-923f-4182-9703-5fd4b1565dbe",
+            "text": "Does the pain move to other parts of the body?",
+            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?",
+            "display-hi": "क्या दर्द शरीर के अन्य भागों में फैलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_78670bb5-b3ad-4260-8c41-94e5215270c3",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_df0fddf6-1532-4d79-92b0-7e7e5cd4828a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion" : "true",
+                    "options": [
+                        {
+                            "id": "ID_2f923e12-e1e5-4b09-acd5-15b6feabaa41",
+                            "text": "The pain moves to",
+                            "display-mr": "वेदना पुढे सरकते",
+                            "display-hi": "दर्द किस तरफ बढ़ता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_65b7642e-7069-480c-b66e-a7cfe69a5959",
+                                    "text": "Ear",
+                                    "display-mr": "कान",
+                                    "display-hi": "कान"
+                                },
+                                {
+                                    "id": "ID_d472d70a-1839-4295-a3c0-31a05af5038a",
+                                    "text": "Jaw",
+                                    "display-mr": "जबडा",
+                                    "display-hi": "जबड़ा"
+                                },
+                                {
+                                    "id": "ID_37ba0029-897e-476f-9f80-1f3b8571eedd",
+                                    "text": "Head",
+                                    "display-mr": "डोके",
+                                    "display-hi": "सिर"
+                                },
+                                {
+                                    "id": "ID_1419d5d2-70cf-4547-aaf2-f98c18fc48c4",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_aada7a15-1288-4747-a345-fb65ac0df994",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_630c690e-72e8-47c7-9b64-c11528ddf013",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपमें निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1bc26411-0834-4c66-9727-fd11e7612cec",
+                    "text": "Mouth ulcers",
+                    "display-mr": "तोंडात फोडं / अल्सर",
+                    "display-hi": "मुंह के छाले"
+                },
+                {
+                    "id": "ID_b09ac670-a1ee-48f8-a54c-da0adccc9043",
+                    "text": "Bad taste",
+                    "display-mr": "खराब चव",
+                    "display-hi": "बुरा स्वाद"
+                },
+                {
+                    "id": "ID_31865901-0f8e-4851-bfb0-bec8e99135cd",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासात दुर्गंधी",
+                    "display-hi": "मुंह से दुर्गंध"
+                },
+                {
+                    "id": "ID_76a27d11-2219-4f52-a340-9d3829e295c1",
+                    "text": "Gum bleeding",
+                    "display-mr": "हिरड्यातून रक्तस्त्राव",
+                    "display-hi": "मसूड़ों से खून आना"
+                },
+                {
+                    "id": "ID_1d8a059a-c6b2-414e-8268-e56633194c30",
+                    "text": "Tooth decay",
+                    "display-mr": "दात किडणे",
+                    "display-hi": "दांतों में सड़न"
+                },
+                {
+                    "id": "ID_a312576e-8e7c-485b-99c6-c7a8cc4198bb",
+                    "text": "Toothache",
+                    "display-mr": "दातदुखी",
+                    "display-hi": "दांत दर्द"
+                },
+                {
+                    "id": "ID_52574a0b-1b85-4e5e-ad0b-ff0cc320e9f3",
+                    "text": "Jaw pain",
+                    "display-mr": "जबड्याच्या वेदना",
+                    "display-hi": "जबड़े का दर्द"
+                },
+                {
+                    "id": "ID_df3683c8-8ad8-408e-87d0-42de2a38b709",
+                    "text": "Difficulty mouth opening",
+                    "display-mr": "तोंड उघडण्यात अडचण",
+                    "display-hi": "मुंह खोलने में कठिनाई होना"
+                },
+                {
+                    "id": "ID_47cb834e-e456-4798-ac30-26653603de51",
+                    "text": "Swelling in neck",
+                    "display-mr": "मानेवर सूज येणे",
+                    "display-hi": "गर्दन में सूजन"
+                },
+                {
+                    "id": "ID_f63bfcd7-d84b-4b00-a9c0-3a17f84baf6a",
+                    "text": "History of Injury to mouth or face",
+                    "display-mr": "तोंडाला किंवा चेहऱ्याला दुखापत झाल्याचा इतिहास",
+                    "display-hi": "मुंह या चेहरे पर चोट का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_4589e07c-6541-467e-96ae-5f7c7110adab",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4408bd35-6521-41ec-877b-f5e1d0bbbfe6",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f97beb83-2024-4272-9a68-75b6f008307d",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_19312870-de7a-441e-a4d7-7a2373f0bfb3",
+                    "text": "Throat pain",
+                    "display-mr": "घशात दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_fb931c6d-9852-443e-839e-6b3aba5285d8",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_afc6bc94-8bda-4460-bd42-3b579619e0ff",
+                    "text": "Facial swelling",
+                    "display-mr": "चेहऱ्यावर सूज येणे",
+                    "display-hi": "चेहरे की सूजन"
+                },
+                {
+                    "id": "ID_e02a673b-6b2a-4714-9d64-8c8365bf43c7",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_60a2ebbc-7341-4314-9c36-6d9090e5aa14",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_4eb902b8-661e-4429-ab04-33b6e08efad7",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_1994495f-2ad2-408a-a5fd-8b0c3ed9419c",
+                    "text": "Joint swelling",
+                    "display-mr": "सांधे सूज",
+                    "display-hi": "जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_c6d45927-87fb-45b8-a295-f2b1ab518f5a",
+                    "text": "Facial weakness",
+                    "display-mr": "चेहर्यावरील कमकुवतपणा",
+                    "display-hi": "चेहरे की कमजोरी"
+                },
+                {
+                    "id": "ID_2edb4098-3e8b-4909-9994-14a611ebb569",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_86229676-239f-490b-b029-05fc7e9e44ca",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8854e274-d30f-4e60-8a71-92b076e90348",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b5526d0a-baf2-40cd-bfc7-08a772b360ed",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_7b5b12f0-6baa-4113-adb3-c00bbfb431ca",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_dca9a990-5424-4dea-a6b0-da3d61eb5a60",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c24e4fcb-a120-4e29-8d6b-110a0d343f8f",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

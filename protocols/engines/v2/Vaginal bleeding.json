@@ -1,0 +1,680 @@
+{
+    "id": "ID_3e9ff9e4-878f-42e1-8b0d-4359e9ed0098",
+    "text": "Vaginal bleeding",
+    "engineVersion": "3.0",
+    "display-mr": "योनीतून रक्तस्त्राव",
+    "display-hi": "योनि से रक्तस्राव",
+    "options": [
+        {
+            "id": "ID_b36d828b-4821-4eb3-b332-cb1cd3d6f10c",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fccdd1e2-94f9-4b44-908d-260a2fabdf59",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_9b804379-e230-450e-b9a0-3e0e128ca152",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a28745e9-8315-4c0e-9967-9b1c4d6dff4b",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_bd1dd8fa-e9ab-47e7-a768-fddfd436a63d",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_1d547108-33f4-4a45-a2a1-11da36ee47f4",
+            "text": "What is the approximate quantity of bleeding in a day?",
+            "display-mr": "एका दिवसात रक्तस्त्राव होण्याचे अंदाजे प्रमाण किती आहे?",
+            "display-hi": "एक दिन में लगभग कितनी मात्रा में रक्तस्राव होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c2238dc4-9b91-411b-842d-45917d0e879b",
+                    "text": "A few drops",
+                    "display-mr": "काही थेंब",
+                    "display-hi": "कुछ बूंदें"
+                },
+                {
+                    "id": "ID_6157c1ee-b0ff-41d2-825d-26a5e0674fc2",
+                    "text": "Teaspoonful",
+                    "display-mr": "(छोटा) चमचा भर",
+                    "display-hi": "छोटा चम्मच भरकर"
+                },
+                {
+                    "id": "ID_54c29b51-48ad-4465-b4fb-5a1dbbe7ea02",
+                    "text": "Tablespoonful",
+                    "display-mr": "(मोठा) चमचा भर",
+                    "display-hi": "बड़ा चम्मच भरकर"
+                },
+                {
+                    "id": "ID_a3f90743-fd4c-4c4d-95f5-f983270d89c1",
+                    "text": "Cupful",
+                    "display-mr": "कपभर",
+                    "display-hi": "कप भर"
+                },
+                {
+                    "id": "ID_55229811-6482-4c33-9597-f5e09d822005",
+                    "text": "Blood clots",
+                    "display-mr": "रक्ताच्या गुठळ्या",
+                    "display-hi": "रक्त के थक्के"
+                }
+            ]
+        },
+        {
+            "id": "ID_3f48486b-d4fe-4212-b608-a5a57dd3825a",
+            "text": "How many sanitary pads you are using in a day to soak the vaginal bleeding?",
+            "display-mr": "योनीतून होणारा रक्तस्राव शोषण्यासाठी तुम्ही एका दिवसात किती सॅनिटरी पॅड वापरता?",
+            "display-hi": "योनि से रक्तस्राव को सोखने के लिए आप एक दिन में कितने सैनिटरी पैड का उपयोग करती हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c84fb289-77a7-4d4a-8d61-6fc53229ccda",
+                    "text": "1 to 2",
+                    "display-mr": "1 ते 2",
+                    "display-hi": "1 से 2"
+                },
+                {
+                    "id": "ID_c781ac46-86ae-4572-8172-4934fc903252",
+                    "text": "3 to 4",
+                    "display-mr": "3 ते 4",
+                    "display-hi": "3 से 4"
+                },
+                {
+                    "id": "ID_02c1c0be-f9f0-4cc6-be37-a829469cc981",
+                    "text": "5 to 6",
+                    "display-mr": "5 ते 6",
+                    "display-hi": "5 से 6"
+                },
+                {
+                    "id": "ID_400a02cb-bf43-48e4-80f5-273bcb7c4f60",
+                    "text": "7 to 8",
+                    "display-mr": "7 ते 8",
+                    "display-hi": "7 से 8"
+                },
+                {
+                    "id": "ID_fce62288-c99b-44d6-85c3-ec2179c68093",
+                    "text": "9 and above",
+                    "display-mr": "9 पेक्षा अधिक",
+                    "display-hi": "9 और उससे अधिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_b6ccec36-c37d-4bb0-a70c-76607525d532",
+            "text": "What is your current menstrual status?",
+            "display-mr": "तुमची मासिक पाळीची सध्याची स्थिती काय आहे?",
+            "display-hi": "आपकी वर्तमान माहवारी की स्थिति क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9ed4dfad-f75a-423d-9e8e-1ba39d2ca4fc",
+                    "text": "Not attained menarche",
+                    "display-mr": "मासिक पाळी प्राप्त झाली नाही",
+                    "display-hi": "माहवारी नहीं आना"
+                },
+                {
+                    "id": "ID_4ece9b8d-bda2-43e1-92b4-3a8d6e41333d",
+                    "text": "Regular menstrual cycles",
+                    "display-mr": "नियमित मासिक पाळी",
+                    "display-hi": "नियमित माहवारी चक्र"
+                },
+                {
+                    "id": "ID_0a11685d-17ff-478d-bf3d-3de287e03663",
+                    "text": "Irregular menstrual cycles",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "अनियमित माहवारी चक्र"
+                },
+                {
+                    "id": "ID_e65e9c1e-78ed-4136-b622-bb933febe276",
+                    "text": "Active menstrual period",
+                    "display-mr": "सक्रिय मासिक पाळी",
+                    "display-hi": "सक्रिय माहवारी"
+                },
+                {
+                    "id": "ID_ab9a9908-183d-48d7-88d0-b6c243b913be",
+                    "text": "Absent or missed periods",
+                    "display-mr": "अनुपस्थित किंवा चुकलेली मासिक पाळी",
+                    "display-hi": "अनुपस्थित या छूटी हुई माहवारी"
+                },
+                {
+                    "id": "ID_2afc6c25-5a0a-43fa-8209-19868e045afa",
+                    "text": "Attained menopauce",
+                    "display-mr": "रजोनिवृत्ती प्राप्त झाली",
+                    "display-hi": "रजोनिवृत्ति प्राप्त"
+                },
+                {
+                    "id": "ID_9c99317f-1c8f-415a-be51-4b7991b6d507",
+                    "text": "Prior hysterectomy",
+                    "display-mr": "हिस्टेरेक्टॉमीपूर्वी",
+                    "display-hi": "गर्भाशय निकालने की सर्जरी हो चुकी है"
+                },
+                {
+                    "id": "ID_7c2a553a-65f0-479a-959b-ea09efd351d0",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_70fdd0f6-b985-4356-829f-6a65f920e796",
+            "text": "What is your last menstrual period (LMP) date?",
+            "display-mr": "तुमची शेवटची मासिक पाळी (LMP) तारीख काय आहे?",
+            "display-hi": "आपकी पिछली माहवारी अवधि (LMP) की तारीख क्या है?",
+            "age_min": "12",
+            "options": [
+                {
+                    "id": "ID_f68eed7c-3396-429c-afc7-be0bc705b203",
+                    "text": "What is your last menstrual period (LMP) date?",
+                    "display-mr": "तुमची शेवटची मासिक पाळी (LMP) तारीख काय आहे?",
+                    "display-hi": "आपकी पिछली माहवारी अवधि (LMP) की तारीख क्या है?",
+                    "input-type": "date",
+                    "multi-choice": "age > 12 yrs",
+                    "age_min": "12"
+                }
+            ]
+        },
+        {
+            "id": "ID_729fbe86-6b33-4a9a-82e9-e219286668b4",
+            "text": "Are you using any birth control measures?",
+            "display-mr": "तुम्ही काही गर्भनिरोधक उपाय वापरत आहात का?",
+            "display-hi": "क्या आप कोई गर्भनिरोधक उपाय अपना रही हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_236b13a8-45d2-48b3-b51f-9ba26801e84c",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0b6c6a4b-65da-4fbd-b363-b8c44fde9588",
+                    "text": "Not applicable",
+                    "display-mr": "लागू नाही",
+                    "display-hi": "लागू नहीं"
+                },
+                {
+                    "id": "ID_ed1a54b4-87fd-4763-b963-4dd269805baa",
+                    "text": "Oral pills",
+                    "display-mr": "तोंडावाटे गोळ्या",
+                    "display-hi": "मौखिक गोलियां"
+                },
+                {
+                    "id": "ID_26c10fbe-212a-4745-9ec6-01b3c482c4f8",
+                    "text": "Injectable contraceptive",
+                    "display-mr": "इंजेक्टेबल गर्भनिरोधक",
+                    "display-hi": "इंजेक्शन गर्भनिरोधक"
+                },
+                {
+                    "id": "ID_48284941-8d49-4fd3-a1b5-122fafd3879c",
+                    "text": "IUCD device",
+                    "display-mr": "IUCD डिव्हाइस",
+                    "display-hi": "IUCD डिवाइस"
+                },
+                {
+                    "id": "ID_36c6a78b-9538-43a9-99ab-cbf28678909b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ea8c50ff-d419-4598-865c-2cbd606e9842",
+            "text": "What does relieve or lessen the vaginal bleeding?",
+            "display-mr": "योनिमार्गातील रक्तस्त्राव कशाने कमी होतो?",
+            "display-hi": "क्या योनि से रक्तस्राव को कम करने घटाने में मदद करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6fa11cd6-9d5e-4298-8877-00b4e5821833",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_731b75fb-bf8c-4f43-8a64-44fd464bded3",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_31582fbb-2e7d-4f29-8980-6eabcb2a2aa6",
+                    "text": "Hydration",
+                    "display-mr": "हायड्रेशन",
+                    "display-hi": "हाइड्रेशन"
+                },
+                {
+                    "id": "ID_af38550f-0b04-41cb-9dfa-d786a2948d34",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_51c6b8f8-278e-4e3f-a0b8-47bb47c23bac",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_1c8a7174-bbc4-4a15-84c4-1074ff02ac45",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_3ddeb1a4-f68f-4e87-b72c-ff6088590be0",
+            "text": "What does increase or worsen the vaginal bleeding?",
+            "display-mr": "योनीतून रक्तस्त्राव कशामुळे वाढतो किंवा खराब होतो?",
+            "display-hi": "योनि से रक्तस्राव को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_239c0c0e-04e3-4629-b65d-eb7952c90e62",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5c63826d-ab8d-4964-bfec-ae5d2595a923",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_36b45f94-16c1-410a-974c-8173911c01da",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_935c0639-538f-4813-8ef5-3d67114fe26e",
+                    "text": "Pelvic examination",
+                    "display-mr": "ओटीपोटाची तपासणी",
+                    "display-hi": "पेल्विक हिस्से की परीक्षा"
+                },
+                {
+                    "id": "ID_53e91d1f-370b-4f8b-8763-cd8947ba22d6",
+                    "text": "Sexual activity",
+                    "display-mr": "लैंगिक क्रियाकलाप",
+                    "display-hi": "यौन गतिविधि",
+                    "age_min": "18"
+                },
+                {
+                    "id": "ID_fa91be4c-add2-41f9-b778-36a302328ef0",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_5fe1c128-ecc3-44a0-ae78-6b281ac43bda",
+                    "text": "Tampon",
+                    "display-mr": "टॅम्पोन",
+                    "display-hi": "ताम्पोन या माहवारी में उपयोग होने वाला शोषक उपकरण"
+                },
+                {
+                    "id": "ID_04d4b431-a41a-43f7-8b74-3df058d76d76",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_b91bf14c-2125-4925-acb0-8ba160ced207",
+            "text": "How is the symptom progressing?",
+            "display-mr": "लक्षणांमध्ये काही बदल झाला का?",
+            "display-hi": "लक्षण में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_02b59576-8529-4c86-9604-d99ebaec8e4a",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_481fd3e8-0334-4fcd-b07c-1c78b12233a6",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_b67bf12f-2376-4ce5-9ece-033bf10524dc",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_0c5871ea-0654-4a99-8863-e4cb526704ec",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_918357b9-fc43-450b-9c77-3b812bdf8582",
+            "text": "Does the symptom have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासां दरम्यान लघवीच्या वारंवारतेचे चक्र आहे का?",
+            "display-hi": "क्या लक्षण 24 घंटे के चक्र के दौरान कोई पैटर्न दिखाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b69bd29b-425a-498b-a5db-766dcbb59d4f",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_d7d1f9d8-b163-469f-b420-4cc3fd9522d4",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_75b1e68a-e7d4-4d0e-a6dc-f5c8bbb86590",
+                            "text": "When do you get the vaginal bleeding the worst?",
+                            "display-mr": "योनिमार्गातून सर्वात जास्त रक्तस्त्राव कधी होतो?",
+                            "display-hi": "आपको योनि से सबसे ज्यादा रक्तस्राव कब होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_17ffbd2c-5ca9-40ac-871b-03cfed83072c",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_1fddb349-2281-442e-b4eb-7fb913b3d8e7",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपार",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_1aeb0931-d8d2-4ffa-9ade-799fbd509e46",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_612ba3ab-f7dc-4b96-8b39-be476faa0b02",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_2b1fe799-12ef-4b1d-95d2-329aef47e08b",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a918b9ea-3aa4-41a8-8d69-8044ac052e4a",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_42326476-4efd-4586-9f7e-300bbf215975",
+                    "text": "Vaginal discharge",
+                    "display-mr": "योनीतून स्त्राव",
+                    "display-hi": "योनि से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_2851bae1-9c71-497e-b516-28099fdfbffc",
+                    "text": "Irregular periods",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "अनियमित माहवारी",
+                    "age_min": "12"
+                },
+                {
+                    "id": "ID_ac8ce5f2-369b-4ed7-b589-28ce28335017",
+                    "text": "Menstrual cramps",
+                    "display-mr": "मासिक पाळी दरम्यान पेटके / क्रॅम्प्स येणे",
+                    "display-hi": "माहवारी में ऐंठन",
+                    "age_min": "12"
+                },
+                {
+                    "id": "ID_69b140cb-33d6-4194-a162-8d38a5873c83",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटाचा वेदना",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_120cf42a-75de-454d-a86b-9ddc82dd5d83",
+                    "text": "Heavy menstrual bleeding",
+                    "display-mr": "मासिक पाळीत प्रचंड रक्तस्त्राव",
+                    "display-hi": "माहवारी के समय भारी रक्तस्राव",
+                    "age_min": "12"
+                },
+                {
+                    "id": "ID_37015798-5396-4fd4-b704-91276a3ccd08",
+                    "text": "Prolonged periods",
+                    "display-mr": "दीर्घकाळा पर्यंत मासिकपाळी",
+                    "display-hi": "लंबे समय तक माहवारी",
+                    "age_min": "12"
+                },
+                {
+                    "id": "ID_aee6d226-f403-4596-b508-42d802ea154a",
+                    "text": "Painful intercourse",
+                    "display-mr": "वेदनादायक संभोग",
+                    "display-hi": "दर्दनाक संभोग",
+                    "age_min": "18"
+                },
+                {
+                    "id": "ID_0e1f2b93-8791-4fea-9086-ae8670179d15",
+                    "text": "Infertility",
+                    "display-mr": "वंध्यत्व",
+                    "display-hi": "वन्ध्यत्व"
+                },
+                {
+                    "id": "ID_9e6a1d33-fd0e-4c18-964e-8675856de9ba",
+                    "text": "Miscarriage",
+                    "display-mr": "गर्भपात",
+                    "display-hi": "गर्भपात"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_d771fd71-a342-4a7b-a243-9db0d92cf6b8",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_eddba242-7605-44af-882e-d9f0e40a70da",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b34be743-ff95-4ba9-b97a-f5b9bf89d259",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_2fb7bb58-f6ab-4e80-8542-bc1fbd4dad10",
+                    "text": "Hot flashes",
+                    "display-mr": "हॉट फ्लॅश",
+                    "display-hi": "गर्मी लगना"
+                },
+                {
+                    "id": "ID_dfaade8b-242f-45fa-aff2-1591ce84b94d",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_4b3aa233-0df9-411a-8034-b626c319a371",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_57f7cf52-f1e7-44e3-98a2-083f24ae8732",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_b0c9ce1b-faf4-4f2a-a1e0-e2e03f06820f",
+                    "text": "Fainting",
+                    "display-mr": "मूर्च्छा येणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_4ebd7b85-577d-42b1-86c7-ed8cc88a1e47",
+                    "text": "Nipple discharge",
+                    "display-mr": "स्तनाग्र स्त्राव",
+                    "display-hi": "निप्पल बहाव"
+                },
+                {
+                    "id": "ID_6a77bef8-0079-45e9-8356-71493680936a",
+                    "text": "Pimples",
+                    "display-mr": "मुरुम",
+                    "display-hi": "मुंहासे"
+                },
+                {
+                    "id": "ID_f45c92ed-cb63-4e47-9dac-27dcc77f1bde",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_c7282cad-5526-458d-b785-2e577ef5b3cd",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_0b173308-4332-4b6f-92f5-cdc283b156ae",
+                    "text": "Easy bruising",
+                    "display-mr": "सहजरित्या जखम होणे",
+                    "display-hi": "आसानी से चोट लगना"
+                },
+                {
+                    "id": "ID_cd7136f5-b21b-4f59-a191-967f964213de",
+                    "text": "Excess hair",
+                    "display-mr": "अतिरिक्त केस",
+                    "display-hi": "अत्यधिक बाल"
+                },
+                {
+                    "id": "ID_cf28379b-4dad-4eca-8beb-df9a87412ad0",
+                    "text": "Pale skin",
+                    "display-mr": "फिकट त्वचा",
+                    "display-hi": "त्वचा का पीला पड़ना"
+                },
+                {
+                    "id": "ID_e5a88663-3abc-4818-a9cc-fdd263cfc576",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_39bb7d4d-ca7f-4628-95c6-fdb96ab3e53d",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3c7619f9-a376-4d1c-98db-e7e836735e02",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_2639a91a-ec43-44dd-8f9d-0054fa63c95c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_f6fcb39d-3577-4b22-b6ef-b85c27c26ea8",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f01d932b-81aa-4f4e-93df-3b150704c37e",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_e6b1ef9d-0018-4637-a6b7-853945391b4a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

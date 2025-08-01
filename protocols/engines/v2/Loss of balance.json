@@ -1,0 +1,756 @@
+{
+    "id": "ID_80d37fd2-7730-474e-bed6-bcda10dd2501",
+    "text": "Loss of balance",
+    "engineVersion": "3.0",
+    "display-mr": "समतोल (बॅलन्स) जाणे",
+    "display-hi": "संतुलन की हानि",
+    "options": [
+        {
+            "id": "ID_fdfe62ca-e541-4bcf-904b-0242e8860cc1",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_328bb09a-883b-4547-a760-004aad6e947c",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_48128110-cac8-4bd5-9b18-1c3d2a19fc30",
+            "text": "How fast did loss of balance develop?",
+            "display-mr": "तोल / बॅलन्स जाण्याचा त्रास किती वेगाने वाढला?",
+            "display-hi": "संतुलन खोने की समस्या कितनी तेजी से बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_814816a5-2b9b-4442-b00d-e9e171ad78a4",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_d6d23c6e-7fd8-4186-b756-00d35ccdf9a8",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_109ffb2b-3214-4957-b696-d70fc5c41c25",
+            "text": "Do you have any of the prior history?",
+            "display-mr": "तुम्हाला यासंदर्भातला  काही पूर्वइतिहास आहे का?",
+            "display-hi": "क्या आपको पहले से कोई समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fb1a3b14-21aa-471c-82e3-27eda9e46c8a",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e73d4a70-f548-4f4d-9cbf-15c9f5eecd24",
+                    "text": "Head injury",
+                    "display-mr": "डोक्याला दुखापत",
+                    "display-hi": "सिर में चोट"
+                },
+                {
+                    "id": "ID_01fea571-08bc-4c5a-8729-2b5619bc53fe",
+                    "text": "Ear injury",
+                    "display-mr": "कानाला दुखापत",
+                    "display-hi": "कान में चोट"
+                },
+                {
+                    "id": "ID_f2fb917f-e8cb-4347-91b0-b51b8dacf3e1",
+                    "text": "Certain medication intake",
+                    "display-mr": "काही औषधांचा डोस घेतल्यावर",
+                    "display-hi": "किसी खास दवा का सेवन"
+                },
+                {
+                    "id": "ID_9a8e94b4-b93f-4f3e-b712-b9af2e7eaf23",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_61c04f64-67e2-456d-9112-a336515e0d4f",
+            "text": "Where do you have loss of balance?",
+            "display-mr": "तुमच्या शरीराचा तोल / बॅलन्स कुठे गेला आहे?",
+            "display-hi": "आपको संतुलन खोने की समस्या कहां होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_05fb7e49-7488-4a98-a713-3275c032dbdb",
+                    "text": "Entre body",
+                    "display-mr": "संपूर्ण शरीर",
+                    "display-hi": "पूरा शरीर"
+                },
+                {
+                    "id": "ID_6d3dee26-c390-4c41-9e24-a5e6ed9cc7f5",
+                    "text": "Left side of body",
+                    "display-mr": "शरीराची डावी बाजू",
+                    "display-hi": "शरीर का बायां हिस्सा"
+                },
+                {
+                    "id": "ID_75948f65-c704-4c84-9b1d-cf996d434179",
+                    "text": "Right side of body",
+                    "display-mr": "शरीराची उजवी बाजू",
+                    "display-hi": "शरीर का दायां हिस्सा"
+                },
+                {
+                    "id": "ID_b3a198cb-9eb8-4960-9155-5ab20c8e6c07",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचा भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_5a9acc4b-5cfb-47bd-a9d7-e42922dfe57a",
+                            "text": "Which part of body do you have loss of balance?",
+                            "display-mr": "तुमच्या शरीराच्या कोणत्या भागाचे संतुलन / बॅलन्स बिघडला आहे?",
+                            "display-hi": "शरीर के किस हिस्से में आपको संतुलन खोने की समस्या होती है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_063e7fdb-347d-4892-9fc5-edcdd2e5aa48",
+                                    "text": "Head",
+                                    "display-mr": "डोके",
+                                    "display-hi": "सिर"
+                                },
+                                {
+                                    "id": "ID_af100509-a8c4-45d9-a2c0-8c468ab02a8b",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_effeea25-a477-4c90-a41e-0b2c94ef95a0",
+                                    "text": "Trunk",
+                                    "display-mr": "पोट",
+                                    "display-hi": "धड़"
+                                },
+                                {
+                                    "id": "ID_01cb63c3-f7f6-411c-870b-c259b43f615c",
+                                    "text": "Arm",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_17d493d4-c746-4bc8-979e-a7cbd6fb45d1",
+                                    "text": "Upper arm",
+                                    "display-mr": "हाताचा वरचा भाग",
+                                    "display-hi": "ऊपरी भुजा"
+                                },
+                                {
+                                    "id": "ID_6a0a86cc-8a3f-4b7a-8c74-d05f1dca2ca7",
+                                    "text": "Forearm",
+                                    "display-mr": "मनगटापासून कोपऱ्यापर्यंतचा भाग",
+                                    "display-hi": "आगे की भुजा"
+                                },
+                                {
+                                    "id": "ID_2448e0fc-9ce4-44b8-8640-acf1ee1ebc50",
+                                    "text": "Hand",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_dc0f57cd-2803-47a4-856e-84b392ca6d45",
+                                    "text": "Thigh",
+                                    "display-mr": "मांडी",
+                                    "display-hi": "जांघ"
+                                },
+                                {
+                                    "id": "ID_3a556244-20cd-4683-ac3a-8463cf8089c8",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_dc21dfcd-3d00-49e6-acad-340faf0b62ee",
+                                    "text": "Foot",
+                                    "display-mr": "पाऊल",
+                                    "display-hi": "पद"
+                                },
+                                {
+                                    "id": "ID_feb0d879-645e-45c1-8a7b-7f57803f0c76",
+                                    "text": "Toes",
+                                    "display-mr": "पायांची बोटे",
+                                    "display-hi": "पैर की उंगलियां"
+                                },
+                                {
+                                    "id": "ID_c4ea0449-5a4c-455a-bce2-3eed9e0d880e",
+                                    "text": "Other",
+                                    "display-mr": "अन्य",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_bb02b158-f3ba-4549-ae03-0ea31218681b",
+            "text": "Which side of body do you have loss of balance?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या बाजूचा तोल / बॅलन्स बिघडला आहे?",
+            "display-hi": "शरीर के किस तरफ आपको संतुलन खोने की समस्या होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7fc4ab2d-01fd-4911-afc7-e73745f519dd",
+                    "text": "Left",
+                    "display-mr": "डावी",
+                    "display-hi": "बायां"
+                },
+                {
+                    "id": "ID_52245580-8fb0-45d1-8172-7202d4d7bb18",
+                    "text": "Right",
+                    "display-mr": "उजवी",
+                    "display-hi": "दायां"
+                },
+                {
+                    "id": "ID_c2d1d9c9-c2c6-4dcb-8ece-625ceaa12c8d",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजू",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_cd15a213-e216-4b6b-9cfc-318107d05f0b",
+            "text": "How can you describe the loss of balance?",
+            "display-mr": "तुमच्या संतुलन / बॅलन्स बिघडण्याचे वर्णन कसे कराल?",
+            "display-hi": "आप संतुलन खोने का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_619542d6-d943-45ef-8966-49cd54a09a94",
+                    "text": "Feeling of floating (dizziness)",
+                    "display-mr": "तरंगल्यासारखे वाटणे (चक्कर येणे)",
+                    "display-hi": "तैरने का एहसास (चक्कर आना)"
+                },
+                {
+                    "id": "ID_6b8e0f26-d3bf-4866-91e3-f06f501152da",
+                    "text": "Lightheadedness",
+                    "display-mr": "डोके गरगरणे (हलके वाटणे)",
+                    "display-hi": "सिर चकराना"
+                },
+                {
+                    "id": "ID_f195d174-a610-408f-8da3-2bc55f8b9f6e",
+                    "text": "Spinning (sense of motion)",
+                    "display-mr": "चक्कर येणे (आपल्या भोवतीचं वेगाने फिरते आहे असे वाटणे)",
+                    "display-hi": "घूमना (गति का एहसास)"
+                },
+                {
+                    "id": "ID_e8a3b145-8bd4-4ee5-b106-756f8fefedf7",
+                    "text": "Feeling of faintness",
+                    "display-mr": "बेशुध्द पडण्याची भावना",
+                    "display-hi": "बेहोशी का एहसास"
+                },
+                {
+                    "id": "ID_1928d31a-4948-4349-9588-d0ff59be4ba4",
+                    "text": "Unsteadiness",
+                    "display-mr": "अस्थिरता",
+                    "display-hi": "अस्थिरता"
+                },
+                {
+                    "id": "ID_9f938f92-5880-46c4-b051-ce4783b59cf1",
+                    "text": "Feeling of falling",
+                    "display-mr": "पडत असल्याची भावना",
+                    "display-hi": "गिरने का एहसास"
+                },
+                {
+                    "id": "ID_724aa361-a947-4ed0-9f63-b4523219292a",
+                    "text": "Falling",
+                    "display-mr": "पडणे",
+                    "display-hi": "गिरना"
+                },
+                {
+                    "id": "ID_5c21bbef-60ee-464e-b708-2d3008616299",
+                    "text": "Unable to reach object",
+                    "display-mr": "(वस्तू उचलण्यासाठी त्या)पर्यंत पोचता न येणे",
+                    "display-hi": "वस्तु (उठाने के लिये वस्तू)तक पहुंचने में असमर्थ"
+                },
+                {
+                    "id": "ID_16736e02-1789-41a5-9830-56b1265e1e70",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ/ संभ्रम",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_c11b24bb-52d6-48eb-9e2a-62b9afece9ef",
+                    "text": "Blurriness of vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "दृष्टि का धुंधलापन"
+                },
+                {
+                    "id": "ID_732a8f4e-b12e-441f-8817-f4f058d2b223",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_0a7a9109-4562-4c84-af28-469db7a226d1",
+            "text": "Do you have any pattern of the loss of balance in a 24 hour cycle?",
+            "display-mr": "दिवसाच्या 24 तासांत तोल / बॅलन्स जाण्याचे काही विशिष्ट चक्र आहे का?",
+            "display-hi": "क्या आपको 24 घंटे के चक्र में संतुलन खोने की समस्या का कोई पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f4c38208-b26b-4617-ad74-65bb690839b4",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_b4243df1-b9b0-4803-b9c6-f13d25f25e93",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूमधून(येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_9d3b6089-a755-462b-a088-d53ffe31db99",
+                            "text": "When do you have the episodes of loss of balance worst?",
+                            "display-mr": "कोणत्या वेळेत तुम्हाला सर्वात जास्त तोल / बॅलन्स जाण्याचा त्रास होतो?",
+                            "display-hi": "आपको संतुलन खोने की समस्या सबसे ज्यादा कब होती है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_b7804849-4e98-4d33-975f-b9bfb5f40261",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_f5307244-37c8-4311-b691-cae5e4bde182",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_dafc5856-a031-4d38-ba6b-33a9dacefe10",
+                                    "text": "During standing",
+                                    "display-mr": "उभे असताना",
+                                    "display-hi": "खड़े होने के दौरान"
+                                },
+                                {
+                                    "id": "ID_9a55b5b4-6beb-4764-925a-0b2764b544d4",
+                                    "text": "During walking",
+                                    "display-mr": "चालत असताना",
+                                    "display-hi": "चलने के दौरान"
+                                },
+                                {
+                                    "id": "ID_3cc62475-3ff1-4455-9bfc-999e3ea55837",
+                                    "text": "During lying down",
+                                    "display-mr": "पडून राहिल्यावर",
+                                    "display-hi": "लेटने के दौरान"
+                                },
+                                {
+                                    "id": "ID_5d5463ce-71f1-4d7e-88ae-0eb82c607f16",
+                                    "text": "During exercise",
+                                    "display-mr": "व्यायाम करत असताना",
+                                    "display-hi": "व्यायाम के दौरान"
+                                },
+                                {
+                                    "id": "ID_cc410f7b-5617-4d4b-812e-f7254e9b6967",
+                                    "text": "During sitting",
+                                    "display-mr": "बसल्यावर",
+                                    "display-hi": "बैठने के दौरान"
+                                },
+                                {
+                                    "id": "ID_ada6d9e3-c205-4d17-9f2d-cd983aa28d4a",
+                                    "text": "In dark areas",
+                                    "display-mr": "अंधाऱ्या जागांमध्ये",
+                                    "display-hi": "अंधेरे स्थानों पर"
+                                },
+                                {
+                                    "id": "ID_7f1e0fcd-4adc-4413-99ed-8b310137461d",
+                                    "text": "While turning body",
+                                    "display-mr": "शरीर वळवताना",
+                                    "display-hi": "शरीर को घुमाते समय"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f85e5cb1-21da-4ff9-add3-05d3f9244f8c",
+            "text": "What makes the loss of balance worse?",
+            "display-mr": "तुमचा तोल / बॅलन्स कशामुळे सगळ्यांत जास्त जातो?",
+            "display-hi": "संतुलन खोने की समस्या किस वजह से और भी गंभीर हो जाती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8aed9786-9461-498a-b7b7-3beab5f38655",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d65bea11-7dab-4e39-aa7f-52c1a7717d47",
+                    "text": "Change in position",
+                    "display-mr": "स्थितीमध्ये बदल",
+                    "display-hi": "स्थिति में बदलाव"
+                },
+                {
+                    "id": "ID_37b1e9f3-8b4e-443f-a463-4e19b9d14e8c",
+                    "text": "Rapid movements",
+                    "display-mr": "वेगाने हालचाल करणे",
+                    "display-hi": "तेज हरकतें"
+                },
+                {
+                    "id": "ID_367d3f29-3139-46f1-ac1c-fbd93fd02dba",
+                    "text": "Neck movements",
+                    "display-mr": "मानेच्या हालचाली",
+                    "display-hi": "गर्दन की हरकतें"
+                },
+                {
+                    "id": "ID_21024c42-e53c-4193-ae46-a767ea3990d8",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ee005bfc-a20d-4797-94e5-86d792191ef7",
+            "text": "What makes the loss of balance better?",
+            "display-mr": "बॅलन्स / तोल जाण्याचा त्रास कशामुळे कमी होतो?",
+            "display-hi": "संतुलन खोने की समस्या किस वजह से बे​हतर होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b5550a5e-a2e3-4888-bf09-8df1333c9744",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a7db7f3e-df03-4190-8ad0-d1f52701518c",
+                    "text": "Resting",
+                    "display-mr": "आराम",
+                    "display-hi": "आराम करना"
+                },
+                {
+                    "id": "ID_f6d0a4ea-007d-4458-9c9f-0915979ad0f7",
+                    "text": "Sitting down",
+                    "display-mr": "खाली बसणे",
+                    "display-hi": "बैठना"
+                },
+                {
+                    "id": "ID_38750b4c-003e-4d30-a3b1-fb32a5da7346",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहिल्यावर",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_b5766e27-af67-425f-ad44-5fbfef1f6c55",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ खास दवाएं"
+                },
+                {
+                    "id": "ID_8ade3721-3496-48c3-a5d7-a2f3659e2742",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_45dbae56-da54-4d36-aa2e-65db837b4afe",
+            "text": "How severe is the loss of balance?",
+            "display-mr": "बॅलन्स / तोल जाण्याचा त्रास किती गंभीर आहे?",
+            "display-hi": "संतुलन खोने की समस्या कितनी गंभीर है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_05e37e87-94b4-4795-b55a-bcffdc10dcc4",
+                    "text": "Mild (barely noticeable)",
+                    "display-mr": "कमी ( अगदी कधीतरी लक्षात येण्यासारखा)",
+                    "display-hi": "हल्का (बमुश्किल ध्यान देने योग्य)"
+                },
+                {
+                    "id": "ID_2c00a075-a624-47df-8110-dc33d97c0bc2",
+                    "text": "Moderate (affects daily activities)",
+                    "display-mr": "मध्यम (दैनंदिन कामांवर परिणाम होतो)",
+                    "display-hi": "मध्यम (दैनिक गतिविधियों को प्रभावित करता है)"
+                },
+                {
+                    "id": "ID_0e375584-9585-4969-930f-346e038f962e",
+                    "text": "Severe (can't perform daily activities)",
+                    "display-mr": "गंभीर ( दररोजची कामे करु शकत नाही)",
+                    "display-hi": "गंभीर (दैनिक गतिविधियां नहीं कर सकता)"
+                },
+                {
+                    "id": "ID_8da8dd01-6c91-4543-ab62-94c1d7ced906",
+                    "text": "Very severe (frequent falls)",
+                    "display-mr": "अति गंभीर ( वारंवार पडणे)",
+                    "display-hi": "बहुत गंभीर (बार-बार गिरना)"
+                }
+            ]
+        },
+        {
+            "id": "ID_c8a6e28e-4c36-46be-937a-d90d6be7188e",
+            "text": "How is loss of balance progressing?",
+            "display-mr": "बॅलन्स / तोल जाण्याचा त्रास कसा आहे?",
+            "display-hi": "संतुलन खोने की समस्या में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4a0a6768-a59c-43ef-bc15-b2ae1c342f40",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_e46e41a1-0fa5-4510-bc2d-11d68d0c5362",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_279db5eb-0838-464f-9ecc-cc63dbe3a5aa",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_8ea16b67-fb58-4c25-adc5-5d80e0d93d7c",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_eb1312ef-f9c7-40a4-b149-dd8cd60ee8a2",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a8073e55-8998-4cd2-8445-7ce007688434",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ / संभ्रम",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_3e5378f7-3737-4dc1-af26-ccb0141b1489",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_1ce53cab-3471-43d6-b230-a16242ae5a15",
+                    "text": "Weakness of limbs",
+                    "display-mr": "शरीरात अशक्तपणा",
+                    "display-hi": "अंगों में कमजोरी"
+                },
+                {
+                    "id": "ID_af08fffb-3470-408b-b7c8-61d216df3e11",
+                    "text": "Difficulty speaking",
+                    "display-mr": "बोलण्यास त्रास होणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_dd58e197-5e0f-46ed-a659-d36c69cc83bc",
+                    "text": "Tremors",
+                    "display-mr": "थरथर/कंपन",
+                    "display-hi": "कंपकंपी"
+                },
+                {
+                    "id": "ID_9aef61fa-d95a-4690-875f-bf5720f8abcc",
+                    "text": "Blurred vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_41678f16-5c6a-484f-9d22-93ab01506dc3",
+                    "text": "Double vision",
+                    "display-mr": "एक गोष्ट दोनदोनदा दिसणे",
+                    "display-hi": "दोहरी दृष्टि"
+                },
+                {
+                    "id": "ID_1f745a5e-5a05-4c1d-b1cf-d14d32bd3d9a",
+                    "text": "Ear pain",
+                    "display-mr": "कान दुखणे",
+                    "display-hi": "कान में दर्द"
+                },
+                {
+                    "id": "ID_846f597f-3081-4900-a4dd-92142a4d1a06",
+                    "text": "Ear discharge",
+                    "display-mr": "कानातून स्राव वाहणे",
+                    "display-hi": "कान से पानी आना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_1eefa610-84fb-4fbf-8594-98567926b055",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_42a4d85c-0cd2-4a53-bb33-921f3ff7c1c5",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_90ca3adf-5cc3-42e8-8c6f-900f43939c5b",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_1bd7940e-2be5-4e14-9246-54df9ffcb789",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_9bf3c63f-1623-4e1d-8e29-5bb2d7e0c290",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_dd2503f7-b23a-421d-a222-0ca8da079131",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_27500548-afa8-4baf-b542-ab94396f3887",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_40b080e9-4fe1-4458-820b-e7305bb83adb",
+                    "text": "Palpitation",
+                    "display-mr": "धडधड",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_89d47f51-e4c8-460c-9e12-64b3eb868f08",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_78060728-5da3-493b-9398-c5a6d2247a96",
+                    "text": "Joint stiffness",
+                    "display-mr": "सांधे कडक/ ताठर होणे",
+                    "display-hi": "जोड़ों में अकड़न"
+                },
+                {
+                    "id": "ID_aacbd725-05f0-495b-961c-37f460c67a01",
+                    "text": "Joint pain",
+                    "display-mr": "संधिवात",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_4d29c19e-7880-43f8-a5cb-504d00441013",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_c4c4dfaf-c873-4f93-9664-eb9d9fb55d05",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_b25c2e3d-0553-463c-a4cb-bd9fed853fce",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0096bb69-14b6-499b-ab8e-ac8de293f978",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_465a388d-167d-4084-99ba-9be6f417cb5c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_d25f8931-f575-4a2c-948f-d232368193f4",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9968f2b4-483b-4925-b104-3db41897f52b",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_20b59e19-9bbc-451a-a3a8-02fce6f06291",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

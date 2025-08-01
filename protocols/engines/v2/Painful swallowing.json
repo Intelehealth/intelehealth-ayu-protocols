@@ -1,0 +1,569 @@
+{
+    "id": "ID_0e399e10-ce35-4ba0-9d76-097998cb41d8",
+    "text": "Painful swallowing",
+    "engineVersion": "3.0",
+    "display-mr": "वेदनादायक गिळणे",
+    "display-hi": "निगलने में दर्द",
+    "options": [
+        {
+            "id": "ID_846fef5e-5d91-4146-b124-232f1f630ed1",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8324d222-aee8-47e4-a825-5f330895b485",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_e0e66766-5867-474e-ba6b-9d271b221d8c",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3d2a9887-958a-4765-a2b9-5cfe783b1ebb",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_9b689825-0899-436e-83c8-2b8def3d2014",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_7e2edc95-17f0-4104-adf1-2d4ee67d2206",
+            "text": "Where do you have pain while swallowing?",
+            "display-mr": "गिळताना तुम्हाला कुठे वेदना होतात?",
+            "display-hi": "निगलते समय आपको कहां दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a690f289-b8b0-41bb-99e1-7f70a971db45",
+                    "text": "Mouth",
+                    "display-mr": "तोंड",
+                    "display-hi": "मुंह"
+                },
+                {
+                    "id": "ID_ef77d1e1-77b3-4d25-90fe-e6ec7c24999e",
+                    "text": "Throat",
+                    "display-mr": "घसा",
+                    "display-hi": "गला"
+                },
+                {
+                    "id": "ID_0d9978f9-7b9f-4f5e-8d84-d79478e3fe40",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_36c087e0-8bdf-4c2c-99ee-d4b0fea481da",
+                    "text": "Chest",
+                    "display-mr": "छाती",
+                    "display-hi": "छाती"
+                },
+                {
+                    "id": "ID_541c5742-c269-4f54-b0d0-1920e128817a",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_99d2bd6e-c33d-452f-abca-f480c4c6ef59",
+            "text": "How can you describe the character of pain?",
+            "display-mr": "तुम्ही वेदनेच्या स्वरूपाचे वर्णन कसे करू शकाल?",
+            "display-hi": "दर्द के प्रकार के बारे में आप कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9e6c11b8-9740-4375-a2aa-d6be59e2c6f7",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळणारी वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_f38cbb39-96fb-4bc0-bd4d-4c959aa5e7b0",
+                    "text": "Sharp pain",
+                    "display-mr": "तीव्र वेदना",
+                    "display-hi": "चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_6b27b8b0-0701-4e40-854c-c9ba0ec2e4b5",
+                    "text": "Stabbing pain",
+                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                    "display-hi": "चीरे जैसा दर्द"
+                },
+                {
+                    "id": "ID_152d7340-a03a-4c7d-903e-946eb6a186eb",
+                    "text": "Squeezing pain",
+                    "display-mr": "पीळ दिल्यासारखी वेदना",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_916af5a0-59b9-4856-8641-37dd6191c42d",
+                    "text": "Dull aching pain",
+                    "display-mr": "सतत मंद वेदना",
+                    "display-hi": "धीमा दर्द"
+                },
+                {
+                    "id": "ID_9607821d-61dc-425f-a54c-06dfe56a0505",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधडणारी वेदना",
+                    "display-hi": "धड़कता हुआ दर्द"
+                },
+                {
+                    "id": "ID_bff29fd3-8a06-45ba-892a-f8cac689848f",
+                    "text": "Shooting pain",
+                    "display-mr": "एकदम वाढणारी वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_694a6a0c-6bb3-4c69-a10a-94e52343c073",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_cbc2b377-82d9-4031-959b-328c7eadd9bd",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ad487a64-347b-4e42-9f96-5d6cc10f840e",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_570fa24e-861f-4b0d-a7e1-e574318f4275",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_73290973-f3c3-498f-968b-61793662d81c",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_a29316ab-c40f-4c8a-897a-c59742c6310e",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "अतिशय तीव्र वेदना (7 ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_ea289774-b8a1-4517-8b8e-3f8d0805f968",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य तितकी सर्वात जास्त वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_34c95072-2df1-49a2-bd7a-304342cecd03",
+            "text": "What type of foods cause pain while swallowing?",
+            "display-mr": "कोणत्या प्रकारचे अन्नपदार्थ गिळताना वेदना होतात?",
+            "display-hi": "किस प्रकार के खाद्य पदार्थ निगलते समय दर्द का कारण बनते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b345062a-87a2-4313-8029-5b713ab239e5",
+                    "text": "Solid food",
+                    "display-mr": "घन अन्नपदार्थ",
+                    "display-hi": "ठोस खाना"
+                },
+                {
+                    "id": "ID_96f9f68a-d072-4a76-b024-18a5acc645a4",
+                    "text": "Liquid food",
+                    "display-mr": "द्रव अन्नपदार्थ",
+                    "display-hi": "तरल खाना"
+                },
+                {
+                    "id": "ID_3f8816d1-bf66-448b-8ba6-7a4fdf68e74d",
+                    "text": "Solid and liquid foods",
+                    "display-mr": "घन आणि द्रव अन्नपदार्थ",
+                    "display-hi": "ठोस और तरल खाना"
+                }
+            ]
+        },
+        {
+            "id": "ID_97f9e3da-e42c-4ee6-99c2-dc62611efa7f",
+            "text": "What does relieve or lessen the pain while swallowing?",
+            "display-mr": "अन्न गिळताना होणाऱ्या वेदनेमधून कशामुळे आराम मिळतो किंवा त्या कमी होतात?",
+            "display-hi": "निगलते समय दर्द से क्या राहत दिलता है या घटाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1ba88220-817b-4501-b532-81d7ea31e230",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_bb54109f-eaea-4325-bb6b-62d698387413",
+                    "text": "Oral hygiene",
+                    "display-mr": "तोंडाची स्वच्छता",
+                    "display-hi": "मुंह की सफाई"
+                },
+                {
+                    "id": "ID_364dd065-4cbe-4baa-8b5a-0e25bbe2001e",
+                    "text": "Soft diet",
+                    "display-mr": "मऊ आहार",
+                    "display-hi": "नरम आहार"
+                },
+                {
+                    "id": "ID_4268c9ca-7f49-4831-b079-f1809856c9c0",
+                    "text": "Excess chewing",
+                    "display-mr": "अतिरिक्त चघळणे",
+                    "display-hi": "अधिक चबाना"
+                },
+                {
+                    "id": "ID_f49afba1-9cde-4567-83e1-8c743baa57d1",
+                    "text": "Liquid diet",
+                    "display-mr": "द्रव आहार",
+                    "display-hi": "तरल आहार"
+                },
+                {
+                    "id": "ID_d2508bba-548a-4036-a56d-44999588b522",
+                    "text": "Soft diet",
+                    "display-mr": "मऊ आहार",
+                    "display-hi": "नरम आहार"
+                },
+                {
+                    "id": "ID_dc0ed4e8-374e-4343-8c53-c72566d413a8",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_074d8376-1075-47a2-a379-f7eb4a387220",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ec1650aa-789b-49a5-94f2-ac1939fc9ac7",
+            "text": "What does increase or worsen the pain while swallowing?",
+            "display-mr": "अन्न गिळताना होणाऱ्या वेदना कशामुळे वाढतात किंवा त्या बिघडतात?",
+            "display-hi": "निगलने के दौरान दर्द को बढ़ाने या खराब करने वाले कारण क्या हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1a46457a-df3a-4843-ab3e-a32cdd9867e8",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f28715aa-9515-417f-9802-63514b21e45a",
+                    "text": "Sold foods",
+                    "display-mr": "घन अन्नपदार्थ",
+                    "display-hi": "बासी खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_78db2433-20b9-4fef-85dd-a6f473c66ec4",
+                    "text": "Dry foods",
+                    "display-mr": "कोरडे अन्नपदार्थ",
+                    "display-hi": "सूखा खाना"
+                },
+                {
+                    "id": "ID_0c675d79-ea11-43f0-9610-223f6963e908",
+                    "text": "Incomplete chewing",
+                    "display-mr": "अपूर्ण चावणे",
+                    "display-hi": "अधूरा चबाना"
+                },
+                {
+                    "id": "ID_dda597d5-1f9c-4d6e-8dd5-5d81d7c80423",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7b8aab1b-cf2f-465e-aa0f-e7e37724feca",
+            "text": "Does pain on swallowing has any timing pattern during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रामध्ये गिळताना वेदना होण्यात काही बदल असतो का?",
+            "display-hi": "क्या 24 घंटे के चक्र के दौरान निगलने में दर्द का कोई समय पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c7cb3f32-f04f-4d75-88b1-a4d395fb046c",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_295c1774-9e3b-4b7e-8970-3347e4dba778",
+                    "text": "With food intake",
+                    "display-mr": "अन्नसेवनासह",
+                    "display-hi": "खाने के साथ"
+                },
+                {
+                    "id": "ID_91d2e129-9df4-4719-9bc6-a841a94cee31",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता और जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_46153734-b29d-4301-a97a-00c973dad86a",
+            "text": "How is the painful swallowing progressing?",
+            "display-mr": "अन्न गिळताना होणाऱ्या वेदना मध्ये काही बदल?",
+            "display-hi": "दर्दनाक निगलने की समस्या में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_72527f7e-40ba-4373-9c99-e57233b9ba36",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_532eca9e-c32c-4cef-a324-1e71c5a0f1ca",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_874ee8ff-7296-4715-a7ef-8631baf48fd3",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_ef4d7cea-00ca-450e-9709-edcc3a30bba4",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_04ca8d67-ef7a-4691-844e-2c7f8328fd96",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_d9df3a7a-462d-4e25-a4a0-14aba9110289",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_bd120c49-5725-4816-b9a4-b32b4eee2f86",
+                    "text": "Sore throat",
+                    "display-mr": "घसा खवखवणे",
+                    "display-hi": "गले में खराश"
+                },
+                {
+                    "id": "ID_08968c7a-444f-47e9-95ee-09adc28dd910",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाजाचा कर्कशपणा",
+                    "display-hi": "आवाज में कर्कशता"
+                },
+                {
+                    "id": "ID_ee6f2eb4-1bc5-43d4-b53f-779d3cdddc94",
+                    "text": "Feeling of lump in throat",
+                    "display-mr": "घशात गुठळी जाणवणे",
+                    "display-hi": "गले में गांठ का अनुभव"
+                },
+                {
+                    "id": "ID_c1f54cb0-198e-45d6-846f-7ee140b8eeaa",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ",
+                    "display-hi": "सीने में जलन"
+                },
+                {
+                    "id": "ID_ef3a0b6f-d8ff-46ef-b2ea-c0de8933f62a",
+                    "text": "Belching (burping)",
+                    "display-mr": "ढेकर देणे",
+                    "display-hi": "डकारें आना"
+                },
+                {
+                    "id": "ID_9cef4d0c-402b-4694-b46d-899a046f9ac8",
+                    "text": "Acid reflux",
+                    "display-mr": "आम्ल घशा-तोंडात येणे",
+                    "display-hi": "मुंह में अम्ल का आना"
+                },
+                {
+                    "id": "ID_494c5846-b47e-4623-945c-3daa891e94f9",
+                    "text": "White patches in mouth",
+                    "display-mr": "तोंडात पांढरे ठिपके",
+                    "display-hi": "मुंह में सफेद धब्बे"
+                },
+                {
+                    "id": "ID_3e9ad8f2-f08c-473e-b85d-b95e7f28f716",
+                    "text": "History of intake of hot food",
+                    "display-mr": "गरम अन्न घेण्याचा इतिहास",
+                    "display-hi": "गर्म भोजन खाने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_ffed1cbe-15e0-4388-a412-5205310a8fa5",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6d741279-dbb0-45cb-87c3-4dee4cfd0325",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ff905705-1c10-43aa-b71c-a0a0fca1f483",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_516bfe70-fc9e-455c-acd1-61023f24c8bc",
+                    "text": "Bloating of abdomen",
+                    "display-mr": "पोट फुगणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_d5bb01dd-ae66-4ff8-acfc-b9a6b2420fbf",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_61346820-39e1-498c-a2c1-b194b4f04a1f",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_ec42a01f-181f-4bf8-a3d5-2acf37895a32",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_0d169229-6fd6-4c4d-b88a-78431bbe2f4c",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_6181447e-6f81-4046-8c7a-ca95bd40b3a2",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजे हुए लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_574559e8-48da-4a34-8843-f0139a367382",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_63096109-e566-41bd-b3f2-17f92ab18fbe",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_5bdd0dd4-4f24-4d8d-a291-baa3db068263",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_03f74773-79d4-4894-a998-81b8acae0332",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2de02bf9-0504-46a0-9e87-d4326b9f8f0c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_bbf0625d-016e-4a52-a7e9-ee87f3e501b8",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_bd28eba3-6a26-4d46-a81c-e8e9635c3619",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_b726df15-b41f-4fe3-a429-b78266d9f009",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8591f0c0-5989-48c5-b69c-b184ea185557",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
