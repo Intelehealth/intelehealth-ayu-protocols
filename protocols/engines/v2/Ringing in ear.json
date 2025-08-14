@@ -1,0 +1,753 @@
+{
+    "id": "ID_4ba51307-83f4-46b3-ae30-a0ba636ea8c8",
+    "text": "Ringing in ear",
+    "engineVersion": "3.0",
+    "display-mr": "कानात आवाज येणे",
+    "display-hi": "कानों में सीटी बजना",
+    "options": [
+        {
+            "id": "ID_7597b114-6db5-4c55-aee0-67a1d6765c3d",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f01d19c7-432c-45d5-9d6b-046e90326a61",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_71e362b0-bc6c-44d9-9ae4-13328d833943",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने पसरली ?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2d08f562-cbe0-4636-a7f0-51b9942be9d0",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_e15b2373-8f06-44f1-b423-c49699f17782",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_e09ba9bb-e357-48f7-9e12-d175eb7693d0",
+            "text": "Which ear do you have ringing?",
+            "display-mr": "तुमच्या कोणत्या कानात आवाज येत आहे?",
+            "display-hi": "आपको कौन से कान में सीटी बजने की समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_afdd156f-f76e-450d-b74a-78d04e73242e",
+                    "text": "Left ear",
+                    "display-mr": "डावा कान",
+                    "display-hi": "बायां कान"
+                },
+                {
+                    "id": "ID_0f8103d1-6115-4583-a028-c1328d86cf92",
+                    "text": "Right ear",
+                    "display-mr": "उजवा कान",
+                    "display-hi": "दायां कान"
+                },
+                {
+                    "id": "ID_f792881d-5b93-42c1-af8f-6db4af098459",
+                    "text": "Both ears",
+                    "display-mr": "दोन्ही कान",
+                    "display-hi": "दोनों कान"
+                }
+            ]
+        },
+        {
+            "id": "ID_d8f59ea0-3506-4ac3-8aec-2dc57feeb171",
+            "text": "How can you describe ringing in ear?",
+            "display-mr": "तुम्ही कानातील आवाजाचे कसे वर्णन कराल?",
+            "display-hi": "आप कान में सीटी बजने की समस्या का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b835630b-e951-4818-bf39-339f8b96e068",
+                    "text": "Ringing",
+                    "display-mr": "घंटीसारखा आवाज",
+                    "display-hi": "बजना"
+                },
+                {
+                    "id": "ID_cbc18414-155e-40e4-baf9-f927ac29fbf4",
+                    "text": "Buzzing",
+                    "display-mr": "मधमाशांनी गुणगुणल्यासारखा आवाज",
+                    "display-hi": "भनभनाना"
+                },
+                {
+                    "id": "ID_2f552b1e-e2ba-4580-a5f6-420333c4afc1",
+                    "text": "Hissing",
+                    "display-mr": "फिस्करल्यासारखा आवाज",
+                    "display-hi": "फुफकारना"
+                },
+                {
+                    "id": "ID_7ca11e9a-d384-4fec-bd9e-64096ecee1b8",
+                    "text": "Humming",
+                    "display-mr": "गुणगुणल्यासारखा आवाज",
+                    "display-hi": "गुनगुनाना"
+                },
+                {
+                    "id": "ID_f8b12f6e-6580-42ef-a720-712273af0853",
+                    "text": "Roaring",
+                    "display-mr": "मोठा (गर्जना केल्यासारखा) आवाज",
+                    "display-hi": "दहाड़ना"
+                },
+                {
+                    "id": "ID_d112a229-713f-4e2d-b4a1-ecf2961e91e9",
+                    "text": "Clicking",
+                    "display-mr": "टिकटिक आवाज",
+                    "display-hi": "चटकने की आवाज"
+                },
+                {
+                    "id": "ID_d79405a5-dc62-4d11-b8f2-c2d78ca63aca",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_19d17aa7-dd8c-4612-95c7-31cc29927ba2",
+            "text": "Did you have any prior history?",
+            "display-mr": "तुम्हाला आधीचा काही इतिहास आहे का?",
+            "display-hi": "क्या आपको पहले इनमें से कुछ हुआ है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7a1f76bd-e7c0-4a3d-9e13-f77abddc9fe2",
+                    "text": "None",
+                    "display-mr": "कोणतीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_07f0089b-c874-481c-bdfd-e6f6cb52fe3d",
+                    "text": "Injury to ear",
+                    "display-mr": "कानाला इजा",
+                    "display-hi": "कान में चोट"
+                },
+                {
+                    "id": "ID_52f49097-9ae8-4b29-bcae-6e162d687425",
+                    "text": "Head injury",
+                    "display-mr": "डोक्याला इजा",
+                    "display-hi": "सिर में चोट"
+                }
+            ]
+        },
+        {
+            "id": "ID_a394cf40-3c18-4ea7-9718-0b004bb55b44",
+            "text": "Do you have pain in ears?",
+            "display-mr": "तुमच्या कानात वेदना होतात का?",
+            "display-hi": "क्या आपको कान में दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e590978b-f58e-4510-b070-e94655412deb",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_91da4423-c4f2-4306-a55b-e7cbdfef72f4",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_a8371e6d-71b9-489e-b279-5df96f12460e",
+                            "text": "How can you describe the character of pain?",
+                            "display-mr": "तुम्ही या वेदनेच्या स्वरूपाचे वर्णन कसे करू शकाल?",
+                            "display-hi": "आप दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_dbe45e18-ea7d-4885-bd26-e1c4dec5d7c6",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "मंद सतत होणारी वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_4bf43f44-c086-4504-921e-59c7a063e611",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळल्यासारखी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_b46221de-a159-454b-8238-ce9eeb27f350",
+                                    "text": "Shooting pain",
+                                    "display-mr": "अचानक वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_c08d0faf-a636-40ed-81ea-84abeedcea6d",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_cd1f5ee8-b25d-4712-864f-e4e366e927ee",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_63e380e6-2c09-4df9-8733-2acc0f921e0d",
+                                    "text": "Gnawing (chewing) pain",
+                                    "display-mr": "कुरतडल्याप्रमाणे वेदना",
+                                    "display-hi": "चबाने जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_e0fb206c-224a-44e0-8f6e-977a998fc685",
+                                    "text": "Gripping pain",
+                                    "display-mr": "घट्ट पकडल्याप्रमाणे वेदना",
+                                    "display-hi": "पकड़ने जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_d1536bd3-7f33-4606-8b85-a9f8d74b38b8",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_dd81e937-af87-454f-b28e-4bee9a00c867",
+            "text": "How severe is the ringing in ears?",
+            "display-mr": "कानात आवाज होणे किती गंभीर आहे?",
+            "display-hi": "कान में सीटी बजने की समस्या कितनी अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_99c8bd56-f9a7-4258-bfbf-c5f4ea42d55a",
+                    "text": "Mild",
+                    "display-mr": "सौम्य",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_0883024d-0ab1-483d-b22f-d70275523a52",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_d84cfe89-4b0b-4f1b-a639-f4e0bb91f653",
+                    "text": "Severe",
+                    "display-mr": "तीव्र",
+                    "display-hi": "गंभीर"
+                },
+                {
+                    "id": "ID_905a1d83-8881-4331-aa3f-e43879f96a79",
+                    "text": "Very severe",
+                    "display-mr": "अतिशय तीव्र",
+                    "display-hi": "बहुत गंभीर"
+                },
+                {
+                    "id": "ID_a2644310-8b43-4670-90ca-8d77d9816a3e",
+                    "text": "Unbearable",
+                    "display-mr": "असह्य",
+                    "display-hi": "असहनीय"
+                }
+            ]
+        },
+        {
+            "id": "ID_89ab6a6f-0798-4a0a-ba84-42e0ea03defe",
+            "text": "What does relieve or lessen the ringing in ears?",
+            "display-mr": "कानात आवाज होणे कशामुळे थांबते किंवा कमी होते?",
+            "display-hi": "कान में सीटी बजने की समस्या से किस तरह राहत मिलती है या कम होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b70b8801-cf7b-4b52-840b-22fa61d1d31f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f77a2130-7f54-4935-ba23-c33aa0eb1457",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_0a4c1891-24d3-45e3-a552-bc7d9733fce8",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_0950b23d-950d-4917-8ab8-6f07f5958890",
+                    "text": "Certain position",
+                    "display-mr": "विशिष्ट स्थिती",
+                    "display-hi": "कुछ खास मुद्राएं"
+                },
+                {
+                    "id": "ID_cb52e284-baf9-441f-88cc-def262b2c07a",
+                    "text": "Closing ears",
+                    "display-mr": "कान बंद केल्याने",
+                    "display-hi": "कान बंद करना"
+                },
+                {
+                    "id": "ID_19ddfa73-2f15-4ab5-9336-252809bfa84b",
+                    "text": "Chewing",
+                    "display-mr": "चावत राहिल्याने",
+                    "display-hi": "चबाना"
+                },
+                {
+                    "id": "ID_40caafd8-7f35-4b9a-ae39-c3b6062fb084",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_05648f73-62c9-498b-b7a0-2f0419a7c280",
+            "text": "What does increase or worsen the ringing in ears?",
+            "display-mr": "कानात आवाज होणे कशामुळे वाढते किंवा बिघडते?",
+            "display-hi": "कान में सीटी बजने की समस्या किस तरह से बढ़ती या बिगड़ती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9468ce8f-a50c-426e-ab07-1e1d308ac9a7",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_69860fc7-d8f1-452d-b870-6a2eef90ab41",
+                    "text": "Noise exposure",
+                    "display-mr": "ध्वनी संपर्क",
+                    "display-hi": "शोर में रहना"
+                },
+                {
+                    "id": "ID_81658ff0-ae76-413b-a6f8-72c4639d6549",
+                    "text": "Stress",
+                    "display-mr": "तणाव",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_3d19196a-5162-419b-84e2-83191734f9b3",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_5e883e0d-d4a0-469d-9bc0-9e47a99e9eb9",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                },
+                {
+                    "id": "ID_edfee002-9e6d-4214-890e-4c0390377bd3",
+                    "text": "Smoking",
+                    "display-mr": "धूम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_0368c977-89b4-4e84-9313-c6d4cd9e4194",
+                    "text": "Alcohol",
+                    "display-mr": "मद्य",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_88cd7f14-df16-456f-b87f-c174edad3246",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_3bcc596f-00af-441a-82b0-9d530dec0298",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_e023796d-1a3a-4937-a73a-594f6134eb7a",
+                    "text": "Neck movement",
+                    "display-mr": "मानेची हालचाल",
+                    "display-hi": "गर्दन की हरकत"
+                },
+                {
+                    "id": "ID_624a861c-8b6a-4be9-8c1d-509de42a0182",
+                    "text": "Lack of sleep",
+                    "display-mr": "झोपेची कमतरता",
+                    "display-hi": "नींद की कमी"
+                },
+                {
+                    "id": "ID_c1ddb9d4-7b28-444b-83c9-1cdc6e905b47",
+                    "text": "Physical activity",
+                    "display-mr": "शारीरिक हालचाली",
+                    "display-hi": "शारीरिक गतिविधि"
+                },
+                {
+                    "id": "ID_644cbfda-4620-4373-b486-f943a2ca473c",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d7242c05-89f2-4ccf-83eb-da247f260f34",
+            "text": "How is the ringing in ear progressing?",
+            "display-mr": "कानात आवाज होण्याच्या त्रासामध्ये काही बदल झाला का?",
+            "display-hi": "कान सीटी में बजने की समस्या में कुछ बदलाव है क्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3758a6c1-ae72-4a40-ba23-c1d2aaa3e1e8",
+                    "text": "Increasing",
+                    "display-mr": "वाढते आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_ed394e4b-2a5b-446a-aa81-e4fae9954ca7",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_f0127e8b-7990-4d29-bcb2-219efd76e9a0",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_81890723-7c69-4747-9e98-b37886c11d0f",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_b1732f96-df38-483a-8daf-5714ed667243",
+            "text": "Does the ringing in ear have any patterns during a 24 hpur cycle?",
+            "display-mr": "24 तासांमध्ये कानातील आवाजाचे काही ठराविक चक्र आहे का?",
+            "display-hi": "क्या 24 घंटे के चक्र में कान में सीटी बजने की समस्या का कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_12623793-8323-4482-96c4-d847e5175a9e",
+                    "text": "Constant",
+                    "display-mr": "सातत्यपूर्ण",
+                    "display-hi": "Constant"
+                },
+                {
+                    "id": "ID_7e19c067-baa6-4cec-8ba2-3bf6db37a00d",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून वेदना (येते आणि जाते)",
+                    "display-hi": "Intermittent (comes & goes)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_9c93bef6-b57d-42a6-9b2a-5add0fe625fb",
+                            "text": "How much time each episode of ringing in ears present?",
+                            "display-mr": "कानात आवाज येताना तो किती वेळ टिकतो?",
+                            "display-hi": "कान में सीटी बजने की समस्या का प्रत्येक एपिसोड कितने समय तक रहता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_450d2efb-cbea-41b4-a442-8c82df7848e1",
+                                    "text": "A few seconds",
+                                    "display-mr": "काही सेकंद",
+                                    "display-hi": "कुछ सेकंड"
+                                },
+                                {
+                                    "id": "ID_d9b28bc9-0662-44b3-b420-dbb6a03552bf",
+                                    "text": "A few minutes",
+                                    "display-mr": "काही मिनिटे",
+                                    "display-hi": "कुछ मिनट"
+                                },
+                                {
+                                    "id": "ID_6b43ae0e-c928-4586-9c2a-17e4c1c0ce5f",
+                                    "text": "A few hours",
+                                    "display-mr": "काही तास",
+                                    "display-hi": "कुछ घंटे"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_75ca76d3-b586-44c0-95e2-7d281c0d416f",
+            "text": "Do you hear ringing sound inside the head?",
+            "display-mr": "तुम्हाला डोक्याच्या आवाजात काही घंटीसारखा आवाज ऐकू येतो का?",
+            "display-hi": "क्या आपको सिर के अंदर सीटी बजने की आवाज सुनाई देती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1631043a-78f5-4f18-af19-bfb1d51005e7",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_9e9a62df-52ef-4cb1-a83f-73e2ce5b44cc",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_57ab451b-5e36-4db1-b9f2-d04c89f7b27f",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_42aedd0b-9ec6-438a-be5b-f48cff637a31",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_4b088546-0ef9-48c1-a3d7-a2620d1e1270",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_4d13c831-3883-4c00-acae-7489d7ccf12e",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "गरगरणे (डोके हलके होणे)",
+                    "display-hi": "चक्कर आना (सिर चकराना)"
+                },
+                {
+                    "id": "ID_78b892d3-f476-4de3-a781-d49b70bfc25d",
+                    "text": "Vertigo",
+                    "display-mr": "व्हर्टिगो",
+                    "display-hi": "सर घूमने का अहसास"
+                },
+                {
+                    "id": "ID_c0f95be8-2142-4651-b038-56804ca01f23",
+                    "text": "Ear pain",
+                    "display-mr": "कानात वेदना",
+                    "display-hi": "कान में दर्द"
+                },
+                {
+                    "id": "ID_3799088d-2a7b-454a-b5f4-a9392faad7e2",
+                    "text": "Ear discharge",
+                    "display-mr": "कानातून स्राव",
+                    "display-hi": "कान से पानी आना"
+                },
+                {
+                    "id": "ID_cc604cef-8a4e-4ddb-a01c-03a949ad5c86",
+                    "text": "Hearing loss",
+                    "display-mr": "ऐकू न येणे",
+                    "display-hi": "सुनाई कम देना"
+                },
+                {
+                    "id": "ID_d695a6de-4a5d-4f99-8692-8c12cbea1e32",
+                    "text": "Fullness in ear",
+                    "display-mr": "कान भरणे",
+                    "display-hi": "कान में भरापन"
+                },
+                {
+                    "id": "ID_75a79fdb-9444-44e9-a12f-f66d50550743",
+                    "text": "Frequent falls",
+                    "display-mr": "वारंवार पडणे",
+                    "display-hi": "बार-बार गिरना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_99559dea-fd88-43c4-b490-bdedb55ec4bc",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_dc924af3-f16a-4493-9d17-751b78aba312",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ecb4fafe-a1b9-4883-92b9-29e5555936f5",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_d8af0215-4961-4093-a7b1-d797344bee9f",
+                    "text": "Fainting",
+                    "display-mr": "बेशुद्ध होणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_11f883d9-3f0d-4f18-8935-3480a98fcc17",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_458b069f-2809-42aa-947f-417e9ccbc51d",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_ab55e359-dab8-4321-8197-ecca10e95b7d",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_97173ab4-218d-4afd-aade-c20152badee9",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येतो",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_1d70923b-a37a-44d6-8203-4866ab33da59",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायू कमजोर होणे",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_77e73dfb-1f1c-4cf2-9ba5-48b9b1334a87",
+                    "text": "Loss of balance",
+                    "display-mr": "संतुलन गमावणे",
+                    "display-hi": "संतुलन न होना"
+                },
+                {
+                    "id": "ID_dbfaccd9-98ef-4e31-a780-7d00ce0ab05f",
+                    "text": "Speech difficulty",
+                    "display-mr": "बोलताना अडचण येणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_90baae0d-78cd-40aa-945d-768ea7681eab",
+                    "text": "Runny nose",
+                    "display-mr": "वाहणारे नाक",
+                    "display-hi": "नाक बहना"
+                },
+                {
+                    "id": "ID_d74407c9-5666-41c8-a82e-c1e50058a477",
+                    "text": "Throat pain",
+                    "display-mr": "घशात दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_c5a4255f-1016-4dae-879a-094922213977",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_ccd58d1a-391f-41f3-b186-7ab7daa8d6f0",
+                    "text": "Neck stiffness",
+                    "display-mr": "मान कडक होणे",
+                    "display-hi": "गर्दन में अकड़न"
+                },
+                {
+                    "id": "ID_8c463ab0-700f-4627-ba01-1e9c6810ae15",
+                    "text": "Vision disturbance",
+                    "display-mr": "दृष्टी अडथळा",
+                    "display-hi": "दिखाई देने में गड़बड़ी"
+                },
+                {
+                    "id": "ID_4bc1310b-9386-4b29-9da1-6b39cfed010b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_04d0e2aa-cb47-4a6d-8e61-7eaa32a87262",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_28e9c861-fe80-48cd-9f6f-17a5668981c0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_8d972473-0808-4e0d-8c9b-98135c5b8f06",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_dda29a56-0e0d-4ac5-be5e-3ab9eec0a85e",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_3bb69f12-767a-491b-bf5e-38d65833ee2d",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f9e39398-be71-423a-85f2-758d0deb1af8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

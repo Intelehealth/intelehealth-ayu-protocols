@@ -1,0 +1,682 @@
+{
+    "id": "ID_2557aabf-c9de-4149-b623-f050f8350fc8",
+    "text": "Heartburn",
+    "engineVersion": "3.0",
+    "display-mr": "छातीत जळजळ",
+    "display-hi": "सीने में जलन",
+    "options": [
+        {
+            "id": "ID_1568093a-cfdf-45b8-8525-7f33018f7fef",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_494c80d5-17fd-46ce-b1eb-0acb40ca9dbd",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_716c67dc-f054-496c-8625-208781507a12",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_af8d7bcc-5aa4-4d37-920b-025a7c5afb9d",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_b688b21f-08d1-4f72-ae0e-fc6b03dec5c2",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_39832684-c9d9-4fba-bdfe-071afe672cd9",
+            "text": "Which part of body do you have heartburn ?",
+            "display-mr": "शरीराच्या कोणत्या भागात छातीत जळजळ आहे?",
+            "display-hi": "शरीर के किस हिस्से में आपको सीने में जलन होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6ffe91ea-ba3f-4f12-a77a-c4d3d6429287",
+                    "text": "Throat",
+                    "display-mr": "घसा",
+                    "display-hi": "गला"
+                },
+                {
+                    "id": "ID_29a65c22-c6c9-4301-8ec8-335c5761da15",
+                    "text": "Centre of chest",
+                    "display-mr": "छातीच्या मध्यभागी",
+                    "display-hi": "छाती का केंद्र"
+                },
+                {
+                    "id": "ID_464f8c4d-21e0-4164-ac14-1e6ad01a8b0b",
+                    "text": "Upper central abdomen",
+                    "display-mr": "वरच्या मध्यवर्ती ओटीपोटात",
+                    "display-hi": "पेट का ऊपरी केंद्रीय भाग"
+                }
+            ]
+        },
+        {
+            "id": "ID_55344cc7-1478-4af0-8621-09a8008c7e80",
+            "text": "Does heartburn have any timing pattern during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रादरम्यान छातीत जळजळ होण्याची वेळ असते का?",
+            "display-hi": "क्या 24 घंटे के चक्र के दौरान सीने में जलन का कोई समय पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5f55a172-2420-4fbc-9a69-dafb7b8e236d",
+                    "text": "Continuous",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_7a239c15-40fa-4884-82ee-30f95df0451b",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतो आणि जातो)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_3518e6b7-cc8e-423f-a61c-982e4402b5b3",
+                            "text": "When do you have heartburn?",
+                            "display-mr": "तुम्हाला छातीत जळजळ कधी होते?",
+                            "display-hi": "आपको सीने में जलन कब होती है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_44b6103e-30d2-4b36-a22b-368c12fc4e6f",
+                                    "text": "Empty stomach",
+                                    "display-mr": "रिकामे पोट असल्यास"
+                                },
+                                {
+                                    "id": "ID_384daded-6d7e-45f9-b100-b596fc564fe9",
+                                    "text": "After meals",
+                                    "display-mr": "जेवणानंतर"
+                                },
+                                {
+                                    "id": "ID_1ccf3da5-e480-4488-ae53-8451213a4859",
+                                    "text": "Leaning forward",
+                                    "display-mr": "पुढे वाकल्यावर"
+                                },
+                                {
+                                    "id": "ID_b0f0a6cb-f38a-404d-b547-af99734c1380",
+                                    "text": "Lying flat on bed",
+                                    "display-mr": "पलंगावर सपाट झोपल्यावर"
+                                },
+                                {
+                                    "id": "ID_03ebdad1-3687-4057-a393-7926d6be5be8",
+                                    "text": "At night",
+                                    "display-mr": "रात्री"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_5f1fa012-7dcf-463f-9317-a04d7c60ea7c",
+            "text": "How often do you have heartburn?",
+            "display-mr": "तुम्हाला छातीत जळजळ किती वेळा होते?",
+            "display-hi": "आपको सीने में जलन कितनी बार होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_915303bb-ae83-47d8-b49d-691ce6d230cc",
+                    "text": "Daily",
+                    "display-mr": "दररोज",
+                    "display-hi": "रोजाना"
+                },
+                {
+                    "id": "ID_1beae555-6452-46a9-bc7b-08fa00822b20",
+                    "text": "Twice or more in a week",
+                    "display-mr": "आठवड्यातून दोनदा किंवा अधिक",
+                    "display-hi": "सप्ताह में दो या अधिक बार"
+                },
+                {
+                    "id": "ID_32ecb1f4-36df-4cd8-a839-b734fef4483c",
+                    "text": "Once in a week",
+                    "display-mr": "आठवड्यातून एकदा",
+                    "display-hi": "सप्ताह में एक बार"
+                },
+                {
+                    "id": "ID_8bdc1299-4a3b-43d1-9ff3-620e1910b0f6",
+                    "text": "Occasional",
+                    "display-mr": "अधूनमधून",
+                    "display-hi": "कभी-कभी"
+                }
+            ]
+        },
+        {
+            "id": "ID_1d775233-e3d0-42d7-bdee-d657a8f97f39",
+            "text": "How long does heartburn last?",
+            "display-mr": "छातीत जळजळ किती काळ टिकते?",
+            "display-hi": "सीने में जलन कितने समय तक रहती है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a0afdeb6-ecdf-40e4-8b6e-098bec69f1f1",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_22125a68-06bb-400f-bfe6-5abb8c289246",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                },
+                {
+                    "id": "ID_5226f218-381b-4840-b021-d5ee99eefe68",
+                    "text": "A few days",
+                    "display-mr": "काही दिवस",
+                    "display-hi": "कुछ दिन"
+                }
+            ]
+        },
+        {
+            "id": "ID_1b6e8317-a2ba-4c39-8e99-d492800aa524",
+            "text": "Does heartburn pain move to any body site?",
+            "display-mr": "छातीत जळजळ होतांनाची वेदना शरीराच्या कोणत्याही ठिकाणी पसरते का?",
+            "display-hi": "क्या सीने में जलन का दर्द शरीर के किसी हिस्से में फैलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f3cb8650-e255-410d-ae09-84b723bebf64",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_7ddf8a1d-586a-43d7-9104-65f249d70498",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_9c239f3d-e14a-4e6b-ae32-24e2e50d345d",
+                            "text": "Where else do you feel the pain?",
+                            "display-mr": "अजुन कुठे दुक्ने जाणवते का?",
+                            "display-hi": "आपको दर्द और कहां महसूस होता है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_c595b946-af63-4c82-85e0-ffdd4efc8753",
+                                    "text": "Left arm",
+                                    "display-mr": "डावा हात",
+                                    "display-hi": "बायां हाथ"
+                                },
+                                {
+                                    "id": "ID_ea979a84-d192-497d-88e8-8fe3db2e3912",
+                                    "text": "Left shoulder",
+                                    "display-mr": "डावा खांदा",
+                                    "display-hi": "बायां कंधा"
+                                },
+                                {
+                                    "id": "ID_c1f2d2ad-6337-492f-b5a7-c7342d1db5df",
+                                    "text": "Right shoulder",
+                                    "display-mr": "उजवा खांदा",
+                                    "display-hi": "दायां कंधा"
+                                },
+                                {
+                                    "id": "ID_dadac1ac-fcc7-40e5-8be2-cfa3c41f2a8d",
+                                    "text": "Left jaw",
+                                    "display-mr": "डावा जबडा",
+                                    "display-hi": "बायां जबड़ा"
+                                },
+                                {
+                                    "id": "ID_cb9dfa77-444b-43cf-81d3-326626dbef61",
+                                    "text": "Back",
+                                    "display-mr": "मागे",
+                                    "display-hi": "पीठ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_62317319-3e54-47e4-950f-660ee16a3410",
+            "text": "How severe is your heartburn?",
+            "display-mr": "तुमच्या छातीतील जळजळ किती तीव्र आहे?",
+            "display-hi": "आपकी सीने में जलन कितनी गंभीर है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6e2601da-554f-4b00-87e5-f90703035120",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_d1be1748-83d9-45e4-a92d-3d77e6a2dea7",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_8b6f65bc-0bd8-485b-828d-e437955a73bf",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_6d78fffa-8d10-4038-b462-ce0d389beb7f",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "खूप तीव्र वेदना (7 ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_68a4e151-e3b1-4e87-9d84-7bdc41773f75",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य असेल तितक्या सर्वात जास्त वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_d556bc78-4101-4402-b008-7574e898f3b8",
+            "text": "Does heartburn awake you at night?",
+            "display-mr": "छातीत जळजळ झाल्यामुळे तुम्ही रात्री जागता का?",
+            "display-hi": "क्या सीने में जलन की वजह से आप रात में जाग जाते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_307dfc1a-c28e-4ef6-abd7-50c2ed721f43",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_ade69513-35b4-43ee-9fb5-72b4bf80d0a1",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_065982a1-5dfa-45a8-a3c8-e842ae213075",
+            "text": "What increases or worsens heartburn?",
+            "display-mr": "छातीत जळजळ कशामुळे वाढते किंवा बिघडते?",
+            "display-hi": "सीने में जलन की समस्या को क्या बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_07a00acb-7afe-4eb2-8f20-3b4e00ce7508",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9a30b24a-50e1-489e-89f2-5fbddb177cd9",
+                    "text": "Empty stomach",
+                    "display-mr": "रिकामे पोट",
+                    "display-hi": "खाली पेट"
+                },
+                {
+                    "id": "ID_d8ff7eb4-0d87-42cb-95d1-b6c6f46360d8",
+                    "text": "Oily food",
+                    "display-mr": "तेलकट अन्न",
+                    "display-hi": "तैलीय भोजन"
+                },
+                {
+                    "id": "ID_9972d7e8-0716-4fa3-b0a1-a9dafe25e55a",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_cf1933ca-36ab-49f7-9ae7-7a9cbae91efa",
+                    "text": "Spicy food",
+                    "display-mr": "मसालेदार अन्न",
+                    "display-hi": "मसालेदार भोजन"
+                },
+                {
+                    "id": "ID_8d1b4fdf-97fb-4ec2-a1a8-f6518ba27847",
+                    "text": "Citrus fruits",
+                    "display-mr": "लिंबूवर्गीय फळे",
+                    "display-hi": "खट्टे फल"
+                },
+                {
+                    "id": "ID_2ac91f87-11ce-46c9-a1c9-8b69cfee58bd",
+                    "text": "Aerated drinks",
+                    "display-mr": "एरेटेड पेये",
+                    "display-hi": "कार्बोनेटेड पेय"
+                },
+                {
+                    "id": "ID_3f46f473-5e3f-4ec4-b02d-92d38be1a115",
+                    "text": "Smoking",
+                    "display-mr": "धुम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_b6a1e85a-fe9c-44e2-8c93-57dde159a565",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                },
+                {
+                    "id": "ID_5a1f255a-f40b-4671-96b0-fffbdc957a90",
+                    "text": "Chocolate",
+                    "display-mr": "चॉकलेट",
+                    "display-hi": "चॉकलेट"
+                },
+                {
+                    "id": "ID_f1b15b36-74fb-4e08-8a4e-695fdbb5e134",
+                    "text": "Lying down",
+                    "display-mr": "झोपल्यावर",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_d4df329a-7208-491a-af6b-c460bf148206",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधोपचार",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_b5ec038a-89c3-4e07-ae99-3cbc18f3183b",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_8a541aef-00f6-4c78-9fcc-79f217d403e9",
+                    "text": "Other (describe)",
+                    "display-mr": "इतर (वर्णन करा)",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_335363ba-d616-4391-a5e5-e87ad313096e",
+            "text": "What relieves your heartburn ?",
+            "display-mr": "तुमच्या छातीत जळजळ कशाने कमी होते?",
+            "display-hi": "आपकी सीने में जलन से क्या राहत दिलाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e6930844-f50b-49c6-ab3e-b9a706663934",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_063ef6f8-7d35-4012-bf0f-115b7ee6a18b",
+                    "text": "Antacid medication",
+                    "display-mr": "अँटासिड औषधे",
+                    "display-hi": "एंटासिड दवाएं"
+                },
+                {
+                    "id": "ID_70c61e8e-38c2-4b84-84ba-16202d5a3349",
+                    "text": "Sitting",
+                    "display-mr": "बसल्यावर",
+                    "display-hi": "बैठना"
+                },
+                {
+                    "id": "ID_789a0459-c540-4010-8ec0-93f54f58bc6e",
+                    "text": "Cold milk",
+                    "display-mr": "थंड दूध",
+                    "display-hi": "ठंडा दूध"
+                },
+                {
+                    "id": "ID_ddabe0f5-c75e-4ae0-bb12-2441f550358e",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_80e4d64c-7c29-4b47-8dc8-6cd77ec4cbda",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f1c7c138-94f8-47ff-b2b1-4881e4e5278b",
+                    "text": "Burping",
+                    "display-mr": "ढेकरा",
+                    "display-hi": "डकार आना"
+                },
+                {
+                    "id": "ID_00e6502a-9563-4118-8c33-7939f4793987",
+                    "text": "Indigestion",
+                    "display-mr": "अपचन",
+                    "display-hi": "अपच"
+                },
+                {
+                    "id": "ID_831aa1cb-6316-472c-ab8d-9f508cbfd4a1",
+                    "text": "Bloating (stomach fullness)",
+                    "display-mr": "पोट फुगणे",
+                    "display-hi": "पेट फूलना (पेट भरा होना)"
+                },
+                {
+                    "id": "ID_1461f686-4883-491c-b380-5a24cad18571",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_727c2e5d-420c-4b99-847e-6e96b2d91fd6",
+                    "text": "Acid reflux",
+                    "display-mr": "पित्त वाढणे (ऍसिड रिफ्लक्स)",
+                    "display-hi": "एसिड रिफ्लक्स यानी मुंह में खट्टापन वापस आना"
+                },
+                {
+                    "id": "ID_61346ac1-ead0-465a-bbff-82f4535e6f9e",
+                    "text": "Regurgitation of food",
+                    "display-mr": "जेवण बाहेर (वर) येणे",
+                    "display-hi": "खाना दोबारा उगलना"
+                },
+                {
+                    "id": "ID_c98f7e1f-1772-4ec3-bf06-19ce75d3a362",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_5500820f-c796-4e77-81bc-8d2c040231ef",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्टता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_482f84bb-7eba-4e46-9d19-16145f84854d",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में दिक्कत"
+                },
+                {
+                    "id": "ID_2e453021-d9dc-4646-8fb8-69ee3a3bec67",
+                    "text": "Painful swallowing",
+                    "display-mr": "गिळताना वेदना होणे",
+                    "display-hi": "निगलने में दर्द"
+                },
+                {
+                    "id": "ID_e3a1f08c-4de2-4482-9ffc-3adb1b4874d6",
+                    "text": "Vomiting of blood",
+                    "display-mr": "रक्ताच्या उलट्या",
+                    "display-hi": "खून की उल्टी"
+                },
+                {
+                    "id": "ID_f7b566d7-e6f6-446f-9be1-5926d34a470b",
+                    "text": "Black stools",
+                    "display-mr": "काळे मल",
+                    "display-hi": "काला मल"
+                },
+                {
+                    "id": "ID_e09f6545-213d-411e-bf1d-f771b103276f",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_fb9b91ae-080f-4d77-984a-5be7cf6bb18e",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_e68fd097-03e6-4a7c-8bd6-b8e4e45f1838",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_ee93b459-283e-40bc-951b-affcd13d4313",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_bc11bd46-8c7c-4161-bf38-12926242db64",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2587849c-3404-4f27-a461-00fed1929f49",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_7f7c095f-f9b0-4e49-b998-03f7a8d06956",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_ac9b0e6d-0c00-422a-a0ef-61ba45e815e6",
+                    "text": "Sore throat",
+                    "display-mr": "घसा दुखणे",
+                    "display-hi": "गले में खराश"
+                },
+                {
+                    "id": "ID_5b4c1e0e-eac1-4541-ba91-8a8cc7dc512b",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "कर्कश आवाज",
+                    "display-hi": "आवाज में कर्कशता"
+                },
+                {
+                    "id": "ID_778e3599-9f63-48c0-8921-1ae9d95b29a4",
+                    "text": "Dark urine",
+                    "display-mr": "गडद लघवी",
+                    "display-hi": "गहरे रंग का पेशाब"
+                },
+                {
+                    "id": "ID_2a2fdc4a-a5e4-4646-9499-cbb30b9e22d0",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेची खाज सुटणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_9e3cd5f3-d446-4138-84d3-07076cbb640b",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_1970f446-ade6-44c7-9bcb-c731ecf5117f",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_53594b45-a3f5-4990-a87d-90a2afc9861f",
+                    "text": "Excess sweating",
+                    "display-mr": "जास्त घाम येणे",
+                    "display-hi": "ज्यादा पसीना आना"
+                }
+            ]
+        },
+        {
+            "id": "ID_773a15b2-48c8-4dca-be90-dcf0412f87ef",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ef874def-33b9-47a1-9810-cb1c777ce503",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_90650355-3d62-4df7-967a-d7d503cb8e0e",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_66dec039-1cc7-48a7-9f72-5e40a7b556a4",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_8b085007-bca5-4694-ad7a-5095bf5a0295",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_7e427e28-576e-4cca-8056-e0603a399e95",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

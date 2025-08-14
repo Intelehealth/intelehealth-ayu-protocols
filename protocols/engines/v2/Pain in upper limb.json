@@ -1,12 +1,12 @@
 {
-    "id": "ID_0379cc85-622a-4ad4-b539-8c76f5b6e7c3",
+    "id": "ID_4eacc96d-bc03-4baf-aff2-f957696dd8de",
     "text": "Pain in upper limb",
     "engineVersion": "3.0",
     "display-mr": "हातांमध्ये वेदना",
     "display-hi": "ऊपरी बाहु में दर्द",
     "options": [
         {
-            "id": "ID_871edc5e-c5a4-4b3d-b7d0-a1685de15b7f",
+            "id": "ID_0933ab41-7f7e-43c2-818d-07fc2fff0d97",
             "text": "Since when have you had this symptom?",
             "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
             "display-hi": "आपको यह लक्षण कब से है?",
@@ -14,7 +14,7 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_b6f6179a-7817-4dcc-9c3e-b53810bf787c",
+                    "id": "ID_efe375f3-5736-4fed-8817-d8f87dec7796",
                     "text": "Since when have you had this symptom?",
                     "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
                     "display-hi": "आपको यह लक्षण कब से है?",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "id": "ID_d9a055f5-25e8-4d23-9b13-a6e8f961941f",
+            "id": "ID_6ddf0c4b-1002-4720-8445-963bbb1a0623",
             "text": "How fast did this symptom develop?",
             "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
             "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
@@ -31,13 +31,13 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_7451aa7e-3b8b-4722-9264-687435b7e24d",
+                    "id": "ID_cbc447a1-3b19-42c6-b18f-e4d2b0e23bd5",
                     "text": "Suddenly",
                     "display-mr": "अचानक",
                     "display-hi": "अचानक"
                 },
                 {
-                    "id": "ID_2ea8c045-0fc3-4c53-a0bb-55ef06845782",
+                    "id": "ID_30e0efd9-9e09-4cbf-bd7d-7859b5e25829",
                     "text": "Slowly",
                     "display-mr": "हळू हळू",
                     "display-hi": "धीरे-धीरे"
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "id": "ID_3046532d-b498-4d34-a90f-aa8314854b4d",
+            "id": "ID_77b60734-c806-48eb-bf87-4ace93c8c436",
             "text": "Did the upper limb pain develop after any of these events?",
             "display-mr": "यापैकी कोणत्याही घटनेनंतर हातांमध्ये दुखणे विकसित होते का?",
             "display-hi": "क्या इनमें से किसी भी घटना के बाद ऊपरी बाहु में दर्द शुरू हुआ?",
@@ -53,20 +53,20 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_ea4dba3d-bb0b-4359-84a6-deee8c4b720b",
+                    "id": "ID_e019fb01-3e67-43c0-9ebc-ee934a78702a",
                     "text": "None",
                     "display-mr": "काहीही नाही",
                     "display-hi": "कोई नहीं",
                     "exclude-from-multi-choice": "true"
                 },
                 {
-                    "id": "ID_45b1c333-4686-43ca-bc72-f90cf8f8cd1b",
+                    "id": "ID_99c3f83a-4021-40ff-9f0a-7213e9d8e07e",
                     "text": "Injury",
                     "display-mr": "दुखापत",
                     "display-hi": "चोट"
                 },
                 {
-                    "id": "ID_38680e93-3cf2-406c-bff4-1c25b7f3bd98",
+                    "id": "ID_1efa581e-a3a5-48de-a131-5b6b4304ea16",
                     "text": "Sprain",
                     "display-mr": "मुरगळणे",
                     "display-hi": "मोच"
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "id": "ID_c5b48ef3-7c3f-474b-a7d3-3eaee6bf1713",
+            "id": "ID_2f9e9d99-e466-4cf5-9ac4-3809f1c67c5f",
             "text": "Which part of upper limb do you have the pain?",
             "display-mr": "वरच्या अंगाचा कोणता भाग तुम्हाला वेदना होतात का (हाताच्या कोणत्या भागात वेदना होतात)?",
             "display-hi": "आपके ऊपरी बाहु के किस भाग में दर्द है?",
@@ -82,25 +82,25 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_51969698-7327-458e-8248-6e8b0d562867",
+                    "id": "ID_f977a9cd-fe11-43b3-a4c4-c7cb0207c56a",
                     "text": "Upper arm",
                     "display-mr": "हाताची वरची बाजू",
                     "display-hi": "ऊपरी भुजा"
                 },
                 {
-                    "id": "ID_7073d3e0-be9c-4435-9166-e724168ff709",
+                    "id": "ID_0f488f8a-837e-4765-b3e2-a5a5886c7078",
                     "text": "Forearm",
                     "display-mr": "मनगटापासून ते कोपर",
                     "display-hi": "बांह"
                 },
                 {
-                    "id": "ID_33cb3551-a15d-4654-97a8-c9af0eccb38b",
+                    "id": "ID_c323a4d4-5215-4396-9aae-5732c1bbde10",
                     "text": "Hand",
                     "display-mr": "हात",
                     "display-hi": "हाथ"
                 },
                 {
-                    "id": "ID_8bca2420-24d5-45f0-9163-3cd21f1a3197",
+                    "id": "ID_80829f16-d2c2-4f0a-bfe1-eaa92ec9f3de",
                     "text": "Entire upper limb",
                     "display-mr": "संपूर्ण वरचे अंग",
                     "display-hi": "पूरी ऊपरी बाहु"
@@ -108,7 +108,7 @@
             ]
         },
         {
-            "id": "ID_4640b3cf-4dd3-4861-94f9-225d2899f0e2",
+            "id": "ID_6021b799-d27a-4e7d-8186-bc113e20d5e5",
             "text": "Which upper limb do you have the pain?",
             "display-mr": "वरच्या अंगाचा कोणता भाग तुम्हाला वेदना होतात का (कोणत्या हातात वेदना होतात)?",
             "display-hi": "आपके किस ऊपरी बाहु में दर्द है?",
@@ -116,19 +116,19 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_abb7239b-1c5e-4371-a4ef-d2c0d1a4a372",
+                    "id": "ID_dbf13789-3c35-4f51-a76b-91c9a60fd086",
                     "text": "Left",
                     "display-mr": "डावा",
                     "display-hi": "बाएं"
                 },
                 {
-                    "id": "ID_4a5e110e-99e4-4160-ba6c-9f558804d472",
+                    "id": "ID_20bf11b1-09b6-4955-b0a8-b0f97449e666",
                     "text": "Right",
                     "display-mr": "उजवा",
                     "display-hi": "दाएं"
                 },
                 {
-                    "id": "ID_69b9627d-3c57-4291-9651-ce36afba1b68",
+                    "id": "ID_2630437b-bcac-45c7-948c-c2ad6be4972c",
                     "text": "Both",
                     "display-mr": "दोन्ही",
                     "display-hi": "दोनों"
@@ -136,7 +136,7 @@
             ]
         },
         {
-            "id": "ID_c5090a87-399b-446b-8caf-9e821100f40d",
+            "id": "ID_bd12eca4-4492-4d25-955f-a303a184b395",
             "text": "Which side of the upper limb do you have the pain?",
             "display-mr": "वरच्या अंगाचा कोणता भाग तुम्हाला वेदना होतात का (हाताच्या कोणत्या बाजूला वेदना होतात)?",
             "display-hi": "आपके ऊपरी बाहु के किस तरफ दर्द है?",
@@ -144,25 +144,25 @@
             "multi-choice": true,
             "options": [
                 {
-                    "id": "ID_47161a70-9968-4b39-b866-18d1479eccfe",
+                    "id": "ID_7db30ada-6d43-4275-93f9-31d142956e51",
                     "text": "Front",
                     "display-mr": "पुढे",
                     "display-hi": "आगे"
                 },
                 {
-                    "id": "ID_ef6ae5ed-57fd-48d6-968b-aba9ca12b07c",
+                    "id": "ID_36d407b8-34e2-4ac0-9643-e962bd957df0",
                     "text": "Back",
                     "display-mr": "मागे",
                     "display-hi": "पीछे"
                 },
                 {
-                    "id": "ID_f26979d3-b9ee-4a2e-91a3-de2bbd768d80",
+                    "id": "ID_b7ebb0f7-9967-41ad-a0f6-8a06bdc7f9d2",
                     "text": "Outer side",
                     "display-mr": "बाहेरील बाजू",
                     "display-hi": "बाहरी साइड"
                 },
                 {
-                    "id": "ID_3d61c593-7864-4a07-a23d-613ca82456ff",
+                    "id": "ID_a8ef549a-7b7d-4094-8aeb-bbd4f89ad0e6",
                     "text": "Inner side",
                     "display-mr": "आतील बाजू",
                     "display-hi": "अंदर का हिस्सा"
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "id": "ID_89728bc8-fb91-424b-bdaf-6b6ed5f28c6d",
+            "id": "ID_652d630d-6095-44c7-b138-575306808d17",
             "text": "How can you describe the character of upper limb pain?",
             "display-mr": "वरच्या अंगदुखीचे वर्णन कसे करता येईल?",
             "display-hi": "आपकी ऊपरी बाहु का दर्द किस प्रकार का है?",
@@ -178,49 +178,49 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_1a37132e-0165-4a0a-9d11-fd26a41d82e7",
+                    "id": "ID_e8725bdd-62eb-4524-8f18-339961267217",
                     "text": "Burning pain",
                     "display-mr": "जळजळ वेदना",
                     "display-hi": "जलता हुआ दर्द"
                 },
                 {
-                    "id": "ID_173ea856-4fbf-4875-b29f-8fbbd2c3f468",
+                    "id": "ID_4a113cee-f7c9-4b64-abcc-0dff113375c1",
                     "text": "Sharp pain",
                     "display-mr": "तीव्र वेदना",
                     "display-hi": "चुभने जैसा दर्द"
                 },
                 {
-                    "id": "ID_8f15f526-3984-4afb-af07-77849a669945",
+                    "id": "ID_f38c1861-2eb2-484b-8cdf-5b1dcc7c56f3",
                     "text": "Stabbing pain",
                     "display-mr": "घाव घातल्यासारखे दुखणे",
                     "display-hi": "तीव्र चुभने वाला दर्द"
                 },
                 {
-                    "id": "ID_abe95c61-1750-4b6c-bb89-99a6bda47f8f",
+                    "id": "ID_a515e256-e06f-4c3a-9b0e-cfc0b64f53cb",
                     "text": "Pressure pain",
                     "display-mr": "दबाव वेदना",
                     "display-hi": "दबाव वाला दर्द"
                 },
                 {
-                    "id": "ID_58203620-0de2-4506-939d-f3b88cf75eec",
+                    "id": "ID_3daa156a-ae0d-42ca-a32d-9b8a9296f919",
                     "text": "Dull aching pain",
                     "display-mr": "मंद सतत होणारी वेदना",
                     "display-hi": "धीमा-धीमा दर्द"
                 },
                 {
-                    "id": "ID_a75f6ecd-8c95-4664-bd3c-406ba28be0ce",
+                    "id": "ID_3a884a71-0c84-40d0-9d31-859d2bf93096",
                     "text": "Throbbing pain",
                     "display-mr": "धडधडणारी वेदना",
                     "display-hi": "धड़कता हुआ दर्द"
                 },
                 {
-                    "id": "ID_b166e278-0a64-4a21-bd0f-b77bfba054de",
+                    "id": "ID_2d1e03b2-9bcd-44bc-9871-c449e80ca60f",
                     "text": "Shooting pain",
                     "display-mr": "शूटींग वेदना",
                     "display-hi": "अचानक तेज दर्द"
                 },
                 {
-                    "id": "ID_fe082c20-b7ac-40a5-952e-807db8588d04",
+                    "id": "ID_aaab849d-1f4a-4865-8871-a92d9a3a4956",
                     "text": "Don't know",
                     "display-mr": "माहित नाही",
                     "display-hi": "नहीं पता"
@@ -228,7 +228,7 @@
             ]
         },
         {
-            "id": "ID_2b4bae4f-c95e-4c62-ab07-74a7e6ee41a0",
+            "id": "ID_be8539aa-02a4-465a-8475-767843425a8f",
             "text": "How severe is the pain in upper limb?",
             "display-mr": "वरच्या अंगात वेदना किती तीव्र आहे?",
             "display-hi": "ऊपरी बाहु में दर्द कितना अधिक है?",
@@ -236,31 +236,31 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_48db0d59-555c-4ffc-823e-a73901b7821c",
+                    "id": "ID_8a155ea6-de33-414c-8ea5-95c173396e79",
                     "text": "Mild pain (1 to less than  3)",
                     "display-mr": "सौम्य वेदना (1 ते less than  3)",
                     "display-hi": "हल्का दर्द (1 से less than  3)"
                 },
                 {
-                    "id": "ID_fcb32102-3779-424e-a536-19e471ab2ded",
+                    "id": "ID_0bfadaa0-2beb-4173-b561-47cea4e4d39c",
                     "text": "Moderate pain (3 to less than  5)",
                     "display-mr": "मध्यम वेदना (3 ते less than  5)",
                     "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
                 },
                 {
-                    "id": "ID_d4498e0f-aa1b-4ba7-8793-9e8801392ed3",
+                    "id": "ID_9195577f-6e7f-4028-8bec-e1edde8cdd81",
                     "text": "Severe pain (5 to less than  7)",
                     "display-mr": "तीव्र वेदना (5 ते less than  7)",
                     "display-hi": "गंभीर दर्द (5 से less than  7)"
                 },
                 {
-                    "id": "ID_97a5354a-43f0-45a2-8418-483c3355a4e1",
+                    "id": "ID_29060138-3dcd-403d-a3ae-dee9e0b3ff08",
                     "text": "Very severe pain (7 to less than  9)",
                     "display-mr": "तीव्र वेदना (7 ते less than  9)",
                     "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
                 },
                 {
-                    "id": "ID_8702ee87-04c1-44c4-a86e-954be3a2b773",
+                    "id": "ID_fdd7b695-e774-41a0-8702-b1f24decc55f",
                     "text": "Worst pain possible (9 to 10)",
                     "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
                     "display-hi": "असहनीय दर्द (9 से 10)"
@@ -268,7 +268,7 @@
             ]
         },
         {
-            "id": "ID_1bda1e8b-d2d1-401c-bc5e-b204cb334d5a",
+            "id": "ID_cf770c4d-e18e-4157-8225-926f48d1d117",
             "text": "What does relieve or lessen the pain?",
             "display-mr": "कशाने वेदनेला आराम किंवा कमी होतात?",
             "display-hi": "किस चीज से दर्द में राहत मिलती है या दर्द कम होता है?",
@@ -276,45 +276,45 @@
             "multi-choice": true,
             "options": [
                 {
-                    "id": "ID_22a63a2c-6bbd-47be-9959-0417906aa472",
+                    "id": "ID_ed522736-7716-415a-bced-0bdb29026d03",
                     "text": "None",
                     "display-mr": "काहीही नाही",
                     "display-hi": "कोई नहीं",
                     "exclude-from-multi-choice": "true"
                 },
                 {
-                    "id": "ID_47005473-002e-4677-b22f-4848d93fccf4",
+                    "id": "ID_3b429f43-0323-4cef-933b-b2868186fe65",
                     "text": "Rest",
                     "display-mr": "विश्रांती",
                     "display-hi": "आराम"
                 },
                 {
-                    "id": "ID_af957afd-f327-4db3-9c8e-35b801696b5d",
+                    "id": "ID_2c0b4392-cf4d-4aa7-8f91-6c1865f485bc",
                     "text": "Ice packs",
                     "display-mr": "आईस पॅक्स",
                     "display-hi": "आइस पैक"
                 },
                 {
-                    "id": "ID_5854faad-af7a-45ab-882f-82e5a6158981",
+                    "id": "ID_85de3ac5-f721-4132-a2ca-609d9de73d0e",
                     "text": "Heating packs",
                     "display-mr": "हीटिंग पॅक",
                     "display-hi": "गर्म पैक"
                 },
                 {
-                    "id": "ID_9e22dc51-2e76-4e4d-ad37-a5fd14f8bb75",
+                    "id": "ID_ff4aebe9-1cb5-485c-a40a-3a76c30aaf87",
                     "text": "Elevation of part",
                     "display-mr": "सदर भाग उंचावर ठेवल्यास",
                     "display-hi": "प्रभावित भाग को ऊँचाई पर रखना"
                 },
                 {
-                    "id": "ID_a0504f70-fa2e-41fc-a14a-b94635e09868",
+                    "id": "ID_4490035b-d913-40db-b74b-1de821b098d1",
                     "text": "Medication (describe)",
                     "display-mr": "औषधोपचार (वर्णन)",
                     "display-hi": "दवा (विवरण दें)",
                     "input-type": "text"
                 },
                 {
-                    "id": "ID_b91a6433-b123-432b-8ba1-214e00f11d31",
+                    "id": "ID_e49b4cd7-94ab-4c68-bda1-b755ee73ff2a",
                     "text": "Other (describe)",
                     "display-mr": "इतर (वर्णन)",
                     "display-hi": "अन्य (विवरण दें)",
@@ -323,7 +323,7 @@
             ]
         },
         {
-            "id": "ID_1a1bd352-faf0-4993-86a2-25055b52219e",
+            "id": "ID_35ba6861-66bb-4189-b8c0-f271118afc02",
             "text": "What does increase or worsen the pain?",
             "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
             "display-hi": "दर्द किससे बढ़ता या बिगड़ता है?",
@@ -331,50 +331,50 @@
             "multi-choice": true,
             "options": [
                 {
-                    "id": "ID_e59846d3-facc-4215-8626-002ae76265fa",
+                    "id": "ID_e3ad09c8-4d72-4767-9e6e-1aa8fa9c69ff",
                     "text": "None",
                     "display-mr": "काहीही नाही",
                     "display-hi": "कोई नहीं",
                     "exclude-from-multi-choice": "true"
                 },
                 {
-                    "id": "ID_bbddc489-564f-4507-9c34-a9af823b7b6c",
+                    "id": "ID_77b8793b-0605-400c-b363-ffec5d0d09a3",
                     "text": "Lifting objects",
                     "display-mr": "वस्तू उचलणे",
                     "display-hi": "वस्तुओं को उठाना"
                 },
                 {
-                    "id": "ID_8269241b-c5f0-42ab-946e-28c94b7819b5",
+                    "id": "ID_1d95133d-dcfc-49c9-a2c1-523d07257945",
                     "text": "Grasping",
                     "display-mr": "पकडत आहे",
                     "display-hi": "पकड़ना"
                 },
                 {
-                    "id": "ID_ce61aeac-63a7-4632-86f0-1ea03dea22d1",
+                    "id": "ID_6ad2cdfe-0326-469a-8c16-472ebe0ef8e7",
                     "text": "Reaching overhead",
                     "display-mr": "डोक्यापर्यंत पोहोचणे",
                     "display-hi": "सर के ऊपर करने पर"
                 },
                 {
-                    "id": "ID_3ea1be52-bc3e-4c12-9fde-f19416b56495",
+                    "id": "ID_de32548a-ae59-453f-abd6-7f8ca5562266",
                     "text": "Repetitive movements",
                     "display-mr": "पुनरावृत्ती हालचाली",
                     "display-hi": "दोहरावदार गतिविधियां"
                 },
                 {
-                    "id": "ID_9d22541e-41d5-4069-86bb-5c6469c128de",
+                    "id": "ID_8e2ecaf1-b43c-4ea7-b65b-f5ef645adeba",
                     "text": "Throwing objects",
                     "display-mr": "वस्तू फेकणे",
                     "display-hi": "वस्तुओं को फेंकना"
                 },
                 {
-                    "id": "ID_79eb8433-e2bf-4428-aa1f-075852a2b717",
+                    "id": "ID_2b036958-a221-45ac-9ebd-23791cd236e8",
                     "text": "Lying on affected side",
                     "display-mr": "बाधित बाजूवर झोपणे",
                     "display-hi": "प्रभावित साइड पर लेटना"
                 },
                 {
-                    "id": "ID_a46b6d1a-72c5-4539-80ce-f0c6eeba556f",
+                    "id": "ID_4fb31074-16e7-41ec-a608-aba53df864ae",
                     "text": "Other (describe)",
                     "display-mr": "इतर (वर्णन)",
                     "display-hi": "अन्य (विवरण दें)",
@@ -383,7 +383,7 @@
             ]
         },
         {
-            "id": "ID_183e39a2-4d15-49ae-b22c-e57ade980a88",
+            "id": "ID_28379b7a-fc98-41b8-ad45-dcd3687bacd6",
             "text": "How upper limb pain progressed over the duration of time?",
             "display-mr": "कालांतराने वरच्या अंगाचे दुखणे कसे वाढले?",
             "display-hi": "ऊपरी बाहु का दर्द कैसे बढ़ता गया?",
@@ -392,25 +392,25 @@
             "options": [
                
                 {
-                    "id": "ID_79ec94ed-d5ef-47d5-8c06-a07fc36ceef5",
+                    "id": "ID_ee7e4c0a-1346-48a4-bcf9-f5ae2fa35325",
                     "text": "Increasing",
                     "display-mr": "वाढवत आहे",
                     "display-hi": "बढ़ रहा है"
                 },
                 {
-                    "id": "ID_908e2a25-1a43-40e0-a263-8b398fdd0a56",
+                    "id": "ID_ce7b3f2a-efef-4a85-9b47-3a14559dd318",
                     "text": "Decreasing",
                     "display-mr": "कमी होत आहे",
                     "display-hi": "घट रहा है"
                 },
                 {
-                    "id": "ID_83ed5eed-af24-4f90-a3e9-deebf55c91ef",
+                    "id": "ID_5ccbf501-6777-4796-8445-9a7d7860b45b",
                     "text": "Recurrent",
                     "display-mr": "वारंवार",
                     "display-hi": "बार-बार"
                 },
                 {
-                    "id": "ID_1b7f649c-7f32-4882-b65a-bd9827b0715a",
+                    "id": "ID_ad89a9c0-6b7c-4c3a-925c-a467cf3086d0",
                     "text": "No change",
                     "display-mr": "कोणताही बदल नाही",
                     "display-hi": "कोई बदलाव नहीं"
@@ -418,7 +418,7 @@
             ]
         },
         {
-            "id": "ID_1fae9405-5809-447e-8ea7-daacd0340db0",
+            "id": "ID_5e72f574-15cd-43df-837e-5718c1f3305b",
             "text": "Does the upper limb pain have any patterns during a 24 hr cycle?",
             "display-mr": "24 तासांच्या चक्रात वरच्या अंगाच्या वेदनांचे काही पॅटर्न आहेत का?",
             "display-hi": "क्या ऊपरी बाहु का दर्द 24 घंटे के चक्र में किसी खास समय पर बढ़ता है?",
@@ -426,57 +426,57 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_d6f04e82-43ba-4641-a890-f427ffe0a5e3",
+                    "id": "ID_0281a21c-be4f-4355-bce8-97848a7bace7",
                     "text": "Constant pain",
                     "display-mr": "सतत वेदना",
                     "display-hi": "लगातार दर्द"
                 },
                 {
-                    "id": "ID_e956e163-2ccf-4a35-a31f-dd4cd5508f02",
+                    "id": "ID_b14fc2c7-7dfb-42c4-8914-9dbc3fdcf467",
                     "text": "Intermittent pain (comes & goes)",
                     "display-mr": "मधूनमधून (येतात आणि जातात)",
                     "display-hi": "रुक-रुककर (आता और जाता है)",
                     "havingNestedQuestion": "true",
                     "options": [
                         {
-                            "id": "ID_b0550855-ea9b-4b11-bac9-501b62ea16ad",
+                            "id": "ID_71604e57-45dc-4c2b-958e-6230f296ad41",
                             "text": "How does the upper limb pain change during the 24 hour period?",
                             "display-mr": "24 तासांच्या कालावधीत वरच्या अंगाचे दुखणे कसे बदलते?",
                             "display-hi": "ऊपरी बाहु का दर्द 24 घंटों के दौरान कैसे बदलता है?",
                             "multi-choice": false,
                             "options": [
                                 {
-                                    "id": "ID_dd901d68-c05b-46f8-bc2e-960745eb7f7a",
+                                    "id": "ID_91223f64-7982-47cf-89e9-eaad3756cbea",
                                     "text": "Worse in morning",
                                     "display-mr": "पहाटेची स्थिती आणखीनच बिकट",
                                     "display-hi": "सुबह ज्यादा दर्द"
                                 },
                                 {
-                                    "id": "ID_fa84aa5b-5bc9-46b4-8aa0-82e7c6a42c15",
+                                    "id": "ID_8a466b68-1871-4f54-93b1-e5281218e1f6",
                                     "text": "Worse in night",
                                     "display-mr": "रात्रीच्या वेळी तर आणखीनच त्रास होतो",
                                     "display-hi": "रात को ज्यादा दर्द"
                                 },
                                 {
-                                    "id": "ID_7ee789fb-7dc2-4648-9302-653eb8fc7af4",
+                                    "id": "ID_511f160f-2ea5-4549-ab7f-70fc87d5ab28",
                                     "text": "Worse when first moving",
                                     "display-mr": "प्रथम हालचाल करताना वाईट",
                                     "display-hi": "पहली बार हिलाने पर ज्यादा दर्द"
                                 },
                                 {
-                                    "id": "ID_2867668e-1a16-4c12-9080-7e152beedb9f",
+                                    "id": "ID_52845c38-3f4b-4903-b4b8-9c11c6a909a1",
                                     "text": "Better on moving",
                                     "display-mr": "हालचाल करणे चांगले",
                                     "display-hi": "हिलाने पर बेहतर"
                                 },
                                 {
-                                    "id": "ID_40724cd4-c68e-4d6b-8d71-701086eddcbd",
+                                    "id": "ID_68ea4078-2ea0-4e5d-9ef3-40e7348d8e65",
                                     "text": "Worsens during day",
                                     "display-mr": "दिवसा बिघडते",
                                     "display-hi": "दिन के दौरान बिगड़ता है"
                                 },
                                 {
-                                    "id": "ID_87f33762-ff17-4862-8504-5e1a21d48c0d",
+                                    "id": "ID_bcd6372c-64f0-434a-ab8f-12af3cb1ccd3",
                                     "text": "Worsens on prolonged use",
                                     "display-mr": "दीर्घकाळापर्यंत वापरल्यास बिघडते",
                                     "display-hi": "लंबे समय तक उपयोग करने पर बिगड़ता है"
@@ -488,7 +488,7 @@
             ]
         },
         {
-            "id": "ID_71e18857-6864-4318-b3ab-0c559190c82a",
+            "id": "ID_33282b47-17f4-4e6a-8563-eedd6fcf2b25",
             "text": "Does the upper limb pain move to other parts of the body?",
             "display-mr": "वरच्या अंगाचे दुखणे शरीराच्या इतर भागात जाते का?",
             "display-hi": "क्या ऊपरी बाहु का दर्द शरीर के अन्य भागों तक फैल जाता है?",
@@ -496,75 +496,76 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_0f6e7390-38c2-4e3a-80d8-b553ee9461bc",
+                    "id": "ID_6ce9abdc-1339-4a72-9ab4-f811799c2faa",
                     "text": "No",
                     "display-mr": "नाही",
                     "display-hi": "नहीं"
                 },
                 {
-                    "id": "ID_0814351d-1784-47e9-a840-acc67a7bdcde",
+                    "id": "ID_e88bdb33-e170-471d-8102-fb3d4b3402a7",
                     "text": "Yes",
                     "display-mr": "होय",
                     "display-hi": "हां",
                     "havingNestedQuestion": "true",
                     "options": [
                         {
-                            "id": "ID_2546da88-1595-403c-bda4-7c56b30f39ca",
+                            "id": "ID_1fcfe193-6390-410e-b623-18d099b9853a",
                             "text": "The pain moves to",
                             "display-mr": "वेदना पुढे सरकते",
                             "display-hi": "दर्द किस तरफ बढ़ता है?",
+                            "isRequired": true,
                             "multi-choice": false,
                             "options": [
                                 {
-                                    "id": "ID_c6f7409f-30cb-40f0-a1e3-20a9bf88d4ff",
+                                    "id": "ID_df9b5683-ed50-4a5a-affa-133c2501e355",
                                     "text": "Upper arm",
                                     "display-mr": "हाताची वरची बाजू",
                                     "display-hi": "ऊपरी भुजा"
                                 },
                                 {
-                                    "id": "ID_bc0324bc-bde1-4443-828a-629997d6b818",
+                                    "id": "ID_a458353b-3344-439a-bd87-5ea2785443d4",
                                     "text": "Forearm",
                                     "display-mr": "मनगटापासून ते कोपर",
                                     "display-hi": "बांह"
                                 },
                                 {
-                                    "id": "ID_0f7ae3aa-2dea-4a29-a536-98a757bdd229",
+                                    "id": "ID_7cfb83ad-f26d-457d-b99c-94abb66225d7",
                                     "text": "Shoulder",
                                     "display-mr": "खांदा",
                                     "display-hi": "कंधा"
                                 },
                                 {
-                                    "id": "ID_3aa61658-a5db-40cd-9683-ff1bbf7b5d56",
+                                    "id": "ID_be420412-6037-4dc1-a4ad-0e4d0dc35d34",
                                     "text": "Elbow",
                                     "display-mr": "एल्बो",
                                     "display-hi": "कोहनी"
                                 },
                                 {
-                                    "id": "ID_6d1fe2d3-e790-43a0-ae64-1715d897e1b1",
+                                    "id": "ID_1ff59020-eaf5-4400-b947-56b025f72008",
                                     "text": "Wrist",
                                     "display-mr": "मनगट",
                                     "display-hi": "कलाई"
                                 },
                                 {
-                                    "id": "ID_d59d9958-fb5e-4dfc-8ddd-5c91716ded65",
+                                    "id": "ID_08ece20f-b9a2-4f29-83ae-6d0c6c0294ef",
                                     "text": "Fingers",
                                     "display-mr": "बोटे",
                                     "display-hi": "उंगलियां"
                                 },
                                 {
-                                    "id": "ID_57bd7293-2419-453d-99c6-b16e2eb0ac2d",
+                                    "id": "ID_f25ecc22-48be-48bc-9b26-15fd26cd260e",
                                     "text": "Neck",
                                     "display-mr": "मान",
                                     "display-hi": "गर्दन"
                                 },
                                 {
-                                    "id": "ID_894e911a-c77d-436f-ae6f-e50079bb0f93",
+                                    "id": "ID_dc95f020-7316-4eb4-bf43-12cc497c1062",
                                     "text": "Back",
                                     "display-mr": "पाठ",
                                     "display-hi": "पीठ"
                                 },
                                 {
-                                    "id": "ID_462507ea-31f3-4a2a-808e-7cb363143165",
+                                    "id": "ID_3c4625d0-bb12-44af-9d10-75e29eb6b45c",
                                     "text": "Chest",
                                     "display-mr": "छाती",
                                     "display-hi": "छाती"
@@ -576,7 +577,7 @@
             ]
         },
         {
-            "id": "ID_dd10ef0d-bbec-4998-912f-63f849cc866e",
+            "id": "ID_1348a7fc-928a-4f2c-bdb1-c7748b086fcf",
             "text": "Do you have any of these local associated features with the upper limb pain?",
             "display-mr": "तुमच्याकडे वरच्या अंगदुखीशी संबंधित स्थानिक वैशिष्ट्ये आहेत का?",
             "display-hi": "क्या आपके ऊपरी बाहु के दर्द के साथ इनमें से कोई और लक्षण भी हैं?",
@@ -584,38 +585,38 @@
             "multi-choice": true,
             "options": [
                 {
-                    "id": "ID_ac181132-407d-409f-b492-8ef1a9575f5a",
+                    "id": "ID_f7b67038-394d-499e-b9b4-f0ce3f1fdfb9",
                     "text": "None",
                     "display-mr": "काहीही नाही",
                     "display-hi": "कोई नहीं",
                     "exclude-from-multi-choice": "true"
                 },
                 {
-                    "id": "ID_7b9396f4-7ced-4f56-a954-eeb9389b8ad2",
+                    "id": "ID_3e6437d4-2aa6-411d-baed-9f53b6f2c835",
                     "text": "Swelling",
                     "display-mr": "सूज येणे",
                     "display-hi": "सूजन"
                 },
                 {
-                    "id": "ID_b7872215-0516-40b8-ae78-72080a097c86",
+                    "id": "ID_8f5b0219-6ff6-40c1-a186-03074c2c4b57",
                     "text": "Redness",
                     "display-mr": "लालसरपणा",
                     "display-hi": "लालिमा"
                 },
                 {
-                    "id": "ID_7a3e916f-f234-4494-af69-be91fa0c4601",
+                    "id": "ID_7939be7f-8ff1-4714-bd41-b8d521eef70f",
                     "text": "Warmth",
                     "display-mr": "उबदार",
                     "display-hi": "गरमी"
                 },
                 {
-                    "id": "ID_7416b7a6-f8a6-4b61-b282-2645219cd20a",
+                    "id": "ID_db6b3727-b0fa-4fb4-b8f3-5234f2d2af55",
                     "text": "Deformity",
                     "display-mr": "अनैसर्गिकता",
                     "display-hi": "विकृति"
                 },
                 {
-                    "id": "ID_0718a886-dbd2-4c36-8c5c-070b5be73c78",
+                    "id": "ID_09f5861e-b482-4b80-82f6-d8da3d147d50",
                     "text": "Stiffness",
                     "display-mr": "कडकपणा",
                     "display-hi": "कड़ापन"
@@ -623,7 +624,7 @@
             ]
         },
         {
-            "id": "ID_13e64d59-fa49-4790-b8eb-247a8ecec64f",
+            "id": "ID_564c6e87-99ac-4b62-91e3-c5ce66987796",
             "text": "Does the upper limb pain affect any of your daily activities?",
             "display-mr": "वरच्या अंगदुखीचा तुमच्या दैनंदिन कामांवर परिणाम होतो का?",
             "display-hi": "क्या ऊपरी बाहु का दर्द आपकी रोजमर्रा की गतिविधियों को प्रभावित करता है?",
@@ -631,50 +632,50 @@
             "multi-choice": true,
             "options": [
                 {
-                    "id": "ID_214673a9-3570-4e5a-8baf-ece694707f46",
+                    "id": "ID_210b8f46-91a7-4b64-96ee-07903e0056fc",
                     "text": "None",
                     "display-mr": "काहीही नाही",
                     "display-hi": "कोई नहीं",
                     "exclude-from-multi-choice": "true"
                 },
                 {
-                    "id": "ID_5cd7f4e5-ab24-49fc-a25a-b61f29d8439a",
+                    "id": "ID_e8ab1734-b286-4b17-b9b8-b46de8e915cc",
                     "text": "Lifting objects",
                     "display-mr": "वस्तू उचलणे",
                     "display-hi": "वस्तुओं को उठाना"
                 },
                 {
-                    "id": "ID_7052bf26-3991-410f-9f35-202e49fbdb40",
+                    "id": "ID_9facf7b5-bb18-4e10-ba61-93714c7e5341",
                     "text": "Combing",
                     "display-mr": "एकत्र करत आहे",
                     "display-hi": "कंघी करना"
                 },
                 {
-                    "id": "ID_f5f999b5-f948-45f1-a769-f2fbfbeff24d",
+                    "id": "ID_90877e5d-db66-4fd3-bab4-ff2b4619a450",
                     "text": "Dressing",
                     "display-mr": "मलमपट्टी",
                     "display-hi": "पहनना"
                 },
                 {
-                    "id": "ID_ef6dc97c-6653-4e3d-b0fc-598980e54187",
+                    "id": "ID_0aee51bf-b179-4d87-b102-39a1fd522dca",
                     "text": "Throwing objects",
                     "display-mr": "वस्तू फेकणे",
                     "display-hi": "वस्तुओं को फेंकना"
                 },
                 {
-                    "id": "ID_38645acf-90fe-481d-ba1a-072e111112ca",
+                    "id": "ID_8df29421-5a34-49fa-844c-d16a2c13558a",
                     "text": "Stretching hand",
                     "display-mr": "हात स्ट्रेचिंग करणे",
                     "display-hi": "हाथ को फैलाना"
                 },
                 {
-                    "id": "ID_1365abce-fd38-4d10-9e63-1376c285fe34",
+                    "id": "ID_6a909836-e29f-40c9-b344-fab8bac029bb",
                     "text": "Pushing objects",
                     "display-mr": "वस्तू ढकलणे",
                     "display-hi": "वस्तुओं को ठेलना"
                 },
                 {
-                    "id": "ID_736653b1-c837-4ab8-b0e2-fa6ad0e6030b",
+                    "id": "ID_be61bef8-05ed-425e-81a1-21df49dc85de",
                     "text": "Reaching overhead",
                     "display-mr": "डोक्यापर्यंत पोहोचणे",
                     "display-hi": "सर से ऊपर करना"
@@ -682,44 +683,44 @@
             ]
         },
         {
-            "id": "ID_5f1e0e5b-2b42-4b3e-b098-44ab2dcccb99",
+            "id": "ID_48da06dd-78b3-4b59-a8c5-fcc655f1e26e",
             "text": "Associated symptoms",
             "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
             "display-hi": "क्या आपमें निम्नलिखित लक्षण हैं?",
             "isRequired": true,
             "options": [
                 {
-                    "id": "ID_c18503bd-7103-4a98-90d2-76153891210c",
+                    "id": "ID_cac75600-952f-4fd2-a6f6-73cc14dedef8",
                     "text": "Weakness of upper limb",
                     "display-mr": "वरच्या अवयवांची कमजोरी",
                     "display-hi": "ऊपरी बाहु की कमजोरी"
                 },
                 {
-                    "id": "ID_3a718a6c-4fe2-43a7-9bde-362804663128",
+                    "id": "ID_696e7642-3d9e-4b91-b1f8-5c8a36031fa3",
                     "text": "Swelling of elbow joints",
                     "display-mr": "कोपराच्या  सांध्यामध्ये सूज",
                     "display-hi": "कोहनी के जोड़ों में सूजन"
                 },
                 {
-                    "id": "ID_6f07786c-db3e-40f8-a68f-86b1de4402e9",
+                    "id": "ID_e362bc86-aa14-4604-b9e6-b8a9bbc606ee",
                     "text": "Swelling of wrist joints",
                     "display-mr": "मनगटाच्या सांध्यातील सूज",
                     "display-hi": "कलाई के जोड़ों में सूजन"
                 },
                 {
-                    "id": "ID_7f111c73-7e3c-487d-b972-4523bcbb4dd0",
+                    "id": "ID_8846d8a6-d7e5-497e-a5df-1abc20fccc34",
                     "text": "Swelling of finger joints",
                     "display-mr": "बोटांच्या सांध्याची सूज",
                     "display-hi": "उंगलियों के जोड़ों में सूजन"
                 },
                 {
-                    "id": "ID_c3edbc79-f157-4c21-aee3-c20e35f8a2f7",
+                    "id": "ID_cc0b7022-64b4-4ace-b373-da76eddb595e",
                     "text": "Tingling & numbness of upper limb",
                     "display-mr": "वरच्या अंगाला मुंग्या आणि सुन्न होणे",
                     "display-hi": "ऊपरी बाहु में झुनझुनी और सुन्नता"
                 },
                 {
-                    "id": "ID_2b8e3789-4429-4933-a59d-8321ea7d4651",
+                    "id": "ID_ec6bd3ff-2471-43fd-8b42-424d89937e11",
                     "text": "Neck pain",
                     "display-mr": "मान दुखणे",
                     "display-hi": "गर्दन में दर्द"
@@ -728,7 +729,7 @@
             "display": "Do you have the following symptom(s)?"
         },
         {
-            "id": "ID_c9a188a5-5eb0-4b07-8912-1430caebd380",
+            "id": "ID_10d74a8a-4d91-4435-a27e-a5bc36f81e09",
             "text": "Do you have any other symptoms?",
             "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
             "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
@@ -736,80 +737,80 @@
             "multi-choice": true,
             "options": [
                 {
-                    "id": "ID_dc952d86-0d92-44a1-aaa8-d6ea87619530",
+                    "id": "ID_09b2becd-cfda-45f0-9f00-5dd2e66b7493",
                     "text": "None",
                     "display-mr": "काहीही नाही",
                     "display-hi": "कोई नहीं",
                     "exclude-from-multi-choice": "true"
                 },
                 {
-                    "id": "ID_1d1376cc-1ef3-49e2-adb3-239108b38a11",
+                    "id": "ID_63bbef56-3312-427a-a7aa-f715e4d6b06b",
                     "text": "Fever",
                     "display-mr": "ताप",
                     "display-hi": "बुखार"
                 },
                 {
-                    "id": "ID_c2eee23d-ea1d-4e8c-acc5-f9c94ebf77d8",
+                    "id": "ID_bd672b52-8222-4120-80ba-f732dbe4d2d8",
                     "text": "Excessive sweating",
                     "display-mr": "अति घाम येणे",
                     "display-hi": "अत्यधिक पसीना"
                 },
                 {
-                    "id": "ID_caaff5df-ca7d-43d2-836a-00e1b45717ab",
+                    "id": "ID_0c094929-504c-4248-8ce0-2d01f35c51c4",
                     "text": "Chills & rigors",
                     "display-mr": "थंडी वाजून येणे आणि कडकपणा",
                     "display-hi": "ठंड और कंपकंपी"
                 },
                 {
-                    "id": "ID_979602ff-b3c4-4ed0-9cc7-a21d5e602237",
+                    "id": "ID_f188bb7a-0bb0-412e-af12-d70471117c61",
                     "text": "Skin rash",
                     "display-mr": "त्वचेवर पुरळ",
                     "display-hi": "त्वचा पर चकत्ते"
                 },
                 {
-                    "id": "ID_7324d9de-8d0c-4a8e-9cad-fe218e4d30c5",
+                    "id": "ID_52e2260c-ad40-4772-9f45-58925bf24f02",
                     "text": "Chest pain",
                     "display-mr": "छातीत दुखणे",
                     "display-hi": "छाती में दर्द"
                 },
                 {
-                    "id": "ID_563b1cfa-f142-4361-a360-6589495cb6fd",
+                    "id": "ID_66810ade-3a4f-4f3b-8792-162586137f9d",
                     "text": "Difficulty breathing",
                     "display-mr": "श्वास घेण्यास त्रास होणे",
                     "display-hi": "सांस लेने में कठिनाई"
                 },
                 {
-                    "id": "ID_f8fcb687-7ebb-4de9-a9e0-dc6d1e08f5fa",
+                    "id": "ID_5fb5eb57-9307-41d6-bf9e-8f6c8f6df8bb",
                     "text": "Night sweats",
                     "display-mr": "रात्री घाम येणे",
                     "display-hi": "रात को पसीना"
                 },
                 {
-                    "id": "ID_12b804e6-0f33-4215-b826-f5554e19d654",
+                    "id": "ID_a584845d-349c-44c2-850c-1ad1ca5d42d1",
                     "text": "Weight loss",
                     "display-mr": "वजन कमी होणे",
                     "display-hi": "वजन कम होना"
                 },
                 {
-                    "id": "ID_220ed08d-9a89-4b88-9500-692f0183b03e",
+                    "id": "ID_6f9711ce-d630-493c-8b3f-8ca1798a435b",
                     "text": "Loss of appetite",
                     "display-mr": "भूक न लागणे",
                     "display-hi": "भूख नहीं लगना"
                 },
                 {
-                    "id": "ID_b3017dbd-7a48-46f5-8901-469aa88500b3",
+                    "id": "ID_aefdf6df-3e0f-4aeb-8250-7afbcc0f13d5",
                     "text": "Back pain",
                     "display-mr": "पाठदुखी",
                     "display-hi": "पीठ में दर्द"
                 },
                 {
-                    "id": "ID_178e1987-cbef-4892-8b11-3e382d7c1a3b",
+                    "id": "ID_6cdb1df5-c485-4c41-a024-bb0df9843ac8",
                     "text": "Fatigue",
                     "display-mr": "थकवा",
                     "display-hi": "थकान"
                 },
                 {
-                    "id": "ID_2e0182ff-244e-46f6-a2c9-25cc6e5c94f5",
+                    "id": "ID_ee6168cf-ae17-4ce4-b465-39632460fa8f",
                     "text": "Other",
                     "display-mr": "इतर",
                     "display-hi": "अन्य लक्षण",
@@ -818,7 +819,7 @@
             ]
         },
         {
-            "id": "ID_55c571ec-397d-472c-acac-dcaf49cb0d5b",
+            "id": "ID_80c12c74-6a6b-475d-aae8-2fa3330038de",
             "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
             "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
             "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
@@ -826,19 +827,19 @@
             "multi-choice": false,
             "options": [
                 {
-                    "id": "ID_8dcd1cc0-68d7-4012-ad9b-58affc2a1e1e",
+                    "id": "ID_8b6ff39e-ba31-433d-a872-253211be7c9d",
                     "text": "No",
                     "display-mr": "नाही",
                     "display-hi": "नहीं"
                 },
                 {
-                    "id": "ID_7bca2e22-7c28-463e-9b58-c8b43a821722",
+                    "id": "ID_a1a8fab3-481c-4798-afd9-189eab4488dc",
                     "text": "Yes",
                     "display-mr": "होय",
                     "display-hi": "हां",
                     "options": [
                         {
-                            "id": "ID_0dfd9d52-41d3-412a-abe6-f1a5fff1e46a",
+                            "id": "ID_b72e9d06-3bfc-40d3-97a5-936c7319ad1e",
                             "text": "Describe",
                             "display-mr": "वर्णन करा",
                             "display-hi": "वर्णन करें",
@@ -850,14 +851,14 @@
             ]
         },
         {
-            "id": "ID_2e19027a-a297-41af-9d07-c8c114b06d6f",
+            "id": "ID_aa1c5840-46e8-4541-b12c-d91ce2768605",
             "text": "Additional Information",
             "display-mr": "अतिरिक्त माहिती",
             "display-hi": "अतिरिक्त जानकारी",
             "isRequired": true,
             "options": [
                 {
-                    "id": "ID_6c84cf69-b0dd-4727-a1ca-49614ad0246f",
+                    "id": "ID_e1dbae51-43de-4ecb-ac33-490a4e31225c",
                     "text": "[Enter additional information]",
                     "input-type": "text",
                     "language": "%",

@@ -1,0 +1,581 @@
+{
+    "id": "ID_7b410235-ab9e-4c25-b86b-b750f0c2e145",
+    "text": "Muscle weakness (paralysis)",
+    "engineVersion": "3.0",
+    "display-mr": "स्नायूंची कमजोरी (अर्धांगवायू)",
+    "display-hi": "मांसपेशियों में कमजोरी",
+    "options": [
+        {
+            "id": "ID_288f17d4-b275-4a17-a90f-0fabf1a25c59",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_90ab0e89-6ebf-4500-8ab9-80fdf801516f",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_feb1a901-669e-4337-a8cb-eac3cb3f6924",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b8f83b57-08af-4384-a13f-090429e871fc",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_7f083e0c-1bbe-4e48-824a-f4d5ab965e8a",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_09b1d72c-ca80-4512-9a02-4b8003bab054",
+            "text": "Where in the body do you have muscle weakness?",
+            "display-mr": "शरीराच्या कोणत्या भागात स्नायू कमकुवत आहेत?",
+            "display-hi": "शरीर में कहां मांसपेशियों में कमजोरी होती है??",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8771f2d4-50e0-47a3-9e0b-61d35b65f675",
+                    "text": "Entire body",
+                    "display-mr": "संपूर्ण शरीर",
+                    "display-hi": "पूरा शरीर"
+                },
+                {
+                    "id": "ID_dd53656d-42b8-49f3-a3d0-09e86393e3c4",
+                    "text": "Body part",
+                    "display-mr": "शरीराचा भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_4834e0bd-045f-470a-bed9-4ca55818e548",
+                            "text": "Which part of the body do you have muscle weakness?",
+                            "display-mr": "शरीराच्या कोणत्या भागात स्नायू कमकुवत आहेत?",
+                            "display-hi": "आपको शरीर के किस हिस्से में मांसपेशियों में कमजोरी महसूस होती है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_7a958d02-a089-4918-962c-8b0c8c590524",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_7648845f-9738-43e2-a8cc-290f9949a273",
+                                    "text": "Arm",
+                                    "display-mr": "हात",
+                                    "display-hi": "बाहू"
+                                },
+                                {
+                                    "id": "ID_dbe56028-6f2e-40fa-be80-5a91971839e1",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c599e7b0-4e42-49db-8a7b-d49bebc91866",
+            "text": "Which side of the body do you have muscle weakness?",
+            "display-mr": "शरीराच्या कोणत्या बाजूला स्नायू कमकुवत आहेत?",
+            "display-hi": "आपको शरीर के किस तरफ मांसपेशियों में कमजोरी महसूस होती है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1ba7a1cf-ac89-4a86-878a-1a6eed191914",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बाईं ओर"
+                },
+                {
+                    "id": "ID_88f7d1cd-f4f4-4d71-9e56-53b7ac6b9359",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दाईं ओर"
+                },
+                {
+                    "id": "ID_3080262f-ac70-431a-9e51-0862e82cdc6c",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंनी",
+                    "display-hi": "दोनों ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_a66d2172-4afa-4302-a666-5eb766416af2",
+            "text": "What are the daily tasks affected by this muscle weakness?",
+            "display-mr": "या स्नायू कमकुवतपणामुळे दैनंदिन कामांवर काय परिणाम होतो?",
+            "display-hi": "यह आपके रोजमर्रा के काम को कैसे प्रभावित करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6852620d-f007-4142-8cc1-b25ded658bb2",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5d10f766-e7c4-4712-a342-3d33fde741ca",
+                    "text": "Combing hair",
+                    "display-mr": "केस विंचरणे",
+                    "display-hi": "बाल संवारना"
+                },
+                {
+                    "id": "ID_5f0a56ef-d61f-48ea-88e1-ed8f5f35a36f",
+                    "text": "Brushing teeth",
+                    "display-mr": "दात घासणे",
+                    "display-hi": "दांत ब्रश करना"
+                },
+                {
+                    "id": "ID_4c7949dc-4d49-4cb0-9916-59319af0cd6a",
+                    "text": "Lifting arms above head",
+                    "display-mr": "डोक्याच्या वर हात उचलणे",
+                    "display-hi": "हाथों को सिर के ऊपर उठाना"
+                },
+                {
+                    "id": "ID_7c0762f7-98d4-4df5-b558-9836c08cb96f",
+                    "text": "Holding objects",
+                    "display-mr": "वस्तू धरून ठेवणे",
+                    "display-hi": "वस्तुओं को पकड़ना"
+                },
+                {
+                    "id": "ID_e563a3f4-e454-4710-a1ac-39e25541c3a6",
+                    "text": "Speaking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बोलना"
+                },
+                {
+                    "id": "ID_c3712186-7aa0-4086-b5a6-9ce5b6b1e88c",
+                    "text": "Swallowing",
+                    "display-mr": "गिळणे",
+                    "display-hi": "निगलना"
+                },
+                {
+                    "id": "ID_cea14a64-8bca-43f9-bcec-b85eb3021d4f",
+                    "text": "Walking",
+                    "display-mr": "चालणे",
+                    "display-hi": "चलना"
+                },
+                {
+                    "id": "ID_db1b923e-8652-4fe0-97a6-218399183f3b",
+                    "text": "Climbing stairs",
+                    "display-mr": "पायऱ्या चढणे",
+                    "display-hi": "सीढ़ियां चढ़ना"
+                },
+                {
+                    "id": "ID_c345133a-b216-4c1c-b6e1-89dd7b65f5d3",
+                    "text": "Raising from a chair",
+                    "display-mr": "खुर्चीवरून उठणे",
+                    "display-hi": "कुर्सी से उठना"
+                }
+            ]
+        },
+        {
+            "id": "ID_f3159c29-c05d-4a75-b0db-60f043bf664d",
+            "text": "What makes the muscle weakness worse?",
+            "display-mr": "स्नायूंची कमजोरी कशामुळे बिघडते?",
+            "display-hi": "किस चीज से मांसपेशियों की कमजोरी बढ़ती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9d9238db-23bb-4057-830a-559192769780",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_41f7d87e-5075-43cf-aca2-d6c3624af34f",
+                    "text": "Heat",
+                    "display-mr": "उष्णता",
+                    "display-hi": "गर्मी"
+                },
+                {
+                    "id": "ID_598ed58a-0716-4eb7-a1f1-9b63f7bbb06c",
+                    "text": "Humidity",
+                    "display-mr": "आर्द्रता",
+                    "display-hi": "नमी"
+                },
+                {
+                    "id": "ID_87ca880d-11fb-4a65-bde1-1595540a0fdc",
+                    "text": "Repetitive activity",
+                    "display-mr": "पुनरावृत्ती क्रियाकलाप",
+                    "display-hi": "दोहराने वाला काम"
+                },
+                {
+                    "id": "ID_d502b377-ee7b-491d-87e7-278f5c696762",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_6f205670-f8c8-4365-bd08-5891dd8bbaf0",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (बताएं)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d9d1f207-40fe-452d-9fa8-74c70b7c2846",
+            "text": "How the muscle weakness progressed over the duration of time?",
+            "display-mr": "कालांतराने स्नायूंची कमकुवतपणा कशी वाढत गेली?",
+            "display-hi": "समय के साथ मांसपेशियों की कमजोरी कैसे बढ़ रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fd99bbfd-e11f-47e4-a943-ed89665b97c2",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रही है"
+                },
+                {
+                    "id": "ID_61d1ed6b-ab5e-4733-9ff0-20aa51477703",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रही है"
+                },
+                {
+                    "id": "ID_b597fd37-570f-49f3-9cda-4a4284d62c01",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_848f0803-5b75-47b2-85b9-8d7b72f8f888",
+                    "text": "Fluctuant",
+                    "display-mr": "चढउतार",
+                    "display-hi": "कम-अधिक होती रहती है"
+                },
+                {
+                    "id": "ID_055b2c23-ba45-43c2-b476-4939af623bae",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_cf19e904-d6d7-40de-a500-8c24e0cd56ba",
+            "text": "Does the muscle weakness have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासां दरम्यान स्नायूंच्या कमकुवतपणाचे काही पॅटर्न असतात का?",
+            "display-hi": "क्या मांसपेशियों की कमजोरी में 24 घंटे के चक्र के दौरान कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a742a55d-3cbe-4485-8c2f-cc9f90f938dc",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "स्थायी"
+                },
+                {
+                    "id": "ID_dde87638-c622-4715-9c20-aab99c29fdc6",
+                    "text": "Intermittent(comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुककर (आता और जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_2835c2a8-9345-49c8-852e-1c618d56a71f",
+                            "text": "Which part of the day the Muscle weakness is worse?",
+                            "display-mr": "दिवसाच्या कोणत्या भागात स्नायू कमकुवत होते?",
+                            "display-hi": "दिन के किस भाग में मांसपेशियों की कमजोरी महसूस होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_6dcea0f9-5230-4e97-9a10-ebfa62d65f1b",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_1ae7c2fe-3737-4ba2-b6d7-bdb8aada4551",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_8f2b6544-d2b5-42c7-ad15-62eb972fe5b7",
+                                    "text": "Night",
+                                    "display-mr": "रात्र",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_0be7262d-a9fa-4bf3-b1de-d6abc9fedab4",
+            "text": "What is the severity of the muscle weakness?",
+            "display-mr": "मांसपेशींच्या कमकुवतपणाची तीव्रता किती आहे?",
+            "display-hi": "मांसपेशियों की कमजोरी कितनी अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3c11a342-a6c0-4f26-8962-4a820e490e54",
+                    "text": "Subtle (mild)",
+                    "display-mr": "सौम्य",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_875e3332-0362-4244-bbab-e22180ab9264",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_bf531a80-bd5f-4891-bbf5-065fb6560423",
+                    "text": "Completely flaccid",
+                    "display-mr": "सैल झालेल्या मांसपेशी",
+                    "display-hi": "पूरी तरह से ढीला"
+                }
+            ]
+        },
+        {
+            "id": "ID_73d7750b-57a0-462c-b7a6-5ab09382d728",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_20f2472c-ac01-4f90-9521-151f8567b31c",
+                    "text": "Double vision",
+                    "display-mr": "दुहेरी दृष्टी",
+                    "display-hi": "डबल विजन"
+                },
+                {
+                    "id": "ID_198fb86b-eb50-4a27-9874-aa90225e5889",
+                    "text": "Difficulty speaking (slurred speech)",
+                    "display-mr": "बोलण्यात अडचण (अस्पष्ट बोलणे)",
+                    "display-hi": "बोलने में कठिनाई (लतलग बोली)"
+                },
+                {
+                    "id": "ID_e2ac98c2-9109-44a4-882d-ec141a70d3e2",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होतो",
+                    "display-hi": "निगलने में कठिनाई"
+                },
+                {
+                    "id": "ID_705f6038-66f7-4b39-8ccc-3a83eb7b02b4",
+                    "text": "Memory loss",
+                    "display-mr": "स्मृती कमी होणे",
+                    "display-hi": "स्मृति लोप"
+                },
+                {
+                    "id": "ID_e3f5fa66-0553-4980-a8b3-e03d24941036",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_f0680ed2-0765-4efc-b2ad-ca89ad025222",
+                    "text": "Seizures",
+                    "display-mr": "फेफरे",
+                    "display-hi": "दौरे"
+                },
+                {
+                    "id": "ID_cdf74f7f-061a-489e-a613-eb7e10017374",
+                    "text": "Sensory disturbance",
+                    "display-mr": "संवेदनांचा त्रास",
+                    "display-hi": "संवेदी विकार"
+                },
+                {
+                    "id": "ID_33c0cce5-a81f-44c2-81bf-e9debf7e3222",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर येणे (हलकेपणा)",
+                    "display-hi": "चक्कर आना (हल्का सिर घूमना)"
+                },
+                {
+                    "id": "ID_7f15c891-6fd9-4f5e-ac14-800f1ce49644",
+                    "text": "History of injury to Head & Neck",
+                    "display-mr": "डोके आणि मानेच्या दुखापतीचा इतिहास",
+                    "display-hi": "सिर और गर्दन में चोट का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_c4a3944c-b063-45ba-aff8-5d4464ef492e",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_38060bf1-dbed-4363-9e9a-7d7604bfc43f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_911dd76a-e85d-4db2-b40d-5f8963a37d13",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_79184e44-9dc5-433a-ae68-bcaf694616fd",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_b7b79ce5-0812-43c2-ad6c-3729b504908d",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_624a04f6-133b-4fe6-859a-b20152ce9a79",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीची अस्थिरता",
+                    "display-hi": "पेशाब पर नियंत्रण न होना"
+                },
+                {
+                    "id": "ID_870fb78a-f90b-4fab-935a-eca63fefe95b",
+                    "text": "Muscle pain",
+                    "display-mr": "स्नायू दुखणे",
+                    "display-hi": "मांसपेशियों में दर्द"
+                },
+                {
+                    "id": "ID_363c3d37-ea19-466d-9f79-c48d50a88652",
+                    "text": "Neck pain",
+                    "display-mr": "मान दुखणे",
+                    "display-hi": "गर्दन में दर्द"
+                },
+                {
+                    "id": "ID_5c2a5d89-2df6-491c-8a49-183868db3ae2",
+                    "text": "Neck stiffness",
+                    "display-mr": "मान कडक होणे",
+                    "display-hi": "गर्दन में जकड़न"
+                },
+                {
+                    "id": "ID_5ef04b4b-ca46-471b-8f35-aab81d5d574d",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_8e873418-18f6-4110-b479-733afc9a04b6",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_cac29f9f-75d5-4142-a2cf-554c8f77d2ce",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भोजन में रुचि की कमी"
+                },
+                {
+                    "id": "ID_ce2c6008-3342-465e-9596-04ebf23644b3",
+                    "text": "Intolerance to cold",
+                    "display-mr": "थंडीशी असहिष्णुता",
+                    "display-hi": "ठंड सहन न कर पाना"
+                },
+                {
+                    "id": "ID_fc85b3bd-ec06-4e95-9a01-b26276ec6551",
+                    "text": "Intolerance to heat",
+                    "display-mr": "उष्णतेसाठी असहिष्णुता",
+                    "display-hi": "गर्मी सहन न कर पाना"
+                },
+                {
+                    "id": "ID_a6c1eee4-cabf-4e1a-84ef-61b41b29cb2d",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "दिल की धड़कन का तेज़ होना"
+                },
+                {
+                    "id": "ID_561a17f9-1bde-492f-b74f-e7cec8ff16b3",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1dc4e616-8fc2-4cc8-89f6-80ef8229e238",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5db35705-02a7-4213-ba0f-8a33ceaaed7b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_ca10eb2c-5beb-47ec-b5a1-801e91b77eff",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_d71d2c1b-7082-44af-b7b1-b9038df9d0cf",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e8acbd9e-a5fb-4915-88fa-bd15b8a59393",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_32baa896-79d1-40fd-813f-4a009512dd3b",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

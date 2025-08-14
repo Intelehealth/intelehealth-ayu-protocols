@@ -1,0 +1,432 @@
+{
+    "id": "ID_ae39b2cd-cb7a-451b-b3c2-75f533c5c16f",
+    "text": "Nail biting",
+    "engineVersion": "3.0",
+    "display-mr": "नखे खाणे",
+    "display-hi": "नाखून चबाना",
+    "options": [
+        {
+            "id": "ID_053fcf70-a2a1-489f-9b13-823f3d569649",
+            "text": "At what age was the nail biting first identified?",
+            "display-mr": "नखे खाण्याची सवय कोणत्या वयामध्ये आढळून आली?",
+            "display-hi": "नाखून चबाने की आदत की पहचान सबसे पहले किस उम्र में हुई थी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_14c39777-7bd0-4960-8efc-144ab9d08336",
+                    "text": "At what age was the nail biting first identified?",
+                    "display-mr": "नखे खाण्याची सवय कोणत्या वयामध्ये आढळून आली?",
+                    "display-hi": "नाखून चबाने की आदत की पहचान सबसे पहले किस उम्र में हुई थी?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_3c2d989c-8589-407f-b3c4-0770cf331aeb",
+            "text": "How long has the nail biting been going on?",
+            "display-mr": "नखे खाणे किती काळापासून सुरू आहे?",
+            "display-hi": "नाखून चबाने की आदत कब से चल रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_74b558cd-dcb2-4ee7-8d05-2c497cb29411",
+                    "text": "How long has the nail biting been going on?",
+                    "display-mr": "नखे खाणे किती काळापासून सुरू आहे?",
+                    "display-hi": "नाखून चबाने की आदत कब से चल रही है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_49d23879-4ae3-4344-af80-8b1989d6d79c",
+            "text": "Is nail biting continuous or only at certain times of the day?",
+            "display-mr": "नखे खाणे सतत असते किंवा केवळ काही वेळाच असते?",
+            "display-hi": "क्या नाखून चबाना लगातार होता है या दिन के सिर्फ कुछ खास समय पर?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d55a5ecd-4a80-4a2a-9d8c-88620652ee09",
+                    "text": "Continuous",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_483f9aa6-98ed-4175-ac7f-04e02b67285d",
+                    "text": "Intermittent",
+                    "display-mr": "अधून-मधून",
+                    "display-hi": "रुक-रुक कर",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_8d863143-a4e5-469c-906b-1a5c2918c7d4",
+                            "text": "Is there a specific time of day when the nail biting is worse?",
+                            "display-mr": "दिवसातील अशी काही विशिष्ट (वेळ) आहे का जेव्हा नखे सर्वाधिक खाल्ली जातात?",
+                            "display-hi": "क्या दिन का कोई खास समय होता है जब नाखून चबाने की आदत ज्यादा बुरी होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_2d6beaf1-3ec6-4f1a-aedc-baf13b3e5866",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_a40e1dc0-5837-4e10-88fe-99bf0676600b",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_f7dc044e-89f6-4f85-9c89-0e4aef603d7c",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_b2b872f0-db28-41e2-9df9-1dcd6882521f",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ab99e6e3-34a9-4314-8730-98080471ba62",
+            "text": "How long does your child do the nail biting?",
+            "display-mr": "तुमचे मूल किती काळ नखे खाते?",
+            "display-hi": "आपका बच्चा कितनी देर तक नाखून चबाता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3c2d92af-6d2b-4fd1-825c-ca81ecdd9cb9",
+                    "text": "A few seconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_07091767-a795-4404-9702-83e5d5503eec",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_8cbf8899-c73b-4dbd-bb68-0816ddf41d89",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                }
+            ]
+        },
+        {
+            "id": "ID_60f17e25-acac-41d5-a856-3fd3dab3d4ef",
+            "text": "What releives or reduces nail biting?",
+            "display-mr": "नखे खाणे कशामुळे बरे होते किंवा कमी होते?",
+            "display-hi": "नाखून चबाने की आदत को क्या कम करता या घटाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2b177f7d-47a0-443c-973d-f1260c1f6119",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_7f000209-74dd-4483-8651-cfc4e183edf7",
+                    "text": "Application of creams",
+                    "display-mr": "मलम लावणे",
+                    "display-hi": "क्रीम लगाना"
+                },
+                {
+                    "id": "ID_2df9c06b-0334-4213-b2af-f2baa4f847f2",
+                    "text": "Wearing gloves",
+                    "display-mr": "हातमोजे घातल्यामुळे",
+                    "display-hi": "दस्ताने पहनना"
+                },
+                {
+                    "id": "ID_5b9b01b0-0ddb-4977-adb4-782d754889a5",
+                    "text": "Sleep",
+                    "display-mr": "झोपणे",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_81af8d1c-7227-41bf-9385-42b7ea59fd50",
+                    "text": "Play",
+                    "display-mr": "खेळणे",
+                    "display-hi": "खेलना"
+                },
+                {
+                    "id": "ID_fe7d8d34-60d1-4724-bebd-fb66d3635f59",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_cc2e45ae-aba1-45c8-b6a1-769741e51fad",
+            "text": "What does aggravate or worsens the habit of nail biting?",
+            "display-mr": "नखे खाण्याची सवय कशामुळे वाढते किंवा विकोपाला जाते?",
+            "display-hi": "नाखून चबाने की आदत को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0f7e9172-9897-4991-8ff0-6b73a8067535",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_90837c2d-5ad6-4777-bd99-1413ab8efc49",
+                    "text": "Boredom",
+                    "display-mr": "कंटाळा",
+                    "display-hi": "बोरियत"
+                },
+                {
+                    "id": "ID_daea1373-cc68-411d-ade5-a7e6c768aef0",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_b31193f4-7551-4005-a2f2-7b6a67e1c3a0",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_c09ab425-b2c7-455d-9459-ae581f7fe40b",
+                    "text": "Studies",
+                    "display-mr": "अभ्यास",
+                    "display-hi": "पढ़ाई"
+                },
+                {
+                    "id": "ID_cd90c8ce-699b-4218-8b19-0f89ffaf7208",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a66fe211-3fb5-432c-a2bc-20e1b068eefe",
+            "text": "Does the nail-biting interfere with daily activities such as school work or social interactions?",
+            "display-mr": "नखे-खाण्यामुळे शाळा काम किंवा सामाजिक भेटी-गाठी यासारख्या दैनंदिन कामांमध्ये अडथळा येतो का?",
+            "display-hi": "क्या नाखून चबाने की आदत स्कूल काम या सामाजिक मेलजोल जैसी रोजमर्रा की गतिविधियों में बाधा डालती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_60cc1575-7f1a-4d03-b51b-f819acebd386",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_f4a16347-5508-4d41-9afc-e906ac1c89db",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+                
+            ]
+        },
+        {
+            "id": "ID_e648e64f-ece0-4fd6-9ccd-057f9d08185d",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपके बच्चे को निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_94ec33e7-0f90-42b1-b85c-50ba710eb186",
+                    "text": "Jaw pain",
+                    "display-mr": "जबडा दुखणे",
+                    "display-hi": "जबड़े में दर्द"
+                },
+                {
+                    "id": "ID_9ecafc19-c27c-4eaf-97ed-db310894a4cf",
+                    "text": "Damaged nail",
+                    "display-mr": "नखे खराब होणे",
+                    "display-hi": "क्षतिग्रस्त नाखून"
+                },
+                {
+                    "id": "ID_2e2d091d-ff83-46c8-bf01-07c1ef318c43",
+                    "text": "Hair plucking",
+                    "display-mr": "केस उपटणे",
+                    "display-hi": "बाल नोचना"
+                },
+                {
+                    "id": "ID_3af68367-159b-4d28-8155-993bdf53d000",
+                    "text": "Picking own skin",
+                    "display-mr": "स्वतः त्वचा खरवडणे",
+                    "display-hi": "खुद की त्वचा को नोचना"
+                },
+                {
+                    "id": "ID_22b518a2-dbf1-44ff-a1e4-b64d0fc00dfd",
+                    "text": "Grinding of teeth",
+                    "display-mr": "दात खाणे",
+                    "display-hi": "दांत पीसना"
+                },
+                {
+                    "id": "ID_27de2fb2-ddcf-41dc-aefd-550c8e9c340a",
+                    "text": "Foot tapping",
+                    "display-mr": "पाऊल आपटणे",
+                    "display-hi": "पैर थपथपाना"
+                },
+                {
+                    "id": "ID_6d732bfc-d0ff-4cc0-8ef6-98abef63d654",
+                    "text": "Restlessness",
+                    "display-mr": "अस्वस्थता",
+                    "display-hi": "बेचैनी"
+                },
+                {
+                    "id": "ID_ea66f35d-10da-47a5-94bf-cb24ca3c7394",
+                    "text": "Inattention",
+                    "display-mr": "एकाग्रता नसणे",
+                    "display-hi": "ध्यान नहीं दे पाना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_c86db5c5-2d6c-4c41-83d8-2bfca5f65540",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a4abcf60-3c12-4e9a-9eae-c241186f2172",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_332c9077-071b-46b9-88be-cf7dfeab7fbd",
+                    "text": "Tooth decay",
+                    "display-mr": "दातांची झीज",
+                    "display-hi": "दांतों की सड़न"
+                },
+                {
+                    "id": "ID_fb8adee3-c2f0-4042-93ea-011b3601e5bb",
+                    "text": "Tooth sensitivity",
+                    "display-mr": "दातांची संवेदनशीलता",
+                    "display-hi": "दांतों की संवेदनशीलता"
+                },
+                {
+                    "id": "ID_4f16cb56-cbe8-4c01-8d59-b034a6e7a479",
+                    "text": "Loose stools",
+                    "display-mr": "शौचाला पातळ होणे",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_ffa72c65-e896-485a-bc3d-b36fa5269689",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_6914903e-4d3c-412e-ab44-5ca5816e7bef",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_02a4c52f-51a4-4c7b-b9aa-ac30819d93d8",
+                    "text": "Abdominal pain",
+                    "display-mr": "ओटीपोटामध्ये वेदना",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_7df29aea-be93-4fbc-97c5-1434215ba173",
+                    "text": "Oral ulcers",
+                    "display-mr": "तोंडामध्ये व्रण",
+                    "display-hi": "मुंह में छाले"
+                },
+                {
+                    "id": "ID_38ad5893-7100-434a-a647-21a8b885bab1",
+                    "text": "Worm infestation",
+                    "display-mr": "जंत होणे",
+                    "display-hi": "पेट में कीड़े"
+                },
+                {
+                    "id": "ID_41dc84e3-b38d-4d45-aaaf-6bb290798004",
+                    "text": "Anal itching",
+                    "display-mr": "गुदद्वारात खाज येणे",
+                    "display-hi": "गुदा में खुजली"
+                },
+                {
+                    "id": "ID_589cfca0-48aa-44e0-a2a7-dde2625a5cbf",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_2feed095-62a3-4ca9-9388-8b6acaf1a2dc",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e2a0f8db-6c35-4345-bdd5-7050dad21367",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c7b342cd-8563-47d5-878b-80d29e5351fc",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_a9ecc730-366e-4b9c-a351-57d3429e437f",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_12c7844f-da66-402c-a89a-a5bc5c84f76c",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2a16c280-06be-48b5-ab3d-e08da7b676b7",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

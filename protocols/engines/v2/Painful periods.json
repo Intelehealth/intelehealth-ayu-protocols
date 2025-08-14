@@ -1,0 +1,670 @@
+{
+    "id": "ID_30827e3c-afb3-4031-939f-b0afc7279513",
+    "text": "Painful periods",
+    "engineVersion": "3.0",
+    "display-mr": "मासिक पाळीदरम्यान वेदना",
+    "display-hi": "पीड़ादायक माहवारी",
+    "age_min": "8",
+    "options": [
+        {
+            "id": "ID_b9e9ec7b-1053-4196-8bf4-343d62287e57",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c5039e59-c858-440a-bb0c-69a0df26e547",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_5cbe5e38-6e5f-4ba6-bed4-ded99930d397",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d9d07724-28ea-4928-8752-c088649fce4b",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_b11101cc-af48-42a7-a95b-f3a5d2a1a929",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_76e0dec2-bc64-4f91-805d-04ef49a5bc01",
+            "text": "Where do you feel the pain?",
+            "display-mr": "तुम्हाला वेदना कुठे जाणवतात?",
+            "display-hi": "आपको दर्द कहां महसूस होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_86c9cd98-527a-4dbd-986e-70bba8050881",
+                    "text": "Back",
+                    "display-mr": "मागे",
+                    "display-hi": "पीठ"
+                },
+                {
+                    "id": "ID_0d2986eb-38da-430c-aeec-625a6420a69e",
+                    "text": "Lower abdomen",
+                    "display-mr": "खालच्या ओटीपोटात",
+                    "display-hi": "निचला पेट"
+                },
+                {
+                    "id": "ID_4b2b5f64-179c-4f73-b8e4-f0ca6b1424c5",
+                    "text": "Part of lower abdomen",
+                    "display-mr": "खालच्या ओटीपोटाच्या भागात",
+                    "display-hi": "निचले पेट का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_8b9a54cb-e603-4928-ac34-77ef5a9903f8",
+                            "text": "Which part of lower abdomen do you feel pain?",
+                            "display-mr": "खालच्या ओटीपोटाच्या कोणत्या भागात तुम्हाला वेदना जाणवते?",
+                            "display-hi": "आपको पेट के निचले हिस्से के किस भाग में दर्द महसूस होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_f04c2f94-b764-4127-b03c-956b2944ad45",
+                                    "text": "Right lumbar area",
+                                    "display-mr": "उजव्या कमरेसंबंधीचा क्षेत्र",
+                                    "display-hi": "दाईं कमर का हिस्सा"
+                                },
+                                {
+                                    "id": "ID_910b3ac6-7f1d-4b69-b8f9-4fc48ef2117f",
+                                    "text": "Left lumbar area",
+                                    "display-mr": "डावा कमरेसंबंधीचा क्षेत्र",
+                                    "display-hi": "बाईं कमर का हिस्सा"
+                                },
+                                {
+                                    "id": "ID_177a74c6-559a-46cb-9fd2-4f85e224ea12",
+                                    "text": "Right lower abdomen",
+                                    "display-mr": "उजव्या खालच्या ओटीपोटात",
+                                    "display-hi": "दाईं तरफ निचला पेट"
+                                },
+                                {
+                                    "id": "ID_0f6cd768-9804-4ba6-8506-e34fbe797f04",
+                                    "text": "Left lower abdomen",
+                                    "display-mr": "डाव्या खालच्या ओटीपोटात",
+                                    "display-hi": "बाईं तरफ निचला पेट"
+                                },
+                                {
+                                    "id": "ID_992efdf1-6aad-4837-be30-2c1150011d17",
+                                    "text": "Suprapubic area",
+                                    "display-mr": "जघनास्थीच्या वरच्या बाजूला",
+                                    "display-hi": "नाभि के ठीक नीचे और जननांगों के ऊपर का क्षेत्र"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_dbd1ff1d-7d2d-404d-930f-f11e9cbb7807",
+            "text": "How can you describe the character of pain?",
+            "display-mr": "दुखण्याचं वर्णन कसं करता येईल?",
+            "display-hi": "दर्द को आप कैसे महसूस करती हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ba333a11-a0e2-4fc0-8149-218d9be7a62b",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_37cb1f04-c469-4c41-a9e2-a00ad8f0153b",
+                    "text": "Sharp pain",
+                    "display-mr": "तीव्र वेदना",
+                    "display-hi": "चुभने जैसा दर्द"
+                },
+                {
+                    "id": "ID_3ff1e4f4-a3b5-47f0-af1d-941150fda242",
+                    "text": "Stabbing pain",
+                    "display-mr": "घाव घातल्यासारखे दुखणे",
+                    "display-hi": "तीव्र चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_f612a9f4-7618-42ac-8c17-dc7a9a1e5af9",
+                    "text": "Dull aching pain",
+                    "display-mr": "मंद सतत होणारी वेदना",
+                    "display-hi": "धीमा-धीमा दर्द"
+                },
+                {
+                    "id": "ID_ae519e1d-763f-48ce-86a1-23152d63f140",
+                    "text": "Cramping pain",
+                    "display-mr": "पेटके येण्याप्रमाणे वेदना",
+                    "display-hi": "पेट में ऐंठन जैसा दर्द"
+                },
+                {
+                    "id": "ID_f4056640-449d-4539-aba4-a75a133ec811",
+                    "text": "Shooting pain",
+                    "display-mr": "अचानक उसळणारी वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_00832cd5-5428-4a39-9184-853eefb79481",
+                    "text": "Gnawing (Chewing) pain",
+                    "display-mr": "कुरतडणे (चर्वण) वेदना",
+                    "display-hi": "चबाने जैसा दर्द"
+                },
+                {
+                    "id": "ID_b8bae79e-e742-4689-a0ac-cf235ba03954",
+                    "text": "Gripping pain",
+                    "display-mr": "पकडणारी वेदना",
+                    "display-hi": "जकड़न वाला दर्द"
+                },
+                {
+                    "id": "ID_034c14a6-0065-4f80-bdde-88a2cfb234c7",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_5a30ad05-d030-4a45-af7e-371f65e431aa",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_38200595-80b5-4d95-b408-46a2045e215c",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_91406cf0-7196-489e-b3ae-3ec4e0185e30",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_4608aba4-88d2-4f85-8344-dcef5f33518b",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "चुभने जैसा दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_00724b9f-89e2-4b3a-82f6-ea139de9b597",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत चुभने जैसा दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_906c2d5a-b23d-43df-a041-65d51bb6d141",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_3464b391-98da-4ebb-aeb6-aeae5e93c745",
+            "text": "How long does the pain last?",
+            "display-mr": "वेदना किती काळ टिकते?",
+            "display-hi": "दर्द कितने समय तक रहता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d4547378-0124-476d-900a-ce0483ad63f8",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_0afcbee9-e621-4f6a-a349-52bb7190727d",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                },
+                {
+                    "id": "ID_98564b41-4708-4d73-8a94-db8519f95287",
+                    "text": "Throughout period",
+                    "display-mr": "संपूर्ण मासिक पाळी मध्ये",
+                    "display-hi": "माहवारी के पूरे समय में"
+                },
+                {
+                    "id": "ID_a8df9db8-7e6a-4a7a-956c-2dda0a89f2f1",
+                    "text": "Before period",
+                    "display-mr": "मासिक पाळीपूर्वी",
+                    "display-hi": "माहवारी से पहले"
+                },
+                {
+                    "id": "ID_d9013a01-e83a-4394-9c57-5a11b99e1ee0",
+                    "text": "After period",
+                    "display-mr": "मासिक पाळी नंतर",
+                    "display-hi": "माहवारी के बाद"
+                },
+                {
+                    "id": "ID_1f928f9f-95ec-4b6e-a0c1-ab55659c6414",
+                    "text": "Before and after period",
+                    "display-mr": "मासिक पाळीच्या आधी आणि नंतर",
+                    "display-hi": "माहवारी से पहले और बाद में"
+                }
+            ]
+        },
+        {
+            "id": "ID_4b9c80c2-8d92-455a-b69d-1dadd19282d8",
+            "text": "What does relieve or lessen the pain?",
+            "display-mr": "कशाने वेदनेला आराम मिळतो किंवा कमी होतात?",
+            "display-hi": "दर्द में किससे राहत मिलती है या कम होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2866b110-5264-489b-90b6-dbcc9136931a",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_edd379bd-840f-4e2e-8932-e6df0d392dd3",
+                    "text": "Leaning forward",
+                    "display-mr": "पुढे वाकणे",
+                    "display-hi": "आगे झुकना"
+                },
+                {
+                    "id": "ID_877cf665-3803-4e28-9e6d-40b7fee2a3c0",
+                    "text": "Squatting",
+                    "display-mr": "खाली बसने",
+                    "display-hi": "घुटने मोड़कर बैठना"
+                },
+                {
+                    "id": "ID_875a37b4-2464-41ed-a861-3af8ac245289",
+                    "text": "Sitting",
+                    "display-mr": "बसणे",
+                    "display-hi": "बैठना"
+                },
+                {
+                    "id": "ID_e7400f8d-5819-4b6b-845a-c0197a3cd67e",
+                    "text": "Lying down",
+                    "display-mr": "खाली पडणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_05d483d9-cc9d-411e-86a2-9786340775d0",
+                    "text": "Pressure",
+                    "display-mr": "दबाव",
+                    "display-hi": "दबाव"
+                },
+                {
+                    "id": "ID_c82ad024-9b5f-408d-85e8-eb9385b3d97a",
+                    "text": "Not moving",
+                    "display-mr": "हालचाल न केल्याने",
+                    "display-hi": "हिलना डुलना नहीं"
+                },
+                {
+                    "id": "ID_16209cea-695d-4d65-9eca-6f33b7516152",
+                    "text": "Medication",
+                    "display-mr": "औषध",
+                    "display-hi": "दवा"
+                },
+                {
+                    "id": "ID_fe313f7e-c58f-4777-afd4-c87ea053cabd",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_88762593-d37d-41f1-aa9d-82ba67f83436",
+            "text": "What does increase or worsen the pain?",
+            "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
+            "display-hi": "दर्द किससे बढ़ता या बिगड़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d37b33f7-73e6-48bb-85b3-6656a897a5b1",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5dd62590-ba97-436c-9b74-ad5a9e83795d",
+                    "text": "Pressure",
+                    "display-mr": "दबाव",
+                    "display-hi": "दबाव"
+                },
+                {
+                    "id": "ID_7b7c66a8-4cf1-4fc8-8221-23e72c5d714a",
+                    "text": "Movement",
+                    "display-mr": "हालचाल",
+                    "display-hi": "चलना"
+                },
+                {
+                    "id": "ID_e1646e78-4af7-4aa2-926f-c196b9efe7e1",
+                    "text": "Urination",
+                    "display-mr": "लघवी",
+                    "display-hi": "पेशाब करना"
+                },
+                {
+                    "id": "ID_9010a1b0-7c70-4d19-9491-932c1407aaf9",
+                    "text": "Coughing",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसना"
+                },
+                {
+                    "id": "ID_da52cb1f-0740-4ca6-aa8b-059a32a6cc00",
+                    "text": "Standing",
+                    "display-mr": "उभे",
+                    "display-hi": "खड़े होना"
+                },
+                {
+                    "id": "ID_5a8b7231-545a-45e7-8833-cab8e5fee490",
+                    "text": "Straining",
+                    "display-mr": "ताणणे",
+                    "display-hi": "शरीर पर अधिक दबाव डालना"
+                },
+                {
+                    "id": "ID_8f326647-9de2-4854-ad94-4e965939fc1a",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_21231464-520c-4082-96f7-24c27291877b",
+            "text": "How is the periods pain progressing?",
+            "display-mr": "मासिक पाळीच्या वेदना मध्ये काही बदल?",
+            "display-hi": "माहवारी के दर्द में कैसे बदलाव आ रहा  हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_37a83624-8532-4191-ba9f-d0a6ec406cae",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_f77fa0e9-425f-42d3-864c-adb98b2f59f2",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रहा है"
+                },
+                {
+                    "id": "ID_c9a0d32b-3225-4cab-86bf-5ee9e44dcfcb",
+                    "text": "Fluctuating",
+                    "display-mr": "चढउतार",
+                    "display-hi": "उतार-चढ़ाव होना"
+                },
+                {
+                    "id": "ID_eb1240b9-0325-476b-a471-4cfb981a7062",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_9e970b71-ea42-42c6-be50-9c99560d0a1c",
+            "text": "Does the pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रादरम्यान वेदनांचे काही पॅटर्न असतात का?",
+            "display-hi": "क्या दर्द 24 घंटों के दौरान किसी विशेष तरीके से होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a2514799-f8cc-403b-96a2-987946883680",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_3bfb21ab-dbb3-4c63-b64b-c5081c83d260",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "अंतराल में होने वाला दर्द"
+                }
+            ]
+        },
+        {
+            "id": "ID_ef2795db-8b3a-4d0b-add4-42a41c1e00ad",
+            "text": "Does the pain move to other parts of the body?",
+            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?",
+            "display-hi": "क्या दर्द शरीर के अन्य भागों में फैलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_99e81849-7b33-445f-ab74-4eed6ceb0b29",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_558e6c56-d55d-4873-9fd0-cb2c95803e47",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_2a5c5dea-7b6b-4748-a46b-e5d2c2c6c33d",
+                            "text": "The pain moves to",
+                            "display-mr": "वेदना येथे पुढे सरकते",
+                            "display-hi": "दर्द किस तरफ बढ़ता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_32d9a5fb-9b41-463e-bbbc-2623eaa8fe6a",
+                                    "text": "Back",
+                                    "display-mr": "मागे",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_a675f6bf-ca68-40a0-a1ff-ac905aed5e29",
+                                    "text": "Thighs",
+                                    "display-mr": "मांड्या",
+                                    "display-hi": "जांघें"
+                                },
+                                {
+                                    "id": "ID_6ea68f58-1943-44b9-84d7-028c9a8cb6f5",
+                                    "text": "Legs",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_2439b1d5-9e7a-47e7-8574-a8edfa5f9d06",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_34b07850-a1d6-4961-9e10-26d246a10b3c",
+                    "text": "Heavy periods",
+                    "display-mr": "मासिक पाळी जड जाणे",
+                    "display-hi": "भारी माहवारी"
+                },
+                {
+                    "id": "ID_f4244344-5bac-4ed9-8938-4fe43e518458",
+                    "text": "Irregular periods",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "माहवारी का समय पर न होना"
+                },
+                {
+                    "id": "ID_96f20c3e-8223-4628-8b3e-af1b51f79903",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात सूज",
+                    "display-hi": "पेट का फूला रहना"
+                },
+                {
+                    "id": "ID_78564b15-1c43-438b-a96b-1e92243cd950",
+                    "text": "Abnormal vaginal discharge",
+                    "display-mr": "असामान्य योनिमार्गाचा स्त्राव",
+                    "display-hi": "असामान्य योनि से स्राव होना"
+                },
+                {
+                    "id": "ID_26678f05-0fc5-4361-93c6-f006466330a6",
+                    "text": "Painful intercourse",
+                    "display-mr": "वेदनादायक संभोग",
+                    "display-hi": "यौन संबंध के समय दर्द होना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_30b2fd03-4a04-443e-8eec-ac70d4b0103e",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6e972c4e-8c7f-4b85-b0f8-bb3f78fa81dd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d90f7732-0ce3-458a-bb71-37a51a75a8cc",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "उल्टी जैसा लगना"
+                },
+                {
+                    "id": "ID_5c9014f6-d337-44dd-96b5-1713f35f8d5d",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_7204e030-2d40-4b72-bee4-46300cbc3218",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "दस्त"
+                },
+                {
+                    "id": "ID_b0f17eff-6359-46bf-b0f3-be78549545f8",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_3a98f73a-b050-4bbe-a3db-c3adfac80f49",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_48c95a7a-a5f3-4fcf-8555-98c8b03abef5",
+                    "text": "Burning micturition",
+                    "display-mr": "लघवी करताना जळजळणे",
+                    "display-hi": "पेशाब करते समय जलन"
+                },
+                {
+                    "id": "ID_c60390ed-2a48-4e86-8026-5195ff4c9230",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_6a2b3e03-0376-4097-ae1f-f066f77ad52f",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_76735680-0ebf-43ee-b089-e15781295d31",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीमध्ये रक्त",
+                    "display-hi": "पेशाब में खून"
+                },
+                {
+                    "id": "ID_b2e67a9a-769a-4e4e-a605-46f940b9f7e6",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_248717fb-5136-41c8-acbe-4ee91209a960",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a123b694-96a5-4a1e-9bc7-976bc9e43d6d",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_eb51200b-1bba-415e-a190-cfeb34fc6224",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_967aa53a-c65b-4f34-94e5-17a4b15eef1f",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_48bdf5d2-50fb-4c6f-ae8a-383eac222d48",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5ea28d4f-5d9e-4d18-b59e-011257f51ba7",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
