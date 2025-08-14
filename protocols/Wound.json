@@ -1,0 +1,877 @@
+{
+    "id": "ID_70523fc6-7bbc-41e5-a912-b01417820594",
+    "text": "Wound",
+    "engineVersion": "3.0",
+    "display-mr": "जखम",
+    "display-hi": "घाव",
+    "options": [
+        {
+            "id": "ID_072756b5-5241-4e58-917f-ec1b29e002e6",
+            "text": "Since when have you had the wound?",
+            "display-mr": "तुम्हाला कधीपासून जखम झाली आहे?",
+            "display-hi": "आपको यह घाव कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0ccfe084-2a0a-4eea-85f2-492c21c3d7ba",
+                    "text": "Since when have you had the wound?",
+                    "display-mr": "तुम्हाला कधीपासून जखम झाली आहे?",
+                    "display-hi": "आपको यह घाव कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_11c51da8-dc1c-40f4-b65b-f6ed12300da1",
+            "text": "How fast did the wound develop?",
+            "display-mr": "जखम किती वेगाने वाढली?",
+            "display-hi": "घाव कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fbb7ed33-2024-4cc7-a132-d591ec9e12f4",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_ae34588c-508d-4412-9426-f76c1a58737b",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_74f4b2b3-40e9-4f01-b8c7-17f904238161",
+            "text": "How did the wound start?",
+            "display-mr": "जखम कशी सुरू झाली?",
+            "display-hi": "घाव की शुरुआत कैसे हुई?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4ee01553-29c5-45f4-bb55-52eaf2870e28",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                },
+                {
+                    "id": "ID_35bd70ec-e972-48c7-bd7d-6010dad11567",
+                    "text": "Bite",
+                    "display-mr": "चावा",
+                    "display-hi": "काटना"
+                },
+                {
+                    "id": "ID_20a18eb7-7980-4381-a64d-25cdf32115c7",
+                    "text": "Blister",
+                    "display-mr": "फोड",
+                    "display-hi": "फफोला"
+                },
+                {
+                    "id": "ID_ee88e00f-0ca4-4926-8642-c2db8c000c45",
+                    "text": "Bruise",
+                    "display-mr": "ओरखडा",
+                    "display-hi": "नील पड़ना"
+                },
+                {
+                    "id": "ID_982e6d76-0e00-4797-9399-337993b429a2",
+                    "text": "Bump",
+                    "display-mr": "दणका",
+                    "display-hi": "गांठ"
+                },
+                {
+                    "id": "ID_3c25121d-8845-4043-a4f8-b15f5f048cd5",
+                    "text": "Chemical burn",
+                    "display-mr": "रसायनाने भाजणे",
+                    "display-hi": "रसायन से जला"
+                },
+                {
+                    "id": "ID_e0f826e0-7808-4aa2-8a5e-ae1a537464bc",
+                    "text": "Electricity",
+                    "display-mr": "वीज",
+                    "display-hi": "बिजली से जला"
+                },
+                {
+                    "id": "ID_2d401fb2-8676-418b-8734-6bac3a3808f3",
+                    "text": "Footwear",
+                    "display-mr": "पादत्राणे",
+                    "display-hi": "जूते"
+                },
+                {
+                    "id": "ID_a53f0572-c326-41ad-a79b-612f87e4286c",
+                    "text": "Hot liquids (scalds)",
+                    "display-mr": "गरम द्रव (स्कॅल्ड्स)",
+                    "display-hi": "गर्म तरल पदार्थ (झुलसना)"
+                },
+                {
+                    "id": "ID_91bf6469-4078-44ed-8665-d500b85c9bf3",
+                    "text": "Pressure",
+                    "display-mr": "दाब",
+                    "display-hi": "दबाव"
+                },
+                {
+                    "id": "ID_054943a4-9d68-4dd7-899e-d1026c375246",
+                    "text": "Surgical procedure",
+                    "display-mr": "शस्त्रक्रियेची प्रक्रिया",
+                    "display-hi": "सर्जिकल प्रक्रिया"
+                },
+                {
+                    "id": "ID_c7b167fa-b331-4e17-baac-aa3542ab4d71",
+                    "text": "Thermal burn",
+                    "display-mr": "उष्णतेने भाजणे",
+                    "display-hi": "गर्मी से जला"
+                },
+                {
+                    "id": "ID_7f0006cc-e87f-4f14-b658-5423a9d8f7a2",
+                    "text": "Trauma",
+                    "display-mr": "आघात",
+                    "display-hi": "आघात"
+                },
+                {
+                    "id": "ID_19811617-2cd5-43b7-acd6-bd2c30dfc385",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_0795e258-4529-44c2-b686-7d6cfdad8e46",
+            "text": "Which part of the body do you have the wound?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या अवयवाला जखम झाली आहे?",
+            "display-hi": "आपके शरीर के किस अंग पर घाव है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_c2606f17-11f8-400a-a15b-44fa73c9fca2",
+                    "text": "Scalp",
+                    "display-mr": "टाळू",
+                    "display-hi": "खोपड़ी"
+                },
+                {
+                    "id": "ID_1b96fb9b-4f7e-491c-b9ad-cb05fd49be95",
+                    "text": "Forehead",
+                    "display-mr": "कपाळ",
+                    "display-hi": "माथा"
+                },
+                {
+                    "id": "ID_73e10f63-d66b-4eca-bff3-b77db8b5e56d",
+                    "text": "Face",
+                    "display-mr": "चेहरा",
+                    "display-hi": "चेहरा"
+                },
+                {
+                    "id": "ID_4a09e515-c190-4a2b-8009-e50c3a09684c",
+                    "text": "Eye",
+                    "display-mr": "डोळा",
+                    "display-hi": "आंख"
+                },
+                {
+                    "id": "ID_0e68d689-d4d5-4a8d-9da6-a58cb74ab566",
+                    "text": "Nose",
+                    "display-mr": "नाक",
+                    "display-hi": "नाक"
+                },
+                {
+                    "id": "ID_365ba069-eb45-4af3-a7d6-8d8df80e5acc",
+                    "text": "Ear",
+                    "display-mr": "कान",
+                    "display-hi": "कान"
+                },
+                {
+                    "id": "ID_00a60364-9b72-4eed-b71b-68aa81d001f2",
+                    "text": "Upper lip",
+                    "display-mr": "वरचा ओठ",
+                    "display-hi": "ऊपरी होंठ"
+                },
+                {
+                    "id": "ID_988a2eef-f9bc-4f9a-91e5-37f5992ca4c1",
+                    "text": "Lower lip",
+                    "display-mr": "खालचा ओठ",
+                    "display-hi": "निचला होंठ"
+                },
+                {
+                    "id": "ID_b9752e24-5cba-4081-b84b-2d203ab50b9d",
+                    "text": "Tongue",
+                    "display-mr": "जीभ",
+                    "display-hi": "जीभ"
+                },
+                {
+                    "id": "ID_7fadde40-5c08-4bbf-aa09-14fca8176822",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_6366c25e-94af-4b2c-b8e6-5b1c9860a498",
+                    "text": "Chest",
+                    "display-mr": "छाती",
+                    "display-hi": "छाती"
+                },
+                {
+                    "id": "ID_04364cd0-3bf6-49b8-a1e4-07b3d398f35b",
+                    "text": "Upper arm",
+                    "display-mr": "वरचा हात",
+                    "display-hi": "ऊपरी बांह"
+                },
+                {
+                    "id": "ID_8960bcc6-ae0f-469c-b02b-07850cccd66d",
+                    "text": "Forearm",
+                    "display-mr": "पुढचा हात",
+                    "display-hi": "आगे की भुजा"
+                },
+                {
+                    "id": "ID_31ffd4e9-d3ce-47f7-bd02-8ddbccd5ee47",
+                    "text": "Hand",
+                    "display-mr": "हात",
+                    "display-hi": "हाथ"
+                },
+                {
+                    "id": "ID_d021dcfb-4648-41c5-a183-aecf9906dd92",
+                    "text": "Fingers",
+                    "display-mr": "बोटे",
+                    "display-hi": "उंगलियां"
+                },
+                {
+                    "id": "ID_d8ed3187-d410-48ec-8382-8e84fcd8199b",
+                    "text": "Abdomen",
+                    "display-mr": "ओटीपोट",
+                    "display-hi": "पेट"
+                },
+                {
+                    "id": "ID_66bcaa94-929d-4725-b854-7a4a3b476264",
+                    "text": "Back",
+                    "display-mr": "पाठ",
+                    "display-hi": "पीठ"
+                },
+                {
+                    "id": "ID_cee5efbd-ee3a-4b44-91fa-d228eeccf149",
+                    "text": "Groin",
+                    "display-mr": "मांडीचा सांधा",
+                    "display-hi": "कमर के नीचे"
+                },
+                {
+                    "id": "ID_879c5723-f310-4cb6-9d2f-2f38b2975836",
+                    "text": "External genitalia",
+                    "display-mr": "बाह्य जननेंद्रिय",
+                    "display-hi": "बाहरी जननांग"
+                },
+                {
+                    "id": "ID_79326cb8-4440-4bb2-9fd8-d244b458416e",
+                    "text": "Thigh",
+                    "display-mr": "मांडी",
+                    "display-hi": "जांघ"
+                },
+                {
+                    "id": "ID_16a53037-1dce-4bcb-b0a8-7cbde2cc395e",
+                    "text": "Leg",
+                    "display-mr": "पाय",
+                    "display-hi": "टांग"
+                },
+                {
+                    "id": "ID_6194dc50-7133-49b2-b18b-45486ea0749a",
+                    "text": "Foot",
+                    "display-mr": "पाऊल",
+                    "display-hi": "पैर"
+                },
+                {
+                    "id": "ID_c1f2e77f-5e45-45a1-bf0e-85f44c355b56",
+                    "text": "Toes",
+                    "display-mr": "पायाची बोटे",
+                    "display-hi": "पैर की उंगलियां"
+                },
+                {
+                    "id": "ID_de6d10ba-9380-423d-b2a0-fd002dd49a55",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a64c79a9-4c74-4fa3-8ac7-4af14785217e",
+            "text": "Which side of body do you have the wound?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या बाजूला जखम आहे?",
+            "display-hi": "आपके शरीर के किस तरफ घाव है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_94c0b85b-8aa0-432a-991b-741005923429",
+                    "text": "Left",
+                    "display-mr": "डावीकडे",
+                    "display-hi": "बायां"
+                },
+                {
+                    "id": "ID_edd5ef21-fb98-4505-9435-3a420e9b51d3",
+                    "text": "Right",
+                    "display-mr": "उजवीकडे",
+                    "display-hi": "दायां"
+                },
+                {
+                    "id": "ID_34c1926a-405e-4fff-9d10-f82b4ed3a9cd",
+                    "text": "Central part",
+                    "display-mr": "मध्यभागी",
+                    "display-hi": "केंद्रीय भाग"
+                },
+                {
+                    "id": "ID_067c2140-7300-4dc2-8825-b0c4822edfbb",
+                    "text": "Front side",
+                    "display-mr": "समोरची बाजू",
+                    "display-hi": "सामने का हिस्सा"
+                },
+                {
+                    "id": "ID_c7a6534a-05bd-4a7b-808c-ee5c98fbb488",
+                    "text": "Back side",
+                    "display-mr": "मागची बाजू",
+                    "display-hi": "पीछे का हिस्सा"
+                }
+            ]
+        },
+        {
+            "id": "ID_583abd2c-4be4-47dc-9f4c-06a08925c6da",
+            "text": "How can you describe the wound?",
+            "display-mr": "तुम्ही जखमेचे वर्णन कसे कराल?",
+            "display-hi": "आप घाव का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ac79c6f5-d7f4-4f4d-8c4a-6b8c0b516609",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                },
+                {
+                    "id": "ID_5a34ac6c-849c-4550-aebf-e4c96475caed",
+                    "text": "Superficial wound",
+                    "display-mr": "वरवरची जखम",
+                    "display-hi": "सतही घाव"
+                },
+                {
+                    "id": "ID_7d2fdc1c-60dd-4e17-9896-9fcb02da7b97",
+                    "text": "Deep wound",
+                    "display-mr": "खोल जखम",
+                    "display-hi": "गहरा घाव"
+                },
+                {
+                    "id": "ID_a9fb1d07-6f91-4eb9-a23b-9b86bd6e20dc",
+                    "text": "Penetrating wound",
+                    "display-mr": "खोलवर छिद्र पडलेली जखम",
+                    "display-hi": "भेदने वाला घाव"
+                },
+                {
+                    "id": "ID_a2d23738-0123-4c19-ae1d-40700353068b",
+                    "text": "Abrasion",
+                    "display-mr": "खरचटणे",
+                    "display-hi": "खरोंच"
+                },
+                {
+                    "id": "ID_d7b944f0-54e3-4b3e-8d8d-8cb787d9a6c4",
+                    "text": "Cut wound",
+                    "display-mr": "कापल्यामुळे जखम",
+                    "display-hi": "कटने से बना घाव"
+                },
+                {
+                    "id": "ID_889e57f0-3a9a-4a32-922c-fe546935ae02",
+                    "text": "Avulsive wound",
+                    "display-mr": "तुकडे करणारी जखम",
+                    "display-hi": "उखड़ा हुआ घाव"
+                },
+                {
+                    "id": "ID_a3383202-ace2-47bd-903a-cc2bcd32716a",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर",
+                    "display-hi": "अल्सर"
+                },
+                {
+                    "id": "ID_c2a0e4ce-57b0-4f68-b330-073fbed080b2",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c7d02da6-64c0-4b72-867d-5a0a8ca3704a",
+            "text": "Do you have pain associated with the wound?",
+            "display-mr": "तुमच्या जखमेशी संबंधित वेदना होत आहेत का?",
+            "display-hi": "क्या आपको घाव के साथ दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6a6dd6ca-f6f9-439b-8bb5-92de850a63d8",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_26e1b2ca-d7ac-4452-a375-a01a27698772",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_83a5f19d-7591-40c6-b223-e9895794e250",
+                            "text": "How can you describe the character of pain in the wound?",
+                            "display-mr": "तुम्ही जखमेच्या वेदनेच्या स्वरूपाचे कसे वर्णन कराल?",
+                            "display-hi": "आप घाव में दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_485827ab-fa9e-42aa-b8ac-289616c9b09a",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळणारी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_e82bd9c5-330f-4f36-bb1c-e8b090446536",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_a30402e4-44b9-4083-b86c-f98d4a9b62d2",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                                    "display-hi": "चीरे जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_6e3e60e2-56ee-47b6-9612-0e0bde1665d3",
+                                    "text": "Pressure pain",
+                                    "display-mr": "दाबल्यासारखी वेदना",
+                                    "display-hi": "दबाव वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_635d03b4-0e98-4f52-9908-ba01273dc5e4",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "मंद दुखणारी वेदना",
+                                    "display-hi": "मंद दर्द"
+                                },
+                                {
+                                    "id": "ID_da1f4321-7787-4930-b364-37187aa1bac8",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_e2339b05-229a-46fd-bbb9-780080d8030e",
+                                    "text": "Shooting pain",
+                                    "display-mr": "अचानक वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_ffbf1859-8896-46b4-98d5-ae6adb863c97",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_8513a906-929d-447c-99fd-a01b1544a0b2",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_10cdab7d-3694-4a9d-bd88-0621af939d92",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_f93a3cd9-e4cc-4588-965e-a5e4c4e54ee0",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_ee71b8cb-11bb-48fb-9938-51c3da0fc303",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_e3652c00-e29e-479d-885a-d53f769b66c7",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "खूप तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_8e365bb7-dece-4c1d-bd17-d45b911f355c",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_ad8c95a1-ebb0-4e1e-8186-ad0661514122",
+            "text": "Do you have any of the local associated features with the wound?",
+            "display-mr": "तुम्हाला झालेल्या जखमेशी संबंधित काही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको घाव से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a5cca56f-b9f1-4a72-bda2-115a14935093",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d84324b1-83ee-436e-8684-dd381ad164f3",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_73652458-927c-4898-876e-d454eb7402cc",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श करताना वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_2d742ae6-a6fd-4d34-b701-b3779a62b06a",
+                    "text": "Warmth",
+                    "display-mr": "अंग गरम होणे",
+                    "display-hi": "गर्मी"
+                },
+                {
+                    "id": "ID_744db21d-08b5-4cb5-8aa9-9d2499280f8e",
+                    "text": "Skin discoloration",
+                    "display-mr": "त्वचेचा रंग बदलणे",
+                    "display-hi": "त्वचा का रंग बदलना"
+                },
+                {
+                    "id": "ID_c14271c5-28fe-422a-95be-f62d0a4e0bf0",
+                    "text": "Loss of sensation",
+                    "display-mr": "संवेदना कमी होणे",
+                    "display-hi": "संवेदना महसूस न करना"
+                },
+                {
+                    "id": "ID_d95e4ea5-9dc6-401f-b843-a0ec4d3a9618",
+                    "text": "Foul smell",
+                    "display-mr": "दुर्गंधी",
+                    "display-hi": "बदबू"
+                },
+                {
+                    "id": "ID_c19d6e10-9b7c-438f-9567-66b657f0a5f8",
+                    "text": "Itching",
+                    "display-mr": "खाजणे",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_13506e48-da91-479d-8097-39be0a6087d7",
+                    "text": "Deformity",
+                    "display-mr": "विद्रुपपणा",
+                    "display-hi": "विकृति"
+                },
+                {
+                    "id": "ID_d4b06714-6171-44a2-99eb-2ffb7a5de82e",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्राव",
+                    "display-hi": "खून बहना"
+                }
+            ]
+        },
+        {
+            "id": "ID_386361c5-ccb3-41cb-9101-7099ff417ce3",
+            "text": "Did you notice any discharge from the wound?",
+            "display-mr": "तुम्हाला जखमेतून काही स्राव होत असल्याचे दिसले का?",
+            "display-hi": "क्या आपने घाव से कोई तरल निकलते देखा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_008b6e70-cc97-4b70-ad08-7a9412b8ca51",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1fd930de-5654-44f4-92c0-9009b263e505",
+                    "text": "Clear",
+                    "display-mr": "नितळ",
+                    "display-hi": "साफ"
+                },
+                {
+                    "id": "ID_04944689-37b3-4148-a529-c1e83f0e7fdb",
+                    "text": "Ligh yellow",
+                    "display-mr": "हलका पिवळा",
+                    "display-hi": "हल्का पीला"
+                },
+                {
+                    "id": "ID_e2fac34c-bc6f-4048-a6f2-2beb2d50ae62",
+                    "text": "Bloody",
+                    "display-mr": "रक्त असलेला",
+                    "display-hi": "खूनी"
+                },
+                {
+                    "id": "ID_16e61c66-8164-4995-b946-2400cdadd640",
+                    "text": "Mix of blood and clear fluid",
+                    "display-mr": "रक्त आणि नितळ द्रव यांचे मिश्रण",
+                    "display-hi": "खून और साफ तरल का मिश्रण"
+                },
+                {
+                    "id": "ID_14702367-be1b-4626-9289-88af452a22ac",
+                    "text": "Pus",
+                    "display-mr": "पू",
+                    "display-hi": "मवाद"
+                }
+            ]
+        },
+        {
+            "id": "ID_2d909df9-2994-410d-bd01-67323ce3db6e",
+            "text": "How is the wound progressing?",
+            "display-mr": "जखमेमध्ये काही बदल?",
+            "display-hi": "घाव में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_370eb849-00a2-46b9-a30e-e4d070d01cf6",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_8ef89752-7a86-4996-a42b-45b000afc8cd",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_15d5157a-dbf5-46c4-b69f-5db1d5ddfd64",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_ab4e340e-bdc1-4dfa-b671-a6d2b8d3a668",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_c33182d3-7e23-4392-9724-a6e8c68e7829",
+            "text": "Has the wound ever healed and re-opened?",
+            "display-mr": "जखम कधी बरी होऊन पुन्हा उघडली आहे का?",
+            "display-hi": "क्या घाव कभी ठीक हुआ है और दोबारा खुला है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_cb9defd7-43b1-4032-83b5-bd4945f4f098",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0d63f22a-68c2-4fc3-abf1-42dbb4803087",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_fdedf4ba-49d7-426a-a68b-e19797d659cc",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_e0b54785-464e-40d5-8ff8-fb23abe4de87",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार बार पेशाब आना"
+                },
+                {
+                    "id": "ID_b42beaad-eb5f-48ef-aa78-f0ad4e364ba9",
+                    "text": "Excessive thirst",
+                    "display-mr": "जास्त तहान लागणे",
+                    "display-hi": "अधिक प्यास"
+                },
+                {
+                    "id": "ID_c132f712-046d-4ff7-a31f-5fc9f0adf876",
+                    "text": "Slow healing wound",
+                    "display-mr": "हळूहळू बरी होणारी जखम",
+                    "display-hi": "घाव का धीमी गति से ठीक होना"
+                },
+                {
+                    "id": "ID_ca60d4ca-6714-4dd7-8b3a-9becdf2e0c0a",
+                    "text": "Calf pain",
+                    "display-mr": "पिंडरीची वेदना",
+                    "display-hi": "पिंडली का दर्द"
+                },
+                {
+                    "id": "ID_f7b645ef-39f8-412d-8738-2eac0c014294",
+                    "text": "Varicose veins",
+                    "display-mr": "व्हेरिकोज व्हेन्स",
+                    "display-hi": "वेरीकोस नस"
+                },
+                {
+                    "id": "ID_a4b251c5-0c17-401f-b3ea-365b2e70939a",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेला खाज येणे",
+                    "display-hi": "त्वचा की खुजली"
+                },
+                {
+                    "id": "ID_46edcb79-87ff-477c-9866-0f9d5d9069f4",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_dab3fe0b-24e1-434c-bad2-e2b0d5c87eed",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6ddc07df-2c06-4da0-b4e8-487525968bfd",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e55ce592-9a9b-49f8-9f72-bbc00c4ae748",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_7c5ccdb0-443f-44ba-a303-b441317eace3",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "ठंड और कंपकंपी"
+                },
+                {
+                    "id": "ID_f9a0aa9a-02a5-41a7-bd5e-b272d4143a39",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_02da94b4-c068-43c9-aea5-e0e9bdaacbd3",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख कम लगना"
+                },
+                {
+                    "id": "ID_15979968-3218-439d-a2f8-b6f5c0a1bbe8",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेताना त्रास",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_7529657a-91ae-4f79-8fc2-a14c574469a1",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटना"
+                },
+                {
+                    "id": "ID_ddc9b43e-d7c8-4848-b73f-a419d19e28b5",
+                    "text": "Decreased urine",
+                    "display-mr": "लघवी कमी होणे",
+                    "display-hi": "पेशाब कम आना"
+                },
+                {
+                    "id": "ID_427a7c5e-d6ba-4664-b344-1a74b5ba3316",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_0c032832-bd73-4f43-af1d-e13698bef3e9",
+                    "text": "Oral ulcers",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह में छाले"
+                },
+                {
+                    "id": "ID_ffae2f56-77c5-4898-9108-b57c04f43057",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e600495a-07c0-4117-8437-20dac7476fb9",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_53eddb00-9624-4761-b88b-9f1e2e1fa2ce",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_7ed1192f-a109-4395-8a7a-ca63e8f04976",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_856fa70b-72d8-4007-9013-23b9e35b26e0",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ca4b4463-d4c6-40f6-a7f8-5fa13add8e48",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5dd24b3e-d95f-4081-a87b-ec1e6a91b883",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

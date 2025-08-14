@@ -1,0 +1,830 @@
+{
+    "id": "ID_5d28b74f-8bd7-464e-8469-8d9903d4d268",
+    "text": "Wrist pain",
+    "engineVersion": "3.0",
+    "display-mr": "मनगटात वेदना",
+    "display-hi": "कलाई का दर्द",
+    "options": [
+        {
+            "id": "ID_187749d8-80ea-4672-b2d4-a2cf6d054b11",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c72ae3b5-93ef-4cc8-88ca-ba8617040b57",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_5438d456-0f7d-4671-9ddc-3484476b50d4",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9cf61fc7-4409-46df-a536-785ea4ff88f8",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_8682f208-39be-4dda-be9f-d21e375b3e3e",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_1353d4f0-8f79-4e25-9319-e6725aa938b6",
+            "text": "Did the wrist pain develop after any of these events?",
+            "display-mr": "यापैकी कोणत्याही घटनेनंतर मनगटाचे दुखणे विकसित झाले  का?",
+            "display-hi": "क्या इनमें से किसी भी घटना के बाद कलाई में दर्द शुरू हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3ad05626-3a01-4c74-bc28-31e287e3a293",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a159c974-3787-4793-8562-a286c2747319",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_bbc4bfdb-f4bc-4142-a83e-754f1ac43f04",
+                    "text": "Sprain",
+                    "display-mr": "मुरगळणे",
+                    "display-hi": "मोच"
+                }
+            ]
+        },
+        {
+            "id": "ID_44479501-8e02-44b2-848a-70b125026978",
+            "text": "Which side of wrist do you have the pain?",
+            "display-mr": "मनगटाची कोणती बाजू दुखत आहे ?",
+            "display-hi": "आपकी किस कलाई में दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_99f2f4d4-604f-4a8b-b263-f99f54b9f6e1",
+                    "text": "Left wrist",
+                    "display-mr": "डावा मनगट",
+                    "display-hi": "बाईं कलाई"
+                },
+                {
+                    "id": "ID_8d78b985-91c4-40da-aeb5-137b841d7742",
+                    "text": "Right wrist",
+                    "display-mr": "उजवीकडे मनगट",
+                    "display-hi": "दाईं कलाई"
+                },
+                {
+                    "id": "ID_05e8ea5f-0922-4744-84c6-4dd0c82dfbf6",
+                    "text": "Both wrists",
+                    "display-mr": "दोन्ही मनगट",
+                    "display-hi": "दोनों कलाइयां"
+                }
+            ]
+        },
+        {
+            "id": "ID_4435f14a-d02d-4560-ab30-4d1a68a13cfc",
+            "text": "Which part of the wrist do you have the pain?",
+            "display-mr": "मनगटाचा कोणता भाग  दुखत आहे ?",
+            "display-hi": "आपको कलाई के किस हिस्से में दर्द है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_36f8b865-b83e-4dc2-86b2-610365fe6907",
+                    "text": "Front",
+                    "display-mr": "पुढील",
+                    "display-hi": "सामने"
+                },
+                {
+                    "id": "ID_b9d08c62-68b5-42c0-a215-3ada1d2dc4c3",
+                    "text": "Back",
+                    "display-mr": "पाठ",
+                    "display-hi": "पीछे"
+                },
+                {
+                    "id": "ID_4d922b90-1c0d-44c8-bc55-86dc1d80959b",
+                    "text": "Outer side",
+                    "display-mr": "बाहेरील बाजू",
+                    "display-hi": "बाहरी तरफ"
+                },
+                {
+                    "id": "ID_5020c000-b855-4039-a680-25e49cf5c78f",
+                    "text": "Inner side",
+                    "display-mr": "आतील बाजू",
+                    "display-hi": "भीतरी तरफ"
+                },
+                {
+                    "id": "ID_caaa7538-0a54-4630-a980-db31725b0205",
+                    "text": "Inside the joint",
+                    "display-mr": "सांध्यामध्ये",
+                    "display-hi": "जोड़ के अंदर"
+                },
+                {
+                    "id": "ID_81182eb2-08a0-4e63-80c9-2f68534c1cb4",
+                    "text": "Entire wrist joint",
+                    "display-mr": "संपूर्ण मनगटाचा सांधा",
+                    "display-hi": "पूरी कलाई का जोड़"
+                }
+            ]
+        },
+        {
+            "id": "ID_e7b71f44-b123-4603-8e62-4f12a5366eae",
+            "text": "How can you describe the character of wrist pain?",
+            "display-mr": "दुखण्याचं वर्णन कसं करता येईल?",
+            "display-hi": "आप कलाई के दर्द के प्रकार के बारे में कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_37ea668c-3e67-4e33-bef0-5144f806d5a4",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_42fa2085-1fbf-47f5-b3b1-62361c92e2b6",
+                    "text": "Sharp pain",
+                    "display-mr": "तीव्र वेदना",
+                    "display-hi": "चुभने जैसा दर्द"
+                },
+                {
+                    "id": "ID_1637fb73-dba3-43b5-812a-496baeac6684",
+                    "text": "Stabbing pain",
+                    "display-mr": "घाव घातल्यासारखे दुखणे",
+                    "display-hi": "तीव्र चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_8ebf9263-33aa-4f33-b463-59521a931f77",
+                    "text": "Pressure pain",
+                    "display-mr": "दबाव वेदना",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_3260d1b2-574a-4430-a54c-0539598ff56e",
+                    "text": "Dull aching pain",
+                    "display-mr": "मंद सतत होणारी वेदना",
+                    "display-hi": "धीमा-धीमा दर्द"
+                },
+                {
+                    "id": "ID_ab36eb9f-7fbc-455f-8ff1-72424715bf19",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधडणारी वेदना",
+                    "display-hi": "धड़कता हुआ दर्द"
+                },
+                {
+                    "id": "ID_ba58f4be-ed54-4fe6-9324-66d33511b780",
+                    "text": "Shooting pain",
+                    "display-mr": "अचानक वाढणारी वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_2f53fb24-5003-42eb-be60-09554792b250",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_416337ec-1710-4cfc-b72b-206ae44335c6",
+            "text": "How severe is the wrist pain?",
+            "display-mr": "मनगटातील वेदना किती तीव्र आहेत?",
+            "display-hi": "कलाई का दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_98579f6e-164a-43e1-b308-68c98089b049",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_5a334286-7705-4a38-9606-8652db2e26b9",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_9d07c9b7-f5fe-4c78-9ed1-6e0e49cae535",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "चुभने जैसा दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_6d6bbd97-3bb1-4c50-84cf-62e9de82ae20",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "अति तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत चुभने जैसा दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_bfec3d7a-93d5-45a5-8026-6e01c58f88f9",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_6c241fc0-0daf-4753-85b4-8cfb8b539cfc",
+            "text": "What does relieve or lessen the wrist pain?",
+            "display-mr": "कशाने वेदनेला आराम मिळतो किंवा कमी होतात?",
+            "display-hi": "किसी चीज से कलाई के दर्द में राहत मिलती है या यह कम होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_36342cd7-34ae-474f-ac56-790c16bf0567",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_51466ea2-617f-405a-9a5d-43fbaddba020",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_1c6a8e36-f8d0-47f7-88ef-9af6827f84d6",
+                    "text": "Ice packs",
+                    "display-mr": "आईस पॅक्स (थंड शेक)",
+                    "display-hi": "आइस पैक"
+                },
+                {
+                    "id": "ID_42087d2c-bdf8-491f-a198-38237673e590",
+                    "text": "Heating packs",
+                    "display-mr": "हीटिंग पॅक (गरम शेक)",
+                    "display-hi": "गर्म पैक"
+                },
+                {
+                    "id": "ID_3976a775-aebf-44eb-b396-6f527b872506",
+                    "text": "Elevation of part",
+                    "display-mr": "सदर भाग उंचावल्यास",
+                    "display-hi": "हिस्से को ऊपर उठाना"
+                },
+                {
+                    "id": "ID_7606a0e3-2686-4e7f-b2d9-71c117061c90",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषध (वर्णन)",
+                    "display-hi": "दवा (विवरण दें)",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_1a632ee1-83fa-478d-a947-e65a6b91e623",
+                    "text": "Other (describe)",
+                    "display-mr": "इतर (वर्णन)",
+                    "display-hi": "अन्य (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a29f7c84-3e8b-4e46-b376-a37f4030cc3f",
+            "text": "What does increase or worsen the wrist pain?",
+            "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
+            "display-hi": "कलाई का दर्द किस कारण बढ़ता या बिगड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_518dbed8-6995-489d-9837-5168b72adfd3",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6754a622-da89-4522-9baf-85e810e4037b",
+                    "text": "Gripping objects",
+                    "display-mr": "वस्तू पकडणे",
+                    "display-hi": "वस्तुओं को पकड़ना"
+                },
+                {
+                    "id": "ID_b9c80f5b-785f-4a77-968a-5b7a305bd0ec",
+                    "text": "Flexion of wrist",
+                    "display-mr": "मनगटाची लवचिकता",
+                    "display-hi": "कलाई को मोड़ना"
+                },
+                {
+                    "id": "ID_840cefe6-3446-472d-a21b-fc378502ff7b",
+                    "text": "Extension of wrist",
+                    "display-mr": "मनगटाचा विस्तार",
+                    "display-hi": "कलाई को सीधा करना"
+                },
+                {
+                    "id": "ID_3c67ebc2-dd78-4351-8217-d820210a9274",
+                    "text": "Writing",
+                    "display-mr": "लेखन",
+                    "display-hi": "लिखना"
+                },
+                {
+                    "id": "ID_9ca87307-f5fc-4845-a71f-f2a8f8e53df8",
+                    "text": "Typing",
+                    "display-mr": "टायपिंग",
+                    "display-hi": "टाइप करना"
+                },
+                {
+                    "id": "ID_73aaba47-ef4e-41e7-a950-27e0174cd7dc",
+                    "text": "Other (describe)",
+                    "display-mr": "इतर (वर्णन)",
+                    "display-hi": "अन्य (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_398b36dd-adf5-4cc6-b42d-e400f8b118ce",
+            "text": "How wrist pain progressed over the duration of time?",
+            "display-mr": "कालांतराने मनगटाचे दुखण्यामध्ये  काही बदल झाला का?",
+            "display-hi": "समय के साथ कलाई के दर्द में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_39abdfeb-0e43-471c-b283-40d077f82f86",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_40c58cd3-abf3-4e5a-8a94-561288756fff",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रहा है"
+                },
+                {
+                    "id": "ID_d055f492-7009-4468-9da6-4ce4e6ed3531",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार हो रहा है"
+                },
+                {
+                    "id": "ID_dfc4b50b-903c-4da3-8d33-100f618fe431",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_ee356fa9-7e7d-43e8-b3e6-1a7c17009b58",
+            "text": "Does the wrist pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या  दरम्यान मनगटदुखीचे काही चक्र आहे का?",
+            "display-hi": "क्या कलाई का दर्द 24 घंटे के चक्र में किसी खास समय पर बढ़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ac6ff822-b2f3-4dc9-9c54-5a489d436313",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_ac777dfe-3280-43d3-bebc-8e2f0224d191",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुककर दर्द (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_130ce20b-7606-49d7-86c8-6653ea0ef2b6",
+                            "text": "How does the wrist pain change during the 24 hour period?",
+                            "display-mr": "24 तासांच्या कालावधीत मनगटाचे दुखणे कसे बदलते?",
+                            "display-hi": "कलाई का दर्द 24 घंटों के दौरान कैसे बदलता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_d6c08d10-8053-40a2-b6d2-7bd9efe46034",
+                                    "text": "Worse in morning",
+                                    "display-mr": "पहाटेची स्थिती आणखीनच बिकट",
+                                    "display-hi": "सुबह में ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_398657a2-b07e-4f9e-b0a9-6039aa7053ee",
+                                    "text": "Worse in night",
+                                    "display-mr": "रात्रीच्या वेळी तर आणखीनच त्रास होतो",
+                                    "display-hi": "रात में ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_b2fc15a0-a433-4f8d-b5f8-21fab5b00910",
+                                    "text": "Worse when first moving",
+                                    "display-mr": "प्रथम हालचाल करताना वाईट",
+                                    "display-hi": "पहली बार हिलाने पर ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_06100f48-e3ef-46e6-8dbb-743f0267dff3",
+                                    "text": "Better on moving",
+                                    "display-mr": "हालचाल करणे चांगले",
+                                    "display-hi": "हिलाने पर बेहतर"
+                                },
+                                {
+                                    "id": "ID_43dd1d87-4c9e-451f-87e6-3ae099f9e6a0",
+                                    "text": "Worsens during day",
+                                    "display-mr": "दिवसा बिघडते",
+                                    "display-hi": "दिन में बढ़ता दर्द"
+                                },
+                                {
+                                    "id": "ID_4c580b9e-5b6d-4758-b2a5-2bede3f869c1",
+                                    "text": "Worsens on prolonged use",
+                                    "display-mr": "दीर्घकाळापर्यंत वापरल्यास बिघडते",
+                                    "display-hi": "लंबे समय तक इस्तेमाल पर बढ़ता दर्द"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f6961c41-c492-444e-9dc2-a6eda9e87e0c",
+            "text": "Does the wrist pain move to other parts of the body?",
+            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?",
+            "display-hi": "क्या कलाई का दर्द शरीर के अन्य भागों में जाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1ebf4393-12c5-428a-a2f6-853828aebd3b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0945af7b-fc62-4d53-9a27-076a8b58af27",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_29eb8afc-06d7-4804-97e6-cd9704cf4807",
+                            "text": "The wrist pain moves to",
+                            "display-mr": "मनगटाच्या वेदना हलते",
+                            "display-hi": "कलाई का दर्द कहां जाता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_0488e776-86e6-43a3-a05d-56bf7439dfef",
+                                    "text": "Forearm",
+                                    "display-mr": "मनगटापासून ते कोपर",
+                                    "display-hi": "बांह"
+                                },
+                                {
+                                    "id": "ID_45605eab-4c97-4be2-8bf8-a16081e46921",
+                                    "text": "Elbow",
+                                    "display-mr": "एल्बो",
+                                    "display-hi": "कोहनी"
+                                },
+                                {
+                                    "id": "ID_8c3b6050-f41f-4bd9-9a6c-948f35f42f73",
+                                    "text": "Fingers",
+                                    "display-mr": "बोटे",
+                                    "display-hi": "उंगलियां"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_1f963cf5-b73d-41ca-a630-398486e34e9a",
+            "text": "Do you have any of these local associated features with the wrist pain?",
+            "display-mr": "तुमच्याकडे मनगटाच्या दुखण्याशी संबंधित स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपके पास इनमें से कोई और जुड़े हुए लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e02b8c0b-f412-4a28-a7d4-c7920c0f1e17",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a45fde76-cabc-4fcb-9a45-a0b2ca043b2a",
+                    "text": "Swelling",
+                    "display-mr": "सूज येणे",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_e73f1786-ff50-440e-af9d-20f489e60f69",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_83aa8779-f665-40d8-b16c-73d7f653792f",
+                    "text": "Warmth",
+                    "display-mr": "उष्णता",
+                    "display-hi": "गर्मी"
+                },
+                {
+                    "id": "ID_24e9d694-57d3-42e4-bc3f-e78810774dd1",
+                    "text": "Instability",
+                    "display-mr": "अस्थिरता",
+                    "display-hi": "अस्थिरता"
+                },
+                {
+                    "id": "ID_faa81fed-38ba-49b8-9700-42fe706cde3a",
+                    "text": "Stiffness",
+                    "display-mr": "कडकपणा",
+                    "display-hi": "कड़ापन"
+                },
+                {
+                    "id": "ID_618e39f2-4956-40c3-8bbd-e14d13943b7c",
+                    "text": "Locking",
+                    "display-mr": "लॉकिंग (स्तंभन)",
+                    "display-hi": "जाम होना"
+                },
+                {
+                    "id": "ID_0f663ec6-2569-411b-a0ab-f229d02529c3",
+                    "text": "Catching",
+                    "display-mr": "पकडणे",
+                    "display-hi": "फँसना"
+                },
+                {
+                    "id": "ID_374dfcf7-4230-4c69-87ac-2bcf6f5384d7",
+                    "text": "Deformity",
+                    "display-mr": "विकृती",
+                    "display-hi": "विकृति"
+                }
+            ]
+        },
+        {
+            "id": "ID_e7d70682-9742-43c4-afe4-77267dd8f401",
+            "text": "Does the Wrist pain affect any of your daily activities?",
+            "display-mr": "मनगटदुखीचा तुमच्या दैनंदिन कामांवर परिणाम होतो का?",
+            "display-hi": "क्या कलाई का दर्द आपकी रोजमर्रा की गतिविधियों को प्रभावित करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cf007b5d-732b-4483-951f-e8a466809fbf",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2881f436-2e9a-4a68-88c0-e8404ca13296",
+                    "text": "Holding objects",
+                    "display-mr": "वस्तू धरून ठेवणे",
+                    "display-hi": "वस्तुएं पकड़ना"
+                },
+                {
+                    "id": "ID_31ab950c-ac15-4dd3-b797-69ffc83ab954",
+                    "text": "Writing",
+                    "display-mr": "लेखन",
+                    "display-hi": "लिखना"
+                },
+                {
+                    "id": "ID_f52c4e2d-0331-4948-ae51-6044abb7af05",
+                    "text": "Typing",
+                    "display-mr": "टायपिंग",
+                    "display-hi": "टाइप करना"
+                },
+                {
+                    "id": "ID_37e28607-cbc0-4c43-b448-35da6e72a479",
+                    "text": "Bending wrist",
+                    "display-mr": "मनगट वाकवणे",
+                    "display-hi": "कलाई को मोड़ना"
+                },
+                {
+                    "id": "ID_2a668544-9a6d-45d8-a209-c8b1f4cf268c",
+                    "text": "Extending wrist",
+                    "display-mr": "मनगट विस्तारणे",
+                    "display-hi": "कलाई को सीधा करना"
+                }
+            ]
+        },
+        {
+            "id": "ID_e9eae759-6f4a-4bdb-90f6-90a6b86e1206",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_086f0d40-57c8-4cb8-a2fc-b37a1ac9d784",
+                    "text": "Swelling of wrist joints",
+                    "display-mr": "मनगटाच्या सांध्यातील सूज",
+                    "display-hi": "कलाई के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_f78214a6-349f-446e-8b91-ff9ff19d1dbd",
+                    "text": "Swelling of finger joints",
+                    "display-mr": "बोटांच्या सांध्याची सूज",
+                    "display-hi": "उंगलियों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_a8bb8fcf-fdc1-45de-98c8-b239fb786b55",
+                    "text": "Hip pain",
+                    "display-mr": "नितंब वेदना",
+                    "display-hi": "पेट के किनारे में दर्द"
+                },
+                {
+                    "id": "ID_ea2fb6d1-8f72-486e-b5c8-2a2a5ca0c5e3",
+                    "text": "Knee pain",
+                    "display-mr": "गुडघेदुखी",
+                    "display-hi": "घुटने का दर्द"
+                },
+                {
+                    "id": "ID_7988fb55-73ee-4504-b668-258d7f452256",
+                    "text": "Swelling of knee joints",
+                    "display-mr": "गुडघ्याच्या सांध्यातील सूज",
+                    "display-hi": "घुटनों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_322f8178-1aec-4e29-a6b6-8ec74609b37a",
+                    "text": "Ankle pain",
+                    "display-mr": "घोट्याचे दुखणे",
+                    "display-hi": "टखने का दर्द"
+                },
+                {
+                    "id": "ID_d63687a7-44af-4b98-8811-28b8040a9b57",
+                    "text": "Swelling of ankle joints",
+                    "display-mr": "घोट्याच्या सांध्यातील सूज",
+                    "display-hi": "टखनों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_2ec7aef6-6665-439f-9e57-a2392cdbd5bc",
+                    "text": "Swelling of toe joints",
+                    "display-mr": "पायाच्या सांध्यातील सूज",
+                    "display-hi": "पैर की उंगलियों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_58f48fe6-56fe-4498-b41b-6f03a60e0e59",
+                    "text": "Numbness of hand",
+                    "display-mr": "हात सुन्न होणे",
+                    "display-hi": "हाथ में सुन्नता"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_82e4781f-e58b-4aae-a17a-1fae62e0f025",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_8e435fb3-d1ef-4796-9754-54c0d0c6d385",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d02141cf-b4f7-4ee7-ace4-acaa5bee4140",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_b653e90e-7d2f-4518-9ee6-bd7e8b266ed0",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_05b48a93-668c-4501-8ae9-de8a75bd72ef",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में तकलीफ"
+                },
+                {
+                    "id": "ID_a4b914b4-f089-495c-b840-a98c5b40ea99",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_24f10418-e290-40e7-9909-fcc76684c77f",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_9e3f7e4f-c6e7-4c8b-812b-53e4b6e32993",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_a35ff251-6660-4a47-9ca9-e3d55a48a2cb",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_079b6a50-5480-4173-a071-d1356aa3a9c5",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "दिल की धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_f90a718f-a926-43ce-8cd3-3d2ee2d5666b",
+                    "text": "Eye redness",
+                    "display-mr": "डोळ्याचा लालसरपणा",
+                    "display-hi": "आंखों में लाली"
+                },
+                {
+                    "id": "ID_35050433-798e-46da-ad4e-420dc768b18f",
+                    "text": "Photosensitivity",
+                    "display-mr": "प्रकाशसंवेदनशीलता",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_0f432a63-d252-46df-a63a-a893a000fbd7",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_b284b904-2d96-42e1-aca6-3da098a0a396",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_907c49cb-e7df-4c8d-a8e4-d613e608c5ac",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c0a95ede-24a1-4c14-a4f4-de8b33b57c8c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b6f5005a-31b1-4bb8-b96a-495f8b5e2836",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_ef55c4b9-613b-4180-b535-6ebbf3582760",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d953fd98-975e-4ffa-a4ea-b2804b677d8b",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_60df7759-836d-495a-88dd-a1286309b2d8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

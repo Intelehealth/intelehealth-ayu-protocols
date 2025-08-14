@@ -1,0 +1,921 @@
+{
+    "id": "ID_a719a7c6-1f43-4780-96e5-7723de6a5f8f",
+    "text": "Skin rash",
+    "engineVersion": "3.0",
+    "display-mr": "त्वचेवर पुरळ",
+    "display-hi": "त्वचा पर चकते",
+    "options": [
+        {
+            "id": "ID_fc587e46-f313-452b-91b0-08e76bdb2541",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a4dee5fb-3ce3-4591-bc6d-4abd09947b92",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_331b0683-b35a-43ee-9233-9ba10da1bd2e",
+            "text": "How would you describe the skin rash/lesion?",
+            "display-mr": "त्वचेवरील पुरळ/जखमांचे वर्णन कसे करावे?",
+            "display-hi": "आप त्वचा के दानों/घाव को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_94e25fad-7ca9-452a-9585-621a8a8dd38d",
+                    "text": "Flat",
+                    "display-mr": "सपाट",
+                    "display-hi": "समतल"
+                },
+                {
+                    "id": "ID_8ffef71f-1d34-4eb9-9af7-ce318eb1d13e",
+                    "text": "Raised",
+                    "display-mr": "उंचवटायुक्त",
+                    "display-hi": "उभरा हुआ"
+                },
+                {
+                    "id": "ID_875a9a7a-db96-43b2-a708-9e33eee33ff8",
+                    "text": "Scaly",
+                    "display-mr": "खवले(युक्त)",
+                    "display-hi": "खुरदरा"
+                },
+                {
+                    "id": "ID_530e53cd-977c-4856-abe9-0cbaa64a25b5",
+                    "text": "Bump (papule)",
+                    "display-mr": "बंप (पुटकुळी)",
+                    "display-hi": "गांठ (पैप्यूल)"
+                },
+                {
+                    "id": "ID_cc1ae3a1-3163-4ebc-ab8b-6a90950af993",
+                    "text": "Peeling (shredding)",
+                    "display-mr": "सालपटं निघणे",
+                    "display-hi": "छिलना (त्वचा का निकलना)"
+                },
+                {
+                    "id": "ID_cb552819-daf1-4c01-9cb2-6a7674c4f547",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर (व्रण)",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_74c69e61-a36e-41f6-900c-99632c457e7f",
+                    "text": "Crusted",
+                    "display-mr": "थर-युक्त",
+                    "display-hi": "पपड़ीदार"
+                },
+                {
+                    "id": "ID_c8457396-d866-48a1-b6fb-ba7ce3a9fa7b",
+                    "text": "Discharge (oozing)",
+                    "display-mr": "लसयुक्त",
+                    "display-hi": "बहाव (मवाद निकलना)"
+                },
+                {
+                    "id": "ID_d9387146-9f63-42ac-a981-5d0d92622398",
+                    "text": "Nodule",
+                    "display-mr": "लहान गाठ",
+                    "display-hi": "गांठ"
+                },
+                {
+                    "id": "ID_6b313c63-dffb-44bf-a64a-f51aadd2d7d6",
+                    "text": "Blister (vesicle)",
+                    "display-mr": "फोड (पुटिका)",
+                    "display-hi": "छाला (फफोला)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_20d86157-1031-4047-bff9-d9bc770b7993",
+                            "text": "Colour of fluid inside the blister (vesicle)?",
+                            "display-mr": "फोडाच्या आतल्या द्रवाचा रंग (पुटिका)?",
+                            "display-hi": "छाले (फफोले) के अंदर तरल पदार्थ का रंग?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_1a9dd99d-30ad-4ffa-b5e5-89223d1e0c94",
+                                    "text": "Clear fluid",
+                                    "display-mr": "स्वच्छ द्रव",
+                                    "display-hi": "साफ तरल"
+                                },
+                                {
+                                    "id": "ID_bf4af7c2-5145-419d-8a0e-4304920c55bc",
+                                    "text": "Cloudy fluid",
+                                    "display-mr": "ढगाळ द्रव",
+                                    "display-hi": "धुंधला तरल"
+                                },
+                                {
+                                    "id": "ID_6974b004-c350-48a7-a313-27d6de839a3a",
+                                    "text": "Pustular",
+                                    "display-mr": "पू-युक्त",
+                                    "display-hi": "पीप-युक्त"
+                                },
+                                {
+                                    "id": "ID_e6d15738-f4f7-4e6c-9584-645fa8be2bc2",
+                                    "text": "Bloody",
+                                    "display-mr": "रक्तरंजित",
+                                    "display-hi": "खून जैसा"
+                                },
+                                {
+                                    "id": "ID_cfcbe865-c891-4cdf-ba25-e1643e8392b1",
+                                    "text": "Mixed",
+                                    "display-mr": "मिश्रित",
+                                    "display-hi": "मिश्रित"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d87e85c8-97bf-417e-bd2a-17686caaf3d3",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9b4a6f54-f00a-46cd-b7ac-71fb23cac1d2",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_8d1dc731-d9b0-45ed-9c3a-5f465c236497",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_65440de2-2c1b-4929-8681-0ef761e3ca16",
+            "text": "Number of skin lesions?",
+            "display-mr": "त्वचेच्या जखमांची संख्या?",
+            "display-hi": "त्वचा के घावों की संख्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_f6680301-9829-4995-9861-55275b453afd",
+                    "text": "Single",
+                    "display-mr": "एक",
+                    "display-hi": "एक"
+                },
+                {
+                    "id": "ID_935406b9-6d41-4006-84da-e7d0fc0b1628",
+                    "text": "Multiple ( 2 or more)",
+                    "display-mr": "अनेक (2 किंवा अधिक)",
+                    "display-hi": "कई (2 या अधिक)"
+                }
+            ]
+        },
+        {
+            "id": "ID_66437551-b65a-4efc-b259-ed76c75e085f",
+            "text": "Colour of the skin lesions?",
+            "display-mr": "त्वचेच्या जखमांचा रंग?",
+            "display-hi": "त्वचा के घावों का रंग?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fd6a8df3-95a4-4c2e-b0b6-98635905286d",
+                    "text": "Skin colour",
+                    "display-mr": "त्वचेचा रंग",
+                    "display-hi": "त्वचा का रंग"
+                },
+                {
+                    "id": "ID_b041e66e-aeb7-400c-88cb-7c0c5a1f6e8f",
+                    "text": "Red",
+                    "display-mr": "लाल",
+                    "display-hi": "लाल"
+                },
+                {
+                    "id": "ID_da97c4dc-c0dc-42f4-994c-977c06823513",
+                    "text": "Brown",
+                    "display-mr": "तपकिरी",
+                    "display-hi": "भूरा"
+                },
+                {
+                    "id": "ID_c4656897-eb7a-4a7c-b603-70c991354129",
+                    "text": "Black",
+                    "display-mr": "काळा",
+                    "display-hi": "काला"
+                },
+                {
+                    "id": "ID_d0ad302e-7e66-405b-9d1a-1f4b1e94d948",
+                    "text": "Purple",
+                    "display-mr": "जांभळा",
+                    "display-hi": "बैंगनी"
+                }
+            ]
+        },
+        {
+            "id": "ID_b35bf0d1-9d33-4ed1-ae3a-5875d9dc7409",
+            "text": "Which part of the body do you have skin rash/lesion?",
+            "display-mr": "शरीराच्या कोणत्या भागावर तुम्हाला त्वचेवर पुरळ / जखम आहे?",
+            "display-hi": "आपके शरीर के किस भाग में त्वचा पर दाने/घाव हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4bb6f3ef-9bd2-4c0d-9014-33ad9341c1ee",
+                    "text": "All over",
+                    "display-mr": "सगळी कडे",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_8578c4a0-d543-40a2-8b79-7223a4e4cbee",
+                    "text": "Some parts",
+                    "display-mr": "काही भाग",
+                    "display-hi": "कुछ हिस्सों पर",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_4c2e4000-2c91-465c-bf14-54080122bd87",
+                            "text": "Which parts of body do you have Skin rash/lesion?",
+                            "display-mr": "तुमच्या शरीराचे कोणते भाग त्वचेवर पुरळ/जखम आहेत?",
+                            "display-hi": "आपके शरीर के किन अंगों पर त्वचा पर दाने/घाव हैं?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_a46d0ee0-66fa-424c-83ce-94b97ebaeb41",
+                                    "text": "Scalp",
+                                    "display-mr": "स्कॅल्प",
+                                    "display-hi": "सिर की त्वचा"
+                                },
+                                {
+                                    "id": "ID_3d7788d5-5f71-4fa5-91d0-cf166f8a9b68",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_08d2303b-fab2-4fca-99d8-3d319ad60dd3",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_a4915bb1-57e0-4d00-b089-33682a0e8d39",
+                                    "text": "Underarm",
+                                    "display-mr": "अंडरआर्म",
+                                    "display-hi": "बगल"
+                                },
+                                {
+                                    "id": "ID_4cc6e6a6-dd5f-483b-9e43-de932ab51eab",
+                                    "text": "Arm",
+                                    "display-mr": "हात",
+                                    "display-hi": "बांह"
+                                },
+                                {
+                                    "id": "ID_392c4042-999b-44a6-89f7-805d5d152bba",
+                                    "text": "Palm",
+                                    "display-mr": "तळवा",
+                                    "display-hi": "हथेली"
+                                },
+                                {
+                                    "id": "ID_88ad5da3-74d9-40a7-9bda-9fe916d185ac",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_da82d8ec-b74a-462d-ad74-be5a3688a1f9",
+                                    "text": "Abdomen",
+                                    "display-mr": "ओटीपोटात",
+                                    "display-hi": "पेट"
+                                },
+                                {
+                                    "id": "ID_ae2bd4ae-a89b-4090-91ac-69de81bc4217",
+                                    "text": "Back",
+                                    "display-mr": "पाठ",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_72525615-f5be-4401-bb55-35a0983eca66",
+                                    "text": "Groin",
+                                    "display-mr": "मांडीचा सांधा",
+                                    "display-hi": "कमर का निचला हिस्सा"
+                                },
+                                {
+                                    "id": "ID_cada5065-04b5-4d9c-aee4-c40f1e8100fa",
+                                    "text": "Pubic area",
+                                    "display-mr": "जनांग क्षेत्र",
+                                    "display-hi": "जननांग क्षेत्र"
+                                },
+                                {
+                                    "id": "ID_ade25297-9de8-4a39-a2d9-6fa3931efc54",
+                                    "text": "Nappy area",
+                                    "display-mr": "लंगोट क्षेत्र",
+                                    "display-hi": "नैपी क्षेत्र"
+                                },
+                                {
+                                    "id": "ID_8f38464e-fa0b-43d0-988c-107bd31c7a92",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "टांग"
+                                },
+                                {
+                                    "id": "ID_25164ca4-925e-4eaf-bf96-e2d651e960d3",
+                                    "text": "Sole",
+                                    "display-mr": "तळवा",
+                                    "display-hi": "पैर का तलवा"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_14d85772-87db-4207-b927-82cbfaee7eb6",
+            "text": "Which side of body do you have skin rash/lesion?",
+            "display-mr": "तुमच्या शरीराचे कोणते भाग त्वचेवर पुरळ/जखम आहेत?",
+            "display-hi": "आपके शरीर के किस तरफ त्वचा पर दाने/घाव हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c8f17847-9284-486e-b8bf-8c3b7a7c4233",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दायीं तरफ"
+                },
+                {
+                    "id": "ID_c92d1757-3297-4d26-ad6d-3f0a186883bd",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बायीं तरफ"
+                },
+                {
+                    "id": "ID_d2783837-b43b-41ec-86a5-31ab2ba19d2d",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंना",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_c64cb1f9-b203-494b-86a1-0423b2b96bfc",
+            "text": "Any pattern of spread or distribution of skin rash or lesions?",
+            "display-mr": "त्वचेच्या पुरळ किंवा जखमांच्या प्रसार किंवा वितरणाचा कोणताही नमुना (चे काही चक्र असते का)?",
+            "display-hi": "त्वचा पर दानों या घावों के फैलने या वितरण का कोई पैटर्न?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0b37063c-d870-450d-817b-494ad5328ac8",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2685fea2-0467-44a9-8ec4-2a42dcd291b7",
+                    "text": "Skin creases",
+                    "display-mr": "त्वचेवर सुरकत्या",
+                    "display-hi": "त्वचा की सिलवटें"
+                },
+                {
+                    "id": "ID_2b6561b5-1bf5-43b3-93c0-930811bd2a6b",
+                    "text": "Back side",
+                    "display-mr": "पाठ",
+                    "display-hi": "पीछे की ओर"
+                },
+                {
+                    "id": "ID_5484625f-9338-475e-a837-b43462ca7737",
+                    "text": "Between fingers or toes",
+                    "display-mr": "बोटांच्या किंवा बोटांच्या दरम्यान",
+                    "display-hi": "हाथ की या पैर की उंगलियों के बीच"
+                },
+                {
+                    "id": "ID_c0b123aa-6de0-4ad5-ae8d-39948b74c9c1",
+                    "text": "Trunk towards limbs",
+                    "display-mr": "सोंड अंगांकडे",
+                    "display-hi": "धड़ से अंगों की ओर"
+                },
+                {
+                    "id": "ID_bea1c92a-b74f-4dcd-9556-5b29904e9172",
+                    "text": "Limbs towards trunk",
+                    "display-mr": "सोंडेकडे हातपाय",
+                    "display-hi": "अंगों से धड़ की ओर"
+                },
+                {
+                    "id": "ID_6ff9af35-f465-43e6-83f4-694ab8c915a8",
+                    "text": "Uncovered towards covered parts",
+                    "display-mr": "झाकलेल्या भागांकडे उघडे",
+                    "display-hi": "ढके हुए भागों की ओर खुला"
+                },
+                {
+                    "id": "ID_8758d644-355a-4e06-b927-f23824f9bb63",
+                    "text": "Symmetrical lesions",
+                    "display-mr": "सममितीय जखम",
+                    "display-hi": "सममित (सिमेट्रिकल) घाव"
+                },
+                {
+                    "id": "ID_8b144bab-2043-40dd-8e87-31a4b06dadcf",
+                    "text": "Legs towards arms",
+                    "display-mr": "हातांकडे पाय",
+                    "display-hi": "पैरों से बाहों की ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_c2ed2a66-98c4-48fb-a322-5c85b01b8077",
+            "text": "Is skin rash or lesion painful?",
+            "display-mr": "त्वचेवर पुरळ किंवा जखम वेदनादायक आहे का?",
+            "display-hi": "क्या त्वचा पर दाने या घाव कष्टकारी हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_41571c03-2bf5-4738-acb6-f18c249983d9",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_7318ec56-504d-48ef-89f3-06e09c5f6809",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion":"true",
+                    "options": [
+                        {
+                            "id": "ID_c3f43cd0-4842-454e-ba34-4722c1bfa326",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_19c64eef-9ef4-4dcd-9068-5102bff03757",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                                },
+                                {
+                                    "id": "ID_9a6f19ed-5657-4306-8a59-133d89da71fd",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                                },
+                                {
+                                    "id": "ID_07ca2caf-4976-401d-90f0-4ad18691033c",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "तीव्र दर्द (5 से less than  7)"
+                                },
+                                {
+                                    "id": "ID_b8157a75-2bdf-437c-a92e-17ebe912ba58",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत तीव्र दर्द (7 से less than  9)"
+                                },
+                                {
+                                    "id": "ID_caa055f3-ab0c-4106-8b13-b1bc49403295",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_eff5d14e-e1e7-4b62-9388-8a900324e755",
+            "text": "Shape of skin rash or lesions?",
+            "display-mr": "त्वचेवर पुरळ किंवा जखमांचा आकार?",
+            "display-hi": "त्वचा पर दानों या घावों का आकार?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_18e178b1-887c-4b7e-aab1-d76c9a3232c6",
+                    "text": "Round",
+                    "display-mr": "गोल",
+                    "display-hi": "गोल"
+                },
+                {
+                    "id": "ID_bdb5ce50-2126-4809-8f52-6bdcb0444a1e",
+                    "text": "Oval",
+                    "display-mr": "अंडाकृती",
+                    "display-hi": "अंडाकार"
+                },
+                {
+                    "id": "ID_ad74a7b0-cd1e-4b82-84fc-c94892639bab",
+                    "text": "Irregular",
+                    "display-mr": "अनियमित",
+                    "display-hi": "असमान"
+                },
+                {
+                    "id": "ID_a5daa7d7-70f9-4f0b-86dc-685049e71db6",
+                    "text": "Bumpy",
+                    "display-mr": "खडबडीत",
+                    "display-hi": "उबड़-खाबड़"
+                },
+                {
+                    "id": "ID_2510d4c6-710e-46c0-9a46-833f907ece21",
+                    "text": "Nodular",
+                    "display-mr": "गाठींनी युक्त",
+                    "display-hi": "गांठदार"
+                },
+                {
+                    "id": "ID_b9e208d0-65a9-4301-9af4-6e8472a8b227",
+                    "text": "Peduncular",
+                    "display-mr": "लंबाकार",
+                    "display-hi": "लटकता हुआ"
+                },
+                {
+                    "id": "ID_d174f2fa-b920-45b7-9bfc-ef18afa8fb20",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_3e9d7af1-c309-4be9-af32-d07791e48197",
+            "text": "What does relieve or lessen the skin rash?",
+            "display-mr": "त्वचेवर पुरळ कशाने कमी होते किंवा कमी होते?",
+            "display-hi": "कौन सी चीज त्वचा पर दानों में राहत देती है या इसे कम करती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d954e028-1d8d-4517-aac1-8535b17946ad",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_154c0248-96e6-4a70-91d1-b21ae6a967e7",
+                    "text": "Cold compresses",
+                    "display-mr": "कोल्ड कॉम्प्रेसेस (थंड शेक)",
+                    "display-hi": "ठंडी पट्टियां"
+                },
+                {
+                    "id": "ID_671ad6e0-2ce4-4b1d-9232-95ffdde631ca",
+                    "text": "Topical creams",
+                    "display-mr": "टॉपिकल क्रीम",
+                    "display-hi": "टॉपिकल क्रीम"
+                },
+                {
+                    "id": "ID_751905a1-4a52-4b25-9abf-4ceb79c119e3",
+                    "text": "Moisture",
+                    "display-mr": "ओलावा",
+                    "display-hi": "नमी"
+                }
+            ]
+        },
+        {
+            "id": "ID_0a1bdfb2-b855-49a4-bb6f-984322f3a755",
+            "text": "What does increase or worsen skin rash?",
+            "display-mr": "त्वचेवर पुरळ कशामुळे वाढते किंवा खराब होते?",
+            "display-hi": "त्वचा पर दाने किस कारण बढ़ते या बिगड़ते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a75307a3-8bff-40d9-a9c3-b2c50019fc73",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d3604439-79c7-4eb1-8670-6ec3a76cf3ee",
+                    "text": "Scratching",
+                    "display-mr": "खाजवणे",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_c3f249ce-53a4-41fe-8f88-f616705ea792",
+                    "text": "Pollen",
+                    "display-mr": "परागकण",
+                    "display-hi": "पराग कण"
+                },
+                {
+                    "id": "ID_f2e0c15b-3e0e-4c60-8f84-f809f09c1773",
+                    "text": "Dust",
+                    "display-mr": "धूळ",
+                    "display-hi": "धूल"
+                },
+                {
+                    "id": "ID_ebe52922-002a-4037-aee4-bf13417ae97c",
+                    "text": "Sun exposure",
+                    "display-mr": "सूर्याच्या संपर्कात  (उन्हात गेल्याने)",
+                    "display-hi": "धूप में निकलना"
+                },
+                {
+                    "id": "ID_d85079a3-642d-436c-b608-d77338e5d5f4",
+                    "text": "Detergents",
+                    "display-mr": "कपडे धुण्याची पावडर",
+                    "display-hi": "डिटर्जेंट"
+                },
+                {
+                    "id": "ID_8f160cff-92ad-4f48-9a38-057e92c4f659",
+                    "text": "Hot weather",
+                    "display-mr": "उष्ण हवामान",
+                    "display-hi": "गर्म मौसम"
+                },
+                {
+                    "id": "ID_7c1febdb-c733-4f7e-8ae1-ccb764e58302",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_99efd206-5d1d-48e4-99bb-1b7acf126eb5",
+                    "text": "Certain foods",
+                    "display-mr": "काही खाद्यपदार्थ",
+                    "display-hi": "कुछ विशेष खाद्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_d0b784c7-ece5-4675-9254-6f723d075a5e",
+            "text": "How is the skin rash or lesion progressing?",
+            "display-mr": "त्वचेवर पुरळ किंवा घाव मध्ये काही बदल?",
+            "display-hi": "त्वचा पर दाने या घाव में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5e82b689-a087-463b-a6fd-ad3fd580348e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_e52bc61a-1724-4cf1-9b1d-a6fddc5f6ea5",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_2f9547cc-c45b-49a9-a828-73c9becf86e0",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होने वाला"
+                },
+                {
+                    "id": "ID_541fae0a-d2ce-40c3-a099-4e4c5eaea8d7",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_93c595e8-015c-4c31-8f7b-81945b760f6b",
+            "text": "Is there a specific time the rash occurs or worsens?",
+            "display-mr": "पुरळ येण्याची किंवा खराब होण्याची विशिष्ट वेळ आहे का?",
+            "display-hi": "क्या दाने निकलने या बिगड़ने का कोई विशेष समय है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a568b234-2b5f-497d-bb2f-581d1a34aa68",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_78664fba-cedc-4754-b37d-e75c2b0a1944",
+                    "text": "Morning",
+                    "display-mr": "सकाळ",
+                    "display-hi": "सुबह"
+                },
+                {
+                    "id": "ID_830f6523-8f40-434a-a190-918c66b96c73",
+                    "text": "Evening",
+                    "display-mr": "संध्याकाळ",
+                    "display-hi": "शाम"
+                },
+                {
+                    "id": "ID_c16f3ac7-e9d1-4ddf-829c-9531f88d7518",
+                    "text": "Night",
+                    "display-mr": "रात्र",
+                    "display-hi": "रात"
+                }
+            ]
+        },
+        {
+            "id": "ID_15f8ef66-c3ad-458d-8a48-1889de6f2712",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5bc21e48-3810-4f07-9e8b-29d013eaeedf",
+                    "text": "Skin itching",
+                    "display-mr": "त्वचेवर खाज सुटणे",
+                    "display-hi": "त्वचा की खुजली"
+                },
+                {
+                    "id": "ID_f5e047e8-663a-48b5-ac1d-0bd6b348107b",
+                    "text": "Dryness of skin",
+                    "display-mr": "त्वचेचा कोरडेपणा",
+                    "display-hi": "त्वचा का सूखापन"
+                },
+                {
+                    "id": "ID_f07845bf-6fdb-4e26-82ef-3dd5bb170847",
+                    "text": "Oral ulcers",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह के छाले"
+                },
+                {
+                    "id": "ID_661da8e8-8833-4c61-957f-4cc358283047",
+                    "text": "Itching of eyes",
+                    "display-mr": "डोळ्यांना खाज सुटणे",
+                    "display-hi": "आंखों में खुजली"
+                },
+                {
+                    "id": "ID_bea398b2-f147-45b3-8f12-cd94ffb89b7e",
+                    "text": "Watering from eyes",
+                    "display-mr": "डोळ्यांतून पाणी येणे",
+                    "display-hi": "आंखों से पानी निकलना"
+                },
+                {
+                    "id": "ID_92e02da2-4bdf-4911-8d31-6c2459c2a6e4",
+                    "text": "Excess sneezing",
+                    "display-mr": "जास्त शिंकणे",
+                    "display-hi": "अत्यधिक छींक आना"
+                },
+                {
+                    "id": "ID_a6ce51aa-2ba1-4367-b1c5-9e9495da0624",
+                    "text": "History of contact with pets or animals",
+                    "display-mr": "पाळीव प्राणी किंवा प्राण्यांच्या संपर्काचा इतिहास",
+                    "display-hi": "पालतू जानवर या जानवरों के साथ संपर्क का इतिहास"
+                },
+                {
+                    "id": "ID_d2a2988d-cfa0-482a-b5b5-cccf6e5688dc",
+                    "text": "History of travel",
+                    "display-mr": "प्रवासाचा इतिहास",
+                    "display-hi": "यात्रा का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_7a29e97c-65ed-4b41-ac76-6877ac9a7213",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_02442a27-35c6-40d0-89e6-7eb81431a4d8",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_860568c4-1a47-4acf-93cd-9e157d003c60",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_611a15e2-5f5b-4915-b5fb-f11089a636c2",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों का दर्द"
+                },
+                {
+                    "id": "ID_ba427fe8-c37b-4c07-84f5-f538a103affc",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_9941ae89-39aa-4f11-91ad-46f1ec6b6706",
+                    "text": "Difficulty in breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_aa7833c2-0028-4bb0-8696-e8b20b5ff7e9",
+                    "text": "Swelling of lips",
+                    "display-mr": "ओठांची सूज",
+                    "display-hi": "होंठों की सूजन"
+                },
+                {
+                    "id": "ID_26d72dec-ac6d-4f92-bfe1-5bad4a518f8f",
+                    "text": "Swelling of face",
+                    "display-mr": "चेहऱ्याला सूज",
+                    "display-hi": "चेहरे की सूजन"
+                },
+                {
+                    "id": "ID_f7f03daf-9965-47eb-9180-dbda17e72315",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_9a896c8b-764d-4cda-bbca-25cad63984b8",
+                    "text": "Red color urine",
+                    "display-mr": "लघवीचा रंग लाल होणे",
+                    "display-hi": "लाल रंग का पेशाब"
+                },
+                {
+                    "id": "ID_93dd995a-6874-453c-93d8-457c59e4c0b4",
+                    "text": "Blood in stool",
+                    "display-mr": "शौचमध्ये रक्त",
+                    "display-hi": "मल में खून"
+                },
+                {
+                    "id": "ID_d62826a8-a343-492c-b311-617a37362ada",
+                    "text": "Black stools",
+                    "display-mr": "काळे शौच",
+                    "display-hi": "काला मल"
+                },
+                {
+                    "id": "ID_31b2392b-ef24-4ae0-95bc-e8f081fca764",
+                    "text": "Loose stools",
+                    "display-mr": "अतिसार",
+                    "display-hi": "जुलाब"
+                },
+                {
+                    "id": "ID_1addfc7b-c8a9-4381-8074-01cbb76e3eb0",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट दर्द"
+                },
+                {
+                    "id": "ID_bc6fd5f7-c740-47bb-80a0-7eb7fe9f6142",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_f4a034ee-65f9-40ec-932d-3a345c8b52ed",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0696b5a5-8ab0-4704-b13f-8f1b109ad1aa",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_ac1536d3-7c50-4b56-a2e0-575b3e50e246",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_94aada35-8ca8-4f63-a249-6d34e9434745",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_080730b8-368e-4bc9-ae8c-3dfa65f9c989",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_83305ff9-338e-4610-ad7e-47c5d459c75b",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

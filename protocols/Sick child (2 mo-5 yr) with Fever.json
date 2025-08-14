@@ -1,0 +1,243 @@
+{
+    "id": "ID_c7591319-6460-405c-a09d-de91205dfef8",
+    "text": "Sick child (2 mo-5 yr) with Fever",
+    "engineVersion": "3.0",
+    "display-mr": "ताप असलेले आजारी मूल (2 ते 5 वर्षे)",
+    "display-hi": "बीमार बच्चा (2 से 5 वर्ष) बुखार के साथ",
+    "options": [
+        {
+            "id": "ID_c5719c58-5530-46c5-96c3-bef002450ab0",
+            "text": "Since when the child have had fever?",
+            "display-mr": "मुलाला ताप कधीपासून आहे?",
+            "display-hi": "बच्चे को बुखार कब से है?",
+            "isRequired": true,
+            "multi-choice": false
+        },
+        {
+            "id": "ID_02e08781-25ff-458e-bdeb-d22d6a09b46b",
+            "text": "Fever duration status",
+            "display-mr": "तापाचा कालावधी स्थिती",
+            "display-hi": "बुखार की अवधि की स्थिति",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a708c65d-56fa-4f17-8372-b0a3d4001391",
+                    "text": "Fever duration status",
+                    "display-mr": "तापाचा कालावधी स्थिती",
+                    "display-hi": "बुखार की अवधि की स्थिति"
+                },
+                {
+                    "id": "ID_41d37413-4a7b-4f6f-a04d-5fb944a4b0b7",
+                    "text": "7 days or less",
+                    "display-mr": "7 दिवस किंवा कमी",
+                    "display-hi": "7 दिन या उससे कम"
+                },
+                {
+                    "id": "ID_2d5b365e-bdfd-4bce-94ed-9da869edd21c",
+                    "text": "More than 7 days",
+                    "display-mr": "7 दिवसांपेक्षा जास्त",
+                    "display-hi": "7 दिन से ज्यादा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_f7dde9d7-3f5b-4608-9cb8-52a904f6c45a",
+                            "text": "Has fever been present every day?",
+                            "display-mr": "दररोज ताप येतो का?",
+                            "display-hi": "क्या हर दिन बुखार रहता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_008a4c4d-9e28-4874-9b5c-fa09ffe1779e",
+                                    "text": "No",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_5ffb21ca-ccd2-4825-9c7b-e5e51c0b6f6c",
+                                    "text": "Yes",
+                                    "display-mr": "होय"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_b81c9331-6718-40ae-bcec-3a3601deefb5",
+            "text": "Is the child living in Plasmodium falciparum (PF) malaria predominant area?",
+            "display-mr": "हे मूल प्लाझमोडियम फाल्सीपेरम (PF) मलेरियाच्या प्राबल्य क्षेत्रात राहणारे आहे का?",
+            "display-hi": "क्या बच्चा प्लास्मोडियम फाल्सीपेरम (पीएफ) मलेरिया वाले इलाके में रह रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e6d944e6-a04d-44cc-9a4e-b6baf7dafa6c",
+                    "text": "Is the child living in Plasmodium falciparum (PF) malaria predominant area?",
+                    "display-mr": "हे मूल प्लाझमोडियम फाल्सीपेरम (PF) मलेरियाच्या प्राबल्य क्षेत्रात राहणारे आहे का?",
+                    "display-hi": "क्या बच्चा प्लास्मोडियम फाल्सीपेरम (पीएफ) मलेरिया वाले इलाके में रह रहा है?"
+                },
+                {
+                    "id": "ID_4243df39-130f-4096-87a9-f18827faf048",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_f92a5405-7e99-4ed8-9496-3bcffa4aeee7",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_0ce7a6f2-1fe4-41a8-a536-e4338d1a84ca",
+            "text": "Temperature (F)",
+            "display-mr": "तापमान (F)",
+            "display-hi": "तापमान (F)",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f7137354-280d-425b-859e-5edce069ce07",
+                    "text": "Temperature (F)",
+                    "display-mr": "तापमान (F)",
+                    "display-hi": "तापमान (F)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_92dda684-2cd9-4b12-ae4a-3fc9a94ff0cd",
+            "text": "Stiff neck?",
+            "display-mr": "मान ताठ?",
+            "display-hi": "गर्दन में अकड़न?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a34ef5e5-4de1-4e73-bc82-c0e30f8603fc",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b8bafb44-a6ce-4820-a902-55bf41b477c2",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_59dc3eb7-6a6e-459f-b9e7-7da89686ee74",
+            "text": "Does the child have any of the symptoms (focus of fever)?",
+            "display-mr": "मुलाला काही लक्षणे (तापाची लक्षणे) आहेत का?",
+            "display-hi": "क्या बच्चे में इनमें से कोई लक्षण (बुखार का कारक) है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6ea65fe9-a135-45dd-b614-c633c9e63bdb",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d9890e28-e9b8-4437-a64b-be911add25d2",
+                    "text": "Cold (runny nose)",
+                    "display-mr": "सर्दी (नाक वाहणे)",
+                    "display-hi": "सर्दी (नाक बहना)"
+                },
+                {
+                    "id": "ID_52b27a56-678d-4dc3-997e-ed11d683b585",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_023f3590-1add-4dcf-80fc-e188771c33ae",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_2c7f1290-be55-4a3d-bb5d-0a9d52bbe3f8",
+                    "text": "Skin pustules",
+                    "display-mr": "त्वचेचे फोड",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_4829ae96-73df-4db3-b49a-f763d1711e7f",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर चकत्ते"
+                },
+                {
+                    "id": "ID_fe15856e-6113-444c-b6c3-e7a015f2c37b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_cbde644a-935e-426f-b391-095ce3ea25e7",
+            "text": "RDT Malaria Test Kit available?",
+            "display-mr": "RDT मलेरिया चाचणी किट उपलब्ध आहे का?",
+            "display-hi": "क्या RDT मलेरिया टेस्ट किट उपलब्ध है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5f3ee6c5-bca5-4a41-b022-5acd9785633f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1ad0f8d7-c1d8-4237-a40d-db6516f9a10a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_2d062b74-1188-48b2-bc70-68a1beb482c5",
+            "text": "RDT Malaria Test Result?",
+            "display-mr": "RDT मलेरिया चाचणीचा निकाल?",
+            "display-hi": "RDT मलेरिया टेस्ट परिणाम?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2463aff4-816c-4337-9a29-fed58c0640e0",
+                    "text": "Negative",
+                    "display-mr": "निगेटिव्ह",
+                    "display-hi": "नकारात्मक"
+                },
+                {
+                    "id": "ID_135ee7bc-fc01-4dff-b731-43bb393a5229",
+                    "text": "Positive for PF",
+                    "display-mr": "PF साठी पॉझिटिव्ह",
+                    "display-hi": "PF के लिए सकारात्मक"
+                },
+                {
+                    "id": "ID_cfa5e54e-d6d0-4796-9cd7-8b24c539044f",
+                    "text": "Positive for PV",
+                    "display-mr": "PV साठी पॉझिटिव्ह",
+                    "display-hi": "PV के लिए सकारात्मक"
+                },
+                {
+                    "id": "ID_27bffb5a-12a2-4cb3-8faa-5d8b546100e8",
+                    "text": "Positive for PF & PV",
+                    "display-mr": "PF आणि PV साठी पॉझिटिव्ह",
+                    "display-hi": "PF और PV के लिए सकारात्मक"
+                }
+            ]
+        }
+    ]
+}

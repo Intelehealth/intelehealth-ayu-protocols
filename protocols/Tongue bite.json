@@ -1,0 +1,548 @@
+{
+    "id": "ID_22b4d066-4abf-44c7-805e-12f3b304636c",
+    "text": "Tongue bite",
+    "engineVersion": "3.0",
+    "display-mr": "जीभ चावणे",
+    "display-hi": "जीभ काटना",
+    "options": [
+        {
+            "id": "ID_bf435fe0-2635-4e4a-bffd-58a23243d741",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d5fef290-d246-4dae-8389-c88152687e15",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_3040eab4-ebfc-42ef-b054-a7f32a6584c5",
+            "text": "How fast did the tongue bite happened?",
+            "display-mr": "जीभ किती जलद चावली गेली?",
+            "display-hi": "जीभ का कटना कितनी तेजी से हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8d2a70ba-3f77-430b-ab5d-40c1723d4756",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_86f50da4-c592-4b75-b8d2-889774dbc973",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_8910ea46-92f2-49c0-bdda-cd337a5f631c",
+            "text": "How did the tongue bite?",
+            "display-mr": "जीभ कशी चावली गेली?",
+            "display-hi": "जीभ कैसे कटी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ab233d48-429d-4f4c-83a6-db1b772d1816",
+                    "text": "Biting self",
+                    "display-mr": "स्वतःच चावली",
+                    "display-hi": "स्वयं को काटना"
+                },
+                {
+                    "id": "ID_79040c39-a371-4746-ba0d-3282800c5cde",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_1a92116d-3fa0-414e-a213-d2f031412395",
+                    "text": "During sleep",
+                    "display-mr": "झोपेलेले असताना",
+                    "display-hi": "नींद के दौरान"
+                },
+                {
+                    "id": "ID_28b129aa-0cd5-4b5a-ba4f-8ec2b73e9737",
+                    "text": "During fit episode",
+                    "display-mr": "आकडी आलेली असताना",
+                    "display-hi": "दौरे पड़ने के समय"
+                },
+                {
+                    "id": "ID_956cb728-2eb4-42be-b67b-c5e473080436",
+                    "text": "Injury by denture",
+                    "display-mr": "कवळीमुळे दुखापत",
+                    "display-hi": "डेन्चर से चोट"
+                },
+                {
+                    "id": "ID_3aab10f8-d0cc-4ebf-8970-6b63c146b177",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_357c21cd-ca57-481e-b44a-7f1b0594e1b0",
+            "text": "Which part of the tongue do you have bite wound?",
+            "display-mr": "जिभेच्या कोणत्या भागात चावल्याच्या जखमा आहेत?",
+            "display-hi": "आपकी जीभ के किस भाग पर कटने का घाव है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_88cf544b-c9ca-4f96-86b4-2dc8df7057c1",
+                    "text": "Tip",
+                    "display-mr": "शेंडा",
+                    "display-hi": "शीर्ष"
+                },
+                {
+                    "id": "ID_f1fed5c1-4286-4a14-bec4-1101428be118",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बाईं तरफ"
+                },
+                {
+                    "id": "ID_b70c73ac-0a78-4757-89de-976640982516",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दाहिनी ओर"
+                },
+                {
+                    "id": "ID_60696c3c-dbc6-47df-b5de-62fe18234e5c",
+                    "text": "Upper surface",
+                    "display-mr": "वरचा पृष्ठभाग",
+                    "display-hi": "ऊपरी सतह"
+                },
+                {
+                    "id": "ID_551a3ddf-4cc1-44fd-8bd9-8596c89c1acb",
+                    "text": "Lower surface",
+                    "display-mr": "खालची पृष्ठभाग",
+                    "display-hi": "निचली सतह"
+                },
+                {
+                    "id": "ID_9f83d79e-3c4e-4707-9c1f-1d655f20c781",
+                    "text": "Middle of the tongue",
+                    "display-mr": "जिभेच्या मध्यभागी",
+                    "display-hi": "जीभ के मध्य भाग"
+                },
+                {
+                    "id": "ID_ba99a8b2-d495-48e2-be74-eebbe9240042",
+                    "text": "Both sides of tongue",
+                    "display-mr": "जिभेच्या दोन्ही बाजू",
+                    "display-hi": "जीभ के दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_d4327b83-512d-4a78-96cb-801740cfb416",
+            "text": "How can you describe the wound?",
+            "display-mr": "तुम्ही जखमेचे वर्णन कसे कराल?",
+            "display-hi": "आप घाव का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7c13fd57-714e-47ee-b6a0-d434aed494d8",
+                    "text": "Superficial bite",
+                    "display-mr": "वरवरचा चावा",
+                    "display-hi": "सतह पर काटा"
+                },
+                {
+                    "id": "ID_59ed74fb-37b3-4064-b273-c85ca8b66500",
+                    "text": "Deep bite",
+                    "display-mr": "खोल चावणे",
+                    "display-hi": "गहराई से काटा"
+                },
+                {
+                    "id": "ID_7349669b-11c4-4e60-9ae1-16126665e8cc",
+                    "text": "Penetrating bite",
+                    "display-mr": "छिद्र पडण्याइतके चावणे",
+                    "display-hi": "भेदते हुए काटा"
+                },
+                {
+                    "id": "ID_cecb2763-98b9-4da3-be11-22934a5649e8",
+                    "text": "Abrasion",
+                    "display-mr": "खरचटणे",
+                    "display-hi": "खरोंच"
+                },
+                {
+                    "id": "ID_08b6ea48-8289-45d2-934e-29d8741d96cd",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_53322592-fb32-4b75-8655-4f6c82bfdc74",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_199ebc58-494f-4f95-bdb6-24f4680f0efa",
+            "text": "Do you have pain associated with the bite?",
+            "display-mr": "तुम्हाला चाव्याशी संबंधित वेदना होत आहेत का?",
+            "display-hi": "क्या आपको कटने से दर्द हुआ है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aef11955-c8b8-4613-8b66-231ea1bf7ba5",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_da2ec30e-bc5e-4a7f-9c96-68447e0383b3",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_c87924d8-8bcd-4231-8797-c90d3f1de5f9",
+                            "text": "How can you describe the character of pain in the bite wound?",
+                            "display-mr": "तुम्ही चावण्याच्या जखमेच्या स्वरूपाचे कसे वर्णन कराल?",
+                            "display-hi": "आप कटने के घाव में दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_997d6bd8-4a98-4f03-86ad-cba8c8c23794",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळणारी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_a34420d8-1564-40e5-99be-df5477396ce6",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_3c3406ca-1047-4a0a-9413-603dc817d4e6",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                                    "display-hi": "चीरे जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_4f92c808-53fb-4439-9fd1-2aec5a02a1b5",
+                                    "text": "Pressure pain",
+                                    "display-mr": "दाबल्यासारखी वेदना",
+                                    "display-hi": "दबाव वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_c7ac23bc-5be4-4e5b-aa25-a11d2d282560",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "मंद दुखणारी वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_e190660b-ca3c-49e3-a789-3cda79331d62",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_ee3d7a67-d475-4590-b981-93a49659ea12",
+                                    "text": "Shooting pain",
+                                    "display-mr": "अचानक वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_d54bcff4-37ac-4a6b-bbcb-1bffe0654ec1",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_690126a1-ebc0-4c3c-a912-0337584641cc",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_98bda85e-67e3-4490-9def-c97aef90b5f5",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                },
+                {
+                    "id": "ID_4c3852e9-9431-4120-a3f0-bdcd50d666cd",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                },
+                {
+                    "id": "ID_235949ef-858f-4278-aafe-727e3727e34e",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                },
+                {
+                    "id": "ID_e98e0d6b-b9f9-4f87-a5cc-b0b9e8e988d0",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "खूप तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत तेज दर्द (7 से less than 9)"
+                },
+                {
+                    "id": "ID_777183e1-9ead-40bf-9890-1812aaafb22e",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_75147b44-65d3-45a9-a0d8-865bd3b01e71",
+            "text": "Do you have any of the local associated features with the tongue bite wound?",
+            "display-mr": "तुमची जीभ चावल्याच्या जखमेशी संबंधित काही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको जीभ कटने के घाव से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f79dfed0-48e5-4ec1-9825-f9a2fe66d0cf",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9226190d-24b2-4ccd-b777-b1791ef17946",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_6db927ac-03a4-4ad3-9428-962af665e194",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श करताना वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_309f7299-560f-4936-970e-1d24e28186c0",
+                    "text": "Swelling",
+                    "display-mr": "सूज येणे",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_525a6be3-1661-478d-9d72-67aca46f90a8",
+                    "text": "Laceration",
+                    "display-mr": "छेद होणे",
+                    "display-hi": "गहरा घाव"
+                },
+                {
+                    "id": "ID_8de08124-7141-44f8-b5e4-5d34cadea88f",
+                    "text": "Loss of sensation",
+                    "display-mr": "संवेदना कमी होणे",
+                    "display-hi": "संवेदना महसूस न होना"
+                },
+                {
+                    "id": "ID_fb860c45-d6d0-4741-b7d9-001fbf16da06",
+                    "text": "Slough",
+                    "display-mr": "कात टाकणे",
+                    "display-hi": "घाव से निकलने वाली मृत त्वचा"
+                },
+                {
+                    "id": "ID_520e5e6c-bb72-4efa-97b4-498f1582f9ba",
+                    "text": "Deformity",
+                    "display-mr": "विद्रुपपणा",
+                    "display-hi": "विकृति"
+                },
+                {
+                    "id": "ID_07bf6544-2db7-44d4-8a77-eca97a50902d",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्राव",
+                    "display-hi": "खून बह रहा है"
+                },
+                {
+                    "id": "ID_447edf30-3e25-42ec-a9f5-d561d9540e41",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4f64b854-ab0e-475b-bfb3-71f6b7394a85",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2b992215-5057-4021-9e76-f01298e957d5",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार बहना"
+                },
+                {
+                    "id": "ID_2b49726c-aa4a-402a-ae17-01108c66f26b",
+                    "text": "Difficulty in speaking",
+                    "display-mr": "बोलताना त्रास होणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_6da4e274-c372-4ef2-af86-b21d17f8c960",
+                    "text": "Difficulty chewing",
+                    "display-mr": "चावताना त्रास होणे",
+                    "display-hi": "चबाने में परेशानी"
+                },
+                {
+                    "id": "ID_0a41ec50-7ca8-49f4-a6ba-83a63d9c4137",
+                    "text": "Loose tooth",
+                    "display-mr": "सैल दात",
+                    "display-hi": "दांत हिलना"
+                },
+                {
+                    "id": "ID_2de70134-b638-4149-9382-ad00242f1fc4",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासाला दुर्गंधी",
+                    "display-hi": "बदबूदार सांस"
+                },
+                {
+                    "id": "ID_ba6a9ba3-b7f4-4f7d-b214-7f9355884169",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_e72c9393-e721-4328-9348-bf097540b92b",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b2193853-c770-428d-9669-02f975550a5a",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f54bb479-26fc-4575-a71b-5d8351359fe2",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_ad043b6d-9b4e-4fdb-8d96-2fd3f080080e",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "ठंड और कंपकंपी"
+                },
+                {
+                    "id": "ID_a72cad69-7096-4a2d-b12a-e615779d6be0",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_8ceaee85-8f2a-491b-84e8-81c333fb0acc",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजे हुए लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_0759ad8f-15ce-4b0f-8696-3262af40d37c",
+                    "text": "Pale skin",
+                    "display-mr": "निस्तेज त्वचा",
+                    "display-hi": "पीली त्वचा"
+                },
+                {
+                    "id": "ID_3fc48a3f-79b1-4e65-b2d7-f26a584c89c2",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळणे",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_bf5b1831-ce69-488f-93a6-bc9792d1e53c",
+                    "text": "Drowsiness",
+                    "display-mr": "गुंगी",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_fe529697-efac-4cc0-a1f9-7df471fb2cb6",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_25153b3b-cf30-444e-ae9e-d24f968bb503",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_153ac95d-e162-42a7-986e-5dd6c12e3559",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0c9399fb-cd7c-49a1-910e-2aacedf29710",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_c19f82c4-77c5-4e3c-8bcc-d1e7e555c0b0",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_94694352-7cd2-4b7a-9bf1-2543dbfd1a27",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_3840934e-c0f2-4897-8a1f-69a01ec6b305",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

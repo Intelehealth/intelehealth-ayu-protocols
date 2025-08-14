@@ -1,0 +1,113 @@
+{
+    "id": "ID_dd220ea8-1b99-43d9-83ee-f4805577ef55",
+    "text": "Sick child (2 mo-5 yr) with Cough or Difficulty breathing",
+    "engineVersion": "3.0",
+    "display-mr": "आजारी मूल (2 ते 5 वर्षे) खोकला किंवा श्वास घेण्यात अडचण",
+    "display-hi": "खांसी या सांस लेने में परेशानी के साथ बीमार बच्चा  (2 महीने-5 वर्ष)",
+    "options": [
+        {
+            "id": "ID_bdbaf0b4-fdc8-41ba-b6d5-3bb2fdd9315d",
+            "text": "Does the child have cough?",
+            "display-mr": "मुलाला खोकला आहे का?",
+            "display-hi": "क्या बच्चे को खांसी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_830792af-e97b-464c-af75-0fe4b32561a0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_6db84414-3e16-4539-a24a-65e9c048d28e",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_b26f81fd-544d-4ca3-b03b-203ef4d44c63",
+                            "text": "For how long?",
+                            "display-mr": "कधी पासून?",
+                            "display-hi": "कितने कालावधी से?",
+                            "multi-choice": false,
+                            "input-type": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c77f1035-ca25-4395-b750-c08dd7f00804",
+            "text": "Does the child have difficulty breathing?",
+            "display-mr": "मुलाला श्वास घेण्यात अडचण येते का?",
+            "display-hi": "क्या बच्चे को सांस लेने में परेशानी होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_302e6126-30fc-4551-9dba-655eb08dc21a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_fe2d1706-1ba2-4d3d-8571-f6595da7428d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_8d5aab19-5ee3-48df-b28d-591a24bc59ec",
+                            "text": "For how long?",
+                            "display-mr": "कधी पासून?",
+                            "display-hi": "कितने कालावधी से?",
+                            "multi-choice": false,
+                            "input-type": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c8d0ce72-8719-4311-b971-a79f6ea4a04d",
+            "text": "Chest indrawing",
+            "display-mr": "छाती आत ओढणे",
+            "display-hi": "छाती अंदर खींचना",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1d8860f0-b5b2-4da0-a65b-b152458c3bdc",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_89e3db6f-ae57-4907-9957-e7aa6c4655bf",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_eed9c52f-bfff-4764-adf2-48dbf69b109a",
+            "text": "Oxygen saturation (SpO2)",
+            "display-mr": "ऑक्सीजनच्या मात्रेची स्थिती (SpO2)",
+            "display-hi": "ऑक्सीजन संतृप्ति या सेचुरेशन (SpO2)",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1006761c-934b-4222-937f-129bb7642948",
+                    "text": "Oxygen saturation (SpO2)",
+                    "display-mr": "ऑक्सीजनच्या मात्रेची स्थिती (SpO2)",
+                    "display-hi": "ऑक्सीजन संतृप्ति या सेचुरेशन (SpO2)",
+                    "input-type": "text"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,729 @@
+{
+    "id": "ID_50edc206-472f-4690-838b-ed320d2b8ec0",
+    "text": "Scaly skin",
+    "engineVersion": "3.0",
+    "display-mr": "खवले असलेली त्वचा",
+    "display-hi": "पपड़ीदार त्वचा",
+    "options": [
+        {
+            "id": "ID_2f0a3d5b-d6a6-4637-87ce-f5db529c77cb",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f1390014-3aca-4eca-aa16-36729a312af1",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_f4fa91e2-ff84-4353-ae53-c957d0ac57cb",
+            "text": "How fast did scaly skin develop?",
+            "display-mr": "त्वचेवर खवले येण्याचा त्रास किती वेगाने पसरला आहे?",
+            "display-hi": "पपड़ीदार त्वचा की समस्या कितनी तेजी से बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e79a58f4-ac79-461a-8c0f-f0d187248762",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_099f16a1-8d75-4b76-aecf-7c7ebc9b3051",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_aa39d224-b2c2-4f3a-9887-6d60e35d57bc",
+            "text": "Where do you have the scaly skin?",
+            "display-mr": "तुमच्याकडे खवले असलेली त्वचा कोठे आहे?",
+            "display-hi": "आपकी त्वचा कहां पर पपड़ीदार है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4206169a-e502-436f-9375-432ecea70140",
+                    "text": "All over body",
+                    "display-mr": "संपूर्ण शरीरावर",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_f081e0cc-c3d8-4b07-8697-b5d08fe1d1fc",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचे भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_4cb9b678-5737-4c4f-a3ce-25dd2e615459",
+                            "text": "Which part of body do you have scaly skin?",
+                            "display-mr": "तुम्हाला शरीराच्या कोणत्या भागाच्या त्वचेवर खवले आले आहेत?",
+                            "display-hi": "आपके शरीर के किस हिस्से पर पपड़ीदार त्वचा है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_4e35e543-96c6-4318-880b-e62afc1210dc",
+                                    "text": "Scalp",
+                                    "display-mr": "टाळू",
+                                    "display-hi": "खोपड़ी"
+                                },
+                                {
+                                    "id": "ID_a3594c9e-d567-4d8e-8379-5b0d44266f78",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_0fc66ed1-bd72-440d-8e74-6ce2d09e733e",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_6b0ad0b0-d226-4d54-9bec-9bdc142df836",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_b88508e8-48c5-4b0c-a7f9-e09156b1d974",
+                                    "text": "Breast",
+                                    "display-mr": "स्तन",
+                                    "display-hi": "स्तन"
+                                },
+                                {
+                                    "id": "ID_3a33ba9c-ae36-400e-a97f-d14258cfe688",
+                                    "text": "Arm",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_3be193dc-0b55-4428-ae19-5a6a8570aa78",
+                                    "text": "Armpit",
+                                    "display-mr": "बगल",
+                                    "display-hi": "बगल"
+                                },
+                                {
+                                    "id": "ID_d1f372ab-ab05-4340-8938-5d95d36d6920",
+                                    "text": "Forearm",
+                                    "display-mr": "मनगटापासून कोपऱ्यापर्यंतचा हात",
+                                    "display-hi": "आगे की भुजा"
+                                },
+                                {
+                                    "id": "ID_f764fa3e-2d22-4e13-8447-8ca9fff74d54",
+                                    "text": "Elbow",
+                                    "display-mr": "कोपर",
+                                    "display-hi": "कोहनी"
+                                },
+                                {
+                                    "id": "ID_33153b87-e82d-4afe-bd5f-e81e759db11b",
+                                    "text": "Palm",
+                                    "display-mr": "हाताचे तळवे",
+                                    "display-hi": "हथेली"
+                                },
+                                {
+                                    "id": "ID_7a3b9a8f-658e-42b2-88c0-e32dbb4919bc",
+                                    "text": "Abdomen",
+                                    "display-mr": "पोट",
+                                    "display-hi": "पेट"
+                                },
+                                {
+                                    "id": "ID_affc6f06-cdf6-483c-87c8-e18de9cc405c",
+                                    "text": "Back",
+                                    "display-mr": "पाठ",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_6574a953-356e-4593-9ae7-22e6abb130b5",
+                                    "text": "Groin",
+                                    "display-mr": "मांडीचा सांधा",
+                                    "display-hi": "कमर के नीचे"
+                                },
+                                {
+                                    "id": "ID_9dd0b7f7-0552-4f64-a6a0-6f269b407189",
+                                    "text": "Knees",
+                                    "display-mr": "गुडघे",
+                                    "display-hi": "घुटने"
+                                },
+                                {
+                                    "id": "ID_438400f4-8f85-42f1-92b8-03c67dce67b1",
+                                    "text": "Legs",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_1f4731e8-5daf-4531-af99-ad75741a289b",
+                                    "text": "Soles",
+                                    "display-mr": "टाचा",
+                                    "display-hi": "तलवे"
+                                },
+                                {
+                                    "id": "ID_ca6c6f10-b6ef-47f5-981d-693c0a09c64b",
+                                    "text": "Other",
+                                    "display-mr": "अन्य",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_b5a0ca03-b66b-4f79-9aac-9067ab4d4b48",
+            "text": "Which side of body do you have the scaly skin?",
+            "display-mr": "शरीराच्या कोणत्या बाजूला तुम्हाला खवलेयुक्त त्वचा आहे?",
+            "display-hi": "आपके शरीर के किस तरफ पपड़ीदार त्वचा है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d71342f5-e390-4ce3-a422-2ca47c9ffb6f",
+                    "text": "Left",
+                    "display-mr": "डावी",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_30781234-1c50-4690-986c-2e2956b64888",
+                    "text": "Right",
+                    "display-mr": "उजवी",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_abf4ce6a-9fdf-498d-a7a0-f16ccd214607",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजू",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_81f2503e-8a22-425b-a20d-c1c38d65776b",
+            "text": "Do you have the following features associated with scaly skin?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या पपड़ीदार त्वचा की समस्या से जुड़ी निम्नलिखित विशेषताएं हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2152b753-4a8b-45ea-8bcb-c61dcc072645",
+                    "text": "None",
+                    "display-mr": "कोणतीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5c3df8c0-122e-4b07-bd66-e994248aa46b",
+                    "text": "Red patches",
+                    "display-mr": "लाल चट्टे",
+                    "display-hi": "लाल चकत्ते"
+                },
+                {
+                    "id": "ID_4c490081-9fe1-4a6c-aa27-232f8d74d5db",
+                    "text": "Silvery scales",
+                    "display-mr": "पांढरे चट्टे",
+                    "display-hi": "चांदी जैसी पपड़ी"
+                },
+                {
+                    "id": "ID_063781a2-44b0-4996-bf4d-8c16ddc0abca",
+                    "text": "Itching",
+                    "display-mr": "खाज",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_f72a51ad-2a2c-42eb-949c-a032fb896d08",
+                    "text": "Bumps",
+                    "display-mr": "फोड",
+                    "display-hi": "उभार"
+                },
+                {
+                    "id": "ID_83e0e87e-ffef-42e9-a3c8-12bf11178e0c",
+                    "text": "Bleeding",
+                    "display-mr": "रक्त येणे",
+                    "display-hi": "खून बहना"
+                },
+                {
+                    "id": "ID_a717d1c0-f5cd-4762-9239-f4476f260866",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_8db985f1-c6fe-4bc0-9ee8-2a85157f8205",
+                    "text": "Cracking of skin",
+                    "display-mr": "त्वचेला भेगा पडणे",
+                    "display-hi": "त्वचा का फटना"
+                },
+                {
+                    "id": "ID_9df6ac0e-85a4-4928-a46b-0bdab089fbce",
+                    "text": "Blisters",
+                    "display-mr": "फोड येणे",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_a34367c2-7125-44b0-bbc3-63c672725710",
+                    "text": "Burning sensation",
+                    "display-mr": "जळजळ होणे",
+                    "display-hi": "जलन"
+                },
+                {
+                    "id": "ID_194ebb1e-b900-40ee-8430-1a10f07eb008",
+                    "text": "Peeling of skin",
+                    "display-mr": "त्वचा सोलली जाणे",
+                    "display-hi": "त्वचा का छिलना"
+                },
+                {
+                    "id": "ID_bc8480d6-0e41-4eac-bd07-30049387d14a",
+                    "text": "Oozing",
+                    "display-mr": "त्वचेतून रक्त वाहणे",
+                    "display-hi": "रिसना"
+                },
+                {
+                    "id": "ID_6703c1ed-062f-4c42-85ce-69b3f7d75e2a",
+                    "text": "Crusting",
+                    "display-mr": "त्वचेवरचे पापुद्रे/ थर निघणे",
+                    "display-hi": "पपड़ी बनना"
+                },
+                {
+                    "id": "ID_929df2e4-60e9-41c3-adec-d81814085f76",
+                    "text": "Skin thickening",
+                    "display-mr": "त्वचा कडक होणे",
+                    "display-hi": "त्वचा का मोटा होना"
+                },
+                {
+                    "id": "ID_0be797d7-352b-407c-851a-8e3dcdb24b07",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_90c1b98c-ba4b-41d9-8a11-6e0796bb5618",
+            "text": "What does trigger or worsen the scaly skin?",
+            "display-mr": "त्वचेवर खवले किंवा खपल्यांचा त्रास कधी जास्त होतो किंवा वाढतो?",
+            "display-hi": "पपड़ीदार त्वचा को क्या ट्रिगर करता है या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2f784e59-9283-4629-b566-1e5912a7a9d8",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_8066f195-ee3a-4323-a949-ee2e51e53895",
+                    "text": "Certain medication",
+                    "display-mr": "काही विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_78f6236f-77ed-4a00-8869-dc94ce78b04e",
+                    "text": "Cold weather",
+                    "display-mr": "थंड वातावरण",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_0f98b994-764e-4818-865c-6578c091c8cc",
+                    "text": "Hot weather",
+                    "display-mr": "उष्ण वातावरण",
+                    "display-hi": "गर्म मौसम"
+                },
+                {
+                    "id": "ID_bf28a188-e147-4faa-b163-ffefc1d840c4",
+                    "text": "Sunlight",
+                    "display-mr": "सूर्यप्रकाश",
+                    "display-hi": "सूरज की रोशनी"
+                },
+                {
+                    "id": "ID_c6a75b5a-f002-4bba-9715-64e45d33acd5",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_94e62d1d-e3b7-42ad-b321-d86ab3643bd0",
+                    "text": "Certain allergens",
+                    "display-mr": "ॲलर्जी निर्माण करणाऱ्या काही विशिष्ट गोष्टी",
+                    "display-hi": "कुछ एलर्जी"
+                },
+                {
+                    "id": "ID_b4f50225-6876-43e2-9e8f-b7da30337313",
+                    "text": "Dryness of skin",
+                    "display-mr": "त्वचा कोरडी पडणे",
+                    "display-hi": "त्वचा का सूखापन"
+                },
+                {
+                    "id": "ID_59eef6d7-a729-40c6-8b78-784fac8649ec",
+                    "text": "Sweating",
+                    "display-mr": "घाम येणे",
+                    "display-hi": "पसीना"
+                },
+                {
+                    "id": "ID_b5aa1971-afb0-4955-bd04-ebf40ca90d26",
+                    "text": "Certain substances",
+                    "display-mr": "काही विशिष्ट पदार्थ",
+                    "display-hi": "कुछ पदार्थ"
+                },
+                {
+                    "id": "ID_4ac57c99-9ef3-4e02-8860-3f04b59c494e",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d4f1adc0-ab3d-4fad-9c15-37c9df02671d",
+            "text": "What does reduce or lessen the scaly skin?",
+            "display-mr": "त्वचेवर खवले किंवा खपल्यांचा त्रास कधी कमी होतो?",
+            "display-hi": "पपड़ीदार त्वचा को क्या कम करता या घटाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_5b782663-8b4e-4b47-9c7b-d78e57e97bd4",
+                    "text": "None",
+                    "display-mr": "नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5c418eef-3bba-42e0-a6e4-bc17d292d6f2",
+                    "text": "Ointments",
+                    "display-mr": "मलम",
+                    "display-hi": "मलहम"
+                },
+                {
+                    "id": "ID_5ece4889-f946-478b-837e-97ca392d2b81",
+                    "text": "Lukewarm baths",
+                    "display-mr": "कोमट पाण्याने अंघोळ केल्यास",
+                    "display-hi": "गुनगुने पानी से नहाना"
+                },
+                {
+                    "id": "ID_c3edb122-cc27-48d1-8570-37ea915c7178",
+                    "text": "Phototherapy",
+                    "display-mr": "फोटो थेरपी",
+                    "display-hi": "फोटोथेरेपी"
+                },
+                {
+                    "id": "ID_487da058-a1a0-4932-9542-287803b6ec80",
+                    "text": "Certain medication",
+                    "display-mr": "काही विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_bb6061cd-2b6e-4168-8494-f5056564c33b",
+                    "text": "Moisturizers",
+                    "display-mr": "मॉईश्चराझर्स",
+                    "display-hi": "मॉइस्चराइजर"
+                },
+                {
+                    "id": "ID_575e969a-de59-489c-98ff-4c0c5a794b48",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7659570c-2aa4-4b37-8b28-05ddd4e9f3f9",
+            "text": "How severe is the scaly skin?",
+            "display-mr": "त्वचेवर खवले येण्याची स्थिती किती गंभीर आहे?",
+            "display-hi": "पपड़ीदार त्वचा की समस्या कितनी गंभीर है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_747369ad-ab2b-41b1-9af6-fa524efe2a6a",
+                    "text": "Mild",
+                    "display-mr": "कमी",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_f212f5cc-2053-4f70-9918-1ff4f1d35ad2",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_f7dad240-32e5-4f54-9a13-6b54177dc267",
+                    "text": "Severe",
+                    "display-mr": "तीव्र",
+                    "display-hi": "गंभीर"
+                },
+                {
+                    "id": "ID_21d5d121-c476-46f1-81ba-376f445a5ca7",
+                    "text": "Very severe",
+                    "display-mr": "अति तीव्र",
+                    "display-hi": "बहुत गंभीर"
+                }
+            ]
+        },
+        {
+            "id": "ID_1f715035-690b-42c7-a7e8-258eea1d460a",
+            "text": "Is the scaly skin spreading to other parts of body?",
+            "display-mr": "त्वचेवर खवले येण्याचा त्रास शरीराच्या अन्य भागांतही पसरत आहे का?",
+            "display-hi": "क्या पपड़ीदार त्वचा शरीर के अन्य हिस्सों में फैल रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7fbf10f5-f7f6-4a6a-8605-8ddfbcb73a1f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_6fd59b19-572b-47c6-b8bf-500d498277f0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_a8bd308f-d1c6-4350-a6ba-7dde4742b25e",
+            "text": "How is scaly skin progressing?",
+            "display-mr": "त्वचेवर खवले/ खपली येण्याचा त्रास कसा आहे?",
+            "display-hi": "पपड़ीदार त्वचा की समस्या कैसे बढ़ रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b4b3d347-2043-45ff-8734-eaf7e1de9043",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_80582866-958d-4801-9133-7ba0891ca24a",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_93759fb7-e11c-497c-9774-2a5437a6e22a",
+                    "text": "Seasonal",
+                    "display-mr": "हंगामी",
+                    "display-hi": "मौसमी"
+                },
+                {
+                    "id": "ID_620e485c-27e5-4c5f-9757-79af722582ef",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_af7543a3-9211-4a22-b63f-0f8cafeb331c",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_43b7c05b-fae1-4dcd-b83d-96ecc3978722",
+                    "text": "Scaly scalp",
+                    "display-mr": "टाळूवर खपल्या येणे",
+                    "display-hi": "पपड़ीदार खोपड़ी",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_2b04480d-1716-442d-abec-186ea0cb98a5",
+                    "text": "Pitting of nails",
+                    "display-mr": "नखे तुटणे/ नखांवर खड्डे पडणे",
+                    "display-hi": "नाखूनों में गड्ढे पड़ना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_4db4320f-3014-4ea3-941f-d7aa832ed0c2",
+                    "text": "Discoloration of nails",
+                    "display-mr": "नखे पांढरी पडणे",
+                    "display-hi": "नाखूनों का रंग बदलना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_91d6f13a-0deb-477a-a49b-dc9780529108",
+                    "text": "Thickening of nails",
+                    "display-mr": "नखे कडक होणे",
+                    "display-hi": "नाखूनों का मोटा होना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_9d0f2d7d-6f49-4809-b922-17421e8f3442",
+                    "text": "Loss of nails",
+                    "display-mr": "नखे तुटणे",
+                    "display-hi": "नाखूनों का गिरना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_9f664dfc-3395-4146-8e2d-917feaac7247",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों का दर्द",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_54496333-9f27-492f-8954-bf6ed7cda188",
+                    "text": "Joint swelling",
+                    "display-mr": "सांध्यांवर सूज येणे",
+                    "display-hi": "जोड़ों में सूजन",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_a9fbdfcb-f8a4-43a2-a237-6594f52304f7",
+                    "text": "Stiffness of joints",
+                    "display-mr": "सांधे कडक होणे",
+                    "display-hi": "जोड़ों में अकड़न",
+                    "multi-choice": false
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_993f80e5-0544-40e1-83d3-45a658937cc2",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ca7fdd09-10e0-4536-944c-bef5d56c93dd",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_acaaa0af-af39-46b5-b68a-69121a54a8e2",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_b0c45f1d-0761-4388-8452-9286c6d7a242",
+                    "text": "Blurred vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_fc838f59-e78d-41fa-a2e6-dc4cceb45f56",
+                    "text": "Eye pain",
+                    "display-mr": "डोळे दुखणे",
+                    "display-hi": "आंखों में दर्द"
+                },
+                {
+                    "id": "ID_51d8c7d1-82e6-45ce-9fc4-ae2e0acc079f",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ येणे",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_32e89eea-12f0-47f8-baaf-e8a18c18372b",
+                    "text": "Hair loss",
+                    "display-mr": "केस गळणे",
+                    "display-hi": "बालों का झड़ना"
+                },
+                {
+                    "id": "ID_a1124945-7d42-4cfd-9c30-ff1700f2b9e5",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_d4ff1022-f8fc-4ef4-a837-6e8af97bb15f",
+                    "text": "Depression",
+                    "display-mr": "नैराश्य",
+                    "display-hi": "अवसाद"
+                },
+                {
+                    "id": "ID_6f13da3c-4e46-4f9d-96da-a7907f37cd2e",
+                    "text": "Red eye",
+                    "display-mr": "डोळे लालसर होणे",
+                    "display-hi": "लाल आंख"
+                },
+                {
+                    "id": "ID_f02a0289-3679-41b3-bbcc-9016b95f1240",
+                    "text": "Shortness of breath",
+                    "display-mr": "श्वास लागणे/ दम लागणे",
+                    "display-hi": "सांस की तकलीफ"
+                },
+                {
+                    "id": "ID_6ebb1a32-48fa-4d72-8f8a-ae6a8d073427",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_98efa479-4c72-487c-864a-b54bd8995f2a",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ffec5a73-bc75-499c-bd09-6bb795ebfc5b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_af683431-c7c0-4409-9297-be4722c13fad",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_1ff74d27-fe5f-4a1b-8479-4f73408dcaed",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_81e437d4-e36e-4b9a-92f7-331e7d31a876",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_bf919c7c-7315-4912-b38c-894fa7a97d09",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

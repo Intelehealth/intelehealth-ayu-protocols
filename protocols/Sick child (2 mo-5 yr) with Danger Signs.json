@@ -1,0 +1,141 @@
+{
+    "id": "ID_1af25e99-79c2-46d3-86a3-4c984d2434f8",
+    "text": "Sick child (2 mo-5 yr) with Danger Signs",
+    "engineVersion": "3.0",
+    "display-mr": "धोक्याची चिन्हे असलेले आजारी बालक (2 ते 5 वर्षे)",
+    "display-hi": "बीमार बच्चा (2 से 5 वर्ष) खतरे के संकेतों के साथ",
+    "options": [
+        {
+            "id": "ID_27b94bf5-19cf-495c-a1d7-35e4b1c704ba",
+            "text": "Is the child able to drink or feed?",
+            "display-mr": "मूल पिण्यास किंवा खाण्यास सक्षम आहे का?",
+            "display-hi": "क्या बच्चा कुछ पी या खा पा रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_63618375-c4e9-4154-9553-f0722bc02e6b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_60910748-16a2-4633-afb7-f45d55012cc0",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_898126da-f00f-482f-8e95-433b1ef7d8f2",
+            "text": "Does the child vomit everything?",
+            "display-mr": "सर्व काही उलट्या द्वारे बाहेर पडते आहे का?",
+            "display-hi": "क्या बच्चा सब कुछ उल्टी कर देता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fe550eee-ef76-4d90-875d-78075b9df742",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d5d998f0-087d-450e-9fb8-2868ad411bb9",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_976eb566-b38e-4794-8817-4c6cc5c73ee0",
+            "text": "Has the child had convulsions?",
+            "display-mr": "मुलांना झटके आले आहेत का?",
+            "display-hi": "क्या बच्चे को मिरगी होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_42478e26-3f73-4ba2-a90d-194135fa5654",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_e0c06b7f-63a7-4474-ba0f-1e13e14cc4e4",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_ec317c81-3e87-4914-8315-1d6593b93bad",
+            "text": "Is the child lethargic?",
+            "display-mr": "मूल सुस्त आहे का?",
+            "display-hi": "क्या बच्चा सुस्त है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_445646a1-a687-4c80-b57a-5d1ad5f6848c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_14d6c94c-8277-4679-811a-98840d3c1c2a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_8d6e6cd1-cf17-4511-a1b7-0d20400db9ae",
+            "text": "Is the child unconscious?",
+            "display-mr": "मूल बेशुद्ध आहे का?",
+            "display-hi": "क्या बच्चा बेहोश है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9d27869b-91e1-42b5-bac7-9815359d8803",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_2d76bdc9-a8e2-4b8c-9903-844e14f07dd4",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_a765dd75-8a91-4faf-a309-e2167b672de3",
+            "text": "Is the child having convulsions now?",
+            "display-mr": "मुलाला आता फेफरे/ झटके येत आहेत का?",
+            "display-hi": "क्या बच्चे को अभी झटके आ रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f353a867-7af9-41cb-aaa6-559570c30aea",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_5aed9d55-2d5d-4380-9c0c-fd51a5831453",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        }
+    ]
+}

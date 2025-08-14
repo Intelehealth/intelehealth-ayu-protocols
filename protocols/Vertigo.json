@@ -1,0 +1,528 @@
+{
+    "id": "ID_35b5bd14-ae02-44d4-ae1d-060384b99d39",
+    "text": "Vertigo",
+    "engineVersion": "3.0",
+    "display-mr": "व्हर्टिगो / चक्कर येणे",
+    "display-hi": "वर्टिगो",
+    "options": [
+        {
+            "id": "ID_8abbea84-6b88-4eca-af79-ce133527ffa1",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b827f3b7-66ec-4632-ad72-c5d7c9e5a3cc",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_3b0d5d0b-29f3-4d33-ba5e-d8695c2ffcc9",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aa738b82-4820-4f91-9b37-9940d095a6d4",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_d695abe8-0125-4267-b45d-b5d444f96486",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_bb54e30a-1ee9-4599-a2bd-b7ecdf8ce4ae",
+            "text": "What is the severity of vertigo ?",
+            "display-mr": "चक्कर / व्हर्टिगोची तीव्रता काय आहे?",
+            "display-hi": "वर्टिगो या चक्कर आने की समस्या कितनी अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c030a7a8-2944-4d32-9c58-0b11c6e94c8a",
+                    "text": "Mild",
+                    "display-mr": "सौम्य",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_bf5cbe22-c6db-424f-a82a-b5543b87978b",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_903a4a1c-bcaa-40eb-89b9-d731baa45b76",
+                    "text": "Severe",
+                    "display-mr": "गंभीर",
+                    "display-hi": "गंभीर"
+                }
+            ]
+        },
+        {
+            "id": "ID_501b6a17-ab5e-40ca-ba40-ce8d38a3bf70",
+            "text": "How long do your spinning sensation lasts ?",
+            "display-mr": "तुमची चक्कर किती काळ टिकते?",
+            "display-hi": "आपकी चक्कर आने का अहसास कितने समय तक रहती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_383d8bc4-9175-44bb-b45a-0bbf7a75aeef",
+                    "text": "A fewseconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_45a1cf0c-4807-4a66-986d-9302e3adabeb",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_d297f5ae-41b8-419e-a018-04c85a796bca",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                },
+                {
+                    "id": "ID_eb6e58fd-b28c-4dc6-8f09-24130ad698af",
+                    "text": "A few days",
+                    "display-mr": "काही दिवस",
+                    "display-hi": "कुछ दिन"
+                }
+            ]
+        },
+        {
+            "id": "ID_b886a857-b0a3-4668-ab16-e7a1bc749d2c",
+            "text": "How often you have vertigo?",
+            "display-mr": "तुम्हाला चक्कर / व्हर्टिगो कितीदा येते?",
+            "display-hi": "आपको कितनी बार यह समस्या होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d8a83e69-783e-490b-94f5-006b1dd04b70",
+                    "text": "Continuous",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_3e0a318e-6ca3-4b7d-9c90-fe3e22907df4",
+                    "text": "Frequently",
+                    "display-mr": "वारंवार",
+                    "display-hi": "अक्सर"
+                },
+                {
+                    "id": "ID_019c6200-3ba9-4a50-892f-e7c158f273b1",
+                    "text": "Occasionally",
+                    "display-mr": "अधूनमधून",
+                    "display-hi": "कभी-कभी"
+                }
+            ]
+        },
+        {
+            "id": "ID_46c99249-2ea9-4677-b38b-9ff9557590a2",
+            "text": "Is vertigo related to any specific time of the day?",
+            "display-mr": "दिवसाच्या कोणत्याही विशिष्ट वेळेशी या चक्कर येण्याशी संबंध आहे का?",
+            "display-hi": "क्या चक्कर आना या वर्टिगो दिन के किसी खास समय पर बढ़ जाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_38cf6c0c-f626-45af-b929-87e555d40367",
+                    "text": "Early morning",
+                    "display-mr": "पहाटे",
+                    "display-hi": "सुबह-सुबह"
+                },
+                {
+                    "id": "ID_a13f9106-bb40-446e-b2c3-22d86c8089d0",
+                    "text": "Afternoon",
+                    "display-mr": "दुपार",
+                    "display-hi": "दोपहर"
+                },
+                {
+                    "id": "ID_60a6aa0b-0d91-4d5e-9bbc-5bc79d5f14bb",
+                    "text": "Evening",
+                    "display-mr": "संध्याकाळ",
+                    "display-hi": "शाम"
+                },
+                {
+                    "id": "ID_3ada9512-577e-40d1-beba-4e9bc5f2a34f",
+                    "text": "Night",
+                    "display-mr": "रात्री",
+                    "display-hi": "रात"
+                }
+            ]
+        },
+        {
+            "id": "ID_65dc7294-f55f-4306-b615-7fec8f1a8231",
+            "text": "What does relieve or lessen the vertigo?",
+            "display-mr": "चक्कर / व्हर्टिगो मध्ये कशामुळे आराम मिळतो किंवा तो कशा मुळे कमी होतो?",
+            "display-hi": "किस चीज से चक्कर आने या वर्टिगो से राहत मिलती है या यह कम होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d5d4e343-4825-4fee-ac1f-cba6286eb4bd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_331be6b5-77a7-478f-874b-19fff4f2f9dc",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_869d8207-51a7-4bff-b846-1f908c2db640",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_9705f94a-c4e0-46b6-af0c-4e4985db0113",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_5785f2c7-65d6-43e2-ab7f-9e225c53d9fb",
+                    "text": "Drinking fluids",
+                    "display-mr": "द्रवपदार्थ पिणे",
+                    "display-hi": "तरल पदार्थ पीना"
+                },
+                {
+                    "id": "ID_1d7cfd50-7c3d-48cb-996f-542f1c2c17fd",
+                    "text": "Sitting quietly",
+                    "display-mr": "शांतपणे बसणे",
+                    "display-hi": "चुपचाप बैठना"
+                },
+                {
+                    "id": "ID_724f2234-7713-4abc-96f6-e2c7ae10da1f",
+                    "text": "Neck collar",
+                    "display-mr": "नेक कॉलर (गळ्यातला पट्टा)",
+                    "display-hi": "गर्दन कॉलर"
+                },
+                {
+                    "id": "ID_ad80573a-1669-4949-9d38-25982fbcec23",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (वर्णन करें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_0b9391f8-78ba-41d4-87a4-cde612875aff",
+            "text": "What does trigger or increase your vertigo ?",
+            "display-mr": "तुमची चक्कर / व्हर्टिगो कशामुळे वाढतो ?",
+            "display-hi": "वर्टिगो को क्या शुरू करता है या बढ़ाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_37df19e4-9eaa-4a87-92ac-2b8a6b388fd3",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_762487a7-26e5-4122-a976-67676845e2de",
+                    "text": "Head movements",
+                    "display-mr": "डोक्याच्या हालचाली",
+                    "display-hi": "सिर की हरकतें"
+                },
+                {
+                    "id": "ID_7d8864f8-60c8-4d44-8db4-da2518ee345c",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_51cad751-1548-47ab-9679-c128a70d063b",
+                    "text": "Standing",
+                    "display-mr": "उभे",
+                    "display-hi": "खड़ा होना"
+                },
+                {
+                    "id": "ID_da9943db-1e1b-45d0-a1d6-598aed3ee958",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_dd5405c5-c924-4621-ac7a-cac84764fdd9",
+                    "text": "Alcohol intake",
+                    "display-mr": "दारूचे सेवन",
+                    "display-hi": "शराब का सेवन"
+                },
+                {
+                    "id": "ID_26e5ee99-4629-426a-a98a-498015f61d9c",
+                    "text": "Loud noises",
+                    "display-mr": "मोठा आवाज",
+                    "display-hi": "तेज आवाजें"
+                },
+                {
+                    "id": "ID_650946cb-bcf4-43f4-9bd3-282910f6c468",
+                    "text": "Others",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_d66bdac0-26ef-4653-8a84-21c3267f4335",
+            "text": "How is vertigo progressing?",
+            "display-mr": "चक्कर आता कशी आहे?",
+            "display-hi": "वर्टिगो या चक्कर में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_80b7ee58-d4d1-4074-a738-79b77a8654aa",
+                    "text": "Increasing",
+                    "display-mr": "वाढवणे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_dca6ea45-3fd3-4b9c-8e9d-a59c44242a17",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होणे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_eacd0d8c-f163-459a-b2a9-146f0c0c19d5",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_945c68ad-85b9-4934-8301-3679702feb5f",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_d5dfc087-70a3-4f7f-9821-9f5c767fd833",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_d9f9e452-42d2-4a80-a5c0-8a6323a65eaa",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_b69f0fe1-ae70-4864-916c-a654a4a4f4e8",
+                    "text": "Vomitting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_f2d2b513-c89d-4967-99a7-b4cdaf7114dd",
+                    "text": "Loss of balance",
+                    "display-mr": "तोल जाणे",
+                    "display-hi": "संतुलन की कमी"
+                },
+                {
+                    "id": "ID_c3a083ef-11d9-4529-a167-3e155f22b6e4",
+                    "text": "Fast eye movements",
+                    "display-mr": "डोळ्यांच्या जलद हालचाली",
+                    "display-hi": "आंखों का तेज चलना"
+                },
+                {
+                    "id": "ID_a028ddf5-5321-4dd8-ace4-03292b5d8a16",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_9502064f-0edc-48ab-8ceb-d3004d8fb692",
+                    "text": "Ringing in ears",
+                    "display-mr": "कानात आवाज होणे",
+                    "display-hi": "कानों में बजना"
+                },
+                {
+                    "id": "ID_21e06e63-f787-4e67-a8fb-72fd51dec782",
+                    "text": "Fullness in ears",
+                    "display-mr": "कान भरल्यासारखे वाटणे",
+                    "display-hi": "कानों में भरापन"
+                },
+                {
+                    "id": "ID_acb4d4ca-10bc-442a-a41e-af2099680163",
+                    "text": "Hearing loss",
+                    "display-mr": "श्रवणशक्ती कमी होणे",
+                    "display-hi": "सुनने में कमी"
+                },
+                {
+                    "id": "ID_26dfe87a-6672-4fec-b0b7-7e197549ea4a",
+                    "text": "Ear pain",
+                    "display-mr": "कान दुखणे",
+                    "display-hi": "कान में दर्द"
+                },
+                {
+                    "id": "ID_537662be-b383-4a99-916b-415f7299620a",
+                    "text": "Ear discharge",
+                    "display-mr": "कानातून स्त्राव येणे",
+                    "display-hi": "कान से पानी आना"
+                },
+                {
+                    "id": "ID_1d5d50a2-f577-491e-bdc7-f7bf54eb9a27",
+                    "text": "History of head injury",
+                    "display-mr": "डोक्याला दुखापत झाल्याचा इतिहास",
+                    "display-hi": "सिर पर चोट लगने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_006bf839-1ec5-4dd3-8f0b-db1223b7236a",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे होती का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_82453850-775a-4382-9839-bae2b263fa17",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_4e66fd6c-f07e-49ca-82f5-bc814d28b49d",
+                    "text": "Vision disturbance",
+                    "display-mr": "दृष्टीचा त्रास",
+                    "display-hi": "दृष्टि विकार"
+                },
+                {
+                    "id": "ID_d7f384aa-356f-4167-b12c-a9753a7657af",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायू कमकुवत होणे",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_7d451575-7b60-4fdb-b5e1-c3640243e4fa",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_2941ff4e-525e-4f68-a84a-e3f976b585f9",
+                    "text": "Eye sensitivity to light",
+                    "display-mr": "डोळ्याची प्रकाशाची संवेदनशीलता",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_4205e375-bf76-424b-9a97-fad39c44168f",
+                    "text": "Double vision",
+                    "display-mr": "दुहेरी दृष्टी",
+                    "display-hi": "दोहरी दृष्टि"
+                },
+                {
+                    "id": "ID_d291ae6d-ffd9-42bf-a476-5367be47d08b",
+                    "text": "Slurred speech",
+                    "display-mr": "अस्पष्ट भाषण",
+                    "display-hi": "बोलते समय अस्पष्टता"
+                },
+                {
+                    "id": "ID_085de818-b35e-4f50-ad7e-2604316024ba",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यात अडचण",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_bb6734b0-7fc8-4b4e-a953-f8b9c45aabbe",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "कर्कश आवाज",
+                    "display-hi": "आवाज का कर्कश होना"
+                },
+                {
+                    "id": "ID_f1ffdfed-4ebd-4d63-b14f-a144920fa36b",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर येणे (हलकेपणा)",
+                    "display-hi": "चक्कर आना (सिर चकराना)"
+                },
+                {
+                    "id": "ID_b713e43e-a7f4-41cd-aaaf-6b5bf2a8404d",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d5593e0f-572e-4800-9dfc-05f42d4472e4",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d07e954c-4037-45f7-b976-a9b63e91af5c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_9690f8e4-66af-4494-994b-70085817ef4d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_7824fd5e-955b-4639-8c8c-1931d5a6fedc",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_19e252f3-1133-4583-89db-fd60b445a2fc",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_4d61a315-d5ed-491d-93e4-ba7e2ad30da4",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
