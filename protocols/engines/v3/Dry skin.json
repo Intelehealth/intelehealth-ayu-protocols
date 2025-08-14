@@ -1,0 +1,779 @@
+{
+    "id": "ID_3d997f9e-984d-436a-8745-523bb510f089",
+    "text": "Dry skin",
+    "engineVersion": "3.0",
+    "display-mr": "कोरडी त्वचा",
+    "display-hi": "रूखी त्वचा",
+    "options": [
+        {
+            "id": "ID_a2feb1cb-8424-4166-be12-7b0f9547b30c",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d94b963-cea5-4573-8e2d-471cef731214",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_b615834d-2ecf-40f5-8261-f23f8ebcf83e",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने जाणवू लागली?",
+            "display-hi": "यह लक्षण कितनी तेजी से विकसित हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_cf3c1888-a438-4772-a3ea-515718b9e487",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                },
+                {
+                    "id": "ID_09e6bc7e-df2c-42b9-b950-a29bd0345a9a",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                }
+            ]
+        },
+        {
+            "id": "ID_05a44d14-7cf2-414a-bd37-05e98a60b8a1",
+            "text": "Where do you have the dry skin?",
+            "display-mr": "तुमची कुठली त्वचा कोरडी आहे?",
+            "display-hi": "आपकी त्वचा कहां रूखी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_38f606f5-f2bd-4445-8aa7-b4a974aae3cf",
+                    "text": "All over body",
+                    "display-mr": "संपूर्ण शरीरावर",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_d9f97658-19d2-4a4f-b988-5e59bb0f68aa",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचा भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_b3edee47-901a-4e55-91c8-e27130d5681e",
+                            "text": "Which part of body do you have Dry skin?",
+                            "display-mr": "शरीराच्या कोणत्या भागाची त्वचा कोरडी आहे?",
+                            "display-hi": "आपके शरीर के किस अंग में रूखापन है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_fc398975-54f2-437c-ad56-52af3cb5d9e1",
+                                    "text": "Scalp",
+                                    "display-mr": "टाळू",
+                                    "display-hi": "खोपड़ी"
+                                },
+                                {
+                                    "id": "ID_5eaf0f5e-22d6-460d-b0d4-f22cdc129b45",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_1fd01dda-e79e-4352-b0e0-5d7ba31df061",
+                                    "text": "Lips",
+                                    "display-mr": "ओठ",
+                                    "display-hi": "होंठ"
+                                },
+                                {
+                                    "id": "ID_c5b31563-fbdd-4199-be25-9ce3f1236fdc",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_3e423c12-b753-412d-8661-1568e769fef2",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_51d34fa3-b898-46c7-9106-c3d1a43652ba",
+                                    "text": "Arm",
+                                    "display-mr": "बाहू",
+                                    "display-hi": "बांह"
+                                },
+                                {
+                                    "id": "ID_94f98493-cdaa-4b51-aa0f-e45ff804f0be",
+                                    "text": "Hand",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_15c2f86d-2e08-4065-8be0-93202fb917ec",
+                                    "text": "Fingers",
+                                    "display-mr": "बोटे",
+                                    "display-hi": "उंगलियां"
+                                },
+                                {
+                                    "id": "ID_e2906f98-1918-4aa6-ba24-332a96d38c4c",
+                                    "text": "Abdomen",
+                                    "display-mr": "पोट",
+                                    "display-hi": "पेट"
+                                },
+                                {
+                                    "id": "ID_bb64738f-4a92-4f10-a049-3df955a739b2",
+                                    "text": "Back",
+                                    "display-mr": "मागे",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_80fd0ede-c773-4b56-bb68-2d9533408c70",
+                                    "text": "Groin",
+                                    "display-mr": "मांडीचा सांधा",
+                                    "display-hi": "कमर के नीचे"
+                                },
+                                {
+                                    "id": "ID_14d00efb-3699-4489-a5a4-96dfc0ee3531",
+                                    "text": "Anal region",
+                                    "display-mr": "गुदा क्षेत्र",
+                                    "display-hi": "गुदा क्षेत्र"
+                                },
+                                {
+                                    "id": "ID_9be4f274-07ab-45ac-adf2-c66a5adb7ce9",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_8d044650-fe0a-4383-95dd-02792ce38b37",
+                                    "text": "Foot",
+                                    "display-mr": "तळवा",
+                                    "display-hi": "पद"
+                                },
+                                {
+                                    "id": "ID_def7b563-e141-421f-91a9-01b577a43c93",
+                                    "text": "Toes",
+                                    "display-mr": "पायाची बोटं",
+                                    "display-hi": "पैर की उंगलियां"
+                                },
+                                {
+                                    "id": "ID_dcf6875a-9d00-4c82-841f-095bb6ca277f",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_479dcee1-822e-400b-8966-c2915bc2b704",
+            "text": "Which side of body do you have Dry skin?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या बाजूची त्वचा कोरडी आहे?",
+            "display-hi": "आपके शरीर के किस तरफ रूखापन है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_759e687e-dfb0-44e4-aaf8-be3528460dfa",
+                    "text": "Left",
+                    "display-mr": "डावे",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_e36cd688-7c4e-473f-b13a-0e44f676c799",
+                    "text": "Right",
+                    "display-mr": "उजवे",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_bc6b9900-76af-4f99-983e-9ac31852f9d0",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंनी",
+                    "display-hi": "दोनों तरफ"
+                },
+                {
+                    "id": "ID_ba3a7144-3e03-4df2-b88a-25a14ee928ce",
+                    "text": "Centre",
+                    "display-mr": "केंद्र",
+                    "display-hi": "मध्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_bf73dd52-9078-45c8-8397-a5b0fd3f3120",
+            "text": "What increases or worsen the dryness of skin?",
+            "display-mr": "त्वचेचा कोरडेपणा कशामुळे वाढतो किंवा खराब होतो?",
+            "display-hi": "आपकी त्वचा का रूखापन किस वजह से बढ़ता या बिगड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_64f0db06-a4b8-4c70-b3a2-267a4443eada",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6d5ae001-c5fe-4696-9b7f-83788ac6ed2f",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_da8b3091-f653-40a6-a561-78e7026bcd24",
+                    "text": "Certain foods",
+                    "display-mr": "विशिष्ट पदार्थ",
+                    "display-hi": "कुछ खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_5dc41ee5-a931-4284-b97b-a47697159257",
+                    "text": "Sunlight",
+                    "display-mr": "सूर्यप्रकाश",
+                    "display-hi": "सूर्य की रोशनी"
+                },
+                {
+                    "id": "ID_e79c7283-4847-48b9-93be-380cbddddcec",
+                    "text": "Soap",
+                    "display-mr": "साबण",
+                    "display-hi": "साबुन"
+                },
+                {
+                    "id": "ID_c20fa1c5-3a09-4e25-be52-ab8bf54ac0ee",
+                    "text": "Chemicals",
+                    "display-mr": "रसायने",
+                    "display-hi": "रसायन"
+                },
+                {
+                    "id": "ID_1f620e11-564c-4e84-8f6b-6d634658d383",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_de4edc22-6a16-45b3-bdc3-94fcfc801ef4",
+                    "text": "Sweating",
+                    "display-mr": "घाम येणे",
+                    "display-hi": "पसीना आना"
+                },
+                {
+                    "id": "ID_568c78a0-3b5f-41bb-b76e-2013152128c2",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_da4cd669-3174-4b6a-8abc-a5e2503f3847",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_9274c4ce-908b-4880-86fe-ced3621dea8f",
+            "text": "What reduces or lessens the dryness of skin?",
+            "display-mr": "त्वचेचा कोरडेपणा कशामुळे कमी होतो?",
+            "display-hi": "आपकी त्वचा का रूखापन किस तरह कम होता सकता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_33d53ca4-fe74-412a-a0d3-e70682666a70",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6958ace5-7c33-4cbf-9fd1-fee7adf6a010",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधोपचार",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_cc8a9b88-e047-46d0-9ff1-73f16752bc24",
+                    "text": "Cold compression",
+                    "display-mr": "थंड शेकणे",
+                    "display-hi": "ठंडा कंप्रेशन"
+                },
+                {
+                    "id": "ID_64e0b56b-39f2-4a53-abb9-98832af55915",
+                    "text": "Moisturizers",
+                    "display-mr": "मॉइश्चरायझर्स",
+                    "display-hi": "मॉइस्चराइजर"
+                },
+                {
+                    "id": "ID_6991b7c1-543b-4d3d-8687-de7223d9bdb4",
+                    "text": "Avoidance of causes",
+                    "display-mr": "मुख्य कारण टाळल्यास",
+                    "display-hi": "कारणों से बचना"
+                },
+                {
+                    "id": "ID_9b0a1ff0-c25b-4abd-87a6-e3f1ce3040d7",
+                    "text": "Skin ointments",
+                    "display-mr": "त्वचेचे मलम",
+                    "display-hi": "त्वचा की मलहम"
+                },
+                {
+                    "id": "ID_c7c361c7-e3e8-4de2-802f-c1e963cba8ad",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_806e220b-a9ae-4c6a-922e-02fda1beae44",
+                    "text": "Exercise",
+                    "display-mr": "व्यायाम",
+                    "display-hi": "व्यायाम"
+                },
+                {
+                    "id": "ID_6383d9b8-1949-4272-ae61-61295aeddb7a",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c2855eb2-ebe0-4204-8f0a-65f8b729fbfb",
+            "text": "Does the dryness of skin have any pattern during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रादरम्यान त्वचा कोरडी पडण्याचे काही पैटर्न आहेत का?",
+            "display-hi": "क्या 24 घंटे के चक्र में त्वचा के रूखेपन का कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f34cc2bf-dd86-4a6d-a1b3-9bf81eea3fd0",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_faeec188-8f41-4a66-905e-65e987a8ba9a",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_842a6c00-ae4b-480d-82cd-15a65a06d141",
+                            "text": "When do you have or feel the dryness of skin worst?",
+                            "display-mr": "तुम्हाला त्वचेचा कोरडेपणा कधी येतो किंवा जाणवतो?",
+                            "display-hi": "आपकी त्वचा का रूखापन सबसे ज्यादा कब होता है या आपको कब महसूस होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_38d904d3-d5a1-427c-ab41-3eba4f107be3",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_94703074-97f9-406c-bc57-23b7609236dd",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपार",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_3471a77a-fc5c-4d9f-bc2d-28da4a348790",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_ed62085f-818f-4d7a-828b-55f1950bc37c",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9453cf2b-114b-4020-b08c-ef8933f84ca6",
+            "text": "How severe is the dry skin?",
+            "display-mr": "कोरडी त्वचा किती गंभीर समस्या आहे?",
+            "display-hi": "रूखी त्वचा की समस्या कितनी गंभीर है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bcf853f6-77a7-4790-b4df-1bee33065f3e",
+                    "text": "Mild",
+                    "display-mr": "सौम्य",
+                    "display-hi": "सौम्य"
+                },
+                {
+                    "id": "ID_142436d8-6bc7-49aa-a953-6ef7ddeb1ddf",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_d349ef4d-2613-468d-a673-2505b0919b95",
+                    "text": "Severe",
+                    "display-mr": "गंभीर",
+                    "display-hi": "गंभीर"
+                },
+                {
+                    "id": "ID_abaa993c-2ad6-48ec-bc8b-f966c5bd899b",
+                    "text": "Intolerable",
+                    "display-mr": "असह्य",
+                    "display-hi": "असहनीय"
+                }
+            ]
+        },
+        {
+            "id": "ID_df198cb6-f051-4740-a6c6-fe089f562c35",
+            "text": "Is the dryness of skin spreading to other parts of body?",
+            "display-mr": "त्वचेचा कोरडेपणा शरीराच्या इतर भागात पसरतो का?",
+            "display-hi": "क्या त्वचा का रूखापन शरीर के दूसरे हिस्सों में भी फैल रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c1ce7dd8-072d-450d-af9e-e16f98cc5c35",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_dfc365c4-0e04-43ef-930d-edb1bd111cb6",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_b66a3513-957e-4da0-800c-edfd5984b6d2",
+            "text": "Do you have the following features associated with dry skin?",
+            "display-mr": "तुमच्याकडे कोरड्या त्वचेशी संबंधित खालील वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपकी त्वचा के रूखेपन से जुड़ी निम्नलिखित समस्याएं हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f87455bd-6c72-4aef-8cae-157cdfb276bb",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6af67dff-4902-461d-a355-64880af1fbe5",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_d56ae9b5-f551-45e9-bd61-0e5354ca77f5",
+                    "text": "Cracks",
+                    "display-mr": "भेगा",
+                    "display-hi": "दरारें"
+                },
+                {
+                    "id": "ID_c1a25468-62c7-4591-b93e-894ee7bd6562",
+                    "text": "Itching",
+                    "display-mr": "खाज सुटणे",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_37149cb7-dd56-4883-8d6c-ea2822403a49",
+                    "text": "Bumps",
+                    "display-mr": "उंचवटे",
+                    "display-hi": "उभार"
+                },
+                {
+                    "id": "ID_6d32c357-cf84-4fc9-8235-e4fcfb907f0f",
+                    "text": "Blisters",
+                    "display-mr": "फोड",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_afd40a68-5a15-47dd-a355-f02417cad141",
+                    "text": "Ulcers",
+                    "display-mr": "व्रण",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_b1e8be80-5a4d-476d-90e5-54bc84c89238",
+                    "text": "Peeling of skin",
+                    "display-mr": "त्वचा सोलणे",
+                    "display-hi": "त्वचा का छिलना"
+                },
+                {
+                    "id": "ID_2dd96ea6-dab3-46a4-b0de-33798e58eb01",
+                    "text": "Oozing",
+                    "display-mr": "स्त्राव वाहणे",
+                    "display-hi": "रिसना"
+                },
+                {
+                    "id": "ID_efc2fc01-8ce5-48f0-bd1d-27c0341c4e2a",
+                    "text": "Skin thickening",
+                    "display-mr": "त्वचा जाड होणे",
+                    "display-hi": "त्वचा का मोटा होना"
+                },
+                {
+                    "id": "ID_59783fc7-d757-4458-a47d-efd7c5e7ed17",
+                    "text": "Scaling",
+                    "display-mr": "खपल्या निघणे",
+                    "display-hi": "त्वचा का उखड़ना"
+                },
+                {
+                    "id": "ID_5069b3f0-20d7-4950-98f4-383733ec354e",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_57678faa-bd7b-4081-83b1-a38dc517c77f",
+            "text": "How is dryness of skin progressing?",
+            "display-mr": "त्वचेचा कोरडेपणा कसा वाढत आहे?",
+            "display-hi": "आपकी त्वचा का रूखापन किस तरह बढ़ रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7b104068-559c-484e-a370-5be5100d5a28",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_11a19aba-d8aa-48ab-b4ce-5c55cffe8c94",
+                    "text": "Spreading",
+                    "display-mr": "पसरत आहे",
+                    "display-hi": "फैलना"
+                },
+                {
+                    "id": "ID_84717c0c-e163-43ba-996f-85b7db45982c",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_d50a31d0-4f04-41f4-8288-5eb69baf9227",
+                    "text": "Seasonal (recurrent)",
+                    "display-mr": "हंगामी (वारंवार)",
+                    "display-hi": "मौसमी (बार-बार होने वाला)"
+                },
+                {
+                    "id": "ID_13fc3517-b092-4e34-9708-ad9363e708b4",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_af5871bb-2353-42bc-9a90-c86c461f0060",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_59d0cd45-8318-4fbb-91f0-c9388f0f9ca3",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेला  खाज सुटणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_b13f40b1-1055-4af4-a42a-bcc7dd7c878a",
+                    "text": "Dark urine",
+                    "display-mr": "गडद लघवी",
+                    "display-hi": "गहरे रंग का पेशाब"
+                },
+                {
+                    "id": "ID_a3c8b367-7ffd-42de-9102-5a6c6fabbe02",
+                    "text": "Excessive sweating",
+                    "display-mr": "जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_72c79bd0-1065-4fb0-9022-a51454dd8044",
+                    "text": "Worm infestation",
+                    "display-mr": "जंत संसर्ग",
+                    "display-hi": "कृमि संक्रमण"
+                },
+                {
+                    "id": "ID_72d66e44-b214-4ca6-8fac-41657ca4e067",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_c90bea24-f248-4a2f-9f51-e65c1192d6b8",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_7055b1bc-fc0b-4a4c-a41f-d0569626e91d",
+                    "text": "Excessive thirst",
+                    "display-mr": "जास्त तहान लागते",
+                    "display-hi": "अत्यधिक प्यास"
+                },
+                {
+                    "id": "ID_b09ce335-93f7-47a0-9c2c-a07143e08784",
+                    "text": "History of recent medication intake",
+                    "display-mr": "नुकत्याच घेतलेल्या औषधांचा इतिहास",
+                    "display-hi": "हाल ही में दवा लेने का इतिहास"
+                },
+                {
+                    "id": "ID_68f8d0f4-a73c-4624-acca-47105f088f1b",
+                    "text": "History of skin allergy",
+                    "display-mr": "त्वचेच्या ऍलर्जीचा इतिहास",
+                    "display-hi": "त्वचा एलर्जी का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_d68c0521-bd5d-41e3-84fd-186c3500d515",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_09a6abd9-0bff-4cdb-8fcb-db076dd25b06",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1dd08b75-293f-4691-9773-53e0067750c1",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_685f67df-e855-4bbb-9746-a48e334dee8f",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_8d100212-6a22-4154-bb49-2b3ce66bb40a",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_a82ddcd6-6bdb-466a-a894-c177a5a3fcf0",
+                    "text": "Joint swelling",
+                    "display-mr": "सांध्याची  सूज",
+                    "display-hi": "जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_ef694186-5125-44fc-b593-1d0ded2616a4",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_4a62c013-5791-47c7-801b-f23133a4a8c9",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_03704607-3efc-44ba-85c5-8cd8025562a9",
+                    "text": "Depression",
+                    "display-mr": "नैराश्य",
+                    "display-hi": "अवसाद"
+                },
+                {
+                    "id": "ID_d8cf8b43-b4d2-46cb-8ec7-8957c39454ef",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_81a935cb-89db-4e0e-bab3-ff6eb283c37b",
+                    "text": "Eating abnormal objects",
+                    "display-mr": "असामान्य वस्तू खाणे",
+                    "display-hi": "असामान्य वस्तुएं खाना"
+                },
+                {
+                    "id": "ID_547b07ec-a682-4fe6-90d6-2472605a08e9",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ea2aade3-602c-413c-b147-de7b67e20d04",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ff7ee7f0-8cdd-4bf5-8fb2-f25ba254129d",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_06b401b9-ab8c-4954-93d3-050dfc1d926d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_0e636340-9d53-4a11-8a58-4be553bf85fc",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_28db1e02-2e92-44de-8ce4-7e07f8082d4c",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_73a0cbe0-9517-46cd-aa85-b8699cf2820d",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

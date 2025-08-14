@@ -1,0 +1,639 @@
+{
+    "id": "ID_9cc6cf9f-c898-4f65-9027-c5afd2514e0c",
+    "text": "Choking",
+    "engineVersion": "3.0",
+    "display-mr": "श्वास गुदमरणे",
+    "display-hi": "दम घुटना",
+    "options": [
+        {
+            "id": "ID_610bb8d1-7ee3-4c0b-8756-893da3ef7419",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e4a4e78f-7712-4941-9766-cba76a36af8c",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_0b728041-7692-4b89-9fac-b6b2f63b61e8",
+            "text": "How fast did this choking develop?",
+            "display-mr": "हे श्वास गुदमरणे किती वेगाने सुरू झाले?",
+            "display-hi": "यह घुटन कितनी तेजी से बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_674df91e-709f-438f-ac99-ab5173eae569",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_e3d3a01d-ef5b-4606-858c-0f748f357f13",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_2845b4f3-0d9c-45f4-9501-3251bfeec4b6",
+            "text": "What were you doing when the choking began?",
+            "display-mr": "श्वास गुदमरणे सुरू झाले तेव्हा तुम्ही काय करत होता?",
+            "display-hi": "जब घुटन शुरू हुई तो आप क्या कर रहे थे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_073d3716-bcd3-4342-9048-8e27dd988db6",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_57c71b00-84aa-463e-a68c-800e50775aef",
+                    "text": "Eating",
+                    "display-mr": "खाणे",
+                    "display-hi": "खाना"
+                },
+                {
+                    "id": "ID_f5bf0844-aa9d-460e-b8ed-5d19bdab571a",
+                    "text": "Drinking",
+                    "display-mr": "पिणे",
+                    "display-hi": "पीना"
+                },
+                {
+                    "id": "ID_5f867663-91bb-401f-9a3c-8f6961b31a71",
+                    "text": "Talking",
+                    "display-mr": "बोलणे",
+                    "display-hi": "बात करना"
+                },
+                {
+                    "id": "ID_a3ad5952-7355-40b9-980b-cc4331f97272",
+                    "text": "Exercise",
+                    "display-mr": "व्यायाम करणे",
+                    "display-hi": "व्यायाम"
+                },
+                {
+                    "id": "ID_15d738a5-c5e9-426e-9228-16e117d8b323",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_71533032-5428-497a-ab03-b4d21c01fe4c",
+            "text": "What happened when choking started?",
+            "display-mr": "श्वास गुदमरण्यास सुरुवात झाली तेव्हा काय झाले?",
+            "display-hi": "जब घुटन शुरू हुई तो क्या हुआ?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_563f6364-a8c7-4b2c-9bb9-2ebe6c6e4d9e",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_50c5e6fe-2dec-4fe5-8815-a1f4109c470d",
+                    "text": "Severe coughing",
+                    "display-mr": "तीव्र खोकला",
+                    "display-hi": "गंभीर खांसी"
+                },
+                {
+                    "id": "ID_20082831-6621-44f5-837b-e58b51430682",
+                    "text": "Unable to breathe",
+                    "display-mr": "श्वास घेता न येणे",
+                    "display-hi": "सांस लेने में असमर्थ"
+                },
+                {
+                    "id": "ID_1c9072c2-6b9b-4992-9d2e-23e32b05133c",
+                    "text": "Unable to talk",
+                    "display-mr": "बोलता न येणे",
+                    "display-hi": "बात करने में असमर्थ"
+                },
+                {
+                    "id": "ID_cf6bfe2c-00ac-43c3-ada3-51a34eb227c9",
+                    "text": "Clutching at throat",
+                    "display-mr": "गळा पकडणे",
+                    "display-hi": "गले को पकडना"
+                },
+                {
+                    "id": "ID_685c39c0-496b-4153-9cf8-16431b5d7bfc",
+                    "text": "Wheezing",
+                    "display-mr": "छातीत घरघर",
+                    "display-hi": "घरघराहट"
+                },
+                {
+                    "id": "ID_9442e6a9-6e4a-4288-b824-dd89b3034f88",
+                    "text": "Whistling",
+                    "display-mr": "छातीतून शिट्टीसारखा आवाज येणे",
+                    "display-hi": "सीटी बजाना"
+                },
+                {
+                    "id": "ID_2f227108-7252-4499-b371-494ff8d843e7",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाज घोगरा होणे",
+                    "display-hi": "आवाज में कर्कशता"
+                },
+                {
+                    "id": "ID_f45083a8-4922-4204-b369-fe2d88a742d8",
+                    "text": "Stridor",
+                    "display-mr": "कर्कश्श आवाज",
+                    "display-hi": "सांस लेने में आवाज"
+                },
+                {
+                    "id": "ID_891b6b5b-a352-42f2-9143-b4d7abc0b11b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_080bbb7a-c6e7-4ac0-bcd3-0e76e2540849",
+            "text": "What was the object that caused choking?",
+            "display-mr": "कोणत्या वस्तूमुळे श्वास गुदमरला?",
+            "display-hi": "वह कौन सी वस्तु थी जिससे घुटन हुई?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2ba92bc1-8216-4226-9d8c-4568a1660fec",
+                    "text": "Food",
+                    "display-mr": "अन्नपदार्थ",
+                    "display-hi": "खाना"
+                },
+                {
+                    "id": "ID_5e8d8411-fb93-4b67-a8b4-2bd7cad0fe31",
+                    "text": "Water",
+                    "display-mr": "पाणी",
+                    "display-hi": "पानी"
+                },
+                {
+                    "id": "ID_f705d2d4-4f06-4c78-8712-78d3832af6f2",
+                    "text": "Saliva (sputum)",
+                    "display-mr": "लाळ (थुंकी)",
+                    "display-hi": "लार (थूक)"
+                },
+                {
+                    "id": "ID_6018a728-175a-49b0-989d-2fc3c00a37b9",
+                    "text": "Milk",
+                    "display-mr": "दूध",
+                    "display-hi": "दूध"
+                },
+                {
+                    "id": "ID_f8ec56b6-8fe9-4203-88b1-e74dec68e854",
+                    "text": "Tooth",
+                    "display-mr": "दात",
+                    "display-hi": "दांत"
+                },
+                {
+                    "id": "ID_ddf87334-bc9c-4bdf-a8d7-890651468ec0",
+                    "text": "Dentures",
+                    "display-mr": "कवळी",
+                    "display-hi": "डेन्चर"
+                },
+                {
+                    "id": "ID_2a852b22-ecb9-46d6-b259-e9e11b218ae0",
+                    "text": "Buttons",
+                    "display-mr": "बटणे",
+                    "display-hi": "बटन"
+                },
+                {
+                    "id": "ID_d47c9e01-a0c6-4b75-8815-bae5273788b7",
+                    "text": "Beads",
+                    "display-mr": "मणी",
+                    "display-hi": "मोती"
+                },
+                {
+                    "id": "ID_847d8dfd-0fc8-42a8-a126-540aeb4672f8",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_6fd84225-a223-4f41-9f21-480d445fc2c6",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_41306503-72b6-42dd-afe1-ea573a7774c1",
+            "text": "Did you inhale or accidentally swallow any object?",
+            "display-mr": "तुम्ही एखादी वस्तू श्वासावाटे घेतली का किंवा अपघाताने गिळली का?",
+            "display-hi": "क्या आपने कोई वस्तु अंदर ली या गलती से निगल ली?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f0448771-ba14-4e38-bdbd-7e0a225f42df",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_02632d50-ba86-49fe-965f-fc3e73301692",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_d141701f-0001-4e53-b67f-e08754623e18",
+            "text": "Did you or anyone notice any of these associated symptoms at the time of choking or after the choking?",
+            "display-mr": "श्वास गुदमरण्याच्या वेळी किंवा गुदमरल्यानंतर तुम्हाला किंवा इतर कुणालाही ही संबंधित लक्षणे दिसून आली का?",
+            "display-hi": "क्या घुटन के समय या घुटन के बाद आपको या अन्य किसी को इनमें से कोई भी संबंधित लक्षण दिखाई दिया?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cd32c372-ef7c-480a-8dbc-509fea08dd14",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_046aec4e-d3ec-4c1b-8c9f-db4274c5b898",
+                    "text": "Fits",
+                    "display-mr": "झटके",
+                    "display-hi": "फिट होना"
+                },
+                {
+                    "id": "ID_b1c34c45-7117-4943-8999-49b4dee0a01d",
+                    "text": "Loss of consciousness",
+                    "display-mr": "शुद्ध हरपणे",
+                    "display-hi": "चेतना का खो जाना"
+                },
+                {
+                    "id": "ID_c3f20221-78cf-4d18-8a82-30253ba88156",
+                    "text": "Pale skin",
+                    "display-mr": "निस्तेज त्वचा",
+                    "display-hi": "त्वचा का पीला पड़ना"
+                },
+                {
+                    "id": "ID_4805488f-7150-488c-af51-d3a0289f184b",
+                    "text": "Throat pain",
+                    "display-mr": "घसा दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_f1064ca2-8397-4742-810e-3067742a4352",
+                    "text": "Salivation",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार आना"
+                },
+                {
+                    "id": "ID_4ad91676-3a79-487d-a59a-2c1cbf0ffd1c",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_c3671fa1-79bc-4af6-9af3-b6f324a48a9f",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fae58cb2-ecac-4612-bdbc-77fb2a9bfb61",
+            "text": "How long did the choking episode last?",
+            "display-mr": "श्वास गुदमरण्याची घटना किती काळ चालली?",
+            "display-hi": "घुटन कितने समय तक रही?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_172ff21e-9dca-4472-b16a-e51ce8382339",
+                    "text": "A few seconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_c9611069-7956-4540-babb-e8ce45a6a201",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                }
+            ]
+        },
+        {
+            "id": "ID_7b047993-d74e-40f3-939e-2d64a216eb01",
+            "text": "What measures did you try to remove the object yourself?",
+            "display-mr": "तुम्ही ती वस्तू स्वतः काढण्यासाठी कोणते उपाय करून पाहिलेत?",
+            "display-hi": "आपने खुद उस वस्तु को निकालने के लिए क्या उपाय किए?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2ee3d3f8-c467-46fd-b09c-be6f595ac9e5",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a2a7e24d-0b8a-4c9f-a7c4-4fe687921135",
+                    "text": "Forceful coughing",
+                    "display-mr": "जोरात खोकणे",
+                    "display-hi": "जोर से खांसना"
+                },
+                {
+                    "id": "ID_ba48a7b0-a49b-49d9-84b2-f945ed8caa0f",
+                    "text": "Inducing vomiting",
+                    "display-mr": "उलटी काढणे",
+                    "display-hi": "उल्टी लाना"
+                },
+                {
+                    "id": "ID_1d46efd2-5b3b-4ceb-8950-c058bd6a606a",
+                    "text": "Using fingers",
+                    "display-mr": "बोटांचा वापर करणे",
+                    "display-hi": "उंगलियों का इस्तेमाल करना"
+                },
+                {
+                    "id": "ID_f6e69b61-ad01-446f-b373-2e91916da48a",
+                    "text": "Leaning forward",
+                    "display-mr": "पुढे वाकणे",
+                    "display-hi": "आगे झुकना"
+                },
+                {
+                    "id": "ID_f657d7ae-d01d-4ac1-b4e0-c2aff92c5da4",
+                    "text": "Blows on back",
+                    "display-mr": "पाठीवर बुक्के",
+                    "display-hi": "पीठ पर मुक्के मारना"
+                },
+                {
+                    "id": "ID_e764f5ab-2e4d-4213-9889-7ade47434902",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_cf319c9e-3495-44c0-acd5-9317728559df",
+            "text": "Did you or someone else perform any first aid (e.g. Heimlich maneuver back blows)?",
+            "display-mr": "तुम्ही किंवा इतर कुणीही काहीही प्रथमोपचार केला का (उदा. ओटीपोटावर दाब देणे पाठीवर बुक्के मारणे)?",
+            "display-hi": "क्या आपने या किसी और ने कोई प्राथमिक इलाज किया (जैसे हेमलिच तकनीक पीठ पर थपकी देना)?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e81b03b2-a2dd-40c2-8497-7bdfcf98452f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_26f4b84f-98b8-4c1a-bc12-a20896c1c800",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_33ee8a2d-9290-49b7-8188-36c9d66f8a42",
+            "text": "Do you still feel any of these symptoms after the choking episode?",
+            "display-mr": "तुम्हाला श्वास गुदमरण्याच्या घटनेनंतर अजूनही यापैकी कोणतीही लक्षणे जाणवतात का?",
+            "display-hi": "क्या घुटन की घटना के बाद भी आपको इनमें से कोई लक्षण महसूस होते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7c05cbca-c714-4f64-87de-168e0285476d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_4fd588a6-0e04-4287-9c42-09a7203d11bc",
+                    "text": "Throat pain",
+                    "display-mr": "घशा दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_7fd27878-4bbd-41f2-8210-45a78624b3a5",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_76a92cdc-0eb3-4023-be1e-740e65db9f86",
+                    "text": "Difficulty speaking",
+                    "display-mr": "बोलताना त्रास होणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_78df4fde-7e3c-4036-a6bf-17b27269cb02",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेताना त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_95e27814-2d7d-4321-8585-72bc30b56006",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_fa317734-a7d5-49df-8e2b-d7a1f8357571",
+                    "text": "Wheezing",
+                    "display-mr": "छातीत घरघर होणे",
+                    "display-hi": "घरघराहट"
+                },
+                {
+                    "id": "ID_2c35e3aa-7279-427c-8bdc-3182b1f95153",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_38d1a3b4-77b2-48fc-957b-57983ce08875",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको इनमें से कोई लक्षण हैं",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8908618d-2d40-4efe-a017-cf8edad02950",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_82f46493-2b23-42c2-858f-e7006b6cfe6a",
+                    "text": "Bluish discolouration of skin",
+                    "display-mr": "त्वचेचा रंग निळसर होणे",
+                    "display-hi": "त्वचा का नीला पड़ना"
+                },
+                {
+                    "id": "ID_2e0c4802-a04a-41ef-b5c6-a13a215f0e95",
+                    "text": "Pain in chest",
+                    "display-mr": "छातीमध्ये वेदना",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_1214d71d-ffb7-44df-b6dc-b9625314a2bd",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "तेज धड़कन"
+                },
+                {
+                    "id": "ID_96c54933-8674-4c10-992c-ddd74d4177d2",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाज घोगरा होणे",
+                    "display-hi": "आवाज में कर्कशता"
+                },
+                {
+                    "id": "ID_978c16c5-89a8-4751-b481-8fd1153ed4cf",
+                    "text": "Previous history of choking or aspiration",
+                    "display-mr": "श्वास गुदमरण्याचा किंवा कोंडला जाण्याचा काही पूर्व इतिहास आहे का?",
+                    "display-hi": "घुटन या तेज सांस खींचने का पिछला इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_56bbbc36-c34d-4461-9988-fc2cb64f43c5",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_586def77-ecd4-4540-81ae-b0343d06bfc7",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2c905087-1479-495e-83ef-4a44f5a84cbd",
+                    "text": "Abdominal pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेट दर्द"
+                },
+                {
+                    "id": "ID_1742dba2-46bf-4806-b65b-00c70c7193d3",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_dd9cd85a-4249-49e4-bf30-1df450d6ecde",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_b9384a71-a3db-48b2-8ecf-ba32c3bb14a3",
+                    "text": "Excessive sweating",
+                    "display-mr": "अतिशय जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_241a0b34-b6c0-4f7a-82b5-098bdacce397",
+                    "text": "Fainting",
+                    "display-mr": "बेशुद्ध पडणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_7879c556-f492-4aab-848a-cbfcee28592f",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_a8b6a83e-57f1-4869-ad34-b15a2db4d147",
+                    "text": "Stridor",
+                    "display-mr": "कर्कश्श आवाज",
+                    "display-hi": "सांस लेने में आवाज"
+                },
+                {
+                    "id": "ID_3a150afb-2d11-4539-aacd-46761a7c9873",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1dc25c0f-3dd6-4555-80e4-fcba67026c19",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_988fd670-a87a-47c7-a5ed-a87a8964e1ee",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1069a2ce-2518-4e6f-b18a-2b83930d9f6c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_6ea1f561-1f6c-463d-b18e-7bd02d6b7899",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_721641d9-6b39-4f74-9b31-1bcb6e7ce3c9",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8264299b-4027-45e3-9485-e0b76bb3930a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

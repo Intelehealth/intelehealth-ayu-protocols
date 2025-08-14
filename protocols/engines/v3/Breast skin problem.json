@@ -1,0 +1,562 @@
+{
+    "id": "ID_dce7766b-1b13-4543-a6cc-deb81413eb68",
+    "text": "Breast skin problem",
+    "engineVersion": "3.0",
+    "display-mr": "स्तनाच्या त्वचेची समस्या",
+    "display-hi": "स्तन की त्वचा में समस्या",
+    "options": [
+        {
+            "id": "ID_06a56af5-a5c5-4427-afb2-b62b88ca9c55",
+            "text": "Since when have you had breast skin problem?",
+            "display-mr": "तुम्हाला स्तनांच्या त्वचेची समस्या कधीपासून आहे?",
+            "display-hi": "आपको स्तन की त्वचा में समस्या कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e745945b-1360-4d43-b02e-f0d99cad12e6",
+                    "text": "Since when have you had breast skin problem?",
+                    "display-mr": "तुम्हाला स्तनांच्या त्वचेची समस्या कधीपासून आहे?",
+                    "display-hi": "आपको स्तन की त्वचा में समस्या कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_0af00426-f302-4c7f-85b4-8c27f19fb527",
+            "text": "How fast did breast skin problem develop?",
+            "display-mr": "स्तनाच्या त्वचेची समस्या कशी वाढली?",
+            "display-hi": "स्तन की त्वचा में समस्या कितनी तेजी से बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_433e4265-5606-4efd-878d-eb9fade42620",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_4c4e9a1b-3c9c-4969-842e-6122716ae77f",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_51a10b47-d45b-40b5-b943-4b62c112d7c4",
+            "text": "Which breast do you have the skin problem?",
+            "display-mr": "तुमच्या कोणत्या स्तनाला त्वचेची समस्या आहे?",
+            "display-hi": "आपको किस स्तन की त्वचा में समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f8e87334-1e82-4820-ad3f-3a56cef40388",
+                    "text": "Left breast",
+                    "display-mr": "डावा स्तन",
+                    "display-hi": "बायां स्तन"
+                },
+                {
+                    "id": "ID_eccc99a9-5372-4a89-ab9d-8c525dd04c6b",
+                    "text": "Right breast",
+                    "display-mr": "उजवा स्तन",
+                    "display-hi": "दायां स्तन"
+                },
+                {
+                    "id": "ID_552d0266-2df3-45da-878c-021993c53605",
+                    "text": "Both breasts",
+                    "display-mr": "दोन्ही स्तन",
+                    "display-hi": "दोनों स्तन"
+                }
+            ]
+        },
+        {
+            "id": "ID_d7e3d27e-2f56-42cd-9289-d5851748c2d1",
+            "text": "How can you describe the breast skin problem?",
+            "display-mr": "तुमच्या स्तनाच्या समस्येचे वर्णन कसे करु शकाल?",
+            "display-hi": "आप स्तन की त्वचा में समस्या का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cd1f9eff-55cf-4adf-b545-b5482828a7a5",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_eaca1bfb-bae7-4ab2-b299-bac372b5429a",
+                    "text": "Scaling (flaky skin)",
+                    "display-mr": "खवले/खपल्या निघणे (त्वचा सोलवटणे)",
+                    "display-hi": "स्केलिंग (परतदार त्वचा)"
+                },
+                {
+                    "id": "ID_dab0285f-0414-4854-a6d0-a48a9e14cc23",
+                    "text": "Dimpling of skin",
+                    "display-mr": "त्वचेवर खड्डे पडणे",
+                    "display-hi": "त्वचा पर गड्ढे पड़ना"
+                },
+                {
+                    "id": "ID_99a82945-7dd6-4be8-b418-83704c12a436",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_c75752cc-7f6d-439c-99f7-96436d1470cf",
+                    "text": "Rashes",
+                    "display-mr": "चट्टे",
+                    "display-hi": "चकत्ते"
+                },
+                {
+                    "id": "ID_c4611303-7dc0-4c72-8e29-4af5f5daacba",
+                    "text": "Orange peel like skin",
+                    "display-mr": "संत्र्याच्या सालीसारखी त्वचा",
+                    "display-hi": "नारंगी के छिलके जैसी त्वचा"
+                },
+                {
+                    "id": "ID_17e79428-49e5-4918-929e-289fbd55d416",
+                    "text": "Nodules",
+                    "display-mr": "गाठी",
+                    "display-hi": "गांठें"
+                },
+                {
+                    "id": "ID_1c47d685-f937-4f42-9e45-4705a3e4a836",
+                    "text": "Thickening of skin",
+                    "display-mr": "त्वचा राठ होणे",
+                    "display-hi": "त्वचा का मोटा होना"
+                },
+                {
+                    "id": "ID_3efe6819-7eb6-4951-a2a3-347c06574268",
+                    "text": "Crusting",
+                    "display-mr": "त्वचेचे पापुद्रे निघणे",
+                    "display-hi": "पपड़ी बनना"
+                },
+                {
+                    "id": "ID_87ca02b7-f599-4a20-b3ee-101425ab2102",
+                    "text": "Oozing",
+                    "display-mr": "त्वचेतून रक्त निघणे",
+                    "display-hi": "रिसना"
+                },
+                {
+                    "id": "ID_dc01ed19-58d6-4a18-9f2b-374a24910c26",
+                    "text": "Itching",
+                    "display-mr": "खाज",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_58ed31da-a748-439f-b4f5-69cc62ac70ed",
+                    "text": "Shiny skin",
+                    "display-mr": "चमकदार त्वचा",
+                    "display-hi": "चमकदार त्वचा"
+                },
+                {
+                    "id": "ID_dea7af4c-7f65-486c-b231-bfe5332fec05",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_7cad5c1a-3ef0-47c2-b7c0-eab716d6b02d",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_88e87403-6d1b-46a2-941f-9fc2990eab56",
+            "text": "What does trigger or worsen the breast skin problem?",
+            "display-mr": "स्तनांच्या त्वचेची समस्या कशामुळे उद्भवते किंवा वाढते?",
+            "display-hi": "स्तन की त्वचा की समस्या को क्या ट्रिगर करता है या बढ़ाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_871146e7-411b-435b-b604-bae702bc6cd2",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b8ce49df-a9b5-40e9-9140-445273aa7577",
+                    "text": "Soap",
+                    "display-mr": "साबण",
+                    "display-hi": "साबुन"
+                },
+                {
+                    "id": "ID_5d5f0abc-474a-4d0b-94f7-599537a281f4",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_f5d7f0d3-1f20-46d0-a5ea-67a2257c4838",
+                    "text": "Hot weather",
+                    "display-mr": "उष्ण हवामान",
+                    "display-hi": "गर्म मौसम"
+                },
+                {
+                    "id": "ID_edb2095c-b25f-4abc-a541-6a9702a173df",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_ecc58b02-1cf6-45e4-ae74-dfdfdf5793df",
+                    "text": "Sweating",
+                    "display-mr": "घाम",
+                    "display-hi": "पसीना आना"
+                },
+                {
+                    "id": "ID_3f0219d7-987e-4588-9c8c-d5ec5d478689",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_4e64c052-90a5-4234-8f8e-41ca93db96b7",
+                    "text": "Certain clothing",
+                    "display-mr": "विशिष्ट कपडे",
+                    "display-hi": "कुछ खास कपड़े"
+                },
+                {
+                    "id": "ID_828d5a9b-934e-4d31-afc7-294d90fb1cd0",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_5bd032a9-49d4-42bf-9c81-8ef28e2332f4",
+            "text": "What does reduce the breast skin problem?",
+            "display-mr": "स्तनांच्या त्वचेची समस्या कशामुळे उकमी होते?",
+            "display-hi": "स्तन की त्वचा की समस्या को क्या कम करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2f7c54d1-2d7c-4f8e-8b49-92791790a28f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_cc5aa11a-ae65-4ded-bfde-06d563aa5dcb",
+                    "text": "Cold compress",
+                    "display-mr": "बर्फाने शेकल्यामुळे",
+                    "display-hi": "ठंडा सेंक"
+                },
+                {
+                    "id": "ID_d2a59a25-f3ea-4372-b67a-03c55e2159e9",
+                    "text": "Hot compress",
+                    "display-mr": "गरम पाण्याच्या पिशवीने शेकल्यामुळे",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_4b190828-9bf2-46ef-ba43-418df763cbc9",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_003a75f4-ed61-469c-a8d1-0ff550747bc3",
+                    "text": "Moisturizer",
+                    "display-mr": "मॉईश्चरायझर",
+                    "display-hi": "मॉइस्चराइजर"
+                },
+                {
+                    "id": "ID_70e28c92-1db2-4ad1-b098-63f28d2ca901",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_b284a6d1-b049-4655-97a0-f0859c026b79",
+            "text": "How is the breast skin problem progressing?",
+            "display-mr": "स्तनांच्या त्वचेच्या समस्येमध्ये काही बदल आहे?",
+            "display-hi": "स्तन की त्वचा में समस्या में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_92ddc80a-b2a9-456e-ad49-5a13360e9fed",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_9e8692f7-de84-4814-a53e-e12a2e363eee",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_b93e3a4c-dfa3-4851-b6aa-a019e117e1bf",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_83232e27-f1bf-44be-a40a-adbd9696681e",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_330ff466-ef66-45b6-b29b-a8dee1614fa9",
+            "text": "Did you notice any pattern of breast skin problem in a 24 hour period of time?",
+            "display-mr": "दिवसाच्या 24 तासांमध्ये तुम्हाला स्तनांच्या त्वचेच्या समस्येचे काही विशिष्ट चक्र लक्षात आले आहे का?",
+            "display-hi": "क्या आपको 24 घंटे की अवधि में स्तन की त्वचा में समस्या का कोई पैटर्न दिखाई दिया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "age_min": "10",
+            "options": [
+                {
+                    "id": "ID_61b02abc-a3b4-45e6-b893-7e5412bde9d9",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_f84766ec-090a-4500-aef6-e4fe6f999f24",
+                    "text": "Intermittent (on & off)",
+                    "display-mr": "मधूनमधून (सुरु होते आणि बंद होते)",
+                    "display-hi": "रुक—रुक होना (शुरू और बंद)"
+                }
+            ]
+        },
+        {
+            "id": "ID_ef063147-1951-4b35-8613-989a316d2f5c",
+            "text": "Do you have any difficulty with breastfeeding?",
+            "display-mr": "तुम्हाला स्तनपान करताना काही त्रास होत आहे का?",
+            "display-hi": "क्या आपको स्तनपान कराने में कोई परेशानी होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "age_min": "18",
+            "options": [
+                {
+                    "id": "ID_ad9d40f2-8efb-458a-bbe8-b51bf9d87c4f",
+                    "text": "Not applicable",
+                    "display-mr": "लागू नाही",
+                    "display-hi": "लागू नहीं"
+                },
+                {
+                    "id": "ID_9398e78c-3b5c-4296-aa40-dadba8ffb616",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_eb5bb0a8-c820-4780-ba09-3e28226eef33",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_74a6c179-93f5-412b-9e4f-61c94c8c5e11",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_ab61a3f3-9f1c-4c8f-9d9b-896bf016aced",
+                    "text": "Breast lump",
+                    "display-mr": "स्तनांच्या गाठी",
+                    "display-hi": "स्तन में गांठ"
+                },
+                {
+                    "id": "ID_8c31a854-bc8e-406f-90fc-0c6bd59052dc",
+                    "text": "Cracked nipple",
+                    "display-mr": "स्तनाग्रांना (निप्पल) भेगा जाणे",
+                    "display-hi": "निप्पल में दरार"
+                },
+                {
+                    "id": "ID_38aa038f-3bf2-414f-b83f-7c86af7c6f20",
+                    "text": "Nipple discharge",
+                    "display-mr": "काखेत वेदना",
+                    "display-hi": "निप्पल से तरल निकलना"
+                },
+                {
+                    "id": "ID_3254a52e-d9ff-40c8-9ae8-d09b8b1edcdc",
+                    "text": "Breast pain",
+                    "display-mr": "स्तन दुखणे",
+                    "display-hi": "स्तन में दर्द"
+                },
+                {
+                    "id": "ID_d3c55c4e-5c0f-4510-89d1-86dd13df5972",
+                    "text": "Swelling in armpit",
+                    "display-mr": "बगल/ काखेत सूज",
+                    "display-hi": "बगल में सूजन"
+                },
+                {
+                    "id": "ID_9aca4ee8-04f8-499b-9dbe-f5e734e4bf27",
+                    "text": "Inverted nipple",
+                    "display-mr": "आतील बाजूस वळलेली स्तनाग्रे (निप्पल)",
+                    "display-hi": "निप्पल का उल्टा होना"
+                },
+                {
+                    "id": "ID_219b3f48-de04-4e88-9aa9-ae5403b22117",
+                    "text": "Missed periods",
+                    "display-mr": "मासिक पाळी चुकणे",
+                    "display-hi": "माहवारी का न आना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_b19207fd-d5b5-421e-aace-f2a4dbdcbd62",
+                    "text": "Irregular periods",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "अनियमित माहवारी"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_4166c324-4fd0-4c3f-9646-f4899c95cd77",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_89139645-4312-4f43-889b-dab4cc33e61f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_35806399-e169-44ad-9e9e-1da3498fa003",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_504051b0-5e71-41cc-a1d4-f6499c520656",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी आणि कुडकुडणे",
+                    "display-hi": "ठंड लगना और जकड़न"
+                },
+                {
+                    "id": "ID_bb577d76-d8ba-439e-b966-232ed28135d3",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_ae2f8b31-c6b4-4657-943d-33ddf94dedac",
+                    "text": "Excessive sweating",
+                    "display-mr": "अति जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_8096f2b1-62dc-4492-a2b0-c18e0912d8cb",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_f13c887b-3bfe-431f-8bf7-de894ac8e709",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_827a672d-4eeb-45e5-9594-f85adfcaaabf",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_bf3bb657-bbbf-4c64-b4e2-4ed215ef2975",
+                    "text": "Pale skin",
+                    "display-mr": "निस्तेज त्वचा",
+                    "display-hi": "त्वचा का पीला पड़ना"
+                },
+                {
+                    "id": "ID_ff2f7daa-a092-42e0-89b6-c675f0780c16",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_98347243-4612-44fc-afb0-ca3c376bdf2b",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में तकलीफ"
+                },
+                {
+                    "id": "ID_d86670e1-ff03-46fb-9e58-c39978f0d4f9",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_6b6f38d5-3fb3-4bbc-aa09-ba2172ae3cea",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_905d53eb-0bba-4327-b468-2690db9d4ec9",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_892f42cc-d62a-44ec-ad9b-9814f9033287",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_af7a25c9-12ec-44e3-bbdf-447c37132ec1",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_8adae6d8-f335-41cd-badc-9947e5bfcadc",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_18a5ed0f-375b-47b4-b1e9-4bca4164a935",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

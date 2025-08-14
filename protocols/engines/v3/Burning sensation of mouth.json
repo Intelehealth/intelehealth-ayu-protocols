@@ -1,0 +1,659 @@
+{
+    "id": "ID_fbfe2156-28f2-4993-9958-7e294607965e",
+    "text": "Burning sensation of mouth",
+    "engineVersion": "3.0",
+    "display-mr": "तोंडाची जळजळ होणे",
+    "display-hi": "मुंह में जलन होना",
+    "options": [
+        {
+            "id": "ID_6c42c5be-f8d5-4468-a963-dca0e04afc2f",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c22b7cbe-b1cf-4112-b163-d702ffacec78",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_f40616a5-0029-4b89-ad54-f980029e7b3e",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1262b4f1-ec73-41d9-97f3-1f54bb850d7a",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_2f62818b-13ed-4ad1-ada9-b67672c36001",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_f5295800-0b64-4252-a7cc-3e551b12fcfc",
+            "text": "Which part of mouth do you have burning sensation?",
+            "display-mr": "तोंडाच्या कोणत्या भागात तुम्हाला जळजळ होत आहे?",
+            "display-hi": "आपके मुंह के किस भाग में जलन होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2cfd4438-a8df-40b5-8978-1fb03c31da71",
+                    "text": "Upper lip",
+                    "display-mr": "वरचा ओठ",
+                    "display-hi": "ऊपरी होंठ"
+                },
+                {
+                    "id": "ID_394f2f93-067f-4c7d-aa59-96150045ab19",
+                    "text": "Lower lip",
+                    "display-mr": "खालचा ओठ",
+                    "display-hi": "निचला होंठ"
+                },
+                {
+                    "id": "ID_d7576da4-148c-4815-93cc-3a1d82a103e1",
+                    "text": "Upper gum",
+                    "display-mr": "वरची हिरडी",
+                    "display-hi": "ऊपरी मसूड़ा"
+                },
+                {
+                    "id": "ID_1d431508-124f-4b0a-b6ff-25c847340a27",
+                    "text": "Lower gum",
+                    "display-mr": "खालची हिरडी",
+                    "display-hi": "निचला मसूड़ा"
+                },
+                {
+                    "id": "ID_88702b60-6d14-4e43-9628-d2fe35350065",
+                    "text": "Inside of cheek",
+                    "display-mr": "गालाच्या आत",
+                    "display-hi": "गाल के अंदर"
+                },
+                {
+                    "id": "ID_b9c2268a-750c-47c3-97a3-4849db7f8684",
+                    "text": "Palate",
+                    "display-mr": "टाळू",
+                    "display-hi": "तालु"
+                },
+                {
+                    "id": "ID_6db2ad40-af80-4d48-b478-b94274eb933d",
+                    "text": "Tongue",
+                    "display-mr": "जीभ",
+                    "display-hi": "जीभ"
+                },
+                {
+                    "id": "ID_bc28274d-520b-4eba-8a29-4d97350ff594",
+                    "text": "Floor of mouth",
+                    "display-mr": "तोंडाचा तळ",
+                    "display-hi": "मुंह का निचला हिस्सा"
+                },
+                {
+                    "id": "ID_3acab4d5-9911-464e-bbf8-42175a164443",
+                    "text": "Entire mouth",
+                    "display-mr": "संपूर्ण तोंड",
+                    "display-hi": "पूरा मुंह"
+                }
+            ]
+        },
+        {
+            "id": "ID_b9804770-a1fc-4249-868f-7b02b4289146",
+            "text": "Which side of mouth do you have burning sensation?",
+            "display-mr": "तोंडाच्या कोणत्या बाजूला तुम्हाला जळजळ होत आहे?",
+            "display-hi": "आपके मुंह के किस तरफ जलन होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c73b6e24-1f12-4afe-95c1-66c76b86b8e3",
+                    "text": "Left",
+                    "display-mr": "डावीकडे",
+                    "display-hi": "बायां"
+                },
+                {
+                    "id": "ID_5c8c2311-105e-40da-9e2d-3116df851dd3",
+                    "text": "Right",
+                    "display-mr": "उजवीकडे",
+                    "display-hi": "दायां"
+                },
+                {
+                    "id": "ID_54e1676b-8bb4-44dd-9c6d-6b936fc9b53e",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंनी",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_1a1a3fb1-2ce7-4c2d-b7b1-5a5d911ac845",
+            "text": "Do you have any prior history of the following before burning sensation started?",
+            "display-mr": "जळजळ सुरू होण्यापूर्वी तुमचा पुढील बाबतीत कोणताही पूर्वेतिहास आहे का?",
+            "display-hi": "क्या आपको जलन शुरू होने से पहले निम्नलिखित का कोई पूर्व इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aad88118-1c75-426c-ad6c-088eec04b072",
+                    "text": "None",
+                    "display-mr": "कोणताही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b7db372f-426c-4631-b5f2-503a4be5dc26",
+                    "text": "Oral injury",
+                    "display-mr": "तोंडाला दुखापत",
+                    "display-hi": "मौखिक चोट"
+                },
+                {
+                    "id": "ID_c0166457-19fc-4d87-869e-4b8cf7adc8ef",
+                    "text": "Accidental bite",
+                    "display-mr": "अपघाताने चावणे",
+                    "display-hi": "गलती से काटना"
+                },
+                {
+                    "id": "ID_8088b491-60a5-4491-9540-f4c4e3a84192",
+                    "text": "Bite to own tongue",
+                    "display-mr": "स्वतःच्या जिभेला चावा",
+                    "display-hi": "अपनी जीभ को काट लेना"
+                },
+                {
+                    "id": "ID_bec901b9-62e1-4158-81a0-e70c91b1e567",
+                    "text": "Oral ulcer",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह के छाले"
+                },
+                {
+                    "id": "ID_aa87006a-6c63-426d-8a96-fd00fb1ff7c7",
+                    "text": "Intake of hot food",
+                    "display-mr": "गरम अन्नाचे सेवन",
+                    "display-hi": "गरम भोजन का सेवन"
+                },
+                {
+                    "id": "ID_0c6702ee-4e20-48ce-b9f9-5b954ddf7c1b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fdba0be2-2664-4d28-a05d-9820067f1a56",
+            "text": "What is the severity of burning sensation of mouth?",
+            "display-mr": "तोंडाच्या जळजळीची तीव्रता किती आहे?",
+            "display-hi": "मुंह में जलन की गंभीरता क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_464c6e86-9a3a-47d3-98bd-889ee8be0318",
+                    "text": "Mild",
+                    "display-mr": "सौम्य",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_4620e072-0513-4dd0-a37e-e350c5bae766",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_311e397e-66e2-402d-81e9-474189f69a92",
+                    "text": "Severe",
+                    "display-mr": "तीव्र",
+                    "display-hi": "गंभीर"
+                }
+            ]
+        },
+        {
+            "id": "ID_ca549ec5-b8f4-43e4-8cb1-1f8a869c2870",
+            "text": "Do you have pain with burning sensation?",
+            "display-mr": "तुम्हाला जळजळण्याबरोबर वेदना होतात का?",
+            "display-hi": "क्या आपको जलन के साथ दर्द भी होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4d1190b8-6141-4cd4-abf8-34ae2e3c031a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "No"
+                },
+                {
+                    "id": "ID_e4a6edd4-189a-4c27-b769-0b393302341c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "Yes",
+                    "options": [
+                        {
+                            "id": "ID_92bdffc9-83dc-4dc5-a661-05ff5caf4df3",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_eb10e7a9-e60b-4377-94da-0cac35985530",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                                },
+                                {
+                                    "id": "ID_b3a753b4-28ba-4e9b-a596-2ccfc04226c7",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                                },
+                                {
+                                    "id": "ID_308725fc-86da-49da-88f7-f926f93455d0",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                                },
+                                {
+                                    "id": "ID_fda44a9e-45d5-437e-96a0-cb26555c3ff9",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "खूप तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                                },
+                                {
+                                    "id": "ID_9d78a02e-cf34-4cd9-bba2-2fe5c947ecb9",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_b86f0740-bf3e-401a-abff-3c2cece1398e",
+                            "text": "Does the pain moves to other parts?",
+                            "display-mr": "वेदना शरीराच्या इतर अवयवांकडे सरकते का?",
+                            "display-hi": "क्या दर्द अन्य भागों तक भी जाता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_45db157b-92e7-4bfd-8326-1c9b5f2cf1b9",
+                                    "text": "None",
+                                    "display-mr": "कोणत्याही नाही",
+                                    "display-hi": "कोई नहीं",
+                                    "exclude-from-multi-choice": "true"
+                                },
+                                {
+                                    "id": "ID_7b27a5ca-a3c4-436f-8432-631cff378fee",
+                                    "text": "Ear",
+                                    "display-mr": "कान",
+                                    "display-hi": "कान"
+                                },
+                                {
+                                    "id": "ID_ff07ec5a-92e9-4aab-b4b3-c080f5e62544",
+                                    "text": "Throat",
+                                    "display-mr": "घसा",
+                                    "display-hi": "गला"
+                                },
+                                {
+                                    "id": "ID_620fed51-8964-4636-9ab6-c1d6d11385fc",
+                                    "text": "Head",
+                                    "display-mr": "डोके",
+                                    "display-hi": "सिर"
+                                },
+                                {
+                                    "id": "ID_34c3a199-a702-4091-aea6-3fa211c1073f",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_1b1a76a0-fc64-4ee5-9a2f-fa68d0770ce1",
+            "text": "What increases or worsens the burning sensation of mouth?",
+            "display-mr": "तोंडाची जळजळ कशामुळे वाढते किंवा बिघडते?",
+            "display-hi": "मुंह की जलन किस कारण बढ़ती या बिगड़ती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9ee2a4bb-dfc1-4441-9c58-25f2dc0e1886",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_767384b0-7c76-4094-a0a8-45bd713111ba",
+                    "text": "Spicy food",
+                    "display-mr": "मसालेदार अन्न",
+                    "display-hi": "मसालेदार भोजन"
+                },
+                {
+                    "id": "ID_ecd86db2-fca4-4b71-85a6-3a984de06415",
+                    "text": "Certain foods",
+                    "display-mr": "विशिष्ट अन्नपदार्थ",
+                    "display-hi": "कुछ खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_31ce6ee1-3834-465d-870c-b515653b0b56",
+                    "text": "Hot drinks",
+                    "display-mr": "गरम पेय",
+                    "display-hi": "गर्म पेय"
+                },
+                {
+                    "id": "ID_4b2a1b0f-6bfc-45fd-9c76-f755a9a63d30",
+                    "text": "Smoking",
+                    "display-mr": "धुम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_1ee7cdc7-8be5-4531-8776-c4e2b776893e",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_24e344ea-de43-4497-898a-7b97227eca96",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_92bfd753-7c5c-4de1-8835-4df1890939ae",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_10285116-e5fd-4e95-a444-e8dd00e9d40b",
+            "text": "What relieves or lessens the burning sensation of mouth?",
+            "display-mr": "तोंडाच्या जळजळीपासून कशामुळे आराम मिळतो किंवा ती कमी होतो?",
+            "display-hi": "मुंह में जलन कैसे दूर होती है या कम होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_02bebcfe-82b2-4b6b-b109-fd1bfcae330f",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_417b3c5d-ec0e-47fc-b746-501d0ab5eb59",
+                    "text": "Cold drinks",
+                    "display-mr": "थंड पेय",
+                    "display-hi": "ठंडे पेय"
+                },
+                {
+                    "id": "ID_8f4f5000-4974-4a95-8414-f7caf9d0e5ab",
+                    "text": "Oral gels",
+                    "display-mr": "तोंडी जेल",
+                    "display-hi": "मौखिक जेल लगाना"
+                },
+                {
+                    "id": "ID_b9a23913-4b0a-421b-af72-4eb493e1d60c",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाइयां"
+                },
+                {
+                    "id": "ID_33bb38d7-17db-420c-b857-92c22048d869",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_05041e90-7a27-4450-9449-991c8db09257",
+            "text": "How is the burning sensation of mouth progressing?",
+            "display-mr": "तोंडाच्या जळजळीमध्ये मध्ये काही बदल झाला का?",
+            "display-hi": "मुंह की जलन में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bd4a213a-3f55-447c-b141-89a6453d7f3d",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_6fc63d05-bd36-49db-8889-0df48936b56c",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_6b435993-a600-430a-a232-f5eba76a6af3",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_19994c15-4fd9-49c7-a25b-2efa9f16a519",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_68f8d440-2650-434c-9e17-4b02e3e14b3e",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_ec92cd44-90e9-4978-8e91-257aac64ba5a",
+                    "text": "Excessive thirst",
+                    "display-mr": "अति तहान लागणे",
+                    "display-hi": "अधिक प्यास"
+                },
+                {
+                    "id": "ID_c55e0342-8229-4851-b144-95ab7d4555a7",
+                    "text": "Oral ulcer",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह के छाले"
+                },
+                {
+                    "id": "ID_a04ad386-80f1-425c-b607-65555c31a918",
+                    "text": "Altered taste",
+                    "display-mr": "तोंडाची चव बदलणे",
+                    "display-hi": "बदला हुआ स्वाद"
+                },
+                {
+                    "id": "ID_45eb097e-0502-4549-afff-6ef8d0e247f6",
+                    "text": "Swollen gums",
+                    "display-mr": "सुजलेल्या हिरड्या",
+                    "display-hi": "मसूड़ों में सूजन"
+                },
+                {
+                    "id": "ID_472b4453-529f-4494-9690-599ff1296222",
+                    "text": "Bleeding gums",
+                    "display-mr": "हिरड्यांमधून रक्त येणे",
+                    "display-hi": "मसूड़ों से खून बहना"
+                },
+                {
+                    "id": "ID_5c758e1c-3a76-4f23-9985-bb99a3ecd8ab",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळेचा लोळ",
+                    "display-hi": "लार बहना"
+                },
+                {
+                    "id": "ID_79aa5017-8890-4cd1-a313-9d1020e7c49d",
+                    "text": "Red tongue",
+                    "display-mr": "लाल जीभ",
+                    "display-hi": "लाल जीभ"
+                },
+                {
+                    "id": "ID_6937151a-6322-4500-abf5-aec3c9667d50",
+                    "text": "Dry mouth",
+                    "display-mr": "कोरडे तोंड",
+                    "display-hi": "मुंह का सूखना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_cad5aae1-22f3-4f61-b7a5-f8083baa46b6",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_26665931-23f4-427b-907b-19a65f3b8359",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5751f81f-fa7d-41ae-a7c6-6aa02e479573",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_7d4f595c-c959-4a21-a5a5-f85e01850115",
+                    "text": "Toothache",
+                    "display-mr": "दातदुखी",
+                    "display-hi": "दांत दर्द"
+                },
+                {
+                    "id": "ID_6f89e788-713d-434f-8383-95db7f7f5271",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजे हुए लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_4dde8f61-df82-4288-8863-4b3e1aa0c97d",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_ec14941a-c56c-47ea-82d7-180b5e6f4098",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिर दर्द"
+                },
+                {
+                    "id": "ID_537455ea-eaa6-449e-94aa-1a4412cf5a93",
+                    "text": "Pale skin",
+                    "display-mr": "निस्तेज त्वचा",
+                    "display-hi": "पीली त्वचा"
+                },
+                {
+                    "id": "ID_5ee4a3b2-8c6f-4200-8363-401e1039bc72",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_68da1cd8-9df9-453c-ab6e-6771e8a8baed",
+                    "text": "Loss of weight",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटना"
+                },
+                {
+                    "id": "ID_f7ef17d5-a890-4d50-82f7-6fba9164fa68",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ",
+                    "display-hi": "सीने में जलन"
+                },
+                {
+                    "id": "ID_45ab2cc6-f55d-4573-b989-d1ec8076d55f",
+                    "text": "Indigestion",
+                    "display-mr": "अपचन",
+                    "display-hi": "बदहजमी"
+                },
+                {
+                    "id": "ID_38aa5567-b474-49a7-8cb3-735b45d4ac2c",
+                    "text": "Acid reflux",
+                    "display-mr": "अॅसिड रिफ्लक्स (घशाशी अम्ल येणे)",
+                    "display-hi": "एसिडिटी"
+                },
+                {
+                    "id": "ID_cffbdea8-9c10-47cd-a156-78c179bbe7c1",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7c1d387d-a507-4181-b599-d50025de4685",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b4e5156c-0705-4897-b000-0203aa44a59f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_a2b7e8b5-c60a-459d-95de-aef8ee6f0159",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_0c1ec924-928d-4ab5-93a7-17038689da54",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f559b53c-dc18-4a9d-8503-ad8f10ad634e",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_7eab6575-5acb-4f6f-bb93-50bb2c34cf8a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

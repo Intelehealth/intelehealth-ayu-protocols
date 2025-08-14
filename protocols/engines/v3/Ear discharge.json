@@ -1,0 +1,580 @@
+{
+    "id": "ID_d86c8882-527f-4860-9397-3af57e8a733f",
+    "text": "Ear discharge",
+    "engineVersion": "3.0",
+    "display-mr": "कानातून स्राव",
+    "display-hi": "कान से पानी निकलना",
+    "options": [
+        {
+            "id": "ID_3028924a-6cbe-43e8-9939-665d018ffd4f",
+            "text": "Since when have you had ear dischrge?",
+            "display-mr": "तुमच्या कानातून कधीपासून स्राव होतो आहे?",
+            "display-hi": "आपको कब से कान से पानी निकलने की समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b7fcde57-fc51-4520-b49f-51fb184147e7",
+                    "text": "Since when have you had ear dischrge?",
+                    "display-mr": "तुमच्या कानातून कधीपासून स्राव होतो आहे?",
+                    "display-hi": "आपको कब से कान से पानी निकलने की समस्या है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_e102fca2-7ae4-4865-b063-887d2fad4ad7",
+            "text": "How fast did the symptom start?",
+            "display-mr": "याची लक्षणे किती वेगाने सुरू झाली?",
+            "display-hi": "लक्षण कितनी जल्दी शुरू हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_de49e3bc-c4f4-407b-af3b-1af6629c2aa9",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_787f8906-1ed4-4efe-8279-0334eb06c2d8",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_eb2ed8f8-d04b-4c08-ae95-8975e8ad50f6",
+            "text": "Which ear is affected?",
+            "display-mr": "कोणता कान प्रभावित झाला आहे?",
+            "display-hi": "कौन सा कान प्रभावित है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8f5bafac-9e2d-4e22-a479-422616addbe4",
+                    "text": "Left ear",
+                    "display-mr": "डावा कान",
+                    "display-hi": "बायां कान"
+                },
+                {
+                    "id": "ID_4243cf30-e61a-429d-8021-f84cbee5fa57",
+                    "text": "Right ear",
+                    "display-mr": "उजवा कान",
+                    "display-hi": "दायां कान"
+                },
+                {
+                    "id": "ID_a10b53c3-9a24-46dc-bc8a-db35a67c4b06",
+                    "text": "Both ears",
+                    "display-mr": "दोन्ही कान",
+                    "display-hi": "दोनों कान"
+                }
+            ]
+        },
+        {
+            "id": "ID_d18be3e5-abfa-4076-87f4-efd698c26c00",
+            "text": "How can you describe the nature of ear discharge?",
+            "display-mr": "तुम्ही कानातून होणाऱ्या स्रावाचे वर्णन कसे कराल?",
+            "display-hi": "आप कान से निकलने वाले पानी के प्रकार के बारे में कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_00ebff90-75a2-4370-8be7-ecfd23120767",
+                    "text": "Clear & watery",
+                    "display-mr": "स्वच्छ व पाण्यासारखा",
+                    "display-hi": "साफ और पानीदार"
+                },
+                {
+                    "id": "ID_090e4fc4-c4b4-4bfc-a912-374600807c31",
+                    "text": "Thick & white",
+                    "display-mr": "दाट व पांढरा",
+                    "display-hi": "गाढ़ा और सफेद"
+                },
+                {
+                    "id": "ID_8632fb51-17ea-46d0-8404-1549d1286e16",
+                    "text": "Yellow",
+                    "display-mr": "पिवळा",
+                    "display-hi": "पीला"
+                },
+                {
+                    "id": "ID_7227106e-4edc-4695-8942-82675a3e7fba",
+                    "text": "Green",
+                    "display-mr": "हिरवा",
+                    "display-hi": "हरा"
+                },
+                {
+                    "id": "ID_5e9117a6-aa0b-4ab6-96e4-059d36d1917e",
+                    "text": "Bloody",
+                    "display-mr": "रक्तमिश्रित",
+                    "display-hi": "खूनी"
+                },
+                {
+                    "id": "ID_a64c28bb-1ca8-41f6-b1a3-723a7780c232",
+                    "text": "Brown",
+                    "display-mr": "तपकिरी",
+                    "display-hi": "भूरा"
+                },
+                {
+                    "id": "ID_bce471eb-1c65-402d-8422-1eb7d1f5835c",
+                    "text": "Black",
+                    "display-mr": "काळा",
+                    "display-hi": "काला"
+                }
+            ]
+        },
+        {
+            "id": "ID_fcad2fcf-fa0f-46ee-8891-74a507fc227c",
+            "text": "What is the quantity of ear discharge?",
+            "display-mr": "कानातून होणाऱ्या स्रावाचे प्रमाण किती आहे?",
+            "display-hi": "कान से पानी निकलने की मात्रा कितनी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0b898667-a9bb-4f01-b5a8-f82588f22bb6",
+                    "text": "Scanty",
+                    "display-mr": "तुरळक",
+                    "display-hi": "थोड़ा"
+                },
+                {
+                    "id": "ID_313fa191-a8fc-429c-b83f-9cba61ed7255",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_7ff15724-1af7-44a5-9d07-646842b463e8",
+                    "text": "Large",
+                    "display-mr": "अतिशय जास्त",
+                    "display-hi": "अधिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_0460fb2c-2475-444f-8789-7a03df8c7d88",
+            "text": "Do you have pain associated with ear discharge?",
+            "display-mr": "तुम्हाला कानातून होणाऱ्या स्रावाशी संबंधित काही वेदना होत आहे का?",
+            "display-hi": "क्या आपको कान से पानी निकलने के साथ दर्द भी होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_73d74945-ed5f-4547-8dc4-6cb66d744f17",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0b53a1c3-87e2-4abf-a428-e65fdc49680c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_ff9a0371-e18a-44ee-9524-69a54033d2be",
+                            "text": "What is the character of ear pain?",
+                            "display-mr": "कानातील वेदनचे लक्षण काय आहे?",
+                            "display-hi": "कान में दर्द का स्वरूप क्या है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_89898e3a-ab49-4c26-befc-72fd8747be2d",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_f3607fbf-54e0-48cb-a0fe-d8e5e1a57a95",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "मंद ठसठसणारी वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_cfe23575-87e2-4a48-8241-151329d01137",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "ठणका लावणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_8d9b5b84-768f-4a26-8e53-8a42269e48e3",
+                                    "text": "Burning pain",
+                                    "display-mr": "दाहयुक्त वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_a4555693-558a-47f0-8678-c5cf16ad878e",
+                                    "text": "Don't know",
+                                    "display-mr": "माहिती नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_1e42ad28-c01e-4fe8-8642-d7bc27a87542",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना तीव्र है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_eee86ef5-b1b8-4d78-8a4a-6d07174fda0f",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                                },
+                                {
+                                    "id": "ID_974343a1-9327-4424-8bbd-efeef68002cf",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                                },
+                                {
+                                    "id": "ID_0d68a70e-2a35-4cc0-8057-b6675dbc7b3c",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                                },
+                                {
+                                    "id": "ID_bba86cb5-da8c-4812-ba09-f147f3e43c27",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "अतिशय तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                                },
+                                {
+                                    "id": "ID_7d7d321a-41b5-47b1-ade9-792ad89d21b9",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "असह्य वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d34d1424-3783-41d0-a95b-59ff8a669343",
+            "text": "What is the smell of ear discharge?",
+            "display-mr": "कानातून होणाऱ्या स्रावाचा वास कसा आहे?",
+            "display-hi": "कान से निकले पानी की गंध कैसी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a3589ac5-db04-44e5-b4cd-86b28ffc31ba",
+                    "text": "No smell",
+                    "display-mr": "वास नाही",
+                    "display-hi": "कोई गंध नहीं"
+                },
+                {
+                    "id": "ID_a2a5c253-1295-4418-8a23-bfbea0bebbb1",
+                    "text": "Foul smell",
+                    "display-mr": "दुर्गंधीयुक्त वास",
+                    "display-hi": "गंदी गंध"
+                },
+                {
+                    "id": "ID_ff56efab-63c5-4ab0-adb7-894ba0e0acc8",
+                    "text": "Fishy smell",
+                    "display-mr": "माशासारखा वास",
+                    "display-hi": "मछली जैसी गंध"
+                },
+                {
+                    "id": "ID_8fc7e5a5-61d4-4f2c-94a1-b41930fcecf5",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_54eed446-4ec3-46ad-85d4-2833eb9b7b3e",
+            "text": "What increases or worsens the ear discharge?",
+            "display-mr": "कानातून होणारा स्राव कशामुळे वाढतो किंवा बळावतो?",
+            "display-hi": "कान से पानी निकलने की समस्या को क्या बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_3194fe1d-f9b6-4e63-beb8-a45e667713dd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_323a3496-799c-4d95-a1cd-4d2356d835dd",
+                    "text": "Runny nose",
+                    "display-mr": "नाक वाहणे",
+                    "display-hi": "नाक बहना"
+                },
+                {
+                    "id": "ID_7985bfc9-31ab-4a28-a5fd-1fa4b37280c2",
+                    "text": "Cold climate",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_a612310b-471c-4458-b686-09b78e2c4121",
+                    "text": "Cold drinks",
+                    "display-mr": "थंड पेये",
+                    "display-hi": "ठंडा पेय"
+                },
+                {
+                    "id": "ID_7ed6f7f1-e5be-4c0c-8632-dfcf9ac198bf",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1ad66ce7-1304-449d-bc18-3374da4fbee4",
+            "text": "How is ear discharge progressing?",
+            "display-mr": "कानातून होणाऱ्या स्रावामध्ये काही बदल होत आहे का?",
+            "display-hi": "कान से पानी निकलने की प्रक्रिया में कुछ बदलाव हुआ है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_564f8185-c164-4cda-a22d-8a6964ded51e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_8ab58dcd-f00c-47c9-aef7-e41fff605cb5",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_504293a1-d654-4ec7-96e1-b69810fd6f52",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होत आहे",
+                    "display-hi": "बार-बार होने वाला"
+                },
+                {
+                    "id": "ID_6a401233-4fb1-414a-8729-73e96fb3f552",
+                    "text": "Seasonal",
+                    "display-mr": "हंगामी",
+                    "display-hi": "मौसमी"
+                },
+                {
+                    "id": "ID_0153cb57-cf42-47e1-ac69-5632d077fd74",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_11e76d98-232a-40f4-bd89-d792dde627fd",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_42684b2d-40ae-4acb-8b39-adeae839dc54",
+                    "text": "Fullness in ear",
+                    "display-mr": "कान गच्च वाटणे",
+                    "display-hi": "कान में भरापन"
+                },
+                {
+                    "id": "ID_473130dc-44c2-43fe-b47e-aa2369fecae3",
+                    "text": "Swelling in ear canal",
+                    "display-mr": "कानाच्या पोकळीमध्ये सूज",
+                    "display-hi": "कान की नली में सूजन"
+                },
+                {
+                    "id": "ID_abe22d3c-6e55-4f36-8951-d848b4f96e86",
+                    "text": "Difficulty hearing",
+                    "display-mr": "ऐकण्यास त्रास होणे",
+                    "display-hi": "सुनने में परेशानी"
+                },
+                {
+                    "id": "ID_57eda974-68b5-4af9-b45a-30ae0177fe8b",
+                    "text": "History of ear injury",
+                    "display-mr": "कानाच्या इजेचा इतिहास",
+                    "display-hi": "कान में चोट लगने का इतिहास"
+                },
+                {
+                    "id": "ID_f61395d2-87c7-4312-a3cc-46e00fd8ba53",
+                    "text": "Sore throat",
+                    "display-mr": "घसा खवखवणे",
+                    "display-hi": "गले में खराश"
+                },
+                {
+                    "id": "ID_cb401337-f945-467e-b189-b14ca59b3457",
+                    "text": "Runny nose",
+                    "display-mr": "नाक गळणे",
+                    "display-hi": "नाक बहना"
+                },
+                {
+                    "id": "ID_051d76dc-432c-4d26-801e-e98a4d974e6b",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_b5a1e111-3bb2-401d-898d-41dbfbd3b573",
+                    "text": "Ringing in ears (tinnitus)",
+                    "display-mr": "कानामध्ये घंटा वाजल्यासारखा आवाज येणे (कर्णनाददोष)",
+                    "display-hi": "कान में बजना (टिनिटस)"
+                },
+                {
+                    "id": "ID_e45181b4-7165-44bd-b502-e7adc32d620b",
+                    "text": "Sinus pain",
+                    "display-mr": "कानाच्या/चेहऱ्यातील पोकळीमध्ये वेदना",
+                    "display-hi": "साइनस में दर्द"
+                },
+                {
+                    "id": "ID_e7eb96c5-5ff8-4eba-bef0-dd2ed4e5c51f",
+                    "text": "Vertigo",
+                    "display-mr": "चक्कर/अंधारी येणे",
+                    "display-hi": "चक्कर आना (हल्का सर घूमना)"
+                },
+                {
+                    "id": "ID_354cad2c-4ce2-4f9f-bc02-f572065dbd8e",
+                    "text": "History of foreign body in ear canal",
+                    "display-mr": "कानाच्या पोकळीमध्ये बाह्य घटक जाण्याचा इतिहास",
+                    "display-hi": "कान की नली में किसी बाहरी वस्तु का इतिहास"
+                },
+                {
+                    "id": "ID_d32af300-be13-4cca-92c1-3ae1694d8e0e",
+                    "text": "History of head injury",
+                    "display-mr": "डोक्याला इजा होण्याचा इतिहास",
+                    "display-hi": "सिर में चोट लगने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_1e5214ae-3706-499a-bc69-73d58c0d7bef",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ff189e4e-236f-4861-8705-672a316a829f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_78070026-1f32-45e9-bdcd-4fdffa1f9e3d",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_ca660d39-f3d4-4a4a-a275-3301b42eb6dd",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_66757914-93bc-4dcb-978d-2ba76a8ecd6f",
+                    "text": "Toothache",
+                    "display-mr": "दात दुखणे",
+                    "display-hi": "दांत दर्द"
+                },
+                {
+                    "id": "ID_99548f3f-bb0e-408f-bc19-5948dd9848da",
+                    "text": "Difficulty opening mouth",
+                    "display-mr": "तोंड उघडण्यास त्रास होणे",
+                    "display-hi": "मुंह खोलने में परेशानी"
+                },
+                {
+                    "id": "ID_1fa4a8ba-04a0-4283-b0fe-717d3cd5bdea",
+                    "text": "Loss of balance",
+                    "display-mr": "तोल जाणे",
+                    "display-hi": "संतुलन खोना"
+                },
+                {
+                    "id": "ID_5cb59e90-02f6-4e61-a347-7fbb695a2a51",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_5098ad70-f404-4031-9194-c740bc4c0e55",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_2c9dd65f-e697-411d-aced-9d83da5a0dcd",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर येणे (डोके हलके वाटणे)",
+                    "display-hi": "चक्कर आना (सिर चकराना)"
+                },
+                {
+                    "id": "ID_8d22174d-1535-4394-8044-6bdad895631d",
+                    "text": "Neck stiffness",
+                    "display-mr": "मानेचा ताठरपणा",
+                    "display-hi": "गर्दन में अकड़न"
+                }
+            ]
+        },
+        {
+            "id": "ID_728ce261-c121-4c3e-9592-49e8ecb036c9",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_814914f8-1391-40b1-a75c-c4ecd74a030a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_a7c495d6-4586-4e60-ac74-8ef55543a3ba",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_6af9d630-4373-4c8f-bdf7-8af8bcfc0ad0",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_164d19c8-1bbb-4d1a-9ce7-f296ec030ee1",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_95858fcb-4f20-4201-8cdb-024b302cd18a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

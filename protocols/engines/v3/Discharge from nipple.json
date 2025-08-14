@@ -1,0 +1,573 @@
+{
+    "id": "ID_19383a2e-239a-490f-b5d5-910e5770fad7",
+    "text": "Discharge from nipple",
+    "engineVersion": "3.0",
+    "display-mr": "स्तनाग्रांमधून (निप्पल) स्राव",
+    "display-hi": "निप्पल से तरल निकलना",
+    "options": [
+        {
+            "id": "ID_2dcc911c-b0a3-4092-85af-ce99b896b2be",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_529bfb4a-6afa-474a-824b-48a0f3aeb4f4",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_408df8eb-6369-4c69-be2a-9dc60e872b92",
+            "text": "How fast did discharge from nipple develop?",
+            "display-mr": "स्तनाग्रांमधून (निप्पल) स्राव वाहण्याचा त्रास कसा वाढत गेला?",
+            "display-hi": "निप्पल से तरल निकलना कितनी तेजी से शुरू हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_335fd2e1-f88c-438d-bca3-531993242ede",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_a3023832-8aae-44e5-af99-77213ff2b500",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_25d327bd-4167-4267-9713-8814c2e1de75",
+            "text": "Which side of nipple do you have discharge?",
+            "display-mr": "कोणत्या बाजूच्या स्तनाग्रामधून (निप्पल) स्राव वाहतो ?",
+            "display-hi": "किस तरफ के स्तन के निप्पल में यह समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e6480867-2261-4406-9f9f-7691df8cc6db",
+                    "text": "Left nipple",
+                    "display-mr": "डावे स्तनाग्र (निप्पल)",
+                    "display-hi": "बायां निप्पल"
+                },
+                {
+                    "id": "ID_2dd2a1b1-b65b-40fb-993b-d54ea007128a",
+                    "text": "Right nipple",
+                    "display-mr": "उजवे स्तनाग्र (निप्पल)",
+                    "display-hi": "दायां निप्पल"
+                },
+                {
+                    "id": "ID_18320000-39b1-4db0-9b3d-f84e4cd2acc8",
+                    "text": "Both nipples",
+                    "display-mr": "दोन्ही स्तनाग्र (निप्पल)",
+                    "display-hi": "दोनों निप्पल"
+                }
+            ]
+        },
+        {
+            "id": "ID_ab7e714d-12ce-4dda-879e-0b082d5b9a59",
+            "text": "How can you describe the discharge from nipple?",
+            "display-mr": "स्तनाग्रांमधून (निप्पल) वाहणाऱ्या स्रावाचे कसे वर्णन कराल?",
+            "display-hi": "आप निप्पल से तरल निकलना का वर्णन कैसे कर सकती हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9e661ae0-2c85-46db-9bc9-582b6ad47aa6",
+                    "text": "Watery",
+                    "display-mr": "पाण्यासारखा",
+                    "display-hi": "पानीदार"
+                },
+                {
+                    "id": "ID_de944ced-dfec-4e2f-b469-0578facd139d",
+                    "text": "Milky",
+                    "display-mr": "दुधासारखा",
+                    "display-hi": "दूधिया"
+                },
+                {
+                    "id": "ID_439689e1-6094-4bdf-b9ce-df8dc6e45843",
+                    "text": "Sticky (multicolor)",
+                    "display-mr": "चिकट ( अनेक रंगांचा)",
+                    "display-hi": "चिपचिपा (बहुरंगी)"
+                },
+                {
+                    "id": "ID_946f79d1-e46f-455b-8353-2a33fd90ef9b",
+                    "text": "Pus (purulent)",
+                    "display-mr": "पू ( पू असलेला स्राव)",
+                    "display-hi": "मवाद (पीपयुक्त)"
+                },
+                {
+                    "id": "ID_b9fe6f04-661e-40d6-b8d2-67c993e41bd2",
+                    "text": "Faint yellow",
+                    "display-mr": "फिकट पिवळा",
+                    "display-hi": "हल्का पीला"
+                },
+                {
+                    "id": "ID_14b399bc-bc44-4da5-8649-7bcd3f59950f",
+                    "text": "Green",
+                    "display-mr": "हिरवा",
+                    "display-hi": "हरा"
+                },
+                {
+                    "id": "ID_6d8e0079-8709-4880-9de8-2344bb9ad738",
+                    "text": "Serous (pink)",
+                    "display-mr": "सेरस (गुलाबी)",
+                    "display-hi": "सीरस (गुलाबी)"
+                },
+                {
+                    "id": "ID_cb813b0c-7b46-439f-a4e4-78c56fab28aa",
+                    "text": "Bloody",
+                    "display-mr": "रक्तासारखा",
+                    "display-hi": "खून मिश्रित"
+                },
+                {
+                    "id": "ID_735a0279-f46f-49ea-a1d9-f038144e9b05",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_a8b57215-1418-4394-b0f0-f6376a04bc0c",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_60f7356e-76aa-4cac-90af-f28663bf530a",
+            "text": "Do you have any of the local features associated with the discharge from nipple?",
+            "display-mr": "स्तनाग्रांमधून (निप्पल) स्राव वाहण्याबरोबरच त्याच्याशी संबधित अन्य त्रास आहे का?",
+            "display-hi": "क्या निप्पल से होने वाले रिसाव से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_aaf93ce2-3c7f-457f-a001-bb397c24e05d",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d58848a5-1915-474c-a4a3-841782b75b40",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_db31cb26-ffe7-4fb5-a902-cf45c81e2340",
+                    "text": "Scaling (flaky skin)",
+                    "display-mr": "खवले निघणे (खवलेयुक्त त्वचा)",
+                    "display-hi": "स्केलिंग (परतदार त्वचा)"
+                },
+                {
+                    "id": "ID_a8f65609-56ea-4384-8f05-ff3b500964ce",
+                    "text": "Dimpling of skin",
+                    "display-mr": "त्वचेवर खड्डे पडणे",
+                    "display-hi": "त्वचा पर गड्ढे पड़ना"
+                },
+                {
+                    "id": "ID_98b2f3cc-43be-4cec-9f39-6353b8a69dd4",
+                    "text": "Swelling",
+                    "display-mr": "सूज येणे",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_c161c5bc-7375-472f-acd3-cfd65445a771",
+                    "text": "Rashes",
+                    "display-mr": "चट्टे",
+                    "display-hi": "चकत्ते"
+                },
+                {
+                    "id": "ID_cb7d0315-b5c9-42ed-84c0-baf7057196e5",
+                    "text": "Orange peel like skin",
+                    "display-mr": "संत्र्याच्या सालीसारखी त्वचा",
+                    "display-hi": "नारंगी छिलके जैसी त्वचा"
+                },
+                {
+                    "id": "ID_ee91d9d7-c98e-44f7-ba90-b07201a1aea4",
+                    "text": "Nodules",
+                    "display-mr": "गाठी",
+                    "display-hi": "गांठें"
+                },
+                {
+                    "id": "ID_b06eed49-094a-404a-98e6-67b4a3aea4d1",
+                    "text": "Thickening of skin",
+                    "display-mr": "त्वचा राठ होणे",
+                    "display-hi": "त्वचा का मोटा होना"
+                },
+                {
+                    "id": "ID_b56c1d6c-1d38-4016-ae48-44cdd7b9cdf9",
+                    "text": "Crusting",
+                    "display-mr": "त्वचेचे पापुद्रे निघणे",
+                    "display-hi": "पपड़ी बनना"
+                },
+                {
+                    "id": "ID_11e345a7-1b21-44a0-8c42-ad579489629c",
+                    "text": "Retracted nipple",
+                    "display-mr": "आतील बाजूस वळलेली स्तनाग्रे (निप्पल)",
+                    "display-hi": "निप्पल का अंदर धंसना"
+                },
+                {
+                    "id": "ID_744abdcd-eb7b-4f5c-b854-7443df0382bf",
+                    "text": "Itching",
+                    "display-mr": "खाज",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_400403cc-cca3-487f-a20a-bb8d273f3364",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर",
+                    "display-hi": "अल्सर"
+                },
+                {
+                    "id": "ID_77bbd1c3-94b2-44d1-94d1-dff7707f38a3",
+                    "text": "Shiny skin",
+                    "display-mr": "चमकदार त्वचा",
+                    "display-hi": "चमकदार त्वचा"
+                },
+                {
+                    "id": "ID_bc9a0fda-5f38-47a8-a84c-fe8eccca2762",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_9bb594ef-2be9-449c-9c9c-7841a3a4d5ad",
+            "text": "How is discharge from nipple progressing?",
+            "display-mr": "स्तनाग्रांमधून (निप्पल) स्राव वाहण्याच्या त्रासामध्ये काही बदल झाला का ?",
+            "display-hi": "निप्पल से तरल निकलना की समस्या में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8c6a8338-86a7-4592-93bb-1e9d8630f689",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_47a53da1-1fae-4bfb-a00f-92a71df1553a",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_f5d47422-c95a-4e12-a7e9-3bbae54a8d24",
+                    "text": "Recurrent (on & off)",
+                    "display-mr": "वारंवार (सुरु आणि बंद)",
+                    "display-hi": "बार-बार होना (शुरू और बंद)"
+                },
+                {
+                    "id": "ID_e7eb8565-9b40-4dcf-8d46-30b2991bda84",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_f1a1d667-ea8d-48c1-aac0-6ab2c6007727",
+            "text": "What triggers the discharge from nipple?",
+            "display-mr": "स्तनाग्रांमधून (निप्पल) स्राव वाहण्याचा त्रास कशामुळे सुरु होतो?",
+            "display-hi": "निप्पल से तरल निकलना किस वजह से होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_c2ecdacf-2185-4d23-8607-80f4edef772d",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e42f4dff-da7b-42fc-8133-eedf8e6c5938",
+                    "text": "Squeezing nipple",
+                    "display-mr": "स्तनाग्रे (निप्पल) पिळल्यामुळे",
+                    "display-hi": "निप्पल का दबना"
+                },
+                {
+                    "id": "ID_4cc2d4a9-991f-4c8e-9c27-685f4ae53bf7",
+                    "text": "Breastfeeding",
+                    "display-mr": "स्तनपान",
+                    "display-hi": "स्तनपान"
+                },
+                {
+                    "id": "ID_3a13fbf4-2369-42a2-bc58-ee935c8ba1d9",
+                    "text": "Menstrual period",
+                    "display-mr": "मासिक पाळी",
+                    "display-hi": "माहवारी"
+                },
+                {
+                    "id": "ID_741bc3be-fb94-49cf-b6bb-ba67c4b85e90",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_0182903c-425a-443f-905b-32e063067cfd",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_850bc91a-90b8-41bf-bfe9-592fcf3e6ea4",
+            "text": "What is the current menstrual cycle status?",
+            "display-mr": "सध्याच्या मासिक पाळीच्या चक्राची काय स्थिती आहे?",
+            "display-hi": "वर्तमान माहवारी चक्र की स्थिति क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c567f9f1-7766-4018-928a-79e647bb69dc",
+                    "text": "Not attained menarche",
+                    "display-mr": "पहिली मासिक पाळी आलेली नाही",
+                    "display-hi": "माहवारी शुरू नहीं हुआ है"
+                },
+                {
+                    "id": "ID_864a0aed-3800-4431-aa17-d89e1ce61b14",
+                    "text": "Missed periods",
+                    "display-mr": "पाळी चुकली",
+                    "display-hi": "माहवारी न आना"
+                },
+                {
+                    "id": "ID_fbfc528a-396b-4592-9fe2-e2666fd72993",
+                    "text": "Regular menstrual periods",
+                    "display-mr": "नियमित मासिक पाळी",
+                    "display-hi": "नियमित माहवारी"
+                },
+                {
+                    "id": "ID_63af68b6-e5d1-4781-99be-55fa066c3cac",
+                    "text": "Irregular menstrual periods",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "अनियमित माहवारी"
+                },
+                {
+                    "id": "ID_36136a05-e803-4d1b-b1c7-d1d1aeb590a7",
+                    "text": "Attained menopause",
+                    "display-mr": "मेनॉपॉज सुरु झाला आहे",
+                    "display-hi": "रजोनिवृत्ति हो जाना"
+                }
+            ]
+        },
+        {
+            "id": "ID_07b4a9ef-8e45-43c4-878e-ed6b695b9dad",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_11d610d4-294b-47c9-a114-58fdcba848d6",
+                    "text": "Breast lump",
+                    "display-mr": "स्तनाची गाठ",
+                    "display-hi": "स्तन में गांठ"
+                },
+                {
+                    "id": "ID_32055b00-6bda-4b37-863b-89683ad5fd84",
+                    "text": "Breast pain",
+                    "display-mr": "स्तनांमध्ये दुखणे",
+                    "display-hi": "स्तन में दर्द"
+                },
+                {
+                    "id": "ID_bd2e111a-2711-4242-8df4-05f1050e69fa",
+                    "text": "Breast swelling",
+                    "display-mr": "स्तनांना सूज",
+                    "display-hi": "स्तन में सूजन"
+                },
+                {
+                    "id": "ID_82f480b8-1541-4f61-b819-a44744fb3aa5",
+                    "text": "Pain in armpit",
+                    "display-mr": "बगलेत / काखेत दुखणे",
+                    "display-hi": "बगल में दर्द"
+                },
+                {
+                    "id": "ID_fad37417-e2d1-4873-a25f-3e8e5f3a79c4",
+                    "text": "Swelling in armpit",
+                    "display-mr": "बगलेत / काखेत सूज",
+                    "display-hi": "बगल में सूजन"
+                },
+                {
+                    "id": "ID_cb6a4a00-d6db-483d-9869-441ada2f80d5",
+                    "text": "Asymmetry of breasts",
+                    "display-mr": "स्तनांचा आकार बदलणे (असमान स्तन)",
+                    "display-hi": "स्तनों की विषमता"
+                },
+                {
+                    "id": "ID_0398407e-c613-4e35-8a58-0283b7b99c9d",
+                    "text": "History of oral contraceptive pills intake",
+                    "display-mr": "तोंडावाटे घ्यायच्या गर्भनिरोधक गोळ्यांचा पूर्वइतिहास",
+                    "display-hi": "मौखिक गर्भनिरोधक गोलियों के सेवन का इतिहास"
+                },
+                {
+                    "id": "ID_8f585f3a-60f9-4666-823f-e7843ad94c55",
+                    "text": "History of hormonal treatment",
+                    "display-mr": "हार्मोनल उपचारांसाठीचा पूर्वइतिहास",
+                    "display-hi": "हार्मोनल इलाज का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_9dc3178a-1187-4538-bd3b-3c464b7bd0da",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_bfb24794-2195-497c-9f17-705f7a764319",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_72be1683-5168-4803-9299-28112f135e28",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_0f859809-267b-435e-aff2-742cd5780625",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_aa75c422-096a-4fae-b665-e1f28ce0f7cc",
+                    "text": "Abdominal distention",
+                    "display-mr": "पोट फुगणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_c124be75-03af-4fdd-bdad-1506a18b8dea",
+                    "text": "Visual disturbance",
+                    "display-mr": "बघण्यास त्रास होणे( दृष्टीची समस्या)",
+                    "display-hi": "दृष्टि बाधा"
+                },
+                {
+                    "id": "ID_2e985b3a-b4cf-4c02-80d8-1896f3afeecf",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_adab94af-a741-42f4-9e69-13d9bb860798",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_ff50764e-ecd4-496e-8033-b88d61a4805e",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_f64d3c7a-9914-4a3d-94cc-edd7279cba70",
+                    "text": "Constipation",
+                    "display-mr": "बध्दकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_b1757cdc-8f9e-44c5-8e5d-6370c1a9e8b8",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_abdfebb9-3928-4e4a-8d13-fba05bc35660",
+                    "text": "Hot flashes",
+                    "display-mr": "हॉट फ्लशेस (अचानक शरीरात उष्णता जाणवणे)",
+                    "display-hi": "अचानक गर्मी लगना"
+                },
+                {
+                    "id": "ID_f70866a0-eb2c-44c3-bb82-dab4327dc6d2",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न होना"
+                },
+                {
+                    "id": "ID_391ff891-13f3-478d-b923-bd4dd0624646",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_62687de1-3962-481f-be4a-acc6397e482a",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ae116999-1a9d-4880-9cce-af462e5cf843",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d77d2d29-333d-4d14-abbd-692723109c0c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_3bcbb50b-7637-4b7e-b0a5-49a1f37fb0ad",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_78e2be87-eb2d-45c2-874c-cd1475293f23",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f5eda48b-a294-4ae2-90d6-664b4ac9745e",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5ef67b94-1cb7-4a4f-912d-3a53278830c8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

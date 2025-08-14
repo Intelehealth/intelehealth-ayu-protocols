@@ -1,0 +1,882 @@
+{
+    "id": "ID_a22a1f4d-a4b4-44f8-b2d0-2fef7e18946d",
+    "text": "Ankle pain",
+    "engineVersion": "3.0",
+    "display-mr": "पोटऱ्या दुखणे (घोट्यामध्ये वेदना)",
+    "display-hi": "टखने का दर्द",
+    "options": [
+        {
+            "id": "ID_eb65ca05-bf74-4396-9404-e191eeef08c6",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8bf2adba-e389-4fae-99f2-e66cf07da538",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_48678410-1fd6-4158-9784-665f9307f39f",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_231b83a2-3f6c-4c04-8a4e-c909c3f65bcf",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_25f9c4e8-37c9-427a-85c8-900c5b3d7a52",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_cd5b17d9-7ddd-4701-8847-0db5c237578d",
+            "text": "Did the ankle pain develop after any of these events?",
+            "display-mr": "यापैकी कोणती घटना घडल्यानंतरघोट्यामधील वेदना वाढल्या आहेत का?",
+            "display-hi": "क्या टखने का दर्द इनमें से किसी घटना के बाद विकसित हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9823b673-7a72-4dff-9b0d-72e318f50cbd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_01bc5bb0-20aa-4530-89b1-71b931e7e8f6",
+                    "text": "Injury",
+                    "display-mr": "दुखापत इजा",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_66888bb6-1bd4-4398-a7f5-b31d79714845",
+                    "text": "Sprain",
+                    "display-mr": "मुरगळणे लचक",
+                    "display-hi": "मोच"
+                }
+            ]
+        },
+        {
+            "id": "ID_582c370e-307e-4b10-8f18-f1672b8956cc",
+            "text": "Which side of ankle do you have the pain?",
+            "display-mr": "तुम्हाला घोट्याच्या कोणत्या बाजूला वेदना होतात?",
+            "display-hi": "आपके टखने में किस तरफ दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_de4f96f4-3cc7-421f-90d6-05a894afc4da",
+                    "text": "Left ankle",
+                    "display-mr": "डावा घोटा",
+                    "display-hi": "बाएं टखने"
+                },
+                {
+                    "id": "ID_26de500c-dc5f-42d3-9af9-a1b2610e75ab",
+                    "text": "Right ankle",
+                    "display-mr": "उजवा घोटा",
+                    "display-hi": "दाएं टखने"
+                },
+                {
+                    "id": "ID_e9b420cc-6406-4913-a4c7-d1e410257a4b",
+                    "text": "Both ankles",
+                    "display-mr": "दोन्ही घोटे",
+                    "display-hi": "दोनों टखने"
+                }
+            ]
+        },
+        {
+            "id": "ID_1a75058d-d51e-46e0-b142-5bb2716203cf",
+            "text": "Which part of the ankle do you have the pain?",
+            "display-mr": "तुम्हाला घोट्याच्या कोणत्या भागात वेदना होतात?",
+            "display-hi": "आपके टखने का कौन सा हिस्सा दर्द कर रहा है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_37980f6e-bcad-4ba4-a863-6acda895e93a",
+                    "text": "Front part",
+                    "display-mr": "पुढील भाग",
+                    "display-hi": "सामने का हिस्सा"
+                },
+                {
+                    "id": "ID_6821698b-28af-4f9c-84d0-bca6a0ec346b",
+                    "text": "Back part",
+                    "display-mr": "मागील भाग",
+                    "display-hi": "पीछे का हिस्सा"
+                },
+                {
+                    "id": "ID_e6eaa3d7-3728-4017-a5e1-454a3b0dd344",
+                    "text": "Lateral part",
+                    "display-mr": "बाजूला भाग",
+                    "display-hi": "पार्श्व भाग"
+                },
+                {
+                    "id": "ID_b67091c9-1d43-4584-8953-48a1ea9f8158",
+                    "text": "Medial part",
+                    "display-mr": "मधला भाग",
+                    "display-hi": "मध्य भाग"
+                },
+                {
+                    "id": "ID_786e63bf-255d-4e2a-be73-42c2d7c051f9",
+                    "text": "Inside the joint",
+                    "display-mr": "सांध्यांच्या आतमध्ये",
+                    "display-hi": "जोड़ के अंदर"
+                },
+                {
+                    "id": "ID_4722874d-cfec-467a-80ed-2cc2de9e33aa",
+                    "text": "Entire ankle joint",
+                    "display-mr": "घोट्याचे संपूर्ण सांधे",
+                    "display-hi": "पूरा टखना"
+                }
+            ]
+        },
+        {
+            "id": "ID_13b8bd26-d09c-4063-8505-04dcfa1438a8",
+            "text": "How can you describe the character of ankle pain?",
+            "display-mr": "तुम्हाला कशी वेदना होते हे सांगू शकाल का?",
+            "display-hi": "आप टखने के दर्द को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_80ec0572-42df-4714-a409-fad4569697b7",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ होणारी वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_de642d34-e2a9-4ca8-8811-1e6193f4fc56",
+                    "text": "Sharp pain",
+                    "display-mr": "टोचल्यासारखी वेदना",
+                    "display-hi": "चुभने जैसा दर्द"
+                },
+                {
+                    "id": "ID_80d8f3f7-1921-4705-b4ab-b5acb958db87",
+                    "text": "Stabbing pain",
+                    "display-mr": "वार केल्यावर होते तशी वेदना",
+                    "display-hi": "तीव्र चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_c4fb32a7-3e26-454f-b5f1-4f6429c3a3d2",
+                    "text": "Pressure pain",
+                    "display-mr": "दाब दिल्यासारखी वेदना",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_fedea633-5170-4ec8-90e8-53644dd5e877",
+                    "text": "Dull aching pain",
+                    "display-mr": "खोलवर होणारी वेदना",
+                    "display-hi": "धीमा-धीमा दर्द"
+                },
+                {
+                    "id": "ID_bf98e500-ca90-437c-a15d-d6f7c8ff024c",
+                    "text": "Throbbing pain",
+                    "display-mr": "कळा येणारी वेदना",
+                    "display-hi": "धड़कता हुआ दर्द"
+                },
+                {
+                    "id": "ID_b0d662f5-fc8c-4c1d-b894-91060d8b861b",
+                    "text": "Shooting pain",
+                    "display-mr": "असह्य होणारी तीव्र वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_687514d3-56ef-4046-bd36-e9739e3b9277",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_a246b5d1-1186-4014-ae07-f3d1bf401cf1",
+            "text": "How severe is the ankle pain?",
+            "display-mr": "घोटे दुखणे किती तीव्र /गंभीर आहे?",
+            "display-hi": "टखने का दर्द कितना गंभीर है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f325e1c5-4b6f-4d57-96e7-f8a79fa2dba8",
+                    "text": "Mild pain (1 to less than 3)",
+                    "display-mr": "कमी वेदना  (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than3)"
+                },
+                {
+                    "id": "ID_0394e276-18b7-4a25-807d-d3e880d7f0d0",
+                    "text": "Moderate pain (3 to less than 5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than5)"
+                },
+                {
+                    "id": "ID_656a44b7-3dc1-4677-94c6-d561cde178fe",
+                    "text": "Severe pain (5 to less than 7)",
+                    "display-mr": "गंभीर / तीव्र वेदना  (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than7)"
+                },
+                {
+                    "id": "ID_45306da9-343d-4b95-84f8-d97a3eeea867",
+                    "text": "Very severe pain (7 to less than 9)",
+                    "display-mr": "अति गंभीर/ तीव्र वेदना (7 ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than9)"
+                },
+                {
+                    "id": "ID_8a50db64-d701-4805-aa1e-8412d04ca9dc",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "अत्यंत वाईट/ असह्य वेदना   (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_d0c8fa84-7516-4d80-896c-40d13f1d4975",
+            "text": "What does relieve or lessen the ankle pain?",
+            "display-mr": "घोटे दुखणे कशामुळे थांबते किंवा कमी होते?",
+            "display-hi": "टखने का दर्द किससे कम होता है या राहत मिलती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1701baa0-e789-4144-ad22-645c041b3425",
+                    "text": "None",
+                    "display-mr": "कशामुळेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6ec9caf2-562d-4a90-a2da-07b231afeb9b",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_35b9d834-2ce6-476d-a263-d7ffdd3aaa60",
+                    "text": "Ice packs",
+                    "display-mr": "आईस पॅक",
+                    "display-hi": "बर्फ के पैक"
+                },
+                {
+                    "id": "ID_a6c7551e-6498-4e53-a8f5-f1c3c5744bba",
+                    "text": "Heating packs",
+                    "display-mr": "हिटींग पॅक (गरम पाण्याची पिशवी)",
+                    "display-hi": "हीटिंग पैक"
+                },
+                {
+                    "id": "ID_14e6b342-7019-42e6-bae1-0eb8466e174d",
+                    "text": "Elevation of part",
+                    "display-mr": "तो भाग थोडा उंचावर ठेवल्यास",
+                    "display-hi": "हिस्से को ऊंचा करना"
+                },
+                {
+                    "id": "ID_e9c873b8-1685-4409-b260-29bde8c7a61c",
+                    "text": "Certain footwear",
+                    "display-mr": "काही विशिष्ट पादत्रांणांमुळे",
+                    "display-hi": "कुछ जूते"
+                },
+                {
+                    "id": "ID_9496a4b6-7ab6-404e-a2ca-175df34b4ee7",
+                    "text": "Medication",
+                    "display-mr": "औषधे",
+                    "display-hi": "दवा"
+                },
+                {
+                    "id": "ID_8f114c30-4695-475d-bb51-c48f5092fcb1",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e02ead22-62dc-4462-8381-f34c488231ed",
+            "text": "What does increase or worsen the ankle pain?",
+            "display-mr": "घोटे दुखणे कशामुळे वाढते किंवा असह्य होते?",
+            "display-hi": "क्या चीज़ें टखने के दर्द को बढ़ाती हैं या बिगाड़ती हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e9064663-9570-4fa6-bac0-4d3d32d90b38",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_25da9e23-9f92-412d-9caf-052613e75956",
+                    "text": "Walking distance",
+                    "display-mr": "चालण्याचे अंतर",
+                    "display-hi": "चलने की दूरी"
+                },
+                {
+                    "id": "ID_3a78b803-3e83-47c6-97f3-b4f19325d3ea",
+                    "text": "Walking on flat floor",
+                    "display-mr": "सपाट जमिनीवर चालणे",
+                    "display-hi": "समतल फर्श पर चलना"
+                },
+                {
+                    "id": "ID_a03b189f-6898-4f56-a652-65f04ee5b3c6",
+                    "text": "Walking on uneven floor",
+                    "display-mr": "असमान जमिनीवर चालणे",
+                    "display-hi": "असमान फर्श पर चलना"
+                },
+                {
+                    "id": "ID_fcb7f017-5e4b-4d8d-9e90-a6e6ab352306",
+                    "text": "Going up stairs",
+                    "display-mr": "जिना वर चढणे",
+                    "display-hi": "सीढ़ियों पर चढ़ना"
+                },
+                {
+                    "id": "ID_44530f3c-40e6-449e-aa38-1e0912c244de",
+                    "text": "Going down stairs",
+                    "display-mr": "जिना खाली उतरणे",
+                    "display-hi": "सीढ़ियों पर उतरना"
+                },
+                {
+                    "id": "ID_33a053c3-ea0e-46dd-9291-d562f3a9cf44",
+                    "text": "Certain footwear",
+                    "display-mr": "काही विशिष्ट पादत्राणांमुळे",
+                    "display-hi": "कुछ जूते"
+                },
+                {
+                    "id": "ID_fa52b89c-2036-49ca-9bcb-5ce3920c1a25",
+                    "text": "Running",
+                    "display-mr": "धावणे",
+                    "display-hi": "दौड़ना"
+                },
+                {
+                    "id": "ID_03eb64e5-dfbc-4e99-b086-845ee6a86fd4",
+                    "text": "Prolonged standing",
+                    "display-mr": "खूप वेळ उभे राहिल्याने",
+                    "display-hi": "लंबे समय तक खड़े रहने से"
+                },
+                {
+                    "id": "ID_bbef6fad-ac33-43bc-8246-58664b1e3dd5",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_5e52ed83-8b82-4f8c-ad47-0367e0091d84",
+            "text": "How is ankle pain progressing?",
+            "display-mr": "घोट्यांची वेदना कशी आहे?",
+            "display-hi": "टखने के दर्द में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9b19ca8b-57fa-4223-8956-689aea625837",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_76a0c352-16c1-4b72-bb16-52f2577eba75",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_408faef8-afbe-478b-989b-a36b782b23b3",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होता है"
+                },
+                {
+                    "id": "ID_b60b0c29-1f82-4e1b-b95e-b838047bc993",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_cf0cb8fe-dc58-4604-86d5-efeb0acbe061",
+            "text": "Does the ankle pain have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांमध्ये घोट्याच्या दुखण्याचे काही विशिष्ट चक्र आहे का?",
+            "display-hi": "क्या टखने का दर्द 24 घंटे के चक्र में किसी खास समय पर बढ़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_82f0d3ea-6403-428a-bf9f-e1890bf6b99b",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_5f6a16ea-13d7-4365-8803-cfebd1e05d9a",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधून मधून वेदना (वेदना होतात आणि थांबतात)",
+                    "display-hi": "रुक-रुककर (आता और जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_7de1f4c3-e86c-4a7f-a43a-0afe9d8c38a5",
+                            "text": "How does the ankle pain change during the 24 hour period?",
+                            "display-mr": "घोट्यांचे दुखणे 24 तासांमध्ये कसे बदलते?",
+                            "display-hi": "24 घंटे की अवधि में टखने का दर्द कैसे बदलता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_87bc06df-eda4-40c2-a913-a8230e437554",
+                                    "text": "Worse in morning",
+                                    "display-mr": "सकाळी जास्त असते",
+                                    "display-hi": "सुबह ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_98254193-80db-46e0-a81e-bc97543cb83a",
+                                    "text": "Worse in night",
+                                    "display-mr": "रात्री जास्त असते",
+                                    "display-hi": "रात को ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_23ca71a2-fe9f-46ca-b6de-59ac38deec01",
+                                    "text": "Worse when first moving",
+                                    "display-mr": "जेव्हा पहिल्यांदा हालचाल होते तेव्हा जास्त असते",
+                                    "display-hi": "पहले चलने पर ज्यादा दर्द"
+                                },
+                                {
+                                    "id": "ID_77062f91-bfe4-4451-9618-cec5ec70aaee",
+                                    "text": "Better on moving",
+                                    "display-mr": "हालचाल केल्यावर बरे वाटते",
+                                    "display-hi": "चलने पर बेहतर"
+                                },
+                                {
+                                    "id": "ID_68a8a421-d08f-4556-a45a-979f5ad9693f",
+                                    "text": "Worsens during day",
+                                    "display-mr": "दिवसाच्या काळात खूप वाढते",
+                                    "display-hi": "दिन के समय में बिगड़ता है"
+                                },
+                                {
+                                    "id": "ID_3f5ef0c1-15db-4c28-aac1-6751d733b7c7",
+                                    "text": "Worsens on prolonged use",
+                                    "display-mr": "दीर्घकाळ चालल्याने वाढते",
+                                    "display-hi": "लंबे समय तक चलने पर बिगड़ता है"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_394826ba-e669-4a55-87c6-be26f2d2a6d4",
+            "text": "Does the ankle pain move to other parts of the body?",
+            "display-mr": "घोट्याचे दुखणे शरीराच्या अन्य भागांतही पसरते का?",
+            "display-hi": "क्या टखने का दर्द शरीर के अन्य हिस्सों में भी होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5d78fdc9-d8e7-4ae6-8d28-3fd4eddd76c6",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_16df4b77-08d3-4679-b199-55e9b0a280f8",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_637e9e3d-9a9c-4940-98b4-928739734c8b",
+                            "text": "The ankle pain moves to",
+                            "display-mr": "घोट्याचे दुखणे शरीराच्या या भागांत पसरते",
+                            "display-hi": "दर्द किस ओर बढ़ता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_d9473806-a079-4570-955d-6e7921965854",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "टांग"
+                                },
+                                {
+                                    "id": "ID_3de8feee-85dd-4bdf-813d-5bd70f6790f4",
+                                    "text": "Knee",
+                                    "display-mr": "गुडघा",
+                                    "display-hi": "घुटना"
+                                },
+                                {
+                                    "id": "ID_75b3ba04-74f0-459a-bf68-e8f9f9ff2657",
+                                    "text": "Heel",
+                                    "display-mr": "टाच",
+                                    "display-hi": "एड़ी"
+                                },
+                                {
+                                    "id": "ID_65798ca7-0731-4494-ba4b-7e1cc8e8abe9",
+                                    "text": "Foot",
+                                    "display-mr": "पाऊल",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_001c9f2b-3e64-4e0b-8736-96991013a2a5",
+                                    "text": "Toes",
+                                    "display-mr": "पायाची बोटं",
+                                    "display-hi": "पैर की अंगुलियां"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9df67ef6-b7a9-46bc-af64-fb962451a143",
+            "text": "Do you have any of these local associated features with the ankle pain?",
+            "display-mr": "घोट्याच्या दुखण्याशी निगडीत खालीलपैकी कोणते त्रास तुम्हाला होत आहेत का?",
+            "display-hi": "क्या आपके टखने के दर्द के साथ इनमें से कोई और लक्षण भी हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_be8e2bf8-9ce6-4f81-927f-201b45d00296",
+                    "text": "None",
+                    "display-mr": "नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2c1a237c-1443-4a90-a798-2f3fbe20ec2e",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_264f268c-dbca-44c4-a291-2689ce489589",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_70560b90-607d-4128-af67-6724093c6573",
+                    "text": "Stiffness",
+                    "display-mr": "आखडणे",
+                    "display-hi": "जकड़न"
+                },
+                {
+                    "id": "ID_edcbcd6d-32c7-4b6d-855c-109bcc63758d",
+                    "text": "Locking",
+                    "display-mr": "स्तंभन",
+                    "display-hi": "लॉकिंग"
+                },
+                {
+                    "id": "ID_8e442a0e-d574-4d74-8516-d62c9c9cc5d1",
+                    "text": "Popping",
+                    "display-mr": "सांध्यातून हालचालीदरम्यान आवाज येणे",
+                    "display-hi": "तेजी से उभरना"
+                },
+                {
+                    "id": "ID_2def0fd5-6a45-4ecb-b41e-8b9bd706578c",
+                    "text": "Giving way",
+                    "display-mr": "सांधा सैल पडणे/तोल जाणे",
+                    "display-hi": "गिरने का अहसास"
+                }
+            ]
+        },
+        {
+            "id": "ID_8e996039-ffde-4aca-b24d-adf7feb9be32",
+            "text": "Does the ankle pain affect any of your daily activities?",
+            "display-mr": "घोट्याच्या दुखण्याचा तुमच्या दैनंदिन कामावर परिणाम होतो का?",
+            "display-hi": "क्या टखने का दर्द आपकी दैनिक गतिविधियों को प्रभावित करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e70da519-6c18-4356-9212-de7514a516f3",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_aea77207-89bb-43f3-9cb7-babbc6574885",
+                    "text": "Walking with a limp",
+                    "display-mr": "लंगडत चालणे",
+                    "display-hi": "लंगड़ाते हुए चलना"
+                },
+                {
+                    "id": "ID_07f64eb8-3a5c-4bdd-b5ae-2f0622336ef0",
+                    "text": "Unable to walk",
+                    "display-mr": "चालता न येणे",
+                    "display-hi": "चल नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_40ac6b84-0765-4352-b46a-2f76d2d4432c",
+                    "text": "Unable to run",
+                    "display-mr": "धावता/पळता न येणे",
+                    "display-hi": "दौड़ नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_824321a3-9f3d-4b3b-88f4-1ecdc166de22",
+                    "text": "Unable to climb",
+                    "display-mr": "वर चढता न येणे",
+                    "display-hi": "चढ़ नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_8e16ae2d-5df9-4b66-930e-f5a84b83fa88",
+                    "text": "Unable to bear weight",
+                    "display-mr": "वजन उचलता न येणे",
+                    "display-hi": "वजन सहन नहीं कर पा रहे हैं"
+                },
+                {
+                    "id": "ID_eb028e39-3440-4c3e-987c-a8b969c5c7f3",
+                    "text": "Unable to fold",
+                    "display-mr": "घडी न घालता येणे",
+                    "display-hi": "मोड़ नहीं पा रहे हैं"
+                },
+                {
+                    "id": "ID_2a577eab-4fc1-4be1-90c4-ba2b0cf3f9bb",
+                    "text": "Unable to stretch",
+                    "display-mr": "स्ट्रेच न करता येणे",
+                    "display-hi": "फैला नहीं पा रहे हैं"
+                }
+            ]
+        },
+        {
+            "id": "ID_01b94f0d-c394-4f88-9ea4-eaf699273cc8",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_948fe9be-fcd8-4116-837a-9cf05dce8b21",
+                    "text": "Swelling of ankle joint",
+                    "display-mr": "घोट्याच्या सांध्याला सूज",
+                    "display-hi": "टखने के जोड़ में सूजन"
+                },
+                {
+                    "id": "ID_79e0ecef-4cdb-4bff-9bbe-fc8c1382e045",
+                    "text": "Toes pain",
+                    "display-mr": "पायाची बोटे दुखणे",
+                    "display-hi": "पैर की उंगुलियों में दर्द"
+                },
+                {
+                    "id": "ID_c23cdea2-2ca0-433b-9155-a7b4e9452c8b",
+                    "text": "Swelling of toe joints",
+                    "display-mr": "पायाच्या सांध्यांना सूज",
+                    "display-hi": "अंगुलियों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_17ed65c6-44a1-4761-b7dd-d3821fae7c20",
+                    "text": "Knee pain",
+                    "display-mr": "गुडघेदुखी",
+                    "display-hi": "घुटने में दर्द"
+                },
+                {
+                    "id": "ID_c9aac687-3f34-4861-ba51-d492673539ef",
+                    "text": "Swelling of knee joints",
+                    "display-mr": "गुडघ्याच्या सांध्यांना सूज",
+                    "display-hi": "घुटनों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_014aeb56-bc48-4d2a-a85b-feb4563e3f9f",
+                    "text": "Hip pain",
+                    "display-mr": "कंबरेमध्ये दुखणे",
+                    "display-hi": "कूल्हे में दर्द"
+                },
+                {
+                    "id": "ID_c2954672-e4b8-4f04-91cc-520ffc5acd75",
+                    "text": "Elbow pain",
+                    "display-mr": "कोपर दुखणे",
+                    "display-hi": "कोहनी में दर्द"
+                },
+                {
+                    "id": "ID_a607748e-cab7-4725-9b3c-6f279d96c5d5",
+                    "text": "Swelling of elbow joints",
+                    "display-mr": "कोपराचे सांधे दुखणे",
+                    "display-hi": "कोहनी के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_a1ad06fa-0c6b-4a87-9083-bf50f0f4eafc",
+                    "text": "Wrist pain",
+                    "display-mr": "मनगट दुखणे",
+                    "display-hi": "कलाई में दर्द"
+                },
+                {
+                    "id": "ID_05da0a25-64b4-46ae-b763-88b0fed7ba4b",
+                    "text": "Swelling of wrist joints",
+                    "display-mr": "मनगटाचे सांधे दुखणे",
+                    "display-hi": "कलाई के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_0b177c7e-f8b4-4453-aee0-7b86c20f9601",
+                    "text": "Swelling of finger joints",
+                    "display-mr": "बोटांचे सांधे दुखणे",
+                    "display-hi": "उंगलियों के जोड़ों में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_641c488c-b6b8-40a2-ab61-05301a2bc28e",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_aa3e1432-f7a2-4e1e-bb35-95d318a83cc2",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_968526e1-dca5-437c-9181-83cf400bea9b",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_e33863dc-24f8-445a-a05f-38af7e4f8049",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी भरुन येणे आणि कुडकुडणे",
+                    "display-hi": "ठंड और जकड़न"
+                },
+                {
+                    "id": "ID_d5856e41-a996-452e-8028-52e27cacaa2f",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_6120448e-1428-480b-af02-bc2d7577e337",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_3d9d5972-72d1-4e58-84a7-0d234f986442",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना"
+                },
+                {
+                    "id": "ID_8d9f50ce-1b28-41f3-b0f1-89d63ef6a121",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटाना"
+                },
+                {
+                    "id": "ID_395d5301-abde-4a9d-a76f-1abfa184514e",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख कम होना"
+                },
+                {
+                    "id": "ID_e0ad0ffa-d06e-43bd-b82b-c803114a7af3",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ उठणे",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_8323674b-2626-46f8-8bef-f32310f4334e",
+                    "text": "Mouth ulcers",
+                    "display-mr": "तोंड येणे",
+                    "display-hi": "मुंह में छाले"
+                },
+                {
+                    "id": "ID_741e7ecd-7954-45ff-9950-bd3766458249",
+                    "text": "Eye redness",
+                    "display-mr": "डोळे लाल होणे",
+                    "display-hi": "आँखों में लालिमा"
+                },
+                {
+                    "id": "ID_54c58564-7078-4c9b-b403-0b8d6c1e1d82",
+                    "text": "Photosensitivity",
+                    "display-mr": "फोटो सेन्सिटीव्हीटी (प्रकाश संवेदनशीलता)",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_94da7c09-7298-4c25-ac1a-c43873b0990a",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_2343e35c-4167-4c99-af34-ec8b0fd0640e",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_b0015aae-848d-46dc-b245-2baf562910b7",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bce31c09-3691-46cc-b36f-a9c6be5142b5",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_ad07114b-6a57-4228-bad5-50021c8cd86f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_2e9d3f10-1e41-4de1-b63b-bb431420dd05",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f7146643-904d-42a8-be04-d0168ba1c0cb",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_7d9e5c33-2b0e-4052-9d0d-1b9f27f66892",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

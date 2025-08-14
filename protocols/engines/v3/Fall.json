@@ -1,0 +1,851 @@
+{
+    "id": "ID_a48cf1ad-fba4-4e45-8199-58bb8fa7946d",
+    "text": "Fall",
+    "engineVersion": "3.0",
+    "display-mr": "पडणे",
+    "display-hi": "गिरना",
+    "options": [
+        {
+            "id": "ID_e7e65d41-8208-432a-bcb9-7fdf0d7817d9",
+            "text": "When have you had the fall?",
+            "display-mr": "तुम्ही कधी पडला होतात?",
+            "display-hi": "आप कब गिरे थे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aeddbf81-f054-45a7-88f5-ba93ba4bf9d5",
+                    "text": "When have you had the fall?",
+                    "display-mr": "तुम्ही कधी पडला होतात?",
+                    "display-hi": "आप कब गिरे थे?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_d9b2f165-4194-4b4a-b6a0-842e08bc8962",
+            "text": "How fast did the fall happened?",
+            "display-mr": "किती वेगाने पडला होता?",
+            "display-hi": "आप कितनी तेजी से गिरे थे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ba7a3bd5-5848-4730-8fbc-c04a07a431b6",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_0f6ddae5-855e-4714-ab35-6f3837c51a68",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_5714500c-163a-4754-96e5-9975cae1cca9",
+            "text": "How did the fall happened?",
+            "display-mr": "तुम्ही कसे पडला?",
+            "display-hi": "आप कैसे गिरे थे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aea6f948-fe16-48e5-8f71-d3097ca8635d",
+                    "text": "Accidental",
+                    "display-mr": "अपघाताने",
+                    "display-hi": "आकस्मिक"
+                },
+                {
+                    "id": "ID_35d5d176-fe6c-4865-b657-fb8b4a8fb0d7",
+                    "text": "Intentional",
+                    "display-mr": "जाणीवपूर्वक",
+                    "display-hi": "जान-बूझकर"
+                },
+                {
+                    "id": "ID_438c9c58-637c-494e-a855-e959ab4aa9d1",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_6040fb46-6338-4bc6-9863-23aff376e83c",
+            "text": "From which height, did the fall happened?",
+            "display-mr": "तुम्ही किती उंचावरून पडला?",
+            "display-hi": "आप कितनी ऊंचाई से गिरे थे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5b27b96d-e46a-4da6-97ce-4af95b2cb7f7",
+                    "text": "Less than 1 foot",
+                    "display-mr": "1 फुटापेक्षा कमी",
+                    "display-hi": "1 फुट से भी कम"
+                },
+                {
+                    "id": "ID_7fec820d-7351-42eb-855e-f9fcf5918b88",
+                    "text": "2 to 4 feet",
+                    "display-mr": "2 ते 4 फूट",
+                    "display-hi": "2 से 4 फीट"
+                },
+                {
+                    "id": "ID_c916dda3-0bcb-43f7-97a0-838c673565d6",
+                    "text": "5 to 9 feet",
+                    "display-mr": "5 ते 9 फूट",
+                    "display-hi": "5 से 9 फीट"
+                },
+                {
+                    "id": "ID_afb1cd56-23cb-4ff5-b6f9-0258448f7fd4",
+                    "text": "10 to 20 feet",
+                    "display-mr": "10 ते 20 फूट",
+                    "display-hi": "10 से 20 फीट"
+                },
+                {
+                    "id": "ID_4e498498-ce1d-486a-abcb-e891cbf95795",
+                    "text": "More than 20 feet",
+                    "display-mr": "20 फुटांपेक्षा जास्त",
+                    "display-hi": "20 फीट से भी ज्यादा"
+                }
+            ]
+        },
+        {
+            "id": "ID_a8d19362-6241-46d2-b023-c7a4d9e98c31",
+            "text": "Do you have any of the symptoms before onset of the fall?",
+            "display-mr": "पडू लागताना तुम्हाला काही लक्षणे जाणवली का?",
+            "display-hi": "गिरने से पहले आपको इनमें से कोई तकलीफ तो नहीं थी?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cbd14882-463b-4364-b601-226037b9a966",
+                    "text": "None",
+                    "display-mr": "काहीच नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f1b0b790-65a8-4131-af94-983c83512292",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर येणे (गरगरणे)",
+                    "display-hi": "चक्कर आना (हल्का सिर घूमना)"
+                },
+                {
+                    "id": "ID_37ca15fe-43df-45d0-a3a5-04e6173591d9",
+                    "text": "Vertigo",
+                    "display-mr": "व्हर्टिगो",
+                    "display-hi": "सिर का चक्कर (संतुलन न होने का अहसास)"
+                },
+                {
+                    "id": "ID_6ee3c8e5-3546-4284-a68c-19ac8cf1f9f7",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "घबराहट"
+                },
+                {
+                    "id": "ID_3d4d1baa-86d4-4dea-a596-049c39dccf40",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_b4c6b34a-2c39-4595-8e96-b3ad85f05f22",
+                    "text": "Abnormal movements",
+                    "display-mr": "असामान्य हालचाली",
+                    "display-hi": "असामान्य हरकतें"
+                },
+                {
+                    "id": "ID_594fe846-84c9-4431-b8b4-cd846df2ce30",
+                    "text": "Loss of consciousness",
+                    "display-mr": "बेशुद्ध पडणे",
+                    "display-hi": "अचेत होना"
+                },
+                {
+                    "id": "ID_c2e9c6e1-b07e-4f34-bffb-a39d4f0d30f3",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_6b4b2e95-bacc-403f-b4bb-e08e732fdf0f",
+            "text": "Did you get any injury after fall?",
+            "display-mr": "तुम्हाला पडल्यावर काही दुखापत झाली का?",
+            "display-hi": "क्या आपको गिरने के बाद कोई चोट लगी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4be8c9df-0e01-4cf9-899d-06434b69f7ec",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c157ef83-e130-43d9-af0c-a1242830bc40",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_f6cc46dc-d1a2-4ee0-80e5-b33ba07aa666",
+                            "text": "Which part of the body do you have the injury due to fall?",
+                            "display-mr": "पडल्यानंतर तुम्हाला शरीराच्या कोणत्या भागात दुखापत झाली?",
+                            "display-hi": "गिरने से शरीर के किस हिस्से में चोट लगी है?",
+                            "isRequired": true,
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_7bd9503a-22fc-42ea-a5e5-feaa4b594e88",
+                                    "text": "Scalp",
+                                    "display-mr": "टाळू",
+                                    "display-hi": "खोपड़ी"
+                                },
+                                {
+                                    "id": "ID_fbb9d3b9-14c0-4099-8fa6-f76c413d07c3",
+                                    "text": "Forehead",
+                                    "display-mr": "कपाळ",
+                                    "display-hi": "माथा"
+                                },
+                                {
+                                    "id": "ID_89b7bcdf-24a8-4713-b38d-c35e8df176f6",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_074f1d4e-c703-4a50-93c7-f81289877d0b",
+                                    "text": "Eye",
+                                    "display-mr": "डोळा",
+                                    "display-hi": "आंख"
+                                },
+                                {
+                                    "id": "ID_40fa8290-c1a4-4ec7-a4ea-9d19b2550e45",
+                                    "text": "Nose",
+                                    "display-mr": "नाक",
+                                    "display-hi": "नाक"
+                                },
+                                {
+                                    "id": "ID_d74b51c7-23e8-4903-943f-37b38199d2bb",
+                                    "text": "Ear",
+                                    "display-mr": "कान",
+                                    "display-hi": "कान"
+                                },
+                                {
+                                    "id": "ID_6466e227-11fb-4b02-889d-de4dda4c3c1c",
+                                    "text": "Upper lip",
+                                    "display-mr": "वरचे ओठ",
+                                    "display-hi": "होंठ के ऊपर का हिस्सा"
+                                },
+                                {
+                                    "id": "ID_5566e8ff-b4ad-4607-9518-eea301f3ce54",
+                                    "text": "Lower lip",
+                                    "display-mr": "खालचे ओठ",
+                                    "display-hi": "निचले होंठ"
+                                },
+                                {
+                                    "id": "ID_aa0e0a8b-d6b1-44a1-bb50-3cb82b3d9561",
+                                    "text": "Tongue",
+                                    "display-mr": "जीभ",
+                                    "display-hi": "जीभ"
+                                },
+                                {
+                                    "id": "ID_c92c8f7d-a1e7-4c25-83c6-997d532aae1b",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गरदन"
+                                },
+                                {
+                                    "id": "ID_6f44326e-89c8-43a3-886e-ecdc31bdea34",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_cab3066c-6eca-4ad9-a9c8-0d859db42a9c",
+                                    "text": "Upper arm",
+                                    "display-mr": "दंड",
+                                    "display-hi": "ऊपरी बांह"
+                                },
+                                {
+                                    "id": "ID_ac70a441-6488-4c31-8a08-696571216eb7",
+                                    "text": "Forearm",
+                                    "display-mr": "कोपरापासूनचा हात",
+                                    "display-hi": "आगे की भुजा"
+                                },
+                                {
+                                    "id": "ID_897a4877-30c7-45b8-ab3a-0d67915627a7",
+                                    "text": "Hand",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_bd6615fa-65b3-4721-8623-47528dd54825",
+                                    "text": "Fingers",
+                                    "display-mr": "बोटे",
+                                    "display-hi": "उंगलियां"
+                                },
+                                {
+                                    "id": "ID_3e0b8777-8f17-41a8-8a8c-d0e8e7f68ae3",
+                                    "text": "Abdomen",
+                                    "display-mr": "ओटीपोट",
+                                    "display-hi": "पेट"
+                                },
+                                {
+                                    "id": "ID_50eeeac9-4ea6-44d4-8ec0-488be6b44334",
+                                    "text": "Back",
+                                    "display-mr": "पाठ",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_dca0ad0a-a4c8-475f-a05a-b0b89da9ad86",
+                                    "text": "Groin",
+                                    "display-mr": "मांडीचा सांधा",
+                                    "display-hi": "कमर के नीचे"
+                                },
+                                {
+                                    "id": "ID_536e4413-59f9-4aec-b0de-88258b3e19d3",
+                                    "text": "External genitalia",
+                                    "display-mr": "बाह्य जननेंद्रिय",
+                                    "display-hi": "बाह्य जननांग"
+                                },
+                                {
+                                    "id": "ID_19ccb4ac-efbb-4c35-bcf4-bcd6658c7d23",
+                                    "text": "Thigh",
+                                    "display-mr": "मांडी",
+                                    "display-hi": "जांघ"
+                                },
+                                {
+                                    "id": "ID_aa6883ac-706a-40d0-92cc-bdd4cd9e21a7",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "टांग"
+                                },
+                                {
+                                    "id": "ID_558c229e-e62e-44e8-b1fa-6fe34fa5dbfe",
+                                    "text": "Foot",
+                                    "display-mr": "पाऊल",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_31527a8f-e075-47ab-9f13-8200eaa8fea4",
+                                    "text": "Toes",
+                                    "display-mr": "पायाची बोटे",
+                                    "display-hi": "पैर की उंगलियां"
+                                },
+                                {
+                                    "id": "ID_124fd16d-b1a9-4e79-be87-f1a88db9e082",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c21059ee-f75f-46c4-b245-c43f0ebfdb67",
+            "text": "Which side of body you have injury after fall?",
+            "display-mr": "पडल्यानंतर तुमच्या शरीराला कोणत्या बाजूला दुखापत झाली?",
+            "display-hi": "गिरने के बाद आपके शरीर के किस तरफ चोट लगी है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_bf1203b0-fc0d-4f79-9c17-b27a71ad5c34",
+                    "text": "Left",
+                    "display-mr": "डावीकडे",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_31942eb3-3345-4ec8-83cf-e97b2ec77723",
+                    "text": "Right",
+                    "display-mr": "उजवीकडे",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_118800a8-32a1-48de-af39-1dd3444731b7",
+                    "text": "Central (middle)",
+                    "display-mr": "मध्यभागी (मध्य)",
+                    "display-hi": "केंद्रीय (मध्य)"
+                },
+                {
+                    "id": "ID_a0479646-c05e-4b9d-a903-f11d7793ed53",
+                    "text": "Front side",
+                    "display-mr": "समोरच्या बाजूला",
+                    "display-hi": "सामने की ओर"
+                },
+                {
+                    "id": "ID_812783ca-6243-4f89-a00b-bf1421fd795d",
+                    "text": "Back side",
+                    "display-mr": "मागच्या बाजूला",
+                    "display-hi": "पीछे की ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_a5b7e712-e423-4340-9de4-acb38314d11b",
+            "text": "How can you describe the injury due to fall?",
+            "display-mr": "पडल्यामुळे झालेल्या दुखापतीचे वर्णन कसे कराल?",
+            "display-hi": "आप गिरने के कारण लगी चोट का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d994cc72-e833-401b-b554-9bbfa423bf9d",
+                    "text": "Superficial cut",
+                    "display-mr": "वरवर कापणे",
+                    "display-hi": "ऊपरी चोट"
+                },
+                {
+                    "id": "ID_85331515-015f-436b-9d17-16d2f4a20464",
+                    "text": "Deep cut",
+                    "display-mr": "खोलवर कापणे",
+                    "display-hi": "गहरा जख्म"
+                },
+                {
+                    "id": "ID_24d3a9d2-acd1-42dd-a355-cc93c7c216d7",
+                    "text": "Penetrating wound",
+                    "display-mr": "खोल गेलेली जखम",
+                    "display-hi": "भेदने वाला घाव"
+                },
+                {
+                    "id": "ID_b53d573a-63a0-4eac-adc4-fd3a9c5cea22",
+                    "text": "Blunt injury",
+                    "display-mr": "बोथट जखम",
+                    "display-hi": "धक्के से चोट"
+                },
+                {
+                    "id": "ID_e9f14a60-3408-40da-a96d-96162f97537f",
+                    "text": "Abrasion",
+                    "display-mr": "खरचटणे",
+                    "display-hi": "खरोंच"
+                },
+                {
+                    "id": "ID_c98ebef6-76c8-4587-a123-f08c8ddbc96e",
+                    "text": "Bruise",
+                    "display-mr": "ठेचणे",
+                    "display-hi": "नील पड़ना"
+                },
+                {
+                    "id": "ID_e93b74ac-2dda-4d2b-a8d8-994a19a7dccf",
+                    "text": "Sprain",
+                    "display-mr": "मुरगळणे",
+                    "display-hi": "मोच"
+                },
+                {
+                    "id": "ID_07042ecc-cd5b-4d69-ab93-02c2c962e6ba",
+                    "text": "Fracture of bone",
+                    "display-mr": "हाडांचे फ्रॅक्चर",
+                    "display-hi": "हड्डी का टूटना"
+                },
+                {
+                    "id": "ID_cdf7c8ed-1ed8-4be8-bbf7-f1d967718ff8",
+                    "text": "Avulsion",
+                    "display-mr": "शरीरापासून वेगळे होणे",
+                    "display-hi": "मांस या अंग कटकर अलग हो जाना"
+                },
+                {
+                    "id": "ID_e6a0f02c-7d1b-4806-91bc-2503c9aebf3f",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_6b6842db-12cc-4254-9b70-3ef216dc67d7",
+            "text": "Do you have pain associated with the injury due to fall?",
+            "display-mr": "तुम्हाला पडल्यामुळे झालेल्या दुखापतीशी संबंधित वेदना होतात का?",
+            "display-hi": "क्या आपको गिरने के कारण लगी चोट के कारण दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6da6cef0-468e-4594-9e06-d1cfba9b57c3",
+                    "text": "No",
+                    "display-mr": "नाही"
+                },
+                {
+                    "id": "ID_84788bd0-e378-4996-ad91-4d91afc984d7",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "nested-question",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_0c69d374-637d-4dff-903c-850d2b7fa63c",
+                            "text": "How can you describe the character of pain in the injured part?",
+                            "display-mr": "दुखापत झालेल्या भागामध्ये वेदना कशा स्वरूपाची आहे याचे वर्णन कसे कराल?",
+                            "display-hi": "आप घायल हिस्से में दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_ad6e642c-4659-417b-96b3-fcc2648f980a",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळणारी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_dc81f013-b3a9-4ac7-ab85-5a5c437fa745",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_e16ca682-318f-452f-8832-7a838aa819d0",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                                    "display-hi": "चीरे जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_c6ea8af4-5949-4811-93a6-989a618a1432",
+                                    "text": "Pressure pain",
+                                    "display-mr": "दाबल्यासारखी वेदना",
+                                    "display-hi": "दबाव वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_305a77ef-a638-4de7-b8ec-d584d1116391",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "मंद दुखणारी वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_2da486a2-541f-4ca7-babd-919c975499a6",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_fab903ba-527e-4748-89df-2cd2939a0027",
+                                    "text": "Shooting pain",
+                                    "display-mr": "अचानक वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_908e3f28-c3c3-4527-a79d-5f8ae9d4e701",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_2639be7d-fc69-47a8-80bc-29b80d5b031e",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक तीव्र है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_ea2f30e6-dc11-4351-8e4d-2e4ac884bf2a",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                                },
+                                {
+                                    "id": "ID_47500096-5fc9-436e-b171-083fef45dc01",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                                },
+                                {
+                                    "id": "ID_e291d099-f432-4e25-a02e-ea95035a3840",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                                },
+                                {
+                                    "id": "ID_034768b9-3c2a-4b57-b9e1-e1f9756548b2",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "खूप तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत तेज दर्द (7 से less than 9)"
+                                },
+                                {
+                                    "id": "ID_d37a1c6d-a51a-492c-8b61-497596d03ea3",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_6eb73441-3e24-472a-9178-8e34f1010f07",
+            "text": "Do you have any of the local associated features with the injury?",
+            "display-mr": "तुमच्या दुखापतीशी संबंधित काही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "चोट के साथ कोई स्थानीय तकलीफ तो नहीं है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b4226ba1-3792-45cd-a619-7fb0ade5cfae",
+                    "text": "None",
+                    "display-mr": "काहीच नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f7d1bf8c-c85c-43cd-aa3c-07775878de78",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_d76f62eb-2c1f-4dbe-856e-cd00c2d5bc62",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्शावर वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_beab51ed-a0b9-4367-89bf-f139b1c05dd0",
+                    "text": "Skin discoloration",
+                    "display-mr": "त्वचेचा रंग बदलणे",
+                    "display-hi": "त्वचा का रंग बदलना"
+                },
+                {
+                    "id": "ID_89d21cb6-ca2a-4a49-8271-9a4f292918a5",
+                    "text": "Loss of sensation",
+                    "display-mr": "संवेदना कमी होणे",
+                    "display-hi": "संवेदना महसूस न होना"
+                },
+                {
+                    "id": "ID_cc4408c2-1ebe-43c0-8f3b-9476b571bbc7",
+                    "text": "Deformity",
+                    "display-mr": "विद्रूपता",
+                    "display-hi": "विकृति"
+                },
+                {
+                    "id": "ID_a7e64fb9-1afd-460b-a50f-ed965a58b66a",
+                    "text": "Restricted movements of limb",
+                    "display-mr": "अंगाच्या हालचालींवर निर्बंध",
+                    "display-hi": "अंगों को चलाने में बाधा"
+                },
+                {
+                    "id": "ID_6c79a910-e2cd-49ef-852c-981acdf6b799",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्त्राव होणे",
+                    "display-hi": "खून आना"
+                },
+                {
+                    "id": "ID_ef2d7dc9-05bb-4399-aa78-36aa69ab2658",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_babe8610-75ae-4dbc-bcd4-5116257ded72",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2361c90a-4fba-47c7-b533-68c6a0e90d6f",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_b886ccef-551d-4c76-8a55-01e296098e1d",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी करना"
+                },
+                {
+                    "id": "ID_a34c47f6-8b25-490f-b567-abbc4069d9e3",
+                    "text": "Fits",
+                    "display-mr": "आकडी",
+                    "display-hi": "मिर्गी"
+                },
+                {
+                    "id": "ID_0655e816-b4de-4540-9d48-c70ce030a19c",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_054bbc88-687f-4367-a289-e47449418d12",
+                    "text": "Loss of consciousness",
+                    "display-mr": "बेशुद्ध पडणे",
+                    "display-hi": "अचेत होना"
+                },
+                {
+                    "id": "ID_a7e9afab-d6a9-4928-9d5d-ff69d139b04d",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातपाय दुर्बळ होणे",
+                    "display-hi": "अंगों की कमजोरी"
+                },
+                {
+                    "id": "ID_0efa4921-6b14-4f30-9321-04c7b53e7a22",
+                    "text": "Nose bleeding",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                },
+                {
+                    "id": "ID_90ea474e-36b4-4f81-8079-0beec2e147a1",
+                    "text": "Bleeding from ear",
+                    "display-mr": "कानातून रक्त येणे",
+                    "display-hi": "कान से खून बहना"
+                },
+                {
+                    "id": "ID_2531f6b0-5bf3-4954-b46a-e16b7fd2b1fc",
+                    "text": "History of frequent falls",
+                    "display-mr": "वारंवार पडण्याचा इतिहास",
+                    "display-hi": "बार-बार गिरने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_3bd2b5b5-d14d-4c2d-b37f-a5caf67c59f3",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_03676cc5-dbe1-4876-90ca-89e66a0b72c3",
+                    "text": "None",
+                    "display-mr": "कोणतीही नाहीत",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9e3f7b89-0820-45b8-9f83-d80532671932",
+                    "text": "Neck pain",
+                    "display-mr": "मानेमध्ये वेदना",
+                    "display-hi": "गर्दन में दर्द"
+                },
+                {
+                    "id": "ID_6d68192a-a9c9-4bc6-a390-0725687f449c",
+                    "text": "Vision disturbance",
+                    "display-mr": "दृष्टीचा त्रास",
+                    "display-hi": "दिखाई देने में गड़बड़ी"
+                },
+                {
+                    "id": "ID_a31864f9-f07a-44c9-a55c-97efb5f0ab9a",
+                    "text": "Tremor",
+                    "display-mr": "कंप/थरथर",
+                    "display-hi": "कांपना"
+                },
+                {
+                    "id": "ID_db0ee7e6-76c7-41bb-9673-205429cc5fef",
+                    "text": "Numbness and tingling",
+                    "display-mr": "बधीरपणा आणि मुंग्या येणे",
+                    "display-hi": "सुन्नता और झुनझुनी"
+                },
+                {
+                    "id": "ID_72c747ff-501a-40fe-bf65-d89bc8e13346",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ दर्द"
+                },
+                {
+                    "id": "ID_c6837da2-0923-4558-a87f-94ff11e0a9b9",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_ada60810-32d9-4ad1-88d1-132a3856399a",
+                    "text": "Excessive sweating",
+                    "display-mr": "जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_563cb689-44e3-4c3a-b6ed-0754a3c108ac",
+                    "text": "Drowsiness",
+                    "display-mr": "गुंगी",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_555843b6-efcd-442c-bb0a-97f47dcbe055",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळणे",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_ae9975ba-d7c1-465a-a639-8071453dc657",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेताना त्रास",
+                    "display-hi": "सांस लेने में दिक्क्त"
+                },
+                {
+                    "id": "ID_a55a6905-e293-4775-b9b6-8a97d90e95f4",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ca88e179-56e0-48d2-b56e-64ad4d106abb",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ef9756bb-69b4-4ac2-86a7-1d21183a4ddd",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_22df5178-3ba9-4703-bf8c-e2695ec3479f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_3a0574a3-a4d2-40cf-a857-ce1fef9dea9d",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_b0cb1479-5e97-4081-8e51-1bfddec38fbb",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5dceebe2-25a7-4124-95d0-50f16415d043",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

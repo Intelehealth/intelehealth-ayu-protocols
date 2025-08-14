@@ -1,0 +1,435 @@
+{
+    "id": "ID_bdf0797f-4b0b-412e-9537-c52ee1e85e19",
+    "text": "Delayed speech",
+    "engineVersion": "3.0",
+    "display-mr": "उशीरा बोलणे",
+    "display-hi": "देर से बोलना",
+    "age_max": "11",
+    "options": [
+        {
+            "id": "ID_1da90d95-c6b4-4082-8de0-c06b1f2f60ed",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fb20087e-d412-4a70-8403-223e8fc1b9dc",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_5f358aa6-17d7-471b-85e1-846c7f58e0f5",
+            "text": "Does the child speak words?",
+            "display-mr": "मूल शब्द बोलते का?",
+            "display-hi": "क्या बच्चा शब्द बोलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b9535ae5-4bca-450f-aec5-a46f065d3498",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_5bdbc56e-229b-462c-aee2-456b1d761eb8",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हाँ"
+                }
+            ]
+        },
+        {
+            "id": "ID_aae15021-90c7-4cbb-a6dd-f6ea8ab2c323",
+            "text": "At what age did the child say the first words?",
+            "display-mr": "मूल कोणत्या वयामध्ये पहिले शब्द बोलू लागले?",
+            "display-hi": "किस उम्र में बच्चे ने पहला शब्द बोला?",
+            "options": [
+                {
+                    "id": "ID_75306ffc-916c-4aa0-8694-2361d90fe3c9",
+                    "text": "At what age did the child say the first words?",
+                    "display-mr": "मूल कोणत्या वयामध्ये पहिले शब्द बोलू लागले?",
+                    "display-hi": "किस उम्र में बच्चे ने पहला शब्द बोला?",
+                    "input-type": "number"
+                }
+            ]
+        },
+        {
+            "id": "ID_08692856-63fc-4884-9afe-f6ea673ebc15",
+            "text": "Does the child have any prior history?",
+            "display-mr": "मुलाला काही पूर्व इतिहास आहे का?",
+            "display-hi": "क्या बच्चे का कोई पिछला इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d4b0b106-ba46-4e83-870d-f40f19a1955e",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_16d658b9-6499-4dc6-9039-7ed3a6e6e5de",
+                    "text": "Head injury",
+                    "display-mr": "डोक्याला इजा",
+                    "display-hi": "सिर पर चोट"
+                },
+                {
+                    "id": "ID_7d1471f0-a14b-4bd6-abc4-fe34e7337d62",
+                    "text": "Delayed cry at birth",
+                    "display-mr": "जन्माच्या वेळी उशीरा रडणे",
+                    "display-hi": "जन्म के समय देर से रोना"
+                },
+                {
+                    "id": "ID_ee1c1ac2-4d9a-4f54-b349-f277c83d0619",
+                    "text": "Birth injury",
+                    "display-mr": "जन्माच्या वेळी इजा",
+                    "display-hi": "जन्म के समय चोट"
+                },
+                {
+                    "id": "ID_1d0c508d-3c6e-4b81-a054-03b799b8be96",
+                    "text": "Complicated birth",
+                    "display-mr": "गुंतागुंतीची प्रसूती",
+                    "display-hi": "जन्म के समय जटिलता"
+                },
+                {
+                    "id": "ID_f560d916-f422-4c65-ac06-5337cb05b0b9",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_6a684154-1d9e-4c25-a361-9fa10db429ae",
+            "text": "How does the child communicate their needs?",
+            "display-mr": "मूल त्याच्या गरजा कशा सांगते?",
+            "display-hi": "बच्चा अपनी जरूरतों को कैसे बताता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0a096908-87da-43df-91ce-7205bfa6e4bd",
+                    "text": "Gestures",
+                    "display-mr": "हातवारे",
+                    "display-hi": "इशारा"
+                },
+                {
+                    "id": "ID_df0fb584-0e92-4999-bbd6-c62cdf6bf21e",
+                    "text": "Pointing",
+                    "display-mr": "बोट दाखवून",
+                    "display-hi": "संकेत देना"
+                },
+                {
+                    "id": "ID_20aab88f-6c38-443a-b1d5-49b42ba5bb8d",
+                    "text": "Using sounds",
+                    "display-mr": "आवाजांचा वापर करून",
+                    "display-hi": "ध्वनियों का उपयोग"
+                }
+            ]
+        },
+        {
+            "id": "ID_9da8baae-7408-45b3-9c47-b127481b1617",
+            "text": "How many words can your child currently say?",
+            "display-mr": "तुमचे मूल सध्या किती शब्द बोलू शकते?",
+            "display-hi": "आपका बच्चा वर्तमान में कितने शब्द बोल सकता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ed641703-8fb7-4715-9484-b3b54d42aabd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a193c820-1fbd-4d59-b69b-6b30469df598",
+                    "text": "1 to 2 words",
+                    "display-mr": "1 ते 2 शब्द",
+                    "display-hi": "1 से 2 शब्द"
+                },
+                {
+                    "id": "ID_d55eb9c2-dead-462d-9891-2472ffecb727",
+                    "text": "3 to 5 words",
+                    "display-mr": "3 ते 5 शब्द",
+                    "display-hi": "3 से 5 शब्द"
+                },
+                {
+                    "id": "ID_43e8fa3c-e42a-4248-9799-0de9cb0c25cb",
+                    "text": "5 or more words",
+                    "display-mr": "5 किंवा अधिक शब्द",
+                    "display-hi": "5 या अधिक शब्द"
+                },
+                {
+                    "id": "ID_35b78618-5658-4f96-80d0-8ea8db6788b6",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_34dd10ee-ed5d-45f7-902c-bc5531fed62f",
+            "text": "Has your child met other developmental milestones such as sitting crawling walking on time?",
+            "display-mr": "तुमच्या मुलाने बसणे/रांगणे/चालणे यासारखे विकासाचे इतर टप्पे वेळेवर गाठले का?",
+            "display-hi": "क्या आपके बच्चे ने बैठने/रेंगने/चलने जैसे अन्य विकासात्मक मील के पत्थर समय पर हासिल किए हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_08e2617b-ed1f-42ed-b36f-9251145f0a1f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_74de5195-2174-4420-b8bf-0116abab40b3",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_7e9303b7-fe64-49a2-ad38-fb2c9872d8fc",
+                    "text": "Delayed",
+                    "display-mr": "उशीरा",
+                    "display-hi": "देरी"
+                },
+                {
+                    "id": "ID_cbfc66e5-223c-4251-ba55-83696e3805df",
+                    "text": "Dont know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_1f8145e3-2b2e-4f9c-a0b6-d9abd94d2a30",
+            "text": "Does your child respond to sounds and recognize their name when called?",
+            "display-mr": "तुमचे मूल आवाजांना प्रतिसाद देते का व त्याला नावाने हाक मारल्यावर ते ओळखते का?",
+            "display-hi": "क्या आपका बच्चा आवाजों पर प्रतिक्रिया करता है और पुकारे जाने पर अपना नाम पहचानता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_65363308-cf6c-4572-93f4-d6f1f5fbb816",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_bf6aeece-538a-44e8-9632-e771788c32f7",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_c960bed6-e2d3-4017-92e2-f4a7d6e52d5d",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको इनमें से कोई लक्षण हैं",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6b71cafd-4bb2-4baf-bf31-cd617759ad28",
+                    "text": "Fits",
+                    "display-mr": "अपस्माराचे झटके",
+                    "display-hi": "मिरगी के दौरे"
+                },
+                {
+                    "id": "ID_fa9e58f9-f58e-4127-9780-2a8bfb44346c",
+                    "text": "Decreased hearing",
+                    "display-mr": "कमी ऐकू येणे",
+                    "display-hi": "कम सुनाई देना"
+                },
+                {
+                    "id": "ID_5b84a6e1-b8b9-47a8-be7e-0f25425483b8",
+                    "text": "Hearing loss",
+                    "display-mr": "ऐकू न येणे",
+                    "display-hi": "सुनने में कमी"
+                },
+                {
+                    "id": "ID_0ec95628-a2e4-4f3b-92b7-07f1b4b6ea0c",
+                    "text": "Hyperactivity",
+                    "display-mr": "अतिक्रियाशीलता",
+                    "display-hi": "अति सक्रियता"
+                },
+                {
+                    "id": "ID_e9b3290c-4e7c-4d3f-85b8-ae03669fb161",
+                    "text": "Inattention",
+                    "display-mr": "लक्ष न देणे",
+                    "display-hi": "ध्यान न देना"
+                },
+                {
+                    "id": "ID_5198def3-dfc5-4aac-9a7f-825fbb7ccd64",
+                    "text": "Small head",
+                    "display-mr": "डोके लहान असणे",
+                    "display-hi": "छोटा सिर"
+                },
+                {
+                    "id": "ID_62670d0b-23e1-4524-9f6e-1a72fa7d1cf6",
+                    "text": "Large head",
+                    "display-mr": "डोके मोठे असणे",
+                    "display-hi": "बड़ा सिर"
+                },
+                {
+                    "id": "ID_4ebd7b34-5160-4abd-b25a-f2e401194d86",
+                    "text": "Family history of delayed speech",
+                    "display-mr": "उशीरा बोलण्याचा कौटुंबिक इतिहास",
+                    "display-hi": "देरी से बोलने का पारिवारिक इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_1292f12c-cff7-4c9a-a8f6-b8a6677744a9",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको इनमें से कोई लक्षण हैं",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_356ec7ca-2318-4e90-9d8c-f2a7599c5bf5",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_153cd1c5-f22e-4731-b736-735eaf4aad82",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_203302fe-e1d9-47e3-b9c4-d73d46fb87b6",
+                    "text": "Irritability",
+                    "display-mr": "चिडचिड करणे",
+                    "display-hi": "चिड़चिड़ापन"
+                },
+                {
+                    "id": "ID_4261e020-bdbc-49cb-a34e-5c36046489e6",
+                    "text": "Loss of interest in play",
+                    "display-mr": "खेळण्यात रस नसणे",
+                    "display-hi": "खेलने में रुचि न होना"
+                },
+                {
+                    "id": "ID_85c10fd1-2a65-4abb-989c-5dc1dab878eb",
+                    "text": "Decreased vision",
+                    "display-mr": "दृष्टी कमी होणे",
+                    "display-hi": "दृष्टि में कमी"
+                },
+                {
+                    "id": "ID_ea3d4adf-89ab-43be-b73b-83da4fba20ec",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_e8d25ada-2ed9-4558-8113-1495f3c7cf01",
+                    "text": "Difficulty walking",
+                    "display-mr": "चालताना त्रास होणे",
+                    "display-hi": "चलने में परेशानी"
+                },
+                {
+                    "id": "ID_5f80f910-adb9-424c-94b4-54da9751721b",
+                    "text": "Fainting",
+                    "display-mr": "बेशुद्ध पडणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_c6865856-a502-443f-b72a-3bfddc41a8c7",
+                    "text": "Feeding problems",
+                    "display-mr": "भरवण्याच्या समस्या",
+                    "display-hi": "खाने में समस्या"
+                },
+                {
+                    "id": "ID_2f8742c4-ded5-42be-affb-1c4fb15e607c",
+                    "text": "Swelling of feet",
+                    "display-mr": "पावलांवर सूज",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_2b676000-6d1f-46be-a3ef-e339b65e592f",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न कर पाना"
+                },
+                {
+                    "id": "ID_aa873a25-b5ad-4555-a8ae-59db64988b96",
+                    "text": "Excessive sweating",
+                    "display-mr": "अतिशय जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_4ecc98eb-82f7-4235-8a27-82c490ffc1b5",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1ad7309e-f69b-4d0f-854f-b213f8f53ffd",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f5a3b9c9-949d-4d04-af42-63be8ac68fdc",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b62252d1-fc4b-443c-88da-f3ba4d8b5336",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_09e24191-7756-4975-ae8a-1b98fab4f2fb",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f4d9b4d0-547e-436d-a478-610b08e4ec76",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_9c4e1226-7ece-4305-aab7-c6b6b2c9797f",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

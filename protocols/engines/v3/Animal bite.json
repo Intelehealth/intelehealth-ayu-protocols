@@ -1,0 +1,405 @@
+{
+    "id": "ID_c3d25437-8d4c-431f-86c5-0e9609b13be0",
+    "text": "Animal bite",
+    "engineVersion": "3.0",
+    "display-mr": "प्राण्याचा चावा/दंश",
+    "display-hi": "पशु का काटना",
+    "options": [
+        {
+            "id": "ID_f4890062-8aea-43d0-9cc4-4b708d77d745",
+            "text": "How long ago did this occur?",
+            "display-mr": "हे होऊन किती काळ झाला आहे?",
+            "display-hi": "यह कितने समय पहले हुआ था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aaba87f0-758a-48e6-8f72-8cd7e550b07c",
+                    "text": "How long ago did this occur?",
+                    "display-mr": "हे होऊन किती काळ झाला आहे?",
+                    "display-hi": "यह कितने समय पहले हुआ था?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_feae2b26-dcb9-4403-83d8-9dfea5047f2d",
+            "text": "How did the exposure or bite occur?",
+            "display-mr": "प्राण्यांशी संपर्क कसा झाला किंवा प्राणीदंश कसा झाला?",
+            "display-hi": "एक्सपोज़र या काटने की घटना कैसे हुई?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c5fb80de-38ab-4e82-9675-55c7f709bcd4",
+                    "text": "Unprovoked",
+                    "display-mr": "अचानक हल्ला",
+                    "display-hi": "अकारण"
+                },
+                {
+                    "id": "ID_8bc581d3-ab27-4824-bbc7-362f072ff979",
+                    "text": "Provoked",
+                    "display-mr": "हल्ला",
+                    "display-hi": "उकसाया"
+                },
+                {
+                    "id": "ID_829eec7e-d944-40bf-b5d1-47f63868586c",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_d1f1e2cf-3107-46fa-a803-452e9832e943",
+            "text": "Type of animal",
+            "display-mr": "प्राण्याचा प्रकार",
+            "display-hi": "पशु का प्रकार",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c065f122-eba1-47bc-8243-c9c391d76c32",
+                    "text": "Human",
+                    "display-mr": "माणूस",
+                    "display-hi": "मानव"
+                },
+                {
+                    "id": "ID_00111c3b-6f2f-4464-8f48-faa9a0ae969f",
+                    "text": "Rat",
+                    "display-mr": "उंदीर",
+                    "display-hi": "चूहा"
+                },
+                {
+                    "id": "ID_f65667a2-416c-456f-9073-2011958719ba",
+                    "text": "Monkey",
+                    "display-mr": "माकड",
+                    "display-hi": "बंदर"
+                },
+                {
+                    "id": "ID_188f4288-3789-4978-b38b-afa6e1e8c179",
+                    "text": "Bat",
+                    "display-mr": "वटवाघूळ",
+                    "display-hi": "चमगादड़"
+                },
+                {
+                    "id": "ID_5a5208ad-7afc-4e16-9fee-7232dd732ff8",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_369f7020-e314-4cad-ace5-f7ff55636789",
+            "text": "Type of exposure or bite wound?",
+            "display-mr": "संपर्क किंवा दंशामुळे झालेल्या जखमेचा प्रकार",
+            "display-hi": "एक्सपोज़र या काटने के घाव का प्रकार?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1604d87e-fab0-401b-a665-701d939daef1",
+                    "text": "Touching",
+                    "display-mr": "स्पर्श",
+                    "display-hi": "स्पर्श हुआ"
+                },
+                {
+                    "id": "ID_c36053c9-4e75-4603-b4b3-cb991d810143",
+                    "text": "Feeding",
+                    "display-mr": "खायला घालत असताना",
+                    "display-hi": "खिलाते वक्त"
+                },
+                {
+                    "id": "ID_e6be1531-5d59-4ea2-975a-17e2c9f84806",
+                    "text": "Licking on intact skin",
+                    "display-mr": "त्वचेवर चाटल्याने",
+                    "display-hi": "अनकटी त्वचा पर चाटा"
+                },
+                {
+                    "id": "ID_a94a379d-861b-4416-9cd6-b2f1bd071cc2",
+                    "text": "Licking on cut skin or mucosa",
+                    "display-mr": "कापलेल्या त्वचेवर किंवा त्वचेच्या थरावर चाटणे",
+                    "display-hi": "कटी हुई त्वचा या म्यूकोसा पर चाटना"
+                },
+                {
+                    "id": "ID_17acad88-ebfe-487e-92b6-ba1fb4ff4ad0",
+                    "text": "Scratch (nibbling of skin)",
+                    "display-mr": "ओरखडा (त्वचेवर लहान चावे घेणे)",
+                    "display-hi": "खरोंच (त्वचा को कुतरा)"
+                },
+                {
+                    "id": "ID_aef1c3d6-4b36-4d69-bba1-e5323849401f",
+                    "text": "Abrasion",
+                    "display-mr": "ओरबाडणे",
+                    "display-hi": "खरोंच"
+                },
+                {
+                    "id": "ID_4f5b5353-e4bc-4e1f-8d59-6f2526025701",
+                    "text": "Puncture wound",
+                    "display-mr": "नख किंवा दातामुळे खोलवर झालेली जखम",
+                    "display-hi": "छेद वाले घाव"
+                }
+            ]
+        },
+        {
+            "id": "ID_83893e0b-a526-48ea-8765-b1fa217e06f2",
+            "text": "Number of bite wounds?",
+            "display-mr": "किती जखमा आहेत?",
+            "display-hi": "काटने के घावों की संख्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0ac53b06-947d-4136-a0d9-1438016d844a",
+                    "text": "Number of bite wounds?",
+                    "display-mr": "किती जखमा आहेत?",
+                    "display-hi": "काटने के घावों की संख्या?"
+                },
+                {
+                    "id": "ID_b81a6096-7e66-4582-b233-1c0f914a48f0",
+                    "text": "Single",
+                    "display-mr": "एक",
+                    "display-hi": "एक"
+                },
+                {
+                    "id": "ID_92ece47d-339b-4fdf-a008-c9fd85350b8a",
+                    "text": "Multiple (2 or more)",
+                    "display-mr": "अनेक (2 किंवा अधिक)",
+                    "display-hi": "कई (2 या अधिक)"
+                },
+                {
+                    "id": "ID_aa97a23a-ff49-47b1-9828-d5ef2250e2eb",
+                    "text": "Not applicable",
+                    "display-mr": "लागू नाही",
+                    "display-hi": "लागू नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_b280c6ef-bb72-4131-8972-c214a2d8566a",
+            "text": "Location of bite wound?",
+            "display-mr": "जखम कुठे झाली आहे?",
+            "display-hi": "काटने के घाव का स्थान",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_eeda8d85-5829-4b7a-bece-d47f7ab699b5",
+                    "text": "Location of bite wound?",
+                    "display-mr": "जखम कुठे झाली आहे?",
+                    "display-hi": "काटने के घाव का स्थान"
+                },
+                {
+                    "id": "ID_048a99a2-f3ff-4446-bdd7-6174c1a9d421",
+                    "text": "Head",
+                    "display-mr": "डोके",
+                    "display-hi": "सिर"
+                },
+                {
+                    "id": "ID_82e677db-a8f2-49e0-8b25-db5a47a4c7ae",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_52e477ff-40bc-4165-ae4b-9772cea8a2a4",
+                    "text": "Trunk",
+                    "display-mr": "धड (शरीर)",
+                    "display-hi": "धड़"
+                },
+                {
+                    "id": "ID_613b270f-305b-45b5-87ba-a6342d95548b",
+                    "text": "Right hand",
+                    "display-mr": "उजवा हात",
+                    "display-hi": "दायां हाथ"
+                },
+                {
+                    "id": "ID_125513aa-c6db-4904-8ab4-38d98439ad0c",
+                    "text": "Left hand",
+                    "display-mr": "डावा हात",
+                    "display-hi": "बायां हाथ"
+                },
+                {
+                    "id": "ID_4c6ae63e-1f77-44d5-8a3f-6dad06b8b7e6",
+                    "text": "Right leg",
+                    "display-mr": "उजवा पाय",
+                    "display-hi": "दायां पैर"
+                },
+                {
+                    "id": "ID_0b769eb2-33ba-4c2a-9c43-08434775279e",
+                    "text": "Left leg",
+                    "display-mr": "डावा पाय",
+                    "display-hi": "बायां पैर"
+                },
+                {
+                    "id": "ID_b174049e-80fe-4bfe-a13f-4887d0f78d87",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ac22676e-8dc0-4d36-9602-9cde8e3c3ed8",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_990e4503-030c-4fb6-8333-54b8f1f5c706",
+                    "text": "Redness of bite wound",
+                    "display-mr": "चावलेल्या जखमेचा लालसरपणा",
+                    "display-hi": "काटने के घाव में लाली",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_fb10fc2c-9f9b-48c2-9774-e68afe7803c9",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_aa0a3bf9-89a7-4631-83ad-63c40520a32f",
+                    "text": "Pus discharge",
+                    "display-mr": "पू वाहणे",
+                    "display-hi": "मवाद निकलना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_783ae023-a72a-4de5-8521-68f120fb49ae",
+                    "text": "History of irrigation of wound using soap and water",
+                    "display-mr": "साबण आणि पाणी वापरुन जखम धुण्याचा पूर्वइतिहास",
+                    "display-hi": "साबुन और पानी से घाव की सफाई का इतिहास",
+                    "multi-choice": false
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_131ffd03-66c9-4fdb-a296-0ec6c45ed501",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1bbdcf9e-fd24-4600-9c3a-fefe7a2fd75d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_489bd587-425a-423b-9703-fc9b3645444e",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_e2ef6627-1b19-4779-851e-6a0d1534d505",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी भरुन येणे आणि कुडकुडणे",
+                    "display-hi": "कांपना और ठंड के झटके"
+                },
+                {
+                    "id": "ID_726e65a2-1da5-4e91-b788-05c020d0c1ae",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ येणे",
+                    "display-hi": "त्वचा पर चकत्ते"
+                },
+                {
+                    "id": "ID_0103d37f-2800-4744-acb1-677ba29cb034",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होणे",
+                    "display-hi": "निगलने में कठिनाई"
+                },
+                {
+                    "id": "ID_b853fdb1-0257-48e9-83ed-f4b0140d1fe5",
+                    "text": "Painful swallowing",
+                    "display-mr": "गिळताना वेदना होणे",
+                    "display-hi": "निगलते समय दर्द"
+                },
+                {
+                    "id": "ID_454181c8-1e12-4b0f-a2fd-3498be9bed81",
+                    "text": "Difficulty in breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_4b158249-fa03-4f6d-bfb4-21b21f908816",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_7e598eed-60c5-42eb-9708-ddf32e0ba616",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार टपकना"
+                },
+                {
+                    "id": "ID_320d5ed2-3e6b-457f-be70-4d2e7e2820ce",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8e305bd0-cbd2-4791-9ccb-38b2db003373",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8fcc3d8b-3fa4-4275-829d-523434cbb854",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_543a63b5-bae5-4173-b5ca-4ae6c18347ab",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_11ab964e-d7a2-49a3-ad08-b66100d14eb3",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_1bf86723-1239-472e-9fae-df7f2d681dfd",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_4ddd883d-c881-4002-8d71-ac0fffd7b37b",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
