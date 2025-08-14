@@ -1,0 +1,667 @@
+{
+  "id": "ID_537485436",
+  "text": "Lymph node enlargement",
+  "display": "Palpable lump(s) in Neck/Axilla/Chest/Groin",
+  "perform-physical-exam": "Abdomen:Lumps;Abdomen:Liver;Abdomen:Spleen;Any Location:Lumps;",
+  "display-or": "ସ୍ପଷ୍ଟ ଫୁଲା (ବେକ, କାଖସନ୍ଧି, ଛାତି, ଅଣ୍ଡକୋଷ)",
+  "engineVersion": "3.0",
+  "options": [
+    {
+      "id": "ID_879093771",
+      "text": "Site",
+      "display": "Where is the palpable lump?*",
+      "isRequired": true,
+      "multi-choice": false,
+      "display-or": "ଜାଗା",
+      "options": [
+        {
+          "id": "ID_832720017",
+          "text": "Disseminated",
+          "display-or": "ବିଶୀପ୍ତ",
+          "display-hi": "शरीर में जगह-जगह पर ",
+          "display-gu": "ફેલાઈ ગયેલ",
+          "display-as": "প্ৰচাৰ কৰা হৈছে",
+          "display-bn": "প্রচারিত",
+          "display-kn": "ಪ್ರಸಾರ ಮಾಡುವ",
+          "display-mr": "शरीरात ठिकठिकाणी"
+        },
+        {
+          "id": "ID_412978538",
+          "text": "Localized",
+          "multi-choice": true,
+          "language": "localized to",
+          "display-or": "ସ୍ତାନୀଙ୍କ",
+          "options": [
+            {
+              "id": "ID_1444572524",
+              "text": "Submandibule",
+              "perform-physical-exam": "Mouth:Swelling of Gums;Mouth:Gum bleeding;",
+              "display-or": "ଥୋଡୀ",
+              "display-hi": "निचले जबड़े के नीचे",
+              "display-gu": "સબમેન્ડિબ્યુલ",
+              "display-as": "ছাবমেণ্ডিবুলে(দাঁতৰআলুত)",
+              "display-bn": "সাবম্যান্ডিবুল",
+              "display-kn": "ಉಪಮಂಡಲ",
+              "display-mr": "खालच्या जबड्याच्या खाली"
+            },
+            {
+              "id": "ID_1304595707",
+              "text": "Neck",
+              "perform-physical-exam": "Mouth:Swelling of Gums;Mouth:Gum bleeding;",
+              "display-or": "ବେକ",
+              "display-hi": "गर्दन ",
+              "display-gu": "ગરદન",
+              "display-as": "ডিঙি",
+              "display-bn": "ঘাড়",
+              "display-kn": "ಕುತ್ತಿಗೆ",
+              "display-mr": "मान"
+            },
+            {
+              "id": "ID_316276204",
+              "text": "Axillar",
+              "perform-physical-exam": "Breast:Lumps;Breast:Ulcer;Breast:Nipple;",
+              "display-or": "କାଖ ସମ୍ବନ୍ଧ",
+              "display-hi": "कांख ",
+              "display-gu": "બગલ",
+              "display-as": "এক্সিলাৰ(কাষলটিত)",
+              "display-bn": "এক্সিলার",
+              "display-kn": "ಕಂಕುಳಿನ",
+              "display-mr": "काख"
+            },
+            {
+              "id": "ID_1191105496",
+              "text": "Groin",
+              "display-or": "ଅଣ୍ଡକୋଷ",
+              "display-hi": "जांघ के जोड़ पर ",
+              "display-gu": "જંઘામૂળ",
+              "display-as": "গ্ৰ'ইন(ককালত)",
+              "display-bn": "কুঁচকি",
+              "display-kn": "ತೊಡೆ ಸಂದು",
+              "display-mr": "जांघेच्या जोडा मध्ये"
+            },
+            {
+              "id": "ID_1862748755",
+              "text": "Other (Describe)",
+              "input-type": "text",
+              "language": "%",
+              "display-or": "ଅନ୍ୟ",
+              "display-hi": "अन्य (वर्णन करें)",
+              "display-gu": "અન્ય (વિગતે જણાવો)",
+              "display-as": "অন্যান্য (বৰ্ণনা কৰক)",
+              "display-bn": "অন্যান্য (বর্ণনা করুন)",
+              "display-kn": "ಇತರೇ",
+              "display-mr": "इतर (वर्णन करा)"
+            }
+          ],
+          "display-hi": "एक जगह",
+          "display-gu": "એક ચોક્કસ જગ્યાએ",
+          "display-as": "স্থানীয়কৃত",
+          "display-bn": "স্থানীয়করণ",
+          "display-kn": "ಸ್ಥಳೀಯ",
+          "display-mr": "एका जागी"
+        }
+      ],
+      "display-hi": "स्पर्शनीय गाँठ कहां पर है?*",
+      "display-gu": "સ્પર્શી શકાય તેવી ગાંઠ ક્યાં છે?*",
+      "display-as": "স্পৰ্শযোগ্য গাঁঠিটো ক’ত?*",
+      "display-bn": "সুস্পষ্ট গলদ কোথায়?*",
+      "display-kn": "ಸ್ಪರ್ಶಿಸುವಂಥ ಉಂಡೆ ಅಥವಾ ಗಡ್ಡೆಗಳು?*",
+      "display-mr": "गाठ कुठे आहे?"
+    },
+    {
+      "id": "ID_160625189",
+      "text": "Duration",
+      "display": "Since when have you had this symptom?*",
+      "isRequired": true,
+      "display-or": "କେବେଠାରୁ*",
+      "options": [
+        {
+          "id": "ID_348271173",
+          "text": "[Enter since when]",
+          "input-type": "duration",
+          "language": "since",
+          "display-or": "କେବେ ଠାରୁ ପ୍ରବେଶ କଲା",
+          "display-hi": "[कब से है – दर्ज करें]",
+          "display-gu": "[ક્યારથી તે લખી જણાવો]",
+          "display-as": "[কেতিয়াৰ পৰা প্ৰৱেশ কৰক]",
+          "display-bn": "[কখন থেকে লিখুন]",
+          "display-kn": "ಎಂದಿನಿಂದ_____ ನಮೂದಿಸಿ",
+          "display-mr": "(केव्हा पासून आहे ते भरा)"
+        }
+      ],
+      "display-hi": "आपको यह लक्षण कब से है?*",
+      "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+      "display-as": "কেতিয়াৰ পৰা এই লক্ষণ দেখা গৈছে?*",
+      "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+      "display-kn": "ಈ ಲಕ್ಷಣ /ಸಮಸ್ಯೆ ಎಂದಿನಿಂದ ನಿಮ್ಮಲ್ಲಿದೆ?*",
+      "display-mr": "तुम्हाला हे लक्षण केव्हा पासून आहे?"
+    },
+    {
+      "id": "ID_211021709",
+      "text": "Onset",
+      "display": "How did the symptom start?*",
+      "isRequired": true,
+      "multi-choice": false,
+      "display-or": "ଏହି ଲକ୍ଷଣ କିପରି ଆରମ୍ଭ ହେଲା*",
+      "options": [
+        {
+          "id": "ID_1696872731",
+          "text": "Very sudden",
+          "display-or": "ହଠାତ",
+          "display-hi": "अचानक",
+          "display-gu": "અચાનક જ",
+          "display-as": "বৰ হঠাতে",
+          "display-bn": "খুব আকস্মিক",
+          "display-kn": "ಬೇಗನೆ",
+          "display-mr": "अचानक"
+        },
+        {
+          "id": "ID_1753690119",
+          "text": "Gradual",
+          "display-or": "ଧୀରେ ଧୀରେ  ଗଢିବା",
+          "display-hi": "धीरे-धीरे",
+          "display-gu": "ધીમે ધીમે",
+          "display-as": "ক্ৰমান্বয়ে",
+          "display-bn": "ক্রমান্বয়ে",
+          "display-kn": "ಕ್ರಮೇಣ",
+          "display-mr": "हळू हळू"
+        }
+      ],
+      "display-hi": "यह लक्षण कैसे शुरू हुआ?*",
+      "display-gu": "લક્ષણની શરૂઆત કેવી રીતે થઇ?*",
+      "display-as": "লক্ষণটো কেনেকৈ আৰম্ভ হ’ল?*",
+      "display-bn": "লক্ষণটি কীভাবে শুরু হয়েছিল?*",
+      "display-kn": "ಸಮಸ್ಯೆ ಹೇಗೆ ಆರಂಭವಾಯಿತು?*",
+      "display-mr": "हे लक्षण कसे सुरू झाले?"
+    },
+    {
+      "id": "ID_1830382373",
+      "text": "Course of LN enlargement",
+      "display": "How has the node(s) swelling progressed?*",
+      "isRequired": true,
+      "multi-choice": false,
+      "display-or": "ଫୁଲା କେତେ ଦୂର ଗତି କଲା?*",
+      "options": [
+        {
+          "id": "ID_1168285064",
+          "text": "Static/No change",
+          "display-or": "ସ୍ଥିର /କିଛି ପରିବର୍ତନ ନାହିଁ",
+          "display-hi": "स्थिर/कोई बदलाव नहीं",
+          "display-gu": "સ્થિર/કોઈ ફેરફાર નહીં",
+          "display-as": "ষ্টেটিক/কোনো পৰিৱৰ্তন নাই",
+          "display-bn": "স্ট্যাটিক/কোন পরিবর্তন নেই",
+          "display-kn": "ಗಡ್ಡೆ ಹಾಗೆ ಇದೆ",
+          "display-mr": "काहीही बदल नाही"
+        },
+        {
+          "id": "ID_1558268483",
+          "text": "Progressive/Worsening",
+          "display-or": "ପ୍ରଗତି ଶୀଳ",
+          "display-hi": "बढ़ रही है/बिगड़ रही है ",
+          "display-gu": "વધી રહ્યો છે/બદત્તર થઈ રહ્યો છે",
+          "display-as": "প্ৰগতিশীল/বৃদ্ধি হৈ আহিছে",
+          "display-bn": "প্রগতিশীল/ক্ষয়প্রাপ্ত",
+          "display-kn": "ಬೆಳಿತಾ ಇದೆ/ಹದಗೆಡುತ್ತವೆ",
+          "display-mr": "वाढत आहे/ बिघडत आहे"
+        },
+        {
+          "id": "ID_1161632483",
+          "text": "Relapsing/Remitting",
+          "display-or": "ରୋଗର ପୁନରା ବୃତି",
+          "display-hi": "बार-बार बढ़ घट रही है",
+          "display-gu": "ફરીથી માંદા પડવું",
+          "display-as": "পূৰ্ণআবৰ্তন/প্ৰেষক",
+          "display-bn": "রিল্যাপিং/রিমিটিং",
+          "display-kn": "ರವಾನಿಸು/ ಮರುಕಳಿಸು",
+          "display-mr": "वारंवार वाढत, कमी होत आहे"
+        }
+      ],
+      "display-hi": "गाँठ या सूजन कैसे बढ़ी?*",
+      "display-gu": "ગાંઠ(ઠો) પર સોજો કેવી રીતે વધ્યો?*",
+      "display-as": "ন’ড(সমূহ) ফুলা কেনেকৈ আগবাঢ়িছে?*",
+      "display-bn": "কিভাবে নোড (গুলি) ফোলা অগ্রগতি হয়েছে?*",
+      "display-kn": "ಸಮಸ್ಯೆ ಹೇಗೆ ಆರಂಭವಾಯಿತು?*",
+      "display-mr": "गाठीची सूज कशी वाढली?"
+    },
+    {
+      "id": "ID_413877771",
+      "text": "Associated symptoms",
+      "display": "Do you have the following symptom(s)?*",
+      "isRequired": true,
+      "pos-condition": "c.",
+      "neg-condition": "s.",
+      "display-or": "କଣ ଆପଣଙ୍କ ପାଖରେ ଏହି ସବୁ ଲକ୍ଷଣ ଅଛି*",
+      "options": [
+        {
+          "id": "ID_1595045073",
+          "text": "Pain on affected nodes",
+          "display-or": "ଗ୍ରନ୍ଥି ରେ ଦରଜ",
+          "display-hi": "प्रभावित गाँठ में दर्द",
+          "display-gu": "પ્રભાવિત થયેલી ગાંઠો પર દુઃખાવો",
+          "display-as": "আক্ৰান্ত ন’ডত বিষ",
+          "display-bn": "আক্রান্ত নোডগুলিতে ব্যথা",
+          "display-kn": "ಗಡ್ಡೆಯಲ್ಲಿ ನೋವು",
+          "display-mr": "गाठीच्या जागी वेदना"
+        },
+        {
+          "id": "ID_896570466",
+          "text": "Weight change (kg)",
+          "language": "Weight change",
+          "display-or": "ଓଜନ ପରିବର୍ତନ",
+          "display-hi": "वजन में बदलाव (किलोग्राम)",
+          "display-gu": "વજનમાં ફેરફાર (કિલો)",
+          "display-as": "ওজনৰ পৰিৱৰ্তন (কিলোগ্ৰাম)",
+          "display-bn": "ওজন পরিবর্তন (কেজি)",
+          "display-kn": "ತೂಕದಲ್ಲಿ ಬದಲಾವಣೆ",
+          "display-mr": "वजनात बदल"
+        },
+        {
+          "id": "ID_273906199",
+          "text": "Fever",
+          "display-or": "ଜ୍ୱର",
+          "display-hi": "बुखार",
+          "display-gu": "તાવ",
+          "display-as": "জ্বৰ",
+          "display-bn": "জ্বর",
+          "display-kn": "ಜ್ವರ",
+          "display-mr": "ताप"
+        },
+        {
+          "id": "ID_1843658191",
+          "text": "Diarrhoea",
+          "display-or": "ତରଳ ଝାଡା",
+          "display-hi": "डायरिया ",
+          "display-gu": "ઝાડા",
+          "display-as": "ডায়েৰিয়া",
+          "display-bn": "ডায়রিয়া",
+          "display-kn": "ಅತಿಸಾರ",
+          "display-mr": "जुलाब"
+        },
+        {
+          "id": "ID_1682252834",
+          "text": "Night sweats",
+          "display-or": "ରାତି ରେ ଝାଳ ବହିବା",
+          "display-hi": "रात में पसीना आना",
+          "display-gu": "રાત્રે પરસેવો વળવો",
+          "display-as": "ৰাতি ঘাম ওলায়",
+          "display-bn": "রাতের ঘাম",
+          "display-kn": "ರಾತ್ರಿ ಬೆವರುವಿಕೆ",
+          "display-mr": "रात्री घाम येणे"
+        },
+        {
+          "id": "ID_250348148",
+          "text": "Cough",
+          "display-or": "କାଶ",
+          "display-hi": "खांसी",
+          "display-gu": "કફ",
+          "display-as": "কাহ",
+          "display-bn": "কাশি",
+          "display-kn": "ಕೆಮ್ಮು",
+          "display-mr": "खोकला"
+        },
+        {
+          "id": "ID_1998361645",
+          "text": "Sore throat",
+          "display-or": "କର୍କଶ  ଗଳା",
+          "display-hi": "गले में खसखसाहट",
+          "display-gu": "ગળું આવવું",
+          "display-as": "ডিঙি বিষ",
+          "display-bn": "গলা ব্যথা",
+          "display-kn": "ಗಂಟಲು ಕೆರತ",
+          "display-mr": "घशा मध्ये खवखव"
+        },
+        {
+          "id": "ID_1014296729",
+          "text": "Skin bruises",
+          "display-or": "ଚର୍ମରେ ଗୋଲାକାର ଘା ପରି ଦେଖାଯିବ",
+          "display-hi": "त्वचा पर घाव ",
+          "display-gu": "ત્વચામાં ધઝરડા",
+          "display-as": "ছালৰ ঘাঁ",
+          "display-bn": "ত্বকের ক্ষত",
+          "display-kn": "ಚರ್ಮದ ಮೇಲೆ ಕಲೆಗಳು",
+          "display-mr": "त्वचेवर जखमा"
+        },
+        {
+          "id": "ID_1265671189",
+          "text": "Joint pain",
+          "perform-physical-exam": "Joint:Swelling;Joint:Redness;Joint:Deformity;Joint:Tenderness;Joint:Movement Pain;",
+          "display-or": "ଗଣ୍ଠି ଯନ୍ତ୍ରଣା",
+          "display-hi": "जोड़ में दर्द",
+          "display-gu": "સાંધાનો દુખાવો",
+          "display-as": "গাঁঠিৰ বিষ",
+          "display-bn": "সংযোগে ব্যথা",
+          "display-kn": "ಕೀಲುಗಳ ನೋವು",
+          "display-mr": "सांधेदुखी"
+        },
+        {
+          "id": "ID_1311398997",
+          "text": "Other [describe]",
+          "input-type": "text",
+          "language": "%",
+          "display-or": "ଅନ୍ଯାନ୍ଯ",
+          "display-hi": "अन्य [वर्णन करें]",
+          "display-gu": "અન્ય [વિગતે જણાવો]",
+          "display-as": "অন্যান্য [বৰ্ণনা কৰক]",
+          "display-bn": "অন্যান্য [বর্ণনা]",
+          "display-kn": "ಇತರೆ...... ತಿಳಿಸಿ",
+          "display-mr": "इतर (वर्णन करा)"
+        }
+      ],
+      "display-hi": "क्या आपको निम्न लक्षण है/हैं?*",
+      "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+      "display-as": "আপোনাৰ তলত দিয়া লক্ষণ(সমূহ) আছেনে?*",
+      "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+      "display-kn": "ನಿಮಗೆ ಈ ಕೆಳಗಿನ ಲಕ್ಷಣಗಳು ಇವೆಯೇ?*",
+      "display-mr": "तुम्हाला खालील पैकी लक्षण (लक्षणे) आहेत का?"
+    },
+    {
+      "id": "ID_549649173",
+      "text": "H/o specific illness",
+      "display": "Have you ever been diagnosed with any of the following specific diseases?*",
+      "isRequired": true,
+      "pos-condition": "h/o",
+      "neg-condition": "no h/o",
+      "display-or": "ତମକୁ କେବେ ଆଗରୁ ନିମ୍ନ ଲିଖିତ ବିଶିଷ୍ଟ ରୋଗ ଚିହ୍ନଟ ହୋଇଥିଲା କି?*",
+      "options": [
+        {
+          "id": "ID_1626833231",
+          "text": "HIV/AIDS",
+          "display-or": "ଏଚ.ଆଇ.ଭି. /ଏଡ୍ସ",
+          "display-hi": "एचआईवी/एड्स",
+          "display-gu": "એચઆઇવી/એઇડ્સ",
+          "display-as": "এইচ আই ভি/এইডছ",
+          "display-bn": "এইচআইভি/এইডস",
+          "display-kn": "ಎಚ್ಐವಿ /ಏಡ್ಸ್",
+          "display-mr": "एच.आय.व्ही"
+        },
+        {
+          "id": "ID_93427714",
+          "text": "Syphilis",
+          "display-or": "ଯୌନାଂଗ ରୋଗ",
+          "display-hi": "सिफिलिस",
+          "display-gu": "સિફિલિસ",
+          "display-as": "চিফিলিছ(উপদংশ)",
+          "display-bn": "সিফিলিস",
+          "display-kn": "ಸಫಲಿಸ್ ಎಂಬ ಲೈಂಗಿಕ ರೋಗ",
+          "display-mr": "गुप्तरोग"
+        },
+        {
+          "id": "ID_1790578958",
+          "text": "None",
+          "display-or": "କିଛି ନକଲେ/ ମନା",
+          "exclude-from-multi-choice": true,
+          "display-hi": "इनमें से कोई नहीं",
+          "display-gu": "ના",
+          "display-as": "একো নাই",
+          "display-bn": "কোনোটিই নয়",
+          "display-kn": "ಇಲ್ಲ",
+          "display-mr": "या पैकी कोणतेही नाही"
+        }
+      ],
+      "display-hi": "क्या आपको कभी निम्न बीमारी हुई है?*",
+      "display-gu": "તમને નીચેનામાંથી કોઇ ચોક્કસ રોગ હોવાનું નિદાન ક્યારેય થયું છે?*",
+      "display-as": "আপুনি কেতিয়াবা তলত উল্লেখ কৰা কোনো নিৰ্দিষ্ট ৰোগত আক্ৰান্ত হৈছেনে?*",
+      "display-bn": "আপনি কি কখনও নিম্নলিখিত নির্দিষ্ট রোগে আক্রান্ত হয়েছেন?*",
+      "display-kn": "ತಾವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಕಾಯಿಲೆಗೆ ತುತ್ತಾಗಿದ್ದೀರಾ?*",
+      "display-mr": "तुम्हाला कधी खालील आजार झाला आहे का?"
+    },
+    {
+      "id": "ID_1718350507",
+      "text": "Recent exposure to an animal ",
+      "language": "Have you been in contact with an animal within the previous month before the symptom started?",
+      "display-or": "କେବେ ତମେ କୈଣସି ଜନ୍ତୁ କୀଟ ପତଂଗ ଫୋଡି ଥୀଲାକି?  ଏ ହି ଲକ୍ଷଣ ଆରମ୍ଭ ହେବ ପୂର୍ବରୁ",
+      "options": [
+        {
+          "id": "ID_662137761",
+          "text": "No",
+          "display-or": "ନା",
+          "display-hi": "नहीं",
+          "display-gu": "ના",
+          "display-as": "নহয়",
+          "display-bn": "না",
+          "display-kn": "ಇಲ್ಲ",
+          "display-mr": "नाही"
+        },
+        {
+          "id": "ID_1683138881",
+          "text": "Yes",
+          "display-or": "ହଁ",
+          "language": "%",
+          "havingNestedQuestion": "true",
+          "options": [
+            {
+              "id": "ID_1764649367",
+              "text": "Frequency of contact",
+              "display-or": "ଆବୃତି",
+              "display-hi": "कितनी बार संपर्क में आए हैं",
+              "display-gu": "સંસર્ગનું આવર્તન",
+              "display-as": "সংস্পৰ্শৰ কম্পাঙ্ক",
+              "display-bn": "যোগাযোগের ফ্রিকোয়েন্সি",
+              "display-kn": "ಎಷ್ಟು ಹೊತ್ತು ಪ್ರಾಣಿ ಜೊತೆಗಿರ್ತೀರಾ",
+              "display-mr": "किती वेळा संपर्क आला/येतो?",
+              "options": [
+                {
+                  "id": "ID_1764649367_1",
+                  "text": "Frequency of contact",
+                  "input-type": "frequency",
+                  "display-or": "ଆବୃତି",
+                  "display-hi": "कितनी बार संपर्क में आए हैं",
+                  "display-gu": "સંસર્ગનું આવર્તન",
+                  "display-as": "সংস্পৰ্শৰ কম্পাঙ্ক",
+                  "display-bn": "যোগাযোগের ফ্রিকোয়েন্সি",
+                  "display-kn": "ಎಷ್ಟು ಹೊತ್ತು ಪ್ರಾಣಿ ಜೊತೆಗಿರ್ತೀರಾ",
+                  "display-mr": "किती वेळा संपर्क आला/येतो?"
+                }
+              ]
+            },
+            {
+              "id": "ID_936209413",
+              "text": "Which animal (Describe)",
+              "language": "Type of animal",
+              "display-or": "ପଶୁ(ବର୍ଣନା କର)",
+              "display-hi": "कौन-सा जानवर (वर्णन करें)",
+              "display-gu": "કયું પ્રાણી (વર્ણવો)",
+              "display-as": "কোনটো প্ৰাণী (বৰ্ণনা কৰক)",
+              "display-bn": "কোন প্রাণী (বর্ণনা করুন)",
+              "display-kn": "ಯಾವ ಪ್ರಾಣಿ ....ತಿಳಿಸಿ",
+              "display-mr": "कोणता प्राणी ( वर्णन करा)",
+              "options": [
+                {
+                  "id": "ID_936209413_1",
+                  "text": "Which animal (Describe)",
+                  "input-type": "text",
+                  "language": "Type of animal",
+                  "display-or": "ପଶୁ(ବର୍ଣନା କର)",
+                  "display-hi": "कौन-सा जानवर (वर्णन करें)",
+                  "display-gu": "કયું પ્રાણી (વર્ણવો)",
+                  "display-as": "কোনটো প্ৰাণী (বৰ্ণনা কৰক)",
+                  "display-bn": "কোন প্রাণী (বর্ণনা করুন)",
+                  "display-kn": "ಯಾವ ಪ್ರಾಣಿ ....ತಿಳಿಸಿ",
+                  "display-mr": "कोणता प्राणी ( वर्णन करा)"
+                }
+              ]
+            }
+          ],
+          "display-hi": "हाँ ",
+          "display-gu": "હા",
+          "display-as": "হয়",
+          "display-bn": "হ্যাঁ",
+          "display-kn": "ಹೌದು",
+          "display-mr": "हो"
+        }
+      ],
+      "display-hi": "क्या हाल में किसी जानवर के संपर्क में आए हैं?",
+      "display-gu": "હાલમાં જ કોઈ પ્રાણીના સંસર્ગમાં આવવું",
+      "display-as": "শেহতীয়াকৈ কোনো প্ৰাণীৰ সংস্পৰ্শলৈ অহা",
+      "display-bn": "একটি প্রাণীর সাম্প্রতিক এক্সপোজার",
+      "display-kn": "ಇತ್ತೀಚೆಗೆ ಪ್ರಾಣಿಗಳ ಒಡನಾಟ ಇದೆಯೇ",
+      "display-mr": "अलीकडे कोणत्या प्राण्याशी संपर्क आला आहे का?"
+    },
+    {
+      "id": "ID_1953358063",
+      "text": "Animal/insect/tick bites (<1month before onset)",
+      "display": "Have you ever been bit/stung by any animal/insect/tick within the previous month before the symptom started?*",
+      "isRequired": true,
+      "display-or": "କେବେ ତମେ କୈଣସି ଜନ୍ତୁ କୀଟ ପତଂଗ ଫୋଡି ଥୀଲାକି?  ଏ ହି ଲକ୍ଷଣ ଆରମ୍ଭ ହେବ ପୂର୍ବରୁ*",
+      "options": [
+        {
+          "id": "ID_1261986809",
+          "text": "No",
+          "display-or": "ନା",
+          "display-hi": "नहीं",
+          "display-gu": "ના",
+          "display-as": "নহয়",
+          "display-bn": "না",
+          "display-kn": "ಇಲ್ಲ",
+          "display-mr": "नाही"
+        },
+        {
+          "id": "ID_381336289",
+          "text": "Yes",
+          "display-or": "ହଁ",
+          "language": "%",
+          "havingNestedQuestion": "true",
+          "options": [
+            {
+              "id": "ID_887762390",
+              "text": "When ",
+              "language": "on",
+              "display-or": "କେତେବେଳେ",
+              "display-hi": "कब",
+              "display-gu": "ક્યારે",
+              "display-as": "কেতিয়া",
+              "display-bn": "কখন",
+              "display-kn": "ಯಾವಾಗ.....",
+              "display-mr": "कधी",
+              "options": [
+                {
+                  "id": "ID_887762390_1",
+                  "text": "When ",
+                  "input-type": "date",
+                  "language": "on",
+                  "display-or": "କେତେବେଳେ",
+                  "display-hi": "कब",
+                  "display-gu": "ક્યારે",
+                  "display-as": "কেতিয়া",
+                  "display-bn": "কখন",
+                  "display-kn": "ಯಾವಾಗ.....",
+                  "display-mr": "कधी"
+                }
+              ]
+            },
+            {
+              "id": "ID_754635662",
+              "text": "Animal/insect/tick(Describe)",
+              "language": "Type of animal/insect/tick:",
+              "display-or": "ପଶୁ / କୀଟ (ବର୍ଣନା କର )",
+              "display-hi": "जानवर/कीड़ा/कीट (वर्णन करें)",
+              "display-gu": "પ્રાણી/જીવજંતુ/બગાઈ (વર્ણવો)",
+              "display-as": "পশু/পোক/টিকটিকি(বৰ্ণনা কৰক)",
+              "display-bn": "প্রাণী/পোকা/টিক (বর্ণনা করুন)",
+              "display-kn": "ಪ್ರಾಣಿ/ ಹುಳು ಯಾವುದನ್ನು ವಿವರಿಸಿ",
+              "display-mr": "प्राणी/ कीटक/ किडा ( वर्णन करा)",
+              "options": [
+                {
+                  "id": "ID_754635662_1",
+                  "text": "Animal/insect/tick(Describe)",
+                  "input-type": "text",
+                  "language": "Type of animal/insect/tick:",
+                  "display-or": "ପଶୁ / କୀଟ (ବର୍ଣନା କର )",
+                  "display-hi": "जानवर/कीड़ा/कीट (वर्णन करें)",
+                  "display-gu": "પ્રાણી/જીવજંતુ/બગાઈ (વર્ણવો)",
+                  "display-as": "পশু/পোক/টিকটিকি(বৰ্ণনা কৰক)",
+                  "display-bn": "প্রাণী/পোকা/টিক (বর্ণনা করুন)",
+                  "display-kn": "ಪ್ರಾಣಿ/ ಹುಳು ಯಾವುದನ್ನು ವಿವರಿಸಿ",
+                  "display-mr": "प्राणी/ कीटक/ किडा ( वर्णन करा)"
+                }
+              ]
+            }
+          ],
+          "display-hi": "हाँ ",
+          "display-gu": "હા",
+          "display-as": "হয়",
+          "display-bn": "হ্যাঁ",
+          "display-kn": "ಹೌದು",
+          "display-mr": "हो"
+        }
+      ],
+      "display-hi": "क्या आपको पिछले महीने जब से लक्षण शुरू हुआ किसी जानवर/कीड़ा/कीट ने काटा/डंसा था?*",
+      "display-gu": "આ લક્ષણો શરૂ થયાં તે પહેલાં ગત મહિને આપને પ્રાણી/જીવજંતુ/બગાઈમાંથી કોઈ કરડ્યાં હતાં?*",
+      "display-as": "লক্ষণ আৰম্ভ হোৱাৰ আগতে আগৰ এমাহৰ ভিতৰত আপুনি কেতিয়াবা কোনো জন্তু/পোক/টিকটিকে কামুৰিছেনে/দংশন কৰিছেনে?*",
+      "display-bn": "উপসর্গ শুরু হওয়ার আগের মাসের মধ্যে আপনি কি কখনো কোনো প্রাণী/পোকা/টিক দ্বারা কামড়েছেন/দংশ করেছেন?*",
+      "display-kn": "ಈ ಕಳೆದ ತಿಂಗಳಲ್ಲಿ ತಮಗೆ ಯಾವದಾದರು ಪ್ರಾಣಿ ಅಥವಾ ಹುಳು ಕ್ರಿಮಿಗಳು ಕಚ್ಚಿದೆಯಾ? ಈ ರೋಗ ಲಕ್ಷಣದ ಮೊದಲು?*",
+      "display-mr": "लक्षण सुरू होण्यापूर्वी मागील महिन्यात तुम्हाला कोणत्याही प्राण्याने/कीटकाने चावा घेतला आहे का?"
+    },
+    {
+      "id": "ID_54004711",
+      "text": "Prior treatment sought",
+      "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?*",
+      "isRequired": true,
+      "display-or": "ତମେ ଆଗରୁ କୌଣସି  ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)*",
+      "options": [
+        {
+          "id": "ID_283357963",
+          "text": "Yes [Describe]",
+          "input-type": "text",
+          "language": "%",
+          "display-or": "ହାଁ (ବର୍ଣନା କର)",
+          "display-hi": "हाँ [वर्णन करें]",
+          "display-gu": "હા [વિગતે જણાવો]",
+          "display-as": "হয় [বৰ্ণনা কৰক]",
+          "display-bn": "হ্যাঁ [বর্ণনা]",
+          "display-kn": "ಹೌದಾದಲ್ಲಿ ವಿವರಿಸಿ.....",
+          "display-mr": "हो (वर्णन करा)"
+        },
+        {
+          "id": "ID_1226925547",
+          "text": "None",
+          "display-or": "କିଛି ନାହିଁ",
+          "display-hi": "इनमें से कोई नहीं",
+          "display-gu": "ના",
+          "display-as": "একো নাই",
+          "display-bn": "কোনোটিই নয়",
+          "display-kn": "ಇಲ್ಲ",
+          "display-mr": "या पैकी कोणतेही नाही"
+        }
+      ],
+      "display-hi": "क्या आपने आज यहां आने से पहले इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?*",
+      "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?*",
+      "display-as": "আজি ইয়ালৈ অহাৰ আগতে আপুনি এই সমস্যাৰ বাবে কোনো চিকিৎসা গ্ৰহণ কৰিছেনে (স্ব-ঔষধ বা ঘৰুৱা প্ৰতিকাৰকে ধৰি) বা কোনো স্বাস্থ্য প্ৰদানকাৰীক দেখা কৰিছেনে?*",
+      "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?*",
+      "display-kn": "ತಾವು ಈ ಕಡಿತಕ್ಕೆ ಚಿಕಿತ್ಸೆ ಪಡೆಯಲಾಗಿದೆಯೇ? ಇಲ್ಲಿ ಬರೋ ಮೊದಲು, ಮನೆ ಮದ್ದು/ ಸ್ವಂತಮದ್ದು /ಡಾಕ್ಟರನ್ನು ಭೇಟಿಯಾಗಿ ದ್ದಿರ?*",
+      "display-mr": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरला दाखवले आहे का?"
+    },
+    {
+      "id": "ID_1203290752",
+      "text": "Additional information",
+      "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+      "options": [
+        {
+          "id": "ID_609206976",
+          "text": "[Enter additional information]",
+          "input-type": "text",
+          "language": "%",
+          "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+          "display-hi": "[अन्य जानकारी दर्ज करें]",
+          "display-gu": "[વધારાની માહિતી લખો]",
+          "display-as": "[অতিৰিক্ত তথ্য দিয়ক]",
+          "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+          "display-kn": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ದಾಖಲಿಸಿ",
+          "display-mr": "(अजून काही माहिती असल्यास भरा)"
+        }
+      ],
+      "display-hi": "अन्य जानकारी",
+      "display-gu": "વધારાની માહિતી",
+      "display-as": "অতিৰিক্ত তথ্য",
+      "display-bn": "অতিরিক্ত তথ্য",
+      "display-kn": "ಈ ಬಗ್ಗೆ ಇತರೆ ಅಥವಾ ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಇದ್ದಲ್ಲಿ ತಿಳಿಸಿ",
+      "display-mr": "अजून काही माहिती असल्यास भरा"
+    }
+  ],
+  "display-hi": "लसिका ग्रंथि में वृद्धि ",
+  "display-gu": "(ડોક, બગલ)ગરદન/એક્સિલા/છાતી/ગ્રોઇનમાં સ્પષ્ટ ગઠ્ઠો",
+  "display-as": "ডিঙি/কাষলটি/বুকু/ককালত স্পৰ্শযোগ্য গাঁঠি(সমূহ)।",
+  "display-bn": "ঘাড়/অ্যাক্সিলা/বুকে/কুঁচকিতে স্পষ্ট গলদ",
+  "display-kn": "ಕುತ್ತಿಗೆ/ ಬಗಲಲ್ಲಿ/ ತೊಡೆ ಸಂದು/ ಎದೆಯಲ್ಲಿ ಸ್ಪರ್ಶಿಸಬಹುದಾದ ಗಡ್ಡೆ (ಗಳು)",
+  "display-mr": "मानेवर/ काखेत/छातीवर/जांघेवर स्पर्श केल्यावर गाठ लागणे"
+}

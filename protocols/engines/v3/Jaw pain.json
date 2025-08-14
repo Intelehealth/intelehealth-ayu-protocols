@@ -1,0 +1,774 @@
+{
+    "id": "ID_9cf3d055-0e32-4b1e-9cfb-ac0d18c94556",
+    "text": "Jaw pain",
+    "engineVersion": "3.0",
+    "display-mr": "जबडा दुखणे",
+    "display-hi": "जबड़े में दर्द",
+    "options": [
+        {
+            "id": "ID_be6148ad-48c2-4634-95b6-6e02d2d51387",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f3029dac-4bd3-4e0a-9e3f-d37d9e6c4b84",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_06f056a9-c590-4971-acad-7192860c551b",
+            "text": "How fast did jaw pain develop?",
+            "display-mr": "जबड्याचे दुखणे किती वेगाने वाढले?",
+            "display-hi": "जबड़े में दर्द कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d2f78e1-f1d6-45c7-9656-10ef338647e0",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_9c4780b5-2d2d-47db-b7d2-271ec7311b70",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_59e9cb0d-f1fc-46a1-b598-d2fcb95da850",
+            "text": "Did you have any of the events prior to jaw pain?",
+            "display-mr": "जबड्याच्या दुखण्याआधी यापैकी काही प्रसंग घडला आहे का?",
+            "display-hi": "क्या आपको जबड़े में दर्द होने से पहले कोई घटना हुई थी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5ea431f6-ac6b-4eca-82fd-4079a578d4a4",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9d0861c1-7b54-4a4b-a71a-c2cddb04ccfd",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_e072ac4d-8be4-4a92-a074-c7ea10fabeb5",
+                    "text": "Excess mouth opening",
+                    "display-mr": "जास्त वेळ तोंड उघडे राहणे",
+                    "display-hi": "ज्यादा मुंह खोलना"
+                },
+                {
+                    "id": "ID_c39cdff3-3cec-48d2-a1b1-d7124ab70589",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_05b554f3-1761-457a-961d-935f8440ae16",
+            "text": "Where do you have pain?",
+            "display-mr": "तुम्हाला कुठे दुखणे आहे?",
+            "display-hi": "आपको कहां दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_eb817a8e-bc2a-4315-bf1b-a4f4e9597aa2",
+                    "text": "Left jaw joint",
+                    "display-mr": "डाव्या जबड्याचा सांधा",
+                    "display-hi": "बाएं जबड़े का जोड़"
+                },
+                {
+                    "id": "ID_e74851c2-1f0e-48c2-a9d6-7e6acaf7b73f",
+                    "text": "Right jaw joint",
+                    "display-mr": "उजव्या जबड्याचा सांधा",
+                    "display-hi": "दाएं जबड़े का जोड़"
+                },
+                {
+                    "id": "ID_567917d0-2f4a-4a76-80b0-639557791102",
+                    "text": "Both jaw joints",
+                    "display-mr": "दोन्ही जबड्यांचा सांधा",
+                    "display-hi": "दोनों जबड़े के जोड़"
+                },
+                {
+                    "id": "ID_18aa27c4-04dc-4395-b63e-e0789a456c64",
+                    "text": "Left side of jaw",
+                    "display-mr": "डाव्या बाजूचा जबडा",
+                    "display-hi": "जबड़े का बायां हिस्सा"
+                },
+                {
+                    "id": "ID_ec0970f4-9712-4b25-b657-bd209fbe4525",
+                    "text": "Right side of jaw",
+                    "display-mr": "उजव्या बाजूचा जबडा",
+                    "display-hi": "जबड़े का दायां हिस्सा"
+                },
+                {
+                    "id": "ID_1af4ef5d-a784-4811-8c16-523e5271519d",
+                    "text": "Entire jaw",
+                    "display-mr": "संपूर्ण जबडा",
+                    "display-hi": "पूरा जबड़ा"
+                }
+            ]
+        },
+        {
+            "id": "ID_c03e640b-1dfa-4540-8fa1-6204d28ccc88",
+            "text": "What is the character of jaw pain?",
+            "display-mr": "जबड्याच्या दुखण्याचे वैशिष्ट्य काय आहे?",
+            "display-hi": "जबड़े में दर्द की प्रकृति क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_56691b49-9be0-4f8e-afba-3d6ef05fe407",
+                    "text": "Cramping pain",
+                    "display-mr": "गोळे आल्यासारखी वेदना",
+                    "display-hi": "ऐंठन वाला दर्द"
+                },
+                {
+                    "id": "ID_10779908-c31c-4035-b607-0e9301e8404c",
+                    "text": "Pressure pain",
+                    "display-mr": "अस्वस्थ वाटणारी वेदना/ दुखणे",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_4d7376c8-1f4c-4214-9feb-77771e54ab83",
+                    "text": "Sharp pain",
+                    "display-mr": "अत्यंत तीव्र वेदना/ दुखणे",
+                    "display-hi": "चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_98f8a92c-14b6-41dc-9af9-3b162e71cc99",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधड करणारी वेदना/ दुखणे",
+                    "display-hi": "धड़कने वाला दर्द"
+                },
+                {
+                    "id": "ID_997c2bb9-2302-4791-a7e6-8f730de06070",
+                    "text": "Shooting pain",
+                    "display-mr": "कळ येणारी वेदना/ दुखणे",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_9fbae778-7a00-4722-b21f-65e0001a4aa2",
+                    "text": "Dull pain",
+                    "display-mr": "सहन होणारी पण दीर्घकाळ राहणारी वेदना/ दुखणे",
+                    "display-hi": "धीमा दर्द"
+                },
+                {
+                    "id": "ID_b6ca8ce1-4bcc-4c5e-b906-e4028b96a164",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ होणारी वेदना/ दुखणे",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_28aa5f5b-0ec2-44b0-a519-0fd56abbd620",
+                    "text": "Aching pain",
+                    "display-mr": "मंद सतत होणारी वेदना",
+                    "display-hi": "मंद दर्द"
+                },
+                {
+                    "id": "ID_ecca1a16-f9dd-4ca3-a1af-a4b680e6cd88",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_182ac37e-ed47-4ee6-8065-ea0b27964c0c",
+            "text": "How severe is the jaw pain?",
+            "display-mr": "जबड्याचे दुखणे किती गंभीर आहे?",
+            "display-hi": "जबड़े में दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0fddeeeb-7f7d-4e32-be01-33ccb1b1893a",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "कमी वेदना  (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_7e1ccc40-a950-4ed9-9b22-5712b7bf1f2d",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम दुखणे (3 ते less than  5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_8bf2f60d-c8bb-4e26-8ae1-c5191a482fa9",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "गंभीर दुखणे (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_18536b38-5bbd-47c4-bc5d-06a3aeefc3d0",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "अती तीव्र दुखणे (7ते less than  9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_5b7179f3-decf-4c22-96c8-649c8d2b7907",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "असह्य दुखणे  (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_2109f5aa-8fe7-4d4d-8345-a71f4ac75ab7",
+            "text": "Do you have any of the local associated features with jaw pain?",
+            "display-mr": "जबड्याच्या दुखण्याबरोबरच तुम्हाला अन्य काही संबधित त्रास आहे का?",
+            "display-hi": "क्या आपको जबड़े में दर्द के साथ इनमें से कोई समस्याएं जूड़ी हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_12e92547-9577-4dcb-bf44-d3a4f0132035",
+                    "text": "None",
+                    "display-mr": "नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a3d0ffd2-53eb-4896-bc69-e628be296974",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_5a8c466c-8032-44fc-96b5-3711f577b514",
+                    "text": "Clicking sounds",
+                    "display-mr": "कडकड आवाज येणे",
+                    "display-hi": "क्लिक जैसी आवाज"
+                },
+                {
+                    "id": "ID_1248a331-68fa-4016-8f0f-164c4b2be271",
+                    "text": "Difficulty mouth opening",
+                    "display-mr": "तोंड उघडण्यास त्रास",
+                    "display-hi": "मुंह खोलने में दिक्कत"
+                },
+                {
+                    "id": "ID_64e7195c-c6e4-4f47-934b-cf5af0fa6d08",
+                    "text": "Difficulty chewing",
+                    "display-mr": "चावण्यास त्रास",
+                    "display-hi": "चबाने में दिक्कत"
+                },
+                {
+                    "id": "ID_4e72cf86-e6bb-4bc4-89de-4543f36bb35d",
+                    "text": "Warmth",
+                    "display-mr": "उष्णता",
+                    "display-hi": "गर्माहट"
+                },
+                {
+                    "id": "ID_11306739-1290-4fee-9054-599d43c683b3",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श केल्यास वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_183518d1-b02d-4e5b-a522-4ebad6b96da8",
+                    "text": "Jaw deformity",
+                    "display-mr": "जबडा वेडावाकडा होणे",
+                    "display-hi": "जबड़े की विकृति"
+                },
+                {
+                    "id": "ID_8de3d32b-5dfa-4ce6-8fea-37f40baf1790",
+                    "text": "Tingling",
+                    "display-mr": "मुंग्या येणे",
+                    "display-hi": "झुनझुनी"
+                },
+                {
+                    "id": "ID_09571f7a-abd1-4feb-b160-77b54cc1aa25",
+                    "text": "Numbness",
+                    "display-mr": "बधीरपणा",
+                    "display-hi": "सुन्नता"
+                },
+                {
+                    "id": "ID_30567f1a-0777-4af8-ae06-d5d4b0f25f15",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_6f64a303-c393-48bc-a1b5-c9fb5bc57a9f",
+            "text": "Does the jaw pain radiate to other parts of body?",
+            "display-mr": "जबड्याचे दुखणे शरीराच्या इतर भागांमध्येही पसरते का?",
+            "display-hi": "क्या जबड़े में दर्द शरीर के अन्य भागों में फैलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fba106a0-bae9-4359-8e1e-d192d3bab77b",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1c750de6-7708-4a26-9f96-3d95e1a81b37",
+                    "text": "Eye",
+                    "display-mr": "डोळे",
+                    "display-hi": "आंख"
+                },
+                {
+                    "id": "ID_62cb0a17-d365-4855-91be-9f0f885dcbb1",
+                    "text": "Ear",
+                    "display-mr": "कान",
+                    "display-hi": "कान"
+                },
+                {
+                    "id": "ID_3d943068-2309-44f3-9774-db6828a5e6f2",
+                    "text": "Head",
+                    "display-mr": "डोके",
+                    "display-hi": "सिर"
+                },
+                {
+                    "id": "ID_d43528d5-bac1-4791-b236-17fadbbc7e0c",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_c8ca3e81-f9ba-47d4-a2cc-33660fbe54e6",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_184490a1-47d7-4fc5-b92c-5cf072836cec",
+            "text": "What relieves or lessens the jaw pain?",
+            "display-mr": "जबड्याच्या दुखण्यातून कशामुळे आराम मिळतो किंवा दुखणे कशामुळे कमी होते?",
+            "display-hi": "किस चीज से जबड़े के दर्द से राहत मिलती है या दर्द कम होता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2908b60b-8bc5-4939-baa8-76bdc5c5a2c9",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_dd2a9f1c-4f4a-47b0-8702-310e515bba78",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_72bc539c-ee58-447d-ab16-9240da6dceb1",
+                    "text": "Cold compress",
+                    "display-mr": "बर्फाने शेकल्यावर",
+                    "display-hi": "ठंडा सेक"
+                },
+                {
+                    "id": "ID_d7bb3994-e125-4ea0-9e39-48fade7e5644",
+                    "text": "Hot compress",
+                    "display-mr": "गरम पाण्याच्या पिशवीने शेकल्यावर",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_44021627-ef61-4627-91e7-5e892f9b00b2",
+                    "text": "Resting",
+                    "display-mr": "आराम",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_50c6a6da-e270-4429-a96e-a25b5d3261c4",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_770e7a93-6ef9-4953-8a61-5e7be49d2a9d",
+            "text": "What increases or worsens the jaw pain?",
+            "display-mr": "ड(ज)बड्याचे दुखणे कशामुळे वाढते किंवा असह्य होते?",
+            "display-hi": "क्या जबड़े में दर्द बढ़ता या बिगड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7892882a-af25-4051-b226-12bbe9c0871d",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9928fc48-8e30-4dcf-8c40-96fe79e954fb",
+                    "text": "Eating",
+                    "display-mr": "खाणे",
+                    "display-hi": "खाना"
+                },
+                {
+                    "id": "ID_b3043e13-0395-41d2-9695-a1ddb9d5b656",
+                    "text": "Chewing",
+                    "display-mr": "चावणे",
+                    "display-hi": "चबाना"
+                },
+                {
+                    "id": "ID_8c75e907-a30c-49fa-96ac-5e29db84ab3e",
+                    "text": "Teeth grinding",
+                    "display-mr": "दात घासणे",
+                    "display-hi": "दांत पीसना"
+                },
+                {
+                    "id": "ID_2841f8b1-a833-4403-a4bf-23c432f4c489",
+                    "text": "Clenching teeth",
+                    "display-mr": "दात आवळणे",
+                    "display-hi": "दांत भींचना"
+                },
+                {
+                    "id": "ID_163e1549-78f4-401e-a79a-0dbeb1ae80bf",
+                    "text": "Opening of mouth",
+                    "display-mr": "तोंड उघडणे",
+                    "display-hi": "मुंह खोलना"
+                },
+                {
+                    "id": "ID_83a272f2-f782-42be-ac0e-68e9da786b33",
+                    "text": "Yawning",
+                    "display-mr": "जांभई देणे",
+                    "display-hi": "जम्हाई लेना"
+                },
+                {
+                    "id": "ID_bbb385e6-6d77-4ce5-8eaf-e4f51976363a",
+                    "text": "Cold weather",
+                    "display-mr": "थंड वातावरण",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_077d0a90-af68-47e3-ba01-464430beb055",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1d3c8d07-8bf7-4a85-9bc7-9a08cf6b533f",
+            "text": "Does the jaw pain have any pattern during 24 hours?",
+            "display-mr": "दिवसाच्या 24 तासांत जबड्याच्या दुखण्याचे काही विशिष्ट चक्र आहे का?",
+            "display-hi": "क्या 24 घंटों के दौरान जबड़े में दर्द का कोई पैटर्न होता है",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b5176b26-afe3-4a36-9b34-11de5c5c51b1",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निंरतर"
+                },
+                {
+                    "id": "ID_0f988f17-3679-4f8f-a9ba-a291e0e645c1",
+                    "text": "Intermittent (on & off)",
+                    "display-mr": "मधूनमधून( सुरु होते आणि बंद होते)",
+                    "display-hi": "रुक-रुक कर (शुरू और बंद)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_4c30f8ad-15af-4a90-a68a-b860e04ef69b",
+                            "text": "When do you have or feel the jaw pain worst?",
+                            "display-mr": "तुम्हाला जबड्याचे दुखणे सगळ्यांत जास्त कधी जाणवते किंवा वाढते?",
+                            "display-hi": "आपको जबड़े में दर्द कब सबसे ज्यादा होता है या कब महसूस होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_bf48286c-c732-4232-8746-0d10bf323695",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_913e36cd-6491-4a15-9191-108166effb85",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_44a5d61c-ece7-469a-8840-d0ecdd823a52",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_ab9b8244-d2f1-4da6-93cf-e2d5738840b2",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_bebb2a50-5d3d-420b-8c69-0d7b16b785e5",
+            "text": "How is jaw pain progressing?",
+            "display-mr": "जबड्याचे दुखणे कसे वाढते आहे?",
+            "display-hi": "जबड़े में दर्द कैसे बढ़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e1af90e7-498f-484d-b985-e3a845facd45",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_8cf28ca5-7671-4277-b179-dd3911c4d9a0",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_325059bb-e267-4e5b-9c9c-871a5b75f217",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_eafdc9e2-34c1-4388-b6a0-28c799d68a83",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_21381c4f-3656-409f-9ce9-c5e5bb43715c",
+            "text": "Do you have the following symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_eea07175-520f-4ad1-b5a6-72cf1fc06ac6",
+                    "text": "Swollen gums",
+                    "display-mr": "हिरड्या सुजणे",
+                    "display-hi": "मसूड़ों में सूजन"
+                },
+                {
+                    "id": "ID_3a6e41f2-daa7-4c4b-83a2-5c2fcc647a77",
+                    "text": "Bleeding gums",
+                    "display-mr": "हिरड्यांमधून रक्त येणे",
+                    "display-hi": "मसूड़ों से खून आना"
+                },
+                {
+                    "id": "ID_6891c2da-8dae-4469-864e-1dbca9d2ea2e",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासाचा दुर्गंध",
+                    "display-hi": "सांसों में बदबू"
+                },
+                {
+                    "id": "ID_5d122843-6762-4c7e-a607-bca6691c76c5",
+                    "text": "Tooth cavities",
+                    "display-mr": "दातांमध्ये पोकळी",
+                    "display-hi": "दांतों में सड़न"
+                },
+                {
+                    "id": "ID_442679b5-a833-4ed9-974e-54dd9b2b3d98",
+                    "text": "Ear pain",
+                    "display-mr": "कान दुखणे",
+                    "display-hi": "कान में दर्द"
+                },
+                {
+                    "id": "ID_4a733b5b-930b-476d-ab0e-03bded66204b",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "लिंफ नोड्सना सूज",
+                    "display-hi": "लिम्फ नोड्स में सूजन"
+                },
+                {
+                    "id": "ID_3b3afd95-97c1-4569-9bff-4f58f800267c",
+                    "text": "Mouth ulcers",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह में छाले"
+                },
+                {
+                    "id": "ID_1f6fd9e0-4f2f-4790-a9f4-56bd70b7c177",
+                    "text": "Neck swelling",
+                    "display-mr": "मान सुजणे",
+                    "display-hi": "गर्दन में सूजन"
+                },
+                {
+                    "id": "ID_6190da22-3567-41e9-8d92-476233c89202",
+                    "text": "Swelling infront of ear",
+                    "display-mr": "कानासमोर सूज येणे",
+                    "display-hi": "कान के सामने सूजन"
+                }
+            ]
+        },
+        {
+            "id": "ID_7b931fd6-5539-45bd-bb29-3fc9647003de",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cce0a88a-d26f-4037-8da4-f2544472897c",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9781a658-23d4-475d-bfca-030771a1e873",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_67b515d3-d93c-40b4-a938-c5266811d687",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_9e1968d2-3a30-4521-9ef2-daeb4705badb",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_ed02137f-747d-49fa-ac18-fb8b75c70e6f",
+                    "text": "Throat pain",
+                    "display-mr": "घसादुखी",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_fcefcd6b-627c-485b-a25a-c00a56614bfa",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_e45c11a8-d13b-4edb-9ed5-63776b85f390",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_a69edb45-a73f-4c4f-ab39-0e702d138a9d",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_6586cc6d-c873-4b4f-ad53-e7e3ae9cdfc5",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_c2eeac92-fae3-4883-94e4-de88d4d16aba",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_0f0bfe3e-900d-46cc-aeb7-eeca662afaa2",
+                    "text": "Breathing difficulty",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_ca02fa80-1334-4dce-82c0-598820336cce",
+                    "text": "Excessive sweating",
+                    "display-mr": "अति जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_b629ebdf-8cb9-4fd7-a9ba-947ff8a8f043",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_60278a6c-d46a-46ff-bafe-f6df5ac40f8d",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d685a3fc-0544-40ba-8cc2-98643263d45f",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_98e69839-502a-4685-a741-b7e9da7685a9",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_00ed3516-18c0-4b67-a75f-d28333e2889a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_0d37b803-a103-44c1-8328-f78cb5d1423c",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ea608830-4cd8-4476-9a90-49adc33e526d",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_97bc363f-76a0-4b7c-8c20-b2e3037b23b5",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

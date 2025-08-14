@@ -1,0 +1,670 @@
+{
+    "id": "ID_10e97b22-83b8-421e-a04c-e9481ada9023",
+    "text": "Oedema",
+    "engineVersion": "3.0",
+    "display-mr": "सूज",
+    "display-hi": "एडिमा (सूजन)",
+    "options": [
+        {
+            "id": "ID_f3e3247e-9df5-4aec-99e5-32359793a665",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1ec6987a-e1d6-4464-81da-11456c2a60e3",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_c9d6d3b0-2355-4646-8fcf-b03a289c5327",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_18a1a48a-f7d6-4912-bca2-b6dab5c6c318",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_3584ef17-692e-445f-804c-d88c1a0a3804",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_6bfb253b-1277-4318-8771-501e64202e7e",
+            "text": "Where do you have oedema?",
+            "display-mr": "तुम्हाला कुठे सूज येते?",
+            "display-hi": "आपको एडिमा (सूजन) कहां है",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f4196d5d-f37f-4be0-810a-d688ea0d0418",
+                    "text": "All over",
+                    "display-mr": "सगळी कडे",
+                    "display-hi": "हर जगह"
+                },
+                {
+                    "id": "ID_4aad8c99-1bed-4bda-b63c-da7e9495ecf4",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचा भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_f97862b7-0968-442f-8186-b1847e99c9cf",
+                            "text": "Which part of the body do you have oedema?",
+                            "display-mr": "शरीराच्या कोणत्या भागात तुम्हाला सूज आहे?",
+                            "display-hi": "आपको शरीर के किस अंग में सूजन  है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_3a500489-4656-4067-8775-1b1a50d3e577",
+                                    "text": "Eyes",
+                                    "display-mr": "डोळे",
+                                    "display-hi": "आंखें"
+                                },
+                                {
+                                    "id": "ID_977196ef-0536-4932-896c-0d230b91dbcc",
+                                    "text": "Lips",
+                                    "display-mr": "ओठ",
+                                    "display-hi": "होंठ"
+                                },
+                                {
+                                    "id": "ID_51b37479-1ad5-4e53-bb60-3c07977cf297",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_eb48f9d3-55f9-4b24-9a06-ac023cc06da5",
+                                    "text": "Left hand",
+                                    "display-mr": "डावा हात",
+                                    "display-hi": "बायां हाथ"
+                                },
+                                {
+                                    "id": "ID_f72b575a-afa8-4e11-90ef-aba3b885e293",
+                                    "text": "Right hand",
+                                    "display-mr": "उजवा हात",
+                                    "display-hi": "दायां हाथ"
+                                },
+                                {
+                                    "id": "ID_0c2828a7-3273-4436-9fa0-8ee30746fbf5",
+                                    "text": "Both hands",
+                                    "display-mr": "दोन्ही हातांना",
+                                    "display-hi": "दोनों हाथ"
+                                },
+                                {
+                                    "id": "ID_2f03ea9d-9f37-4e22-8a06-bbcf4580ddff",
+                                    "text": "Left leg",
+                                    "display-mr": "डावा पाय",
+                                    "display-hi": "बाईं टांग"
+                                },
+                                {
+                                    "id": "ID_39fcef90-13b9-43b2-8733-95ebc4e123ae",
+                                    "text": "Right leg",
+                                    "display-mr": "उजवा पाय",
+                                    "display-hi": "दाईं टांग"
+                                },
+                                {
+                                    "id": "ID_c9e1f2e5-e3a1-4490-ac74-122ec4fc11f6",
+                                    "text": "Both legs",
+                                    "display-mr": "दोन्ही पाय",
+                                    "display-hi": "दोनों टांगें"
+                                },
+                                {
+                                    "id": "ID_3b300772-8f95-4661-9951-d1c3383b02a2",
+                                    "text": "Lower back",
+                                    "display-mr": "पाठीचा खालील भाग",
+                                    "display-hi": "पीठ का निचला हिस्सा"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d83289d0-2cc4-4fff-9e68-9a068b0380a0",
+            "text": "How would you describe the oedema?",
+            "display-mr": "तुम्ही सुजेचे वर्णन कसे कराल?",
+            "display-hi": "आप सूजन  को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d5dc503a-8ec1-43b6-9c23-a0c8cac4f7ad",
+                    "text": "Pitting",
+                    "display-mr": "पिटींग (दाबल्यावर खड्डा पडणारी)",
+                    "display-hi": "दबाने पर गड्ढा बनना"
+                },
+                {
+                    "id": "ID_547e4b74-3b69-40bb-84cd-f5c69d785668",
+                    "text": "Non-pitting",
+                    "display-mr": "नॉन - पिटिंग (दाबल्यावर खड्डा न पडणारी)",
+                    "display-hi": "दबाने पर गड्ढा न बनना"
+                },
+                {
+                    "id": "ID_5b4c4cd7-f293-41df-924c-f84bcf07d9c7",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "नहीं पता"
+                }
+            ]
+        },
+        {
+            "id": "ID_cf74b371-e426-4fa0-9fc1-b3f7239153d3",
+            "text": "Is the oedema associated with pain?",
+            "display-mr": "सूज दुखण्याशी संबंधित आहे का?",
+            "display-hi": "क्या सूजन  के साथ दर्द भी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_141310fa-feef-4dad-8edf-2d8188145cea",
+                    "text": "Painless",
+                    "display-mr": "वेदनारहित",
+                    "display-hi": "बिना दर्द"
+                },
+                {
+                    "id": "ID_d09a3402-214d-416a-8a58-17d2305690a5",
+                    "text": "Painful",
+                    "display-mr": "वेदनादायक",
+                    "display-hi": "दर्दनाक",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_57417eb5-d6bf-4f54-8de8-2693510906b1",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_5a26546b-95a3-4fd7-bcce-06cf7d9c1dfa",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                                },
+                                {
+                                    "id": "ID_fa2e955b-b3e7-49a2-b6f8-fd28c3ce37b5",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से less than  5)"
+                                },
+                                {
+                                    "id": "ID_e875a379-8fdc-44df-8529-21f103f707b1",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                                },
+                                {
+                                    "id": "ID_0b29b569-7700-4d26-a96f-eb2b9128bfb7",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                                },
+                                {
+                                    "id": "ID_769b81f6-74b9-4185-854f-d1ecb7b6f5b3",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_529e23e5-8c3a-42c2-8ffd-4047f80668e7",
+            "text": "How is the surface of the oedema?",
+            "display-mr": "सुजेचा पृष्ठभाग कसा आहे?",
+            "display-hi": "सूजन  की सतह कैसी है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_bfe240b8-031e-40b8-b9d8-442a7900a515",
+                    "text": "Smooth",
+                    "display-mr": "गुळगुळीत",
+                    "display-hi": "चिकनी"
+                },
+                {
+                    "id": "ID_5125853d-60ee-4b87-9570-2381e2f0f841",
+                    "text": "Rough",
+                    "display-mr": "खडबडीत",
+                    "display-hi": "खुरदुरी"
+                },
+                {
+                    "id": "ID_4c75c6ee-dba3-41fa-ba06-7ddcfbb5a193",
+                    "text": "Glossy (shiny)",
+                    "display-mr": "चकचकीत (चमकदार)",
+                    "display-hi": "चमकदार"
+                },
+                {
+                    "id": "ID_fbc396cb-278b-4fb2-ab37-93513e5817f6",
+                    "text": "Warm",
+                    "display-mr": "उबदार",
+                    "display-hi": "गर्म"
+                },
+                {
+                    "id": "ID_62398825-a1b7-46fa-b1cd-1eaea7b9e7ce",
+                    "text": "Redness (erythema)",
+                    "display-mr": "लालसरपणा (एरिथेमा)",
+                    "display-hi": "लालिमा (एरिथेमा)"
+                }
+            ]
+        },
+        {
+            "id": "ID_0a1ff780-0b51-4e92-beec-45ba847e48ce",
+            "text": "What does reduce the oedema?",
+            "display-mr": "सूज कमी करण्यासाठी काय करावे?",
+            "display-hi": "सूजन  को क्या कम करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d22196e5-57ef-4d14-9e70-253d3b20d87f",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e91662d0-e9e6-46a7-81ed-0e843ecb44bc",
+                    "text": "Elevation of body part",
+                    "display-mr": "तो शरीराचा भाग उंचावर ठेवणे",
+                    "display-hi": "शरीर के हिस्से को उठाना"
+                },
+                {
+                    "id": "ID_9f9ff5b9-72d4-432b-abfa-893b2ad062a1",
+                    "text": "Moving",
+                    "display-mr": "हलवत आहे",
+                    "display-hi": "हिलना-डुलना"
+                },
+                {
+                    "id": "ID_7e90111a-758d-46d8-84e2-e80ec0d77da9",
+                    "text": "Cold compresses",
+                    "display-mr": "कोल्ड कॉम्प्रेसेस (थंड वस्तूने शेकणे)",
+                    "display-hi": "ठंडी सिकाई"
+                },
+                {
+                    "id": "ID_5878e054-b99f-40d3-81f3-cc7fb97b3033",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                }
+            ]
+        },
+        {
+            "id": "ID_372e2673-a9c5-4299-9a93-a4f10f913c29",
+            "text": "What does increase or worsen the oedma?",
+            "display-mr": "सूज कशामुळे वाढतो किंवा खराब होतो?",
+            "display-hi": "सूजन  किससे बढ़ती या बिगड़ती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_41e57e08-4a6f-4b64-860d-46445ec43533",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_10d1f251-bc41-443f-ae73-fb0f481531e8",
+                    "text": "Sitting",
+                    "display-mr": "बसणे",
+                    "display-hi": "बैठना"
+                },
+                {
+                    "id": "ID_843a7e29-716f-4807-91d7-00b4a7b4ae6a",
+                    "text": "Travelling",
+                    "display-mr": "प्रवास करत(णे) आहे",
+                    "display-hi": "यात्रा करना"
+                },
+                {
+                    "id": "ID_14a43f5a-6430-4b51-b604-386976acc065",
+                    "text": "Standing",
+                    "display-mr": "उभे राहणे",
+                    "display-hi": "खड़ा होना"
+                },
+                {
+                    "id": "ID_ef80641e-f89f-4f39-99ae-d3defb49a07a",
+                    "text": "Menstruation",
+                    "display-mr": "मासिक पाळी",
+                    "display-hi": "माहवारी"
+                },
+                {
+                    "id": "ID_90f67fdb-242c-4e5a-968e-1f60dfa09c76",
+                    "text": "Compression stockings",
+                    "display-mr": "कॉम्प्रेशन स्टॉकिंग्स",
+                    "display-hi": "कंप्रेशन मोजे"
+                },
+                {
+                    "id": "ID_3ebd282a-714f-4641-816b-1bd14f0643e5",
+                    "text": "Medication",
+                    "display-mr": "औषध",
+                    "display-hi": "दवा"
+                },
+                {
+                    "id": "ID_2db011b0-6e4c-474e-8f16-c7d3c63b58c6",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_18c84c6d-0459-4451-b26d-17aed35d274a",
+            "text": "How is the oedema progressing?",
+            "display-mr": "सूजेमध्ये काही बदल?",
+            "display-hi": "सूजन में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5edbb2dd-6989-4c5f-89c8-de6df9b520c0",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रही है"
+                },
+                {
+                    "id": "ID_5cfaedee-15c3-484b-8b01-a1b865849562",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रही है"
+                },
+                {
+                    "id": "ID_6effe9c0-d306-4182-afbe-d2eb38559819",
+                    "text": "Fluctuant",
+                    "display-mr": "चढउतार",
+                    "display-hi": "कम-अधिक होती रहती है"
+                },
+                {
+                    "id": "ID_3612d9fc-edd6-4a26-9bd8-8b7799c36ea9",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_1b246a2b-99d5-4880-b72b-03a24292adc2",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_e5d9366b-90ab-4f5e-8d70-5d5cde402ba3",
+            "text": "Does the Oedema have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रादरम्यान सुजेचे काही चक्र असते का?",
+            "display-hi": "क्या 24 घंटे के चक्र के दौरान सूजन  किसी खास तरीके से होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f691de9f-45ab-4bcd-a5f3-d4cad742d7db",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "स्थायी"
+                },
+                {
+                    "id": "ID_be425f59-2910-4da1-b7a4-ac0c2517bd8a",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुककर (आता और जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_20d2755a-14a5-4c3d-abd6-6217e351141b",
+                            "text": "Which part of a day do you notice the Oedema?",
+                            "display-mr": "दिवसाच्या कोणत्या भागात तुम्हाला सूज येते?",
+                            "display-hi": "दिन के किस भाग में आप सूजन  को नोटिस करते हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_63e79f8d-3db4-4252-857b-7d50246878f4",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_84a00ee1-e5fc-46a1-b6c6-6d84be3a9d8e",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_aa19886e-9437-40ad-a589-427fbdc5b66a",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_57d6da18-9356-4647-9d12-8e5b822c7048",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेवर खाज सुटणे",
+                    "display-hi": "त्वचा की खुजली"
+                },
+                {
+                    "id": "ID_b27e5484-c7c6-415f-93d6-24baf246db5e",
+                    "text": "Shortness of breath",
+                    "display-mr": "धाप लागणे",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_e986e39f-bd2e-4d70-a3ad-51a6706b4d7c",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_cc9fd907-c47d-4707-a769-ff2b759efd44",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात सूज",
+                    "display-hi": "पेट का फूलना"
+                },
+                {
+                    "id": "ID_221c8b69-54f7-4faa-ac4c-f6d15472a2ae",
+                    "text": "Easy bruising",
+                    "display-mr": "सहज खरचटणे/जखम होणे",
+                    "display-hi": "आसानी से चोट लगना"
+                },
+                {
+                    "id": "ID_b0f91410-0ac9-4822-9ffc-457f75e719d6",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_ea7dd126-d1a5-4f49-b953-9fc60452adf3",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "दिल की धड़कन का तेज़ होना"
+                },
+                {
+                    "id": "ID_fc467105-cb54-499f-afd9-e31bceea104f",
+                    "text": "Decreased urine",
+                    "display-mr": "लघवी कमी येणे",
+                    "display-hi": "पेशाब कम आना"
+                },
+                {
+                    "id": "ID_181a949f-db8e-4470-8d41-e8c32ea01d92",
+                    "text": "Frothy urine",
+                    "display-mr": "फेसाळ लघवी",
+                    "display-hi": "झागदार पेशाब"
+                },
+                {
+                    "id": "ID_74b06f13-6951-430b-aa4b-5c30580fb6fa",
+                    "text": "History of injury",
+                    "display-mr": "दुखापतीचा इतिहास",
+                    "display-hi": "चोट का इतिहास"
+                },
+                {
+                    "id": "ID_693f13e6-af5b-4625-ba9d-9666ecf950a5",
+                    "text": "History of medication intake",
+                    "display-mr": "पूर्वीच्या औषधोपचाराचा इतिहास",
+                    "display-hi": "दवा सेवन का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_0437a850-eab9-4319-9f5e-5baf78a28ffa",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_59378ab9-2614-43a6-b4d2-417521de3581",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कुछ नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_81f0d341-2adc-49bd-babd-626c28bb7e27",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_dc0a0ab1-8b7e-4285-af7e-7ce3b26bd20b",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ में दर्द"
+                },
+                {
+                    "id": "ID_f487b054-1951-4f57-ae12-d13651be2946",
+                    "text": "Urinary urgency",
+                    "display-mr": "लघवीची तातडीची गरज",
+                    "display-hi": "पेशाब आने की जल्दी"
+                },
+                {
+                    "id": "ID_c5296059-81bd-46a1-9082-357cb67acba2",
+                    "text": "Frequency of urination",
+                    "display-mr": "लघवीची वारंवारता",
+                    "display-hi": "अधिक बार पेशाब जाना"
+                },
+                {
+                    "id": "ID_fd0db0a1-8602-4b22-ad88-6ea25fb61561",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंड असहिष्णुता",
+                    "display-hi": "ठंड सहन न कर पाना"
+                },
+                {
+                    "id": "ID_649d7b89-872c-497b-99a4-f98f300a20a8",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_d7559820-7d2d-4648-8b1d-bbe8089edf2f",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भोजन में रुचि की कमी"
+                },
+                {
+                    "id": "ID_bcef3582-a502-4087-8bb0-90c9ff057c3e",
+                    "text": "Flank pain",
+                    "display-mr": "पार्श्वभाग वेदना",
+                    "display-hi": "पसलियों में दर्द"
+                },
+                {
+                    "id": "ID_87cd1884-c34c-47a8-9b50-67e757fe2b72",
+                    "text": "Itching of eyes",
+                    "display-mr": "डोळ्यांना खाज सुटणे",
+                    "display-hi": "आंखों में खुजली"
+                },
+                {
+                    "id": "ID_9b18d134-6ce9-4add-9667-bcd42f58ee82",
+                    "text": "Facial weakness",
+                    "display-mr": "चेहर्यावरील कमकुवतपणा",
+                    "display-hi": "चेहरे की कमजोरी"
+                },
+                {
+                    "id": "ID_74d46e29-43c1-4ac3-b420-832346c50df4",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_046d892f-681c-48cb-9af3-a2b5df959403",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7932a6b9-2fce-4cf2-9a3a-b77319adb185",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c6071eda-b77b-491c-b84c-efc0b8f51514",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_68723249-ac6b-4e9e-aa3b-88ad4d0b18ff",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_fc216fc1-dd4b-43ef-8cf3-6a24d710dfcd",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c3f73ad0-4817-4f92-abd7-a8fa40ffd9b7",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

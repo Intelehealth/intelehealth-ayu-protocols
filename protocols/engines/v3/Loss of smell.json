@@ -1,0 +1,332 @@
+{
+    "id": "ID_e4e03b70-f670-4584-a7da-c3b50a4e2abe",
+    "text": "Loss of smell",
+    "engineVersion": "3.0",
+    "display-mr": "वास न येणे",
+    "display-hi": "गंध सूंघने में कमी",
+    "options": [
+        {
+            "id": "ID_ed731841-a24a-4c91-9ad9-3971490ae544",
+            "text": "Since when have you had loss of smell?",
+            "display-mr": "तुम्हाला वास येणे कधीपासून बंद झाले आहे?",
+            "display-hi": "आपने कब से गंध सूंघने में कमी महसूस की है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1e51a7e9-80c2-4be6-8f33-69be86d8ea37",
+                    "text": "Since when have you had loss of smell?",
+                    "display-mr": "तुम्हाला वास येणे कधीपासून बंद झाले आहे?",
+                    "display-hi": "आपने कब से गंध सूंघने में कमी महसूस की है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_315e17d6-b822-4b68-be7f-cce10d812641",
+            "text": "How fast did loss of smell develop?",
+            "display-mr": "वास न येणे कसे किती वेगाने पसरले आहे?",
+            "display-hi": "गंध महसूस न कर पाने की समस्या कितनी तेजी से बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8d2ef995-351b-45f7-9237-c24dc57b88d6",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_abf068b2-607b-4175-9d97-7ee1eb1953f2",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_6f08e25e-fe01-416e-a172-868ee689e9f2",
+            "text": "Do you have the following features associated with loss of smell?",
+            "display-mr": "वास न येण्याशी संबंधित खालील लक्षणे तुमच्यात आहेत का?",
+            "display-hi": "क्या आपको इस समस्या से जुड़ी निम्नलिखित विशेषताएं हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_035331f6-60ca-4adc-a0c3-f74fb7fea728",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d152d05e-93b9-44e7-b13a-5ffacea4a800",
+                    "text": "Loss of taste",
+                    "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+                    "display-hi": "स्वाद का खत्म होना"
+                },
+                {
+                    "id": "ID_d687385d-e84a-4cd3-be85-a4baea5125e2",
+                    "text": "Swelling in nose",
+                    "display-mr": "नाकामध्ये सूज",
+                    "display-hi": "नाक में सूजन"
+                },
+                {
+                    "id": "ID_d2520139-802c-43df-ad80-f900a265a98d",
+                    "text": "Stuffy nose",
+                    "display-mr": "भरलेले नाक",
+                    "display-hi": "नाक बंद होना"
+                },
+                {
+                    "id": "ID_eb9286a7-fc45-4387-8b25-03bbc0ff257a",
+                    "text": "Nasal discharge",
+                    "display-mr": "नाकातून पाणी वाहणे",
+                    "display-hi": "नाक से स्राव आना"
+                },
+                {
+                    "id": "ID_9501574f-d18c-492c-b324-133a014b9f68",
+                    "text": "Sneezing",
+                    "display-mr": "शिंकणे",
+                    "display-hi": "छींकना"
+                },
+                {
+                    "id": "ID_4143dd92-f0c6-417b-825f-fcbe9b546476",
+                    "text": "Itching of nose",
+                    "display-mr": "नाकाला खाज",
+                    "display-hi": "नाक में खुजली"
+                },
+                {
+                    "id": "ID_8f826651-3431-49bb-b66f-741ef9c73ceb",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d18ad650-8b0b-4aba-80f0-55e70e85c5b1",
+            "text": "How is loss of smell progressing?",
+            "display-mr": "वास न येण्याची स्थिती कशी आहे?",
+            "display-hi": "गंध महसूस न कर पाने की समस्या में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7e278365-bd7e-44d0-b19c-7d7fffc48f6e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_3df2860e-7049-4d4d-b0dd-0b0ab4f20822",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_fac67843-3a41-404d-a304-1f31c6fb45ee",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_3ca2b6cd-9ed6-4826-9e4f-fefbe822ac25",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_32f8b177-d76d-4d72-a1f4-704050fdcebc",
+            "text": "Do you have the following symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_eebde50f-7d1b-443a-b72e-7ebd0abe2535",
+                    "text": "Dry mouth",
+                    "display-mr": "तोंड कोरडे पडणे",
+                    "display-hi": "मुंह सूखना"
+                },
+                {
+                    "id": "ID_9e52c490-af2d-43d0-880a-c22a6995091a",
+                    "text": "Facial pain",
+                    "display-mr": "चेहरा दुखणे",
+                    "display-hi": "चेहरे में दर्द"
+                },
+                {
+                    "id": "ID_fd1f69bf-b4c6-4ec1-a017-17142803bd3d",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_c151a2e4-3567-4b0e-a6b2-17c4830cc6f7",
+                    "text": "Sore throat",
+                    "display-mr": "घसा बसणे",
+                    "display-hi": "गले में खराश"
+                },
+                {
+                    "id": "ID_8a56b0d6-266e-4341-942c-febe989df468",
+                    "text": "Decreased vision",
+                    "display-mr": "दृष्टी कमी होणे",
+                    "display-hi": "दृष्टि में कमी"
+                },
+                {
+                    "id": "ID_b78f8ed2-4ac9-4bfb-a3e3-fa9c3e7e7748",
+                    "text": "Difficulty speaking",
+                    "display-mr": "बोलण्यात त्रास होणे / अडचण येणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_19275d6e-aa85-465a-8932-8ab436f82a07",
+                    "text": "History of head injury",
+                    "display-mr": "डोक्याला दुखापतीचा पूर्वइतिहास",
+                    "display-hi": "सिर में चोट लगने का इतिहास"
+                },
+                {
+                    "id": "ID_5f080b1f-65ef-40b3-97e6-2e58aaf5cb17",
+                    "text": "History of recent COVID-19 Infection",
+                    "display-mr": "नुकताच कोविड-19 चा संसर्ग झाल्याचा पूर्वइतिहास",
+                    "display-hi": "हाल ही में कोविड-19 संक्रमण का इतिहास"
+                }
+            ]
+        },
+        {
+            "id": "ID_90db8472-553c-446a-950c-489fb3a941eb",
+            "text": "Do you have any other symptom(s)?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_98b852e3-728f-46bb-8354-af646e1a5488",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_7c14d35f-8b10-409d-9745-120a6636e2e4",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_3a875630-c98a-4991-9118-59deb6a4bcd3",
+                    "text": "Body pain",
+                    "display-mr": "अंगदुखी",
+                    "display-hi": "शरीर में दर्द"
+                },
+                {
+                    "id": "ID_6aaca202-d24f-4960-971a-5265b6c6cc08",
+                    "text": "Loss of balance",
+                    "display-mr": "संतुलन जाणे",
+                    "display-hi": "संतुलन की कमी"
+                },
+                {
+                    "id": "ID_09c8dd22-2128-4fd0-90fa-1a55ea3e6d61",
+                    "text": "Muscle pain",
+                    "display-mr": "स्नायू दुखणे",
+                    "display-hi": "मांसपेशियों में दर्द"
+                },
+                {
+                    "id": "ID_c8cd51f3-59a1-4243-9dec-aa462cc0822d",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_87393702-bbd9-463b-b520-3fd4d9d11088",
+                    "text": "Eye pain",
+                    "display-mr": "डोळे दुखणे",
+                    "display-hi": "आंखों में दर्द"
+                },
+                {
+                    "id": "ID_e34046d1-8a9d-408d-9e50-e4ff744baeca",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_0b237952-5db4-4e1f-91a6-e67c958b2865",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_76ef6f03-8631-424a-b62d-8a1dd1afe960",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेला खाज",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_996afd48-fa6f-41a9-9dec-f95aafda6612",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_f6f87cd7-71cf-411d-a66d-9d0e8f8a5708",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ff7f5c83-22d3-4546-909f-aabf211eac83",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c91570ec-00e8-4b40-b220-7bd870236d65",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c9875cc8-2a9e-4ce9-a317-06eb96ca3ca5",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_0748799e-3c6b-4b99-81be-b723eb8cb6b1",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_52b7298b-3097-464e-b142-7a599badbb40",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_14554429-ae10-47be-a525-4d81964105f4",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

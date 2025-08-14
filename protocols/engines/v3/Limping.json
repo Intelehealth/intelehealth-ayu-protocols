@@ -1,0 +1,547 @@
+{
+    "id": "ID_65808165-1709-418b-9262-037d5459aa65",
+    "text": "Limping",
+    "engineVersion": "3.0",
+    "display-mr": "लंगडणे",
+    "display-hi": "लंगड़ाना",
+    "options": [
+        {
+            "id": "ID_b5b4bf87-2185-480a-b2ae-d5adebc6f887",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4fec4624-993b-455d-9281-23c577d24da6",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_543ef6c2-79cf-489e-89e3-98f74f2b7d37",
+            "text": "How fast did the limping appear?",
+            "display-mr": "लंगडण्याचा त्रास किती वेगाने सुरु झाला?",
+            "display-hi": "लंगड़ापन कितनी जल्दी दिखाई दिया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7c636ee4-66d2-4c6f-8d94-056ee69e6f45",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_9b24bc72-e184-4aa8-ab19-ea1790419e0d",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_57208ec1-9339-4105-a452-d8312262874a",
+            "text": "Did the limping develop after any of these events?",
+            "display-mr": "खालीलपैकी कोणत्या घटनेनंतर लंगडणे वाढले का?",
+            "display-hi": "क्या इनमें से किसी घटना के बाद लंगड़ापन बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_acae9cd2-43bf-4828-ace0-5c818f915ca5",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_36074d76-b0dd-4340-8a06-e488c9f58167",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_4602f598-a24b-4814-96c2-627822c2cc22",
+                    "text": "Sprain",
+                    "display-mr": "लचक भरणे",
+                    "display-hi": "मोच"
+                },
+                {
+                    "id": "ID_ddc37ba9-39da-4667-9cb2-736becdea087",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_022ce162-cf8f-414d-b335-cb2d05e5ba41",
+            "text": "Which leg do you have limping?",
+            "display-mr": "तुमच्या कोणत्या पायाला लंगडण्याचा त्रास आहे?",
+            "display-hi": "आपको किस पैर में लंगड़ापन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_44da8329-ff02-4c4d-8957-77b7c781738b",
+                    "text": "Right leg",
+                    "display-mr": "उजवा पाय",
+                    "display-hi": "दायां पैर"
+                },
+                {
+                    "id": "ID_4aaa5e6e-63b2-430a-ac2d-d4e5f94a7d2d",
+                    "text": "Left leg",
+                    "display-mr": "डावा पाय",
+                    "display-hi": "बायां पैर"
+                },
+                {
+                    "id": "ID_b2eaa21a-a26c-4f31-9681-0045a3e4c9f8",
+                    "text": "Both legs",
+                    "display-mr": "दोन्ही पाय",
+                    "display-hi": "दोनों पैर"
+                }
+            ]
+        },
+        {
+            "id": "ID_2089db39-fcce-43de-afff-4321b2c4d3c4",
+            "text": "Do you have any of the features  in the legs associated with limping?",
+            "display-mr": "लंगडण्याबरोबरच तुम्हाला यापैकी काही त्रास आहे का?",
+            "display-hi": "क्या आपके पैरों में लंगड़ापन से जुड़ी कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_573ca870-4b82-4f6c-ab8b-642fb0d6383c",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3906247c-b400-4738-9fd7-150058f34b3e",
+                    "text": "Painful walking",
+                    "display-mr": "चालताना वेदना",
+                    "display-hi": "चलना दर्दनाक होना"
+                },
+                {
+                    "id": "ID_2872c9fc-51d4-499f-9577-25250db9dade",
+                    "text": "Foot drop",
+                    "display-mr": "पाऊल उचलता न येणे",
+                    "display-hi": "पैर का गिरना"
+                },
+                {
+                    "id": "ID_61f9b6a9-7e69-4628-ab05-1624bc19055f",
+                    "text": "Deformity of leg",
+                    "display-mr": "पाय वेडेवाकडे असणे",
+                    "display-hi": "पैर की विकृति"
+                },
+                {
+                    "id": "ID_9469ae83-7b6f-4807-9cfb-1ffefb2de4b3",
+                    "text": "Swelling of calf muscles",
+                    "display-mr": "पोटरीच्या स्नायूंना सूज",
+                    "display-hi": "पिंडली की मांसपेशियों में सूजन"
+                },
+                {
+                    "id": "ID_b30331a3-634d-4935-8ffa-513800d794d1",
+                    "text": "Ulcers",
+                    "display-mr": "फोडं / अल्सर्स",
+                    "display-hi": "अल्सर"
+                },
+                {
+                    "id": "ID_0f7bf091-7893-42fc-b876-ebde1ee7e3cb",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायूंचा अशक्तपणा (स्नायूंमध्ये ताकद नसणे)",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_c4829323-59c8-4d97-8fc3-55b831d8de21",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_35a734c4-1e15-4636-a212-ad3ded2ad696",
+            "text": "Do you have pain associated with the limping?",
+            "display-mr": "लंगडण्याबरोबरच तुम्हाला वेदना आहे का?",
+            "display-hi": "क्या आपको लंगड़ापन के साथ दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d2fea4e1-a242-451a-b9d9-9bad1de5ae86",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_5d1b1d91-9845-4094-bcab-2688a3cd5bbc",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_932a3029-eefa-4211-abd3-dac54741b883",
+                            "text": "Where is the pain located?",
+                            "display-mr": "वेदना नेमक्या कुठे आहेत?",
+                            "display-hi": "दर्द कहां होता है?",
+                            "options": [
+                                {
+                                    "id": "ID_6432d284-1767-468f-8ba6-9ac338883aa7",
+                                    "text": "Hip",
+                                    "display-mr": "कंबर/नितम्ब",
+                                    "display-hi": "कूल्हा"
+                                },
+                                {
+                                    "id": "ID_7c11f1fc-51d5-46e4-95d5-89e7bd50efff",
+                                    "text": "Knee",
+                                    "display-mr": "गुडघा",
+                                    "display-hi": "घुटना"
+                                },
+                                {
+                                    "id": "ID_de96368d-bfa6-47db-811a-6319498b1420",
+                                    "text": "Ankle",
+                                    "display-mr": "घोटा",
+                                    "display-hi": "टखना"
+                                },
+                                {
+                                    "id": "ID_c9787c2f-4e48-4993-ac02-5ca36bd7fedf",
+                                    "text": "Foot",
+                                    "display-mr": "पाऊल",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_fea9b40c-b064-4960-9f10-f9ada95eaca2",
+                                    "text": "Other",
+                                    "display-mr": "अन्य",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_b118f922-9651-46bf-816e-b2651e182aec",
+                            "text": "Can you describe the pain?",
+                            "display-mr": "तुम्ही वेदनेचे वर्णन कसे कराल?",
+                            "display-hi": "क्या आप दर्द का वर्णन कर सकते हैं?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_07501195-bae4-4a22-a458-bb3f5eb0b483",
+                                    "text": "Pressure pain",
+                                    "display-mr": "अस्वस्थ वाटणारी वेदना/ दुखणे",
+                                    "display-hi": "दबाव वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_8b885167-f7a3-4419-b7c8-ddd44ebad67a",
+                                    "text": "Sharp pain",
+                                    "display-mr": "अत्यंत तीव्र वेदना/ दुखणे",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_91cd5fd3-cd71-4436-a5f3-6317fddd6d39",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधड करणारी वेदना/ दुखणे",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_83e654b1-0ef4-45a5-a32b-74528da9c5bd",
+                                    "text": "Shooting pain",
+                                    "display-mr": "कळ येणारी वेदना/ दुखणे",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_304378c0-9206-4f44-a55c-1f6c5bf4d0ca",
+                                    "text": "Dull pain",
+                                    "display-mr": "सहन होणारी पण दीर्घकाळ राहणारी वेदना/ दुखणे",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_7fd52605-4c95-4aa8-8e41-b7d98b83cadc",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळ होणारी वेदना/ दुखणे",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_4c811751-7f5c-4916-92a2-de0e33f3ac4c",
+                                    "text": "Aching pain",
+                                    "display-mr": "मंद सतत होणारी वेदना",
+                                    "display-hi": "मंद दर्द"
+                                },
+                                {
+                                    "id": "ID_04aac35f-9930-4dbe-aad8-7631323467eb",
+                                    "text": "Dont know",
+                                    "display-mr": "माहिती नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_7a406354-e5fd-420c-943e-fd07094c2827",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती गंभीर/तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_0573766e-cc50-4240-939c-10212feaa4d9",
+                                    "text": "Mild pain (1 to < 3)",
+                                    "display-mr": "कमी वेदना  (1 ते < 3)",
+                                    "display-hi": "हल्का दर्द (1 से < 3)"
+                                },
+                                {
+                                    "id": "ID_2b5b3dc0-9f70-4d75-888d-537e90630622",
+                                    "text": "Moderate pain (3 to < 5)",
+                                    "display-mr": "मध्यम वेदना (3 ते < 5)",
+                                    "display-hi": "मध्यम दर्द (3 से < 5)"
+                                },
+                                {
+                                    "id": "ID_3427f4f8-7365-4d12-917e-f199bb62424f",
+                                    "text": "Severe pain (5 to < 7)",
+                                    "display-mr": "तीव्र वेदना (5 ते < 7)",
+                                    "display-hi": "गंभीर दर्द (5 से < 7)"
+                                },
+                                {
+                                    "id": "ID_69aaf987-2f00-4c7c-acc2-dc87ce081faa",
+                                    "text": "Very severe pain (7 to < 9)",
+                                    "display-mr": "अति तीव्र वेदना (7 ते < 9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से < 9)"
+                                },
+                                {
+                                    "id": "ID_b9672456-1bd6-4cf5-b86a-8a01eaefee26",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "असह्य वेदना (9 ते 10)",
+                                    "display-hi": "सबसे बुरा दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_a713ebf3-02cb-491e-95b8-0650098e1c78",
+            "text": "Do you use any assisting devices?",
+            "display-mr": "तुम्ही मदतीसाठी काही उपकरणे वापरता का?",
+            "display-hi": "क्या आप किसी सहायक उपकरण का उपयोग करते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0bcee862-a80d-4869-89a3-35b1474fe661",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e8c992b6-c06e-4e15-83d9-86f57585e7b1",
+                    "text": "Stick",
+                    "display-mr": "काठी",
+                    "display-hi": "छड़ी"
+                },
+                {
+                    "id": "ID_2cdee93c-97dc-4bf5-8255-0aa92be69720",
+                    "text": "Walker",
+                    "display-mr": "वॉकर",
+                    "display-hi": "वॉकर"
+                },
+                {
+                    "id": "ID_641a5909-5e0c-4ba2-8dfb-979bd60e951b",
+                    "text": "Crutches",
+                    "display-mr": "क्रचेस",
+                    "display-hi": "बैसाखी"
+                },
+                {
+                    "id": "ID_01527787-f9d0-4270-843a-89852f905d3c",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_bc4d0822-b99c-4c6d-8360-527839903593",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_fff3df0c-21b9-46e4-8b15-157e919e95b7",
+                    "text": "Knee swelling",
+                    "display-mr": "गुडघ्याला सूज",
+                    "display-hi": "घुटने में सूजन"
+                },
+                {
+                    "id": "ID_61c705fe-7bad-49a0-b3d7-54e2f297ac1d",
+                    "text": "Ankle swelling",
+                    "display-mr": "पोटरीला सूज",
+                    "display-hi": "टखने में सूजन"
+                },
+                {
+                    "id": "ID_d72dfe6f-0183-4e56-9c27-ef41d9664892",
+                    "text": "Loss of sensation",
+                    "display-mr": "संवेदना कमी होणे",
+                    "display-hi": "संवेदना का खत्म होना"
+                },
+                {
+                    "id": "ID_fe228e2f-cb4e-4a21-bff8-35401d62f905",
+                    "text": "Leg ulcers",
+                    "display-mr": "पायाला अल्सर",
+                    "display-hi": "पैर के छाले"
+                },
+                {
+                    "id": "ID_64d25805-a6b5-4750-8ac9-8030a51f7b0b",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_a151c264-02cd-494b-bb4b-f6ee9bd49c89",
+                    "text": "Swelling of feet",
+                    "display-mr": "पायाला सूज",
+                    "display-hi": "पैरों में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_f2443251-ed4b-464e-9368-18a05cab3a9c",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6f888e3c-2ea0-43c9-86f3-c5f9ee3f2488",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5746e0ce-797e-486e-b48f-76e9407f6cfa",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_643386cf-ca3c-47b0-a936-219141e0f06d",
+                    "text": "Loss of balance",
+                    "display-mr": "संतुलन हरवणे",
+                    "display-hi": "संतुलन की कमी"
+                },
+                {
+                    "id": "ID_ca863698-9740-41e8-954f-61112533c54d",
+                    "text": "Palpitation",
+                    "display-mr": "धडधड",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_ecc859b4-034b-4f41-9d53-a396189f82a0",
+                    "text": "Tremor",
+                    "display-mr": "थरथर",
+                    "display-hi": "कंपकंपी"
+                },
+                {
+                    "id": "ID_20466924-1126-4b9e-8d55-8d5f4a31b125",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ दर्द"
+                },
+                {
+                    "id": "ID_f60d2bd9-a402-4d91-a0f8-64c824f18521",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "लिम्फ नोड्सना सूज",
+                    "display-hi": "सूजन लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_7b236f68-b487-40e5-becb-1f87f49ee191",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_9fd19288-e1db-4e68-91ab-e0a301fb6aba",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_66829200-1189-40ec-9032-9b56c4a50d49",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_ad177eab-b4f4-4130-b7bd-3daab5762084",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_aac72bdd-6fc0-47fe-a857-f083de1b142e",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7b0d36f6-3751-4a9a-93bb-31f2728888c7",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c84725f3-de36-4790-986e-2ed501adff65",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_c97e7335-1dd7-4bbb-88e9-0ccd56320954",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_fd770c2d-ec12-44fe-9acf-eba0687dca5e",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_45d3d817-a003-474f-95a6-bbb5c567fbf2",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

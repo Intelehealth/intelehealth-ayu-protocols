@@ -1,0 +1,718 @@
+{
+    "id": "ID_3f1e2177-03c4-48ab-82e8-a43b3197d674",
+    "text": "Joint swelling",
+    "engineVersion": "3.0",
+    "display-mr": "संधिवात",
+    "display-hi": "जोड़ों की सूजन",
+    "options": [
+        {
+            "id": "ID_cb547ba6-0957-4136-91a1-bfa4890478bc",
+            "text": "Since when have you had joint swelling?",
+            "display-mr": "तुम्हाला कधीपासून संधिवात कधीपासून आहे?",
+            "display-hi": "आपको जोड़ों में सूजन कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_025332e2-0fe0-4845-bafc-9703ff7b73aa",
+                    "text": "Since when have you had joint swelling?",
+                    "display-mr": "तुम्हाला कधीपासून संधिवात कधीपासून आहे?",
+                    "display-hi": "आपको जोड़ों में सूजन कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_ad564655-19e2-410b-bfba-7ba981cd7d58",
+            "text": "How fast did the joint swelling appear?",
+            "display-mr": "संधिवात किती वेगाने सुरु झाला?",
+            "display-hi": "जोड़ों में सूजन कितनी जल्दी बढ़ी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0c0510b5-6d76-498d-a73b-ff81c99bc76b",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_347cfb87-0e1b-473b-80f8-e97572750de7",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_eb12672e-491d-4682-bd84-bedb6adcf0dc",
+            "text": "Which joint do you have swelling?",
+            "display-mr": "तुमच्या कोणत्या सांध्यांना सूज आहे?",
+            "display-hi": "आपको किस जोड़ में सूजन है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_abeefd63-1ddd-4bc0-a3be-9d4a87c7d6d1",
+                    "text": "All joints",
+                    "display-mr": "सर्व सांधे",
+                    "display-hi": "सभी जोड़"
+                },
+                {
+                    "id": "ID_205d18e1-c02c-42aa-aa33-4c2eae0ff397",
+                    "text": "Jaw",
+                    "display-mr": "जबडा",
+                    "display-hi": "जबड़ा"
+                },
+                {
+                    "id": "ID_41f2a0fe-25de-48b0-bd0f-55f295618ff2",
+                    "text": "Shoulder joint",
+                    "display-mr": "खांद्याचा सांधा",
+                    "display-hi": "कंधे का जोड़"
+                },
+                {
+                    "id": "ID_c92d6ffb-6997-49c7-93fb-8784432a581c",
+                    "text": "Elbow joint",
+                    "display-mr": "कोपऱ्याचा सांधा",
+                    "display-hi": "कोहनी का जोड़"
+                },
+                {
+                    "id": "ID_e2e36834-b613-4874-a341-99954800e59c",
+                    "text": "Wrist joint",
+                    "display-mr": "मनगटाचा सांधा",
+                    "display-hi": "कलाई का जोड़"
+                },
+                {
+                    "id": "ID_becb67b7-2b4f-4d15-bc15-3daf7c90c759",
+                    "text": "Hand joints",
+                    "display-mr": "हाताचा सांधा",
+                    "display-hi": "हाथ के जोड़"
+                },
+                {
+                    "id": "ID_4bad749c-bc5f-4730-b87e-9665f37443b4",
+                    "text": "Finger joints",
+                    "display-mr": "बोटाचा सांधा",
+                    "display-hi": "उंगलियों के जोड़"
+                },
+                {
+                    "id": "ID_3f97ec21-8b22-480f-baaf-a3cd42a15cbb",
+                    "text": "Hip joint",
+                    "display-mr": "हिपचा सांधा",
+                    "display-hi": "कूल्हे का जोड़"
+                },
+                {
+                    "id": "ID_5ee385e9-dfa8-4701-923c-31139add3d29",
+                    "text": "Knee joint",
+                    "display-mr": "गुडघ्याचा सांधा",
+                    "display-hi": "घुटने का जोड़"
+                },
+                {
+                    "id": "ID_115d5cb6-aad8-419f-882a-5c675d798acd",
+                    "text": "Ankle joint",
+                    "display-mr": "घोट्याचा सांधा",
+                    "display-hi": "टखने का जोड़"
+                },
+                {
+                    "id": "ID_9edc9327-0def-4309-bc95-9bc2cb18f22b",
+                    "text": "Foot joints",
+                    "display-mr": "पावलाचा सांधा",
+                    "display-hi": "पैर के जोड़"
+                },
+                {
+                    "id": "ID_ff39e610-35f8-4593-98cc-eab535f30d2e",
+                    "text": "Toe joints",
+                    "display-mr": "टाचेचा सांधा",
+                    "display-hi": "पैर की उंगलियों के जोड़"
+                },
+                {
+                    "id": "ID_8c80a4f5-c8c4-4772-bdd7-7c089e85828c",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_200cc486-a022-4c0a-a02c-0ff89d188232",
+            "text": "Which side joint do you have swelling?",
+            "display-mr": "तुमच्या कोणत्या बाजूच्या सांध्याला सूज आहे?",
+            "display-hi": "आपको किस तरफ के जोड़ में सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e6ba139d-9609-4d82-b50f-f4ca1411407d",
+                    "text": "Left",
+                    "display-mr": "डावी",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_af83d360-3272-4783-9ba7-bd276fea469b",
+                    "text": "Right",
+                    "display-mr": "उजवी",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_08e79488-64ab-4890-8bcf-23cb5daebddc",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजू",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_0fb6ed97-7ff5-4b18-b7ca-8ab231eb949c",
+            "text": "Do you have any of the prior history?",
+            "display-mr": "तुम्हाला आधीचा काही पूर्वइतिहास आहे का?",
+            "display-hi": "क्या आपको पहले से कोई बीमारी है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_79c02917-2cfe-4494-8295-d25b70f293f2",
+                    "text": "None",
+                    "display-mr": "कोणतीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_21a782b4-edfa-4aea-a3d9-3f21bbf7b85a",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_7490d1a1-0787-45de-a439-c3d6d2c9bfe0",
+                    "text": "Sprain",
+                    "display-mr": "लचक येणे",
+                    "display-hi": "मोच"
+                },
+                {
+                    "id": "ID_a684895b-0f69-4535-9b24-ff90b5e9e154",
+                    "text": "Insect bite",
+                    "display-mr": "कीटक चावणे",
+                    "display-hi": "कीड़े का काटना"
+                },
+                {
+                    "id": "ID_125a7472-adc5-4de9-8a22-27debc1312c3",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_94c92afe-b007-4f84-a200-3f4aaf725908",
+            "text": "Do you have any of the local associated features with joint swelling?",
+            "display-mr": "संधिवाताबरोबरच तुम्हाला त्याच्याशी संबंधित आणखी काही त्रास आहे का?",
+            "display-hi": "क्या आपको जोड़ों में सूजन के साथ जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_79c32379-cd1d-418d-968c-3d9af326ee0a",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_238984b8-ab95-4a85-a47d-7853a1650e12",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श केल्यास वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_7955f2fa-6033-4d30-89d4-75b85a15e0d6",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_4b37ae90-dd32-42af-8ce7-ec354a41c851",
+                    "text": "Warmth",
+                    "display-mr": "उष्णता",
+                    "display-hi": "गर्माहट"
+                },
+                {
+                    "id": "ID_1170fe60-d1f8-4452-9629-0a477b9d552b",
+                    "text": "Clicking sounds",
+                    "display-mr": "कटकट आवाज होणे",
+                    "display-hi": "क्लिक जैसी आवाज"
+                },
+                {
+                    "id": "ID_c2c19c97-2072-4955-9eda-e9a01ad8ee05",
+                    "text": "Difficulty in movements",
+                    "display-mr": "हालचाल करण्यात त्रास",
+                    "display-hi": "चलने में दिक्कत"
+                },
+                {
+                    "id": "ID_2ccfa8ce-d190-4d94-adfa-2db70a941700",
+                    "text": "Stiffness",
+                    "display-mr": "ताठरपणा",
+                    "display-hi": "कठोरता"
+                },
+                {
+                    "id": "ID_98348562-0abc-4892-bdec-90a3cebf9833",
+                    "text": "Deformity",
+                    "display-mr": "व्यंग",
+                    "display-hi": "विकृति"
+                },
+                {
+                    "id": "ID_4fc8777d-42a1-4080-8528-3ae3465d393c",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a56f376b-4058-46d7-a362-a54944334c55",
+            "text": "Do you have pain associated with the joint swelling?",
+            "display-mr": "संधिवात/ सांधे सुजण्याबरोबरच तुम्हाला वेदनाही होतात का?",
+            "display-hi": "क्या आपको जोड़ों में सूजन के साथ दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e36a3a03-2d69-46af-941b-43ba4e611a1f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_7735b8c7-26b0-4a6a-aa2b-5267c07a11e6",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_b21f996d-61dc-4772-8ddd-0fe6d2a8c9bf",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र / गंभीर आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_9e3b684a-6b63-4517-87f2-a53b8785dee5",
+                                    "text": "Mild pain (1 to less than 3)",
+                                    "display-mr": "कमी वेदना (1 ते less than 3)",
+                                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                                },
+                                {
+                                    "id": "ID_0fdbc6ff-a9c8-44d7-8eb6-02850adc0ee4",
+                                    "text": "Moderate pain (3 to less than 5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                                },
+                                {
+                                    "id": "ID_51411730-175e-4d1e-8682-fc22a4d32eea",
+                                    "text": "Severe pain (5 to less than 7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than 7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                                },
+                                {
+                                    "id": "ID_84eeb742-52dd-492a-a3b8-7c03f2fbe98e",
+                                    "text": "Very severe pain (7 to less than 9)",
+                                    "display-mr": "अति तीव्र वेदना (7 ते less than 9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than 9)"
+                                },
+                                {
+                                    "id": "ID_519d7b01-1327-4822-8465-f6b3222bad13",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "असह्य वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_8f792023-a04f-4f8b-be19-eb67ed07959f",
+            "text": "How is the joint swelling progressing?",
+            "display-mr": "संधिवाताची स्थिती आता कशी आहे?",
+            "display-hi": "जोड़ों में सूजन में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f95da1f2-531d-4a2a-99ad-e66c89e51ec3",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_45052e5a-d0b2-48f8-ae3f-f1f7875d5741",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_f853ddd1-d8b1-4b6e-b249-f55f6dc5b06a",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_1bdcd5a0-4da8-4c72-8157-8878ccac3fa7",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_c4d553ff-8d31-4689-b021-db51fed4572c",
+            "text": "What does relieve the joint swelling?",
+            "display-mr": "संधिवात/ सांधे सुजण्याला कशामुळे आराम मिळतो?",
+            "display-hi": "जोड़ों की सूजन से राहत किससे मिलती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f38cf34d-de98-4a8a-a1d6-46e1e16e9ff1",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3a1e11f5-5936-4bbb-9947-616450a76471",
+                    "text": "Rest",
+                    "display-mr": "आराम/विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_74b16b72-32f5-4f10-a45e-89b4c97fd0c4",
+                    "text": "Hot compress",
+                    "display-mr": "गरम पाण्याच्या पिशवीने शेकल्यावर",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_9624f086-0277-4295-8395-206ef6736ba2",
+                    "text": "Cold compress",
+                    "display-mr": "बर्फाने शेकल्यावर",
+                    "display-hi": "ठंडा सेंक"
+                },
+                {
+                    "id": "ID_82040625-c369-4f94-b1fc-b33831925f65",
+                    "text": "Elevation",
+                    "display-mr": "सदर गोष्ट उंचावर ठेवल्यावर",
+                    "display-hi": "ऊंचाई"
+                },
+                {
+                    "id": "ID_16b63eef-8fa3-4ff2-8203-260eac42130e",
+                    "text": "Standing",
+                    "display-mr": "उभे राहिल्याने",
+                    "display-hi": "खड़े होना"
+                },
+                {
+                    "id": "ID_ee3eef3f-d1b9-4899-b405-29979a105ce2",
+                    "text": "Lying down",
+                    "display-mr": "झोपल्याने",
+                    "display-hi": "नीचे लेटना"
+                },
+                {
+                    "id": "ID_812ba59d-2751-49bb-90da-b29c21861a92",
+                    "text": "Certain medication",
+                    "display-mr": "काही विशिष्ट औषधांमुळे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_72189557-ed6a-41e0-bfe4-48a05688ffb1",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_dfc78ac0-2752-4f3e-8011-c037279ea884",
+            "text": "What does trigger or worsen the joint swelling?",
+            "display-mr": "संधिवात / सांध्यांची सूज कशामुळे वाढते किंवा असह्य होते?",
+            "display-hi": "जोड़ों की सूजन को क्या ट्रिगर या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_852c5ecd-b2c7-4706-aec9-cccf7e7b9e2b",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_7088b7d1-7012-43bc-9d53-0a573a897b32",
+                    "text": "Rest",
+                    "display-mr": "आराम/विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_34210d55-6eb7-4b82-81a8-fa1fbc065334",
+                    "text": "Physical activity",
+                    "display-mr": "शारीरिक हालचाल",
+                    "display-hi": "शारीरिक गतिविधि"
+                },
+                {
+                    "id": "ID_ead6dfee-32f6-4a9f-8463-0dd0bd3cafd9",
+                    "text": "Cold exposure",
+                    "display-mr": "थंड वातावरणाशी संपर्क आल्यास",
+                    "display-hi": "ठंड के संपर्क में आना"
+                },
+                {
+                    "id": "ID_2fe54397-f2f5-4330-801d-e9d5cdf7d19f",
+                    "text": "Heat exposure",
+                    "display-mr": "उष्ण वातावरणाशी संपर्क आल्यास",
+                    "display-hi": "गर्मी के संपर्क में आना"
+                },
+                {
+                    "id": "ID_4bf8ba24-7b2d-4132-a96e-3f637e86e94b",
+                    "text": "Certain medication",
+                    "display-mr": "काही विशिष्ट औषधांमुळे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_c2adeb14-810c-465d-bdf2-7ae666af920a",
+                    "text": "Standing",
+                    "display-mr": "उभे राहिल्याने",
+                    "display-hi": "खड़े रहना"
+                },
+                {
+                    "id": "ID_dcc3e944-c04b-4bf3-8d86-d963cf5517dc",
+                    "text": "Certain medication",
+                    "display-mr": "काही विशिष्ट औषधांमुळे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_29791705-e245-413e-8e74-008808d2b9b0",
+                    "text": "Walking",
+                    "display-mr": "चालणे",
+                    "display-hi": "चलना"
+                },
+                {
+                    "id": "ID_59f9952d-b1e2-4a2e-bbf9-55c1710bcffa",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_62fc7dd1-6c45-4e48-8ecf-bec6069ecc32",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_9a3418a4-e9d3-4b88-9bcb-1cb02b0d53e0",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ दर्द"
+                },
+                {
+                    "id": "ID_768c9e04-430a-4bee-9a6e-eb3a1d893ea0",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_45e248cf-030f-48f3-9258-8573a4113148",
+                    "text": "Limping",
+                    "display-mr": "लंगडणे",
+                    "display-hi": "लंगड़ाना"
+                },
+                {
+                    "id": "ID_6a417aac-1eb7-4267-929f-90e29bb8bfb2",
+                    "text": "Difficulty walking",
+                    "display-mr": "चालताना त्रास होणे",
+                    "display-hi": "चलने में परेशानी"
+                },
+                {
+                    "id": "ID_cf8cb855-7239-4530-952a-dc1120b47a43",
+                    "text": "Neck pain",
+                    "display-mr": "मानदुखी",
+                    "display-hi": "गर्दन में दर्द"
+                },
+                {
+                    "id": "ID_790fe1ef-88f6-45fa-a7e3-870e2566f471",
+                    "text": "Blurred vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_4f0ddb3e-f57a-44f7-a142-d5b6858202bc",
+                    "text": "Muscle stiffness",
+                    "display-mr": "स्नायूंची ताठरता",
+                    "display-hi": "मांसपेशियों में अकड़न"
+                },
+                {
+                    "id": "ID_418c452a-2460-4dfd-b1c3-c631fc1c6b51",
+                    "text": "Scaly skin",
+                    "display-mr": "त्वचेवर खवले/ खपल्या",
+                    "display-hi": "त्वचा पर पपड़ी"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_15cea266-1116-4bfd-9537-8e61d477d0bd",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_c8d395d0-1a4a-4d6d-af78-29f699461124",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_4a101db5-a1e5-432c-9c24-d911d84083a8",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_06327dbb-91fa-4273-bc8d-f7db22246327",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_778ac92e-de18-4d8c-afc9-dbabab084684",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_60f77be6-8005-4b7d-b66d-600bdb46a488",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_710c8964-d0cf-412d-a0c7-d6c7e0fb5824",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_6b1b2b03-c15d-47d1-b07f-004dfef79eef",
+                    "text": "Swelling of face",
+                    "display-mr": "चेहऱ्यावर सूज येणे",
+                    "display-hi": "चेहरे पर सूजन"
+                },
+                {
+                    "id": "ID_5385a18a-6ec5-4f1d-98ec-d4a01f3e9b2c",
+                    "text": "Swelling of feet",
+                    "display-mr": "पावलांवर सूज येणे",
+                    "display-hi": "पैरों पर सूजन"
+                },
+                {
+                    "id": "ID_2eeea56e-57a0-4f03-8795-406f52d264dc",
+                    "text": "Breathing difficulty",
+                    "display-mr": "श्वास घेण्यात त्रास होणे",
+                    "display-hi": "सांस लेने में तकलीफ"
+                },
+                {
+                    "id": "ID_07bbf6d3-8f82-4482-a62a-68de2f95daa4",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_26d37af0-6d9d-4997-af85-f311f4f88c5c",
+                    "text": "Palpitations",
+                    "display-mr": "धडधड",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_0c2cddfb-fb25-490b-9164-36520b393dbf",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_ac8ee278-a320-4c73-8f54-543f30117657",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_264e3c43-7023-4928-a486-15fb9f7956ab",
+                    "text": "Red eyes",
+                    "display-mr": "डोळे लाल होणे",
+                    "display-hi": "आंखें लाल होना"
+                },
+                {
+                    "id": "ID_19b13228-b165-4afb-b01f-11c6183d7ed0",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_3bb57edd-14fb-4be2-aaf9-0f280450bac5",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_50c69fb3-8021-4e78-b80f-77f3affdc9e0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_032b1468-c27f-4d4d-8038-b088bb531c51",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_312e39a7-97b7-4d3a-a2a7-cc435a8dd3c4",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_93a8ffe3-c8bc-4448-8266-a9551b56efcb",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a22c81c6-c8dc-4f60-aefd-eb26464bafdc",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
