@@ -1,0 +1,493 @@
+{
+    "id": "ID_09b8e8b1-c27f-417b-a553-0012540af03a",
+    "text": "Red eye",
+    "engineVersion": "3.0",
+    "display-mr": "लाल डोळा",
+    "display-hi": "आंखों का लाल होना",
+    "options": [
+        {
+            "id": "ID_cc662bc0-8d6f-446d-9988-aba043050304",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_15991ab1-1263-4cef-a425-afca0d222cf2",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_4ae02309-54d7-4bcf-ae71-eb22cb738aac",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4cbe9244-1c43-4b3b-9f7a-adf7d55e920c",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_c1f08522-2a86-4e48-beda-995c0f9e85b1",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_7689c7e6-3f50-414b-935e-86cd00e496db",
+            "text": "Which side of eye do you have redness?",
+            "display-mr": "डोळ्याच्या कोणत्या बाजूला लालसरपणा आहे?",
+            "display-hi": "आपकी आंख के किस तरफ लाली है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c78f2aae-e319-42a4-b2d7-b3e24d8058f0",
+                    "text": "Left eye",
+                    "display-mr": "डावा डोळा",
+                    "display-hi": "बाईं"
+                },
+                {
+                    "id": "ID_95840b5f-7e4b-4a92-86a0-725782d4e2db",
+                    "text": "Right eye",
+                    "display-mr": "उजवा डोळा",
+                    "display-hi": "दाईं"
+                },
+                {
+                    "id": "ID_a34b997a-c84c-4cfc-a080-5a51c9150566",
+                    "text": "Both eyes",
+                    "display-mr": "दोन्ही डोळे",
+                    "display-hi": "दोनों ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_257f38c3-3966-40f5-ab12-abb2c76e8422",
+            "text": "Which part of the eyes do you have redness?",
+            "display-mr": "डोळ्याच्या कोणत्या भागाला लालसरपणा आहे?",
+            "display-hi": "आपकी आंखों का कौन-सा हिस्सा लाल हुआ  है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c8772ef8-039e-4d7d-824c-ed6612da72c6",
+                    "text": "Outer side",
+                    "display-mr": "बाहेरील बाजू",
+                    "display-hi": "बाहरी हिस्सा"
+                },
+                {
+                    "id": "ID_9d43a48e-e9a5-4f03-bd6e-2580ce37886b",
+                    "text": "Innner side",
+                    "display-mr": "आतील बाजू",
+                    "display-hi": "भीतरी हिस्सा"
+                },
+                {
+                    "id": "ID_e29298c0-bf62-419d-be1b-41c04e597cbe",
+                    "text": "Entire eye",
+                    "display-mr": "संपूर्ण डोळा",
+                    "display-hi": "पूरी आंख"
+                }
+            ]
+        },
+        {
+            "id": "ID_29db26c8-cf70-4202-a0c3-0c3686a8474f",
+            "text": "Do you have any of the local associated features along with the Red eyes?",
+            "display-mr": "तुमच्याकडे लाल डोळ्यांसह स्थानिक संबंधित वैशिष्ट्ये आहेत का?",
+            "display-hi": "लाल आंखों के साथ निम्नलिखित लक्षणों में से कोई और लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_70f0a65b-cfaf-43a8-a9f3-eb34a52bfc65",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_234585c9-4dda-4b9d-b4f7-ef48b5ddbead",
+                    "text": "Itching",
+                    "display-mr": "खाज सुटणे",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_960d5615-b42a-4f41-a1da-2e864dcd385a",
+                    "text": "Scratchy sensation",
+                    "display-mr": "खाज आल्यासारखी वाटणे",
+                    "display-hi": "खरोंच जैसा महसूस होना"
+                },
+                {
+                    "id": "ID_d00cd0e9-2f36-4067-872f-0eaa5cd9fc77",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_9f814154-0fe5-4da1-a776-3ee6cf93a9c5",
+                    "text": "Watery discharge",
+                    "display-mr": "पाण्याचा स्त्राव",
+                    "display-hi": "पानी जैसा बहाव"
+                },
+                {
+                    "id": "ID_2de6086d-629f-41ea-88c9-1968eedc4011",
+                    "text": "Purulent discharge",
+                    "display-mr": "पुवाळलेला स्त्राव",
+                    "display-hi": "मवाद/पस जैसा बहाव"
+                },
+                {
+                    "id": "ID_1221a8af-a951-4460-8492-8da8c0d01dee",
+                    "text": "Change in vision",
+                    "display-mr": "दृष्टीमध्ये बदल",
+                    "display-hi": "दृष्टि में बदलाव"
+                }
+            ]
+        },
+        {
+            "id": "ID_61e714df-6555-4234-97a4-d60795edc369",
+            "text": "What decreases the redness of eyes?",
+            "display-mr": "डोळ्यांचा लालसरपणा कशामुळे कमी होतो?",
+            "display-hi": "आंखों की लालिमा किससे कम होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_22255943-7475-4eb6-a0a6-abce1cd3a00e",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b2c796c9-8077-4e08-ae9e-e16cf0db39c5",
+                    "text": "Resting the eyes",
+                    "display-mr": "डोळ्यांना विश्रांती",
+                    "display-hi": "आंखों को आराम देने से"
+                },
+                {
+                    "id": "ID_67a2d314-15e9-4d71-a368-742f6585ba49",
+                    "text": "Cold compresses",
+                    "display-mr": "कोल्ड कॉम्प्रेसेस",
+                    "display-hi": "ठंडी पट्टी"
+                },
+                {
+                    "id": "ID_cbede0af-6d8d-4aed-9f6a-185974d9d40d",
+                    "text": "Eye drops",
+                    "display-mr": "डोळयांचे औषध",
+                    "display-hi": "आई ड्रॉप्स"
+                }
+            ]
+        },
+        {
+            "id": "ID_d77446fb-2b23-47c9-925a-e920082dd492",
+            "text": "What worsens the redness of eyes?",
+            "display-mr": "डोळ्यांची लालसरता कशामुळे वाढते?",
+            "display-hi": "आंखों की लालिमा को क्या बढ़ाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_13c20db0-525f-49ed-be6c-87993ea68f91",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_471e5f7e-e56c-47e0-a5d6-0999484ca359",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_5d2e7be9-e597-4c0a-9d2b-b5cd49dfa2db",
+                    "text": "Wind",
+                    "display-mr": "वारा",
+                    "display-hi": "हवा"
+                },
+                {
+                    "id": "ID_b0081079-a43c-46cf-8394-ba0865c6ca22",
+                    "text": "Smoke",
+                    "display-mr": "धुम्रपान",
+                    "display-hi": "धुआं"
+                },
+                {
+                    "id": "ID_30a79b6c-6dc1-4ba9-b190-bbf040384468",
+                    "text": "Dust",
+                    "display-mr": "धूळ",
+                    "display-hi": "धूल"
+                },
+                {
+                    "id": "ID_d96f9415-bea2-402d-95ac-63aff897d7b7",
+                    "text": "Eye rubbing",
+                    "display-mr": "डोळा चोळणे",
+                    "display-hi": "आंखों को मसलना"
+                },
+                {
+                    "id": "ID_e27f004d-4bfd-4aba-8262-40a80ddb5b2e",
+                    "text": "Certain allergens",
+                    "display-mr": "काही ऍलर्जी",
+                    "display-hi": "कुछ खास एलर्जी उत्पन्न करने वाले पदार्थ"
+                }
+            ]
+        },
+        {
+            "id": "ID_d3d217e9-26e1-4a32-8d70-79f4ae1137f7",
+            "text": "Is there a specific time when the redness worsens?",
+            "display-mr": "कोणत्या विशिष्ट्य वेळी लालसरपणा अधिक होतो?",
+            "display-hi": "क्या कोई खास समय है जब आंखों की लालिमा बढ़ जाती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4a9603c6-5ad3-415e-b69d-197f75a4d41b",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5eac2d90-05d8-4d34-a021-2f369a77534c",
+                    "text": "Morning",
+                    "display-mr": "सकाळ",
+                    "display-hi": "सुबह"
+                },
+                {
+                    "id": "ID_775da0fa-3174-403f-913b-a5fd09095090",
+                    "text": "Evening",
+                    "display-mr": "संध्याकाळ",
+                    "display-hi": "शाम"
+                },
+                {
+                    "id": "ID_ba0b8aac-40d5-44ce-a70c-7af5fcdbddb7",
+                    "text": "After exposure to allergens",
+                    "display-mr": "ऍलर्जीनच्या संपर्कात आल्यानंतर",
+                    "display-hi": "एलर्जी उत्पन्न करने वाले तत्वों के संपर्क में आने के बाद"
+                }
+            ]
+        },
+        {
+            "id": "ID_cae6330d-f13d-4563-8a36-74bcecb941dd",
+            "text": "How is the redness of eyes progressing?",
+            "display-mr": "डोळ्यांच्या लालसारपणा मध्ये काही बदल?",
+            "display-hi": "आंखों की लालिमा में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_30d1554d-35c4-4b0e-a2e5-6e8dbe5e256d",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_88fd170e-1893-45e6-9d12-b92cf88692b8",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_bdc956a1-0ee7-4234-8811-f04e6474311b",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होत आहे",
+                    "display-hi": "बार-बार"
+                },
+                {
+                    "id": "ID_8c7b6135-6879-4b01-8447-d44ca8b3afad",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_8f9595fe-2b5f-46be-96b9-a91a991081fc",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपमें निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_92191224-bfc6-41e4-b147-79457bc1f30b",
+                    "text": "Photophobia",
+                    "display-mr": "फोटोफोबिया (प्रकाश सहन न होणे)",
+                    "display-hi": "रोशनी में तकलीफ"
+                },
+                {
+                    "id": "ID_803fee19-d98e-478a-8787-1af4dcc897de",
+                    "text": "Foreign body in eye",
+                    "display-mr": "बाहेरील गोष्ट डोळ्यात जाणे",
+                    "display-hi": "आंख में कचरा या कुछ अटका हुआ"
+                },
+                {
+                    "id": "ID_692ccf62-95c6-4cff-b5bd-c480a2d0b992",
+                    "text": "Blurring of vision",
+                    "display-mr": "दृष्टीची अस्पष्टता",
+                    "display-hi": "दृष्टि का धुंधला होना"
+                },
+                {
+                    "id": "ID_18e960d1-449b-4746-a0a3-46137329a624",
+                    "text": "Eye lid swelling",
+                    "display-mr": "पापण्यांची सूज",
+                    "display-hi": "आंख की पलक में सूजन"
+                },
+                {
+                    "id": "ID_5110202a-8f9f-4954-bfc6-9a7b56aeee74",
+                    "text": "Runny nose",
+                    "display-mr": "वाहणारे नाक",
+                    "display-hi": "बहती नाक"
+                },
+                {
+                    "id": "ID_dc74fed5-4578-4db0-a999-cf1765abc6d2",
+                    "text": "Excessive sneezing",
+                    "display-mr": "अत्यधिक शिंकणे",
+                    "display-hi": "ज्यादा छींकें आना"
+                },
+                {
+                    "id": "ID_bb9422d4-7271-4b64-bd74-6a81cd991955",
+                    "text": "History of eye injury",
+                    "display-mr": "दुखापतीचा इतिहास",
+                    "display-hi": "आंख में चोट का इतिहास"
+                },
+                {
+                    "id": "ID_b2b6ec98-0f0e-4d81-9421-668157690e60",
+                    "text": "History of wearing contact lens",
+                    "display-mr": "कॉन्टॅक्ट लेन्स घालण्याचा इतिहास",
+                    "display-hi": "कॉन्टैक्ट लेंस पहनने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_85b1095d-be22-4f8a-ad0c-dcca0cf04f45",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d9c39bf0-1679-4c18-a7b7-ff2453e679ce",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c1d9be46-e6b8-4a1f-b806-db4a1dcb9bc6",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_ef050752-e1ef-4f25-8c22-759ed4edcd0e",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "उल्टी जैसा लगना"
+                },
+                {
+                    "id": "ID_7ab716e7-2cea-4ecd-a673-5c1ecb362c41",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_d6eb3a1f-7042-4011-973f-17c095d8bc06",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_4622eb50-677f-47a1-bb70-be0d199f6f76",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_ffb548e1-4c16-473c-b314-6c0fe0ef7c7d",
+                    "text": "Sore throat",
+                    "display-mr": "घसा खवखवणे",
+                    "display-hi": "गले में खराश"
+                },
+                {
+                    "id": "ID_e1c473eb-e431-4cb3-8d36-e1c929d6a221",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_0f338728-7ff5-4b73-a421-9aa9509b8c3b",
+                    "text": "Body pain",
+                    "display-mr": "शरीरात वेदना",
+                    "display-hi": "शरीर में दर्द"
+                },
+                {
+                    "id": "ID_d5212eb5-4d0b-409b-ae62-f0f0ad92d529",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_669b2535-2bf8-49f4-89b2-c9537499ed4c",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d2b26f11-f002-4808-b535-262d44967f83",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d9d7a4e3-fedf-4fb1-b73c-bced17a9cfe8",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_c6d571d4-ac77-4e07-b012-7290654a69ca",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_502543ec-234d-45b4-9613-6c545370114b",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6bea9535-8cae-49a1-94f9-fba9389d696d",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

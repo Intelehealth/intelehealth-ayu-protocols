@@ -1,0 +1,526 @@
+{
+    "id": "ID_c7bee8f9-f623-49b6-ab62-6ea8ac5b217a",
+    "text": "Umbilical discharge",
+    "engineVersion": "3.0",
+    "display-mr": "नाभीसंबधीचा स्त्राव (अम्बिलिकल डिस्चार्ज)",
+    "display-hi": "नाभि स्राव",
+    "options": [
+        {
+            "id": "ID_4b4f93bb-cde2-46f3-a962-dbbf793e55a0",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_717838ed-4010-453a-8d88-40fc34d86201",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_5476efb3-cb32-4a4a-8656-af981f8f4d3e",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती लवकर विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_956a0247-9d96-4663-a7f7-06b8445e5048",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_a8c1f4ec-b281-4b2f-b473-0586052e0a6f",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_2321b9bd-9132-4cc5-8d62-7c2803b7ec9a",
+            "text": "What is the colour of umbilical discharge?",
+            "display-mr": "नाळेतील स्त्रावाचा रंग कोणता आहे?",
+            "display-hi": "नाभि रिसाव का रंग कैसा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1a4e6704-c089-4613-a00b-bbfda690408c",
+                    "text": "Clear",
+                    "display-mr": "साफ",
+                    "display-hi": "साफ"
+                },
+                {
+                    "id": "ID_76115153-a030-425e-be4e-5995895e1f69",
+                    "text": "White",
+                    "display-mr": "पांढरा",
+                    "display-hi": "सफेद"
+                },
+                {
+                    "id": "ID_b9469731-6def-4468-8a18-2d036631371f",
+                    "text": "Yellow",
+                    "display-mr": "पिवळा",
+                    "display-hi": "पीला"
+                },
+                {
+                    "id": "ID_529d8f2d-d418-4c43-94d8-43a561ce56ff",
+                    "text": "Green",
+                    "display-mr": "हिरवा",
+                    "display-hi": "हरा"
+                },
+                {
+                    "id": "ID_6c10c19b-4fb5-4260-beb4-a53e3db21509",
+                    "text": "Bloody",
+                    "display-mr": "रक्तबंबाळ",
+                    "display-hi": "खूनी"
+                },
+                {
+                    "id": "ID_1744a784-cb8b-4b7a-bc23-a2201bdc83f3",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_b7483f20-ac99-4a39-b81a-73e38c3fabc8",
+            "text": "What is the consistency of umbilical discharge?",
+            "display-mr": "नाळे तील  स्त्राव कसा आहे?",
+            "display-hi": "नाभि के रिसाव का गाढ़ापन कैसा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_25bae4ca-0423-4060-bfa6-874856b6c72f",
+                    "text": "Watery",
+                    "display-mr": "पाण्यासारखे",
+                    "display-hi": "पानी जैसा"
+                },
+                {
+                    "id": "ID_0be29db7-d713-44b3-bd59-ee80e559f342",
+                    "text": "Thick",
+                    "display-mr": "घट्ट",
+                    "display-hi": "गाढ़ा"
+                },
+                {
+                    "id": "ID_3d334347-9e24-4372-b513-b44316449fad",
+                    "text": "Sticky",
+                    "display-mr": "चिकट",
+                    "display-hi": "चिपचिपा"
+                },
+                {
+                    "id": "ID_3fd3858d-989b-4615-a024-78891071cb22",
+                    "text": "Clots",
+                    "display-mr": "गुठळ्यायुक्त",
+                    "display-hi": "थक्के"
+                },
+                {
+                    "id": "ID_5127525b-45f0-42db-8c1b-3915a8c1b2c2",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_fa6c6a7c-1403-459c-a7ec-6196f236f383",
+            "text": "Does the umbilical discharge have any smell?",
+            "display-mr": "नाळेच्या स्त्रावाला काही वास येतो का?",
+            "display-hi": "क्या नाभि के रिसाव में कोई गंध है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a92ab529-bd8a-4cba-a7b4-c0f72d7839b4",
+                    "text": "No smell",
+                    "display-mr": "वास नाही",
+                    "display-hi": "कोई गंध नहीं"
+                },
+                {
+                    "id": "ID_a831fe17-6617-4815-931c-ae4e509b0692",
+                    "text": "Smell of urine",
+                    "display-mr": "लघवीचा वास",
+                    "display-hi": "पेशाब की गंध"
+                },
+                {
+                    "id": "ID_63c819ad-75ea-49c6-899d-5f7995115b44",
+                    "text": "Foul smell",
+                    "display-mr": "उग्र वास",
+                    "display-hi": "खराब गंध"
+                },
+                {
+                    "id": "ID_cc241b94-c362-431d-b795-5d2233300a99",
+                    "text": "Fishy smell",
+                    "display-mr": "माशांचा वास",
+                    "display-hi": "मछली जैसी गंध"
+                },
+                {
+                    "id": "ID_5aae2996-23aa-4f9c-b789-ad6ce0c7ab0b",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_707d3901-2b6c-4b0a-9b8a-b758ccbb758a",
+            "text": "What is the quantity of the discharge?",
+            "display-mr": "स्त्रावाचे प्रमाण किती आहे?",
+            "display-hi": "रिसाव या निकलने वाले तरल की मात्रा कितनी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9a30fd76-03df-4a40-89e0-7a3a8046fe6b",
+                    "text": "Scanty",
+                    "display-mr": "कमी प्रमाणात",
+                    "display-hi": "थोड़ा"
+                },
+                {
+                    "id": "ID_f8164436-21db-4684-a6c9-a85938ccfbc6",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_79482589-f9ca-4cfa-b283-b9fd5406266d",
+                    "text": "Large",
+                    "display-mr": "जास्त प्रमाणात",
+                    "display-hi": "बड़ा"
+                },
+                {
+                    "id": "ID_e5b42e60-2f3c-40fe-8ed4-f94d6f67c30b",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_454ef8a0-ad8b-4f66-9fc9-9423eaf06296",
+            "text": "Do you have any of the prior associated history?",
+            "display-mr": "तुमच्याकडे पूर्वीचा कोणताही संबंधित इतिहास आहे का?",
+            "display-hi": "क्या आपका कोई पिछला इतिहास है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1b3f336e-2501-4f87-a950-1ed88f1bcd11",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5ae89bc0-ae1c-4ce8-aad8-ead7e354a9cc",
+                    "text": "Abdominal surgery",
+                    "display-mr": "ओटीपोटात शस्त्रक्रिया",
+                    "display-hi": "पेट की सर्जरी"
+                },
+                {
+                    "id": "ID_30daf143-66de-4183-8f86-8e5b75df5b46",
+                    "text": "Injury to umbilicus",
+                    "display-mr": "नाभीसंबधीची जखम",
+                    "display-hi": "नाभि में चोट"
+                },
+                {
+                    "id": "ID_b8b0be1e-480a-414b-9e64-9b61a5f5526c",
+                    "text": "Foreign body",
+                    "display-mr": "बाह्य घटक",
+                    "display-hi": "बाहरी वस्तु"
+                },
+                {
+                    "id": "ID_64e5785a-9c1a-4d13-84d9-e96ffd694e53",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_37140bae-024f-4320-a59f-df09876c607c",
+            "text": "Do you have any of local associated features associated with umbilical dicharge?",
+            "display-mr": "तुमच्याकडे नाळेच्या स्त्रावाशी संबंधित कोणतीही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको नाभि से रिसाव से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_5a4860cc-bf46-43ed-a218-b36b7dd69302",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_97fdc487-334d-43a7-bf91-4a2effaf3ec4",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_86784cfb-56a2-4aef-a806-0474801ff2ca",
+                    "text": "Swelling (lump)",
+                    "display-mr": "सूज (गाठ)",
+                    "display-hi": "सूजन (गांठ)"
+                },
+                {
+                    "id": "ID_3b628aec-f7f8-42bd-86b1-d5333f2f02b0",
+                    "text": "Ulceration",
+                    "display-mr": "व्रण",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_ab68fd51-0e73-4bc6-b733-4b6a16280f4f",
+                    "text": "Crusting",
+                    "display-mr": "पापुद्रा (क्रस्टिंग)",
+                    "display-hi": "पपड़ी बनना"
+                },
+                {
+                    "id": "ID_7b647e07-fa68-4a27-896f-cb3b0b01f286",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_4464e1d4-13c8-48b8-8ea4-77a51d63fff9",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_387646a6-3d4f-41b7-b158-36a7e62e0637",
+            "text": "How is umbilical discharge progressing?",
+            "display-mr": "नाळेचा स्त्राव कसा आहे?",
+            "display-hi": "नाभि का रिसाव कैसे बढ़ रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5eb36322-c9da-4268-9020-dbf09c0b390c",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_2ede8c75-3999-48ba-90ae-2f1709a33c37",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_91262062-e4ee-4932-b79a-6d7fece3d60a",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_851d6ae9-6b0b-4518-867c-e9bdfd8e7877",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_9c58c507-d50e-4c45-90be-ee1c1b69e21d",
+            "text": "Did you notice any pattern of the discharge in a day?",
+            "display-mr": "तुम्हाला एका दिवसात डिस्चार्ज / स्त्रावाचा कोणताही पॅटर्न लक्षात आला का?",
+            "display-hi": "क्या आपको एक दिन में स्राव का कोई पैटर्न दिखाई दिया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_be322324-d41c-4a35-a761-c83b26379680",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_c3126a92-2949-437a-8b5a-50f791d650fb",
+                    "text": "Intermittent (on & off)",
+                    "display-mr": "अधून मधून (चालू आणि बंद)",
+                    "display-hi": "रुक-रुक कर (शुरू और बंद)"
+                }
+            ]
+        },
+        {
+            "id": "ID_3865cab9-a011-44ff-b4b1-673a98b249db",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5489d10c-5797-480e-8839-3ebbdae743cd",
+                    "text": "Umbilical pain",
+                    "display-mr": "नाभीसंबधीचा वेदना",
+                    "display-hi": "नाभि में दर्द"
+                },
+                {
+                    "id": "ID_f396db98-0463-4193-8f84-a68dacaca2cb",
+                    "text": "Umbilical bleeding",
+                    "display-mr": "नाभीसंबधीचा / नाळेतील रक्तस्त्राव",
+                    "display-hi": "नाभि से खून आना"
+                },
+                {
+                    "id": "ID_64563853-78b0-4742-8630-6642a997edc1",
+                    "text": "Umbilical swelling",
+                    "display-mr": "नाभीसंबधीची सूज",
+                    "display-hi": "नाभि में सूजन"
+                },
+                {
+                    "id": "ID_61660c84-49be-44e8-89f3-093ac36ed828",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटाचा वेदना",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_4c3f81ce-4b32-4508-8122-f3a3f8734a71",
+                    "text": "Burning urination",
+                    "display-mr": "लघवीची जळजळ",
+                    "display-hi": "पेशाब में जलन"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_4c9f3f79-8450-495e-a727-3dad6ca8b31e",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_c88d750f-cc5c-4fd4-8275-7261c9f86406",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1ca18ddb-cf99-431a-9376-015ea7102dd7",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_31c0f2f7-5780-4f0a-b4cc-99a3238b30b3",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजने आणि कडकपणा",
+                    "display-hi": "ठंड लगना और जकड़न"
+                },
+                {
+                    "id": "ID_15c08f88-caa4-4e49-914a-1375d45f552c",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_774df289-28d9-4376-9bb4-357dcca4c19b",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_53490874-5fe3-49d3-ae72-b3563b55a73e",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजी हुई लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_1d1b2ad9-e947-42d7-808d-7e1412a558cd",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात सूज",
+                    "display-hi": "पेट में सूजन"
+                },
+                {
+                    "id": "ID_90376c55-f721-4a1c-9193-b1b0ce4e9e2f",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_45eb36bb-e836-486a-ba4e-634067ce0680",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_7addde6e-286f-4dae-8f66-066850592b9b",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_7c0058ea-af2b-46ba-b16d-83fe9d1d6ddb",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1174ec50-12a3-48ce-a9e7-122b09903794",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_395fb34e-338f-49f8-82d7-b6cc8cee343a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_09235c40-90ed-4d86-a953-34bc6b743313",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_e1b93436-f751-45fd-81f1-d5f359743b28",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_7ed50f93-e6c6-455b-a2e1-1cef8a438b5b",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8b16786b-f547-4290-a668-ce8df2665061",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

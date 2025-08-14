@@ -1,0 +1,494 @@
+{
+    "id": "ID_17fa7d4f-e370-482e-a547-3e401ff6c0a9",
+    "text": "Weight loss",
+    "engineVersion": "3.0",
+    "display-mr": "वजन कमी होणे",
+    "display-hi": "वजन घटना",
+    "options": [
+        {
+            "id": "ID_25e9d5b2-5133-4c93-936f-d4169dd50c17",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_55688beb-62f3-4f41-94ad-4eeec182c503",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_37233582-cd97-4ffa-9344-b99cd8c7e256",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e2030e28-23f1-4fe9-9779-8c563f791e64",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_bd28f2b9-d2ef-4d8b-a102-e4cf240abcc1",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_8b608e01-f2c6-4522-83aa-440dc68a78bf",
+            "text": "Do you know how much weight you have lost?",
+            "display-mr": "तुमचे वजन किती कमी झाले आहे हे तुम्हाला माहिती आहे का?",
+            "display-hi": "क्या आपको पता है कि आपका कितना वजन कम हुआ है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bb6ff5c3-8e93-41a4-8b8b-2f0bc6c891a0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_82c047cd-d8a4-4fcc-81cd-4a076bdf5675",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_e4099b67-7251-4d0b-9392-bfac40401aed",
+            "text": "How much weight you have lost (in Kgs)?",
+            "display-mr": "तुमचे वजन किती कमी झाले आहे (किलोमध्ये)?",
+            "display-hi": "आपका वजन कितना कम हुआ है (किलोग्राम में)?",
+            "options": [
+                {
+                    "id": "ID_d89c89b0-14b2-461b-becf-38580f245ec5",
+                    "text": "How much weight you have lost (in Kgs)?",
+                    "display-mr": "तुमचे वजन किती कमी झाले आहे (किलोमध्ये)?",
+                    "display-hi": "आपका वजन कितना कम हुआ है (किलोग्राम में)?",
+                    "input-type": "number"
+                }
+            ]
+        },
+        {
+            "id": "ID_5a9a6ffc-ed8a-427f-b298-261f56b6cce2",
+            "text": "How long did it take you to loose this much weight?",
+            "display-mr": "हे वजन किती वेळात कमी झाले?",
+            "display-hi": "इतना वजन कम होने में कितना समय लगा?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a60a39bf-7c2c-4e2d-907b-a437b651854f",
+                    "text": "How long did it take you to loose this much weight?",
+                    "display-mr": "हे वजन किती वेळात कमी झाले?",
+                    "display-hi": "इतना वजन कम होने में कितना समय लगा?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_03efdf5f-6021-46f2-bea4-9b12fbee6d42",
+            "text": "Have you noticed any of these changes in your daily life?",
+            "display-mr": "तुमच्या दैनंदिन जीवनात यापैकी काही बदल तुमच्या लक्षात आले आहेत का?",
+            "display-hi": "क्या आपने अपने दैनिक जीवन में इनमें से कोई बदलाव देखा है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a36dce2c-7367-43bc-982d-5db46091f1ee",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2c2e6bc6-6f3e-474e-82be-5b5fe0bd8893",
+                    "text": "Feeling clothes looser",
+                    "display-mr": "कपडे सैल वाटणे",
+                    "display-hi": "कपड़े ढीले महसूस होना"
+                },
+                {
+                    "id": "ID_76b27bae-559b-4874-9709-2f17bb9c366d",
+                    "text": "Need to change clothes",
+                    "display-mr": "कपडे बदलण्याची गरज",
+                    "display-hi": "कपड़े बदलने की जरूरत"
+                },
+                {
+                    "id": "ID_316a2bb3-409a-4c3f-addc-d8e6ee78b449",
+                    "text": "Need to change belt",
+                    "display-mr": "बेल्ट बदलण्याची गरज आहे",
+                    "display-hi": "बेल्ट बदलने की जरूरत"
+                }
+            ]
+        },
+        {
+            "id": "ID_1058595b-7be2-4602-9610-5bfc04a9eb23",
+            "text": "How can you describe your appetite?",
+            "display-mr": "आपण आपल्या भूकेचे वर्णन कसे करू शकता?",
+            "display-hi": "आप अपनी भूख को कैसे बताते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_21c3a1f0-5512-4994-a696-178ed1ecdbd0",
+                    "text": "Normal appetite",
+                    "display-mr": "सामान्य भूक",
+                    "display-hi": "सामान्य भूख"
+                },
+                {
+                    "id": "ID_1005199c-fd5a-4828-acfd-8ac0397f6835",
+                    "text": "Appetite decreased",
+                    "display-mr": "भूक कमी झाली",
+                    "display-hi": "भूख कम होना"
+                },
+                {
+                    "id": "ID_e6db4bd8-bd9f-4c5c-bd8a-e9cab8e3fd87",
+                    "text": "Lost appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख नहीं लगना"
+                },
+                {
+                    "id": "ID_764f797a-90cb-40f9-93a3-85161327e6bb",
+                    "text": "Appetite increased",
+                    "display-mr": "भूक वाढली",
+                    "display-hi": "भूख बढ़ना"
+                }
+            ]
+        },
+        {
+            "id": "ID_5aed9a0b-ab1a-402e-98f3-48cb0590d851",
+            "text": "Have you or any family member noticed any decrease in the amount or frequency of your daily diet intake?",
+            "display-mr": "तुम्ही किंवा कुटुंबातील कोणत्याही सदस्याला तुमच्या दैनंदिन आहाराच्या प्रमाणात किंवा वारंवारतेत काही घट झाल्याचे लक्षात आले आहे का?",
+            "display-hi": "क्या आपने या आपके परिवार के किसी सदस्य ने आपके भोजन की मात्रा या भोजन करने की संख्या में कोई कमी देखी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_6a55d6c8-0b0c-49a5-8117-01b42d72a63d",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_3b9e135a-0995-4ac1-8a8d-3df749135385",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_b4493fcd-fb58-4b9a-8af8-850209486a3e",
+            "text": "Are you trying to loose any weight?",
+            "display-mr": "आपण वजन कमी करण्याचा प्रयत्न करीत आहात?",
+            "display-hi": "क्या आप वजन कम करने की कोशिश कर रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_56f28c0d-3fc8-4f94-bd4b-89271e2d1336",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b935fada-5e9d-4a22-b4b7-4e7c9b041adf",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_1724bcfd-7a56-42ea-84c6-e4427ec14b46",
+            "text": "Do you exercise regularly or physically active?",
+            "display-mr": "तुम्ही नियमित व्यायाम करता की शारीरिकदृष्ट्या सक्रिय आहात?",
+            "display-hi": "क्या आप नियमित रूप से व्यायाम करते हैं या शारीरिक रूप से सक्रिय हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_50d326ca-466c-4518-ada9-85fcbdd511fe",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_961912a3-b855-4822-9725-db66ca6dfa0f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_86f1edb6-51ce-410d-bb0b-cc5ddf1ece9a",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_68643247-5a52-4f27-b5c7-356fd8b3651a",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होतो",
+                    "display-hi": "निगलने में कठिनाई"
+                },
+                {
+                    "id": "ID_6dadb867-b1ac-4088-a6e1-4a6123d78b3d",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_c0aa6746-c419-47f2-956d-db2af9ce5fe8",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_1ea2ae77-9a0f-4443-b9d9-7a785f9cea5c",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_eda735fb-eb62-412a-ab08-3802ded0af47",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात सूज",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_6b0b11a1-488d-438a-a48b-805560e76f38",
+                    "text": "Blood in stools",
+                    "display-mr": "शौचामध्ये रक्त",
+                    "display-hi": "मल में खून"
+                },
+                {
+                    "id": "ID_eeab3e97-f3c8-4537-8129-828c0ab86ea7",
+                    "text": "Black stools",
+                    "display-mr": "काळे शौच",
+                    "display-hi": "काला मल"
+                },
+                {
+                    "id": "ID_d4557fd6-1203-424b-bd41-a6a9d7206525",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_d3c55074-7353-4782-85b0-7bef100b8ad4",
+                    "text": "Coughing up blood",
+                    "display-mr": "खोकल्यातून रक्त येणे",
+                    "display-hi": "खांसते वक्त खून निकलना"
+                },
+                {
+                    "id": "ID_9aaca3a1-8cf6-4986-82b2-e560a4112bbe",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_7e356288-d26b-401a-bd9a-38b7a0546072",
+                    "text": "Excessive thirst",
+                    "display-mr": "जास्त तहान लागते",
+                    "display-hi": "अत्यधिक प्यास"
+                },
+                {
+                    "id": "ID_1eb14027-20c8-433d-afda-8bad122e8411",
+                    "text": "Frequency of urination",
+                    "display-mr": "लघवीची वारंवारता",
+                    "display-hi": "बार-बार पेशाब जाना"
+                },
+                {
+                    "id": "ID_805a5c86-85cf-42cc-b44b-6936bfd8fc49",
+                    "text": "Neck swelling",
+                    "display-mr": "मानेवर सूज येणे",
+                    "display-hi": "गर्दन में सूजन"
+                },
+                {
+                    "id": "ID_248320c8-1d77-4607-acab-0a44bb8b7a36",
+                    "text": "Heat intolerance",
+                    "display-mr": "उष्णता असहिष्णुता",
+                    "display-hi": "गर्मी सहन करने में कठिनाई"
+                },
+                {
+                    "id": "ID_af5f95aa-1660-401c-8f2f-0320eacf2abf",
+                    "text": "Excessive sweating",
+                    "display-mr": "अति घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_e82df80a-65fa-4507-8924-c64558b5009f",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_617db88e-43f6-42d6-88df-69470a0b3bbb",
+                    "text": "Visual disturbances",
+                    "display-mr": "दृष्टिदोष",
+                    "display-hi": "दृष्टि विकार"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_720b66e6-1f08-4a60-bbee-1ba23bc7b3e0",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1da8446e-55a2-4d02-943a-c5334ce6b0b3",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_33443a54-a00e-4f2f-85ae-4ecc3ccfab23",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_e7fb45e5-f399-4061-a995-a6af416b8105",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना"
+                },
+                {
+                    "id": "ID_65ad436f-ce4b-453c-a237-9e51b72cea09",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_07755a77-f851-4d4a-b359-ad0cc64288f2",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "दिल की धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_8eaec9f3-9cc2-4461-ae3c-6571b7514f82",
+                    "text": "Ankle swelling",
+                    "display-mr": "घोट्याचा सूज",
+                    "display-hi": "टखनों में सूजन"
+                },
+                {
+                    "id": "ID_69752227-9b5d-4dcc-87ff-7a094a39371d",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सूजलेल्या लसीका नोड्स",
+                    "display-hi": "गांठों में सूजन"
+                },
+                {
+                    "id": "ID_13ffed1f-fdc1-4b8e-b9d7-2c78d5fe0bf3",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_70737e4d-937d-46d8-bed4-750d48d9453b",
+                    "text": "Stiffness of joints",
+                    "display-mr": "सांधे कडक होणे",
+                    "display-hi": "जोड़ों में अकड़न"
+                },
+                {
+                    "id": "ID_f1d33d01-c49c-49cd-847a-03bddcefeb79",
+                    "text": "Hair loss",
+                    "display-mr": "केस गळणे",
+                    "display-hi": "बाल झड़ना"
+                },
+                {
+                    "id": "ID_6cd7f89f-e2a7-4e20-ba2d-bd1c0afeb5e4",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_454922e3-1ea0-46ca-a6c7-cc797dbe06f6",
+                    "text": "Oral ulcers",
+                    "display-mr": "तोंडाचा अल्सर",
+                    "display-hi": "मुंह के छाले"
+                },
+                {
+                    "id": "ID_c4689b95-1c81-4332-b682-adf2ea6093a7",
+                    "text": "Low mood",
+                    "display-mr": "कमी उत्साह",
+                    "display-hi": "उदास महसूस होना"
+                },
+                {
+                    "id": "ID_62fa4601-af39-4dc1-97a3-2ce2c9db7f08",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_af83a109-55e7-4052-98c5-47e409eb4c38",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a65195f9-fdfa-450f-b01f-5ddc556726fa",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_e0e48b9f-bdde-4bda-bf62-2764360619a3",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_7dfad6dc-1e03-4dc6-955a-b6e89b8a1973",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_4c349a28-1108-4c3f-bf7f-9e45e101844b",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_450c3810-f3d9-4a5e-850f-dbe6e8443418",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

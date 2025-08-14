@@ -1,0 +1,658 @@
+{
+    "id": "ID_a364425d-5809-4fee-ab0b-21fd3c96fd21",
+    "text": "Vomiting",
+    "engineVersion": "3.0",
+    "display-mr": "उलट्या होणे",
+    "display-hi": "उल्टी",
+    "options": [
+        {
+            "id": "ID_04d72004-6d8d-4659-8640-e24eda5873ec",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d421354-b1a2-45ce-910b-a9f559877f01",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_be3cd174-03ec-4835-8aab-0522b5d84295",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_53a84e65-ffee-4d9b-8913-90663ac87569",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_e9281a9a-2100-4316-bfaf-cf99549e45b1",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_087c6350-1ace-4913-97b1-21ae9d9fc274",
+            "text": "Type of vomitus (content)?",
+            "display-mr": "उलट्याचा प्रकार (सामग्री)?",
+            "display-hi": "उल्टी में निकलने वाली चीज का प्रकार?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6d81a35d-bea2-42ce-81c1-0f9f7ee8d2d3",
+                    "text": "Recently eaten food",
+                    "display-mr": "नुकतेच खाल्लेलं अन्न",
+                    "display-hi": "हाल में खाया हुआ खाना"
+                },
+                {
+                    "id": "ID_fc717e01-fd34-49cf-98d1-7cd33ed09d76",
+                    "text": "Old food",
+                    "display-mr": "जुने खाद्यपदार्थ",
+                    "display-hi": "पुराना खाना"
+                },
+                {
+                    "id": "ID_87b0c0df-70a7-4720-bfe5-d7e79afa2f57",
+                    "text": "Clear fluid",
+                    "display-mr": "स्वच्छ द्रव",
+                    "display-hi": "साफ तरल"
+                },
+                {
+                    "id": "ID_7c850f01-a7e9-461f-9f9c-fb31f17835a2",
+                    "text": "Yellow fluid",
+                    "display-mr": "पिवळा द्रवपदार्थ",
+                    "display-hi": "पीला तरल"
+                },
+                {
+                    "id": "ID_e8ff5e69-7287-4d62-9734-d1e335afc5eb",
+                    "text": "Green fluid",
+                    "display-mr": "हिरवा द्रवपदार्थ",
+                    "display-hi": "हरा तरल"
+                },
+                {
+                    "id": "ID_f65f61c7-a452-4860-8e07-e78c62a2cfcd",
+                    "text": "Red color fluid (likely blood)",
+                    "display-mr": "लाल रंगाचे द्रवपदार्थ (बहुधा रक्त)",
+                    "display-hi": "लाल रंग का तरल (संभवतः खून)"
+                },
+                {
+                    "id": "ID_1a5f29c4-7470-4b08-ba1d-7a4fbffbcbe2",
+                    "text": "Coffee ground brown fluid",
+                    "display-mr": "कॉफी सारखा तपकिरी द्रव",
+                    "display-hi": "कॉफी के रंग जैसा भूरा तरल"
+                }
+            ]
+        },
+        {
+            "id": "ID_feafabbf-0cac-4e8c-aff9-65c37027fdab",
+            "text": "Does the vomiting have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रात उलट्या होण्याचे काही पॅटर्न असतात का?",
+            "display-hi": "क्या उल्टी का 24 घंटे के चक्र के दौरान कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f15ee3be-9b41-4598-a720-fd6e4caea5ff",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d05a7db3-6264-4466-a578-490b9719da5f",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_976c7721-183e-4295-9569-c893721b3433",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_ec1eb329-7b09-4b80-bd7f-c6ed21e324b3",
+                            "text": "Is vomiting related to any specific time of the day?",
+                            "display-mr": "दिवसाच्या कोणत्याही विशिष्ट वेळेशी उलटीचा संबंध आहे का?",
+                            "display-hi": "क्या उल्टी किसी विशिष्ट समय से संबंधित है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_10d2e723-4ab6-4540-8b7e-a89e3c71684e",
+                                    "text": "Early morning (before eating)",
+                                    "display-mr": "भल्या पहाटे (जेवणापूर्वी)",
+                                    "display-hi": "सुबह जल्दी (खाने से पहले)"
+                                },
+                                {
+                                    "id": "ID_7e876d64-c774-4e27-88ef-06e841615844",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_499dd100-dc52-4dda-8f90-fddab2e3fcb3",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_e43303bc-2d71-437d-93aa-1d48db0bf244",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_25bcf32e-568f-4808-9ab3-4d9e4ccc46b5",
+            "text": "Does vomiting occur immediately after a meal?",
+            "display-mr": "जेवणानंतर लगेचच उलट्या होतात का?",
+            "display-hi": "क्या उल्टी खाने के तुरंत बाद होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b3952956-680e-4691-995d-d34fdebfc5d1",
+                    "text": "Immediately after a meal",
+                    "display-mr": "जेवणानंतर लगेच",
+                    "display-hi": "खाने के तुरंत बाद"
+                },
+                {
+                    "id": "ID_93f8009d-d7bf-4f68-8b08-df5a0f979bb9",
+                    "text": "Hours after a meal",
+                    "display-mr": "जेवणानंतर तासाभरात",
+                    "display-hi": "खाने के कुछ घंटे बाद"
+                }
+            ]
+        },
+        {
+            "id": "ID_f10006b3-c6ee-4875-8e41-0d44e1ce78e5",
+            "text": "How many times have you vomited in the last 24 hours?",
+            "display-mr": "गेल्या 24  तासांत तुम्हाला किती वेळा उलट्या झाल्या आहेत?",
+            "display-hi": "पिछले 24 घंटों में कितनी बार उल्टी हुई है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_73e1f79f-dce2-4148-98dd-7f0872cceaa0",
+                    "text": "Once or twice",
+                    "display-mr": "एकदा किंवा दोनदा",
+                    "display-hi": "एक या दो बार"
+                },
+                {
+                    "id": "ID_6da6b6c7-dbd8-423f-821c-aa0cbd467076",
+                    "text": "3 to 5 times",
+                    "display-mr": "3 ते 5 वेळा",
+                    "display-hi": "3 से 5 बार"
+                },
+                {
+                    "id": "ID_f2d12ce3-1fbc-4e8b-9b3f-a701e4bcf1cd",
+                    "text": "6 times and above",
+                    "display-mr": "6 वेळा आणि त्यापेक्षा जास्त",
+                    "display-hi": "6 बार या उससे ज्यादा"
+                }
+            ]
+        },
+        {
+            "id": "ID_786639db-4fb6-4d72-b22d-fa4235043823",
+            "text": "Volume (quantity) of vomitus on each time",
+            "display-mr": "प्रत्येक वेळी उलटीचा आकार (प्रमाण)",
+            "display-hi": "हर बार उल्टी में निकलने वाली चीज की मात्रा कितनी थी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b3a8ea0d-8073-439a-aff1-f998c3c24ca0",
+                    "text": "Scanty (tablespoonful)",
+                    "display-mr": "कमी (चमचाभर)",
+                    "display-hi": "कम (चम्मच भर)"
+                },
+                {
+                    "id": "ID_df42e6c5-7b96-491a-be1b-80eeb9eb3587",
+                    "text": "Moderate (cupful)",
+                    "display-mr": "मध्यम (कपभर)",
+                    "display-hi": "मध्यम (कप भर)"
+                },
+                {
+                    "id": "ID_c19ed8f9-a740-4efb-bac8-2ff37f6dfc47",
+                    "text": "Large (pint)",
+                    "display-mr": "भरपूर (मोठा ग्लासभर)",
+                    "display-hi": "बड़ी (गिलास भर)"
+                }
+            ]
+        },
+        {
+            "id": "ID_91c2e3e0-f620-43ac-9a08-3c861c2236c3",
+            "text": "Is vomiting forceful (projectile)?",
+            "display-mr": "उलटी जोराने लांबवर उडते का?",
+            "display-hi": "क्या उल्टी जोरदार (जोर से निकलने वाली) थी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8a2d78a6-0a63-4a3c-9701-6d6824408d79",
+                    "text": "Forceful",
+                    "display-mr": "जोराने",
+                    "display-hi": "जोर से"
+                },
+                {
+                    "id": "ID_1fd9faca-edc7-4680-84d3-53f5ae380186",
+                    "text": "Effortless",
+                    "display-mr": "प्रयत्नहीन",
+                    "display-hi": "बिना प्रयास के"
+                }
+            ]
+        },
+        {
+            "id": "ID_6cbd8138-ac1f-45c2-bdcd-6292aaf16441",
+            "text": "What does relieve or lessen the vomiting?",
+            "display-mr": "कशा मुळे उलट्या कमी होतात?",
+            "display-hi": "क्या चीज उल्टी को कम करने या दूर करने में मदद करती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b7479bf2-639f-4730-a426-38c4739d9494",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6cd723d7-3070-4637-a042-a364f14b185b",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_5c10ea37-2d05-453f-ac6c-b71e6bb70c2e",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_7360dd6e-d182-4dcd-b22b-ec71b165a1eb",
+                    "text": "Bland diet",
+                    "display-mr": "सौम्य आहार",
+                    "display-hi": "सादा खाना"
+                },
+                {
+                    "id": "ID_14d477d0-7427-4375-9814-19d96f4f4891",
+                    "text": "Lying down",
+                    "display-mr": "झोपणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_c6e75212-e264-40d3-accc-709c838a4f8d",
+                    "text": "Sitting in quietly in dimly lit room",
+                    "display-mr": "शांतपणे कमी उजेडाच्या ठिकाणी बसणे",
+                    "display-hi": "हल्के अंधेरे कमरे में शांति से बैठना"
+                },
+                {
+                    "id": "ID_bdf0badf-e78c-44b2-aed0-981605acc859",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_933975e2-3aa9-4014-99a7-c54823cbd6b0",
+            "text": "What does increase or worsen the vomiting?",
+            "display-mr": "उलट्या कशामुळे वाढतात किंवा अधिक वाईट होतात?",
+            "display-hi": "क्या उल्टी को बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_118d1afb-fc8e-4359-8ef0-de156d061af9",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0c1ba701-9624-4282-8a1e-a19857834dab",
+                    "text": "Spicy foods",
+                    "display-mr": "मसालेदार पदार्थ",
+                    "display-hi": "मसालेदार खाना"
+                },
+                {
+                    "id": "ID_c8f506a5-359d-4eb5-a3a2-3a0d730d96d5",
+                    "text": "Oily foods",
+                    "display-mr": "तेलकट खाद्यपदार्थ",
+                    "display-hi": "तेल वाला खाना"
+                },
+                {
+                    "id": "ID_9fa6a986-0948-45f6-bea4-0fed5db207c1",
+                    "text": "Dairy (milk) products",
+                    "display-mr": "दुग्धजन्य पदार्थ (दूध)",
+                    "display-hi": "डेयरी (दूध से बने उत्पाद)"
+                },
+                {
+                    "id": "ID_540c2ff1-e094-496e-9834-0fec42d179a5",
+                    "text": "Bending over",
+                    "display-mr": "झुकल्याने",
+                    "display-hi": "झुकना"
+                },
+                {
+                    "id": "ID_818c38c7-9c52-4f9c-8a0e-c9d6af295bd4",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                },
+                {
+                    "id": "ID_346eaaa1-5c31-44d5-8069-129bc98a357a",
+                    "text": "Coughing",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसना"
+                },
+                {
+                    "id": "ID_fb711d57-af98-4707-9974-c21c810efe26",
+                    "text": "Bright lights",
+                    "display-mr": "तेजस्वी दिवे",
+                    "display-hi": "चमकदार रोशनी"
+                },
+                {
+                    "id": "ID_7084dbb5-770c-4c40-bc76-917b6eef7848",
+                    "text": "Loud noises",
+                    "display-mr": "मोठा आवाज",
+                    "display-hi": "तेज आवाजें"
+                },
+                {
+                    "id": "ID_f26ae6fe-9db8-436c-b08c-5d37d1c6051e",
+                    "text": "Travel or riding",
+                    "display-mr": "प्रवास",
+                    "display-hi": "यात्रा या सवारी"
+                },
+                {
+                    "id": "ID_af9deeb3-e2fe-4453-afca-75f7d60a2177",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_49dd8ceb-f05d-4ab5-986f-e340769465f5",
+            "text": "How is vomiting progressing?",
+            "display-mr": "उलट्या कशा होत आहेत?",
+            "display-hi": "उल्टी आने की समस्या में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f0f11053-93b8-4239-9b2c-26a7fcf6e43b",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_5b79ffe3-7d71-4fcc-b171-6797690fbba8",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रहा है"
+                },
+                {
+                    "id": "ID_5b8abe2d-284a-4ed0-a54f-8bb6cd95690a",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार हो रहा है"
+                },
+                {
+                    "id": "ID_a6a2c8dd-91b7-464e-82df-8272a6b5f706",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_7aba8e66-6339-4030-9b9a-d60f37040cf4",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_196da384-cc64-4706-989a-59431a9ed57c",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "उल्टी जैसा लगना"
+                },
+                {
+                    "id": "ID_99334848-7def-43a8-87d4-09cf2e4e7fe1",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_bf1eaba4-a45a-4bbf-88b1-eaa43eb4490d",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट दर्द"
+                },
+                {
+                    "id": "ID_adec4455-4c02-4011-8ee6-77325efa45ac",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात सूज",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_b4d827af-759a-4d94-ac7c-2fbdb6de2036",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ",
+                    "display-hi": "सीने में जलन"
+                },
+                {
+                    "id": "ID_b2d9125f-157c-4c1a-9774-f6749225299f",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_512d9742-bb19-40ff-819d-d351cefe3661",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_7ce8fa84-b467-42f4-94be-c4488193ef51",
+                    "text": "Black stools",
+                    "display-mr": "काळे शौच",
+                    "display-hi": "काला मल"
+                },
+                {
+                    "id": "ID_26c2b420-c375-4324-b4df-6160b7ed3b03",
+                    "text": "Decreased urine",
+                    "display-mr": "लघवी कमी येणे",
+                    "display-hi": "पेशाब कम होना"
+                },
+                {
+                    "id": "ID_40d6c7d8-5f99-421e-8b66-235be1f68881",
+                    "text": "Frequency of urination",
+                    "display-mr": "लघवीची वारंवारता",
+                    "display-hi": "बार-बार पेशाब जाना"
+                },
+                {
+                    "id": "ID_b7a3b4cb-1b88-48b3-9fb4-01b1482e1984",
+                    "text": "History of recent travel",
+                    "display-mr": "अलीकडील प्रवासाचा इतिहास",
+                    "display-hi": "हाल ही में यात्रा का इतिहास"
+                },
+                {
+                    "id": "ID_c1e3a52f-258d-436f-b7b6-c425ecb7b961",
+                    "text": "History of contact with sick persons",
+                    "display-mr": "आजारी व्यक्तींच्या संपर्काचा इतिहास",
+                    "display-hi": "बीमार व्यक्तियों के संपर्क में आने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_b23bd26d-9bd6-457e-8eb0-07d95c09c6b7",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_8841af13-0ab5-4af1-a41b-ec88c421910d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a4e0929e-3653-47a8-ab7f-105ecfc807bd",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_14595a1d-b977-491f-9ab8-1ec2b6a0ba73",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_b1dc68a3-5427-43a6-af2b-64ba4f8123c3",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_a678fa08-4ef5-457d-a536-1caa65bbbd72",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_c617be0e-3765-4dd7-a4f9-28bcb91a93fe",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना"
+                },
+                {
+                    "id": "ID_40086cbd-c700-4765-9f49-431a41a75dc5",
+                    "text": "Photophobia",
+                    "display-mr": "फोटोफोबिया (प्रकाशाचा त्रास होणे)",
+                    "display-hi": "रोशनी में तकलीफ"
+                },
+                {
+                    "id": "ID_4231c24f-82df-47b1-b1ef-490ec9716f4e",
+                    "text": "Phonophobia",
+                    "display-mr": "फोनोफोबिया (आवाजाचा त्रास होणे)",
+                    "display-hi": "आवाज की असहनीयता"
+                },
+                {
+                    "id": "ID_91957e10-526c-4d13-87d4-5f65dd657d92",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_30909f4a-f23d-4552-95de-668a313f13bb",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर येणे (हलकेपणा)",
+                    "display-hi": "चक्कर आना (हल्का सिर घूमना)"
+                },
+                {
+                    "id": "ID_a4e1be43-d98b-4d68-8355-2644f4c48e3e",
+                    "text": "History of head injury",
+                    "display-mr": "डोक्याला दुखापत झाल्याचा इतिहास",
+                    "display-hi": "सिर की चोट का इतिहास"
+                },
+                {
+                    "id": "ID_48dd9428-d620-4ac4-ae5e-00a83d15a3a9",
+                    "text": "Flank pain",
+                    "display-mr": "पार्श्वभाग वेदना",
+                    "display-hi": "पसलियों के पास दर्द"
+                },
+                {
+                    "id": "ID_455434fc-d0a6-49a7-a8bf-bae47b1fa2c7",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीमध्ये रक्त",
+                    "display-hi": "पेशाब में खून"
+                },
+                {
+                    "id": "ID_d0cc7677-e658-45d5-b8f1-792b0eac5438",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_325ca6be-bcaf-40f3-a786-30868803989a",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1d6788c5-8f92-4a69-8aef-70800b601121",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_781e2962-d886-49f2-9c82-98f7c32a0c6b",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_32fd92ae-4819-4da3-aa5d-93b026e2595c",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e13bdb50-82ab-4ce2-98e9-b3766b17f0f3",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_4885f7f6-630d-427b-97b6-4d28eeca5221",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

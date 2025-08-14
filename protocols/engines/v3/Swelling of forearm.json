@@ -1,0 +1,601 @@
+{
+    "id": "ID_96be4d3b-3ac7-4916-af33-752087481519",
+    "text": "Swelling of forearm",
+    "engineVersion": "3.0",
+    "display-mr": "कोपरापासूनचा हात सुजणे",
+    "display-hi": "आगे की बांह में सूजन",
+    "options": [
+        {
+            "id": "ID_3573f40e-9874-4dda-9755-73ff50466ef9",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bf8a0cca-c951-48ae-b589-53ada1bd8fdb",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_2cd30dd0-fcc2-4985-ad95-2e0cf3712d76",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_916813c6-f592-4f91-bd62-7d8479a64301",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_6bb645e4-3ad7-40a4-9521-a8ef6384187b",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_e6e026d2-d687-47ec-851f-2762af81e3b3",
+            "text": "Did the swelling of forearm develop after any of the events?",
+            "display-mr": "यापैकी कोणत्या घटनेनंतर कोपरापासूनच्या हाताला सूज आली आहे?",
+            "display-hi": "क्या आगे की भुजा की सूजन किसी घटना के बाद बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9a56009f-5cf1-47c3-ada5-093759076020",
+                    "text": "None",
+                    "display-mr": "कोणत्याही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c634c417-0d15-4f13-95c5-98cd08938362",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_e80597b8-f1dd-4d43-b2ea-f4e9c46a7e64",
+                    "text": "Insect bite",
+                    "display-mr": "कीटकदंश",
+                    "display-hi": "कीड़े का काटना"
+                },
+                {
+                    "id": "ID_5a3942b7-bb2b-49c9-b00d-471252219384",
+                    "text": "Sprain",
+                    "display-mr": "मुरगळणे",
+                    "display-hi": "मोच"
+                },
+                {
+                    "id": "ID_bba6ee76-f341-4245-a1e5-6ca336d76726",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_f752e362-057d-44f1-a54f-1db55e64944a",
+            "text": "Which part of forearm do you have swelling?",
+            "display-mr": "कोपरापासूनच्या हाताच्या कोणत्या भागाला सूज आहे?",
+            "display-hi": "आपकी आगे की भुजा के किस हिस्से में सूजन है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0a0a78d8-3bf8-4b67-bca6-4f07466a0cfc",
+                    "text": "Upper",
+                    "display-mr": "वरील",
+                    "display-hi": "अपर (उपरी)"
+                },
+                {
+                    "id": "ID_791ce531-19f0-44d8-96c1-f6966bd5add7",
+                    "text": "Middle",
+                    "display-mr": "मधल्या",
+                    "display-hi": "मध्य"
+                },
+                {
+                    "id": "ID_6e08a717-88aa-4277-a680-357a59bfe0d9",
+                    "text": "Lower",
+                    "display-mr": "खालील",
+                    "display-hi": "निचला"
+                },
+                {
+                    "id": "ID_1e797638-2c7b-4b29-b97f-d453672a540f",
+                    "text": "Entire forarm",
+                    "display-mr": "कोपरापासूनचा संपूर्ण हात",
+                    "display-hi": "पूरी आगे की भुजा"
+                }
+            ]
+        },
+        {
+            "id": "ID_7d186be4-054c-4a05-b9cb-30145655c95e",
+            "text": "Which side do you have the forearm swelling?",
+            "display-mr": "तुमच्या कोणत्या हाताला कोपरापासून सूज आहे?",
+            "display-hi": "आपकी किसी तरफ की आगे की भुजा में सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9c1e8ca6-0138-407b-919e-ec6e377f96b5",
+                    "text": "Left forearm",
+                    "display-mr": "डावा कोपरापासूनचा हात",
+                    "display-hi": "बायीं"
+                },
+                {
+                    "id": "ID_d3637ae5-b68d-4d85-9a8b-eb31207730c3",
+                    "text": "Right forearm",
+                    "display-mr": "उजवा कोपरापासूनचा हात",
+                    "display-hi": "दाहिनी"
+                },
+                {
+                    "id": "ID_6830633f-e944-406d-adfe-193ebcb75798",
+                    "text": "Both forearms",
+                    "display-mr": "दोन्ही कोपरापासूनचे हात",
+                    "display-hi": "दोनों"
+                }
+            ]
+        },
+        {
+            "id": "ID_f4501ece-6bab-4eeb-b61c-a0d60c2d7af9",
+            "text": "Which sides of the forearm do you have swelling?",
+            "display-mr": "कोपरापासूनच्या हाताच्या कोणत्या बाजूंना सूज आहे?",
+            "display-hi": "आपकी आगे की भुजा के किस तरफ सूजन है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d3be4288-9366-4bf0-b6e8-ad49900cfc2b",
+                    "text": "Front",
+                    "display-mr": "समोर",
+                    "display-hi": "सामने"
+                },
+                {
+                    "id": "ID_31c7a58e-b6e4-4566-bc7a-fb96daa7d891",
+                    "text": "Back",
+                    "display-mr": "मागे",
+                    "display-hi": "पीछे"
+                },
+                {
+                    "id": "ID_39835c75-b284-4413-aabd-c14be79580a3",
+                    "text": "Outer side",
+                    "display-mr": "बाहेरील बाजू",
+                    "display-hi": "बाहरी भाग"
+                },
+                {
+                    "id": "ID_ed229fcd-ee9f-43e4-af38-68bf1355afa9",
+                    "text": "Inner side",
+                    "display-mr": "आतील बाजू",
+                    "display-hi": "भीतरी भाग"
+                }
+            ]
+        },
+        {
+            "id": "ID_321dad99-3fa2-49f2-b977-43817e33cf1a",
+            "text": "Do you have any of the local associated features with forearm swelling?",
+            "display-mr": "तुमच्या कोपरापासूनच्या हाताला आलेल्या सूजेशी संबंधित काही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपकी आगे की भुजा की सूजन के साथ इनमें से कोई समस्याएं जूड़ी हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7c74efbe-8724-4747-bfb8-be069a49e4cb",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_af32ec4c-5288-46c9-bea9-2241f29c83f4",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_2202bc53-57e5-409e-8c78-76c43b4f4cd4",
+                    "text": "Warmth",
+                    "display-mr": "गरम लागणे",
+                    "display-hi": "गर्मी"
+                },
+                {
+                    "id": "ID_a92de781-5de2-437f-8511-9281bd6ffe5c",
+                    "text": "Pain on touching",
+                    "display-mr": "स्पर्श करताना वेदना",
+                    "display-hi": "छूने पर दर्द होना"
+                },
+                {
+                    "id": "ID_77f3386c-f372-4107-8c6f-18c58b58341a",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_ec1637bc-4618-4888-95ac-9a017b95a03e",
+                    "text": "Pustule",
+                    "display-mr": "पुटकुळी",
+                    "display-hi": "दाना"
+                },
+                {
+                    "id": "ID_6f550b99-402a-4a1c-9f8b-3eeb59f0fbd9",
+                    "text": "Deformity",
+                    "display-mr": "विद्रुपपणा",
+                    "display-hi": "विकृति"
+                },
+                {
+                    "id": "ID_eb338cb8-e41a-4cbf-a022-3a130592a44b",
+                    "text": "Abrasion",
+                    "display-mr": "खरचटणे",
+                    "display-hi": "खरोंच"
+                },
+                {
+                    "id": "ID_56e6f1a4-fd5d-4174-887e-fbf0ca7cbc6a",
+                    "text": "Tightness",
+                    "display-mr": "घट्टपणा",
+                    "display-hi": "कसाव"
+                },
+                {
+                    "id": "ID_d769e193-ed75-492c-a28e-0776d079d5ed",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d43323d4-2179-4db6-a430-55d6287fcf28",
+            "text": "Do you have pain associated with the swelling?",
+            "display-mr": "तुम्हाला कोपरापासून हाताच्या सूजेशी संबंधित वेदना होत आहे का?",
+            "display-hi": "क्या आपको सूजन के साथ दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_880ba9ff-6acb-42b9-9c28-6cec8df19bda",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1cbf5470-7ed7-4243-a394-233d9d6960ec",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_173d6a0c-3bd8-4251-9168-2e16dac008b7",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_52c1e52c-bd09-4120-9a2d-099d129cc9da",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                                },
+                                {
+                                    "id": "ID_6043ab18-ae5f-474c-b2e2-f51ad32992c0",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                                },
+                                {
+                                    "id": "ID_9a4a29e6-ad58-4660-a6eb-4d65908e1589",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                                },
+                                {
+                                    "id": "ID_d37c9c64-1c7c-45b7-a986-cf9512d0df59",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "खूप तीव्र वेदना (7 ते less than  9)",
+                                    "display-hi": "बहुत तेज दर्द (7 से less than 9)"
+                                },
+                                {
+                                    "id": "ID_dd4cbba1-c6b5-4eb8-a75a-e6456a681cac",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_684fb500-8f14-45b6-b9dd-717995e5ffff",
+            "text": "What does reduce the size of swelling of forearm?",
+            "display-mr": "कोपरापासूनच्या हाताच्या सूजेचा आकार कशामुळे कमी होतो?",
+            "display-hi": "आगे की भुजा की सूजन को कम करने वाले उपाय क्या हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_68f32359-b65c-437c-954b-8e7efb249fc2",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_25072d57-f08f-44c1-b502-de1233ea0c76",
+                    "text": "Hot compress",
+                    "display-mr": "गरम कॉम्प्रेस",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_7fb8d154-127b-4939-a88e-43abf7924022",
+                    "text": "Cold compress",
+                    "display-mr": "थंड कॉम्प्रेस",
+                    "display-hi": "ठंडा सेंक"
+                },
+                {
+                    "id": "ID_4ecae9ac-4487-439c-84bc-de801b737ca9",
+                    "text": "Rest to limb",
+                    "display-mr": "हातांना विश्रांती",
+                    "display-hi": "अंग को आराम देना"
+                },
+                {
+                    "id": "ID_fa7bb878-5ddd-425d-a763-170560119d29",
+                    "text": "Holding objects",
+                    "display-mr": "वस्तू पकडणे",
+                    "display-hi": "वस्तुओं को पकड़ना"
+                },
+                {
+                    "id": "ID_79fde4bc-f37d-4c56-b1bb-f5243c50342d",
+                    "text": "Elevation of forearm",
+                    "display-mr": "कोपरापासूनचा हात उंचावणे",
+                    "display-hi": "आगे की भुजा को ऊपर उठाना"
+                },
+                {
+                    "id": "ID_8430c166-acb1-46cc-94fc-1cb437a39526",
+                    "text": "Compression bandage",
+                    "display-mr": "कॉम्प्रेशन पट्टी",
+                    "display-hi": "कंप्रेशन बैंडेज"
+                },
+                {
+                    "id": "ID_834eb141-0a1f-4e59-ba08-b1f6d7e566c6",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "निश्चित दवा"
+                },
+                {
+                    "id": "ID_8fa765be-844c-4a7d-974d-edfb0e11379d",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fd42bedd-0558-4ade-98f8-fa61287a69ea",
+            "text": "How is the swelling progressing?",
+            "display-mr": "सूजेमध्ये काही बदल झाला का?",
+            "display-hi": "सूजन में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3c8f2938-18e8-42fb-9632-77df3ee1a6b9",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_aaa3b84e-f220-43d9-be5e-19ca70958bb0",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_4217f569-0c92-44f7-bbca-854d67c93428",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_5dabfd2e-499c-4ffa-8ae3-5784472a2d2c",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_7c8eef42-3601-4d45-9fab-49c2469fcd45",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_8570007e-1266-47bc-9797-2a7b7ec4e534",
+                    "text": "Wrist pain",
+                    "display-mr": "मनगटात वेदना",
+                    "display-hi": "कलाई का दर्द"
+                },
+                {
+                    "id": "ID_cd8148b1-8db8-4c0d-8009-0b804d309bcb",
+                    "text": "Elbow pain",
+                    "display-mr": "कोपर दुखणे",
+                    "display-hi": "कोहनी का दर्द"
+                },
+                {
+                    "id": "ID_3f949b25-22bc-4cd6-b997-9bcbaba2dff8",
+                    "text": "Wrist swelling",
+                    "display-mr": "मनगटाची सूज",
+                    "display-hi": "कलाई की सूजन"
+                },
+                {
+                    "id": "ID_243c51a7-4804-4383-b49a-eb761033f8f1",
+                    "text": "Elbow swelling",
+                    "display-mr": "कोपराला सूज",
+                    "display-hi": "कोहनी की सूजन"
+                },
+                {
+                    "id": "ID_4392bffc-daf7-4766-818d-2adc07010ebd",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेला खाज येणे",
+                    "display-hi": "त्वचा की खुजली"
+                },
+                {
+                    "id": "ID_91a8c81e-6cae-44ef-889b-8adb4a2c0899",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर चकत्ते"
+                },
+                {
+                    "id": "ID_1d5959cf-325a-4174-913f-1f00246ab247",
+                    "text": "Discoloration of skin",
+                    "display-mr": "त्वचेचा रंग बदलणे",
+                    "display-hi": "त्वचा के रंग में बदलाव"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_9024d458-80ec-4957-84da-cec8246f4523",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2ab8d456-8987-40e4-a9ba-2d10332bf19a",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_58480c30-20b2-4e77-a9a4-415d4d409476",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_89ebdfc1-ce0b-4301-805d-15c9f2dd31f3",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में दिक्क्त"
+                },
+                {
+                    "id": "ID_8099198b-ca55-4339-8525-fdc797d571a8",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_d8cad0d6-a7a4-4961-8295-4361eca38282",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "घबराहट"
+                },
+                {
+                    "id": "ID_09ab4faf-e153-4586-a7ad-47889252cc65",
+                    "text": "Decreased urine",
+                    "display-mr": "लघवी कमी होणे",
+                    "display-hi": "पेशाब कम आना"
+                },
+                {
+                    "id": "ID_6d4036f9-ae55-4010-860f-88ba7efe3c4f",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटना"
+                },
+                {
+                    "id": "ID_8c73bea9-1484-4764-a866-78c259a10f9a",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_3c9e5260-bba9-4a84-a7b6-4e6067e77223",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_a16606a6-cb55-4d53-879e-00df87979d3e",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात का पसीना"
+                },
+                {
+                    "id": "ID_fc25900d-1c4e-4059-87d5-9a333ff7ae01",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_939753dc-9581-475e-b99e-794061ab812e",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4f1b9e02-c0bc-413d-baf4-3fc73302153f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1d14eba1-d794-4f14-98a4-7ad9e58c737f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_971ed66c-9c20-4ca9-b8d4-f4341c9a2e3b",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9e936f8c-fb96-41ab-a37a-884e7ced5d90",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_152e344a-e96a-41a5-86c6-28cbd3ea374c",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

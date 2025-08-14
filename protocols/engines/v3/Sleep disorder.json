@@ -1,0 +1,911 @@
+{
+    "id": "ID_758096093",
+    "text": "Sleep disorder",
+    "perform-physical-exam": "Head:Injury;",
+    "display-or": "ନିଦ ସମସ୍ୟା",
+    "engineVersion": "3.0",
+    "options": [
+        {
+            "id": "ID_1605557048",
+            "text": "Duration",
+            "display": "Since when have you had this symptom?*",
+            "isRequired": true,
+            "display-or": "କେବେ ଠାରୁ*",
+            "options": [
+                {
+                    "id": "ID_1810987517",
+                    "text": "[Enter since when]",
+                    "input-type": "duration",
+                    "language": "since",
+                    "display-or": "ତାରିଖ",
+                    "display-hi": "(कब से है – दर्ज करें)",
+                    "display-gu": "[ક્યારથી તે લખી જણાવો]",
+                    "display-as": "যেতিয়া পৰা আৰম্ভ লিখা",
+                    "display-bn": "[কখন থেকে লিখুন]",
+                    "display-kn": "[ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]",
+                    "display-mr": "(केव्हापासून ते भरा)"
+                }
+            ],
+            "display-hi": "आपको यह लक्षण कब से है?*",
+            "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+            "display-as": "কেতিয়াৰ পৰা আপুনি এই লক্ষণবোৰ পাইছে ?*",
+            "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+            "display-kn": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*",
+            "display-mr": "तुम्हाला हे लक्षण केव्हापासून आहे?"
+        },
+        {
+            "id": "ID_1514372857",
+            "text": "Consistency*",
+            "isRequired": true,
+            "multi-choice": false,
+            "display-or": "ଗତି*",
+            "options": [
+                {
+                    "id": "ID_1669318334",
+                    "text": "Consistent",
+                    "display-or": "ସବୁବେଳେ",
+                    "display-hi": "आती है ",
+                    "display-gu": "એકધારું",
+                    "display-as": "ধাৰাবাহিক",
+                    "display-bn": "সামঞ্জস্যপূর্ণ",
+                    "display-kn": "ಸ್ಥಿರ",
+                    "display-mr": "स्थिर"
+                },
+                {
+                    "id": "ID_1116923607",
+                    "text": "Intermittent",
+                    "display-or": "ବେଳେବେଳେ",
+                    "display-hi": "रुक-रुक कर आती है",
+                    "display-gu": "અસતત (ઇન્ટરમિટન્ટ)",
+                    "display-as": "মাজে-মাজে",
+                    "display-bn": "বিরতিহীন",
+                    "display-kn": "ಮಧ್ಯಮ",
+                    "display-mr": "अधूनमधून"
+                }
+            ],
+            "display-hi": "नींद का लगातार आना /नींद की नियमितता*",
+            "display-gu": "ગાઢ*",
+            "display-as": "ধাৰাবাহিকতা*",
+            "display-bn": "ধারাবাহিকতা*",
+            "display-kn": "ಸ್ಥಿರತೆ*",
+            "display-mr": "लक्षणांची स्थिरता /सातत्य"
+        },
+        {
+            "id": "ID_484496945",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?*",
+            "isRequired": true,
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?*",
+            "options": [
+                {
+                    "id": "ID_881141873",
+                    "text": "Pain",
+                    "display-or": "ଯନ୍ତ୍ରଣା",
+                    "display-hi": "दर्द",
+                    "display-gu": "દુખાવો",
+                    "display-as": "বিষ",
+                    "display-bn": "ব্যাথা",
+                    "display-kn": "ನೋವು",
+                    "display-mr": "वेदना"
+                },
+                {
+                    "id": "ID_189076848",
+                    "text": "Restless legs",
+                    "display-or": "ଗୋଡ ଯନ୍ତ୍ରଣା",
+                    "display-hi": "चंचल पैर/पैरों का बराबर हिलते-डुलते रहना",
+                    "display-gu": "પગમાં અસુખ",
+                    "display-as": "অস্থিৰ ভৰি",
+                    "display-bn": "অস্থির পা",
+                    "display-kn": "ವಿಶ್ರಾ೦ತಿ ರಹಿತ ಕಾಲುಗಳು",
+                    "display-mr": "सतत पायांची हालचाल सुरु राहते का?"
+                },
+                {
+                    "id": "ID_606701929",
+                    "text": "Worsening in thought/memory/daily activities",
+                    "perform-physical-exam": "Mental Status:Attention;Mental Status:Orientation;Mental Status:Memory;",
+                    "display-or": "ଚିନ୍ତା/ସୂରତ/ଦୈନିକ କାମରେ ଅସୁବିଧା",
+                    "display-hi": "विचार करने/याद करने/दैनिक कार्यों में परेशानी",
+                    "display-gu": "વિચારો/યાદશક્તિ/રોજિંદાં કામોમાં વધુ બગડે છે",
+                    "display-as": "চিন্তাত / স্মৃতিত / প্রতিদিনৰ ক্রিয়াকলাপ বোৰ ক্রমদ্ধমান",
+                    "display-bn": "চিন্তা/স্মৃতি/দৈনিক কাজকর্মে অবনতি",
+                    "display-kn": "ಆಲೋಚನೆ/ನೆನಪು/ದೈನಂದಿನ ಚಟುವಟಿಕೆಗಳಿಂದ ಇನ್ನೂ ಹದಗೆಡುವುದು",
+                    "display-mr": "विचार/स्मृती/दैनंदिन क्रिया बिघडणे"
+                },
+                {
+                    "id": "ID_1126461057",
+                    "text": "Depressed mood",
+                    "display-or": "ଅବସାଦ",
+                    "display-hi": "डिप्रेस्ड या अवसादग्रस्त मन",
+                    "display-gu": "ઉદાસીનતા રહે છે",
+                    "display-as": "বিষণ্ণ চিন্তা",
+                    "display-bn": "বিষণ্ণ মেজাজ",
+                    "display-kn": "ಖಿನ್ನತೆಗೆ ಒಳಗಾದ ಮನಸ್ಥಿತಿ",
+                    "display-mr": "उदास मन"
+                },
+                {
+                    "id": "ID_120411792",
+                    "text": "Anxiety",
+                    "display-or": "ବ୍ୟଗ୍ରତା",
+                    "display-hi": "चिंता",
+                    "display-gu": "વ્યગ્રતા",
+                    "display-as": "উদ্বেগ(চিন্তা)",
+                    "display-bn": "দুশ্চিন্তা",
+                    "display-kn": "ಆತಂಕ",
+                    "display-mr": "चिंता"
+                },
+                {
+                    "id": "ID_895418609",
+                    "text": "Weakness (slurred speech/dropping a cup)",
+                    "display-or": "ଦୁର୍ବଳ/ଅସ୍ପଷ୍ଟ କଥା",
+                    "display-hi": "कमजोरी (अस्पष्ट बोलना/कप आदि हाथ से गिर जाना)",
+                    "display-gu": "નબળાઇ (થોથવાતું બોલાય/કપ પડી જાય)",
+                    "display-as": "দুর্বলতা (অস্পষ্ট বক্তৃতা(কথা) / একটা কাপ পেলায় দিয়া)",
+                    "display-bn": "দুর্বলতা (ঝোলা বক্তৃতা/এক কাপ ফেলে)",
+                    "display-kn": "ದೌರ್ಬಲ್ಯ (ಅಸ್ಪಷ್ಟ ಮಾತು/ಲೋಟವನ್ನು ಬೀಳಿಸುವಷ್ಟು ಅಸ್ವಸ್ಥತೆ)",
+                    "display-mr": "अशक्तपणा (अस्पष्ट बोलणे / कप हातातून सुटणे)"
+                },
+                {
+                    "id": "ID_1496698245",
+                    "text": "Heat / Cold intolerance",
+                    "perform-physical-exam": "Face:Swollen Face;Neck:Thyroid swelling;",
+                    "display": "Feeling uncomfortable in hot/cold environments",
+                    "display-or": "ଥଣ୍ଡା / ଗରମ ସହି ନ ପାରିବ",
+                    "display-hi": "गर्मी/ठंड में असहज महसूस करना",
+                    "display-gu": "ગરમ/ઠંડાં વાતાવરણમાં અસુખ થાય",
+                    "display-as": "গৰম / ঠান্ডা পৰিবেশত অস্বস্তি অনুভৱ কৰা হৈছে",
+                    "display-bn": "গরম/ঠান্ডা পরিবেশে অস্বস্তি বোধ করা",
+                    "display-kn": "ಉಷ್ಣ/ಶೀತ ಪರಿಸರದಲ್ಲಿ ಅಹಿತಕರ ಅನುಭವ",
+                    "display-mr": "गरम/थंड वातावरणात अस्वस्थ वाटणे"
+                },
+                {
+                    "id": "ID_764259373",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বর্ণনা]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "क्या आपको निम्न लक्षण है/हैं?*",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+            "display-as": "আপোনাৰ নিম্নলিখিত লক্ষণবোৰ আছে?*",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला खालील लक्षण (लक्षणे) आहेत का?"
+        },
+        {
+            "id": "ID_1884812725",
+            "text": "Sleeping history",
+            "display-or": "ନିଦ ଅଭ୍ୟାସ",
+            "options": [
+                {
+                    "id": "ID_890779684",
+                    "text": "What time do you usually go to bed?*",
+                    "input-type": "text",
+                    "isRequired": true,
+                    "language": "Patient usually goes to bed at",
+                    "display-or": "ଶୋଇବାକୁ ଯିବାବେଳେ*",
+                    "display-hi": "आप ज्यादातर कितने बजे सोने जाते हैं?*",
+                    "display-gu": "સામાન્ય રીતે કેટલા વાગે ઊંઘો છો?*",
+                    "display-as": "তুমি সাধাৰণত কেতিয়া শুই যায়?*",
+                    "display-bn": "তুমি সাধারণত কখন ঘুমাতে যাও?*",
+                    "display-kn": "ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಸಮಯದಲ್ಲಿ ಮಲಗುತ್ತೀರಿ?*",
+                    "display-mr": "तुम्ही सहसा किती वाजता झोपायला जाता?"
+                },
+                {
+                    "id": "ID_1495505998",
+                    "text": "What time do you usually wake up?*",
+                    "input-type": "text",
+                    "isRequired": true,
+                    "display-or": "ଉଠିବା ବେଳେ*",
+                    "language": "Patient usually wakes up at",
+                    "display-hi": "आप ज्यादातर कितने बजे सोकर उठते हैं?*",
+                    "display-gu": "સામાન્ય કીતે કેટલા વાગે જાગો છો?*",
+                    "display-as": "আপুনি সাধাৰণেত কেতিয়া টুপনিৰ পৰা উঠে?*",
+                    "display-bn": "আপনি সাধারণত কখন ঘুম থেকে উঠবেন?*",
+                    "display-kn": "ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಸಮಯಕ್ಕೆ ಏಳಿತ್ತೀರಿ?*",
+                    "display-mr": "तुम्ही सहसा किती वाजता उठता?"
+                },
+                {
+                    "id": "ID_236827844",
+                    "text": "Sleep latency",
+                    "display": "How long does it take you to fall asleep after going to bed?*",
+                    "isRequired": true,
+                    "display-or": "କେତେ ସମୟ ନିଦ ଲାଗେ*",
+                    "options": [
+                        {
+                            "id": "ID_12252725",
+                            "text": ">30 minutes",
+                            "display-or": "ଅଧଘଣ୍ଟା ରୁ ଅଧିକ",
+                            "display-hi": "30 मिनट से ज्यादा",
+                            "display-gu": ">30 મિનિટ",
+                            "display-as": "> 30 মিনিট",
+                            "display-bn": ">30 মিনিট",
+                            "display-kn": "> 30 ನಿಮಿಷಗಳು",
+                            "display-mr": "30 मिनिटांपेक्षा जास्त"
+                        },
+                        {
+                            "id": "ID_1078367554",
+                            "text": "<= 30 minutes",
+                            "display-or": "ଅଧଘଂଟାରୁ କମ",
+                            "display-hi": "30 मिनट या उससे कम",
+                            "display-gu": "<= 30 મિનિટ",
+                            "display-as": "<= 30 মিনিট",
+                            "display-bn": "<= 30 মিনিট",
+                            "display-kn": "<= 30 ನಿಮಿಷಗಳು",
+                            "display-mr": "30 मिनिटे किंवा त्यापेक्षा कमी"
+                        }
+                    ],
+                    "display-hi": "आपको बिस्तर पर जाने के बाद, कितने देर में नींद आ जाती है?*",
+                    "display-gu": "પથારીમાં પડ્યા પછી કેટલી વારે ઊંઘ આવે છે?*",
+                    "display-as": "বিছনাত আপুনাৰ টুপনি যাওঁতে কিমান সময় লাগে?*",
+                    "display-bn": "বিছানায় যাওয়ার পর ঘুমিয়ে পড়তে আপনার কতক্ষণ লাগে?*",
+                    "display-kn": "ಮಲಗಿದ ನಂತರ ನಿದ್ರಿ ಬರಲು ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ?*",
+                    "display-mr": "बिछान्यावर झोपायला गेल्यानंतर झोपायला किती वेळ लागतो?"
+                },
+                {
+                    "id": "ID_1981783231",
+                    "text": "Wake up during sleep",
+                    "language": "%",
+                    "display": "Do you wake up in middle of sleeping?*",
+                    "isRequired": true,
+                    "display-or": "ନିଦରୁ ଉଠିବା*",
+                    "options": [
+                        {
+                            "id": "ID_1266554511",
+                            "text": "No",
+                            "language": "Patient does not wake up during sleep",
+                            "display-or": "ନା",
+                            "display-hi": "नहीं",
+                            "display-gu": "ના",
+                            "display-as": "নহয়",
+                            "display-bn": "না",
+                            "display-kn": "ಅಲ್ಲ",
+                            "display-mr": "नाही"
+                        },
+                        {
+                            "id": "ID_1735704328",
+                            "text": "Yes",
+                            "language": "Patient wakes up in the middle of sleeping",
+                            "display-or": "ହଁ",
+                            "options": [
+                                {
+                                    "id": "ID_1330541340",
+                                    "text": "Wake after sleep onset > 30 minutes",
+                                    "display-or": "ଅଧଘଣ୍ଟା ପରେ ଉଠିବା",
+                                    "display-hi": "एक बार नींद आने के 30 मिनट बाद नींद खुल जाना",
+                                    "display-gu": "ઊંઘ ચઢી ગયા પછી>30 મિનિટે જાગી જવું",
+                                    "display-as": "শুৱাৰ পাছত> 30 মিনিটৰ পাছত শাৰ পাই",
+                                    "display-bn": "ঘুম শুরু হওয়ার পরে 30 মিনিটের পরে জেগে উঠুন",
+                                    "display-kn": "ನಿದ್ರೆ ಪ್ರಾರಂಭವಾದ 30 ನಿಮಿಷಗಳ ನಂತರ ಎಚ್ಚರವಾಗಿರುತ್ತದೆ",
+                                    "display-mr": "झोप आल्यावर उठणे > 30 मिनिटे"
+                                },
+                                {
+                                    "id": "ID_1400439234",
+                                    "text": "Number of times patient wakes up",
+                                    "input-type": "number",
+                                    "display-or": "କେତେଥର ଉଠିବା",
+                                    "display-hi": "रोगी की नींद कितनी बार टूटती है?",
+                                    "display-gu": "દરદી કેટલી વખત જાગી જાય છે, સંખ્યા જણાવો",
+                                    "display-as": "ৰোগী জেগি উঠাৰ সংখ্যা",
+                                    "display-bn": "রোগী জেগে ওঠার সংখ্যা",
+                                    "display-kn": "ರೋಗಿಯು ಎಷ್ಟು ಬಾರಿ ಎಚ್ಚರಗೊಳ್ಳುತ್ತಾನೆ",
+                                    "display-mr": "रुग्ण किती वेळा जागा होतो"
+                                },
+                                {
+                                    "id": "ID_994178492",
+                                    "text": "Duration of awakening on average (minutes)",
+                                    "input-type": "number",
+                                    "display": "How long do you stay awake during these episodes?",
+                                    "language": "Patient stays awake for",
+                                    "display-or": "କେତେସମୟ ଅନିଦ୍ରା",
+                                    "display-hi": "आप इस दौरान (नींद खुलने पर) कितनी देर जगे रहते हैं?",
+                                    "display-gu": "આવી રીતે સૂવું- જાગવુંની સ્થિતિમાં કેટલો સમય જાગતા પડ્યા રહો છો?",
+                                    "display-as": "এই পূর্ববোৰ সময়ত আপুনি কিমান জাগি থাকে?",
+                                    "display-bn": "এই পর্বগুলোতে আপনি কতক্ষণ জেগে থাকেন?",
+                                    "display-kn": "ಇವುಗಳ ನಡುವೆ ನೀವು ಎಷ್ಟು ಸಮಯ ಎಚ್ಚರವಾಗಿರುತ್ತೀರಿ?",
+                                    "display-mr": "या दरम्यान तुम्ही किती वेळ जागे राहता?"
+                                }
+                            ],
+                            "display-hi": "हां",
+                            "display-gu": "હા",
+                            "display-as": "হয়",
+                            "display-bn": "হ্যাঁ",
+                            "display-kn": "ಹೌದು",
+                            "display-mr": "हो"
+                        }
+                    ],
+                    "display-hi": "क्या आपकी नींद बीच में टूटती है?*",
+                    "display-gu": "ઊંઘમાં વચ્ચેથી જ જાગી જાઓ છો?*",
+                    "display-as": "টুপনি যাওঁতে টুপনি পৰা উঠে?*",
+                    "display-bn": "আপনার কি মাঝে মাঝে ঘুম হয়?*",
+                    "display-kn": "ನಿದ್ರೆಯ ಮಧ್ಯದಲ್ಲಿ ನೀವು ಎಚ್ಚರಗೊಳ್ಳುತ್ತೀರಾ?*",
+                    "display-mr": "तुम्हाला झोपेतून मध्येच जाग येते का?"
+                },
+                {
+                    "id": "ID_796932302",
+                    "text": "Feel rested upon awakening ",
+                    "display": "Do you feel rested after waking up from sleep?*",
+                    "isRequired": true,
+                    "language": "%",
+                    "display-or": "ଉଠିଲେ ଅରାମ ଲାଗିବ*",
+                    "options": [
+                        {
+                            "id": "ID_917457676",
+                            "text": "Yes",
+                            "language": "Patient feels rested after waking up",
+                            "display-or": "ହଁ",
+                            "display-hi": "हां",
+                            "display-gu": "હા",
+                            "display-as": "হয়",
+                            "display-bn": "হ্যাঁ",
+                            "display-kn": "ಹೌದು",
+                            "display-mr": "हो"
+                        },
+                        {
+                            "id": "ID_1887227671",
+                            "text": "No",
+                            "language": "Patient does not feel rested after waking up",
+                            "display-or": "ନା",
+                            "display-hi": "नहीं",
+                            "display-gu": "ના",
+                            "display-as": "নহয়",
+                            "display-bn": "না",
+                            "display-kn": "ಅಲ್ಲ",
+                            "display-mr": "नाही"
+                        }
+                    ],
+                    "display-hi": "क्या आप सोकर उठने के बाद आराम महसूस करते हैं?*",
+                    "display-gu": "ઊંઘમાંથી ઊઠ્યા પછી એવું લાગે કે આરામ મળી ગયો?*",
+                    "display-as": "টুপনি পৰা উঠাৰ পাছত কি আপোনাৰ বিশ্রামৰ অনুভৱ হৈছে?*",
+                    "display-bn": "আপনি কি ঘুম থেকে উঠে বিশ্রাম অনুভব করছেন?*",
+                    "display-kn": "ನಿದ್ರೆಯಿಂದ ಎದ್ದ ನಂತರ ನೀವು ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತೀರಾ?*",
+                    "display-mr": "झोपेतून उठल्यानंतर तुम्हाला थकल्यासारखे वाटते का?"
+                },
+                {
+                    "id": "ID_268805652",
+                    "text": "Sleepiness during the day",
+                    "display": "Do you feel sleepy during the day?",
+                    "language": "%",
+                    "display-or": "ଦିନରେ ନିଦ ଲାଗିବ",
+                    "options": [
+                        {
+                            "id": "ID_1873822842",
+                            "text": "Yes",
+                            "language": "Patient feels sleepy during the day",
+                            "display-or": "ହଁ",
+                            "options": [
+                                {
+                                    "id": "ID_1714438211",
+                                    "text": "Sleep episodes during normal waking hours (times/day)",
+                                    "input-type": "number",
+                                    "display-or": "କେତେ ଥର",
+                                    "display-hi": "सामान्य रूप से जगे होने पर कितनी बार नींद आने जैसा लगता है (समय/दिन)",
+                                    "display-gu": "જાગવાના કલાકો દરમ્યાન તંદ્રા (કેટલી વખત/દિવસ)",
+                                    "display-as": "সাধাৰণত জাগি থকাৰ সময়বোৰ টুপনিৰ পূর্ববোৰৰ (সময় / দিন)",
+                                    "display-bn": "স্বাভাবিক জেগে থাকার সময় ঘুমের পর্বগুলি (বার/দিন)",
+                                    "display-kn": "ಸಾಮಾನ್ಯವಾಗಿ ಎಚ್ಚರದ ಸಮಯದಲ್ಲಿ ನಿದ್ರೆ ಎಷ್ಟು ಬಾರಿ ಬರುತ್ತದೆ (ಸಮಯ/ದಿನ)",
+                                    "display-mr": "दिवसात किती झोप येते (वेळा/दिवस)"
+                                },
+                                {
+                                    "id": "ID_1534026790",
+                                    "text": "Nap during the day (hours)",
+                                    "input-type": "number",
+                                    "display-or": "କେତେ ସମୟ",
+                                    "display-hi": "दिन में नींद लेते हैं (कितने घंटे)",
+                                    "display-gu": "દિવસ દરમ્યાન ઝોકાં (કલાકો)",
+                                    "display-as": "দিনৰ বেলাত টুপনিৰ (ঘন্টা)",
+                                    "display-bn": "দিনের বেলা ঘুমান (ঘণ্টা)",
+                                    "display-kn": "ಹಗಲಿನಲ್ಲಿ ನಿದ್ದೆ (ಇಷ್ಟು ಗಂಟೆಗಳು)",
+                                    "display-mr": "दिवसा झोपणे (तास)"
+                                }
+                            ],
+                            "display-hi": "हां",
+                            "display-gu": "હા",
+                            "display-as": "হয়",
+                            "display-bn": "হ্যাঁ",
+                            "display-kn": "ಹೌದು",
+                            "display-mr": "हो"
+                        },
+                        {
+                            "id": "ID_1373403039",
+                            "text": "No",
+                            "language": "Patient does not feel sleepy during the day",
+                            "display-or": "ନା",
+                            "display-hi": "नहीं",
+                            "display-gu": "ના",
+                            "display-as": "নহয়",
+                            "display-bn": "না",
+                            "display-kn": "ಅಲ್ಲ",
+                            "display-mr": "नाही"
+                        }
+                    ],
+                    "display-hi": "क्या आपको दिन में नींद महसूस होती है या सुस्सी बनी रहती है?",
+                    "display-gu": "દિવસ દરમ્યાન તંદ્રા અનુભવાય?",
+                    "display-as": "আপুনিৰ দিনত টুপনি ধৰে ?",
+                    "display-bn": "আপনার কি দিনের বেলা ঘুম আসে?",
+                    "display-kn": "ಹಗಲಿನಲ್ಲಿ ನಿಮಗೆ ನಿದ್ರೆ ಬರುತ್ತದೆಯೇ?",
+                    "display-mr": "तुम्हाला दिवसा झोप येते का?"
+                },
+                {
+                    "id": "ID_1778493240",
+                    "text": "Regularity",
+                    "display": "Is your sleep regular?*",
+                    "isRequired": true,
+                    "display-or": "ନିରନ୍ତରତା*",
+                    "options": [
+                        {
+                            "id": "ID_259890131",
+                            "text": "Regular",
+                            "display-or": "ଠିକ ସମୟରେ",
+                            "display-hi": "नियमित",
+                            "display-gu": "નિયમિત",
+                            "display-as": "নিয়মিত",
+                            "display-bn": "নিয়মিত",
+                            "display-kn": "ನಿಯಮಿತ",
+                            "display-mr": "नियमित"
+                        },
+                        {
+                            "id": "ID_947514593",
+                            "text": "Irregular",
+                            "display-or": "ଅସମୟରେ",
+                            "display-hi": "अनियमित",
+                            "display-gu": "અનિયમિત",
+                            "display-as": "অনিয়মিত",
+                            "display-bn": "অনিয়মিত",
+                            "display-kn": "ಅನಿಯಮಿತ",
+                            "display-mr": "अनियमित"
+                        }
+                    ],
+                    "display-hi": "क्या आपकी नींद नियमित है, यानी आप समय पर सोते और जागते हैं?*",
+                    "display-gu": "તમારી ઊંઘ નિયમિત છે?*",
+                    "display-as": "আপুনাৰ টুপনি কি নিয়মিত?*",
+                    "display-bn": "আপনার ঘুম কি নিয়মিত হয়, মানে আপনি সময়মতো ঘুমাতে যান এবং ঘুম থেকে উঠুন?*",
+                    "display-kn": "ನಿಮ್ಮ ನಿದ್ರೆ ನಿಯಮಿತವಾಗಿದೆಯೇ?*",
+                    "display-mr": "तुमची झोप नियमित आहे का?"
+                }
+            ],
+            "display-hi": "सोने का इतिहास",
+            "display-gu": "ઊંઘનો ઇતિહાસ",
+            "display-as": "টুপনিৰ ইতিহাস",
+            "display-bn": "ঘুমের ইতিহাস",
+            "display-kn": "ನಿದ್ರೆಯ ಇತಿಹಾಸ",
+            "display-mr": "झोपेचा इतिहास"
+        },
+        {
+            "id": "ID_1850889406",
+            "text": "Sleep history taking from family",
+            "display": "[Ask the patient's family member] Does the patient exhibit any of the following?*",
+            "isRequired": true,
+            "display-or": "ନିଦ୍ରା ବିବରଣୀ(ପରିବାର ସଦସ୍ୟଙ୍କ ଠାରୁ)*",
+            "options": [
+                {
+                    "id": "ID_1025357986",
+                    "text": "Snoring",
+                    "display-or": "ଘୁଙ୍ଗୁଡ଼ି",
+                    "display-hi": "खर्राटे लेना",
+                    "display-gu": "નસકોરાં બોલાવવાં",
+                    "display-as": "নাকৰ ঘৰ-ঘৰণী",
+                    "display-bn": "নাক ডাকা",
+                    "display-kn": "ಗೊರಕೆ ಹೊಡೆಯುವುದು",
+                    "display-mr": "घोरणे"
+                },
+                {
+                    "id": "ID_1464907362",
+                    "text": "Sleep walking",
+                    "display-or": "ନିଦରେ ଚାଲିବ",
+                    "display-hi": "नींद में चलना",
+                    "display-gu": "ઊંઘમાં ચાલવું",
+                    "display-as": "টুপনিত খোজকঢ়া",
+                    "display-bn": "হাঁটা ঘুম",
+                    "display-kn": "ನಿದ್ದೆಯಲ್ಲಿ ನಡೆಯುವುದು",
+                    "display-mr": "झोपेत चालणे"
+                },
+                {
+                    "id": "ID_1677226834",
+                    "text": "Restless",
+                    "display-or": "ନିଦ ବେଳେ ଅସ୍ତବ୍ୟସ୍ତ ହେବ",
+                    "display-hi": "बेचैनी",
+                    "display-gu": "અજંપ રહેવું",
+                    "display-as": "অস্থিৰ",
+                    "display-bn": "অস্থির",
+                    "display-kn": "ವಿಶ್ರಾಂತಿ ರಹಿತ",
+                    "display-mr": "अस्वस्थ वाटणे"
+                },
+                {
+                    "id": "ID_1527777569",
+                    "text": "Acting out during sleep",
+                    "display-or": "ନିଦ୍ରାରେ ଅଭିନୟ କରିବା",
+                    "display-hi": "नींद में कुछ हरकतें करना",
+                    "display-gu": "ઊંઘ દરમ્યાન વર્તવું",
+                    "display-as": "টুপনিৰ সময়ত অভিনয়",
+                    "display-bn": "ঘুমের সময় অভিনয় করা",
+                    "display-kn": "ನಿದ್ರೆ ಬಂದ ಹಾಗೆ ನಟನೆ",
+                    "display-mr": "झोपेत बोलणे"
+                },
+                {
+                    "id": "ID_1121772684",
+                    "text": "Other abnormal behaviors during sleep (Describe)",
+                    "input-type": "text",
+                    "language": "abnormal behaviors durong sleep",
+                    "display-or": "ଅନ୍ୟ ସମସ୍ୟା",
+                    "display-hi": "सोते समय कोई अन्य असामान्य व्यवहार (वर्णन करें)",
+                    "display-gu": "ઊંઘ દરમ્યાન અન્ય વિચિત્ર વર્તન (જણાવો)",
+                    "display-as": "টুপনিৰ সময়ত অন্যান্য অস্বাভাবিক আচৰণ (বর্ণনা কৰা)",
+                    "display-bn": "ঘুমের সময় অন্যান্য অস্বাভাবিক আচরণ (বর্ণনা করুন)",
+                    "display-kn": "ನಿದ್ರೆಯ ಸಮಯದಲ್ಲಿ ಇತರ ಅಸಹಜ ನಡವಳಿಕೆಗಳು (ವಿವರಿಸಿ)",
+                    "display-mr": "झोपेच्या दरम्यान इतर असामान्य वर्तन (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1794228958",
+                    "text": "None",
+                    "display-or": "କିଛି ନକଲେ/ ମନା",
+                    "exclude-from-multi-choice": true,
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "यापैकी काहीही नाही"
+                }
+            ],
+            "display-hi": "(रोगी के परिवार के सदस्य से पूछें) क्या रोगी को इनमें से कोई समस्या है?*",
+            "display-gu": "[દરદીના કુટુંબીજનને પૂછો] દરદી આવું કંઇ કરે છે?*",
+            "display-as": "[ৰোগীৰ পৰিয়ানৰ সদস্যক জিজ্ঞাসা(সুধা) কৰা] ৰোগী নিম্নলিখিতবোৰৰ মধ্যৰ কোনটো প্রদর্শন কৰে?*",
+            "display-bn": "[রোগীর পরিবারের সদস্যকে জিজ্ঞাসা করুন] রোগী কি নিচের কোনটি প্রদর্শন করে?*",
+            "display-kn": "[ರೋಗಿಯ ಕುಟುಂಬದ ಸದಸ್ಯರನ್ನು ಕೇಳಿ] ರೋಗಿಯು ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದನ್ನಾದರೂ ನಿಮಗೆ ತೋರಿಕೆ ಪಡಿಸುತ್ತಾರೆಯೇ?*",
+            "display-mr": "(रुग्णाच्या कुटुंबातील सदस्याला विचारा) रुग्णाला खालीलपैकी काही लक्षणे आहेत का?"
+        },
+        {
+            "id": "ID_1832671437",
+            "text": "H/o specific illness",
+            "display": "Have you ever been diagnosed with any of the following specific diseases?",
+            "pos-condition": "h/o",
+            "neg-condition": "no h/o",
+            "display-or": "ତମକୁ କେବେ ଆଗରୁ ନିମ୍ନ ଲିଖିତ ବିଶିଷ୍ଟ ରୋଗ ଚିହ୍ନଟ ହୋଇଥିଲା କି?",
+            "options": [
+                {
+                    "id": "ID_1492774961",
+                    "text": "Head trauma",
+                    "display-or": "ମୁଣ୍ଡ ଆଘାତ",
+                    "options": [
+                        {
+                            "id": "ID_1113257474",
+                            "text": "When",
+                            "input-type": "date",
+                            "display-or": "କେବେ",
+                            "display-hi": "कब",
+                            "display-gu": "ક્યારે",
+                            "display-as": "কেতিয়া",
+                            "display-bn": "কখন",
+                            "display-kn": "ಯಾವಾಗ",
+                            "display-mr": "कधी"
+                        }
+                    ],
+                    "display-hi": "सिर में चोट",
+                    "display-gu": "માથાંમાં ઇજા",
+                    "display-as": "মূৰৰ ট্রমা(ভিতৰত আঘাত)",
+                    "display-bn": "মাথায় আঘাত",
+                    "display-kn": "ತಲೆಗೆ ಆಘಾತ",
+                    "display-mr": "डोक्याला आघात"
+                },
+                {
+                    "id": "ID_1280552578",
+                    "text": "Obesity",
+                    "display-or": "ମୋଟାପନ",
+                    "display-hi": "मोटापा",
+                    "display-gu": "મેદસ્વીતા",
+                    "display-as": "স্থূলতা",
+                    "display-bn": "স্থূলতা",
+                    "display-kn": "ಬೊಜ್ಜು",
+                    "display-mr": "लठ्ठपणा"
+                },
+                {
+                    "id": "ID_521841804",
+                    "text": "Parkinson's disease",
+                    "display-or": "ହାତ ଗୋଡ ଥରିବା",
+                    "display-hi": "पार्किंसन रोग",
+                    "display-gu": "પાર્કિન્સન્સનો રોગ",
+                    "display-as": "সংকম্প অঙ্গঘাত",
+                    "display-bn": "পারকিনসন রোগ",
+                    "display-kn": "ಪಾರ್ಕಿನ್ಸನ್ ಕಾಯಿಲೆ",
+                    "display-mr": "पार्किन्सन"
+                },
+                {
+                    "id": "ID_1177626676",
+                    "text": "Thyroid disease",
+                    "display-or": "ଗଲା ଗ୍ରନ୍ଥି ରୋଗ",
+                    "display-hi": "थायराइड रोग",
+                    "display-gu": "થાયરોઇડનો રાગ",
+                    "display-as": "থাইৰয়েড ৰোগ",
+                    "display-bn": "থাইরয়েড রোগ",
+                    "display-kn": "ಥೈರಾಯ್ಡ್ ರೋಗ",
+                    "display-mr": "थायरॉईड"
+                },
+                {
+                    "id": "ID_481279106",
+                    "text": "Depression",
+                    "display-or": "ଅବସାଦ",
+                    "display-hi": "अवसाद/डिप्रेशन",
+                    "display-gu": "અવસાદ",
+                    "display-as": "বিষণ্ণতা",
+                    "display-bn": "বিষণ্ণতা",
+                    "display-kn": "ಖಿನ್ನತೆ",
+                    "display-mr": "निराश"
+                },
+                {
+                    "id": "ID_626164199",
+                    "text": "Anxiety",
+                    "display-or": "ବ୍ୟଗ୍ରତା",
+                    "display-hi": "चिंता",
+                    "display-gu": "વ્યગ્રતા",
+                    "display-as": "উদ্বেগ(চিন্তা)",
+                    "display-bn": "দুশ্চিন্তা",
+                    "display-kn": "ಆತಂಕ",
+                    "display-mr": "चिंता"
+                }
+            ],
+            "display-hi": "क्या आपको कभी इनमें से कोई बीमारी हुई है?",
+            "display-gu": "તમને નીચેનામાંથી કોઇ ચોક્કસ રોગ હોવાનું નિદાન ક્યારેય થયું છે?",
+            "display-as": "আপুনি নিম্নলিখিত নির্দিষ্ট ৰোগৰ লগত চিনাক্ত কৰাছে ?",
+            "display-bn": "আপনি কি কখনও নিম্নলিখিত নির্দিষ্ট রোগে আক্রান্ত হয়েছেন?",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ರೋಗಗಳನ್ನು ಹೊಂದಿದ್ದೀರ ?",
+            "display-mr": "तुम्हाला खालीलपैकी कोणत्याही विशिष्ट आजाराचे निदान झाले आहे का?"
+        },
+        {
+            "id": "ID_1091417827",
+            "text": "Consumption of wake-promoting substances",
+            "display": "Do you usually take wake-promoting substances, such as caffeine beverage?*",
+            "isRequired": true,
+            "display-or": "ଚା କଫି ପିଇବା*",
+            "options": [
+                {
+                    "id": "ID_858352473",
+                    "text": "Yes",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_385991563",
+                            "text": "Frequency",
+                            "input-type": "frequency",
+                            "display-or": "କେତେ ଦିନରେ ଥରେ",
+                            "display-hi": "कितनी बार ",
+                            "display-gu": "કેટલી વાર (ફ્રીક્વન્સી)",
+                            "display-as": "ফ্রিকোয়েন্সি(আবৃত্তি)",
+                            "display-bn": "ফ্রিকোয়েন্সি",
+                            "display-kn": "ಆವರ್ತನ",
+                            "display-mr": "किती वेळा"
+                        },
+                        {
+                            "id": "ID_1723670362",
+                            "text": "Substance (Describe)",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "କଣ",
+                            "display-hi": "पदार्थ (वर्णन करें)",
+                            "display-gu": "પદાર્થ (જણાવો)",
+                            "display-as": "পদার্থ (বর্ণনা)",
+                            "display-bn": "পদার্থ (বর্ণনা করুন)",
+                            "display-kn": "ಯಾವ ವಸ್ತು (ವಿವರಿಸಿ)",
+                            "display-mr": "पदार्थ (वर्णन करा)"
+                        }
+                    ],
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "हो"
+                },
+                {
+                    "id": "ID_1206665409",
+                    "text": "No",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आप आमतौर पर ऐसे पदार्थों का सेवन करते हैं, जिनसे नींद नहीं आती या नींद भग जाती है, जैसे कि कैफीन वाले पेय पदार्थ?*",
+            "display-gu": "સામાન્ય રીતે તમે,જાગી જવામાં મદદ કરે તેવા પદાર્થો , જેમ કે કૅફેઇન પીણાંઓ- લો છો?*",
+            "display-as": "আপুনি কি সাধাৰণতে উয়েক-প্রচাকাৰী পদার্থবোৰ গ্রহণ কৰে, যেনে ক্যাফিন পানীয়?*",
+            "display-bn": "আপনি কি সাধারণত ক্যাফিন পানীয়ের মতো জেগে ওঠার উপাদান গ্রহণ করেন?*",
+            "display-kn": "ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಕೆಫೀನ್ ಪಾನೀಯದಂತಹ ನಿದ್ರೆಯಿಂದ ಎಚ್ಚರವಾಗುವಂತೆ ಉತ್ತೇಜಿಸುವ ವಸ್ತುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ?*",
+            "display-mr": "तुम्ही सहसा कॅफीन शीतपेयासारखे वेक-प्रोत्साहन करणारे पदार्थ घेता का?*"
+        },
+        {
+            "id": "ID_1018130826",
+            "text": "Recent stressful life event",
+            "display": "Have you recently experienced stress?*",
+            "isRequired": true,
+            "display-or": "ନିକଟରେ ଚାପି ସମସ୍ୟା*",
+            "options": [
+                {
+                    "id": "ID_733346684",
+                    "text": "Yes",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_1000947112",
+                            "text": "From",
+                            "display-or": "କେବେ ଠାରୁ",
+                            "input-type": "date",
+                            "display-hi": "कब से",
+                            "display-gu": "ક્યારથી",
+                            "display-as": "পৰা",
+                            "display-bn": "থেকে",
+                            "display-kn": "ಇಂದ",
+                            "display-mr": "कधीपासून"
+                        },
+                        {
+                            "id": "ID_1726996622",
+                            "text": "To",
+                            "input-type": "date",
+                            "display-or": "କେବେ ପର୍ଯ୍ୟନ୍ତ",
+                            "display-hi": "कब तक",
+                            "display-gu": "ક્યાં સુધી",
+                            "display-as": "প্রতি",
+                            "display-bn": "প্রতি",
+                            "display-kn": "ವರೆಗೆ",
+                            "display-mr": "कधीपर्यंत"
+                        },
+                        {
+                            "id": "ID_1720806541",
+                            "text": "Event (Describe)",
+                            "input-type": "text",
+                            "language": "%",
+                            "display-or": "କଣ ଘଟଣା",
+                            "display-hi": "घटना (वर्णन करें)",
+                            "display-gu": "શેને કારણે (જણાવો)",
+                            "display-as": "ইভেন্ট (ঘটনা)(বর্ণনা)",
+                            "display-bn": "ঘটনা (বর্ণনা করুন)",
+                            "display-kn": "ಸಂಧರ್ಭ (ವಿವರಿಸಿ)",
+                            "display-mr": "घटना (वर्णन करा)"
+                        }
+                    ],
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "हो"
+                },
+                {
+                    "id": "ID_1974578265",
+                    "text": "No",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपको हाल ही में तनाव/मानसिक बोझ महसूस हुआ है?*",
+            "display-gu": "હાલમાં તમે તાણ અનુભવી છે?*",
+            "display-as": "আপুনি কি সম্প্রতি(অলপ আগতে) মানসিক চাপ অনুভৱ কৰেছে?*",
+            "display-bn": "আপনি কি সম্প্রতি মানসিক চাপ অনুভব করেছেন?*",
+            "display-kn": "ನೀವು ಇತ್ತೀಚೆಗೆ ಒತ್ತಡವನ್ನು ಅನುಭವಿಸಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्हाला अलीकडे ताण तणाव जाणवला आहे का?"
+        },
+        {
+            "id": "ID_867258253",
+            "text": "Working schedule",
+            "display-or": "କମ ବିବରଣୀ",
+            "options": [
+                {
+                    "id": "ID_167437853",
+                    "text": "Working schedule (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "କମ ବିବରଣୀ",
+                    "display-hi": "वर्किंग शेड्यूल (वर्णन करें)",
+                    "display-gu": "કામકાજનું સમયપત્રક (જણાવો)",
+                    "display-as": "কামৰ সময়সূচী (বর্ণনা)",
+                    "display-bn": "কাজের সময়সূচী (বর্ণনা করুন)",
+                    "display-kn": "ಕೆಲಸದ ವೇಳಾಪಟ್ಟಿ (ವಿವರಿಸಿ)",
+                    "display-mr": "कामाचे वेळापत्रक (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1674757629",
+                    "text": "Working hours (hours/week)",
+                    "input-type": "number",
+                    "display-or": "କେତେ ଘଣ୍ଟା (ସପ୍ତାହକୁ )",
+                    "display-hi": "काम के घंटे/समय (घंटे/हफ्ते)",
+                    "display-gu": "કામકાજના કલાકો (કલાક/સપ્તાહ)",
+                    "display-as": "কামৰ সময় (ঘন্টা / সপ্তাহ)",
+                    "display-bn": "কাজের সময় (ঘন্টা/সপ্তাহ)",
+                    "display-kn": "ಕೆಲಸದ ಸಮಯ (ಗಂಟೆಗಳು/ವಾರ)",
+                    "display-mr": "कामाचे तास (तास/आठवडा)"
+                }
+            ],
+            "display-hi": "वर्किंग शेड्यूल",
+            "display-gu": "કામકાજનું સમયપત્રક",
+            "display-as": "কামৰ সময়সূচী",
+            "display-bn": "কাজের সময়সূচী",
+            "display-kn": "ಕೆಲಸದ ವೇಳಾಪಟ್ಟಿ",
+            "display-mr": "कामाचे वेळापत्रक"
+        },
+        {
+            "id": "ID_1955484371",
+            "text": "Prior treatment sought",
+            "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?",
+            "display-or": "ତମେ ଆଗରୁ କୌଣସି ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)",
+            "options": [
+                {
+                    "id": "ID_1905788414",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                    "display-hi": "हां (वर्णन करें)",
+                    "display-gu": "હા [વિગતે જણાવો]",
+                    "display-as": "হয় [বর্ণনা কৰা]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "हो (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1226925547",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "यापैकी काहीही नाही"
+                }
+            ],
+            "display-hi": "क्या आपने आज यहां आने से पहले इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?",
+            "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?",
+            "display-as": "আজি ইয়াত আহা আগতে আপুনি কি কোনো চিকিৎসা কৰিছিলে (স্ব-ঔষধ বা ঘৰোৱা প্রতিকাৰ সহ ) বা কোনো স্বাস্থ্য সৰবৰাহকাৰীক এই সমস্যাৰ বিষযে দেখোছিলে ?",
+            "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?",
+            "display-kn": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?",
+            "display-mr": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरला दाखवले आहे का?"
+        },
+        {
+            "id": "ID_999260355",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_1106462711",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "(अन्य जानकारी दर्ज करें)",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য লিখা]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "(अजून काही माहिती असल्यास भरा)"
+                }
+            ],
+            "display-hi": "अन्य जानकारी",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अजून काही माहिती असल्यास भरा"
+        }
+    ],
+    "display-hi": "नींद में परेशानी/ नींद समस्या",
+    "display-gu": "ઊંઘમાં ગરબડ",
+    "display-as": "টুপনিৰ ৰোগ",
+    "display-bn": "ঘুম ব্যাধি",
+    "display-kn": "ನಿದ್ರೆಯ ಅಸ್ವಸ್ಥತೆ",
+    "display-mr": "झोपेचा विकार"
+}

@@ -1,0 +1,633 @@
+{
+    "id": "ID_b78aedfb-377a-49dd-ad4b-91de0e6aa224",
+    "text": "White patches in mouth",
+    "engineVersion": "3.0",
+    "display-mr": "तोंडात पांढरे चट्टे",
+    "display-hi": "मुंह में सफेद धब्बे",
+    "options": [
+        {
+            "id": "ID_71f52a64-7829-403a-a732-545e2413c1bb",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0eeed3e9-37d2-46b7-b67d-567e8a0154cd",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_efb50cec-b94b-4974-9ac5-2429225c93f5",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने पसरली ?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ba8f182e-d818-4088-b684-4f56d25541fe",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_34076d91-bfc3-4d3b-bd3d-90f3b233f1fb",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_0490437f-c12a-4265-84fc-12e609de3115",
+            "text": "Do you have any prior history?",
+            "display-mr": "तुम्हाला कोणताही पूर्वेतिहास आहे का?",
+            "display-hi": "क्या आपको निम्नलिखित का कोई पूर्व इतिहास है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_76fd132f-7bad-4b61-9a57-a7fd1ba284aa",
+                    "text": "None",
+                    "display-mr": "कोणताही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2890def8-4ace-4b09-a232-66181cdacb41",
+                    "text": "Hot drink",
+                    "display-mr": "गरम पेय",
+                    "display-hi": "गर्म ड्रिंक पीना"
+                },
+                {
+                    "id": "ID_eea2e973-fcea-43a0-bede-7ec301e9607a",
+                    "text": "Self bite",
+                    "display-mr": "स्वत:च चावणे",
+                    "display-hi": "स्वयं को काट लेना"
+                },
+                {
+                    "id": "ID_fa56c84f-5314-43ad-8b14-fdebceba0517",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_8dca0dd8-2d5f-4824-86ae-9d1c97559d32",
+                    "text": "Consumption of hot food or drinks",
+                    "display-mr": "गरम अन्न किंवा पेयाचे सेवन",
+                    "display-hi": "गर्म भोजन या पेय का सेवन"
+                },
+                {
+                    "id": "ID_2c7ac09f-cd7e-42cb-8c7e-6b5eeaf33893",
+                    "text": "Bottle feeding",
+                    "display-mr": "बाटलीने भरवणे",
+                    "display-hi": "बोतल से दूध पीना"
+                },
+                {
+                    "id": "ID_ec71d29c-ef9d-4189-aa47-85c666033dc3",
+                    "text": "Wearing dentures",
+                    "display-mr": "कवळी लावणे",
+                    "display-hi": "डेन्चर पहनना"
+                },
+                {
+                    "id": "ID_215af02e-a91e-4b3f-aac4-ef0ab313a353",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e2ebdc10-7fd5-438a-b781-2ca795fa926f",
+            "text": "Which of part of mouth do you have the white patches?",
+            "display-mr": "तुमच्या तोंडाच्या कोणत्या भागात पांढरे चट्टे आहेत?",
+            "display-hi": "मुंह के किस हिस्से में आपको सफेद धब्बे हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_fbc2fc9e-20d9-4861-830a-79b7da912f36",
+                    "text": "Inside of cheek",
+                    "display-mr": "गालाच्या आत",
+                    "display-hi": "गाल के अंदर"
+                },
+                {
+                    "id": "ID_e55d9ea9-5b49-41df-b180-f61d7326ac29",
+                    "text": "Upper gum",
+                    "display-mr": "वरची हिरडी",
+                    "display-hi": "ऊपरी मसूड़ा"
+                },
+                {
+                    "id": "ID_2aa9056c-af7d-4740-af2e-dfc44033b994",
+                    "text": "Lower gum",
+                    "display-mr": "खालची हिरडी",
+                    "display-hi": "निचला मसूड़ा"
+                },
+                {
+                    "id": "ID_0e37529c-798e-43f5-b9ee-97025b098a2f",
+                    "text": "Lower lip",
+                    "display-mr": "खालचा ओठ",
+                    "display-hi": "निचले होंठ"
+                },
+                {
+                    "id": "ID_db6f5086-c279-495f-a739-8c1e21adfe34",
+                    "text": "Upper lip",
+                    "display-mr": "वरचा ओठ",
+                    "display-hi": "होंठ के ऊपर का हिस्सा"
+                },
+                {
+                    "id": "ID_71a85227-8bbb-40b8-ad7e-e16cfc863d60",
+                    "text": "Palate",
+                    "display-mr": "टाळू",
+                    "display-hi": "तालु"
+                },
+                {
+                    "id": "ID_cdf54a11-97b7-4678-8e1f-031c017dfd2f",
+                    "text": "Tongue",
+                    "display-mr": "जीभ",
+                    "display-hi": "जीभ"
+                },
+                {
+                    "id": "ID_553127f2-7cc9-44ea-ae39-421681656691",
+                    "text": "Floor of mouth",
+                    "display-mr": "तोंडाचा तळ",
+                    "display-hi": "मुंह का तल"
+                },
+                {
+                    "id": "ID_66799db5-ecf5-4afe-929a-2ca84adcb469",
+                    "text": "Tonsil",
+                    "display-mr": "टॉन्सिल",
+                    "display-hi": "टॉन्सिल"
+                },
+                {
+                    "id": "ID_8c6eaa11-b664-4b18-9904-73cc33e92f9e",
+                    "text": "Throat",
+                    "display-mr": "घसा",
+                    "display-hi": "गला"
+                },
+                {
+                    "id": "ID_80a3e451-1ee7-4007-a342-1b09b5af9b0f",
+                    "text": "Entire mouth",
+                    "display-mr": "संपूर्ण तोंड",
+                    "display-hi": "पूरा मुंह"
+                }
+            ]
+        },
+        {
+            "id": "ID_9c42b07d-ea0f-4a60-a4f4-b7c58f860007",
+            "text": "Which side of mouth do you have the white patches?",
+            "display-mr": "तुमच्या तोंडाच्या कोणत्या बाजूला पांढरे चट्टे आहेत?",
+            "display-hi": "मुंह के किस तरफ आपको सफेद धब्बे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b5ce367f-68ef-44f6-ac0b-feb346a988eb",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बाईं तरफ"
+                },
+                {
+                    "id": "ID_a74ca0e1-ce17-475f-9467-9d665ca955d4",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दाहिनी ओर"
+                },
+                {
+                    "id": "ID_de07ffd7-16e1-4795-abf5-adb55355bff8",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंनी",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_d1050063-de76-470a-85cb-dfca879c12af",
+            "text": "How many white patches are there in your mouth?",
+            "display-mr": "तुमच्या तोंडात किती पांढरे चट्टे आहेत?",
+            "display-hi": "मुंह में आपके कितने सफेद धब्बे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7f609e95-d9fc-4a81-84bf-25fcc3f4ea1a",
+                    "text": "Single",
+                    "display-mr": "अविवाहित",
+                    "display-hi": "एक"
+                },
+                {
+                    "id": "ID_8756a496-cd86-42fc-a844-26a6c017baa3",
+                    "text": "Multiple",
+                    "display-mr": "अनेक",
+                    "display-hi": "कई"
+                }
+            ]
+        },
+        {
+            "id": "ID_dd47c0f5-4d3d-4974-ae6f-ad5ae24c5ff1",
+            "text": "Do you have any of the local associated features with the white patch?",
+            "display-mr": "तुमच्या तोंडातील पांढऱ्या चट्ट्याशी संबंधित काही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको सफेद धब्बे के साथ जुड़ी इनमें से कोई विशेषताएं हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1b16b326-d1cd-48d7-880a-89f55b9f6438",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_abb036c8-b958-4559-ab7f-31800f49194a",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_ffd8a9d4-0b3e-4fd8-9407-692cbb0e7eda",
+                    "text": "Discomfort",
+                    "display-mr": "अस्वस्थता",
+                    "display-hi": "असुविधा"
+                },
+                {
+                    "id": "ID_5e42e907-7c31-417c-9ba6-5e1bd23ab0f0",
+                    "text": "Burning sensation",
+                    "display-mr": "जळजळ होणे",
+                    "display-hi": "जलन होती है"
+                },
+                {
+                    "id": "ID_12e9fce2-934e-4f9d-b3bd-a478d75ecddf",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्राव",
+                    "display-hi": "खून बह रहा है"
+                },
+                {
+                    "id": "ID_432e6744-0f68-4eaf-9463-82c91e6b8715",
+                    "text": "Ulceration",
+                    "display-mr": "अल्सरेशन",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_ba1f7bec-2fdd-4d50-9fe5-a6970f199ff5",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_069c1597-c642-46cd-a0a5-425d609c6fea",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_88dc67c2-75b2-42fd-a1c2-155922f99ff2",
+            "text": "What does relieve or lessen the oral white patches?",
+            "display-mr": "तोंडातील पांढरे चट्ट्यांपासून कशामुळे आराम मिळतो किंवा ते कमी होतात?",
+            "display-hi": "सफेद धब्बों को कम या ठीक करने वाले उपाय क्या हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_68acf671-485d-4473-8754-23a9838fb107",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fb93e678-17a2-4f54-b49a-1e6e07d49c6b",
+                    "text": "Wiping",
+                    "display-mr": "पुसणे",
+                    "display-hi": "पोंछना"
+                },
+                {
+                    "id": "ID_2de0fc0b-5a68-4b0f-ae2a-2c4f1aa70365",
+                    "text": "Brushing",
+                    "display-mr": "घासणे",
+                    "display-hi": "ब्रश करना"
+                },
+                {
+                    "id": "ID_83667848-7702-4961-a969-56d3d9beb6be",
+                    "text": "Rinsing mouth",
+                    "display-mr": "तोंड स्वच्छ धुवा",
+                    "display-hi": "मुंह में कुल्ला करना"
+                },
+                {
+                    "id": "ID_64c3ba2b-e1bf-4de5-a660-a64ff75399fe",
+                    "text": "Plenty of oral fluids",
+                    "display-mr": "भरपूर तोंडी द्रवपदार्थ",
+                    "display-hi": "प्रचुर मात्रा में तरल पदार्थ पीना"
+                },
+                {
+                    "id": "ID_207ce33d-69d3-40cd-9085-cdd1f782f98f",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "निश्चित दवा"
+                },
+                {
+                    "id": "ID_a133ddf5-9d96-4632-893b-27cde11f766e",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c3dc22bb-5b57-4134-95f8-90a38fdfdc00",
+            "text": "What does increase or worsen the white patches?",
+            "display-mr": "तोंडातील पांढरे चट्टे कशामुळे वाढतात किंवा खराब होतात?",
+            "display-hi": "सफेद धब्बों को बढ़ाने या खराब करने वाले कारण क्या हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0ba11325-2520-4683-9734-7f66c988e568",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_8bd811b2-37b0-4078-9161-7ef1fc8f6cb3",
+                    "text": "Dryness of mouth",
+                    "display-mr": "तोंडाचा कोरडेपणा",
+                    "display-hi": "मुंह का सूखना"
+                },
+                {
+                    "id": "ID_d5b01e2c-bb5a-4258-b741-99834e887f09",
+                    "text": "Smoking",
+                    "display-mr": "धुम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_2a38d183-c632-410e-9c4f-511154302f24",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_580a1aba-4d2b-4ca0-b56e-778a6ab72eb9",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "निश्चित दवा"
+                },
+                {
+                    "id": "ID_c8aa7159-c53e-4476-995b-fed7ac37e4b4",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_25ca25cc-878d-4d53-88b3-9ff7f1498a98",
+            "text": "How is the white patch in mouth progressing?",
+            "display-mr": "तोंडातील पांढरा चट्ट्यामध्ये काही बदल आहे का?",
+            "display-hi": "मुंह में सफेद धब्बों में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_feda8ed9-dfa6-4938-bf11-1b98be4fef91",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_49d00930-4632-42d8-b4e2-47c5dca6e9ab",
+                    "text": "Spreading",
+                    "display-mr": "पसरत आहे",
+                    "display-hi": "फैलता हुआ"
+                },
+                {
+                    "id": "ID_0434893b-fc46-4be4-9139-28e08a321563",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_5012a572-3dae-4356-8f2c-692684706feb",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_3e198558-d629-4275-b3b3-d6ef8c9cc986",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_2ab6ee84-8fbb-4ab9-90dc-7afea519bf97",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6e19c744-caaa-48b2-935d-38b42fec0723",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार का टपकना"
+                },
+                {
+                    "id": "ID_ac7a96b3-4bf0-4d1a-83a3-5ddb966cae6e",
+                    "text": "Throat pain",
+                    "display-mr": "घसा दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_8c3468a1-40b5-41d5-b617-a132ff08fcef",
+                    "text": "Difficulty in swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_430e6e16-0f2e-4b8b-8a69-dcb75bec70a7",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासाला दुर्गंधी येणे",
+                    "display-hi": "मुंह से बदबू आना"
+                },
+                {
+                    "id": "ID_5bf1e9d5-ebd7-455d-8067-2b3b59ef25c2",
+                    "text": "Gum bleeding",
+                    "display-mr": "हिरड्यांमधून रक्तस्राव होणे",
+                    "display-hi": "मसूड़े से खून आना"
+                },
+                {
+                    "id": "ID_8fbcd173-fb33-4a15-bf9a-9adae53b46d0",
+                    "text": "Gum swelling",
+                    "display-mr": "हिरड्या सुजणे",
+                    "display-hi": "मसूड़े में सूजन"
+                },
+                {
+                    "id": "ID_cb108d5d-eb86-4a4f-b416-51159cfcccea",
+                    "text": "Altered taste",
+                    "display-mr": "तोंडाची बदललेली चव",
+                    "display-hi": "स्वाद में बदलाव"
+                },
+                {
+                    "id": "ID_3e6549da-c332-4fca-b340-74b8e8dca55f",
+                    "text": "History of dental procedure",
+                    "display-mr": "दंत उपचारांचा इतिहास",
+                    "display-hi": "दांत में कोई प्रक्रिया करवाने का इतिहास"
+                },
+                {
+                    "id": "ID_461a837b-82e3-4ace-a109-dd93a0af5e7a",
+                    "text": "Swollen lymph nodes of neck",
+                    "display-mr": "मानेच्या सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "गर्दन के सूजे हुए लिम्फ नोड्स"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_61de1d97-b0c2-4c99-8217-d5675ceec113",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6932cd8b-8708-4d98-85f5-9dde4beeae52",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9d50bc07-1785-4be0-99cd-3ca56333f97e",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_b6e868d2-74be-4bd7-85ee-66959744ba18",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_73a4d995-9c06-4950-9531-b1b71e223deb",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_bc27d8d8-b0a9-4fae-a83a-5e1173d46159",
+                    "text": "Hair loss",
+                    "display-mr": "केस गळणे",
+                    "display-hi": "बालों का झड़ना"
+                },
+                {
+                    "id": "ID_9e86acc6-7416-4b81-9093-fc4ea8e82ef7",
+                    "text": "Scalp lesions",
+                    "display-mr": "टाळूवर जखमा",
+                    "display-hi": "खोपड़ी पर घाव"
+                },
+                {
+                    "id": "ID_5b0751ed-5481-4534-bb6d-9e1358500c6c",
+                    "text": "Joint swelling",
+                    "display-mr": "सांधे सुजणे",
+                    "display-hi": "जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_e065d1fa-fb14-410b-b7a1-3ecd5d71934d",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटना"
+                },
+                {
+                    "id": "ID_c653e675-2f12-4b41-86db-9988a24cff21",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_2a0167b3-bd5d-4a1a-96fa-c1228a0573f1",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार बार पेशाब आना"
+                },
+                {
+                    "id": "ID_23036956-96a0-40af-a2e2-69fd87acc0ee",
+                    "text": "Genital soreness",
+                    "display-mr": "जननेंद्रियाच्या वेदना",
+                    "display-hi": "जननांग में दर्द"
+                },
+                {
+                    "id": "ID_771133c9-f5d4-47a1-8f1f-fb073778f847",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c2e9d003-108b-44c2-b954-beb28e924344",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4e4d9d9a-ea2b-4e9c-ad17-a1655a2637a0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0949697d-25fd-43a1-89f8-144a191865eb",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_1ad9150c-c416-4c76-9ace-ca06c1df21b4",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c39b9771-649b-473b-9c9d-f28ec6076a6e",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6f1d7e5b-d660-450c-8eb8-0a372cbbde6e",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

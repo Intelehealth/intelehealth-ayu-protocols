@@ -1,0 +1,189 @@
+{
+    "id": "ID_31167b78-115b-4687-8758-d368d0053e89",
+    "text": "Screening for malnutrition (2mo-5yr)",
+    "engineVersion": "3.0",
+    "display-mr": "कुपोषणासाठी स्क्रीनिंग (2 महिने-5 वर्ष)",
+    "display-hi": "कुपोषण की जांच (2 महीने से 5 साल तक)",
+    "options": [
+        {
+            "id": "ID_fc6f0bfe-bf31-4c8a-a793-bfea600467ae",
+            "text": "Weight (Kg)",
+            "display-mr": "वजन (किलो)",
+            "display-hi": "वजन (किग्रा)",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_371a356c-94a9-44a5-8ba7-9a2011932472",
+                    "text": "Weight (Kg)",
+                    "display-mr": "वजन (किलो)",
+                    "display-hi": "वजन (किग्रा)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_828baf9f-d921-495a-8935-ccf8b26a5a57",
+            "text": "Length/Height (cm)",
+            "display-mr": "लांबी/उंची (सेमी)",
+            "display-hi": "लंबाई/ऊंचाई (सेमी)",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_33d815b9-ec7a-413e-b57c-6831e4c587c7",
+                    "text": "Length/Height (cm)",
+                    "display-mr": "लांबी/उंची (सेमी)",
+                    "display-hi": "लंबाई/ऊंचाई (सेमी)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a1c94381-2430-4ded-8c7b-9ad902440c00",
+            "text": "Weight-for-Length/Height (WFL/H) status",
+            "display-mr": "लांबी/उंचीसाठी वजन (WFL/H) स्थिती",
+            "display-hi": "वजन-से-लंबाई/ऊंचाई (डब्ल्यूएफएल/एच) स्थिति",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_548984c9-6bc6-48a6-94cc-d5e62d851c66",
+                    "text": "less than  -3 SD (SAM)",
+                    "display-mr": "less than  -3 SD (SAM)",
+                    "display-hi": "less than  -3 एसडी (एसएएम)"
+                },
+                {
+                    "id": "ID_ac5b15b0-d6d9-483f-aad9-45cc3f579496",
+                    "text": "-3 SD to -2 SD (MAM)",
+                    "display-mr": "-3 SD ते -2 SD (MAM)",
+                    "display-hi": "-3 एसडी से -2 एसडी (एमएएम)"
+                },
+                {
+                    "id": "ID_040fef88-dd2f-4fd2-bb0d-0b044badb025",
+                    "text": "greater than or equal to  -2 SD (No Acute Malnutrition)",
+                    "display-mr": "greater than or equal to  -2 SD (तीव्र कुपोषण नाही)",
+                    "display-hi": "greater than or equal to  -2 एसडी (कोई तीव्र कुपोषण नहीं)"
+                }
+            ]
+        },
+        {
+            "id": "ID_1d7efb78-ebd0-4449-b0be-0ea226bd9ff2",
+            "text": "Is the child aged 6 months or more?",
+            "display-mr": "मुलाचे वय 6 महिने किंवा त्याहून अधिक आहे का?",
+            "display-hi": "क्या बच्चा 6 महीने या उससे अधिक उम्र का है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_da4b50eb-10c7-4a62-943a-45d2a3d456af",
+                    "text": "Not applicable",
+                    "display-mr": "लागू नाही",
+                    "display-hi": "लागू नहीं"
+                },
+                {
+                    "id": "ID_e6b0b508-85ce-410b-b5ab-c36e1235ca8c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_a31f27bd-dbd1-4ad3-a76a-4e54de041bba",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_b38848cd-daca-4678-bcaf-8c3c9bd567cc",
+            "text": "MUAC (cm)",
+            "display-mr": "MUAC (सेमी)",
+            "display-hi": "MUAC (सेमी)",
+            "options": [
+                {
+                    "id": "ID_ed3539a0-d335-44cd-827e-2c6f375aaa2f",
+                    "text": "MUAC (cm)",
+                    "display-mr": "MUAC (सेमी)",
+                    "display-hi": "MUAC (सेमी)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ead7f548-7c86-4716-9fa4-168aba8d92c6",
+            "text": "MUAC status",
+            "display-mr": "MUAC स्थिती",
+            "display-hi": "MUAC स्थिति",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9a5a7b85-9993-4350-a097-4305bd0d08dc",
+                    "text": "less than  11.5 cm (SAM)",
+                    "display-mr": "less than  11.5 सेमी (SAM)",
+                    "display-hi": "less than  11.5 सेमी (एसएएम)"
+                },
+                {
+                    "id": "ID_dac36a65-8202-48ae-9622-30496f824472",
+                    "text": "11.5 to 12.4 cm (MAM)",
+                    "display-mr": "11.5 ते 12.4 सेमी (MAM)",
+                    "display-hi": "11.5 से 12.4 सेमी (एमएएम)"
+                },
+                {
+                    "id": "ID_a642a45d-86e2-4bdc-be3d-3dd94c07ce70",
+                    "text": "greater than or equal to  12.5 cm (No Acute Malnutrition)",
+                    "display-mr": "greater than or equal to  12.5 सेमी (तीव्र कुपोषण नाही)",
+                    "display-hi": "greater than or equal to  12.5 सेमी (कोई तीव्र कुपोषण नहीं)"
+                }
+            ]
+        },
+        {
+            "id": "ID_836dc9ad-ca61-4ee3-a1ba-11b37d0c4567",
+            "text": "Oedema both feet",
+            "display-mr": "दोन्ही पायांवर सूज",
+            "display-hi": "दोनों पैरों में एडिमा",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_21daf44d-e2e5-4264-a44b-db02c35fda90",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2ed00b22-3e9f-4f7e-9047-6f2cefc2290d",
+                    "text": "Pitting oedema",
+                    "display-mr": "पिटिंग एडेमा (दाबल्यावर खड्डा पडतो)",
+                    "display-hi": "दबाने पर गड्ढा बना देने वाली सूजन"
+                },
+                {
+                    "id": "ID_0d5d0bf5-6c8a-4bf0-ad8b-3b82b75e7faa",
+                    "text": "Non-pitting oedema",
+                    "display-mr": "नॉन-पिटिंग एडेमा (दाबल्यावर खड्डा पडत नाही)",
+                    "display-hi": "दबाने पर गड्ढा नहीं बनाने वाली सूजन"
+                }
+            ]
+        },
+        {
+            "id": "ID_866f2924-3908-4072-b61c-46ec44b9daa7",
+            "text": "Visible severe wasting",
+            "display-mr": "दृष्यमान गंभीर स्वरूपाचा मांसक्षय",
+            "display-hi": "साफ दिखाई देने वाला गंभीर क्षय",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e3e4f657-c86a-4706-a515-235c7bb2ef29",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_5b37d193-1298-4d10-80f8-844f4e791e84",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        }
+    ]
+}

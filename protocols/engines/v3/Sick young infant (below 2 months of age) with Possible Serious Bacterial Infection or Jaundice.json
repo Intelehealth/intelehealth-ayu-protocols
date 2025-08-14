@@ -1,0 +1,293 @@
+{
+    "id": "ID_e164c788-1005-42e5-af5f-81c8a79089f1",
+    "text": "Sick young infant (below 2 months of age) with Possible Serious Bacterial Infection or Jaundice",
+    "engineVersion": "3.0",
+    "display-mr": "संभाव्य गंभीर जिवाणू संसर्ग किंवा कावीळ असलेले आजारी लहान बाळ (२ महिन्यांपेक्षा कमी वयाचे)",
+    "display-hi": "संभावित गंभीर जीवाणु संक्रमण या पीलिया के साथ (2 महीने से कम उम्र) बीमार छोटा शिशु",
+    "options": [
+        {
+            "id": "ID_9a67d910-7f56-45da-babb-28d927afc505",
+            "text": "ASK",
+            "display-mr": "विचारा",
+            "display-hi": "पूछें",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_aee2bd87-6f48-4666-ae00-901f3421d023",
+                    "text": "Is the infant having difficulty in feeding?",
+                    "display-mr": "बाळाला दूध पिण्यास अडचण येते का?",
+                    "display-hi": "क्या शिशु को दूध पीने में दिक्कत हो रही है?",
+                    "isRequired": true,
+                    "multi-choice": false,
+                    "options": [
+                        {
+                            "id": "ID_4dcac889-d01e-458d-8493-6fe325700bd5",
+                            "text": "No",
+                            "display-mr": "नाही",
+                            "display-hi": "नहीं"
+                        },
+                        {
+                            "id": "ID_ee09b4bf-63ea-47ac-94a0-fa25bcfd69e2",
+                            "text": "Yes",
+                            "display-mr": "होय",
+                            "display-hi": "हां"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_f59efa84-1e69-4ee0-a95e-b2a8fa81b65a",
+                    "text": "Has the infant had convulsions?",
+                    "display-mr": "बाळाला फेफरे आले आहे का?",
+                    "display-hi": "क्या शिशु को (मिरगी के) झटके आए थे?",
+                    "isRequired": true,
+                    "multi-choice": false,
+                    "options": [
+                        {
+                            "id": "ID_9edc13af-2fa8-4bcf-86a8-a444d85b39fe",
+                            "text": "No",
+                            "display-mr": "नाही",
+                            "display-hi": "नहीं"
+                        },
+                        {
+                            "id": "ID_89b1199e-0192-4c27-8223-b96e40e4ee0c",
+                            "text": "Yes",
+                            "display-mr": "होय",
+                            "display-hi": "हां"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_a99eb81e-5081-4932-ab17-4677b29bd7ee",
+                    "text": "Is the child having jaundice?",
+                    "display-mr": "बाळाला कावीळ झाली आहे का?",
+                    "display-hi": "क्या बच्चे को पीलिया है?",
+                    "isRequired": true,
+                    "multi-choice": false,
+                    "options": [
+                        {
+                            "id": "ID_6ebe57be-f67f-472a-a77c-0fdb46911577",
+                            "text": "No",
+                            "display-mr": "नाही",
+                            "display-hi": "नहीं"
+                        },
+                        {
+                            "id": "ID_6078ee05-2c20-4610-a3fb-3cdc1b3d85fd",
+                            "text": "Yes",
+                            "display-mr": "होय",
+                            "display-hi": "हां",
+                            "options": [
+                                {
+                                    "id": "ID_52ad121d-d903-46ee-b237-f7308f480179",
+                                    "text": "When did jaundice first appear?",
+                                    "display-mr": "कावीळ प्रथम केव्हा दिसून आली?",
+                                    "display-hi": "पीलिया सबसे पहले कब हुआ था?",
+                                    "multi-choice": false,
+                                    "options": [
+                                        {
+                                            "id": "ID_eea1321a-5cd3-4526-b2d9-726b0a7d24c5",
+                                            "text": "Hours",
+                                            "display-mr": "तास",
+                                            "display-hi": "घंटे"
+                                        },
+                                        {
+                                            "id": "ID_fa8bc08b-15b4-45c5-b398-770f0dbc2918",
+                                            "text": "Days",
+                                            "display-mr": "दिवस",
+                                            "display-hi": "दिन"
+                                        },
+                                        {
+                                            "id": "ID_1560ec4d-084e-4882-b171-140751e25bfb",
+                                            "text": "Weeks",
+                                            "display-mr": "आठवडा (आठवडे)",
+                                            "display-hi": "सप्ताह"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ec62dbf6-0796-4eca-81d0-0cac9b996f98",
+            "text": "LOOK & LISTEN & FEEL",
+            "display-mr": "पहा आणि ऐका आणि अनुभवा",
+            "display-hi": "देखें और सुनें और महससू करें",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c941752f-a4ad-45c1-883e-fdea1f6064cd",
+                    "text": "Respiratory rate (RR)",
+                    "display-mr": "श्वसन दर (RR)",
+                    "display-hi": "सांस की दर (आरआर)",
+                    "input-type": "number"
+                },
+                {
+                    "id": "ID_ef2b45a2-9892-4368-b781-4ba318d6b519",
+                    "text": "Chest indrawing",
+                    "display-mr": "छाती आत ओढणे",
+                    "display-hi": "छाती में अंदर की ओर खींचना",
+                    "multi-choice": false,
+                    "options": [
+                        {
+                            "id": "ID_efb150ae-bef7-4efd-9d1d-3fe835dbe941",
+                            "text": "No",
+                            "display-mr": "नाही",
+                            "display-hi": "नहीं"
+                        },
+                        {
+                            "id": "ID_9195480e-5166-4fa3-a838-2b9850da3317",
+                            "text": "Yes",
+                            "display-mr": "होय",
+                            "display-hi": "हां"
+                        }
+                    ]
+                },
+                {
+                    "id": "ID_9467a1d6-ea9c-4893-a3fe-a2e5a3e9cd50",
+                    "text": "Temperature (F)",
+                    "display-mr": "तापमान (F)",
+                    "display-hi": "तापमान (F)",
+                    "input-type": "number"
+                }
+            ]
+        },
+        {
+            "id": "ID_6590378c-408e-470a-a2a7-546d5ac767f6",
+            "text": "Young infant's movements?",
+            "display-mr": "लहान बाळाच्या हालचाली?",
+            "display-hi": "छोटे शिशु की हरकतें?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a2ff23d3-f885-490b-9446-b8d26734282a",
+                    "text": "Moves on own",
+                    "display-mr": "स्वतःहून हलतो",
+                    "display-hi": "अपने आप हिलता है"
+                },
+                {
+                    "id": "ID_7f49f700-acd7-4ca8-9036-9ba1f1b90408",
+                    "text": "Moves only when stimulated but then stops",
+                    "display-mr": "उत्तेजना दिल्यावरच हालचाल करतो पण नंतर थांबतो",
+                    "display-hi": "सिर्फ उत्तेजित होने पर हिलता है लेकिन फिर रुक जाता है"
+                },
+                {
+                    "id": "ID_558df9ab-c1ce-45d9-b62a-ee50c9a1e9bb",
+                    "text": "Not move at all",
+                    "display-mr": "अजिबात हलत नाही",
+                    "display-hi": "बिल्कुल नहीं हिलता"
+                }
+            ]
+        },
+        {
+            "id": "ID_fc82b2f9-bacc-481f-8eb5-4971ef172c09",
+            "text": "Umbilicus",
+            "display-mr": "नाळ",
+            "display-hi": "नाभि",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a964dd4f-6439-4331-a273-0fae3a18b1a5",
+                    "text": "Normal",
+                    "display-mr": "सामान्य",
+                    "display-hi": "सामान्य"
+                },
+                {
+                    "id": "ID_f966936b-6433-4f56-888c-d9a6529ef6be",
+                    "text": "Red",
+                    "display-mr": "लाल",
+                    "display-hi": "लाल"
+                },
+                {
+                    "id": "ID_1076ae07-cb72-4d7d-805c-f60921338587",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्त्राव",
+                    "display-hi": "रक्तस्राव"
+                },
+                {
+                    "id": "ID_a67e3a96-5cc5-4332-a4f3-5c2a7459dab9",
+                    "text": "Draining pus",
+                    "display-mr": "पू चा स्त्राव होतो",
+                    "display-hi": "मवाद निकलना"
+                },
+                {
+                    "id": "ID_e4320d69-ae16-4710-ad58-5211cc868c93",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_acdc9649-0171-4443-9ded-06cd2a0e7e28",
+            "text": "Skin pustules",
+            "display-mr": "त्वचेवर फोड",
+            "display-hi": "त्वचा पर दाने",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f8faf956-cbfc-44da-baa4-906a02807e09",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_175719ab-0a2d-4254-bc9f-fb1edae72266",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_b1ab45c7-a34c-401c-a539-9dc943b7f54e",
+            "text": "Is Jaundice present?",
+            "display-mr": "कावीळ आहे का?",
+            "display-hi": "क्या पीलिया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_29c466ec-e274-4140-979e-5be9dbc548f7",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_3b89a43e-47e5-4675-ba14-fa27d179516b",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_13d1f48c-b51e-4e59-8d99-bf0492a4753c",
+                            "text": "Are the palms & soles yellow?",
+                            "display-mr": "हाथ आणि तळवे पिवळे आहेत का?",
+                            "display-hi": "क्या हथेलियां और तलवे पीले हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_5e910a05-b663-41c4-8d55-8a671ae50f47",
+                                    "text": "No",
+                                    "display-mr": "नाही",
+                                    "display-hi": "नहीं"
+                                },
+                                {
+                                    "id": "ID_57e62f92-5b76-4ab7-afe5-a81a3fcd2f53",
+                                    "text": "Yes",
+                                    "display-mr": "होय",
+                                    "display-hi": "हां"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

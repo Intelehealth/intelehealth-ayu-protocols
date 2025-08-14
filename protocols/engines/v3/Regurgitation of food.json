@@ -1,0 +1,479 @@
+{
+    "id": "ID_b327fdd2-310a-4519-bad6-bdb69b0f7a5c",
+    "text": "Regurgitation of food",
+    "engineVersion": "3.0",
+    "display-mr": "अन्न उलटून वर येणे",
+    "display-hi": "खाना दोबारा उगलना",
+    "options": [
+        {
+            "id": "ID_9fb29a50-291e-470f-8360-fecd5367f064",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_90d70d43-56a9-4ae1-8c05-fd40cf83cdb8",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_c69c3764-7180-4255-92fc-00730f9a248c",
+            "text": "How fast did the symptom develop?",
+            "display-mr": "हे लक्षणे किती वेगाने विकसित झाले?",
+            "display-hi": "लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_644a09a4-697e-47b9-8419-c74620a75e6a",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_816d6509-4784-4ae7-974c-5afd368f3bd5",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_2e52a449-83af-4fc7-9704-252f986c653a",
+            "text": "What type of stomach material is regurgitated?",
+            "display-mr": "पोटातील कोणत्या प्रकारची सामग्री बाहेर टाकली जाते?",
+            "display-hi": "पेट की किस प्रकार की सामग्री उगली जाती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8073c2be-6aad-4a93-bb2c-992b877546e6",
+                    "text": "Solid undigested food",
+                    "display-mr": "न पचलेले घन अन्न",
+                    "display-hi": "ठोस अपच भोजन"
+                },
+                {
+                    "id": "ID_c686f133-9cb3-4e25-9b1d-4f0df1f5efbc",
+                    "text": "Liquid food",
+                    "display-mr": "द्रव अन्न",
+                    "display-hi": "तरल भोजन"
+                },
+                {
+                    "id": "ID_80ad26ce-83d1-4500-ba13-71a309175f56",
+                    "text": "Both",
+                    "display-mr": "दोन्ही",
+                    "display-hi": "दोनों"
+                }
+            ]
+        },
+        {
+            "id": "ID_fa99a6f7-a262-4820-8fad-b4abbf6c9198",
+            "text": "Do you notice any pattern of regurgitation of food in a 24 hour day cycle?",
+            "display-mr": "दिवसाच्या 24 तासांत अन्नाचे रेगर्गिटेशन करण्याचा कोणतेही चक्र तुमच्या लक्षात येते का?",
+            "display-hi": "क्या आपको 24 घंटे के दिन के चक्र में भोजन के दोबारा उगलने का कोई पैटर्न नजर आता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_45f08cc0-c5f7-4cd4-84ec-b3db1acb4150",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "स्थिर"
+                },
+                {
+                    "id": "ID_092a092c-33bc-4c33-8b76-0535c394393b",
+                    "text": "Intermittent (on & off)",
+                    "display-mr": "अधूनमधून (असते आणि नसते)",
+                    "display-hi": "रुक-रुक कर (चालू और बंद)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_37ea6f59-5657-4b61-a636-dc63cc4ed0f5",
+                            "text": "What time of day do you have the regurgitation worst?",
+                            "display-mr": "दिवसाच्या कोणत्या वेळी तुम्हाला अन्नाचे सर्वात जास्त स्राव होते?",
+                            "display-hi": "आपको दिन के किस समय भोजन उगलने की समस्या सबसे अधिक होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_d58b9a76-8e87-40a7-81b6-ca3483a6fc3a",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_1cdbd669-3370-4c0f-85d3-4388cdbcd81e",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_07028daa-21be-41dd-bedf-c299bafcc1e8",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_0bde106f-41b0-41fb-92a1-cba022e9b82f",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e41129ab-71a6-4e7c-8481-41b412871615",
+            "text": "What does increase or worsen the regurgitation?",
+            "display-mr": "रेगर्गिटेशन कशामुळे वाढते किंवा बिघडते?",
+            "display-hi": "भोजन उगलने की समस्या को बढ़ाने या खराब करने का क्या कारण है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_70be3c79-7529-4092-be2f-8006df5b7f02",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_f756b111-2f27-4cf0-ace2-448ec1a59f09",
+                    "text": "Large meals",
+                    "display-mr": "भरपूर जेवण",
+                    "display-hi": "अधिक भोजन"
+                },
+                {
+                    "id": "ID_15904bfb-b9d6-4f40-a065-514d6e6d11cd",
+                    "text": "Bending over",
+                    "display-mr": "वाकणे",
+                    "display-hi": "आगे झुकने पर"
+                },
+                {
+                    "id": "ID_363b6e6c-6f01-4ded-b13a-46315f2b2886",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहणे",
+                    "display-hi": "लेटने पर"
+                },
+                {
+                    "id": "ID_c412b82a-9dfe-4221-93c2-6128f37deb36",
+                    "text": "Certain food",
+                    "display-mr": "विशिष्ट अन्नपदार्थ",
+                    "display-hi": "कुछ निश्चित खाद्य"
+                },
+                {
+                    "id": "ID_7cc7f0a6-b7f0-4cc7-8da0-c0d5ab7797d6",
+                    "text": "Smoking",
+                    "display-mr": "धूम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_1df0cc9d-33f3-42c4-9c59-f5fd62dd8981",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_02bb2c56-3e00-410f-a28a-1d727682b0c1",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "निश्चित दवा"
+                },
+                {
+                    "id": "ID_de9ec6f1-7aa9-4f44-a04a-2f5f0da1c529",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_bc50f323-cc40-400e-82f2-8bb637b2570c",
+            "text": "What does relieve or lessen the regurgitation?",
+            "display-mr": "रेगर्गिटेशनपासून कशामुळे आराम मिळतो किंवा ते कमी होते",
+            "display-hi": "भोजन उगलने की समस्या को कम या ठीक करने वाले उपाय क्या हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_921cff17-3804-4741-9a17-3105e2116e96",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0f38338b-17f3-4130-a0a3-a45833187d32",
+                    "text": "Sitting",
+                    "display-mr": "बसल्याने",
+                    "display-hi": "बैठना"
+                },
+                {
+                    "id": "ID_9f7c05ea-0810-4a1e-a2eb-bfd85fb9b2b9",
+                    "text": "Leaning forward",
+                    "display-mr": "पुढे झुकल्याने",
+                    "display-hi": "आगे की ओर झुकाव"
+                },
+                {
+                    "id": "ID_471e9d83-21ac-4b1d-80c0-b324c89a9df5",
+                    "text": "Certain position",
+                    "display-mr": "विशिष्ट शरीरस्थिती",
+                    "display-hi": "कुछ निश्चित स्थिति"
+                },
+                {
+                    "id": "ID_b7ed7a73-f546-49b1-928f-1a7f29b09b92",
+                    "text": "Small meals",
+                    "display-mr": "थोडे जेवण",
+                    "display-hi": "कम भोजन"
+                },
+                {
+                    "id": "ID_82af3528-ea66-4f65-87ce-9019dccb3438",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "निश्चित दवा"
+                },
+                {
+                    "id": "ID_3646ff70-fd9a-40f5-b9d2-ef94302b5524",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ef827485-dadf-4d1c-b125-ae0b3f0f8c96",
+            "text": "How is the regurgitation of food progressing?",
+            "display-mr": "अन्नाचे रेगर्गिटेशन कसे वाढत आहे?",
+            "display-hi": "भोजन उगलने की समस्या कैसे बढ़ या घट रही है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f93692eb-3d87-40c9-a2ae-2492c578de6e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रही है"
+                },
+                {
+                    "id": "ID_74d1bab3-691b-4cc8-8710-5119694cda57",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रही है"
+                },
+                {
+                    "id": "ID_4ba7415f-7861-4b68-b170-169e0484f0dc",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_9f669887-0a35-4b66-a724-71899402e6e0",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_d946f0e5-5689-4cf5-9ae7-7b0cc47789b5",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1d095658-0dc6-4e14-aefa-15c013de37ae",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ",
+                    "display-hi": "पेट में जलन"
+                },
+                {
+                    "id": "ID_a8ce5fda-39b8-4993-ad52-0e40632466cd",
+                    "text": "Indigestion",
+                    "display-mr": "अपचन",
+                    "display-hi": "अपच"
+                },
+                {
+                    "id": "ID_a3b4800e-bb03-4e6d-9212-14dad839eba9",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासाला दुर्गंधी",
+                    "display-hi": "सांस में बदबू"
+                },
+                {
+                    "id": "ID_f8dfb33b-15dc-4cd9-8920-1b643baca0ad",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_559294eb-d696-4cdf-a093-6a116f3a7325",
+                    "text": "Painful swallowing",
+                    "display-mr": "गिळताना वेदना होणे",
+                    "display-hi": "निगलने में दर्द होना"
+                },
+                {
+                    "id": "ID_28cb7466-bf52-4e1e-8703-8b97a23425db",
+                    "text": "Bad taste in mouth",
+                    "display-mr": "तोंडाची चव बिघडणे",
+                    "display-hi": "मुंह का स्वाद ख़राब होना"
+                },
+                {
+                    "id": "ID_d6c5648f-9b44-49ea-ac1a-d46e3094cb7a",
+                    "text": "Bloating of abdomen",
+                    "display-mr": "पोट फुगणे",
+                    "display-hi": "पेट का फूलना"
+                },
+                {
+                    "id": "ID_545e2756-ad76-4437-a968-41e048c17303",
+                    "text": "Waterbrash",
+                    "display-mr": "वॉटरब्रॅश (घशात आम्ल येणे)",
+                    "display-hi": "वॉटर ब्रैश (पेट से मुंह में खट्टा तरल निकलना)"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_859dbeb9-4cb0-4fbe-b888-56d556460379",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9df2afd5-a6b1-4990-a486-d03c52faabbd",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_eca68fdb-cc74-409e-bd70-34738268717f",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_40f3f0ef-b17f-4d54-bfd9-867f717a82fa",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "ठंड लगना और दर्द"
+                },
+                {
+                    "id": "ID_3b6f1add-574d-4588-9d78-783db061a8cd",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "पेशाब का टपकना"
+                },
+                {
+                    "id": "ID_957ab822-e9c2-49ea-9c91-e5607316920b",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "योनि से असामान्य रूप से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_6ea14607-9f63-40e4-8d0c-5e23b101be8a",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "लिंग से तरल पदार्थ का निकलना"
+                },
+                {
+                    "id": "ID_a5929682-0067-4751-bdb8-9fc5a82b312b",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाजाचा कर्कशपणा",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_6141b241-02e3-44a6-a152-feed514b8c7e",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_3602d52c-4dfe-49f9-b8d8-aafb053fcfbc",
+                    "text": "Epigastric pain",
+                    "display-mr": "अधिजठराच्या वेदना",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_3883e3ff-6a48-4c64-9b7d-f5696635156e",
+                    "text": "Black stools",
+                    "display-mr": "काळे मल",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_ed2f7098-3cbe-42d3-94df-b36ac8fd5edd",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "पीठ में दर्द"
+                },
+                {
+                    "id": "ID_250ac7e2-c7aa-4f47-a1bf-caff7ba08635",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_93e2b314-b15a-4820-8c04-1c49f2b567f5",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_06a1c71a-bb78-48e0-9d60-9adaf294451a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0f3a1a25-66db-43c1-b724-fde0eb8ddffc",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_839b6c2f-9928-4ade-bf79-97760fda7e5e",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ab69ab45-c30e-4584-99de-3252a1a0c41b",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_118a9507-f929-465a-8d8f-2da1ac7fe878",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,562 @@
+{
+    "id": "ID_9fa5c760-5ba5-42bc-b811-0cc0623e4416",
+    "text": "Visual disturbance",
+    "engineVersion": "3.0",
+    "display-mr": "दृष्टिदोष",
+    "display-hi": "दृष्टि विकार",
+    "options": [
+        {
+            "id": "ID_9d02cb07-36eb-444d-9e34-769448be4484",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_278ca0dd-21f9-482d-ba51-c22c9b22cb34",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_808639ea-2dc7-44e1-af95-3c58e69bf068",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_51f94ec4-e05d-4242-923d-eb7560fa8e42",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_f1f5cb3b-572f-4601-bab2-540a79fd0288",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_bc442d6e-dcee-4fe4-bba3-c12f10614ae2",
+            "text": "How do you describe your visual disturbance?",
+            "display-mr": "तुम्ही तुमच्या व्हिज्युअल डिस्टर्बन्स (दृष्टिदोष) चे वर्णन कसे कराल?",
+            "display-hi": "आप अपनी दृष्टि विकार को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_384feecb-b1ab-4e2c-ac9d-ae2e982e2b2d",
+                    "text": "Blurred vision (cloudy)",
+                    "display-mr": "अस्पष्ट दृष्टी (धूसर)",
+                    "display-hi": "धुंधली दृष्टि (धुंधला)"
+                },
+                {
+                    "id": "ID_f2b80a9f-c34c-4082-a734-2fdb001bbc60",
+                    "text": "Double vision",
+                    "display-mr": "दुहेरी दृष्टी",
+                    "display-hi": "दोहरी दृष्टि"
+                },
+                {
+                    "id": "ID_d04cff8f-6e15-442a-ac4a-070c1a4c3e19",
+                    "text": "Difficulty seeing near objects",
+                    "display-mr": "जवळच्या वस्तू पाहण्यात अडचण",
+                    "display-hi": "निकट की वस्तुएं देखने में कठिनाई"
+                },
+                {
+                    "id": "ID_bdc86d8e-b583-400c-a9b0-9dd0661f53f2",
+                    "text": "Difficulty seeing distant objects",
+                    "display-mr": "दूरच्या वस्तू पाहण्यात अडचण",
+                    "display-hi": "दूर की वस्तुएं देखने में कठिनाई"
+                },
+                {
+                    "id": "ID_4347b7b8-07bc-4004-89d6-3c0baf1fa8d0",
+                    "text": "Tube vision",
+                    "display-mr": "ट्यूब व्हिजन (नळी मधून पाहिल्याप्रमाणे दिसणे)",
+                    "display-hi": "नली जैसी दृष्टि"
+                },
+                {
+                    "id": "ID_ff5f3146-b3a5-4981-a8b1-6be216e4393b",
+                    "text": "Loss of vision",
+                    "display-mr": "दृष्टी कमी होणे",
+                    "display-hi": "दिखाई नहीं देता"
+                }
+            ]
+        },
+        {
+            "id": "ID_0416d70b-11b6-4ff5-9e0d-dfe8955cd8fa",
+            "text": "Which eye is affected?",
+            "display-mr": "कोणत्या डोळ्यावर परिणाम होतो?",
+            "display-hi": "कौन सी आंख प्रभावित है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_93d087af-feea-408c-82e7-804c3d6bc3c2",
+                    "text": "Left eye",
+                    "display-mr": "डावा डोळा",
+                    "display-hi": "बाईं आंख"
+                },
+                {
+                    "id": "ID_14bf8462-6ab4-4e43-b696-be4f2f5ff2f0",
+                    "text": "Right eye",
+                    "display-mr": "उजवा डोळा",
+                    "display-hi": "दाईं आंख"
+                },
+                {
+                    "id": "ID_6211902c-33a0-4d68-9e4f-ad50e46ac753",
+                    "text": "Both eyes",
+                    "display-mr": "दोन्ही डोळे",
+                    "display-hi": "दोनों आंखें"
+                }
+            ]
+        },
+        {
+            "id": "ID_b99f5fd5-9d7e-412a-af5f-cfe2142e83b6",
+            "text": "Which eye is more severely affected?",
+            "display-mr": "कोणत्या डोळ्याला जास्त त्रास होतो?",
+            "display-hi": "कौन सी आंख अधिक गंभीर रूप से प्रभावित है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7dfe5761-30e0-4b68-ad4a-ea616900bce2",
+                    "text": "Left eye",
+                    "display-mr": "डावा डोळा",
+                    "display-hi": "बाईं आंख"
+                },
+                {
+                    "id": "ID_e59cb42e-3b06-486f-b3ff-9cb85bce7f3a",
+                    "text": "Right eye",
+                    "display-mr": "उजवा डोळा",
+                    "display-hi": "दाईं आंख"
+                },
+                {
+                    "id": "ID_26da0872-260b-43fb-8f91-8e951f0094d1",
+                    "text": "Equal in both eyes",
+                    "display-mr": "दोन्ही डोळ्यांमध्ये समान",
+                    "display-hi": "दोनों आंखों में समान"
+                }
+            ]
+        },
+        {
+            "id": "ID_8615070b-6c9a-4a10-8259-ee952a1f7176",
+            "text": "How the visual disturbance progressed over the duration of time?",
+            "display-mr": "कालांतराने व्हिज्युअल डिस्टर्बन्स (दृष्टिदोष) कसा वाढला (मध्ये काही बदल)?",
+            "display-hi": "समय के साथ दृष्टि विकार कैसे बढ़ा (में कुछ बदलाव)?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_0e8248ff-a115-4f36-882e-4457b8586442",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_e208c6a5-547f-4125-9323-98bc5a14eb71",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "कम हो रहा है"
+                },
+                {
+                    "id": "ID_d5f078fc-324f-4035-9335-5867d9dfa811",
+                    "text": "Fluctuant",
+                    "display-mr": "चढउतार",
+                    "display-hi": "उतार-चढ़ाव होना"
+                },
+                {
+                    "id": "ID_9b991836-a043-4b78-b890-9de2a008ab7b",
+                    "text": "Transient",
+                    "display-mr": "तात्पुरता",
+                    "display-hi": "कुछ समय के लिए"
+                },
+                {
+                    "id": "ID_fc3ad590-7cfb-4dc3-b6bb-a2eb01d29a73",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_ab3434c6-b58c-4a0a-b3c9-7ecaaa03808e",
+            "text": "How much time the Visual disturbance lasted for?",
+            "display-mr": "व्हिज्युअल डिस्टर्बन्स किती काळ टिकला?",
+            "display-hi": "दृष्टि विकार कितने समय तक रहा?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_eb5cab83-cb05-4e63-b304-9344e3e5326c",
+                    "text": "A few seconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_fdc4e7c8-1441-40af-8863-4199fec3a810",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_369ebeca-9900-489b-a066-07a42694b10b",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                }
+            ]
+        },
+        {
+            "id": "ID_75fbbb18-becd-4c4a-b950-95941e05eec9",
+            "text": "Does the visual disturbance have any specific time pattern on a 24 hour period?",
+            "display-mr": "24 तासांच्या कालावधीत व्हिज्युअल डिस्टर्बन्स (दृष्टिदोष) चा काही विशिष्ट कालावधी असतो का?",
+            "display-hi": "क्या दृष्टि विकार का 24 घंटे के चक्र में कोई खास समय पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_92288c77-bb80-4144-950f-c75dacf6c301",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_e3fb3a41-8535-4fb7-aef5-931642ad8b1c",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_af794433-c5af-40f0-8eef-cc6fbaad45f8",
+            "text": "Which part of a day do you feel the Visual disturbance worst?",
+            "display-mr": "दिवसाच्या कोणत्या वेळी तुम्हाला व्हिज्युअल डिस्टर्बन्स (दृष्टिदोष) सर्वात वाईट वाटतो?",
+            "display-hi": "दिन के किस भाग में आपको दृष्टि विकार सबसे अधिक महसूस होता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_840b92b0-e646-43ec-ad0a-42505a4aba83",
+                    "text": "Morning",
+                    "display-mr": "सकाळ",
+                    "display-hi": "सुबह"
+                },
+                {
+                    "id": "ID_00a5afad-a74a-4b1d-add7-570fee85cb98",
+                    "text": "Afternoon",
+                    "display-mr": "दुपारी",
+                    "display-hi": "दोपहर"
+                },
+                {
+                    "id": "ID_42191ce2-1049-4c1c-a7b2-6daa84cd96a2",
+                    "text": "Evening",
+                    "display-mr": "संध्याकाळ",
+                    "display-hi": "शाम"
+                },
+                {
+                    "id": "ID_de3e5c97-09f5-421d-be5a-8879a8ac99af",
+                    "text": "Night",
+                    "display-mr": "रात्री",
+                    "display-hi": "रात"
+                }
+            ]
+        },
+        {
+            "id": "ID_66bb3064-4653-442b-93a4-6f47b294c5bf",
+            "text": "How severe is the visual disturbance?",
+            "display-mr": "व्हिज्युअल डिस्टर्बन्स (दृष्टिदोष) किती गंभीर आहे?",
+            "display-hi": "दृष्टि विकार कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b0fe4aa9-c220-4a2b-926a-b8ad0c176a56",
+                    "text": "Mild",
+                    "display-mr": "सौम्य",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_45f6d2a5-3123-444c-82e7-7e6cd7a0cd83",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_d1405ea6-78ea-4a71-9ffa-baf8ecaed068",
+                    "text": "Severe",
+                    "display-mr": "गंभीर",
+                    "display-hi": "गंभीर"
+                }
+            ]
+        },
+        {
+            "id": "ID_8eb6d674-b7bd-4297-8930-29f75fc1a418",
+            "text": "Do you have any of these associated features along with visual disturbance?",
+            "display-mr": "तुमच्याकडे व्हिज्युअल डिस्टर्बन्स(दृष्टिदोष) सह यापैकी कोणतीही संबंधित वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको दृष्टि विकार के अलावा इनमें से कोई संबंधित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_479745cb-49d0-40c5-9097-1e7cb5c3bb07",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0a0837f4-7dd7-43ee-86a7-2574695130fb",
+                    "text": "Flashing lights",
+                    "display-mr": "डोळ्यात प्रकाश चमकणे",
+                    "display-hi": "चमकती रोशनी"
+                },
+                {
+                    "id": "ID_2fa37b02-0141-4ebe-ba62-ad07dd98be95",
+                    "text": "Floaters",
+                    "display-mr": "डोळ्यात तरंगणारे पदार्थ",
+                    "display-hi": "तैरते हुए धब्बे"
+                },
+                {
+                    "id": "ID_9122f05b-4344-44ad-9e7c-8380acf59e39",
+                    "text": "Haloes around light",
+                    "display-mr": "उजेडाभोवती मंडळ दिसणे",
+                    "display-hi": "रोशनी के चारों ओर आभामंडल"
+                },
+                {
+                    "id": "ID_e2993bce-0228-48b0-a41a-39258437bd2a",
+                    "text": "Curtain sensation",
+                    "display-mr": "डोळ्यावर पडदा आल्याप्रमाणे संवेदना",
+                    "display-hi": "परदे जैसा अहसास"
+                },
+                {
+                    "id": "ID_03f8c307-d9d6-4685-b36a-1e016a6fa64e",
+                    "text": "Aura",
+                    "display-mr": "आभा",
+                    "display-hi": "आभामंडल"
+                },
+                {
+                    "id": "ID_44f3496a-5060-4a60-a31c-64d31d4121c0",
+                    "text": "Zig zag lines",
+                    "display-mr": "आडव्या-उभ्या रेषा",
+                    "display-hi": "आडी-तिरछी रेखाएं"
+                }
+            ]
+        },
+        {
+            "id": "ID_261aed34-52b7-4b4c-9b28-dc4067bdf4fe",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2b78a0cc-b8d9-4c49-b640-2473bb05b681",
+                    "text": "Eye pain",
+                    "display-mr": "डोळ्यांचे दुखणे",
+                    "display-hi": "आंखों में दर्द"
+                },
+                {
+                    "id": "ID_53637214-f086-49bd-bc56-1796309b22d3",
+                    "text": "Eye discharge",
+                    "display-mr": "डोळ्यातून स्त्राव स्त्रवणे",
+                    "display-hi": "आंखों से पानी बहना"
+                },
+                {
+                    "id": "ID_89ad2b12-6a2e-4707-a320-1f0020d65dd7",
+                    "text": "Red eye",
+                    "display-mr": "लाल डोळा",
+                    "display-hi": "लाल आंख"
+                },
+                {
+                    "id": "ID_59c6f3ed-5b6c-4bb6-bfce-f287a4c72a0b",
+                    "text": "Photophobia",
+                    "display-mr": "फोटोफोबिया (प्रकाशाचा त्रास होणे)",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_f3af4612-238b-4e2f-bef6-d7385f7a897a",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_24c5c897-67dd-42bb-888a-f15ffb54c031",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_f112924b-4fef-408e-a73f-a4bc7d6892b1",
+                    "text": "Vertigo",
+                    "display-mr": "चक्कर",
+                    "display-hi": "चक्कर आना (संतुलन का महसूस न होना)"
+                },
+                {
+                    "id": "ID_81202763-325e-4fa3-b75a-9608351cec84",
+                    "text": "Muscle weakness (paralysis)",
+                    "display-mr": "स्नायूंची कमजोरी (अर्धांगवायू)",
+                    "display-hi": "मांसपेशियों में कमजोरी (पक्षाघात)"
+                },
+                {
+                    "id": "ID_cb397c87-f008-4e37-8bbc-385624ed4c28",
+                    "text": "Difficulty speaking (slurred speech)",
+                    "display-mr": "बोलण्यात अडचण (अस्पष्ट बोलणे)",
+                    "display-hi": "बोलने में कठिनाई (लतलग बोली)"
+                },
+                {
+                    "id": "ID_5c11dfb4-7bee-47a9-a791-7b5c77e5acda",
+                    "text": "Tingling & numbness",
+                    "display-mr": "मुंग्या येणे आणि सुन्न होणे",
+                    "display-hi": "झुनझुनी और सुन्नता"
+                },
+                {
+                    "id": "ID_edecc055-2a48-4bbd-883b-d000e1c3dea4",
+                    "text": "History of eye injury",
+                    "display-mr": "दुखापतीचा इतिहास",
+                    "display-hi": "आंखों में चोट का इतिहास"
+                },
+                {
+                    "id": "ID_87d0c0ab-db2b-4f30-be78-713d3a9bb2b2",
+                    "text": "History of medication intake",
+                    "display-mr": "पूर्वीच्या औषधोपचाराचा इतिहास",
+                    "display-hi": "दवा सेवन का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_fe9c1383-0786-4052-ae19-71315ca1e9f6",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e16c463f-a283-4554-8051-49bfe89c15cb",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_bda79bba-0c28-4568-8cc2-99fed67633f4",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_4a3ff9e0-a648-4822-922a-846142463904",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "उल्टी जैसा लगना"
+                },
+                {
+                    "id": "ID_fb0998e4-f917-40b4-8d80-b25e2975852d",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_b8f17f0c-7fd0-4dc5-ab09-2326570cf1a7",
+                    "text": "Hearing difficulty",
+                    "display-mr": "ऐकण्यात अडचण",
+                    "display-hi": "सुनने में कठिनाई"
+                },
+                {
+                    "id": "ID_b831884c-b26c-43e6-88a6-fcb3f5894c7a",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "तेज धड़कन"
+                },
+                {
+                    "id": "ID_1e22022b-7acd-45d8-80b2-8266390e6ab5",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_82256bef-de10-40bc-906e-5a05d47ef769",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_660b31db-0487-41a8-a667-5e27910f9f67",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_01526203-d7e3-4cb6-a413-3100687b7f48",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_1e93f824-769a-4589-816c-e90a97d3343c",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_19a4cd4f-8dc3-4f21-9fd9-31b793e6f01e",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_55b6f518-b4cb-4000-8d62-c822a2eb337d",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_8e184dd2-932f-4162-b0e9-7c22111f298d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_0a9b10b7-97c5-4b43-9960-f9a46b12800d",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_93d02641-cd83-4bcc-9ad9-71a7cc18b6de",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_71be0e89-2690-492d-8990-da426a70da1e",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

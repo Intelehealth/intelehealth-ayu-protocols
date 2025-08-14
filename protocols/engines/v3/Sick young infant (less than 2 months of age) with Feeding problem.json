@@ -1,0 +1,431 @@
+{
+    "id": "ID_11f45486-ea80-41c3-a10b-1608754af6b6",
+    "text": "Sick young infant (less than  2 months of age) with Feeding problem",
+    "engineVersion": "3.0",
+    "display-mr": "आहाराच्या समस्येसह आजारी लहान अर्भक (less than  2 महिने वयाचे)",
+    "display-hi": "दूध पिलाने में समस्या (less than  2 महीने की उम्र) के साथ बीमार छोटा शिशु",
+    "options": [
+        {
+            "id": "ID_4407bfb2-3522-4d2f-8228-3168753091a7",
+            "text": "Weight (Kg)",
+            "display-mr": "वजन (किलो)",
+            "display-hi": "वजन (किलोग्राम)",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6754705c-a771-40c4-8429-115509f38f16",
+                    "text": "Weight (Kg)",
+                    "display-mr": "वजन (किलो)",
+                    "display-hi": "वजन (किलोग्राम)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_5312646f-c24d-4a08-8f97-b3ac42d10cc3",
+            "text": "Weight for age status?",
+            "display-mr": "वयाच्या स्थितीनुसार वजन?",
+            "display-hi": "आयु स्थिति के अनुसार वजन?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_824f24f1-b138-4f75-979a-ca3ba3082410",
+                    "text": "Normal Weight",
+                    "display-mr": "सामान्य वजन",
+                    "display-hi": "सामान्य वजन"
+                },
+                {
+                    "id": "ID_f1c47a23-4ba7-4086-9dc2-6bcf733c121d",
+                    "text": "Low Weight",
+                    "display-mr": "कमी वजन",
+                    "display-hi": "कम वजन"
+                },
+                {
+                    "id": "ID_b1d080e9-163c-49f9-ba58-5029e562f71b",
+                    "text": "Very Low Weight",
+                    "display-mr": "खूप कमी वजन",
+                    "display-hi": "बहुत कम वजन"
+                }
+            ]
+        },
+        {
+            "id": "ID_ff9f9a7a-dcc7-4d46-bf58-fa586bb4585e",
+            "text": "Is the infant breastfed?",
+            "display-mr": "बाळाला स्तनपान दिले जाते का?",
+            "display-hi": "क्या शिशु को स्तनपान कराया जाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c00f9f02-807d-4af5-947a-ff3907c4c189",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1ff32c76-c6b3-41ba-97b8-8953b1c9b03e",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_5a14461f-d367-4a3b-b563-d4a3eb7242c0",
+                            "text": "How many times in a 24 hours?",
+                            "display-mr": "24 तासात किती वेळा?",
+                            "display-hi": "24 घंटे में कितनी बार?",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e52067a4-61e1-475d-9f84-e8e7033223ad",
+            "text": "Does the infant usually receive any other foods or drinks?",
+            "display-mr": "बाळ सामान्यतः इतर कोणतेही खाद्यपदार्थ किंवा पेये सेवन करते का?",
+            "display-hi": "क्या शिशु को आमतौर पर कोई अन्य खाद्य पदार्थ या पीने के लिए तरल मिलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_279e16af-574c-4a9e-bf59-642c30b6686c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_8d766ef1-5b8b-49e4-911f-106c261054aa",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_3a15522f-7026-4826-9852-908481bc99ec",
+            "text": "What are the other foods or drinks the young infant receiving?",
+            "display-mr": "लहान बाळाला इतर कोणते खाद्यपदार्थ किंवा पेये मिळत आहेत?",
+            "display-hi": "छोटे शिशु को अन्य कौन से खाद्य पदार्थ या पेय पदार्थ दिए जा रहे हैं?",
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_966bb866-36e1-4aae-81f3-e3ce2a757562",
+                    "text": "Cow's milk",
+                    "display-mr": "गाईचे दूध",
+                    "display-hi": "गाय का दूध"
+                },
+                {
+                    "id": "ID_1a544497-8cef-437a-beb7-d0d5a6757167",
+                    "text": "Buffalo milk",
+                    "display-mr": "म्हशीचे दूध",
+                    "display-hi": "भैंस का दूध"
+                },
+                {
+                    "id": "ID_5273d316-1334-4347-b520-1c342eb07230",
+                    "text": "Friut juice",
+                    "display-mr": "फळांचा रस",
+                    "display-hi": "फलों का जूस"
+                },
+                {
+                    "id": "ID_b631090e-f52e-4845-957a-b01a0c468f5f",
+                    "text": "Tea",
+                    "display-mr": "चहा",
+                    "display-hi": "चाय"
+                },
+                {
+                    "id": "ID_d1eea9f9-de25-4fb5-bd5d-454ad2b1be3f",
+                    "text": "Thin porridge",
+                    "display-mr": "पातळ लापशी",
+                    "display-hi": "पतला दलिया"
+                },
+                {
+                    "id": "ID_eacd0571-e098-4f44-847c-779374c9194b",
+                    "text": "Dilute cereal",
+                    "display-mr": "पातळ सोजी/पेज (धान्ये)",
+                    "display-hi": "पतला अनाज"
+                },
+                {
+                    "id": "ID_f2482400-72dc-45ad-bff9-6079f1f28324",
+                    "text": "Water",
+                    "display-mr": "पाणी",
+                    "display-hi": "पानी"
+                },
+                {
+                    "id": "ID_76c2dcc6-3733-42ac-87e1-2cd1ea8de2ac",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_497d81f5-af11-4a17-9739-ab16e74af032",
+            "text": "How often the young infant receives other foods or drinks?",
+            "display-mr": "लहान बाळ किती वेळा इतर खाद्यपदार्थ किंवा पेये घेतात?",
+            "display-hi": "छोटे शिशु को कितनी बार अन्य खाद्य या तरल पदार्थ मिलते हैं?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8817c72a-6b1e-49c7-86e1-14465349bf54",
+                    "text": "Once in a day",
+                    "display-mr": "दिवसातून एकदा",
+                    "display-hi": "दिन में एक बार"
+                },
+                {
+                    "id": "ID_2657e6cb-24b9-4adb-a635-9359a1a40301",
+                    "text": "Twice in a day",
+                    "display-mr": "दिवसातून दोनदा",
+                    "display-hi": "दिन में दो बार"
+                },
+                {
+                    "id": "ID_65d7b3b0-8b13-416f-abc1-36cf0aed8a5c",
+                    "text": "Thrice in a day",
+                    "display-mr": "दिवसातून तीनदा",
+                    "display-hi": "दिन में तीन बार"
+                },
+                {
+                    "id": "ID_73b79d7b-8265-46b1-8b42-b6ba57298004",
+                    "text": "Four times or more in a day",
+                    "display-mr": "दिवसातून चार वेळा किंवा अधिक",
+                    "display-hi": "दिन में चार बार या उससे ज्यादा"
+                }
+            ]
+        },
+        {
+            "id": "ID_18fd99d6-b237-45fb-9def-5cdd1d3731c1",
+            "text": "What is the amount of the other foods or drinks on each feeding?",
+            "display-mr": "प्रत्येक वेळी किती प्रमाणात इतर पदार्थ किंवा पेये समाविष्ट केली जातात?",
+            "display-hi": "हर भोजन में अन्य खाद्य या तरल पदार्थों की मात्रा कितनी है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1bfb6416-63e2-4a05-84b2-4394e1528756",
+                    "text": "Teaspoonful",
+                    "display-mr": "लहान चमचे / टीस्पून",
+                    "display-hi": "एक छोटा चम्मच"
+                },
+                {
+                    "id": "ID_89f6f31d-51ce-4f9d-b611-4117028ce820",
+                    "text": "Tablespoonful",
+                    "display-mr": "मोठे चमचे / टेबलस्पून",
+                    "display-hi": "एक बड़ा चम्मच"
+                },
+                {
+                    "id": "ID_345c96f0-5f9b-4ae6-b75a-68da3bd957f6",
+                    "text": "Cupful",
+                    "display-mr": "कपभर",
+                    "display-hi": "एक कप"
+                }
+            ]
+        },
+        {
+            "id": "ID_082fba77-a3d0-40d7-b650-aa86c805e4a8",
+            "text": "What do you use to feed the infant?",
+            "display-mr": "बाळाला खायला देण्यासाठी तुम्ही काय वापरता?",
+            "display-hi": "शिशु को खिलाने के लिए आप क्या उपयोग करते हैं?",
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a2764b47-4ec7-413d-a815-65aaa081d875",
+                    "text": "Feeding bottle",
+                    "display-mr": "फीडिंग बाटली",
+                    "display-hi": "फीडिंग बोतल"
+                },
+                {
+                    "id": "ID_9cc8df18-e91d-4b76-87c9-8db33b2315b8",
+                    "text": "Cup",
+                    "display-mr": "कप",
+                    "display-hi": "कप"
+                },
+                {
+                    "id": "ID_f3a98ead-ae3f-4fcb-ae6e-0f124f7aa714",
+                    "text": "Spoon",
+                    "display-mr": "चमचा",
+                    "display-hi": "चम्मच"
+                },
+                {
+                    "id": "ID_5d0c8418-fd19-4104-816e-78c86141a24d",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c095f5bc-de96-47a7-8071-7b6d81f1dbb3",
+            "text": "Does the mother have pain while breastfeeding?",
+            "display-mr": "आईला स्तनपान करताना वेदना होतात का?",
+            "display-hi": "क्या स्तनपान कराते समय मां को दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2e051393-5c0d-462e-909e-7dfa5eb4ac99",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_f9580a7d-32bc-4fba-8f1c-2e2371328fde",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_469ae121-43bf-471c-a6c2-cf991e398ba0",
+            "text": "Is the infant able to attach to breast?",
+            "display-mr": "बाळ नीट स्तन चोखू शकते का?",
+            "display-hi": "क्या शिशु स्तन से जुड़ने में सक्षम है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ef8687b8-10c3-4fc9-b4a2-85e8f03bcfe3",
+                    "text": "Attachment is good",
+                    "display-mr": "चांगल्या प्रकारे",
+                    "display-hi": "जुड़ाव अच्छा है"
+                },
+                {
+                    "id": "ID_35dc10ce-3557-41ae-b7cf-b3321d45d50f",
+                    "text": "Not well attached",
+                    "display-mr": "नीट जमत नाही",
+                    "display-hi": "अच्छी तरह से जुड़ा हुआ नहीं है"
+                },
+                {
+                    "id": "ID_01c4a08f-b3ef-450c-9d32-80481aaf0991",
+                    "text": "No attachment at all",
+                    "display-mr": "अजिबात जमत नाही",
+                    "display-hi": "बिल्कुल भी जुड़ा हुआ नहीं है"
+                }
+            ]
+        },
+        {
+            "id": "ID_67b7b829-a4c3-444f-995d-c9dc437fa811",
+            "text": "Is the infant suckling effectively (that is slow deep sucks sometimes pausing)?",
+            "display-mr": "बाळ प्रभावीपणे दूध पीत आहे (म्हणजे हळूहळू आणि खोलवर मध्ये-मध्ये थांबून)?",
+            "display-hi": "क्या शिशु प्रभावी रूप से दूध पी रहा है (मतलब धीरे-धीरे गहरा चूस रहा है कभी-कभी रुक-रुक कर)?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c78d2ed2-036d-4a39-b0a0-6ab54f1cb59a",
+                    "text": "Suckling effectively",
+                    "display-mr": "चांगल्या प्रकारे चोखत आहे",
+                    "display-hi": "प्रभावी ढंग से चूसना"
+                },
+                {
+                    "id": "ID_557a023e-9316-49a2-ad98-7fc77877bbbb",
+                    "text": "Not suckling effectively",
+                    "display-mr": "प्रभावीपणे चोखत नाही",
+                    "display-hi": "प्रभावी ढंग से नहीं चूसना"
+                },
+                {
+                    "id": "ID_c2fb3aec-1df2-48af-92fb-d5e50f5c0bd4",
+                    "text": "Not suckling at all",
+                    "display-mr": "अजिबात चोखत नाही",
+                    "display-hi": "बिल्कुल भी नहीं चूसना"
+                }
+            ]
+        },
+        {
+            "id": "ID_91441c86-d9c7-4bc5-9896-1f823efbcfd6",
+            "text": "Inside of mouth of young infant (tongue & inside of cheek)",
+            "display-mr": "लहान अर्भकांच्या तोंडाच्या आत (जीभ आणि गालाच्या आतील बाजूस)",
+            "display-hi": "छोटे शिशु के मुंह के अंदर (जीभ और गाल के अंदर)",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4170b6c2-1e64-4cb5-b9ba-f9d2fd2fab88",
+                    "text": "Normal",
+                    "display-mr": "सामान्य",
+                    "display-hi": "सामान्य"
+                },
+                {
+                    "id": "ID_debcdf11-719e-412c-aa5d-8f9d952187f7",
+                    "text": "Ulcers",
+                    "display-mr": "व्रण",
+                    "display-hi": "अल्सर"
+                },
+                {
+                    "id": "ID_9eefcc8a-58c2-4de3-bc9e-a9240dfb945c",
+                    "text": "White patches",
+                    "display-mr": "पांढरे ठिपके",
+                    "display-hi": "सफेद धब्बे"
+                },
+                {
+                    "id": "ID_972c4d28-cd08-4f8e-baa0-fe1bcd80ca7e",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_0a91a0c3-b589-4dac-bf5d-d58acef91393",
+            "text": "Breasts & nipples of mother",
+            "display-mr": "आईचे स्तन आणि निप्पल",
+            "display-hi": "मां के स्तन और निप्पल",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0fb209da-22f4-4230-aca1-2b6df39a297c",
+                    "text": "Normal",
+                    "display-mr": "सामान्य",
+                    "display-hi": "सामान्य"
+                },
+                {
+                    "id": "ID_1c11cc7d-272f-4bb1-b23c-d86a7b6838c9",
+                    "text": "Flat nipples",
+                    "display-mr": "सपाट स्तनाग्र",
+                    "display-hi": "चपटे निप्पल"
+                },
+                {
+                    "id": "ID_ad009dfb-086b-457a-8b7c-7fa6cc6ef192",
+                    "text": "Inverted nipples",
+                    "display-mr": "उलटे स्तनाग्र",
+                    "display-hi": "उल्टे निप्पल"
+                },
+                {
+                    "id": "ID_065412ad-f6e7-4a25-8f73-c3fae208beb2",
+                    "text": "Sore nipples",
+                    "display-mr": "जखम झालेले स्तनाग्र",
+                    "display-hi": "दर्दनाक निप्पल"
+                },
+                {
+                    "id": "ID_6b6558a8-657f-490a-9c1b-195ac2c66709",
+                    "text": "Cracked nipples",
+                    "display-mr": "फुटलेले स्तनाग्र",
+                    "display-hi": "फटे निप्पल"
+                },
+                {
+                    "id": "ID_46d823d0-7b51-4042-8a2d-6fb2f30f69f2",
+                    "text": "Engorged breasts",
+                    "display-mr": "गुरफटलेले स्तन",
+                    "display-hi": "स्तन में सूजन"
+                },
+                {
+                    "id": "ID_0a9b5f79-6b86-4e0b-a940-34923ee725d2",
+                    "text": "Painful breats",
+                    "display-mr": "सुजलेले स्तन",
+                    "display-hi": "स्तनों में दर्द"
+                },
+                {
+                    "id": "ID_9fda3342-e0f6-45be-86a0-75e2ef08c375",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        }
+    ]
+}
