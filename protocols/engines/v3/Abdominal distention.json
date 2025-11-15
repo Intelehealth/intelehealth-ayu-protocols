@@ -193,7 +193,7 @@
                     "display-mr": "यापैकी कशामुळे सूज वाढते?",
                     "display-hi": "इनमें से कौन सूजन के आकार को बढ़ाता है?",
                     "isRequired": true,
-                    "multi-choice": true,
+                    "multi-choice": false,
                     "options": [
                         {
                             "id": "ID_5c3371dd-996d-4131-812f-a2652976c53a",
@@ -538,4 +538,5 @@
             ]
         }
     ]
+
 }
