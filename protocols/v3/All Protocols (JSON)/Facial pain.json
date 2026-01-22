@@ -1,0 +1,584 @@
+{
+    "id": "ID_3452773b-37ac-4ed9-b0e4-5a72b984d701",
+    "text": "Facial pain",
+    "engineVersion": "3.0",
+    "display-mr": "चेहर्यावरील वेदना",
+    "display-hi": "चेहरे का दर्द",
+    "options": [
+        {
+            "id": "ID_aebaeb68-3b36-46db-9655-f2234063c7af",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e3f415dc-6ae0-41c6-b373-cc8109d167f2",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_fcd917fc-a3d8-4f43-8446-2804098607e9",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_763bbcf5-1c2d-4ef4-9517-bf0776863763",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_1bfa8f44-dfb5-4e92-8724-d96757fe94cb",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_7f4e8b57-4984-4122-a04d-06210afdb639",
+            "text": "Which part of face do you have pain?",
+            "display-mr": "तुम्हाला चेहऱ्याच्या कोणत्या भागात वेदना होतात?",
+            "display-hi": "आपके चेहरे के किस हिस्से में दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a79572e9-0090-43c0-baf6-62a0077da0ad",
+                    "text": "Entire face",
+                    "display-mr": "संपूर्ण चेहरा",
+                    "display-hi": "पूरा चेहरा"
+                },
+                {
+                    "id": "ID_f01719c1-6f5f-4c5e-9e2c-bcc6efa88f60",
+                    "text": "Centre of face",
+                    "display-mr": "चेहऱ्याचा मध्यभाग",
+                    "display-hi": "चेहरे का मध्य भाग"
+                },
+                {
+                    "id": "ID_e128110e-8730-4a1e-b6ad-0812aadb800d",
+                    "text": "Forehead",
+                    "display-mr": "कपाळ",
+                    "display-hi": "माथा"
+                },
+                {
+                    "id": "ID_898b1034-37b9-4682-93db-df11d604e2c6",
+                    "text": "Left side of face",
+                    "display-mr": "चेहऱ्याची डावी बाजू",
+                    "display-hi": "चेहरे का बायां भाग"
+                },
+                {
+                    "id": "ID_e6332050-2cf5-438b-bd05-b57e170a811f",
+                    "text": "Right side of face",
+                    "display-mr": "चेहऱ्याची उजवी बाजू",
+                    "display-hi": "चेहरे का दायां भाग"
+                },
+                {
+                    "id": "ID_d546c4ef-8017-4c46-be73-d5e3459acd6c",
+                    "text": "Left cheek",
+                    "display-mr": "डावा गाल",
+                    "display-hi": "बायां गाल"
+                },
+                {
+                    "id": "ID_a775ef15-a011-486b-af95-85aa47be734f",
+                    "text": "Right cheek",
+                    "display-mr": "उजवा गाल",
+                    "display-hi": "दायां गाल"
+                },
+                {
+                    "id": "ID_979a2430-2203-4968-8b3a-4e5481008c0f",
+                    "text": "Left jaw",
+                    "display-mr": "डावा जबडा",
+                    "display-hi": "बायां जबड़ा"
+                },
+                {
+                    "id": "ID_7ad55699-fdb7-4e1f-92cc-719486effe7a",
+                    "text": "Right jaw",
+                    "display-mr": "उजवा जबडा",
+                    "display-hi": "दायां जबड़ा"
+                },
+                {
+                    "id": "ID_9f636661-cbf2-4ba8-bae8-df6d1d3f3d16",
+                    "text": "Chin",
+                    "display-mr": "हनुवटी",
+                    "display-hi": "ठोड़ी"
+                }
+            ]
+        },
+        {
+            "id": "ID_6921226e-1088-4fab-a6ce-64cc099b6ef2",
+            "text": "What is the character of facial pain?",
+            "display-mr": "चेहऱ्यावरील वेदनांचे स्वरूप काय आहे?",
+            "display-hi": "चेहरे के दर्द की प्रकृति क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2a3d4002-bab6-449f-9025-699508b7041a",
+                    "text": "Dull aching pain",
+                    "display-mr": "मंद पण सतत होणारी वेदना",
+                    "display-hi": "धीमा दर्द"
+                },
+                {
+                    "id": "ID_921e006b-a6d9-4c6d-8245-46a304d0ddbd",
+                    "text": "Sharp pain",
+                    "display-mr": "तीक्ष्ण वेदना",
+                    "display-hi": "चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_8e992aca-6f81-4815-92f1-a3a739df10f1",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधडणारी वेदना",
+                    "display-hi": "धड़कता हुआ दर्द"
+                },
+                {
+                    "id": "ID_fdfa0f38-6ddc-4cd3-a7ca-2636c9687ec5",
+                    "text": "Pressure pain",
+                    "display-mr": "दाबयुक्त  वेदना",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_66b71ccf-5c61-4864-bf88-a92e82d4273b",
+                    "text": "Burning pain",
+                    "display-mr": "जळत्या वेदना",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_688ce680-7f6c-410b-b162-a187ff8232b6",
+                    "text": "Squeezing pain",
+                    "display-mr": "पिळणारया  वेदना",
+                    "display-hi": "भींचने वाला दर्द"
+                },
+                {
+                    "id": "ID_0162ffa7-59a4-45a2-8b97-066b0f2b31c4",
+                    "text": "Shooting pain",
+                    "display-mr": "शूटिंग वेदना",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_adef324c-5a6a-4f6f-aba1-05ba8747daad",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_c21b8033-2584-4ed7-827f-fc4ca56a7f57",
+            "text": "How severe is the facial pain?",
+            "display-mr": "चेहऱ्यावरील वेदना किती तीव्र आहे?",
+            "display-hi": "चेहरे का दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_df252afe-b6b1-423c-8edc-6e09ec8a0656",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_cc0a736c-d6df-4773-8d80-b8e6ec002af8",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_5ef6dcc6-4a6a-4b9f-918f-23f74612aa63",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_c58b4802-4d80-4c41-b088-512ab700a377",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "खूप तीव्र वेदना (7 ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_bffd1a83-0e0a-459b-9b51-3ddf13c36f5a",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात जास्त वेदना  (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_a0c5602d-5444-43ec-b62e-057874231d22",
+            "text": "Does the facial pain move to other parts of body?",
+            "display-mr": "चेहऱ्याचे दुखणे शरीराच्या इतर भागात जाते का?",
+            "display-hi": "क्या चेहरे का दर्द शरीर के दूसरे हिस्सों में भी फैल जाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c55a2f6e-03da-4ebc-bd56-642f9a5482f5",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5f988e10-5936-4b01-aa9d-e697c10a8e61",
+                    "text": "Head",
+                    "display-mr": "डोके",
+                    "display-hi": "सिर"
+                },
+                {
+                    "id": "ID_41d11add-e349-45cc-a8ec-c4ea2f736828",
+                    "text": "Throat",
+                    "display-mr": "घसा",
+                    "display-hi": "गला"
+                },
+                {
+                    "id": "ID_84929f58-9477-4d5b-8887-94580f191638",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_6241f521-9d0c-4474-a3be-66da6b7c987b",
+                    "text": "Ear",
+                    "display-mr": "कान",
+                    "display-hi": "कान"
+                },
+                {
+                    "id": "ID_ff59e992-9a2e-4d62-a6a5-9ee0f00e0938",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                }
+            ]
+        },
+        {
+            "id": "ID_c754e915-af60-437b-b099-649de1d89147",
+            "text": "What does relieve or lessen the facial pain?",
+            "display-mr": "चेहऱ्यावरील वेदना कशाने कमी होतात?",
+            "display-hi": "चेहरे के दर्द को क्या कम करता या घटाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_db234bc7-fa31-4b8d-973b-ef7a35cfaf85",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c3529179-96f0-4fae-b25b-fc114a4412aa",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_f5898a5e-fb1a-4ef0-8d8c-c77c74360544",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_5b41841f-3130-4313-af94-4896b5b6afde",
+                    "text": "Steam inhalation",
+                    "display-mr": "वाफेने शेकणे",
+                    "display-hi": "भाप लेना"
+                },
+                {
+                    "id": "ID_6e92e893-66ed-4f31-a4e6-ba2015e92eea",
+                    "text": "Cold compress",
+                    "display-mr": "थंड वस्तूने शेकणे",
+                    "display-hi": "ठंडा सेंक"
+                },
+                {
+                    "id": "ID_0440da4c-0e59-4751-8625-a64c52681497",
+                    "text": "Hot compress",
+                    "display-mr": "गरम वस्तूने शेकणे",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_d7a91409-6ed6-41a8-a353-a668270a76c7",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_44fd9a47-9707-41b1-af1a-a17b23f96b10",
+            "text": "What increases or worsens the facial pain?",
+            "display-mr": "चेहऱ्यावरील वेदना कशामुळे वाढते किंवा खराब होते?",
+            "display-hi": "चेहरे के दर्द को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b4de43f8-bacd-461b-b8a0-091099f36cd3",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_95870a07-0b41-4938-a650-ac96b9a92ea2",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_bcb8f1d6-6c9b-4986-8d4d-2961e8cf623c",
+                    "text": "Chewing",
+                    "display-mr": "चघळल्यास",
+                    "display-hi": "चबाना"
+                },
+                {
+                    "id": "ID_e500fdeb-a2b0-48df-a954-5cbb5fea9372",
+                    "text": "Coughing",
+                    "display-mr": "खोकला आल्यास",
+                    "display-hi": "खांसना"
+                },
+                {
+                    "id": "ID_9a236e27-08a8-4052-945c-6709a8ae426d",
+                    "text": "Sneezing",
+                    "display-mr": "शिंका आल्यास",
+                    "display-hi": "छींकना"
+                },
+                {
+                    "id": "ID_9dcbbbd5-03e9-4dfb-bc91-327507551678",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहिल्यास",
+                    "display-hi": "लेटे रहना"
+                },
+                {
+                    "id": "ID_025dadff-cca5-49f3-8f60-a86dcca47b66",
+                    "text": "Pressure",
+                    "display-mr": "दाब पडल्यास",
+                    "display-hi": "दबाव"
+                },
+                {
+                    "id": "ID_9f3c4d33-31fa-40e0-9fcf-be461ee437a5",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8dc3d538-0c99-4b54-b45e-c6e08ff855b7",
+            "text": "How is facial pain progressing?",
+            "display-mr": "चेहऱ्याचे दुःखात काही बदल?",
+            "display-hi": "चेहरे के दर्द में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b187f01f-9f36-43eb-b29d-729d3c48e1b2",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_ff3d0a82-a8ac-4f26-ae91-04199a032766",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_378bae4c-6bd6-478e-b1a6-57c5727befc1",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_6986d523-5881-4615-ad8f-1d15a395a483",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_8590e5f6-1e54-4d86-8682-102cd0196151",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2d389a31-bf97-4f88-bce0-7a152133f188",
+                    "text": "Toothache",
+                    "display-mr": "दातदुखी",
+                    "display-hi": "दांत दर्द"
+                },
+                {
+                    "id": "ID_b46625b3-2a9e-4b0f-8274-cf74a33089ac",
+                    "text": "Blurred vision",
+                    "display-mr": "अंधुक दृष्टी",
+                    "display-hi": "दृष्टि का धुंधला होना"
+                },
+                {
+                    "id": "ID_bbd8fd48-7e0d-46f5-8501-fc195e3e3c0e",
+                    "text": "Eye pain",
+                    "display-mr": "डोळा दुखणे",
+                    "display-hi": "आंखों में दर्द"
+                },
+                {
+                    "id": "ID_b39a7dbc-4307-462c-95f2-d1c86f137a87",
+                    "text": "Ear pain",
+                    "display-mr": "कान दुखणे",
+                    "display-hi": "कान में दर्द"
+                },
+                {
+                    "id": "ID_59729823-d80a-4504-a567-b5b26f2c473a",
+                    "text": "Swelling of eyelids",
+                    "display-mr": "पापण्या सुजणे",
+                    "display-hi": "पलकों में सूजन"
+                },
+                {
+                    "id": "ID_8bcf85fa-14dd-4063-9330-139979d619d9",
+                    "text": "Swelling of lips",
+                    "display-mr": "ओठांची सूज",
+                    "display-hi": "होठों में सूजन"
+                },
+                {
+                    "id": "ID_f64450c7-f19a-4fba-8bfc-0d8d55594dfc",
+                    "text": "Sensitivity to light (photophobia)",
+                    "display-mr": "प्रकाशाची संवेदनशीलता (फोटोफोबिया)",
+                    "display-hi": "सूरज की रोशनी से चिढ़ (फोटोफोबिया)"
+                },
+                {
+                    "id": "ID_94f4e98a-ea6e-4cb2-800d-bfdf836eea4e",
+                    "text": "Facial swelling",
+                    "display-mr": "चेहर्यावरील सूज",
+                    "display-hi": "चेहरे की सूजन"
+                },
+                {
+                    "id": "ID_0e7bf642-0786-4a5f-8bb6-d5e99c2028d7",
+                    "text": "Nasal discharge",
+                    "display-mr": "नाकातून स्त्राव",
+                    "display-hi": "नाक से पानी आना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_8c8847a1-fc74-46ea-8310-7399a866ac7a",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_27f40232-4967-4a8c-8f8d-bb1b36acf82c",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ebc0f5d8-55bf-4b12-bed8-0e3458283810",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_15bb491d-9dfe-476f-b3b2-b94354c9b9e2",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_3a39e16d-4f9f-4281-ba94-ff5a6d5bc27a",
+                    "text": "Runny nose",
+                    "display-mr": "वाहणारे नाक",
+                    "display-hi": "नाक बहना"
+                },
+                {
+                    "id": "ID_ff4d1a9d-90e9-4576-9ea4-ab5c255492bd",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_ac681df1-f1d4-4227-9773-40fac8e2e9d2",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_e8d19cc9-5e78-40ca-a0fa-cc5cdda03ae1",
+                    "text": "Nose bleeding",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                },
+                {
+                    "id": "ID_8913e30e-ddb3-45b5-8139-87fa59cc8210",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1880584c-d2b8-48ac-9633-bec17f719f23",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d4b8c242-e2e7-41b1-82de-84692d0d14df",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_a6a4f931-1a95-4624-bc3d-63a02116d985",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_c2c4455e-8d19-46ad-840a-cef690eb46ea",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_08112613-bf4a-47e7-a3fa-17679b0639de",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5bffef90-4da9-45b5-ad28-3a8e0d5bd2fa",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

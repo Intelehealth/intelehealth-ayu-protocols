@@ -1,0 +1,377 @@
+{
+    "id": "ID_e969bbc7-d4b7-4d62-87d5-7ac86be4d7f8",
+    "text": "Memory problem",
+    "engineVersion": "3.0",
+    "display-mr": "स्मरणशक्तीची समस्या",
+    "display-hi": "याददाश्त की समस्या",
+    "options": [
+        {
+            "id": "ID_385344cd-4950-4832-b1af-4aec67b27ab9",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d0ec86ed-cb97-468f-8328-7d39e460d9e6",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_1727dd4b-ec29-4d05-86b5-12da7a374b4b",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने पसरली ?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1720d360-a2e7-4e80-a090-001ca4fa5f6d",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_22b52376-6462-42c1-a003-4ef2f98536cb",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_50b7efbc-03f3-4d75-864b-f2da37190998",
+            "text": "How can you describe your memory problem?",
+            "display-mr": "तुम्ही तुमच्या स्मरणशक्तीच्या समस्येचे वर्णन कसे कराल?",
+            "display-hi": "आप अपनी याददास्त की समस्या का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_702cc6b7-c687-4667-88b1-7ec86d1c715e",
+                    "text": "Forgetting recent events",
+                    "display-mr": "अलीकडील घटना विसरणे",
+                    "display-hi": "हाल की घटनाओं को भूलना"
+                },
+                {
+                    "id": "ID_4782c077-f0c1-4d9d-a22f-8c8d3328b5cf",
+                    "text": "Difficult to remember past events",
+                    "display-mr": "भूतकाळातील घटना लक्षात ठेवणे कठीण होणे",
+                    "display-hi": "अतीत की घटनाओं को याद रखने में परेशानी"
+                },
+                {
+                    "id": "ID_e2f46901-8d96-4212-9851-bb687796dd1d",
+                    "text": "Forgetting right words",
+                    "display-mr": "योग्य शब्द विसरणे",
+                    "display-hi": "सही शब्द भूलना"
+                },
+                {
+                    "id": "ID_247d0cf1-8566-40ca-9f87-1819f8782ffd",
+                    "text": "Difficulty in remembering names",
+                    "display-mr": "नावे लक्षात ठेवण्यात अडचण",
+                    "display-hi": "नाम याद रखने में परेशानी"
+                },
+                {
+                    "id": "ID_43c9bf01-24f8-43cf-98c9-bde325b4e967",
+                    "text": "Difficulty in remembering faces",
+                    "display-mr": "चेहरे लक्षात ठेवण्यास त्रास होणे",
+                    "display-hi": "चेहरे याद रखने में परेशानी"
+                },
+                {
+                    "id": "ID_3b4f7a2b-4750-4177-8714-9bacb4dbfd5d",
+                    "text": "Difficulty in remember personal information",
+                    "display-mr": "वैयक्तिक माहिती लक्षात ठेवण्यात अडचण",
+                    "display-hi": "व्यक्तिगत जानकारी याद रखने में परेशानी"
+                },
+                {
+                    "id": "ID_f6e70957-30fa-4166-adf4-c6def020d7a6",
+                    "text": "Difficulty in remembering places",
+                    "display-mr": "ठिकाणे लक्षात ठेवण्यात अडचण",
+                    "display-hi": "जगहें याद रखने में परेशानी"
+                },
+                {
+                    "id": "ID_c021c22e-26ad-46f5-ba45-b47957d50146",
+                    "text": "Difficulty in coordination",
+                    "display-mr": "समन्वयात अडचण",
+                    "display-hi": "समन्वय में परेशानी"
+                },
+                {
+                    "id": "ID_a6202e59-34b1-4992-a071-596ffcd11d91",
+                    "text": "Misplacing items",
+                    "display-mr": "वस्तू हरवणे",
+                    "display-hi": "वस्तुएं गुम कर देना"
+                },
+                {
+                    "id": "ID_4cb21857-bd1f-424a-a269-2e38c7a4e368",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7942cca6-101f-4614-a122-c3ba2a52d38a",
+            "text": "Does the symptom have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या मध्ये लक्षणांचे काही चक्र आहे का?",
+            "display-hi": "क्या लक्षण का कोई पैटर्न है? 24 घंटे के चक्र के दौरान?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_08ddfd3d-0a1e-422c-8f4b-fd6cc354c598",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_48f36831-c5cb-48e0-9ef3-00eebab415de",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता और जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_ccca9163-199c-465b-b94a-e9606fe8ae18",
+            "text": "How is the symptom progressing?",
+            "display-mr": "लक्षणांमध्ये काही बदल झाला का?",
+            "display-hi": "लक्षण में कुछ बदलाव है क्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a8f969dd-98cb-47f1-a197-fc5b555ed34b",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_a550ef2d-c2a6-42a3-a202-dc31638c39ee",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_ce2189cb-37c6-4a9d-bee2-4643f7be9eaf",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_972861a3-8b7f-41e3-935f-f0122e075beb",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_f79c465a-d423-42c0-837b-1eec963056b5",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_485d4ea7-81fd-439d-a4eb-b2a823ac1a76",
+                    "text": "Change in personality",
+                    "display-mr": "व्यक्तिमत्वात बदल",
+                    "display-hi": "व्यक्तित्व में बदलाव"
+                },
+                {
+                    "id": "ID_01260833-3599-498a-95d1-0f3b8c663816",
+                    "text": "Mood swings",
+                    "display-mr": "मूड सतत बदलणे",
+                    "display-hi": "मूड स्विंग"
+                },
+                {
+                    "id": "ID_27a7f6df-8200-427a-96d0-1dbd5bf97281",
+                    "text": "Sleep disturbances",
+                    "display-mr": "झोपेचा त्रास",
+                    "display-hi": "नींद में बाधा"
+                },
+                {
+                    "id": "ID_4cec50e6-9a88-414c-bdde-68d1384ea262",
+                    "text": "Learning difficulty",
+                    "display-mr": "शिकण्यात अडचण",
+                    "display-hi": "सीखने में परेशानी"
+                },
+                {
+                    "id": "ID_2ecf8b65-e6c1-4746-8b07-752a5d03adb9",
+                    "text": "Change in behaviour",
+                    "display-mr": "वागण्यात बदल",
+                    "display-hi": "व्यवहार में बदलाव"
+                },
+                {
+                    "id": "ID_00488ee4-f2e5-453a-acba-d7bfcf1620b0",
+                    "text": "Irritability",
+                    "display-mr": "चिडचिड होणे",
+                    "display-hi": "चिड़चिड़ापन"
+                },
+                {
+                    "id": "ID_aa8205d1-3533-4f15-b274-94f47634df5d",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळणे",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_8429562a-e61d-4bc7-a978-47df67c827d8",
+                    "text": "History of head injury",
+                    "display-mr": "डोक्याला दुखापत झाल्याचा इतिहास",
+                    "display-hi": "सिर की चोट का इतिहास"
+                },
+                {
+                    "id": "ID_121d6f71-fe43-4cef-af29-73f79e9ac01f",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातपाय अशक्त होणे",
+                    "display-hi": "अंगों की कमजोरी"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_42bf7e65-3679-474a-a72a-b0889dde34fb",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_dc7be0bb-da95-4f1f-b1a0-7af936ce003c",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5174ab9c-d043-4b48-ab3b-9e78b5daec9a",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_ffffe9bf-afb2-490a-9b78-607784559f24",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख कम लगना"
+                },
+                {
+                    "id": "ID_6eb25cba-9982-43be-a933-119caf7363c0",
+                    "text": "Speech difficulty",
+                    "display-mr": "बोलताना त्रास होणे",
+                    "display-hi": "बोलने में परेशानी"
+                },
+                {
+                    "id": "ID_6d0d0b89-e94c-4ec7-8651-c6adc2a6d2d5",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_6c81114a-2b78-46e2-b11c-c96645f42788",
+                    "text": "Depression",
+                    "display-mr": "नैराश्य",
+                    "display-hi": "अवसाद"
+                },
+                {
+                    "id": "ID_d280477d-d92e-49ec-8cbc-1aca833b1364",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_46649beb-48eb-4995-a005-a97f53f04987",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीवर असंयम",
+                    "display-hi": "पेशाब रोक नहीं पाना"
+                },
+                {
+                    "id": "ID_2df9c177-10d2-4bc4-a7ba-b52033724169",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिर दर्द"
+                },
+                {
+                    "id": "ID_ce10a636-bfb7-4ae2-8f29-e711ed9c05fb",
+                    "text": "Tremor",
+                    "display-mr": "थरथर",
+                    "display-hi": "कंपकंपी"
+                },
+                {
+                    "id": "ID_ce8a3571-9d2f-4aaa-8443-4cde369d0453",
+                    "text": "Fits",
+                    "display-mr": "आकडी",
+                    "display-hi": "दौरे"
+                },
+                {
+                    "id": "ID_7f3bef80-0158-4daf-b727-5070fddaf0f0",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_e27656fe-87ec-4110-9e50-49d9e8e29992",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_2bfc99b6-f565-4b08-a908-f81c6610ad8f",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d382d6c7-d5fe-4891-936e-6a7e7ca97ac4",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_081764ac-0f5c-4833-be6b-35cf471244fe",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_e95740e3-585d-4572-9a70-fc4d9387b7ef",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_7a9d73ee-0a5e-4bda-8fc2-0b954f69913c",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_68f9f2e1-922b-4765-adf1-80454cfae8f4",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

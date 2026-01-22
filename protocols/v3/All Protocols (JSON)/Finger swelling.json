@@ -1,0 +1,457 @@
+{
+    "id": "ID_3544fceb-4d52-4195-828f-098dddac5d9d",
+    "text": "Finger swelling",
+    "engineVersion": "3.0",
+    "display-mr": "बोटाला सूज येणे",
+    "display-hi": "उंगली में सूजन",
+    "options": [
+        {
+            "id": "ID_bc38d42c-d40e-4abc-8a14-1ba4ea1c2a7a",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d1dd932-7359-48da-8321-5fd38822e435",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_e97f62fb-a539-43ac-88f9-9c3bb408dfdc",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c12b7e07-6a94-46e0-8f63-0a6d6761a64c",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_98b958e5-4032-4245-a0f1-70317bf5e6e9",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_82194893-ba9d-497a-9290-ffbaaf74b9e2",
+            "text": "Do you have any of the prior history?",
+            "display-mr": "तुमच्याकडे पूर्वीचा कोणताही इतिहास आहे का?",
+            "display-hi": "क्या आपको पहले से इनमें से कोई बीमारी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d08faa18-847d-4b33-92da-75b678f7c44e",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_7175ec45-1646-4dfc-8d91-2cfae17adc28",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_1a7ee91a-184c-42b1-a927-b1d55784e52c",
+                    "text": "Sprain",
+                    "display-mr": "लचक",
+                    "display-hi": "मोच"
+                }
+            ]
+        },
+        {
+            "id": "ID_2599ecad-f5b2-4327-9a71-82cefa24ef45",
+            "text": "Which finger do you have swelling?",
+            "display-mr": "तुम्हाला कोणत्या बोटाला सूज आली आहे?",
+            "display-hi": "आपकी किस उंगली में सूजन है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_107bf9cd-2062-4827-8132-ff69967ad0e6",
+                    "text": "Thumb",
+                    "display-mr": "अंगठा",
+                    "display-hi": "अंगूठा"
+                },
+                {
+                    "id": "ID_d369d221-9ec7-47cd-bd7f-b021e8ce23d6",
+                    "text": "Index finger",
+                    "display-mr": "तर्जनी",
+                    "display-hi": "तर्जनी"
+                },
+                {
+                    "id": "ID_e8034712-e74e-40bf-8008-4e217dd1882d",
+                    "text": "Middle finger",
+                    "display-mr": "मधले बोट",
+                    "display-hi": "मध्यमा"
+                },
+                {
+                    "id": "ID_8c05ce2e-525c-4d99-89d4-2f4ee4a52093",
+                    "text": "Ring finger",
+                    "display-mr": "अनामिका",
+                    "display-hi": "अनामिका"
+                },
+                {
+                    "id": "ID_db71d0d7-ef9b-4e24-aef8-9529279ccba7",
+                    "text": "Little finger",
+                    "display-mr": "करंगळी",
+                    "display-hi": "छोटी उंगली"
+                },
+                {
+                    "id": "ID_0f75b171-eec4-4e38-b59a-56318c42057e",
+                    "text": "All fingers",
+                    "display-mr": "सर्व बोटे",
+                    "display-hi": "सभी उंगलियां"
+                }
+            ]
+        },
+        {
+            "id": "ID_7c9b1348-c3c6-433d-9a70-f966077e32e6",
+            "text": "Which part of finger do you have swelling?",
+            "display-mr": "बोटाच्या कोणत्या भागाला सूज येते का?",
+            "display-hi": "आपकी उंगली के किस हिस्से में सूजन है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_dd534d07-21f5-4835-96c6-3b454e7becb4",
+                    "text": "Proximal",
+                    "display-mr": "प्रॉक्सिमल",
+                    "display-hi": "समीपस्थ"
+                },
+                {
+                    "id": "ID_10e91300-55b0-426f-9fd1-cd9f3f9021cb",
+                    "text": "Middle",
+                    "display-mr": "मधला",
+                    "display-hi": "मध्यमा"
+                },
+                {
+                    "id": "ID_021ac1db-2b6a-411d-9edd-28a8246601bd",
+                    "text": "Distal",
+                    "display-mr": "दूरस्थ",
+                    "display-hi": "दूरस्थ"
+                },
+                {
+                    "id": "ID_8bdcb1e7-2a41-474c-81c8-ef682a31e0cd",
+                    "text": "Entire finger",
+                    "display-mr": "संपूर्ण बोट",
+                    "display-hi": "पूरी उंगली"
+                }
+            ]
+        },
+        {
+            "id": "ID_679318de-0184-486a-ac88-01be2f480a69",
+            "text": "Which side of body do you have swollen finger?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या बाजूला बोट सुजले आहे?",
+            "display-hi": "आपकी शरीर के किस तरफ की उंगलियों में सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fadb3952-e283-4b95-92d5-05075c22dfab",
+                    "text": "Left",
+                    "display-mr": "बाकी",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_7a0aa55e-4940-4a8b-b478-7320e0dbbb6c",
+                    "text": "Right",
+                    "display-mr": "बरोबर",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_969267a0-c83b-4f4b-9257-7fe697e637c0",
+                    "text": "Both",
+                    "display-mr": "दोन्ही",
+                    "display-hi": "दोनों"
+                }
+            ]
+        },
+        {
+            "id": "ID_79959253-0a98-42de-8a46-e4dd403ed33d",
+            "text": "Do you have any of the associated local features with finger swelling?",
+            "display-mr": "बोटांच्या सूजेशी संबंधित स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपकी उंगली में सूजन के साथ जुड़े इनमें से कोई लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_415a19ef-9c5f-4836-ad4a-2d1a7b806482",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_10616cec-560f-4530-818d-e81e297b37e3",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_da701c2a-7658-43dd-9492-733df454adcf",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श केल्यास वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_040e9329-d9bd-4f30-a8c6-cbb36b5c7b59",
+                    "text": "Stiffness",
+                    "display-mr": "कडकपणा",
+                    "display-hi": "कठोरता"
+                },
+                {
+                    "id": "ID_835755b1-150f-4126-8d7b-88a295e4c438",
+                    "text": "Tingling",
+                    "display-mr": "मुंग्या येणे",
+                    "display-hi": "झुनझुनी"
+                },
+                {
+                    "id": "ID_d4d8ac00-9e49-4030-9407-4b55d4e9a2a9",
+                    "text": "Deformity",
+                    "display-mr": "विकृती",
+                    "display-hi": "विकृति"
+                }
+            ]
+        },
+        {
+            "id": "ID_42c098ce-4280-4655-8bac-99d898bbdcae",
+            "text": "How is the progress of the finger swelling?",
+            "display-mr": "बोटांच्या सूजेमध्ये काही बदल झाला का?",
+            "display-hi": "उंगली की सूजन में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d8f4c0da-5e24-4043-86ff-5d33c61f646b",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_f73025fa-8c8e-4c86-8373-e0b37216f857",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_be364e0d-8293-4e0b-b7d2-b3d84d1e13c5",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_813266ff-9397-41c0-8e3a-d8e1d3f5e0ae",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_464601a0-e744-4788-9f76-b3c02715134b",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_29ccf641-f64b-4d7c-b9e7-b6cc0a2016e9",
+                    "text": "Finger pain",
+                    "display-mr": "बोट दुखणे",
+                    "display-hi": "उंगली में दर्द"
+                },
+                {
+                    "id": "ID_7d6bd0a5-14c3-4ef9-9dce-e0f038437482",
+                    "text": "Stiffness of fingers",
+                    "display-mr": "बोटांचा कडकपणा",
+                    "display-hi": "उंगलियों में अकड़न"
+                },
+                {
+                    "id": "ID_72f19ae3-5817-4b7d-a457-976cada19ae0",
+                    "text": "Skin ulcers",
+                    "display-mr": "त्वचेचे व्रण",
+                    "display-hi": "त्वचा के छाले"
+                },
+                {
+                    "id": "ID_acf3a654-bfe3-4393-9004-4663b8ec4bbf",
+                    "text": "Wrist pain",
+                    "display-mr": "मनगटात दुखणे",
+                    "display-hi": "कलाई में दर्द"
+                },
+                {
+                    "id": "ID_ef927116-27e4-48e3-8e93-06c755dff2a6",
+                    "text": "Elbow pain",
+                    "display-mr": "कोपराचे दुखणे",
+                    "display-hi": "कोहनी में दर्द"
+                },
+                {
+                    "id": "ID_8e717d15-cdf8-4495-89e3-2cb25efe6224",
+                    "text": "Wrist swelling",
+                    "display-mr": "मनगटाची सूज",
+                    "display-hi": "कलाई में सूजन"
+                },
+                {
+                    "id": "ID_7c92e3a8-55ef-438b-be12-7f3e22ff6152",
+                    "text": "Elbow swelling",
+                    "display-mr": "कोपराची सूज",
+                    "display-hi": "कोहनी में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_7a01f065-f0b0-4d5d-bfae-57e309f7f7a0",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_144d0096-269e-4478-bf2d-31a940133fe8",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_babbcb70-7af8-4a13-8319-24f76b292a47",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_947aac68-6369-4186-919c-7735d8c4d266",
+                    "text": "Toe pain",
+                    "display-mr": "पायाचे बोट दुखणे",
+                    "display-hi": "पैर की उंगलियों में दर्द"
+                },
+                {
+                    "id": "ID_f917e5b0-53e8-4780-9650-7db27e961607",
+                    "text": "Ankle pain",
+                    "display-mr": "घोट्याचे दुखणे",
+                    "display-hi": "टखने में दर्द"
+                },
+                {
+                    "id": "ID_9dca1376-71f6-40f6-ae01-3d4647302fe1",
+                    "text": "Swelling of ankle",
+                    "display-mr": "घोट्याला सूज येणे",
+                    "display-hi": "टखने में सूजन"
+                },
+                {
+                    "id": "ID_48e9eecc-fc1f-4fb3-a974-e72216e14e93",
+                    "text": "Knee pain",
+                    "display-mr": "गुडघेदुखी",
+                    "display-hi": "घुटने में दर्द"
+                },
+                {
+                    "id": "ID_b8c7f28d-e62b-411c-b8ee-6e8123ffc531",
+                    "text": "Swelling of knee",
+                    "display-mr": "गुडघ्याला सूज येणे",
+                    "display-hi": "घुटने में सूजन"
+                },
+                {
+                    "id": "ID_a3519fe2-89fe-4d02-9969-06617baf7604",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_e5809970-28cf-43dd-9703-bf26fdc416a4",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येतो",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_e7bd9171-1647-4820-a63c-e869fb7654c5",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_f18a5aeb-ddab-48b1-b97b-7a411bbbd650",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_b5e79236-d06b-4506-86d1-a3ec6cd30c28",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_52fd9e69-e83d-45e7-bd94-c33b9d03b5bb",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_9dd73a9a-b3bb-41b8-af92-4e11ae484e83",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e2e15b37-ec9c-489b-af21-27b4680d7712",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_36093014-e647-4629-a150-9abe9d946ffd",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_2a0dc801-8686-4b40-9a04-2802347f4dc7",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_53028a38-a353-454a-92d9-f691ee4fc5ea",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_79e5b284-1796-446a-bc89-9573c3212d13",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

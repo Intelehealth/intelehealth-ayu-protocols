@@ -1,0 +1,772 @@
+{
+    "id": "ID_9decdd9d-d7aa-4818-9a05-afbfb142f47f",
+    "text": "Fit",
+    "engineVersion": "3.0",
+    "display-mr": "फिट येणे / फेफरे",
+    "display-hi": "(मिरगी) दौरे",
+    "options": [
+        {
+            "id": "ID_f0e7d949-4d00-4be0-b57e-4337db36b966",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5963ff24-267e-4686-a6e1-f65b0735740c",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_80b9e8a3-f418-423c-9ddb-22ced21e4f29",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b8b6c658-486e-4408-80a6-abb211b83907",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_604a4f64-7a07-4a27-a114-cead4b7ca15f",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_444c1f5d-6be4-41d2-889d-fd55c9dff9c4",
+            "text": "Which part of body did you have the fit?",
+            "display-mr": "शरीराच्या कोणत्या भागाला फिट आली?",
+            "display-hi": "शरीर के किस हिस्से में दौरे पड़े हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7303c902-1a8b-4e2e-9784-06660a234e20",
+                    "text": "All over body",
+                    "display-mr": "संपूर्ण शरीरावर",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_c3602c8e-6e7f-455c-9e11-639bca683d5d",
+                    "text": "One side of body",
+                    "display-mr": "शरीराची एक बाजू",
+                    "display-hi": "शरीर के एक तरफ",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_fd714030-db56-4b40-a12f-ca6ed153db2d",
+                            "text": "Which side of body you had the fit?",
+                            "display-mr": "शरीराच्या कोणत्या बाजूला तुम्हाला फिट आली?",
+                            "display-hi": "शरीर के किस तरफ दौरे पड़े हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_d556e3d7-dceb-4a66-9f3f-0c4d4f521f9d",
+                                    "text": "Left side",
+                                    "display-mr": "डावी बाजू",
+                                    "display-hi": "बायां हिस्सा"
+                                },
+                                {
+                                    "id": "ID_714c7f37-a7a1-4326-96ef-7c0bbc608abf",
+                                    "text": "Right side",
+                                    "display-mr": "उजवी बाजू",
+                                    "display-hi": "दायां हिस्सा"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_efb43a7c-6933-42cc-8e71-939fdf4d9615",
+            "text": "Which body part you had the fit?",
+            "display-mr": "शरीराच्या कोणत्या भागात तुम्हाला फिट आली?",
+            "display-hi": "शरीर के किस अंग में दौरे पड़े हैं?",
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_fda36ae8-4c2b-430f-93b9-d1c9b827f8b3",
+                    "text": "Face",
+                    "display-mr": "चेहरा",
+                    "display-hi": "चेहरा"
+                },
+                {
+                    "id": "ID_fd9acff1-a178-460e-bff3-eced25b277c3",
+                    "text": "Mouth",
+                    "display-mr": "तोंड",
+                    "display-hi": "मुंह"
+                },
+                {
+                    "id": "ID_7dd667ee-725c-4b95-9207-5e10e34e6a42",
+                    "text": "Arm",
+                    "display-mr": "आर्म",
+                    "display-hi": "बां​ह"
+                },
+                {
+                    "id": "ID_5e84bff9-70b6-4752-9bb1-cc8ec3704ab7",
+                    "text": "Hand",
+                    "display-mr": "हात",
+                    "display-hi": "हाथ"
+                },
+                {
+                    "id": "ID_e846505a-5094-42fe-9f5e-546fb852d0ac",
+                    "text": "Fingers",
+                    "display-mr": "बोटे",
+                    "display-hi": "उंगलियां"
+                },
+                {
+                    "id": "ID_bc60e997-eada-4c2e-995b-79780a33e427",
+                    "text": "Leg",
+                    "display-mr": "पाय",
+                    "display-hi": "पैर"
+                },
+                {
+                    "id": "ID_9c8ff7f3-a193-42fa-8b5a-2e419b332ac6",
+                    "text": "Foot",
+                    "display-mr": "फूट",
+                    "display-hi": "पद"
+                },
+                {
+                    "id": "ID_a5aa1e0d-8d63-4546-ac72-eae75bd719dd",
+                    "text": "Toes",
+                    "display-mr": "पायाची बोटं",
+                    "display-hi": "पैर की उंगलियां"
+                }
+            ]
+        },
+        {
+            "id": "ID_76e8520c-5795-4f4c-ab96-551de3994797",
+            "text": "Did the fit spread one side to involve the another side or from one body part to another body part?",
+            "display-mr": "फिट एका बाजूपासून दुस-या भागापर्यंत पसरली की शरीराच्या एका अंगापासून दुस-या अंगापर्यंत पसरली?",
+            "display-hi": "क्या दौरा एक तरफ से दूसरी तरफ फैल गया या शरीर के अंग से दूसरे अंग में फैल गया?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a7cadea7-6325-4285-ace2-97c69e62929b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_23fce91b-3790-4bd5-a66c-ce8b6f36f3e8",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_3f3ea9c2-9b37-4978-a809-d90f96ee5e3f",
+            "text": "How can you describe the character of fit?",
+            "display-mr": "तुम्ही फिटच्या स्वरूपाचे वर्णन कसे करू शकता?",
+            "display-hi": "आप दौरे के लक्षण का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_0cf4f1f5-776d-4a27-9bb7-606ab506462f",
+                    "text": "Stiffening of body",
+                    "display-mr": "शरीराचे ताठरणे",
+                    "display-hi": "शरीर का अकड़ना"
+                },
+                {
+                    "id": "ID_f565d5fc-997b-4f98-b5f3-a4b4c813c6cf",
+                    "text": "Stiffening of limbs",
+                    "display-mr": "हातपाय कडक होणे",
+                    "display-hi": "अंगों का अकड़ना"
+                },
+                {
+                    "id": "ID_37a98302-5bc1-4a4a-9bd6-acac99f608f3",
+                    "text": "Abnormal posturing",
+                    "display-mr": "असामान्य पवित्रा",
+                    "display-hi": "असामान्य मुद्रा"
+                },
+                {
+                    "id": "ID_5a3df56d-a7ae-4099-85f3-c46e39c43571",
+                    "text": "Irregular jerky movements",
+                    "display-mr": "अनियमित झटकेदार हालचाली",
+                    "display-hi": "अनियमित झटकेदार हरकतें"
+                },
+                {
+                    "id": "ID_17ebf0b9-bd95-43b3-9560-63b9513d1007",
+                    "text": "Repetitive jerky movements",
+                    "display-mr": "वारंवार झटकेदार हालचाली",
+                    "display-hi": "बार-बार होने वाली झटकेदार हरकतें"
+                },
+                {
+                    "id": "ID_7c108237-07b0-4fc1-8e2a-17e171a60f39",
+                    "text": "Staring look",
+                    "display-mr": "टक लावून पाहणे",
+                    "display-hi": "घूरती निगाह"
+                },
+                {
+                    "id": "ID_5c339e2e-03b3-43c9-8ef5-0b4564b49755",
+                    "text": "Absence of all movements",
+                    "display-mr": "सर्व हालचालींची अनुपस्थिती",
+                    "display-hi": "कोई हरकत न होना"
+                },
+                {
+                    "id": "ID_ccba6312-4c0b-4a92-90a7-19c2026d3cd2",
+                    "text": "Lip smacking",
+                    "display-mr": "जिभेने ओठ चाटल्यासारखी हालचाल",
+                    "display-hi": "होंठ चटकाना"
+                },
+                {
+                    "id": "ID_3ea29a96-a8a6-4af5-8129-950732f26718",
+                    "text": "Twitching movements",
+                    "display-mr": "मुरडणारी हालचाल",
+                    "display-hi": "झटके से हिलना-डुलना"
+                },
+                {
+                    "id": "ID_4ef69390-70c8-4fe8-82f0-cccea3ed37f4",
+                    "text": "Loss of conciousness",
+                    "display-mr": "चेतना नष्ट होणे",
+                    "display-hi": "अचेत होना"
+                },
+                {
+                    "id": "ID_2274f0a0-2c9d-4d5e-9982-acfef760e961",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_fd720ed3-538d-4c5f-955f-094894800966",
+            "text": "Did you have the follwing abnormal features just before the occurence of fit?",
+            "display-mr": "फिट येण्यापूर्वी तुम्हाला खालील पैकी विकृतीची लक्षणे होती का?",
+            "display-hi": "क्या दौरे पड़ने से ठीक पहले आपको निम्नलिखित असामान्य लक्षण थे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d1212972-eca7-4670-9a10-e54585f767b2",
+                    "text": "None",
+                    "display-mr": "कोणीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_818b875d-f131-4236-b810-25256f5beb9b",
+                    "text": "Abnormal smell sensation",
+                    "display-mr": "असामान्य वास संवेदना",
+                    "display-hi": "असामान्य गंध संवेदना"
+                },
+                {
+                    "id": "ID_c9bae1ff-5e20-48a4-8828-d12c5f81f6ce",
+                    "text": "Abnormal taste sensation",
+                    "display-mr": "असामान्य चव संवेदना",
+                    "display-hi": "असामान्य स्वाद संवेदना"
+                },
+                {
+                    "id": "ID_cb1aaaf7-41e6-429d-9c9e-5d0b43331c3e",
+                    "text": "Abnormal behaviour",
+                    "display-mr": "असामान्य वर्तन",
+                    "display-hi": "असामान्य व्यवहार"
+                },
+                {
+                    "id": "ID_20074ca9-e094-4083-9f80-a649330d54f8",
+                    "text": "Abnormal feeling",
+                    "display-mr": "असामान्य भावना",
+                    "display-hi": "असामान्य भावना"
+                },
+                {
+                    "id": "ID_cda50941-5c4a-4866-8cf6-6d3c84efcafd",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_08553824-b636-4b13-bf90-e27d48e654fd",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायू कमजोरी",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                }
+            ]
+        },
+        {
+            "id": "ID_48f73257-e892-4c6b-be26-a2e7d9516dee",
+            "text": "Did you have the follwing abnormal features after the occurence of fit?",
+            "display-mr": "फिटच्या घटनेनंतर तुम्हाला खालील लक्षणे होती का?",
+            "display-hi": "क्या दौरे के बाद आपको निम्नलिखित असामान्य लक्षण थे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d03802fc-642b-42fd-bc06-81eaeab2bf78",
+                    "text": "None",
+                    "display-mr": "कोणीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fb707c0b-4a5c-4728-be6e-cff93f6276a2",
+                    "text": "Confusion",
+                    "display-mr": "संभ्रम",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_28d0b000-5ae6-4107-a7bd-5d06334d74da",
+                    "text": "Sleepiness",
+                    "display-mr": "तंद्री",
+                    "display-hi": "नींद आना"
+                },
+                {
+                    "id": "ID_06d3a9e2-0776-48f7-85c1-6638acbb2ee0",
+                    "text": "Loss of conciousness",
+                    "display-mr": "चेतना नष्ट होणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_bf5fb51d-5a28-4f3b-b997-01029e00428b",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायू कमजोरी",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_0734f838-b38b-47f5-bb9b-e52940003040",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_e353cfcf-19d3-410e-a04b-f2bad63eedbf",
+                    "text": "Heavy breathing",
+                    "display-mr": "जड श्वासोच्छ्वास",
+                    "display-hi": "सांस फूलना"
+                }
+            ]
+        },
+        {
+            "id": "ID_7b2606a6-1fea-480e-8674-69a9402f8413",
+            "text": "What does cause or aggravate the episodes of fit?",
+            "display-mr": "फिट कशामुळे येते किंवा कशामुळे वाढते?",
+            "display-hi": "दौरे के एपिसोड का क्या कारण है या उन्हें क्या बढ़ाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7ff8327a-181a-4dd9-be4d-b88a32bff935",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_aead406c-1397-47c9-87d6-53383993fdf0",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_2463052e-3b65-4a9d-838c-a02611656a5d",
+                    "text": "Sleep deprivation",
+                    "display-mr": "झोप कमी होणे",
+                    "display-hi": "नींद की कमी"
+                },
+                {
+                    "id": "ID_fd8ccf56-ad89-4acd-b8d3-e0b4afabfce1",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_7f768ff0-c800-4dbd-b3b4-9a9b7f80dc99",
+                    "text": "Prolonged standing",
+                    "display-mr": "दीर्घकाळ उभे राहणे",
+                    "display-hi": "लंबे समय तक खड़े रहना"
+                },
+                {
+                    "id": "ID_d7213f00-d5a6-4415-81ec-b874181f5a49",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधोपचार",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_194bc6b9-94cf-42e2-b627-58586a2ec375",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_2b837eec-9711-4afd-bfc7-3b9523e3239d",
+                    "text": "Flashes of light",
+                    "display-mr": "तीव्र/चकाकणाऱ्या प्रकाशामुळे",
+                    "display-hi": "रोशनी की चमक"
+                },
+                {
+                    "id": "ID_72192d41-1ad3-4f01-be86-6bf6f1ce4cfe",
+                    "text": "Overbreathing",
+                    "display-mr": "अति श्वास घेणे",
+                    "display-hi": "ज्यादा सांस लेना"
+                },
+                {
+                    "id": "ID_0c1b96b1-ccdd-4f0b-8219-a3f22ef67133",
+                    "text": "Non-compliance of medication",
+                    "display-mr": "औषधांचे पालन न करणे",
+                    "display-hi": "दवा का पालन न करना"
+                },
+                {
+                    "id": "ID_aa4a452a-b2e4-4631-a4ea-364baab66187",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_1f8a39f6-c5d0-4a41-8407-6472e4205b04",
+            "text": "How frequently do you have fit?",
+            "display-mr": "तुम्हाला फिट किती वेळा/वारंवार येते?",
+            "display-hi": "आपको कितनी बार दौरे पड़ते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2927fd33-5b46-4561-b699-741a7625f8c5",
+                    "text": "First episode",
+                    "display-mr": "पहिला भाग",
+                    "display-hi": "पहला एपिसोड"
+                },
+                {
+                    "id": "ID_9ec728bf-0864-4036-befd-63fe59e7008c",
+                    "text": "Multiple times in a day",
+                    "display-mr": "एका दिवसात अनेक वेळा",
+                    "display-hi": "दिन में कई बार"
+                },
+                {
+                    "id": "ID_b03eb007-d227-4dc8-b0ab-02280b3e53fc",
+                    "text": "Daily",
+                    "display-mr": "दररोज",
+                    "display-hi": "रोजाना"
+                },
+                {
+                    "id": "ID_d01b7d6d-b70e-4f40-8865-dcde2b09b613",
+                    "text": "Once in a week",
+                    "display-mr": "आठवड्यातून एकदा",
+                    "display-hi": "सप्ताह में एक बार"
+                },
+                {
+                    "id": "ID_cb175e23-f169-44d3-aa4f-de4b54d85795",
+                    "text": "1-2 times in a month",
+                    "display-mr": "महिन्यातून 1-2 वेळा",
+                    "display-hi": "महीने में 1-2 बार"
+                },
+                {
+                    "id": "ID_7af97de7-f159-4215-8727-539755ede98b",
+                    "text": "1-2 times in a year",
+                    "display-mr": "वर्षातून 1-2 वेळा",
+                    "display-hi": "वर्ष में 1-2 बार"
+                }
+            ]
+        },
+        {
+            "id": "ID_305ef6e1-6b69-40ea-a444-a152c88e38fc",
+            "text": "How much time did fit episode last?",
+            "display-mr": "फिट आल्यवर किती काळ राहते?",
+            "display-hi": "दौरे का एपिसोड कितने समय तक रहता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3b0439e4-bd02-4cbe-8022-3d9ad75b4369",
+                    "text": "A few seconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_15285c96-b016-485a-8377-308cb465ea6a",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_6e3203fc-ec8c-4628-9f76-c37be8b05bf7",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                }
+            ]
+        },
+        {
+            "id": "ID_59fbf969-3fd3-42e9-bea8-aad9c2ac3bf7",
+            "text": "How are the frequency of episodes of fit progressing?",
+            "display-mr": "फिट  येण्याच्या घटनेची वारंवारता कशी आहे?",
+            "display-hi": "दौरे के एपिसोड की आवृत्ति कैसी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                
+                {
+                    "id": "ID_22ee9c93-0b40-4fc6-9e4e-d41b58b3cdb1",
+                    "text": "Increasing",
+                    "display-mr": "वाढणे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_4966bd9f-eb30-41bc-a220-df6618fc34f1",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होणे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_70af538b-f6bb-4d31-bc93-69bd657c343c",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_b2ec3fc8-70b2-48c7-a11e-b2aa1a64b15f",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_a8f30417-ae23-42bd-ba9f-9ea12fee755f",
+            "text": "Does the fit have any patterns during a 24 hr cycle?",
+            "display-mr": "फिट किंवा अपस्मार (मिरगी) येण्याचे काही विशिष्ट पद्दती किंवा प्रकार आहेत का",
+            "display-hi": "क्या 24 घंटे के चक्र के दौरान दौरे का कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_33f28d9c-18d4-4204-b29a-85f0c990a02b",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d224d72c-9540-477a-9da8-c148ba8d5e7a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_2c099140-685a-4ebc-aefc-a152df55d952",
+                            "text": "Which part of the day do you usually get the fit ?",
+                            "display-mr": "दिवसाच्या कोणत्या वेळेस तुम्हाला सहसा फिट येते?",
+                            "display-hi": "दिन के किस हिस्से में आपको आमतौर पर दौरे पड़ते हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_915b0005-965e-4ffa-99f3-003f00c2cd39",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_e8d5cd6e-7431-4899-adeb-4674b10e9d53",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपार",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_1cbdbccd-006b-4d1e-8da5-318fe558f78a",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_2a3956ee-d6ae-4595-9009-9951b606af2f",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_0c46a7b5-eb1d-42d9-b0bc-3624e1bcfbd1",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_453dcea7-d45b-401b-9bb4-625c448e0bd9",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_1aa21661-5325-4435-bfa2-2b594fc9c050",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_9847171f-9f60-4696-8f6f-afd0f85bbec1",
+                    "text": "Loss of consciousness",
+                    "display-mr": "चेतना नष्ट होणे",
+                    "display-hi": "चेतना का खो जाना"
+                },
+                {
+                    "id": "ID_8f4c0892-78de-4d06-9575-d6feeeee2dc1",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायूंची कमजोरी",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_c5d56e26-62db-4530-92f1-27de697252dd",
+                    "text": "Tongue bite",
+                    "display-mr": "जीभ चावणे",
+                    "display-hi": "जीभ काटना"
+                },
+                {
+                    "id": "ID_9cd6baff-4e39-4862-b6f5-008fa5d8f7ac",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीत असंयम",
+                    "display-hi": "पेशाब रोक नहीं पाना"
+                },
+                {
+                    "id": "ID_eaa24948-d31c-43aa-9537-4109470551ec",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार टपकना"
+                },
+                {
+                    "id": "ID_125f471a-c8f2-430e-aaf7-15e9529cf1d8",
+                    "text": "Bruise",
+                    "display-mr": "जखम",
+                    "display-hi": "चोट लगना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_416a2314-f875-41b7-99a4-7986a3243051",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_5888a7a0-9c31-4a52-b3e9-de03637ce5c2",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_911664fd-ad55-4f8a-bd86-9523f6040a6f",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_3bc4a03d-67bc-4378-a702-ea55352b2783",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_1ff9ae2e-2bb5-4f0e-9edc-38643f620d5f",
+                    "text": "Head injury",
+                    "display-mr": "डोक्याला दुखापत",
+                    "display-hi": "सिर पर चोट"
+                },
+                {
+                    "id": "ID_f2e78fb1-d7db-4220-a65e-204347d89afb",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_44448781-5af2-42e7-93c0-eeb7b42c6a07",
+                    "text": "Skin nodules",
+                    "display-mr": "त्वचेच्या गाठी",
+                    "display-hi": "त्वचा पर गांठें"
+                },
+                {
+                    "id": "ID_ef1254f4-5abd-4492-af89-80904d5e977c",
+                    "text": "Depression",
+                    "display-mr": "नैराश्य",
+                    "display-hi": "अवसाद"
+                },
+                {
+                    "id": "ID_55253cdf-8ee7-43e4-bf4d-74607f4499b1",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_f67497d5-a540-4f85-996f-7e9c541d0723",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e4709962-4475-4cd5-9986-7b9076665d72",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_208b2412-10eb-4a47-95a1-55cd5c249c25",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_56d83ae3-f3cb-4d99-85fc-36e317c4927a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_08e35c8a-7816-470b-8d55-209a5836e6cb",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_71ef1b2d-b74f-4ed7-9c35-d06a2baaec94",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_40b444e7-7eb7-4351-ad09-f04a85dde7ac",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

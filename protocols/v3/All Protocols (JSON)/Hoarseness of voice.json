@@ -1,0 +1,542 @@
+{
+    "id": "ID_7e2f5c5e-57a7-408b-823d-ed2a8b66110a",
+    "text": "Hoarseness of voice",
+    "engineVersion": "3.0",
+    "display-mr": "आवाजातील घोगरेपणा",
+    "display-hi": "आवाज की कर्कशता",
+    "options": [
+        {
+            "id": "ID_6dbf0200-e57f-4cfc-83aa-ca901900b2a5",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b3c88d13-efd0-4793-8b3c-7efd2d62c70f",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_803a3071-9947-4562-b73c-c7b6b2080286",
+            "text": "How fast did hoarseness of voice develop?",
+            "display-mr": "आवाजातील घोगरेपणा किती वेगाने वाढला?",
+            "display-hi": "आवाज में कर्कशता की समस्या कितनी तेजी से बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_02e85833-f554-4510-bc60-ec118c2965a8",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_382c8d82-9221-4935-9013-f5a96a7e0b06",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_9fb52c51-9607-4cb2-b358-194cf56c8a49",
+            "text": "How can you describe the quality of voice?",
+            "display-mr": "तुम्ही आवाजाच्या दर्जाचे वर्णन कशाप्रकारे करू शकता?",
+            "display-hi": "आप आवाज की गुणवत्ता का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ab91f572-7a4f-4a46-940e-199d76f8a010",
+                    "text": "Rough (harsh) voice",
+                    "display-mr": "खरबरीत (कर्कश्श) आवाज",
+                    "display-hi": "कर्कश (कठोर) आवाज"
+                },
+                {
+                    "id": "ID_8bd8fc3d-6307-4bb8-8267-f019407e4a36",
+                    "text": "Weak (breathy) voice",
+                    "display-mr": "कमकुवत (धाप लागल्यासारखा) आवाज",
+                    "display-hi": "कमजोर (सांस भरी) आवाज"
+                },
+                {
+                    "id": "ID_4fd156a3-41f8-4dc2-b6e5-381ad44e8490",
+                    "text": "Shaky voice",
+                    "display-mr": "थरथरता आवाज",
+                    "display-hi": "कांपती आवाज़"
+                },
+                {
+                    "id": "ID_f5864e22-da84-473d-8bda-296eda1df5c5",
+                    "text": "Breaking voice",
+                    "display-mr": "कापणारा आवाज",
+                    "display-hi": "टूटती आवाज"
+                },
+                {
+                    "id": "ID_5f21a6d0-9086-49f3-beb7-64f6b3e67a75",
+                    "text": "Whispering voice",
+                    "display-mr": "कुजबुजणारा आवाज",
+                    "display-hi": "फुसफुसाती आवाज"
+                },
+                {
+                    "id": "ID_1fe4d0f9-87a8-4b28-b1d9-c8c342f814cc",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_a87caad4-773b-48ad-bef3-3ce10b339224",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_44adf1f4-a32a-4777-bb88-40faeebc9d00",
+            "text": "Do you have any prior history to hoarseness of voice?",
+            "display-mr": "तुम्हाला आवाजातील घोगरेपणाचा काही इतिहास आहे का?",
+            "display-hi": "क्या आपको आवाज में कर्कशता का कोई पिछला इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3bad0fcb-4667-453f-acd7-31b5b2e6ee72",
+                    "text": "None",
+                    "display-mr": "अजिबात नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1b44d4f6-86eb-4e5b-b8f2-0fd384e290b2",
+                    "text": "Head inury",
+                    "display-mr": "डोक्याला इजा",
+                    "display-hi": "सिर में चोट"
+                },
+                {
+                    "id": "ID_880b323e-4736-481c-b919-45002b07a56b",
+                    "text": "Choking",
+                    "display-mr": "श्वास गुदमरणे",
+                    "display-hi": "घुटन"
+                },
+                {
+                    "id": "ID_c2938076-0fe0-482d-a776-a503970fa0a7",
+                    "text": "Foreign body inhalation",
+                    "display-mr": "श्वासातून बाह्य घटक शरीरात जाणे",
+                    "display-hi": "बाहरी वस्तु का सांस में जाना"
+                },
+                {
+                    "id": "ID_6920d2e9-cedf-4074-89b7-4517cab87575",
+                    "text": "Inhalation of toxic gases or fumes",
+                    "display-mr": "विषारी वायू किंवा वाफा श्वासवाटे घेणे",
+                    "display-hi": "जहरीली गैसों या धुएं का सांस में जाना"
+                },
+                {
+                    "id": "ID_00f9084a-bc5f-49dc-a79a-52a1d80d97bb",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c0e86713-7b70-417e-8452-f4d3f83cbd1f",
+            "text": "Does hoarseness of voice have any pattern during a 24 hr cycle?",
+            "display-mr": "आवाजातील घोगरेपणाचे 24 तासांच्या आवर्तनामध्ये काही स्वरूप आहे आहे का?",
+            "display-hi": "क्या 24 घंटे के चक्र के दौरान आवाज में कर्कशता का कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ce75767f-8b81-46fd-80dc-4cf506d29a6f",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_22c2cee1-31d8-4783-8e9b-e3c48252071b",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधून-मधून (येतो व जातो)",
+                    "display-hi": "रुक-रुक कर (आता—जाता है)",
+                    "options": [
+                        {
+                            "id": "ID_6cba2057-a814-43cf-9378-5b54ec3bd549",
+                            "text": "When do you have the hoarseness of voice worst?",
+                            "display-mr": "तुमच्या आवाजातील घोगरेपणा सर्वात वाईट कधी असतो?",
+                            "display-hi": "आपकी आवाज में कर्कशता सबसे ज्यादा कब होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_718e7adb-904a-4d31-9939-1e6bcfb1a844",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_e0d26d8f-f588-4a65-ad19-8dada8f364f6",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_5c34f582-936a-4e3a-a652-0dabc867e3c9",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_9e3ab1ee-483d-4f99-8155-4bedd0ed45f6",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_e089c777-99f1-437b-8b56-bb70cd14fb86",
+                            "text": "How long does the hoarseness of voice last?",
+                            "display-mr": "आवाजातील घोगरेपणा किती काळ टिकतो?",
+                            "display-hi": "आवाज में कर्कशता कितने समय तक रहती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_1562c7d7-4988-46b1-9dc8-d0af676dfb7a",
+                                    "text": "A few seconds",
+                                    "display-mr": "काही सेकंद",
+                                    "display-hi": "कुछ सेकंड"
+                                },
+                                {
+                                    "id": "ID_974df378-7dd7-4c12-9a0b-0b723918c3a0",
+                                    "text": "A few minutes",
+                                    "display-mr": "काही मिनिटे",
+                                    "display-hi": "कुछ मिनट"
+                                },
+                                {
+                                    "id": "ID_230155a4-0fe8-48ff-aa47-d80158dc7457",
+                                    "text": "A few hours",
+                                    "display-mr": "काही तास",
+                                    "display-hi": "कुछ घंटे"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c18e2892-6037-4fb7-9865-02097764353f",
+            "text": "What worsens the hoarseness of voice?",
+            "display-mr": "आवाजातील घोगरेपणा कशामुळे बळावतो?",
+            "display-hi": "आवाज में कर्कशता को और खराब करने वाली चीजें क्या हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_928cd412-b3b0-4ad1-b0b6-d593a073f5c8",
+                    "text": "None",
+                    "display-mr": "काहीच नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5691667d-fe07-46ad-8d5a-fb39f92c68d1",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_00e9fb9f-621f-445f-a0d3-5445f68d7f1d",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_b8f3a7a3-72b7-456f-b357-ced9c3415bf5",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_438e7ddb-b0a7-429e-994e-01d740f99867",
+                    "text": "Lack of sleep",
+                    "display-mr": "झोप न लागणे",
+                    "display-hi": "नींद की कमी"
+                },
+                {
+                    "id": "ID_06db7d15-ece0-4f5d-8ab6-3d8252f73b4d",
+                    "text": "Speaking quickly",
+                    "display-mr": "वेगाने बोलणे",
+                    "display-hi": "जल्दी-जल्दी बोलना"
+                },
+                {
+                    "id": "ID_ea79a16d-93e8-4bea-97ec-c17b18c98c91",
+                    "text": "Prolonged speaking",
+                    "display-mr": "दीर्घकाळ बोलणे",
+                    "display-hi": "लंबे समय तक बोलना"
+                },
+                {
+                    "id": "ID_c14f2680-421c-48a5-9c85-fc5f024505aa",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c57c1742-3ad2-4c8d-bd47-ca84ccc81bbf",
+            "text": "How is the hoarseness of voice progressing?",
+            "display-mr": "आवाजातील घोगरेपणाची प्रगती कशी आहे?",
+            "display-hi": "आवाज में कर्कशता कैसे बढ़ती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aa13a6cc-fb8e-4088-9151-51f33838965b",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_08aad319-9b4a-4ec3-91cc-504638577fb8",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_9828d982-6c4c-4dee-a165-7fb5ca147239",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_9c294064-99b3-4ccb-b013-e531067dd8bf",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_04265a5e-b901-42c8-a42b-5402669b80de",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_e98881e7-043f-4552-ba02-5e6508047b3d",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळताना त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_6b07f8f6-97ef-4e9f-8476-a7edc75ff5b2",
+                    "text": "Throat pain",
+                    "display-mr": "घशात वेदना",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_da702db7-7379-41de-a168-428997bb12b8",
+                    "text": "Painful swallowing",
+                    "display-mr": "गिळताना वेदना होणे",
+                    "display-hi": "निगलने में दर्द"
+                },
+                {
+                    "id": "ID_6887ba59-93b9-4878-8081-e450ef2e76aa",
+                    "text": "Neck swelling",
+                    "display-mr": "मानेवर सूज",
+                    "display-hi": "गर्दन में सूजन"
+                },
+                {
+                    "id": "ID_5c858b81-a34d-45b4-a9d4-3c8ce5a96bac",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार टपकना"
+                },
+                {
+                    "id": "ID_1e7946c0-3270-4d46-9cce-500ee81f7ee8",
+                    "text": "Stridor",
+                    "display-mr": "कर्कश्शपणा",
+                    "display-hi": "सांस लेने में आवाज"
+                },
+                {
+                    "id": "ID_d924fec1-45a6-4d00-b98f-673c00b4ccc8",
+                    "text": "Tremor",
+                    "display-mr": "कंप",
+                    "display-hi": "कंपकंपी"
+                },
+                {
+                    "id": "ID_2799f9ba-7efc-486a-8c29-c7bc03d98aac",
+                    "text": "Muscle rigidity",
+                    "display-mr": "स्नायू ताठर होणे",
+                    "display-hi": "मांसपेशियों में अकड़न"
+                },
+                {
+                    "id": "ID_6075e19e-b6c3-4123-b8fd-316c15163745",
+                    "text": "History of foreign body ingestion",
+                    "display-mr": "एखादा बाह्य घटक शरीरामध्ये जाण्याचा इतिहास असणे",
+                    "display-hi": "बाहरी वस्तु को निगलने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_13c44cb3-513a-4d98-8e0c-f8e3f7d8bdf9",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_20ad99ad-3edc-4b24-93e3-23ce0d620750",
+                    "text": "None",
+                    "display-mr": "अजिबात नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_7ae26156-1307-4306-a018-f4189b672aa7",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_d2378c9f-c65d-4237-a8f9-470289d7d48e",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ",
+                    "display-hi": "सीने में जलन"
+                },
+                {
+                    "id": "ID_f317f020-1b05-4418-b598-9e7acc0e0925",
+                    "text": "Belching",
+                    "display-mr": "ढेकर देणे",
+                    "display-hi": "डकार आना"
+                },
+                {
+                    "id": "ID_2eab7b14-6475-4b44-8a2f-f6db68f1854e",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_42673088-ce05-4c42-b296-380a0f41bd42",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_15f078b7-014c-490d-a16d-def40772d5ec",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_fc27941e-365a-4e24-bf19-e51a4e94c138",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_e4901cb9-157f-4b20-ab1e-afd7cdcf94ba",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_f70b6546-a290-44b3-a23b-8b4e649a6a29",
+                    "text": "Wheezing",
+                    "display-mr": "छातीत घरघर",
+                    "display-hi": "घरघराहट"
+                },
+                {
+                    "id": "ID_4505c511-be5e-4681-b10d-f1be607b91fb",
+                    "text": "Numbness",
+                    "display-mr": "बधीरपणा",
+                    "display-hi": "सुन्नता"
+                },
+                {
+                    "id": "ID_aa04bd5d-8148-4070-a59e-d8ddf3e910c9",
+                    "text": "Dry skin",
+                    "display-mr": "त्वचा कोरडी होणे",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_59fed34c-33e3-495f-ba74-49b9089b175b",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_24d7aeca-d2e6-458d-9981-4974f00a0c3b",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न कर पाना"
+                },
+                {
+                    "id": "ID_3cb9345b-cf6d-4e73-b38a-f9d07316c886",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_0795b3de-600f-4182-9d47-32c5f3164abe",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c688679c-454c-428d-a178-f4e88b0db24a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_f4ee835c-8874-4c83-8165-864de1ef6c28",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_7dd2b148-330a-4e15-9981-6f5bc044ad2f",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_5ebf7fdf-efb4-418d-aca9-9a31182046c6",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_88e20f3e-f8fe-4992-bf39-4bc875a0e732",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

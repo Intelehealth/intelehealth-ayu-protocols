@@ -1,0 +1,752 @@
+{
+    "id": "ID_b6eb4db2-2bb2-4a86-9c1b-5e92ee0f8eed",
+    "text": "Flank pain",
+    "engineVersion": "3.0",
+    "display-mr": "पार्श्वभाग दुखणे",
+    "display-hi": "पार्श्व में पसलियों के पास दर्द",
+    "options": [
+        {
+            "id": "ID_9af7475e-4f92-4a16-9de6-fbeea8963d0c",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ac598493-9f6a-429e-8495-357688269dcf",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_4fa1fb66-efcf-4780-8f08-5c708e06273c",
+            "text": "How fast did flank pain develop?",
+            "display-mr": "पार्श्वभागाचे दुखणे कसे वाढले ?",
+            "display-hi": "पसलियों के पास का दर्द कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f36a0126-2fdf-4ad7-aa6f-aa1312007077",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_e160592a-6ea7-4a33-acd5-11cfed55222b",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_8178d60f-7006-47dc-b043-3d8bf3902658",
+            "text": "Where do you have pain?",
+            "display-mr": "तुम्हाला दुखणे कुठे आहे?",
+            "display-hi": "आपको कहां दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_315c090e-80a7-4bc8-bd44-734d4306a510",
+                    "text": "Left flank",
+                    "display-mr": "डावा पार्श्वभाग",
+                    "display-hi": "बाएं पार्श्व"
+                },
+                {
+                    "id": "ID_1800b3f8-ad8d-458c-ae96-37e9fea7e7f5",
+                    "text": "Right flank",
+                    "display-mr": "उजवा पार्श्वभाग",
+                    "display-hi": "दाएं पार्श्व"
+                },
+                {
+                    "id": "ID_b98ae5fd-e8c5-4ba0-9116-251123c0a21c",
+                    "text": "Both flanks",
+                    "display-mr": "दोन्ही पार्श्वभाग",
+                    "display-hi": "दोनों पार्श्व"
+                }
+            ]
+        },
+        {
+            "id": "ID_36740b5a-173a-46d9-8a14-25d3104f5f2d",
+            "text": "Did you have any of the events prior to flank pain?",
+            "display-mr": "पार्श्वभागाचे दुखणे होण्याआधी त्याच्याशी संबंधित काही प्रसंग घडले होते का ?",
+            "display-hi": "क्या पसलियों के पास के दर्द से पहले आपको इनमें से कुछ हुआ था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b043bc59-0d78-40c2-9429-e2033c47f18c",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d5c6c7af-20fa-43ee-89ad-d002ba68ff5d",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_6a11daf8-ae7a-4750-a76c-812d809eed01",
+                    "text": "Sprain",
+                    "display-mr": "लचक भरणे",
+                    "display-hi": "मोच"
+                },
+                {
+                    "id": "ID_f9252b21-7f91-4737-bf8a-1a17c482a71b",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_861d80a3-271c-494d-8a15-86cbff2a7b1e",
+            "text": "What is the character of flank pain?",
+            "display-mr": "पार्श्वभागाच्या दुखण्याचे वैशिष्ट्य काय आहे?",
+            "display-hi": "पसलियों के पास का दर्द के प्रकार को आप कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1be64d9b-cde7-402c-9806-bfb534eec740",
+                    "text": "Cramping pain",
+                    "display-mr": "पेटके आल्याप्रमाणे वेदना",
+                    "display-hi": "ऐंठन वाला दर्द"
+                },
+                {
+                    "id": "ID_67ef9df0-87af-4c66-9afc-014c118682da",
+                    "text": "Pressure pain",
+                    "display-mr": "अस्वस्थ वाटणारी वेदना/ दुखणे",
+                    "display-hi": "दबाव वाला दर्द"
+                },
+                {
+                    "id": "ID_586aecde-902c-449e-872c-2ce6624abbdb",
+                    "text": "Sharp pain",
+                    "display-mr": "अत्यंत तीव्र वेदना/ दुखणे",
+                    "display-hi": "चुभने वाला दर्द"
+                },
+                {
+                    "id": "ID_07debaab-8e83-4d15-a284-20c895bd78f4",
+                    "text": "Throbbing pain",
+                    "display-mr": "धडधड करणारी वेदना/ दुखणे",
+                    "display-hi": "धड़कन वाला दर्द"
+                },
+                {
+                    "id": "ID_131a23ad-e3a3-489a-913d-99cdb2a85774",
+                    "text": "Shooting pain",
+                    "display-mr": "कळ येणारी वेदना/ दुखणे",
+                    "display-hi": "अचानक तेज दर्द"
+                },
+                {
+                    "id": "ID_97b96320-e8a9-4c26-a189-8fb9d101a77b",
+                    "text": "Dull pain",
+                    "display-mr": "सहन होणारी पण दीर्घकाळ राहणारी वेदना/ दुखणे",
+                    "display-hi": "धीमा दर्द"
+                },
+                {
+                    "id": "ID_59d0ee7e-9a6e-4fbd-93c2-d178013f4870",
+                    "text": "Burning pain",
+                    "display-mr": "जळजळ होणारी वेदना/ दुखणे",
+                    "display-hi": "जलन वाला दर्द"
+                },
+                {
+                    "id": "ID_33942b4d-0ac2-4d85-9058-11d72bad2132",
+                    "text": "Aching pain",
+                    "display-mr": "सतत होणारी वेदना दुखणे",
+                    "display-hi": "मंद दर्द"
+                },
+                {
+                    "id": "ID_ae67dda0-e097-4c52-9f2c-809917279f3d",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_aa2c8a08-3514-4afd-a94b-6f05b9d5815e",
+            "text": "How severe is the flank pain?",
+            "display-mr": "पार्श्वभागाचे दुखणे किती गंभीर आहे?",
+            "display-hi": "पसलियों के पास का दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bb8f7616-da83-4620-bf4c-3fe9477c1338",
+                    "text": "Mild pain (1 to less than 3)",
+                    "display-mr": "कमी वेदना  (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                },
+                {
+                    "id": "ID_843fac1d-57f8-41d9-94de-3ba2ab67fd56",
+                    "text": "Moderate pain (3 to less than 5)",
+                    "display-mr": "मध्यम दुखणे (3 ते less than 5)",
+                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                },
+                {
+                    "id": "ID_fa853263-629f-4272-a1e8-3339ad27bbdd",
+                    "text": "Severe pain (5 to less than 7)",
+                    "display-mr": "गंभीर दुखणे (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                },
+                {
+                    "id": "ID_c7489cc2-2f64-4821-a822-da558eb08532",
+                    "text": "Very severe pain (7 to less than 9)",
+                    "display-mr": "अती तीव्र दुखणे (7ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than 9)"
+                },
+                {
+                    "id": "ID_609f7013-0569-48c8-8ea9-2238a7c5ee18",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "असह्य दुखणे  (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_988856e0-50d2-464f-b1c0-6e77f4362f5e",
+            "text": "Does the flank pain radiate to other areas?",
+            "display-mr": "पार्श्वभागाचे दुखणे शरीराच्या इतर भागांतही पसरते का?",
+            "display-hi": "क्या पसलियों के पास का दर्द अन्य क्षेत्रों में फैलता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                
+                {
+                    "id": "ID_9b5203c8-9ad6-4c49-ae79-a2f4a9aef9eb",
+                    "text": "None",
+                    "display-mr": "नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6960a4a9-72db-4d14-8c78-d04c6a907729",
+                    "text": "Lower abdomen",
+                    "display-mr": "ओटीपोट",
+                    "display-hi": "पेट के निचले हिस्से"
+                },
+                {
+                    "id": "ID_1da31e2d-a229-4b3e-951b-bf11fc173b18",
+                    "text": "Groin",
+                    "display-mr": "मांडीचा सांधा",
+                    "display-hi": "कमर के नीचे"
+                },
+                {
+                    "id": "ID_886d5cb1-4de6-441f-8a0d-087645474fe2",
+                    "text": "External genitalia",
+                    "display-mr": "जननेंद्रियाचा बाहेरील भाग",
+                    "display-hi": "बाहरी जननांग"
+                },
+                {
+                    "id": "ID_9d335372-f34e-48f2-a2d4-424a49d09444",
+                    "text": "Scrotum",
+                    "display-mr": "स्क्रॉटम (अंडकोष)",
+                    "display-hi": "अंडकोश"
+                },
+                {
+                    "id": "ID_711f20e5-b42f-4bce-9108-12fe9a620c36",
+                    "text": "Lower back",
+                    "display-mr": "पाठीचा खालचा भाग",
+                    "display-hi": "पीठ के निचले हिस्से"
+                },
+                {
+                    "id": "ID_97584199-168e-4526-b5c7-63ecdef63a6b",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7ec41c20-acde-4224-8aa6-7aca1dc83fcf",
+            "text": "Do you have any of the local associated features with flank pain?",
+            "display-mr": "पार्श्वभागाशी संबंधित तुम्हाला अन्य काही त्रास आहे का?",
+            "display-hi": "क्या आपको पसलियों के पास के दर्द से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_58eadad9-4ef0-43e6-94a0-66ea3b32f369",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fd9fe6a7-c7f9-440c-832d-f24269b8321a",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_cd6689d0-d67e-4799-8cc9-16d7b7bf62af",
+                    "text": "Stiffness",
+                    "display-mr": "ताठरपणा (कडकपणा)",
+                    "display-hi": "कठोरता"
+                },
+                {
+                    "id": "ID_d1c571e9-2711-45fd-88f5-c29edb8a184d",
+                    "text": "Discoloration of skin",
+                    "display-mr": "त्वचेचा रंग बदलणे/ उडणे",
+                    "display-hi": "त्वचा का रंग बदलना"
+                },
+                {
+                    "id": "ID_e94c4478-9464-452b-8518-882f5dd5971e",
+                    "text": "Difficulty moving",
+                    "display-mr": "हालचाल करण्यात त्रास",
+                    "display-hi": "चलने में परेशानी"
+                },
+                {
+                    "id": "ID_0e9e7464-2f4f-4a6d-b393-3c813588a056",
+                    "text": "Warmth",
+                    "display-mr": "उष्णता",
+                    "display-hi": "गर्मी"
+                },
+                {
+                    "id": "ID_f64a0fd2-aaef-4ae5-97a7-33d79a82a2c2",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श केल्यास वेदना",
+                    "display-hi": "स्पर्श करने पर दर्द"
+                },
+                {
+                    "id": "ID_3136727d-f587-4d67-bd1e-2d2daf922d90",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर चकत्ते"
+                },
+                {
+                    "id": "ID_e107227c-2db8-480f-9639-7f7f7abb1a00",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_20628675-1ffc-42a0-bc3e-93d3a22db16f",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_81836372-6956-491f-ba26-f9ec9a55df09",
+            "text": "What does relieve or lessen the flank pain?",
+            "display-mr": "पार्श्वभागाच्या दुखण्यातून कशामुळे आराम मिळतो किंवा दुखणे कशामुळे कमी होते?",
+            "display-hi": "क्या पसलियों के पास का दर्द से राहत दिलाती है या कम करती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ba79925e-105e-44bd-88b7-21620ed0350f",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0bd3ee9d-b83c-4dc1-ad3d-c8f5a0840202",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_3bddcd4c-af8e-44ec-9a0f-af0ee5be2a8e",
+                    "text": "Cold compress",
+                    "display-mr": "बर्फाने शेकल्यावर",
+                    "display-hi": "ठंडा सेंक"
+                },
+                {
+                    "id": "ID_17fae54c-eae9-4314-9cc0-b3caa4f3e736",
+                    "text": "Hot compress",
+                    "display-mr": "गरम पाण्याच्या पिशवीने शेकल्यावर",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_d0f45206-f5b9-4e60-9f61-1c2c0094def1",
+                    "text": "Plenty oral fluids",
+                    "display-mr": "तोंडावाटे भरपूर द्रवपदार्थ घेतल्यावर",
+                    "display-hi": "काफी मात्रा में तरल पदार्थ पीना"
+                },
+                {
+                    "id": "ID_5b942a25-7a80-44e4-98f0-d8e1fc4fe2ad",
+                    "text": "Rest",
+                    "display-mr": "आराम",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_f0c6e90f-c71e-45cd-91e4-1b1e6dabb76c",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_182ab9ee-0414-478e-b08d-092b6cf8ed84",
+            "text": "What does increase or worsen the flank pain?",
+            "display-mr": "पार्श्वभागाचे दुखणे कशामुळे वाढते किंवा असह्य होते?",
+            "display-hi": "क्या पसलियों के पास का दर्द को बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_55b5ee0d-6f32-4ac3-b4c2-a924fd79bb45",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_46f9d59a-8bd5-45d8-9087-e13ce744a0e9",
+                    "text": "Urination",
+                    "display-mr": "लघवी",
+                    "display-hi": "पेशाब करना"
+                },
+                {
+                    "id": "ID_c36e99ac-9265-4af2-ac31-20ac532ab742",
+                    "text": "Bending",
+                    "display-mr": "वाकणे",
+                    "display-hi": "झुकना"
+                },
+                {
+                    "id": "ID_76242b71-c386-48b2-b5e7-92c96d23fd79",
+                    "text": "Twisting",
+                    "display-mr": "वळणे",
+                    "display-hi": "घुमाना"
+                },
+                {
+                    "id": "ID_c0add3a8-1d4a-4ee7-ba43-0de303ab38df",
+                    "text": "Walking",
+                    "display-mr": "चालणे",
+                    "display-hi": "चलना"
+                },
+                {
+                    "id": "ID_a2d7f7dc-5002-4eb7-b2c0-0904d40461c3",
+                    "text": "Weight lifting",
+                    "display-mr": "वजन उचलणे",
+                    "display-hi": "वजन उठाना"
+                },
+                {
+                    "id": "ID_4e31efee-8ef7-4e4f-be3a-2b4268068940",
+                    "text": "Eating",
+                    "display-mr": "खाणे",
+                    "display-hi": "खाना"
+                },
+                {
+                    "id": "ID_e4cefd81-958d-4710-9f16-d9849936e97e",
+                    "text": "Exertion",
+                    "display-mr": "मेहनत/ परिश्रम",
+                    "display-hi": "शारीरिक मेहनत"
+                },
+                {
+                    "id": "ID_9bdb0e8e-ba66-405a-bfd2-cdbbf0899eab",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_2c10c4f1-8e98-47dd-b544-670eac2d1a66",
+            "text": "Does the flank pain have any pattern during 24 hours?",
+            "display-mr": "24 तासांत पार्श्वभागाचे दुखण्याचे काही विशिष्ट चक्र आहे?",
+            "display-hi": "क्या पसलियों के पास का दर्द का 24 घंटों के दौरान कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6bd42cff-a088-42a5-9b6b-c9bc5d2539d9",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_9d8aff69-3406-461b-bb18-c34c8c6e8522",
+                    "text": "Intermittent (on & off)",
+                    "display-mr": "मधूमधून (सुरु होते आणि बंद होते)",
+                    "display-hi": "रुक-रुक कर (शुरू और बंद)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_784914a5-66b1-426b-a26a-cb674c8eb3b6",
+                            "text": "When do you have or feel the flank pain worst?",
+                            "display-mr": "तुमचा पार्श्वभागाचे दुखणे सर्वात जास्त कधी वाढते?",
+                            "display-hi": "आपको पसलियों के पास का दर्द कब सबसे ज्यादा होता है या महसूस होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_dc2afce1-0fb7-43c2-aea6-0abf5c47c716",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_63e0d86e-5ff6-492f-91ea-cf3a03b45fc3",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_c2bbc074-882e-45c1-a71a-c6e290e3adb8",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_d983d3b7-f11f-446d-88fa-611834d64ad5",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9d930ec6-5cf6-4aa7-8575-fa7c7a95c5a6",
+            "text": "How is flank pain progressing?",
+            "display-mr": "पार्श्वभागाचे दुखण्यामध्ये काही बदल झाला का?",
+            "display-hi": "पसलियों के पास का दर्द में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_05404bfd-b9ab-4a17-9289-2b30a7309ca3",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_17089bd4-d8e8-4b39-84db-c7fa96584601",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_09eaece2-bb0d-4f30-bcb5-3ac09c743750",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार—बार होना"
+                },
+                {
+                    "id": "ID_296501b4-b41a-4c69-81ca-d996a669e83e",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_9237ca0d-cadc-4491-9349-6031afa35a18",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_083db808-9144-4017-97e2-a6f8146a91ed",
+                    "text": "Painful urination",
+                    "display-mr": "लघवी करताना वेदना",
+                    "display-hi": "दर्दनाक पेशाब"
+                },
+                {
+                    "id": "ID_9de72b0d-3e02-4198-98a5-4a6f1969b3dd",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी करणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_9236fdbd-9b9c-4daa-a915-004a6ce936cc",
+                    "text": "Urgency of urination",
+                    "display-mr": "लघवीला घाई होणे",
+                    "display-hi": "पेशाब आने की जल्दी"
+                },
+                {
+                    "id": "ID_01da19d7-a26c-4170-a4d0-d1a5ef00e95e",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीतून रक्त पडणे",
+                    "display-hi": "पेशाब में खून आना"
+                },
+                {
+                    "id": "ID_74744c25-62cd-4cc4-9845-524d5fc2eaca",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_92a4fdff-fb01-4827-9a6f-c8854bef3bc6",
+                    "text": "Urethral discharge",
+                    "display-mr": "मूत्रमार्गातील रक्तस्राव",
+                    "display-hi": "मूत्रमार्ग से तरल का निकलना"
+                },
+                {
+                    "id": "ID_cf947d31-3788-4c1f-b5be-c1374a3fc20a",
+                    "text": "Decreased urine",
+                    "display-mr": "लघवी कमी होणे",
+                    "display-hi": "पेशाब कम होना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_a32019d4-bd5f-45f0-9c3d-168ab9d9c68a",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f96ee912-8031-4478-a85e-ffc5239c6820",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b475baa4-6485-4f25-8228-a2030cfe3caf",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_28601a3f-11bf-419c-9815-6c7566999235",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी आणि कुडकुडणे",
+                    "display-hi": "ठंड और कंपकंपी"
+                },
+                {
+                    "id": "ID_50042ca3-bd47-4dd6-ab43-f20e09204aa3",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_f4dae39b-6b3b-4c8d-a040-2e84b3b64641",
+                    "text": "Excessive sweating",
+                    "display-mr": "जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_22e300e7-142d-4b97-abe6-41813f112247",
+                    "text": "Swelling of feet",
+                    "display-mr": "पायाला सूज येणे",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_6e9e4973-2acc-45bc-adce-68928fd21ad4",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में दिक्कत"
+                },
+                {
+                    "id": "ID_217c32d4-e86e-4f01-87fe-ee473d6f8074",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_43ecc2f6-2910-4000-a406-adabc499f162",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_acbeb875-0c57-4fee-909f-02a685639e3d",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_9aca9ecc-1c49-40dd-b913-1621439484d2",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_fed43fab-4d03-4a7a-b022-6d577f4936b6",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ येणे",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_4465e4d6-e0f1-49cb-8d74-f3f3b31f549a",
+                    "text": "Swelling of face",
+                    "display-mr": "चेहऱ्यावर सूज",
+                    "display-hi": "चेहरे पर सूजन"
+                },
+                {
+                    "id": "ID_f4640111-7f16-4dcd-9989-fd42e1832fdd",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_7d00c7e3-3935-4e96-b7fb-a5e7ac75224e",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_739e4044-5441-41f4-a8ce-f7c1a1f09837",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_48eccd92-c174-488f-a841-7182e0b1ed71",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_5312fd90-6b44-4003-b0d5-e3978a28c4d3",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_caf26bf9-7d0b-40d9-bdfa-95c51319e4fa",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6b0144b4-ea60-4071-92e5-88e2fef8cc71",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

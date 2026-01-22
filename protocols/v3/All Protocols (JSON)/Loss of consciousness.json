@@ -1,0 +1,793 @@
+{
+    "id": "ID_52b2cb4a-8cb9-4084-9f54-954f4428da28",
+    "text": "Loss of consciousness",
+    "engineVersion": "3.0",
+    "display-mr": "शुध्द हरपणे",
+    "display-hi": "बेहोश होना",
+    "options": [
+        {
+            "id": "ID_c283b4af-7d83-4c68-b738-0e648b3f616e",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e6fb2e10-17e8-41c6-974f-4b46b08a02fd",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_1583a156-b969-4e56-911b-d7b638c57c65",
+            "text": "How many times you have had loss of consciousness?",
+            "display-mr": "तुमची शुध्द किती वेळा हरपली आहे?",
+            "display-hi": "आप कितनी बार बेहोश हुए हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5e503066-a8f1-43e6-bf39-660e056386fb",
+                    "text": "Once",
+                    "display-mr": "एकदा",
+                    "display-hi": "एक बार"
+                },
+                {
+                    "id": "ID_6858b931-510d-4e81-84ee-8854f79708b0",
+                    "text": "Twice",
+                    "display-mr": "दोनदा",
+                    "display-hi": "दो बार"
+                },
+                {
+                    "id": "ID_8f326ff6-eecf-4857-82c4-93edd38ad093",
+                    "text": "Thrice",
+                    "display-mr": "तीनदा",
+                    "display-hi": "तीन बार"
+                },
+                {
+                    "id": "ID_daa85be9-bfe0-442f-a2cf-0b760db2f005",
+                    "text": "Four times or more",
+                    "display-mr": "चार वेळेस किंवा जास्त",
+                    "display-hi": "चार बार या उससे ज्यादा"
+                }
+            ]
+        },
+        {
+            "id": "ID_ba430022-965e-44d7-808f-2809edfb80d8",
+            "text": "How long did the loss of consciousness last?",
+            "display-mr": "बेशुध्दीची स्थिती किती काळापर्यंत राहिली होती?",
+            "display-hi": "आप कितनी देर तक बेहोश रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8658231c-84ee-41ce-bde0-b23572e0611b",
+                    "text": "A few seconds",
+                    "display-mr": "काही सेकंद",
+                    "display-hi": "कुछ सेकंड"
+                },
+                {
+                    "id": "ID_eac162ca-9753-4ce6-a1a5-6d2e35e68548",
+                    "text": "A few minutes",
+                    "display-mr": "काही मिनिटे",
+                    "display-hi": "कुछ मिनट"
+                },
+                {
+                    "id": "ID_37f30585-fbcc-49ae-bd1f-2b451c009266",
+                    "text": "A few hours",
+                    "display-mr": "काही तास",
+                    "display-hi": "कुछ घंटे"
+                },
+                {
+                    "id": "ID_6299d18b-63e2-46c5-9d0d-8b0b0c976bf4",
+                    "text": "A few days",
+                    "display-mr": "काही दिवस",
+                    "display-hi": "कुछ दिन"
+                }
+            ]
+        },
+        {
+            "id": "ID_16497aee-37c2-40c2-831b-867436f6e808",
+            "text": "Was there any triggerng events before you developed the loss of consciousness?",
+            "display-mr": "शुध्द जाण्यापूर्वी त्याला कारणीभूत प्रसंग घडले होते का?",
+            "display-hi": "क्या बेहोश होने की समस्या से पहले क्या कोई उत्तेजित करने वाली घटना हुई थी?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1f5344dc-1bf9-4647-928a-32c7db7acf6d",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_123f600c-c915-4aef-8662-24cd70e0e7ca",
+                    "text": "Fear",
+                    "display-mr": "भीती",
+                    "display-hi": "डर"
+                },
+                {
+                    "id": "ID_2e968c59-1591-452d-9592-c38c7e00ebac",
+                    "text": "Painful event",
+                    "display-mr": "वेदनादायी प्रसंग",
+                    "display-hi": "दर्दनाक घटना"
+                },
+                {
+                    "id": "ID_787f6bf8-03f9-4b52-a095-6a3a977884a4",
+                    "text": "Prolonged standing",
+                    "display-mr": "खूप वेळ उभे राहणे",
+                    "display-hi": "लंबे समय तक खड़े रहना"
+                },
+                {
+                    "id": "ID_a12bf987-4603-4eec-bbe0-c76cee7049e0",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_dee1bf71-7ae7-47e4-8238-69880c46d6e2",
+                    "text": "Sneezing",
+                    "display-mr": "शिंकणे",
+                    "display-hi": "छींकना"
+                },
+                {
+                    "id": "ID_e34e065a-ba5f-489e-b80f-419b96592659",
+                    "text": "Defecation",
+                    "display-mr": "मल विसर्जन",
+                    "display-hi": "शौच"
+                },
+                {
+                    "id": "ID_1b775001-e6b9-4e51-a3ef-477a97d14dfc",
+                    "text": "Urination",
+                    "display-mr": "मूत्र विसर्जन",
+                    "display-hi": "पेशाब"
+                },
+                {
+                    "id": "ID_02996071-e579-4bb4-9958-6dc10e2a354e",
+                    "text": "Eating",
+                    "display-mr": "खाणे",
+                    "display-hi": "खाना"
+                },
+                {
+                    "id": "ID_4e216724-5f3f-4213-ab4e-c2dd3026608e",
+                    "text": "Exercise",
+                    "display-mr": "व्यायाम",
+                    "display-hi": "व्यायाम"
+                },
+                {
+                    "id": "ID_f8d0b974-ccd8-4554-b673-1f83c323ec54",
+                    "text": "Shaving",
+                    "display-mr": "दाढी करणे",
+                    "display-hi": "शेव करना"
+                },
+                {
+                    "id": "ID_f18b3ef3-21cb-4649-aa68-6da5ed30f368",
+                    "text": "Tight callor",
+                    "display-mr": "कॉलर घट्ट असणे",
+                    "display-hi": "कसा हुआ कॉलर"
+                },
+                {
+                    "id": "ID_e93e466b-7a3f-452f-9dce-a64c17c3b4fc",
+                    "text": "Sudden turning of head (neck movements)",
+                    "display-mr": "अचानक डोके वळवणे (मानेची हालचाल)",
+                    "display-hi": "सिर को अचानक मोड़ना (गर्दन को मोड़ना)"
+                },
+                {
+                    "id": "ID_575ccf48-ba4d-4769-8fdb-dae649ed8aa1",
+                    "text": "Change of posture",
+                    "display-mr": "स्थितीमधील बदल",
+                    "display-hi": "आसन में बदलाव"
+                },
+                {
+                    "id": "ID_1ff4dbd2-e196-40d1-b3c1-b5c3b5fa2023",
+                    "text": "Elevation of arms above head",
+                    "display-mr": "डोक्यावर हात नेणे",
+                    "display-hi": "हाथों को सिर से ऊपर उठाना"
+                },
+                {
+                    "id": "ID_f25cf554-cbf8-49e7-839e-9f8ae9ee3bdb",
+                    "text": "Flashes of light",
+                    "display-mr": "दिवे चमकणे",
+                    "display-hi": "रोशनी की चमक"
+                },
+                {
+                    "id": "ID_b5e41855-f770-4599-947a-4d7524ed24b8",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_2922d05e-b343-4865-bca0-8dfca9f04e77",
+            "text": "Did the loss of consciousness episode occur after a specific activity?",
+            "display-mr": "काही विशिष्ट हालचाल केल्यानंतर शुध्द हरपल्याचा त्रास झाला का?",
+            "display-hi": "क्या बेहोश होने का प्रकरण किसी खास गतिविधि के बाद हुआ था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e098a51e-95a2-4c85-8710-600c8c873e3c",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ba8b9eb3-3666-4ea4-bc63-8f595af6fdfa",
+                    "text": "During exercise",
+                    "display-mr": "व्यायाम करताना",
+                    "display-hi": "व्यायाम के दौरान"
+                },
+                {
+                    "id": "ID_d3c05e74-4b99-4c75-b411-c150ab1f4ca0",
+                    "text": "Standing up quickly",
+                    "display-mr": "पटकन उभे राहिल्यास",
+                    "display-hi": "जल्दी से उठना"
+                },
+                {
+                    "id": "ID_24bd616a-9bbd-401f-a1b8-e64ef4309b1a",
+                    "text": "Getting up from lying",
+                    "display-mr": "झोपून उठताना",
+                    "display-hi": "लेटने से उठना"
+                },
+                {
+                    "id": "ID_0c00b528-793b-41bc-883e-1feb7fdaed05",
+                    "text": "Prolonged exposure to heat",
+                    "display-mr": "खूप वेळ उष्णतेशी संपर्क आल्यास",
+                    "display-hi": "लंबे समय तक गर्मी के संपर्क में रहना"
+                },
+                {
+                    "id": "ID_4edcf450-c449-4c63-8d98-a413bd6bd380",
+                    "text": "Quick turning of neck",
+                    "display-mr": "अचानक मान वळवणे",
+                    "display-hi": "गर्दन को जल्दी-जल्दी मोड़ना"
+                },
+                {
+                    "id": "ID_d90e8081-2aff-498c-80b5-444ffd68e67b",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_44e4a995-cc99-46f0-9abb-8edd730151cc",
+            "text": "Did you have any of the associated symptoms just before to loss of consciousness?",
+            "display-mr": "शुध्द हरपण्यापूर्वी अगदी काही वेळ आधी त्याच्याशी संबंधित काही लक्षणे जाणवली का?",
+            "display-hi": "क्या बेहोश होने से ठीक पहले आपको कोई संबंधित लक्षण हुआ था?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_8e32d4b2-59fc-452a-981d-04daf464dba5",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1cfaee46-5657-4830-b16f-aba0593c447d",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर येणे (डोके गरगरणे)",
+                    "display-hi": "चक्कर आना (सिर चकराना)"
+                },
+                {
+                    "id": "ID_73e82d43-9337-496c-b7da-2bb8af598360",
+                    "text": "Dimming of vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "दृष्टि का धुंधला होना"
+                },
+                {
+                    "id": "ID_6b717c31-aa26-4798-a304-ad261bebca71",
+                    "text": "Loss of vision",
+                    "display-mr": "दृष्टी अधू होणे",
+                    "display-hi": "दृष्टि का खो जाना"
+                },
+                {
+                    "id": "ID_988b7bf2-1b7e-41ea-a0cf-457d2f8fd553",
+                    "text": "Unusual smell",
+                    "display-mr": "विचित्र वास",
+                    "display-hi": "असामान्य गंध"
+                },
+                {
+                    "id": "ID_d4d93589-dd6a-427b-b0ec-e892dd32d8b4",
+                    "text": "Unusual taste",
+                    "display-mr": "विचित्र चव",
+                    "display-hi": "असामान्य स्वाद"
+                },
+                {
+                    "id": "ID_62d9b386-e570-4fe6-ade3-65dee4df3835",
+                    "text": "Unusual feelings",
+                    "display-mr": "विचित्र भावना",
+                    "display-hi": "असामान्य भावनाएं"
+                },
+                {
+                    "id": "ID_147fa0ad-6cb4-40d4-9ce0-613f56af1bae",
+                    "text": "Muscle weakness of limbs",
+                    "display-mr": "अंगाचे स्नायू कमजोर/ अशक्त होणे",
+                    "display-hi": "अंगों की मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_9cd438ba-8553-4afd-a8ae-04ea1413bf3c",
+                    "text": "Sensory disturbances of limbs",
+                    "display-mr": "अंगाच्या संवेदनांमध्ये गडबड होणे",
+                    "display-hi": "अंगों की महसूस करने की क्षमता में गड़बड़ी"
+                },
+                {
+                    "id": "ID_039a0116-e5a8-4873-bb24-16c2815ef23c",
+                    "text": "Sweating",
+                    "display-mr": "घाम",
+                    "display-hi": "पसीना आना"
+                },
+                {
+                    "id": "ID_12cf0b65-e6c8-44de-b158-e07d7d6e4062",
+                    "text": "Ringing in ears",
+                    "display-mr": "कानामध्ये आवाज होणे",
+                    "display-hi": "कानों में बजना"
+                },
+                {
+                    "id": "ID_567d8795-cb7d-4c61-bfb1-6ebf3d349c14",
+                    "text": "Nausea",
+                    "display-mr": "नॉशिया",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_7b9d318d-7c46-42a8-8467-ccf7867b8038",
+                    "text": "Palpitation",
+                    "display-mr": "धडधड",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_f3654086-1462-4685-863d-54659aab7b90",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_8b5ae2d2-1d63-4d41-a907-8357c42f7ee9",
+                    "text": "Severe headache",
+                    "display-mr": "तीव्र डोकेदुखी",
+                    "display-hi": "गंभीर सिरदर्द"
+                },
+                {
+                    "id": "ID_1a27c3d2-a29a-4be8-9f29-7fa1f6a3f9ea",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ दर्द"
+                },
+                {
+                    "id": "ID_81525b82-8fd6-4791-b458-4931447ddf01",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_b7a5128e-dec8-4472-bf81-86776cb6019c",
+            "text": "Did you or someone notice any og these symptoms during the episode of loss of consciousness?",
+            "display-mr": "शुध्द हरपल्याच्या दरम्यान तुम्हाला किवा इतरांना ही काही लक्षणे लक्षात आली का?",
+            "display-hi": "क्या आपको या किसी और को बेहोश होने के प्रकरण के दौरान इनमें से कोई लक्षण नजर आया था?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9ee29db6-a0b9-4794-ae98-eccd80fb96b1",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_061c3532-12c8-4199-a7c0-6e24962a3d95",
+                    "text": "Stiffness of body",
+                    "display-mr": "शरीराचा ताठरपणा",
+                    "display-hi": "शरीर में अकड़न"
+                },
+                {
+                    "id": "ID_ef596f18-15e1-4803-b829-d8a1577b5756",
+                    "text": "Floppiness of body",
+                    "display-mr": "शरीराची तडफड",
+                    "display-hi": "शरीर का ढीलापन"
+                },
+                {
+                    "id": "ID_2d49e913-5527-4f8d-bb68-bb2aaf120e6e",
+                    "text": "Jerky movements",
+                    "display-mr": "धक्कादायक हालचाली",
+                    "display-hi": "झटकेदार हरकतें"
+                },
+                {
+                    "id": "ID_788e026e-cf82-4a99-98a0-9ddaf1923272",
+                    "text": "Tongue bite",
+                    "display-mr": "जीभ चावणे",
+                    "display-hi": "जीभ काटना"
+                },
+                {
+                    "id": "ID_d3a64542-3cb8-4df8-a57d-dbc58cfdcedb",
+                    "text": "Stridor",
+                    "display-mr": "स्ट्रिडॉर",
+                    "display-hi": "सांस लेने में आवाज"
+                },
+                {
+                    "id": "ID_5e8b4c7b-b871-4fe8-990f-eaabe9812992",
+                    "text": "Noisy breathing",
+                    "display-mr": "श्वास घेताना आवाज होणे",
+                    "display-hi": "सांस लेने में शोर"
+                },
+                {
+                    "id": "ID_c47dd5b1-4ffa-403b-b90f-f5ba640a766d",
+                    "text": "Fecal incontinence",
+                    "display-mr": "शौचावर नियंत्रण न राहणे",
+                    "display-hi": "शौच को रोक नहीं पाना"
+                },
+                {
+                    "id": "ID_7a8fce4c-a333-4ac4-88db-06dc92a4e88a",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीवर नियंत्रण न राहणे",
+                    "display-hi": "पेशाब रोक नहीं पाना"
+                },
+                {
+                    "id": "ID_9c9cda5b-f7de-4447-8c8e-10a087623d02",
+                    "text": "Blue lips and tongue",
+                    "display-mr": "ओठ आणि जीभ निळे पडणे",
+                    "display-hi": "नीले होंठ और जीभ"
+                },
+                {
+                    "id": "ID_f712476a-dee6-44cf-97f3-3cf1f4a90c07",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8e9f92dd-3605-4fc9-a44c-dbf01f39a360",
+            "text": "Did you have any of the symptoms after regaining consciousness?",
+            "display-mr": "पुन्हा शुध्द आल्यावर तुम्हाला यापैकी काही लक्षणे आहेत का?",
+            "display-hi": "क्या होश में आने के बाद आपको कोई लक्षण हुआ था?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_65c40d45-1ba6-4f81-88a1-550df729df86",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_00690f55-2c0f-4631-96b7-a32770ec6285",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_9c8a79c3-712b-4d53-ab52-a9c917a6ef41",
+                    "text": "Drowsiness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "उनींदापन"
+                },
+                {
+                    "id": "ID_b857a70b-aece-42c8-b91c-05ed3d7caf2b",
+                    "text": "Irritability",
+                    "display-mr": "चिडचिड",
+                    "display-hi": "चिड़चिड़ापन"
+                },
+                {
+                    "id": "ID_2650d019-2d8a-4562-ab92-053b9056345a",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायू कमजोर /अशक्त होणे",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_7157f98a-ce61-4b0f-a0c9-e6b5e27f51fa",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_51dedf8b-8cb8-4828-ac2a-fd31059f67da",
+                    "text": "Muscle pain",
+                    "display-mr": "स्नायू दुखणे",
+                    "display-hi": "मांसपेशियों में दर्द"
+                },
+                {
+                    "id": "ID_5c98c795-d3ae-4c06-afe8-6891cca22c1e",
+                    "text": "Nausea",
+                    "display-mr": "नॉशिया",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_941343f4-be70-425e-bcdb-f9796e5ce30a",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_2823b414-a7fe-421a-8953-c8ef0c562478",
+            "text": "Were you able to recollect the event immediately after regaining consciousness?",
+            "display-mr": "तुम्हाला शुध्द आल्यानंतर तुम्ही काय घडले ते नीट आठवू शकलात का?",
+            "display-hi": "क्या होश में आने के तुरंत बाद आप घटना को याद कर पाए थे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_da8989ff-6a2b-4daa-9269-bf2ed739f86e",
+                    "text": "Not applicable",
+                    "display-mr": "लागू नाही",
+                    "display-hi": "लागू नहीं"
+                },
+                {
+                    "id": "ID_98dd61e6-aa54-4624-9577-8f60840cf8bd",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c95e6d89-aeea-4225-a8e4-0b4e4ef3886f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_bb9a8702-f590-4958-ad02-03549d1faf88",
+            "text": "Was there any event that helped you to resolve the episode of loss of consciousness?",
+            "display-mr": "शुध्द हरपल्याच्या प्रसंगातून बाहेर येण्यासाठी तुम्हाला एखाद्या प्रसंगाची मदत झाली का?",
+            "display-hi": "क्या कोई ऐसी घटना हुई थी जिसने बेहोश होने के प्रकरण को हल करने में आपकी मदद की?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4c3ea295-6b39-4da5-b58b-1d9076e90391",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1466d355-59e0-40a1-9808-2255a40e2cb9",
+                    "text": "Lying flat",
+                    "display-mr": "पडून राहिल्यावर",
+                    "display-hi": "सीधे लेटना"
+                },
+                {
+                    "id": "ID_12e30d4e-4a1e-4474-b782-9932b3b32071",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_83138c24-5857-4830-b7ac-84f7f10a16a5",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c1bee241-a4c0-4f57-9ca3-c258eda8b18a",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_ecd78661-e6dd-4ea3-bc0c-855073a40ff6",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_11bb2449-1455-4132-b310-adefafa5e0c6",
+                    "text": "Neck stiffness",
+                    "display-mr": "मानेचा ताठरपणा/ कडकपणा",
+                    "display-hi": "गर्दन में अकड़न"
+                },
+                {
+                    "id": "ID_a685f401-e4ce-477a-b9fc-6bdbfbe97050",
+                    "text": "Loss of balance",
+                    "display-mr": "संतुलन जाणे",
+                    "display-hi": "संतुलन खोना"
+                },
+                {
+                    "id": "ID_56621339-f4f3-4909-905a-ab1a96d0bf31",
+                    "text": "Muscle weakness of limbs",
+                    "display-mr": "अंगाचे स्नायू कमजोर/ अशक्त होणे",
+                    "display-hi": "अंगों की मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_42252b6c-85aa-47a9-a728-62f547f50386",
+                    "text": "Blurred vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_7f09a815-b6ad-44c6-b0c1-42b494bce7d5",
+                    "text": "Double vision",
+                    "display-mr": "एक गोष्ट दोनदोन दिसणे",
+                    "display-hi": "दोहरी दृष्टि"
+                },
+                {
+                    "id": "ID_ee80e965-f844-43e3-9824-76167964d53a",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_66d13b85-fd3e-4e5e-b06c-f88595984583",
+                    "text": "Palpitation",
+                    "display-mr": "धडधड",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_dc81562d-cc30-4f5b-814c-846a0c677c1d",
+                    "text": "History of head injury",
+                    "display-mr": "डोक्याला दुखापत झाल्याचा पूर्वइतिहास",
+                    "display-hi": "सिर में चोट का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_f5fe9987-bab2-4555-98d5-8c7b6cc9e6ba",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1c676f74-7a17-4bb9-9c70-dbd26d89ffef",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_65d5ff2c-ed81-44e6-8590-b68fc950657b",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_897664e8-38a8-4a95-827a-244a54a0bb5e",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_a45cf377-2aa3-4825-856d-b00246c58de0",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_0f5a05d2-63e4-46c3-b226-9c8e9cc13256",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_afd40524-d29c-4508-a54b-b7237b015dc6",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_fca9ae76-8c61-4b70-bbde-cef32cf90fd3",
+                    "text": "Excessive sweating",
+                    "display-mr": "अति जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_d02efd86-2697-42c5-b9b1-d5c153e7125e",
+                    "text": "Loss of vision",
+                    "display-mr": "दृष्टी जाणे",
+                    "display-hi": "दृष्टि हानि"
+                },
+                {
+                    "id": "ID_ff68b2b4-0473-4bd8-b714-bcc00f89918b",
+                    "text": "Photophobia",
+                    "display-mr": "फोटोफोबिया (तीव्र प्रकाशाचा त्रास)",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_dd366cf7-708e-40a6-b8b3-7e80dc9cdcc1",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_a8532e05-212f-496e-b4d0-36957257b23e",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवीस होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_f87989e8-c1cb-4bfc-9090-fdf19adcf77d",
+                    "text": "Excessive thirst",
+                    "display-mr": "अति तहान लागणे",
+                    "display-hi": "अत्यधिक प्यास लगना"
+                },
+                {
+                    "id": "ID_02d192f2-8c0d-471a-a53c-1fdcc0203d04",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ येणे",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_f9273572-7d85-4881-97b7-95e2cea2deb7",
+                    "text": "Other",
+                    "display-mr": "अन",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_a0b66180-8f83-4711-bd04-9fb9880297de",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d8d90d31-290d-467c-a3a1-dc3fb90a3f59",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0ee16137-4ea0-4e4f-9415-5a49f238f3b2",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_77c1ef3c-0922-49b0-a48e-b241a23f39c0",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_a31ee3fa-39ef-4de3-9ce6-f5c726080eb5",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5832fb0d-1d09-4601-b6fa-e60cbe1f0184",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
