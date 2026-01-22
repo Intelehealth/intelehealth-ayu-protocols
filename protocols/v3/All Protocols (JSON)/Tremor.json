@@ -1,0 +1,661 @@
+{
+    "id": "ID_ac9b2728-7c62-4f28-8a81-7d3a234a97ee",
+    "text": "Tremor",
+    "engineVersion": "3.0",
+    "display-mr": "थरथरणे",
+    "display-hi": "कंपकंपी",
+    "options": [
+        {
+            "id": "ID_4672cb3a-53f9-4995-bb62-b751982e0b2e",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f3662390-8aaf-4f1c-b133-f376c258f295",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_016e930f-c72d-4344-a577-f89bc4081a93",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती लवकर विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6ac39c69-05b5-47f4-b505-5db117dd943f",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_4fbcf9fd-e550-4818-b039-44407d224148",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_19271213-4cc1-4621-a367-b6b3fede25d9",
+            "text": "Which part of body you have tremor?",
+            "display-mr": "तुम्हाला शरीराच्या कोणत्या भागात थरथरणे आहे?",
+            "display-hi": "आपको शरीर के किस हिस्से में कंपकंपी महसूस होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_30ae5998-aa1b-47df-8ae6-aa9e17cbb6a4",
+                    "text": "Head",
+                    "display-mr": "डोके",
+                    "display-hi": "सिर"
+                },
+                {
+                    "id": "ID_1b00b91f-b8e3-4b68-84a0-08de431100ef",
+                    "text": "Face",
+                    "display-mr": "चेहरा",
+                    "display-hi": "चेहरा"
+                },
+                {
+                    "id": "ID_50af7e4e-7bb2-4a7d-9eef-fa8a206eca7b",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_6b51161f-de55-453d-9f82-80133cca5b45",
+                    "text": "Vocal cords (voice)",
+                    "display-mr": "स्वर यंत्र (आवाज)",
+                    "display-hi": "स्वर तंतु (आवाज)"
+                },
+                {
+                    "id": "ID_a70b348f-d8f8-4dd2-a200-6830c5bf4750",
+                    "text": "Trunk",
+                    "display-mr": "धड",
+                    "display-hi": "धड़"
+                },
+                {
+                    "id": "ID_3af4212d-ec5c-4a89-8396-d7e1348c8ccb",
+                    "text": "Hands",
+                    "display-mr": "हात",
+                    "display-hi": "हाथ"
+                },
+                {
+                    "id": "ID_05e1698a-e96c-4b94-b37e-12f5f76f616d",
+                    "text": "Fingers",
+                    "display-mr": "बोटे",
+                    "display-hi": "उंगलियां"
+                },
+                {
+                    "id": "ID_bc75ad92-789a-4973-8648-d97848241942",
+                    "text": "Legs",
+                    "display-mr": "पाय",
+                    "display-hi": "पैर"
+                },
+                {
+                    "id": "ID_4a834110-939f-45fe-9d79-640f7b75f6b0",
+                    "text": "Entire body",
+                    "display-mr": "संपूर्ण शरीर",
+                    "display-hi": "पूरा शरीर"
+                }
+            ]
+        },
+        {
+            "id": "ID_48a94971-d65c-4cf9-8ec8-f87ac08bd3ff",
+            "text": "Which side of body you have tremor?",
+            "display-mr": "तुम्हाला शरीराच्या कोणता  भाग थरथरतो?",
+            "display-hi": "आपको शरीर के किस तरफ कंपकंपी महसूस होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7cbf96d9-fb29-421c-9360-5b490ef102c6",
+                    "text": "Left side",
+                    "display-mr": "डावी बाजू",
+                    "display-hi": "बाईं तरफ"
+                },
+                {
+                    "id": "ID_19297e15-6294-4862-82e8-ef19eb5e7ca5",
+                    "text": "Right side",
+                    "display-mr": "उजवी बाजू",
+                    "display-hi": "दाईं तरफ"
+                },
+                {
+                    "id": "ID_e1a06c46-8d75-42ab-9e5b-730a640f54e6",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंना",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_41057fe1-754b-41e6-9269-f040da2901e6",
+            "text": "How can you describe the nature of tremors?",
+            "display-mr": "थरथरण्याच्या स्वरूप कसे वर्णन करू शकता?",
+            "display-hi": "आप कंपकंपी की प्रकृति को कैसे बता पाएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f2be2f12-2a2b-43bc-8d96-d3e311c904aa",
+                    "text": "Intermittent",
+                    "display-mr": "मधूनमधून",
+                    "display-hi": "रुक-रुक कर"
+                },
+                {
+                    "id": "ID_d819e51f-8d6e-4c8b-9ebd-13fb743f830c",
+                    "text": "Continuous",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_dc9c049b-64c3-49fb-85b6-31bafc170a11",
+                    "text": "Rhythmic (regular)",
+                    "display-mr": "तालबद्ध (नियमित)",
+                    "display-hi": "लयबद्ध (नियमित)"
+                },
+                {
+                    "id": "ID_9c147ac7-ad86-416d-a846-6dde48f971ba",
+                    "text": "Irregular",
+                    "display-mr": "अनियमित",
+                    "display-hi": "अनियमित"
+                }
+            ]
+        },
+        {
+            "id": "ID_2d126f9d-cadb-4c56-9c23-4c1639f7aa9b",
+            "text": "What initiates or provokes the tremors?",
+            "display-mr": "थरथरणे कशामुळे सुरू होते  किंवा वाढते?",
+            "display-hi": "किस चीज से कंपकंपी शुरू होती है या उसे उकसावा मिलता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_8c1dd7b8-fb1d-4596-b327-68c95fd09802",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम करना"
+                },
+                {
+                    "id": "ID_ef9040ca-f864-4309-a4f7-cbeea957b3f5",
+                    "text": "Certain posture",
+                    "display-mr": "ठराविक स्थिती",
+                    "display-hi": "कुछ खास मुद्रा"
+                },
+                {
+                    "id": "ID_75a7dc50-08cd-417a-b3f1-aec250a97f0f",
+                    "text": "Certain actions",
+                    "display-mr": "काही क्रिया",
+                    "display-hi": "कुछ खास क्रियाएं"
+                },
+                {
+                    "id": "ID_d0b497c6-e138-4c77-a31d-f3d27b045365",
+                    "text": "Standing",
+                    "display-mr": "उभे राहणे",
+                    "display-hi": "खड़े होना"
+                },
+                {
+                    "id": "ID_f7055e46-a9e8-409b-a896-64f7309ecfcf",
+                    "text": "Intentional movements",
+                    "display-mr": "हेतुपुरस्सर हालचाली",
+                    "display-hi": "सचेत गति"
+                },
+                {
+                    "id": "ID_25a38fcb-3bf0-4e90-b65a-db1f9fd82910",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                }
+            ]
+        },
+        {
+            "id": "ID_b834d1ff-5b30-4e6d-a739-ced97c46a632",
+            "text": "What does improve or decrease tremors?",
+            "display-mr": "थरथरणे कशा मुळे  सुधारते किंवा कमी होते?",
+            "display-hi": "क्या कंपकंपी को कम या इसमें सुधार करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ea13fe88-b112-4bd7-8c53-ca22e5c2ef47",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d7a6251c-7257-40c3-9732-7e2904812b08",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम करना"
+                },
+                {
+                    "id": "ID_815c549a-e8c2-4406-8df8-9affe285da6a",
+                    "text": "Relaxation techniques",
+                    "display-mr": "विश्रांतीचे तंत्र",
+                    "display-hi": "आराम करने की तकनीकें"
+                },
+                {
+                    "id": "ID_e23df731-5824-4e87-b591-948a67c9cd7c",
+                    "text": "Alcohol",
+                    "display-mr": "अल्कोहोल",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_586746fd-0ece-4ca6-a068-162bb2f878c9",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                },
+                {
+                    "id": "ID_2968db81-48a7-42a4-a955-0986fdc5f1a8",
+                    "text": "Medication (describe)",
+                    "display-mr": "औषधोपचार (वर्णन)",
+                    "display-hi": "दवा (विवरण दें)",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_b2a7c8cf-25d6-4b37-978f-3f4331652f58",
+            "text": "What does aggravate or worsen tremors?",
+            "display-mr": "कशा मुळे थरथरणे वाढते किंवा खराब होते?",
+            "display-hi": "क्या कंपकंपी को बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_bf46b02b-1359-4f01-a8ff-24789813e297",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_039ebd4c-4ad5-4f3e-bf8d-41f768ec94cf",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम करना"
+                },
+                {
+                    "id": "ID_47996a38-3360-4189-a26d-5d64c4c353db",
+                    "text": "Certain positions",
+                    "display-mr": "ठराविक स्थिती",
+                    "display-hi": "कुछ खास मुद्राएं"
+                },
+                {
+                    "id": "ID_5d8e98f8-abe5-4de4-a0ab-a1741a914139",
+                    "text": "Intentional movements",
+                    "display-mr": "हेतुपुरस्सर हालचाली",
+                    "display-hi": "जानबूझकर हरकत करने पर"
+                },
+                {
+                    "id": "ID_c85eb4c6-aaf9-4726-b19e-6c5d1d7a87e1",
+                    "text": "Certain actions",
+                    "display-mr": "काही क्रिया",
+                    "display-hi": "कुछ खास क्रियाएं"
+                },
+                {
+                    "id": "ID_25d79c4e-0462-43ba-ab13-00033d604d73",
+                    "text": "Alcohol",
+                    "display-mr": "अल्कोहोल",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_4abd2fd5-3f89-4c19-b72f-a57fbca27e9a",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_ca211814-44cc-4862-a4f6-71435bc69ad2",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_4123ed2b-4e05-4b91-b94e-69db5266480e",
+                    "text": "Starvation (fasting)",
+                    "display-mr": "उपासमार (उपवास)",
+                    "display-hi": "भूख (उपवास)"
+                },
+                {
+                    "id": "ID_d7f30ff4-758f-4e06-9741-cdc6974d8888",
+                    "text": "Stress",
+                    "display-mr": "तणाव",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_f5eae39a-5d88-4d7f-80b7-6bbcd501b961",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                }
+            ]
+        },
+        {
+            "id": "ID_0623db87-9c11-454b-b325-0b9d73906865",
+            "text": "How are the tremors progressing?",
+            "display-mr": "थरथरणे मध्ये काही बदल झाला का?",
+            "display-hi": "कंपकंपी की समस्या में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ea3e6059-73a2-4733-a19f-042419cdd648",
+                    "text": "Improving",
+                    "display-mr": "सुधारणा करत आहे",
+                    "display-hi": "सुधर रहा है"
+                },
+                {
+                    "id": "ID_7a4975bb-cb9b-4f2b-8875-4be68b4d7f44",
+                    "text": "Worsening",
+                    "display-mr": "बिघडत आहे",
+                    "display-hi": "बिगड़ रहा है"
+                },
+                {
+                    "id": "ID_3d5335e1-e9be-4c5d-a460-a21c42c20d70",
+                    "text": "Progressing",
+                    "display-mr": "प्रगती करत आहे",
+                    "display-hi": "आगे बढ़ रहा है"
+                },
+                {
+                    "id": "ID_330ea1eb-9dbf-408a-83db-b321e334b90e",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होता है"
+                },
+                {
+                    "id": "ID_bc3fd3f9-1f55-4d61-81e2-5d0b485a162b",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_fa71543d-ce5a-482f-8726-6d785737ace6",
+            "text": "Does the tremor affect any of your daily activities?",
+            "display-mr": "थरथरण्याचा तुमच्या दैनंदिन कामकाजावर परिणाम होतो का?",
+            "display-hi": "क्या कंपकंपी आपके रोजमर्रा के जीवन को प्रभावित करती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_94854d9b-fd7f-4bd5-83ed-b417e2b3c30d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e5d596d4-d8eb-4a0f-b0cc-b0fb1bfb7e6d",
+                    "text": "Holding utensils",
+                    "display-mr": "भांडी धरून",
+                    "display-hi": "बर्तन पकड़ना"
+                },
+                {
+                    "id": "ID_7166c72e-69fd-4866-8cea-b3cbadd9f651",
+                    "text": "Writing",
+                    "display-mr": "लेखन",
+                    "display-hi": "लिखना"
+                },
+                {
+                    "id": "ID_ca07a207-4f7a-4b8d-83f3-78e20c79baeb",
+                    "text": "Drawing",
+                    "display-mr": "चित्रकाढणे",
+                    "display-hi": "चित्र बनाना"
+                },
+                {
+                    "id": "ID_99918f49-f3f0-40d1-9ebd-6ecd7f936564",
+                    "text": "Brushing teeth",
+                    "display-mr": "दात घासणे",
+                    "display-hi": "दांत ब्रश करना"
+                },
+                {
+                    "id": "ID_56d48730-b380-4197-9a70-0df1c8c2c5f1",
+                    "text": "Driving",
+                    "display-mr": "गाडी चालवणे",
+                    "display-hi": "गाड़ी चलाना"
+                },
+                {
+                    "id": "ID_b46ac54f-48f4-40d0-af36-7f61af7f4517",
+                    "text": "Eating",
+                    "display-mr": "खाणे",
+                    "display-hi": "भोजन करना"
+                }
+            ]
+        },
+        {
+            "id": "ID_33054e61-2e34-4155-822d-866ffcdede20",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_7773ef6e-b2f8-4286-ad06-c22bc55514d4",
+                    "text": "Muscle weakness (paralysis)",
+                    "display-mr": "स्नायूंची कमजोरी (अर्धांगवायू)",
+                    "display-hi": "मांसपेशियों में कमजोरी (पक्षाघात)",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_2463f1bf-d800-4692-bdd8-2a677af7f203",
+                    "text": "Slurred speech",
+                    "display-mr": "अस्पष्ट भाषण",
+                    "display-hi": "लतलग बोली",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_4645fe20-2645-4ffa-8b82-a0175d581657",
+                    "text": "Tingling and numbness",
+                    "display-mr": "मुंग्या येणे आणि बधीरपणा",
+                    "display-hi": "झुनझुनी और सुन्नता",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_9d5df374-382c-4567-bec3-de08eef08c6f",
+                    "text": "Difficulty hearing",
+                    "display-mr": "ऐकण्यात अडचण",
+                    "display-hi": "सुनने में कठिनाई",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_fc854cea-5754-4178-849e-4abfa0391622",
+                    "text": "Diminished vision",
+                    "display-mr": "दृष्टी कमी होणे",
+                    "display-hi": "दृष्टि कम होना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_73b15dc1-f56f-4211-9adf-53a03f39e469",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_1f7bd856-3096-4b95-9e37-a60eb7be51bc",
+                    "text": "Slowness of movements",
+                    "display-mr": "हालचालींची मंदता",
+                    "display-hi": "गति में धीमापन",
+                    "multi-choice": false
+                },
+                {
+                    "id": "ID_15340197-5ed9-41d5-af9d-136f8ee1e139",
+                    "text": "History of drug intake",
+                    "display-mr": "औषध सेवन इतिहास",
+                    "display-hi": "दवा सेवन का इतिहास",
+                    "multi-choice": false
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_9ded4b97-89be-437c-aca2-51fc226c60d3",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_8f506322-c1b6-4dbd-b76f-ce4eb4d69e01",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ee5ccc81-df8b-4d3f-9556-a98ca05f351b",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_060fa24e-6ce0-4b5d-90d0-d6d42df27597",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_59715760-77d5-4dcd-9cef-2c6f3f856d41",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_029248dc-391d-450f-a9c8-f321cef1a03d",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_b9c87ab8-4dc3-46d6-9139-7b0a4b78bcfe",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "तेज धड़कन"
+                },
+                {
+                    "id": "ID_6995b487-b21c-43d3-8d64-28bd5abb5d3a",
+                    "text": "Stiffness of neck",
+                    "display-mr": "मानेची कडकपणा",
+                    "display-hi": "गर्दन में अकड़न"
+                },
+                {
+                    "id": "ID_2c2fa923-9add-4db8-b07d-b53df2fd12f2",
+                    "text": "Increased appetite",
+                    "display-mr": "भूक वाढणे",
+                    "display-hi": "भूख बढ़ना"
+                },
+                {
+                    "id": "ID_c5026b2d-9c7c-40e6-85b3-d6109019d0a4",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_509a67b5-0bc5-449b-8aad-480ce30d1088",
+                    "text": "Heat Intolerance",
+                    "display-mr": "उष्णता असहिष्णुता",
+                    "display-hi": "गर्मी सहन न होना"
+                },
+                {
+                    "id": "ID_6ec4a396-2731-4346-99ea-11db8c187905",
+                    "text": "Excessive sweating",
+                    "display-mr": "अति घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_26b22b3f-4723-4b35-9da3-f11759728b54",
+                    "text": "Muscle stiffness",
+                    "display-mr": "स्नायू कडकपणा",
+                    "display-hi": "मांसपेशियों की अकड़न"
+                },
+                {
+                    "id": "ID_a8d57d70-ff5c-41fd-81c4-406245067ba7",
+                    "text": "Vertigo",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना (संतुलन का महसूस न होना)"
+                },
+                {
+                    "id": "ID_bfdad501-0c65-4f72-a195-16266062166e",
+                    "text": "Abnormal gait",
+                    "display-mr": "असामान्य चालणे",
+                    "display-hi": "असामान्य चाल"
+                },
+                {
+                    "id": "ID_b00ee30a-61b9-4f1f-b71d-131b7aac4dc8",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होतो",
+                    "display-hi": "निगलने में कठिनाई"
+                },
+                {
+                    "id": "ID_eb9afe29-e718-407c-a203-57999c11e62d",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_bc2d70b8-04ba-427f-b664-07ad39b92142",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_57679b81-6e8e-44f7-a4be-9f2c0f574ee2",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d521d1f1-dc78-4fa7-b08c-dba0b094acf7",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_1b2cacba-6eb3-4800-997f-4029390ce9a4",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ee019d6b-f503-40d6-a65f-6013e0e2ee17",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_b1d8f32c-b40a-49d5-aed6-b37724cf4335",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,389 @@
+{
+    "id": "ID_f9d7fd8d-d3b7-459b-962a-69f98b39f451",
+    "text": "Umbilical bleeding",
+    "engineVersion": "3.0",
+    "display-mr": "नाभीसंबधीचा रक्तस्त्राव",
+    "display-hi": "नाभि से रक्तस्राव",
+    "options": [
+        {
+            "id": "ID_107db80f-c4ad-4faf-8a93-770d7bd3ed0c",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_04ca7c9d-ca40-45fa-82fe-a9ac68ecb8c4",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_a6db62f0-8a5b-4277-99c7-b923d81bf18c",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती लवकर विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a319322c-4e64-43dd-83a5-1e1e7f254616",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_3fb1b089-599e-48dd-8e57-98e41b2ca815",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_52032d73-68cf-4dfc-823c-31f4ca20b012",
+            "text": "What is the quantity of umbilical bleeding?",
+            "display-mr": "नाळेतील रक्तस्त्रावाचे प्रमाण किती आहे?",
+            "display-hi": "नाभि से रक्तस्राव की मात्रा कितनी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_27d5364a-5cb6-47e7-bfae-8683c124fc58",
+                    "text": "Scanty",
+                    "display-mr": "अल्प प्रमाणात",
+                    "display-hi": "थोड़ा"
+                },
+                {
+                    "id": "ID_58bbd238-1ed2-4aae-8107-3f44db6f798f",
+                    "text": "Light",
+                    "display-mr": "कमी प्रमाणात",
+                    "display-hi": "हल्का"
+                },
+                {
+                    "id": "ID_038a7b01-dcb3-492f-a9e1-9df2d390010b",
+                    "text": "Moderate",
+                    "display-mr": "मध्यम",
+                    "display-hi": "मध्यम"
+                },
+                {
+                    "id": "ID_f9c2c65d-15bf-4b64-b244-9887e189720c",
+                    "text": "Heavy",
+                    "display-mr": "अति प्रमाणात",
+                    "display-hi": "भारी"
+                }
+            ]
+        },
+        {
+            "id": "ID_0f31e374-3bf9-4122-b29d-b5ba0c917b96",
+            "text": "Do you have any of the prior history?",
+            "display-mr": "तुमच्याकडे पूर्वीचा कोणताही इतिहास आहे का?",
+            "display-hi": "क्या आपका कोई पिछला इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e4895823-b484-4da0-a731-824fe87d21c9",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_39a7359d-eb74-4d48-a7b6-7ddc3d650675",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_03cf47f5-4f35-4362-bd55-a0f5a031d299",
+                    "text": "Foreign body",
+                    "display-mr": "बाह्य घटक",
+                    "display-hi": "बाहरी वस्तु"
+                },
+                {
+                    "id": "ID_7986389e-3b79-4b0e-a4ac-391621168fdd",
+                    "text": "Surgery",
+                    "display-mr": "शस्त्रक्रिया",
+                    "display-hi": "सर्जरी"
+                },
+                {
+                    "id": "ID_1c1d9908-2db5-474b-9e54-62153ed06bc9",
+                    "text": "Rubbing own skin",
+                    "display-mr": "स्वतःची त्वचा घासणे",
+                    "display-hi": "अपनी त्वचा को रगड़ना"
+                }
+            ]
+        },
+        {
+            "id": "ID_c5fe92fd-c835-4823-a244-4bc819f96e3c",
+            "text": "Do you have any of the local associated features with the umbilical bleeding?",
+            "display-mr": "तुमच्याकडे नाळेतील रक्तस्त्रावाशी संबंधित कोणतीही स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको नाभि से रक्तस्राव से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f102c631-48cc-4f1a-9279-a45c1d50bd11",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1b689169-1f86-47a4-9715-953ba834bdf8",
+                    "text": "Swelling (lump)",
+                    "display-mr": "सूज (गाठ)",
+                    "display-hi": "सूजन (गांठ)"
+                },
+                {
+                    "id": "ID_744a6bda-a589-4475-b14e-8da3ddb70e39",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_e761e0fc-4276-44ae-9633-910a896110c3",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_32f40a00-dbff-47bb-af4b-dbf66535efe0",
+                    "text": "Pus discharge",
+                    "display-mr": "पू स्त्राव",
+                    "display-hi": "मवाद निकलना"
+                },
+                {
+                    "id": "ID_5506b094-28a9-4a61-9609-0ece17643773",
+                    "text": "Ulcer",
+                    "display-mr": "व्रण",
+                    "display-hi": "घाव"
+                },
+                {
+                    "id": "ID_f2657ed7-c971-49f5-b164-b7e16a1a689f",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_488543b0-c3f3-4ae1-8b7e-b2fc8ecf1b76",
+            "text": "How is umbilical bleeding progressing?",
+            "display-mr": "नाळेतील रक्तस्त्रावामध्ये काही बदल झाला का?",
+            "display-hi": "नाभि से रक्तस्राव में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_00e90b7b-0b78-4fda-8228-db36fb5c8c3e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_a47e2b04-aea5-4caf-bec5-c3583935ee26",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_35539cde-bd83-40d7-8e04-855edb0d0985",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_31a4cfdb-b06d-413f-b102-b9aa90b28390",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_19d7990a-05ec-4dc7-8f78-1b09e14a9041",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_db8a4cc9-1733-43d9-b719-0ecc31333012",
+                    "text": "Umbilical discharge",
+                    "display-mr": "नाभीसंबधीचा / नाळेतील स्त्राव",
+                    "display-hi": "नाभि से रिसाव"
+                },
+                {
+                    "id": "ID_c59a547e-40eb-41cb-8d79-ecddb10e0bd8",
+                    "text": "Umbilical swelling",
+                    "display-mr": "नाभीसंबधीची सूज",
+                    "display-hi": "नाभि में सूजन"
+                },
+                {
+                    "id": "ID_198fa5ab-cb21-4c39-a7b4-e6d015addd54",
+                    "text": "Easy bruising of skin",
+                    "display-mr": "त्वचेची जखम",
+                    "display-hi": "त्वचा पर आसानी से चोट लगना"
+                },
+                {
+                    "id": "ID_c2e36575-fbe9-444a-9202-dd0debc99b46",
+                    "text": "Nose bleeding",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                },
+                {
+                    "id": "ID_09cb6726-384a-4759-8095-6d9d633babb9",
+                    "text": "Heavy periods",
+                    "display-mr": "जास्त प्रमाणात मासिक पाळी",
+                    "display-hi": "भारी माहवारी"
+                },
+                {
+                    "id": "ID_aa01c24a-566e-49ce-9272-3e6027e46054",
+                    "text": "History of medication intake",
+                    "display-mr": "औषध घेण्याचा इतिहास",
+                    "display-hi": "दवा सेवन का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_4709f2b5-b053-41a9-988e-a9d7a81859cf",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ec87b5eb-0770-46ba-93d6-f3783c398867",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6535a94d-8fc2-4dc8-952f-34cfa0056003",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_88596669-c6fe-4999-838c-9ce611fc991c",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_b64772f5-cdd3-4be5-a747-560573324ca0",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_a9bc0978-b94a-478b-a1f7-a0d89c82e155",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट दर्द"
+                },
+                {
+                    "id": "ID_84c589f6-c2ee-446a-9575-384d3861c84a",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_bc169b3a-3e87-455b-9baf-dad28c53a602",
+                    "text": "Pale skin",
+                    "display-mr": "त्वचा फिकट होणे",
+                    "display-hi": "त्वचा का पीला पड़ना"
+                },
+                {
+                    "id": "ID_4b328e4b-e4f4-4362-ad2a-f922b09efc39",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_674dd782-ad87-47b7-95c6-9e3f50fc83e4",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजी हुई लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_9b9eb8a7-d3f6-43eb-9092-6bee89a7a415",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोटात पसरणे",
+                    "display-hi": "पेट में सूजन"
+                },
+                {
+                    "id": "ID_d2c3ec1c-d34b-4ef7-b439-bd465681742f",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_c78bdd18-5d6e-4732-a12e-e305531491d9",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_de78d321-8ac9-48c5-81a6-15945c9f74e9",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ec749f02-98be-4479-85b3-ff073e25c735",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_23d450f2-4f29-42fb-9bcf-5ecab5cff106",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_4ac9d8fa-eb05-4267-ae66-bb82447822a4",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_08cd5d6d-c2be-4dae-82a5-92c0b3cd9694",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a494f4db-b856-44c0-b422-ed9a5b609fd3",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

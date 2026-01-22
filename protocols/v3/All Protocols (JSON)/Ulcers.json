@@ -1,0 +1,703 @@
+{
+    "id": "ID_f9033975-26bb-42ce-962e-d0fef4472873",
+    "text": "Ulcers",
+    "engineVersion": "3.0",
+    "display-mr": "अल्सर्स (व्रण/फोड)",
+    "display-hi": "अल्सर (व्रण)",
+    "options": [
+        {
+            "id": "ID_e3ee07a6-7fbb-42e3-bd57-7b4de8f45e41",
+            "text": "Since when have you had ulcers?",
+            "display-mr": "तुम्हाला फोड  कधीपासून आहेत?",
+            "display-hi": "आपको अल्सर कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6c2cb926-931a-465c-b5b3-a8cd8d2bca38",
+                    "text": "Since when have you had ulcers?",
+                    "display-mr": "तुम्हाला फोड  कधीपासून आहेत?",
+                    "display-hi": "आपको अल्सर कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_b6ffe98d-5e9c-47bb-b947-54c85e90676c",
+            "text": "How fast did ulcers develop?",
+            "display-mr": "फोड किती वेगाने वाढले?",
+            "display-hi": "अल्सर कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_12f3a621-18c8-47fb-a78d-f1ddd976b92e",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_975c9679-2f55-40eb-80cd-de91169a04f2",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_2ba88628-c5bd-4a0d-8412-c149c9992d88",
+            "text": "Where do you have the ulcers?",
+            "display-mr": "तुम्हाला फोड  कुठे आहेत?",
+            "display-hi": "आपको अल्सर कहां है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3be4d096-f561-41dc-a9ab-54a6966f3c12",
+                    "text": "All over body",
+                    "display-mr": "संपूर्ण शरीरावर",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_59a1349c-b092-4bf1-9590-6ef186f91e95",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचा भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_0ce1efb8-5ae2-46d7-9db6-9d7a0180edae",
+                            "text": "Which part of body do you have ulcers?",
+                            "display-mr": "तुम्हाला शरीराच्या कोणत्या भागावर फोडं आहेत?",
+                            "display-hi": "शरीर के किस हिस्से में अल्सर है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_b6e019f7-288b-4b00-be2c-302ba3f645bb",
+                                    "text": "Scalp",
+                                    "display-mr": "टाळू",
+                                    "display-hi": "खोपड़ी"
+                                },
+                                {
+                                    "id": "ID_786e861c-d331-4467-aefb-ba4b2438da80",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_4828dd6f-2f73-461f-a997-f8b19ac6682e",
+                                    "text": "Nose",
+                                    "display-mr": "नाक",
+                                    "display-hi": "नाक"
+                                },
+                                {
+                                    "id": "ID_15d3e07f-2330-48f1-8734-88eb129b48ba",
+                                    "text": "Lips",
+                                    "display-mr": "ओठ",
+                                    "display-hi": "होंठ"
+                                },
+                                {
+                                    "id": "ID_d2576b31-bccb-4584-be07-1697e09cd18a",
+                                    "text": "Mouth",
+                                    "display-mr": "तोंड",
+                                    "display-hi": "मुंह"
+                                },
+                                {
+                                    "id": "ID_6fc4b551-2720-4638-bbc0-43320ce40e04",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_e6d38f76-b7dd-4cbf-bb91-3b203713ff0d",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_38a36986-6a1a-4a27-9ac4-c319571f5701",
+                                    "text": "Upper arm",
+                                    "display-mr": "हाताचा वरचा भाग",
+                                    "display-hi": "ऊपरी भुजा"
+                                },
+                                {
+                                    "id": "ID_bb3dfb0f-334d-46a3-984b-c44caca67cb3",
+                                    "text": "Forearm",
+                                    "display-mr": "मनगटापासून कोपऱ्यापर्यंतचा भाग",
+                                    "display-hi": "आगे की भुजा"
+                                },
+                                {
+                                    "id": "ID_beaf4c6e-32a5-434f-8fc2-e21dca3354b1",
+                                    "text": "Hand",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_62376496-f6d6-48e8-a9f8-4d5618d8599d",
+                                    "text": "Palm",
+                                    "display-mr": "तळहात",
+                                    "display-hi": "हथेली"
+                                },
+                                {
+                                    "id": "ID_7fabb0d0-ec83-4c08-899c-2f8c59be1dc1",
+                                    "text": "Fingers",
+                                    "display-mr": "बोटे",
+                                    "display-hi": "उंगलियां"
+                                },
+                                {
+                                    "id": "ID_a9c035e6-906e-4b6a-ba8e-6049b385cd24",
+                                    "text": "Abdomen",
+                                    "display-mr": "पोट",
+                                    "display-hi": "पेट"
+                                },
+                                {
+                                    "id": "ID_d35ec5fc-3927-4a1a-b788-d5059322a987",
+                                    "text": "Back",
+                                    "display-mr": "पाठ",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_b71b18c6-e128-46c2-86ac-b27bf85f7517",
+                                    "text": "Genital area",
+                                    "display-mr": "जननेंद्रिय",
+                                    "display-hi": "जननांग क्षेत्र"
+                                },
+                                {
+                                    "id": "ID_11e262df-e6a2-4a50-a388-eb49490722ab",
+                                    "text": "Thigh",
+                                    "display-mr": "मांडी",
+                                    "display-hi": "जांघ"
+                                },
+                                {
+                                    "id": "ID_54ec5186-5673-4f84-8a9d-e9c60e197e55",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_01bc2500-4e3c-424b-97b9-fb13ab63ad01",
+                                    "text": "Foot",
+                                    "display-mr": "पाऊल",
+                                    "display-hi": "पद"
+                                },
+                                {
+                                    "id": "ID_e9349408-b521-48e7-96b0-a73ce400b2ba",
+                                    "text": "Sole",
+                                    "display-mr": "टाच",
+                                    "display-hi": "तलवा"
+                                },
+                                {
+                                    "id": "ID_e60820ee-e464-4bca-b5a9-42f905ea509e",
+                                    "text": "Toes",
+                                    "display-mr": "पायाची बोटे",
+                                    "display-hi": "पैर की उंगलियां"
+                                },
+                                {
+                                    "id": "ID_2f214013-b1e5-4427-8433-ebebf051a73b",
+                                    "text": "Other",
+                                    "display-mr": "अन्य",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_fc7a190d-5dc1-4df2-b887-545e954516c3",
+            "text": "Which side of body do you have ulcers?",
+            "display-mr": "तुम्हाला शरीराच्या कोणत्या बाजूला फोडं आहेत?",
+            "display-hi": "शरीर के किस तरफ अल्सर है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_16db018e-155f-4090-93dc-a9a03d79c7c4",
+                    "text": "Left",
+                    "display-mr": "डावी",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_83b3c6cc-19ab-4877-aa16-0f193d5c59ef",
+                    "text": "Right",
+                    "display-mr": "उजवी",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_ede625eb-50dd-4e02-88f5-18894881d361",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही",
+                    "display-hi": "दोनों तरफ"
+                }
+            ]
+        },
+        {
+            "id": "ID_e047ca45-ca3e-45a9-b1cb-ae8f0565ca0b",
+            "text": "Do you have any of the prior history of events associated with ulcers?",
+            "display-mr": "तुम्हाला अल्सरशी संबंधित काही घटनांचा पूर्व इतिहास आहे का?",
+            "display-hi": "क्या आपको अल्सर से जुड़ी किसी घटना का पिछला इतिहास है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6273bcbf-d175-45a0-9842-ba7dade716c7",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1d2ccedd-e092-4462-80e0-0c0179d2a5d7",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_178ea884-5629-4ac0-9464-668573838158",
+                    "text": "Blisters",
+                    "display-mr": "फोड",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_5c4cf4ae-a19d-41b5-bdbe-3f1bd70dd62f",
+                    "text": "Skin discoloration",
+                    "display-mr": "त्वचेचा रंग जाणे/ त्वचा खराब होणे",
+                    "display-hi": "त्वचा का रंग बदलना"
+                },
+                {
+                    "id": "ID_3f7ebeb6-0c7f-420b-a252-11b06690945e",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ed513929-fe83-402f-95cd-736e01e9b8a9",
+            "text": "How many ulcers do you have?",
+            "display-mr": "तुम्हाला किती फोड आहेत?",
+            "display-hi": "आपको कितने अल्सर हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b292bf1c-85ec-4e22-bc68-116546daf0cf",
+                    "text": "Single",
+                    "display-mr": "एक",
+                    "display-hi": "एकल"
+                },
+                {
+                    "id": "ID_1d8302e5-1b6c-4687-ac3a-2cd2d3643afa",
+                    "text": "Multiple",
+                    "display-mr": "अनेक",
+                    "display-hi": "एक से अधिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_be2eb1ac-46bf-4488-a2ed-6a86acd26494",
+            "text": "Do you have pain associated with ulcers?",
+            "display-mr": "तुम्हाला फोडांबरोबर वेदनाही होतात का?",
+            "display-hi": "क्या आपको अल्सर से जुड़ा दर्द है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a884489e-843f-4dae-a847-2fc59f281a0c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b2638d89-5fa8-4fcf-9d47-a425806d0d7a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_374021e5-d945-4c3f-aa92-8531cecd7ed1",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_57413147-89eb-4ce9-a2f4-9c9cc662582f",
+                                    "text": "Mild pain (1 to less than  3)",
+                                    "display-mr": "कमी वेदना (1तेless than  3)",
+                                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                                },
+                                {
+                                    "id": "ID_89fcc8bf-feae-4298-bdd7-f84036188288",
+                                    "text": "Moderate pain (3 to less than  5)",
+                                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                                },
+                                {
+                                    "id": "ID_2103df00-3a49-47d7-bcd2-9ebf77ff5834",
+                                    "text": "Severe pain (5 to less than  7)",
+                                    "display-mr": "तीव्र वेदना (5 to less than  7)",
+                                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                                },
+                                {
+                                    "id": "ID_d79c692f-983e-46ab-bbc3-6d1dcbe93b52",
+                                    "text": "Very severe pain (7 to less than  9)",
+                                    "display-mr": "अति तीव्र वेदना (7 to less than  9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                                },
+                                {
+                                    "id": "ID_44e71dcd-f3c0-409f-b9cd-bab6d73c9cda",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "असह्य वेदना (9 to 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e04d0ff5-e7de-4159-a110-d965a03b42e0",
+            "text": "Do you have any of the associated local features with the ulcers?",
+            "display-mr": "तुम्हाला फोडांशी संबंधित अन्य काही त्रास आहे का?",
+            "display-hi": "क्या आपको अल्सर से जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_431709b7-85f1-4c23-89aa-c2d205fa5cc1",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_eae382e5-30d3-40b0-9d64-5f9ef9a01f5f",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_60508ae0-b17a-475b-953b-e03bbd52881a",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_30a49eef-2809-4019-b38a-a16c5ab4e2ac",
+                    "text": "Itching",
+                    "display-mr": "खाज",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_85d9428a-2a5d-4bd4-80be-0cdc8397d946",
+                    "text": "Bleeding",
+                    "display-mr": "रक्त येणे",
+                    "display-hi": "रक्तस्राव"
+                },
+                {
+                    "id": "ID_1b5efee1-c559-4976-b7d3-e568a1649ff2",
+                    "text": "Pus discharge",
+                    "display-mr": "पू वाहणे",
+                    "display-hi": "मवाद निकलना"
+                },
+                {
+                    "id": "ID_81a278ac-5b7b-49bb-9dd0-78a9c23d256d",
+                    "text": "Watery discharge",
+                    "display-mr": "पाणी वाहणे",
+                    "display-hi": "पानी जैसा तरल निकलना"
+                },
+                {
+                    "id": "ID_1b7854a5-cd7e-4204-86ea-348162c39a70",
+                    "text": "Bloody discharge",
+                    "display-mr": "रक्त वाहणे",
+                    "display-hi": "खून जैसा तरल निकलना"
+                },
+                {
+                    "id": "ID_7ab7a71d-24b7-4f7a-ba80-a228d7e2c8cf",
+                    "text": "Skin thickening",
+                    "display-mr": "त्वचा राठ होणे",
+                    "display-hi": "त्वचा का मोटा होना"
+                },
+                {
+                    "id": "ID_17fa9e7f-d9f4-40a8-bf35-5e32392c6e63",
+                    "text": "Crusting",
+                    "display-mr": "त्वचेचे पापुद्रे निघणे",
+                    "display-hi": "पपड़ी जमना"
+                },
+                {
+                    "id": "ID_4301df27-3be3-44cc-b30a-2a11100a24d7",
+                    "text": "Flaky skin",
+                    "display-mr": "खवलेयुक्त त्वचा",
+                    "display-hi": "त्वचा पर पपड़ी जमना"
+                },
+                {
+                    "id": "ID_0a92cb8b-1413-4487-85a4-a85713d2baa7",
+                    "text": "Foreign body",
+                    "display-mr": "एखादी गोष्ट शरीराच्या आत जाणे",
+                    "display-hi": "वस्तू शरीर में जाना"
+                },
+                {
+                    "id": "ID_5c75f282-bafa-403f-8af6-9a6bfe75ee65",
+                    "text": "Loss of hair",
+                    "display-mr": "केस गळणे",
+                    "display-hi": "बालों का झड़ना"
+                },
+                {
+                    "id": "ID_9d43a03c-12a8-4aa1-b38e-0bbaa1979f59",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_cfbc8363-f033-485a-850c-8e5054979906",
+            "text": "How is ulcer progressing?",
+            "display-mr": "फोड (अल्सर) मध्ये काही बदल?",
+            "display-hi": "अल्सर में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8a3c52dd-fd79-4a13-9480-3ac8013d5ef4",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_31302777-0720-483f-b77c-83e63df3ba43",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_2c7f70df-b611-48e5-9ad6-24b3dede5e2c",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार—बार होना"
+                },
+                {
+                    "id": "ID_6a07586f-7673-4dd0-b3ad-5f4f378fa823",
+                    "text": "Spreading",
+                    "display-mr": "पसरत आहे",
+                    "display-hi": "फैलना"
+                },
+                {
+                    "id": "ID_896fc26a-82d2-4366-b926-d6d994be411b",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_688a7968-9f1f-4363-b324-d901733c847c",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_163034ce-b0eb-449a-8484-6f60fdbde789",
+                    "text": "Tingling and numbness",
+                    "display-mr": "मुंग्या येणे आणि बधीरपणा",
+                    "display-hi": "झुनझुनी और सुन्नता"
+                },
+                {
+                    "id": "ID_3c0d8b34-0eae-4b0d-aa84-e56b2b2711df",
+                    "text": "Loss of skin sensation",
+                    "display-mr": "त्वचेची संवेदना जाणे",
+                    "display-hi": "त्वचा की संवेदनशीलता का खत्म होना"
+                },
+                {
+                    "id": "ID_759a8e79-0eb0-49c3-a3c5-def7b26cf159",
+                    "text": "Calf muscle pain",
+                    "display-mr": "पोटऱ्यांचे स्नायू दुखणे",
+                    "display-hi": "पिंडली की मांसपेशियों में दर्द"
+                },
+                {
+                    "id": "ID_394a628e-10b7-4433-8fc9-51bdeb2e69fd",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "लिम्फ नोड्स में सूजन"
+                },
+                {
+                    "id": "ID_07141156-cb9b-40c5-ba31-9a40c41fa365",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_67184bba-3a29-4f24-821f-e7c7c97cc8c9",
+                    "text": "History of varicose veins",
+                    "display-mr": "व्हेरिको व्हेन्सचा (शिरांमध्ये सूज) इतिहास",
+                    "display-hi": "वैरिकाज नसों का इतिहास"
+                },
+                {
+                    "id": "ID_e4e8c1d4-530b-41ab-97f1-fab5431e1684",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ येणे",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_5b30dd5b-0427-40af-8e46-fdc240a8c421",
+                    "text": "Swelling of legs",
+                    "display-mr": "पाय सुजणे",
+                    "display-hi": "पैरों में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_c954ab3b-0891-4992-b3cb-87011966a959",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_98efd4cd-13a7-4ef7-acbe-4fde4fe7ec8d",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ed702297-b34e-4310-a08e-323071d4c8ea",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_eb135b57-e077-469c-aa5f-ee4be3437793",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेला खाज येणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_d7adeae2-8936-4345-b0d4-53e20947bfa7",
+                    "text": "Leg pain",
+                    "display-mr": "पाय दुखणे",
+                    "display-hi": "पैर में दर्द"
+                },
+                {
+                    "id": "ID_55820efa-f45b-4dd4-9e6f-82d34921bbd4",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवीस होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_4e842a8f-655d-4290-9840-9ac8c1c5dce5",
+                    "text": "Excessive thirst",
+                    "display-mr": "अति प्रमाणात तहान लागणे",
+                    "display-hi": "अत्यधिक प्यास"
+                },
+                {
+                    "id": "ID_828ed250-dacc-4a79-8c7d-c9d7ca5dd462",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_9988ed98-9f25-42a4-be93-094aa36393b5",
+                    "text": "Joint swelling",
+                    "display-mr": "सांध्यांना सूज",
+                    "display-hi": "जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_c7201688-0100-465b-82ea-2150e8d58d3e",
+                    "text": "Abnormal vaginal discharge",
+                    "display-mr": "योनीतून विचित्र स्राव वाहणे",
+                    "display-hi": "योनि से असामान्य रूप से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_4e3e89e1-6a92-4079-94d6-d4a8269f7531",
+                    "text": "Discharge from penis",
+                    "display-mr": "पेनीसमधून (पुरुषांच्या जनेनेंद्रियामधून) स्राव वाहणे",
+                    "display-hi": "लिंग से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_b8771f0e-6b09-4a3e-a6f4-2cbe16c006e4",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_6a5fe0f8-f47c-46f8-941a-36c905e64772",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_fb521327-04ea-4dfa-9241-f7dcfcc05526",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_6cfa8326-9a33-412f-922a-f04998b9dc99",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_3798af92-fbb6-459f-9259-563862f1fc6a",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_cf26aa99-e214-4fe4-9d43-886eb96990e1",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_f1c3a607-c732-4623-b4c5-fdaa36dd05e2",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_8318c2fd-0606-4f2a-aa54-505ae2a53ec3",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c1975bc1-1a47-43e1-aeb8-041ca55d49bd",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_9c79cac3-3371-4953-9e28-25e822b713da",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
