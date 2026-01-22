@@ -1,0 +1,411 @@
+{
+    "id": "ID_ba262f4b-3bb6-480d-a978-798a2337eaa5",
+    "text": "Coughing up blood",
+    "engineVersion": "3.0",
+    "display-mr": "खोकल्यामधून (कफातून) रक्त पडणे",
+    "display-hi": "खून के साथ खांसी",
+    "options": [
+        {
+            "id": "ID_971cd417-e3f3-44ee-891c-1fda531eb5af",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4af457eb-52c0-4ab7-b015-2ef4426662f3",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_bd5ff400-4133-4bc9-abdb-c9ce05fb171e",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने जाणवू लागली?",
+            "display-hi": "यह लक्षण कितनी तेजी से विकसित हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a3ed36ec-5d51-4e7b-85d0-e4bebcbc40e9",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                },
+                {
+                    "id": "ID_cb9c9969-dd32-4fcd-9fa3-398d482fdc21",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                }
+            ]
+        },
+        {
+            "id": "ID_62e5ac2f-58bd-44ed-ae46-0d00a3724d34",
+            "text": "Colour of bloody sputum",
+            "display-mr": "थुंकीतून जाणाऱ्या रक्ताचा रंग",
+            "display-hi": "खूनी थूक का रंग",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_812e4849-c8f7-4a7b-a129-cb9c9a2568b5",
+                    "text": "Bright red",
+                    "display-mr": "लालभडक",
+                    "display-hi": "चमकीला लाल"
+                },
+                {
+                    "id": "ID_ec9d6154-dddf-4ea0-99f1-69f2ebfaea05",
+                    "text": "Maroon",
+                    "display-mr": "किरमिजी लालसर",
+                    "display-hi": "गहरा लाल (मरून)"
+                },
+                {
+                    "id": "ID_f435ce46-73a3-4fd8-9551-fd6865f13855",
+                    "text": "Brown (Rust)",
+                    "display-mr": "तपकिरी गंज",
+                    "display-hi": "भूरा (जंग)"
+                },
+                {
+                    "id": "ID_4fe869d4-9746-42e0-86dd-18e710a0249f",
+                    "text": "Pink & frothy",
+                    "display-mr": "गुलाबी आणि फेसाळ",
+                    "display-hi": "गुलाबी और झागदार"
+                }
+            ]
+        },
+        {
+            "id": "ID_d09ccd77-80e1-4bbf-8973-3d33f9c18158",
+            "text": "Character (consistency) of coughed up blood material",
+            "display-mr": "खोकल्यातून पडणाऱ्या पदार्थांचे वैशिष्ट्य",
+            "display-hi": "खांसी के दौरान निकलने वाले खून का प्रकार",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_35f3f9c7-aa81-47c7-9555-968731796541",
+                    "text": "Bright red blood",
+                    "display-mr": "लालभडक रक्तासारखा",
+                    "display-hi": "चमकीला लाल खून"
+                },
+                {
+                    "id": "ID_da85ccd3-628d-443f-9016-5f847aa69b99",
+                    "text": "Blood clots",
+                    "display-mr": "रक्ताच्या गुठळ्या",
+                    "display-hi": "खून के थक्के"
+                },
+                {
+                    "id": "ID_263379eb-16c1-42cd-8a03-a07b23ff0691",
+                    "text": "Blood streaks with yellow or green sputum",
+                    "display-mr": "पिवळ्या किंवा हिरव्या थुंकीतून पडणारे रक्ताचे पुंजके",
+                    "display-hi": "पीले या हरे थूक के साथ खून की धारियां"
+                },
+                {
+                    "id": "ID_26c3820a-d5d0-4d7d-9f75-3389d45d2628",
+                    "text": "Blood tinge with white frothy sputum",
+                    "display-mr": "पांढऱ्या फेसाळलेल्या थुंकीसह रक्ताचे थेंब",
+                    "display-hi": "सफेद झागदार थूक में खून की थोड़ी मात्रा"
+                },
+                {
+                    "id": "ID_7237ff45-4baf-4192-b863-b3993d4bb221",
+                    "text": "Foul smelling bloody sputum",
+                    "display-mr": "दुर्गंध येणारी रक्त असलेली थुंकी",
+                    "display-hi": "खून के साथ दुर्गंधयुक्त थूक"
+                }
+            ]
+        },
+        {
+            "id": "ID_2887fba8-f97f-4a9a-afc5-5732ba1b6ec9",
+            "text": "Volume (quantity) of coughed up blood in last 24 hours",
+            "display-mr": "गेल्या 24 तासांत कफातून पडलेल्या रक्ताचे प्रमाण",
+            "display-hi": "पिछले 24 घंटों में खांसी के साथ निकले खून की मात्रा",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_44ded05c-eb41-4254-af55-25575b7138d9",
+                    "text": "Scanty (spoonful)",
+                    "display-mr": "अगदी थोडे (चमचाभर)",
+                    "display-hi": "थोड़ी मात्रा (चम्मच भर)"
+                },
+                {
+                    "id": "ID_8393827c-7892-4d13-a97e-b9f2a526327b",
+                    "text": "Moderate (cupful)",
+                    "display-mr": "मध्यम ( कपभर)",
+                    "display-hi": "मध्यम (एक कप)"
+                },
+                {
+                    "id": "ID_b0970ba1-ddbd-4bf2-9fae-2630a986716a",
+                    "text": "Large (pint)",
+                    "display-mr": "जास्त (पिंट)",
+                    "display-hi": "ज्यादा (एक पिंट)"
+                }
+            ]
+        },
+        {
+            "id": "ID_ed354b5d-264e-4094-a025-1f6a58361735",
+            "text": "How is coughing up blood progressing?",
+            "display-mr": "खोकल्यातून पडणाऱ्या रक्ताची स्थिती कशी आहे?",
+            "display-hi": "खांसी में खून आने में कोई बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_aacc6ab9-6446-4be8-9d1a-10beb4455606",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_a96d940b-a271-4117-89e2-ed2117d6a55e",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_2915aa85-c7a1-4440-ad94-5d4a600ebdff",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होता है"
+                },
+                {
+                    "id": "ID_9d38b870-02a4-4292-8917-e50f6f3c207f",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                },
+                {
+                    "id": "ID_4510fee9-8dc6-4eb2-a68c-dd234feb9e69",
+                    "text": "First episode",
+                    "display-mr": "पहिल्यांदाच",
+                    "display-hi": "पहली बार"
+                }
+            ]
+        },
+        {
+            "id": "ID_ccd97602-3c25-4c09-b2f3-fe767650c0e3",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आप में निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_6d5be06c-117f-4c1f-b15d-30ce5f59070c",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_ee1e2dbd-b209-4cbf-b707-ae4822505b84",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_d1c5bb16-79ca-4019-bc2f-e6c0ec2c9149",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वासोच्छ्वासास त्रास",
+                    "display-hi": "सांस लेने में कठिनाई"
+                },
+                {
+                    "id": "ID_a0426bbf-a083-4208-8b31-b048dd9b0eec",
+                    "text": "Chest tightness",
+                    "display-mr": "छातीत जडपणा",
+                    "display-hi": "छाती में जकड़न"
+                },
+                {
+                    "id": "ID_acd8d3ff-d1b6-40a3-923a-99434a8c26dc",
+                    "text": "Throat pain",
+                    "display-mr": "घसादुखी",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_c68d4209-47d3-4e02-bf6a-1af98e3b6122",
+                    "text": "Wheezing",
+                    "display-mr": "घरघर",
+                    "display-hi": "घरघराहट"
+                },
+                {
+                    "id": "ID_dca318c1-ab7a-454c-a80b-95da0bfe64a1",
+                    "text": "Bleeding from nose",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून"
+                },
+                {
+                    "id": "ID_34c63ac2-06d3-481f-9009-c7ba97ed3ebd",
+                    "text": "Bleeding from mouth",
+                    "display-mr": "तोंडातून रक्त येणे",
+                    "display-hi": "मुंह से खून"
+                },
+                {
+                    "id": "ID_b836bb7c-6d10-4cb9-adf7-531b3da4244c",
+                    "text": "History of blunt injury to chest",
+                    "display-mr": "छातीत दुखापत झाल्याचा पूर्वइतिहास",
+                    "display-hi": "छाती में चोट का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_7280da23-1f3a-41b2-9f04-76437211d34f",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आप में निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6960d753-8ef2-4fb7-9596-fb7581479894",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a387d4ee-5618-4ad2-beee-ebe00380eced",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_075a04ae-fc2d-4d17-82e8-1d96909db44d",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_0a09bcc8-c236-4300-922c-76d1d9bc30f7",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_9c77f415-ffa7-4726-8ab7-dbb12444d3e5",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_d5786718-83d1-4068-8764-92702632ef5b",
+                    "text": "Leg pain",
+                    "display-mr": "पाय दुखणे",
+                    "display-hi": "पैरों में दर्द"
+                },
+                {
+                    "id": "ID_08322811-0d09-4351-8d59-51c2f625eb9b",
+                    "text": "Swelling of leg",
+                    "display-mr": "पायावर सूज",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_e675e079-d16a-4b9a-a399-331b7690d47d",
+                    "text": "Fatigue (general weakness)",
+                    "display-mr": "थकवा (सर्वसाधारण थकवा)",
+                    "display-hi": "थकान (सामान्य कमजोरी)"
+                },
+                {
+                    "id": "ID_c33122a5-6867-4c19-9e8f-38884f849e75",
+                    "text": "Dizziness (lightheadedness)",
+                    "display-mr": "चक्कर (डोके हलके होणे)",
+                    "display-hi": "चक्कर आना (हल्का सिर घूमना)"
+                },
+                {
+                    "id": "ID_78b6b420-43ba-4804-9336-fa51f2f40fc0",
+                    "text": "Pale skin",
+                    "display-mr": "निस्तेज त्वचा",
+                    "display-hi": "पीली त्वचा"
+                },
+                {
+                    "id": "ID_ff51b09f-4d9c-45cc-bc53-9cc884b6588d",
+                    "text": "Easy skin bruising",
+                    "display-mr": "त्वचेवर सहज जखमा होणे",
+                    "display-hi": "त्वचा पर आसानी से चोट के निशान पड़ना"
+                },
+                {
+                    "id": "ID_31088e5b-f731-4b45-94b5-20219fbb9377",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_ee04abb8-4e8a-45e2-9bbb-26bd8d15ede3",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीतून रक्त जाणे",
+                    "display-hi": "पेशाब में खून"
+                },
+                {
+                    "id": "ID_7a91f81f-72dc-490e-8494-d124f22cd297",
+                    "text": "History of seizures",
+                    "display-mr": "अपस्मार/फेफरे चा इतिहास",
+                    "display-hi": "दौरे का इतिहास"
+                },
+                {
+                    "id": "ID_92b1916a-ded9-4756-b577-28f8ae033a71",
+                    "text": "History of use of medications (Eg. Aspirin or Clopidogrel etc.)",
+                    "display-mr": "औषधांच्या वापराचा पूर्वइतिहास (उदा. ॲस्पिरीन किंवा  Clopidogrel इ.)",
+                    "display-hi": "दवाओं के उपयोग का इतिहास (उदाहरण के लिए एस्पिरिन या क्लोपिडोग्रेल आदि)"
+                },
+                {
+                    "id": "ID_b1d3b0fd-10e7-4440-b1cb-42dee355a1c4",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_9ea4c384-f40c-4060-8ca8-c0d08777ef58",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fd673a30-92e4-4a97-bdb5-4f24c55d0a2a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_b05ce9c6-ca0e-4ad0-be4a-1bfe21438093",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_67b95b1d-ba4f-4824-b3ac-62f1d286d547",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_449f8cb4-bfe2-45e1-9811-a2f7bfbdc5af",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_063d4471-43e7-4659-bbb8-c15302f1c57a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

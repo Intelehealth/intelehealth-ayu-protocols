@@ -1,0 +1,572 @@
+{
+    "id": "ID_9a475e3b-9e47-42f3-b5bb-23d86011cc65",
+    "text": "Bloating",
+    "engineVersion": "3.0",
+    "display-mr": "ओटीपोट फुगणे",
+    "display-hi": "फुलाव",
+    "options": [
+        {
+            "id": "ID_65cc0a49-f09c-443e-912a-1245b7559c8c",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_42c384f0-2618-4b96-a1b5-6b9b2ffe43e8",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_3c9ff243-f2bf-40ea-b8b6-e71ffd362ead",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने वाढले?",
+            "display-hi": "लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9210570c-5f61-4f59-b7b3-bb96d31b352c",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                },
+                {
+                    "id": "ID_8977778b-cd76-4295-9504-9b1427970169",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                }
+            ]
+        },
+        {
+            "id": "ID_df4feac6-8fd9-4564-a4cc-f4b0ffd8c7b8",
+            "text": "Which part of abdomen you have bloating?",
+            "display-mr": "ओटीपोटाचा कुठला भाग तुम्हाला फुगल्यासारखा वाटत आहे?",
+            "display-hi": "पेट के किस हिस्से में फुलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_32eb9039-8fa3-45cd-8c00-ba6c5ee4b496",
+                    "text": "Upper abdomen",
+                    "display-mr": "ओटीपोटाचा वरचा भाग",
+                    "display-hi": "ऊपरी पेट"
+                },
+                {
+                    "id": "ID_79f9fe18-973e-4d97-baf0-c296bd4a21ef",
+                    "text": "Lower abdomen",
+                    "display-mr": "ओटीपोटाचा खालचा भाग",
+                    "display-hi": "निचला पेट"
+                },
+                {
+                    "id": "ID_fdc96359-7b90-424c-8742-1ed833484109",
+                    "text": "Entire abdomen",
+                    "display-mr": "संपूर्ण ओटीपोट",
+                    "display-hi": "पूरा पेट"
+                }
+            ]
+        },
+        {
+            "id": "ID_ac691a4f-597a-437a-a00e-75649f3ad9a2",
+            "text": "How can you describe the bloating?",
+            "display-mr": "तुम्ही ओटीपोट फुगण्याचे वर्णन कसे करू शकता?",
+            "display-hi": "आप फुलाव का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2d62ed1a-e824-4d3e-aac0-07f9d0c272e9",
+                    "text": "Fullness",
+                    "display-mr": "गच्चपणा",
+                    "display-hi": "भरापन"
+                },
+                {
+                    "id": "ID_9d7ab762-1482-4412-8f3c-8ef3e43c8ecd",
+                    "text": "Discomfort",
+                    "display-mr": "अस्वस्थता",
+                    "display-hi": "असुविधा"
+                },
+                {
+                    "id": "ID_478429b5-cdc6-4e59-ae27-db25c57020a4",
+                    "text": "Distention",
+                    "display-mr": "ताणल्यासारखे वाटणे",
+                    "display-hi": "पेट भारी होना"
+                },
+                {
+                    "id": "ID_72836f9f-98c2-4336-a20e-94900dda6191",
+                    "text": "Tightness",
+                    "display-mr": "घट्टपणा",
+                    "display-hi": "जकड़न"
+                },
+                {
+                    "id": "ID_13c37045-7bb9-489b-8770-6fc47895df8d",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_9a745b5f-857a-4bf4-be9c-66c151733d3d",
+            "text": "What does increase or worsen the bloating?",
+            "display-mr": "ओटीपोट फुगणे कशामुळे वाढते किंवा बळावते?",
+            "display-hi": "फुलाव को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4c5e8e82-ab5d-457a-a8d5-47cbb9ee2949",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e60f3920-f317-40bb-a4e1-fadca074feba",
+                    "text": "Empty stomach",
+                    "display-mr": "रिकामे पोट",
+                    "display-hi": "खाली पेट"
+                },
+                {
+                    "id": "ID_52b44b0c-c72f-40e5-be1d-c9cb1c61efe6",
+                    "text": "Certain foods",
+                    "display-mr": "विशिष्ट अन्नपदार्थ",
+                    "display-hi": "कुछ खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_ccfbacb3-10e2-4f1a-adf7-2430511a19a3",
+                    "text": "Spicy food",
+                    "display-mr": "मसालेदार अन्नपदार्थ",
+                    "display-hi": "मसालेदार भोजन"
+                },
+                {
+                    "id": "ID_c9342801-7f97-41fe-b6fe-2836896812df",
+                    "text": "Alcohol",
+                    "display-mr": "मद्य",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_35b2ec64-34a5-44e2-86c1-ced5449114e9",
+                    "text": "Citrus fruits",
+                    "display-mr": "लिंबूवर्गीय फळे",
+                    "display-hi": "खट्टे फल"
+                },
+                {
+                    "id": "ID_920b34e4-2072-47be-8d5c-c93447e7348c",
+                    "text": "Aerated drinks",
+                    "display-mr": "शीतपेये",
+                    "display-hi": "कार्बोनेटेड पेय"
+                },
+                {
+                    "id": "ID_1d48095e-8b6c-4964-87a7-9da8d449a37e",
+                    "text": "Smoking",
+                    "display-mr": "धूम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_48445717-723a-4eaa-a716-4f308356a9cc",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                },
+                {
+                    "id": "ID_cddc6ff1-5e51-4d41-ac72-c554c377af01",
+                    "text": "Tea",
+                    "display-mr": "चहा",
+                    "display-hi": "चाय"
+                },
+                {
+                    "id": "ID_c232a794-7b53-458e-950a-8c5c59661644",
+                    "text": "Milk products",
+                    "display-mr": "दुधाची उत्पादने",
+                    "display-hi": "दूध से बने उत्पाद"
+                },
+                {
+                    "id": "ID_a2836746-1317-4032-8f17-a3588c76bd5e",
+                    "text": "Vegetables",
+                    "display-mr": "भाज्या",
+                    "display-hi": "सब्जियां"
+                },
+                {
+                    "id": "ID_28fc713f-a2a0-428a-8722-6d6e1e54db78",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_a941072b-228d-4204-96e0-dad0f7377874",
+                    "text": "Lying down",
+                    "display-mr": "आडवे झोपणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_ba0fda87-5595-4337-96fc-7524d4ea8667",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_11e6d1ed-33e0-4364-9c22-9afa08f0c01f",
+            "text": "What does relieve your bloating?",
+            "display-mr": "तुमचे ओटीपोट फुगणे कशामुळे बरे होते?",
+            "display-hi": "आपके फुलाव को क्या कम करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_3b570a92-9bc4-4266-bbfa-67976345673e",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1aa387a4-0289-4eba-894a-b25abc93551b",
+                    "text": "Sleeping",
+                    "display-mr": "झोपणे",
+                    "display-hi": "सोना"
+                },
+                {
+                    "id": "ID_afce7e68-2421-4bea-b9a0-d31061dc0fc0",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_d82de51a-37d0-4453-a525-2f955341f56b",
+                    "text": "Fasting",
+                    "display-mr": "उपवास",
+                    "display-hi": "उपवास"
+                },
+                {
+                    "id": "ID_ae4790fb-5d0d-4be2-b592-b2d7c4037061",
+                    "text": "Exercise",
+                    "display-mr": "व्यायाम",
+                    "display-hi": "व्यायाम"
+                },
+                {
+                    "id": "ID_1c169b47-c8e3-47ba-901f-50c5f935c3cc",
+                    "text": "Small meals",
+                    "display-mr": "कमी जेवणे",
+                    "display-hi": "थोड़ा-थोड़ा खाना"
+                },
+                {
+                    "id": "ID_b95faafc-dc0b-4be0-824c-18df516f56b9",
+                    "text": "Sitting upright",
+                    "display-mr": "ताठ बसणे",
+                    "display-hi": "सीधा बैठना"
+                },
+                {
+                    "id": "ID_de6b6ccf-755e-42ec-b52c-865fe38ba0d9",
+                    "text": "Ginger",
+                    "display-mr": "आले",
+                    "display-hi": "अदरक"
+                },
+                {
+                    "id": "ID_4facd3a6-1217-49f6-9ed0-775130e5982f",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_f7a04f08-35cb-4b15-8903-641ab02d23f0",
+            "text": "Do you have any pattern of bloating in a 24 hours of cycle?",
+            "display-mr": "तुमच्या ओटीपोटाच्या फुगण्याचे 24 तासांच्या आवर्तनामध्ये काही स्वरूप आहे का?",
+            "display-hi": "क्या आपको 24 घंटे के चक्र में फुलाव का कोई पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2fa7fe94-b6d9-4d04-8c73-edf0e631ea00",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_583b3cfa-a2d1-4210-b4eb-59dc027c00fe",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधून-मधून (येते व जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_459a9e87-0ffc-4493-a616-ca29b3d07d57",
+                            "text": "When do you have the bloating worst?",
+                            "display-mr": "तुमचे ओटीपोट फुगणे सर्वात वाईट कधी असते?",
+                            "display-hi": "आपको सबसे ज्यादा फुलाव कब होता है?",
+                            "isRequired": true,
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_fbd99f75-4462-4f56-99f8-6119e512d45f",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_eccdd3b2-a3a1-4338-b4c1-75f51364e7af",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_0746bac8-bb55-4e64-8090-2fb3e6bd7320",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_659b8164-237c-422c-8e78-2f8fb87f875c",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_38005a12-f435-4d88-923d-4cad70cf7151",
+            "text": "How is the bloating progressing?",
+            "display-mr": "ओटीपोट फुगण्याची प्रगती कशी होत आहे?",
+            "display-hi": "फुलाव कैसे बढ़ रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bd789199-b3e8-4b13-a217-92e0669f4e85",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_1ff397af-2daf-480c-a701-42efee43624a",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_5d5748c9-e795-4b23-9cdb-c6bb45c48fc5",
+                    "text": "Recurrent (on & off)",
+                    "display-mr": "वारंवारता (सुरु आणि बंद)",
+                    "display-hi": "बार-बार हो रहा है"
+                },
+                {
+                    "id": "ID_2e77bae7-d985-45f3-8483-2312615e46e6",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_fa5254e9-35a3-4070-8202-e757b2ef1fa7",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6d2492af-a9df-4c3c-aa8d-db56d1d77aa1",
+                    "text": "Belching (burping)",
+                    "display-mr": "ढेकर येणे",
+                    "display-hi": "डकार (बर्पिंग)"
+                },
+                {
+                    "id": "ID_13aaed07-f5ce-4c3d-8ab5-6fbb07e4e8ac",
+                    "text": "Indigestion",
+                    "display-mr": "अपचन",
+                    "display-hi": "अपच"
+                },
+                {
+                    "id": "ID_269f211f-e429-41ec-9924-a357574127c0",
+                    "text": "Flatulence",
+                    "display-mr": "पोटात वात होणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_1ff80bfc-bad8-418f-9061-8132cfb67df1",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_dbc17dce-86f0-4218-87d7-29f3f31bc441",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_c27c90e0-a956-47bb-8b93-2aae45bd127c",
+                    "text": "Regurgitation of food",
+                    "display-mr": "पोटातून अन्न अन्नलिका व तोंडामध्ये येणे",
+                    "display-hi": "खाना दोबारा उगलना"
+                },
+                {
+                    "id": "ID_e7502f31-1a5d-4146-8605-89f45c282b61",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_b7ba8d34-4824-4e6c-8c65-759008636eb7",
+                    "text": "Constipation",
+                    "display-mr": "बध्दकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_193018dc-866f-42da-862b-1a826d1d4aa6",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_70c8c769-3fc8-4dc8-9493-eff7f81315cc",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे जाणवत आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e22c9db1-4755-4492-b749-4260d8cbf8f4",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9b88a0e2-c5b9-4c9d-b392-c74c23ab6ac9",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_a38f841a-3954-4e12-87ad-ca87e9aa3935",
+                    "text": "Mouth breathing",
+                    "display-mr": "तोंडाने श्वास घेणे",
+                    "display-hi": "मुंह से सांस लेना"
+                },
+                {
+                    "id": "ID_53ceb12a-99ee-4ca2-83f5-3d134f73741b",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_8a9d626d-ac18-4e24-bbbe-fecf21f5cab1",
+                    "text": "Abdominal pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_24fc58dd-0455-47d4-aca5-9b1e8c183a17",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोट ताणले जाणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_354c212e-13f8-40d0-81ba-a7f0fae33a46",
+                    "text": "Bad breath",
+                    "display-mr": "दुर्गंधीयुक्त श्वास",
+                    "display-hi": "मुंह से दुर्गंध"
+                },
+                {
+                    "id": "ID_14d491b5-7dab-4e0d-8b42-7f9f2e5bc91c",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_42d68094-329a-4783-98ca-90a4574f0301",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_915e473e-ab85-486d-9880-136c7b4071aa",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_5584b29a-c462-4424-869f-9669befb1eeb",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_e1d8f9da-0419-4898-848b-f144210f6e55",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_7f661e59-e830-4950-aebc-f34b15960a3d",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5fa60b78-ddf0-4e80-8014-ab35840a9d69",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_14e57607-7293-4640-9c6d-acfd106e3a8a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_7e908bd2-19f9-4651-81d5-70997144fdd3",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_ef5a19e7-6847-49c2-b140-ae9fa8ec0bc9",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_38aba88d-ffe6-4682-8f8d-c28ee3683de9",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

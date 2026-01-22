@@ -1,0 +1,494 @@
+{
+    "id": "ID_6ce154a2-77f5-4662-ab67-fa1332b6f045",
+    "text": "Absence of menstruation",
+    "engineVersion": "3.0",
+    "display-mr": "मासिक पाळी न येणे",
+    "display-hi": "माहवारी का न होना",
+    "options": [
+        {
+            "id": "ID_5ff3e27d-8886-47d4-a33f-0dfed68bb8f6",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही समस्या कधीपासून आहे?",
+            "display-hi": "आपको यह समस्या कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e396d3bb-7ec8-4a57-8b06-d57db761fcc3",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही समस्या कधीपासून आहे?",
+                    "display-hi": "आपको यह समस्या कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_013bddec-d0b1-491f-8039-e3d80a6cd2bd",
+            "text": "Did you attain menarche (first occurence of menstruation)?",
+            "display-mr": "तुम्हाला पहिल्यांदा मासिक पाळी आली होती का?",
+            "display-hi": "क्या माहवारी शुरू हो गया था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4fa40ff0-43d5-4e79-8867-2c9e904a57a0",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_fe971bfd-ca6c-495a-8e6d-f65ac405081c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_b62a9a1a-d762-4a64-83fc-d25838a8284b",
+                            "text": "At what age did you attain menarche (in years)?",
+                            "display-mr": "वयाच्या कितव्या वर्षी तुम्हाला पहिल्यांदा मासिक पाळी आली होती (वर्षांमध्ये)?",
+                            "display-hi": "आपको किस उम्र में माहवारी शुरू हुआ (वर्षों में)?",
+                            "input-type": "number"
+                        },
+                        {
+                            "id": "ID_738788d9-1530-4ee0-8e0e-68497d4f098d",
+                            "text": "How can you describe the regularity of your previous menstrual periods?",
+                            "display-mr": "तुमच्या आधीच्या मासिक पाळीच्या नियमिततेबद्दल तुम्ही काय सांगाल?",
+                            "display-hi": "आप अपने पिछले माहवारी की नियमितता का वर्णन कैसे कर सकती हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_0acf4bf2-7824-4ae7-b922-f4f8aa78a7fc",
+                                    "text": "Regular",
+                                    "display-mr": "नियमित",
+                                    "display-hi": "नियमित"
+                                },
+                                {
+                                    "id": "ID_1a94776c-def0-4877-9729-07ea3fc04fd1",
+                                    "text": "Irregular",
+                                    "display-mr": "अनियमित",
+                                    "display-hi": "अनियमित"
+                                },
+                                {
+                                    "id": "ID_4928aa19-dafb-4ec3-882f-78ad8e0fa369",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_6df358bf-01d8-4cb4-b441-d577532fe438",
+                            "text": "What is the length of your previous menstrual cycles?",
+                            "display-mr": "तुमच्या आधीची मासिक पाळीचे चक्र किती दिवसांचे होते?",
+                            "display-hi": "आपके पिछले माहवारी चक्र की अवधि क्या है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_9345d7ed-e6ae-42c1-8b66-a7f53efee86a",
+                                    "text": "Less than 21 days",
+                                    "display-mr": "21 दिवसांपेक्षा कमी",
+                                    "display-hi": "21 दिन से कम"
+                                },
+                                {
+                                    "id": "ID_08ff4c79-4da2-4e2f-ad88-53362be5878e",
+                                    "text": "21 to 28 days",
+                                    "display-mr": "21 ते 28 दिवस",
+                                    "display-hi": "21 से 28 दिन"
+                                },
+                                {
+                                    "id": "ID_98276b95-c65a-49fa-b340-11eb1b8b69b6",
+                                    "text": "28 to 35 days",
+                                    "display-mr": "28 ते 35 दिवस",
+                                    "display-hi": "28 से 35 दिन"
+                                },
+                                {
+                                    "id": "ID_3c2f3051-6aa6-4815-9814-9f5b1827ab31",
+                                    "text": "More than 35 days",
+                                    "display-mr": "35 दिवसांपेक्षा जास्त",
+                                    "display-hi": "35 दिन से ज्यादा"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_8db4bebf-ddd5-4a89-8e3e-6d04910aa3b8",
+                            "text": "How many days did your periods last in the previous cycles?",
+                            "display-mr": "तुमच्या आधीच्या मासिक पाळीच्या चक्रामध्ये पाळी किती दिवस राहिली होती?",
+                            "display-hi": "पिछले चक्रों में आपकी माहवारी कितने दिनों तक चली थी?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_0bd746f8-af47-40a5-b072-d6c5d1784920",
+                                    "text": "1 to 2 days",
+                                    "display-mr": "1 ते 2 दिवस",
+                                    "display-hi": "1 से 2 दिन"
+                                },
+                                {
+                                    "id": "ID_7ca95469-a6ce-467b-bab2-3bb9cad3ef50",
+                                    "text": "3 to 4 days",
+                                    "display-mr": "3 ते 4 दिवस",
+                                    "display-hi": "3 से 4 दिन"
+                                },
+                                {
+                                    "id": "ID_2f5ad877-1ba3-40c5-be59-8c7e32709375",
+                                    "text": "5 to 6 days",
+                                    "display-mr": "5 ते 6 दिवस",
+                                    "display-hi": "5 से 6 दिन"
+                                },
+                                {
+                                    "id": "ID_9b014c37-f3d4-4b4f-8180-4118f75fe5c3",
+                                    "text": "7 days",
+                                    "display-mr": "7 दिवस",
+                                    "display-hi": "7 दिन"
+                                },
+                                {
+                                    "id": "ID_bae1a1c6-ed2e-4a41-ae58-152a62de81a0",
+                                    "text": "More than 7 days",
+                                    "display-mr": "7 दिवसांपेक्षा जास्त",
+                                    "display-hi": "7 दिन से ज्यादा"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_db769e7f-8ff2-438e-bd1f-048da35ea05a",
+                            "text": "What is your last menstrual period (LMP) date?",
+                            "display-mr": "तुमच्या आधीच्या मासिक पाळीची तारीख (LMP) काय होती ?",
+                            "display-hi": "आपकी अंतिम माहवारी (LMP) कब आई थी?",
+                            "input-type": "date"
+                        },
+                        {
+                            "id": "ID_97294889-84a8-4f88-9f12-b3eccd759b68",
+                            "text": "Are you currently pregnant?",
+                            "display-mr": "तुम्ही सध्या गर्भवती आहात का?",
+                            "display-hi": "क्या आप वर्तमान में गर्भवती हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_17101d2b-690e-4014-9e1d-75377db4ebaf",
+                                    "text": "Not applicable",
+                                    "display-mr": "लागू नाही",
+                                    "display-hi": "लागू नहीं"
+                                },
+                                {
+                                    "id": "ID_9e3e3dad-2653-4535-8c39-8b11a2e8d145",
+                                    "text": "Yes",
+                                    "display-mr": "होय",
+                                    "display-hi": "हां"
+                                },
+                                {
+                                    "id": "ID_bbbd99b0-6002-4958-ad87-e26a63d4d8d5",
+                                    "text": "No",
+                                    "display-mr": "नाही",
+                                    "display-hi": "नहीं"
+                                },
+                                {
+                                    "id": "ID_2677543a-f3f5-4ac1-8cab-f7b6a431ac90",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_13c50b46-5744-4daa-ba64-f7fff0215d62",
+                            "text": "Are you currently breastfeeding?",
+                            "display-mr": "तुम्ही सध्या बाळाला स्तनपान करता का?",
+                            "display-hi": "क्या आप वर्तमान में स्तनपान करा रही हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_714953af-f88c-4036-a4af-1c4a442f0140",
+                                    "text": "Not applicable",
+                                    "display-mr": "लागू नाही"
+                                },
+                                {
+                                    "id": "ID_3600d50f-de4c-4478-a108-67e5ba642b1c",
+                                    "text": "No",
+                                    "display-mr": "नाही"
+                                },
+                                {
+                                    "id": "ID_df6a0dd8-c08c-4753-9271-9ad159c566cd",
+                                    "text": "Yes",
+                                    "display-mr": "होय"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_6915520d-c2c8-4474-940c-95049e2e8286",
+                            "text": "Are you currently using any birth control?",
+                            "display-mr": "तुम्ही सध्या कोणतेही गर्भनिरोधक साधन वापरत आहात का?",
+                            "display-hi": "क्या आप वर्तमान में कोई गर्भनिरोधक ले रही हैं?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_039b8a9a-e754-4c34-a8a0-c151dc4b9dc5",
+                                    "text": "Not applicable",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "लागू नहीं"
+                                },
+                                {
+                                    "id": "ID_5fc712fd-77ca-4794-93fc-43cc6c9f7336",
+                                    "text": "None",
+                                    "display-mr": "काही नाही",
+                                    "display-hi": "कोई नहीं",
+                                    "exclude-from-multi-choice": "true"
+                                },
+                                {
+                                    "id": "ID_fc85140d-8f55-4dd3-85f2-cab426dd5a26",
+                                    "text": "Oral tablets",
+                                    "display-mr": "तोंडावाटे घेण्याच्या गोळ्या",
+                                    "display-hi": "मौखिक गोलियां"
+                                },
+                                {
+                                    "id": "ID_e0fb5c5b-7a0f-4a7e-9ed2-e0f064d81bc2",
+                                    "text": "Injectables",
+                                    "display-mr": "इंजेक्टेबल्स",
+                                    "display-hi": "इंजेक्शन"
+                                },
+                                {
+                                    "id": "ID_63d7dbc7-37c5-4ff3-9537-01db0702671d",
+                                    "text": "IUCD",
+                                    "display-mr": "IUCD",
+                                    "display-hi": "IUCD"
+                                },
+                                {
+                                    "id": "ID_a29c96a2-872e-4baa-88a1-2bb8810d0727",
+                                    "text": "Other",
+                                    "display-mr": "अन्य",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_a7fe4454-085f-4064-96cd-520b1fc27e7d",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_408c8997-b71f-4113-b7ce-4d40a1f95f77",
+                    "text": "Breast pain",
+                    "display-mr": "स्तनांमध्ये दुखणे",
+                    "display-hi": "स्तन में दर्द"
+                },
+                {
+                    "id": "ID_458142bc-586e-414d-ad46-a7a7e0b18dd9",
+                    "text": "Nipple discharge",
+                    "display-mr": "स्तनांतून स्राव वाहणे",
+                    "display-hi": "निप्पल से तरल निकलना"
+                },
+                {
+                    "id": "ID_78646977-33ea-4289-8c09-8e94dc7fd3f7",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोट दुखणे",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_dbbd717d-1fa7-4c7b-b876-0013c0d8edca",
+                    "text": "Excess facial hair",
+                    "display-mr": "चेहऱ्यावर जास्त केस",
+                    "display-hi": "चेहरे पर अत्यधिक बाल"
+                },
+                {
+                    "id": "ID_878d9e32-4ce3-4e8c-8392-3a956557d782",
+                    "text": "Excess body hair",
+                    "display-mr": "शरीरावर जास्त प्रमाणात केस",
+                    "display-hi": "शरीर पर अत्यधिक बाल"
+                },
+                {
+                    "id": "ID_d9100ba8-e9c6-478f-a21c-893712b049fe",
+                    "text": "Pimples",
+                    "display-mr": "पिंपल्स",
+                    "display-hi": "मुंहासे"
+                },
+                {
+                    "id": "ID_e1c2713f-5861-49fc-8eb3-3a36f3e2e200",
+                    "text": "Abnormal vaginal discharge",
+                    "display-mr": "योनीतून होणारा विचित्र स्राव",
+                    "display-hi": "योनि से असामान्य रूप से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_0d57640e-5ba0-4c2c-a204-d02fe96f96db",
+                    "text": "Absence of underarm hair",
+                    "display-mr": "बगलेत केस नसणे",
+                    "display-hi": "बगल के बालों का न होना"
+                },
+                {
+                    "id": "ID_93073056-4068-4f78-98f0-77ba3d62ac38",
+                    "text": "Absence of pubic hair",
+                    "display-mr": "जननेंद्रियांवर केस नसणे",
+                    "display-hi": "जघन बालों का न होना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_13578538-062f-43bf-bb10-bf1605346e2f",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a3fa6bfc-628d-4f53-89c0-a18afd7c9172",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_12a56259-4f03-479d-ba25-05a65bfa3ee9",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_05d1958e-f3fd-4189-9244-48d63a48c7b3",
+                    "text": "Hot flashes",
+                    "display-mr": "हॉट फ्लशेस",
+                    "display-hi": "अचानक गर्मी लगना"
+                },
+                {
+                    "id": "ID_da787942-8c4b-4229-a7bf-f74c2e22a1b0",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_d54ec23c-39cc-4390-8164-6c019bc0f7df",
+                    "text": "Low mood",
+                    "display-mr": "खराब मूड",
+                    "display-hi": "नीच"
+                },
+                {
+                    "id": "ID_7b2e6804-dd70-4dc9-9e9d-752d44a8dc65",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_44de0287-5546-4ac6-a90c-73689155e2c9",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_22114e4e-1346-49f7-8ef7-b0466eaefd99",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_29f61c6b-064d-4d10-9e13-1c938421771d",
+                    "text": "Fainting",
+                    "display-mr": "बेशुध्द पडणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_17129cba-b55b-40a9-b8e0-15a409793698",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_17b1b5e3-e7a3-4cb2-930b-0dd9d39b819b",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न होना"
+                },
+                {
+                    "id": "ID_023a11b3-bd3f-4f60-871e-a2c21e35479a",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_c753de84-a9af-4bdd-a1fa-3a2488e83bc6",
+                    "text": "Abdominal distention",
+                    "display-mr": "पोट फुगणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_df210812-cd24-439b-980b-8e5ac205b9ac",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_8c2a1b29-2d4b-4227-903b-f5189458cb94",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_4a4dde84-09f7-4b3b-b255-f56f03406266",
+                    "text": "Diminished vision",
+                    "display-mr": "दृष्टी कमी होणे",
+                    "display-hi": "दृष्टि में कमी"
+                },
+                {
+                    "id": "ID_affd168a-5a31-490a-ac45-87696002efa1",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_56d45833-0ade-42cd-8781-9fa8e0a232f8",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a9d41249-655e-441f-b82b-273fa1ffface",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1be6e143-9eda-4adc-b366-4d1eed06fd03",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_73e35109-70af-4b29-864b-e6181c5e4eb3",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_009fdf04-97ca-4592-9e63-29a0a60a3cbd",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_559fc568-4c07-4b82-b034-068b65274ec1",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

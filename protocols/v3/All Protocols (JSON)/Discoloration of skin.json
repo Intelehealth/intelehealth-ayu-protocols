@@ -1,0 +1,769 @@
+{
+    "id": "ID_8759573e-73aa-4388-8a8c-7d34a7a8af7e",
+    "text": "Discoloration of skin",
+    "engineVersion": "3.0",
+    "display-mr": "त्वचेचा रंग बदलणे",
+    "display-hi": "त्वचा का रंग बदलना",
+    "options": [
+        {
+            "id": "ID_a718dbd4-1f4c-4d50-b183-0e5f6223a149",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1ec90509-af39-4297-9956-c2ebaae4c22f",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_0813f98b-5b20-488d-a704-c6e063a5ba6b",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0c612ab3-5968-4f68-af95-a9bebc478693",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_18fe6cb0-6b30-40de-8b53-2249b77871bc",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_e9475d6c-1835-4971-8d23-f4b5acf1f00e",
+            "text": "Where do you get the discoloration of skin?",
+            "display-mr": "त्वचेचा रंग कुठे बदलला आहे?",
+            "display-hi": "आपको त्वचा का रंग बदलने की समस्या कहां-कहां है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2b1ad670-59c1-4954-9cca-a20f3c9e1540",
+                    "text": "All over body",
+                    "display-mr": "संपूर्ण शरीरावर",
+                    "display-hi": "पूरे शरीर पर"
+                },
+                {
+                    "id": "ID_dd2f5679-5e77-4fb0-a2db-380d814bba85",
+                    "text": "Part of body",
+                    "display-mr": "शरीराचा भाग",
+                    "display-hi": "शरीर का हिस्सा",
+                    "options": [
+                        {
+                            "id": "ID_1abc367d-afab-4aed-80d5-0ea1f1ebdeb7",
+                            "text": "Which part of the body do you get the discoloration of skin?",
+                            "display-mr": "शरीराच्या कोणत्या भागात त्वचेचा रंग बदलला आहे?",
+                            "display-hi": "आपको शरीर के किस हिस्से में त्वचा का रंग बदलने की समस्या होती है?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_9a04785d-a575-45ac-a5e4-d290730d241a",
+                                    "text": "Scalp",
+                                    "display-mr": "टाळू",
+                                    "display-hi": "खोपड़ी"
+                                },
+                                {
+                                    "id": "ID_76df6f4d-8343-4dab-8526-202a824d2f8c",
+                                    "text": "Forehead",
+                                    "display-mr": "कपाळ",
+                                    "display-hi": "माथा"
+                                },
+                                {
+                                    "id": "ID_6a6dc7c0-635f-4941-9a7d-817b3f522158",
+                                    "text": "Face",
+                                    "display-mr": "चेहरा",
+                                    "display-hi": "चेहरा"
+                                },
+                                {
+                                    "id": "ID_17546773-9b4e-4d4d-bbbc-c6008071ab2c",
+                                    "text": "Lips",
+                                    "display-mr": "ओठ",
+                                    "display-hi": "होंठ"
+                                },
+                                {
+                                    "id": "ID_fd544c62-2815-4045-9730-78a4cee15538",
+                                    "text": "Neck",
+                                    "display-mr": "मान",
+                                    "display-hi": "गर्दन"
+                                },
+                                {
+                                    "id": "ID_0de2684e-dad5-4538-8459-9f3aaa2cb701",
+                                    "text": "Arm",
+                                    "display-mr": "बाहू",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_1dde30e0-5f45-471d-a8d2-212a7f8e0c1c",
+                                    "text": "Hand",
+                                    "display-mr": "हात",
+                                    "display-hi": "हाथ"
+                                },
+                                {
+                                    "id": "ID_f9566a31-74c7-48c4-9b96-95b07f9b5ebb",
+                                    "text": "Fingers",
+                                    "display-mr": "बोटे",
+                                    "display-hi": "उंगलियां"
+                                },
+                                {
+                                    "id": "ID_83a11304-95a2-4a34-8a23-052ead29cd51",
+                                    "text": "Chest",
+                                    "display-mr": "छाती",
+                                    "display-hi": "छाती"
+                                },
+                                {
+                                    "id": "ID_b58d6ac3-417c-47b1-a1de-8a640be7bba1",
+                                    "text": "Abdomen",
+                                    "display-mr": "उदर",
+                                    "display-hi": "पेट"
+                                },
+                                {
+                                    "id": "ID_88586c38-69d2-4acf-ad38-6263bdfaa501",
+                                    "text": "Back",
+                                    "display-mr": "मागे",
+                                    "display-hi": "पीठ"
+                                },
+                                {
+                                    "id": "ID_f47ac4fc-ef41-4d5c-855f-c9038eb45375",
+                                    "text": "Leg",
+                                    "display-mr": "पाय",
+                                    "display-hi": "पैर"
+                                },
+                                {
+                                    "id": "ID_5a335eb8-c33a-451e-854f-e6ab9436bc71",
+                                    "text": "Foot",
+                                    "display-mr": "तळवे",
+                                    "display-hi": "पद"
+                                },
+                                {
+                                    "id": "ID_f417d9de-9d9c-459e-ae7e-028385a5b67b",
+                                    "text": "Toe",
+                                    "display-mr": "पायाचे बोट",
+                                    "display-hi": "पैर की उंगलियां"
+                                },
+                                {
+                                    "id": "ID_0953c5c7-d10b-4df9-a458-18d64e607c53",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_0e3f3829-fe36-4d3e-87e3-a5d1e54a88b9",
+                            "text": "Which side of the body do you have the discoloration of skin?",
+                            "display-mr": "तुमच्या शरीराच्या कोणत्या बाजूला त्वचेचा रंग बदलला आहे?",
+                            "display-hi": "आपको शरीर के किस तरफ में त्वचा का रंग बदलने की समस्या होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_99a6061d-4dbd-43fa-9d40-453363364010",
+                                    "text": "Left",
+                                    "display-mr": "डावीकडे",
+                                    "display-hi": "बाएं"
+                                },
+                                {
+                                    "id": "ID_a501158f-0bcd-4686-ba8c-dfe042093aa6",
+                                    "text": "Right",
+                                    "display-mr": "उजवीकडे",
+                                    "display-hi": "दाएं"
+                                },
+                                {
+                                    "id": "ID_cc20d63d-dc6a-445e-8f44-0ceb0a42a9dd",
+                                    "text": "Both sides",
+                                    "display-mr": "दोन्ही बाजूंनी",
+                                    "display-hi": "दोनों तरफ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_6184bc7e-7a97-4cec-a7e6-843578595763",
+            "text": "How can you describe the character of discoloration of skin?",
+            "display-mr": "त्वचेच्या रंगातील बदलांचे स्वरूप तुम्ही कसे वर्णन करू शकता?",
+            "display-hi": "आप त्वचा के रंग बदलने की समस्या के लक्षण को कैसे बता सकते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a8f29fc8-1d02-4feb-9008-90192210b8b0",
+                    "text": "White patches",
+                    "display-mr": "पांढरे ठिपके",
+                    "display-hi": "सफेद धब्बे"
+                },
+                {
+                    "id": "ID_68ae36b1-d63c-48a8-9506-eed3d7c0670b",
+                    "text": "Brown patches",
+                    "display-mr": "तपकिरी ठिपके",
+                    "display-hi": "भूरे धब्बे"
+                },
+                {
+                    "id": "ID_9298d32e-fbb3-4b98-a003-f6fff367af8f",
+                    "text": "Dark patches",
+                    "display-mr": "गडद ठिपके",
+                    "display-hi": "काले धब्बे"
+                },
+                {
+                    "id": "ID_91428f3d-8f76-48fe-be34-373dd0beaf02",
+                    "text": "Green patches",
+                    "display-mr": "हिरवे ठिपके",
+                    "display-hi": "हरे धब्बे"
+                },
+                {
+                    "id": "ID_ec7b9167-1b17-4719-aaf9-d07ad3bc9e61",
+                    "text": "Red patches",
+                    "display-mr": "लाल ठिपके",
+                    "display-hi": "लाल धब्बे"
+                },
+                {
+                    "id": "ID_442055d2-d6c0-463b-8494-57657e549f4c",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_95abcdba-3c10-42ee-84fa-2530205e7881",
+            "text": "How many of the skin discoloration patches are there?",
+            "display-mr": "त्वचेवर किती प्रकारचे डाग असतात?",
+            "display-hi": "त्वचा के रंग बदलने के कितने पैच होते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7ce7818b-28ad-4b49-ab32-a4eaac184f6b",
+                    "text": "Single",
+                    "display-mr": "एकच",
+                    "display-hi": "एकल"
+                },
+                {
+                    "id": "ID_d5dad39c-7bef-4f14-a984-5dc32b053e52",
+                    "text": "Multiple",
+                    "display-mr": "अनेक",
+                    "display-hi": "एकाधिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_e11b7821-879b-40d2-a68b-f16d785eb7a0",
+            "text": "What is the shape of the skin patches?",
+            "display-mr": "त्वचेच्या ठिपक्यांचा आकार काय आहे?",
+            "display-hi": "त्वचा के पैच का आकार कैसा होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ea31eb43-32ab-4715-80ac-b6bb555b9bbe",
+                    "text": "Round",
+                    "display-mr": "गोलाकार",
+                    "display-hi": "गोल"
+                },
+                {
+                    "id": "ID_1dd49297-84cb-4545-9b97-a20cd1ea61c9",
+                    "text": "Oval",
+                    "display-mr": "अंडाकृती आकाराचे",
+                    "display-hi": "अंडाकार"
+                },
+                {
+                    "id": "ID_0cf1ccb2-4c5b-460e-8a05-fdbfa0a36c40",
+                    "text": "Leaf",
+                    "display-mr": "पानाच्या आकाराचे",
+                    "display-hi": "पत्ता"
+                },
+                {
+                    "id": "ID_45652b14-8a9a-437c-880f-fe7226ee9ec9",
+                    "text": "Irregular",
+                    "display-mr": "अनियमित",
+                    "display-hi": "अनियमित"
+                }
+            ]
+        },
+        {
+            "id": "ID_59741ebe-8591-4f61-a99f-9920bdaad730",
+            "text": "What relieves or lessens the discoloration of skin?",
+            "display-mr": "त्वचेचा रंग बदल कमी करण्यासाठी काय आराम देते?",
+            "display-hi": "त्वचा के रंग बदलने की समस्या को क्या कम करता या राहत दिलाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_025c2425-e0fa-475f-b3fa-29011daedde4",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_e94441f3-491f-49fd-8756-fb9ac2043847",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_31c9a867-6c47-4453-80bd-46881c357286",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_d8e21c31-d053-455c-99d7-ec28432f3b08",
+                    "text": "Moisturizer",
+                    "display-mr": "मॉइश्चरायझर",
+                    "display-hi": "मॉइस्चराइजर"
+                },
+                {
+                    "id": "ID_84a55b5f-09b8-4b48-81b7-3b1f70a989f6",
+                    "text": "Sunscreen creams",
+                    "display-mr": "सनस्क्रीन क्रीम",
+                    "display-hi": "सनस्क्रीन क्रीम"
+                },
+                {
+                    "id": "ID_625248e0-9293-43dd-b57a-5535df9b57d1",
+                    "text": "Clothing",
+                    "display-mr": "कपडे",
+                    "display-hi": "कपड़े"
+                },
+                {
+                    "id": "ID_ecc71c35-f27f-468a-a051-01200a18765f",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_925ae86d-96ac-48e4-98b9-4fcf2734f000",
+            "text": "What increases or worsens the discoloration of skin?",
+            "display-mr": "त्वचेचा रंग कशामुळे खराब होतो  किंवा बिघडतो?",
+            "display-hi": "त्वचा के रंग बदलने की समस्या को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6f793d48-7a6f-4653-b570-7e2a13af9369",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c999fad5-88fd-43d3-a031-50474eb8c875",
+                    "text": "Sunlight",
+                    "display-mr": "सूर्यप्रकाश",
+                    "display-hi": "सूरज की रोशनी"
+                },
+                {
+                    "id": "ID_7ad3b2e7-2614-4ffa-8bab-e37529a1bbdc",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_22c9bc3a-91b8-4445-8141-a8c431d2c1bb",
+                    "text": "Summer",
+                    "display-mr": "उन्हाळा",
+                    "display-hi": "गर्मी"
+                },
+                {
+                    "id": "ID_dd9d23c7-63da-4705-a0ed-b5c179f25d35",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_cecd5059-86e3-4345-8212-d16ad6c17fd6",
+                    "text": "Skin injury",
+                    "display-mr": "त्वचेला इजा",
+                    "display-hi": "त्वचा की चोट"
+                },
+                {
+                    "id": "ID_cfe3a300-ed8e-4735-8d39-12d5b924f416",
+                    "text": "Certain foods",
+                    "display-mr": "ठराविक पदार्थ",
+                    "display-hi": "कुछ खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_d9b9255c-1a41-467b-9b9c-8a0253e6cd28",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_13fb1b2c-c0e3-46a4-ab1d-f9130b973aee",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_beeeb941-421d-4a54-be28-0d940fcc46da",
+            "text": "How is the symptom progressing?",
+            "display-mr": "लक्षणांमध्ये काही बदल?",
+            "display-hi": "लक्षण में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a25081f5-86fb-48e3-8448-0e3b1c8e0675",
+                    "text": "Increasing",
+                    "display-mr": "वाढणे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_cde94f71-405d-44d0-8c9f-8acd4add6a60",
+                    "text": "Spreading",
+                    "display-mr": "पसरत आहे",
+                    "display-hi": "फैल रहा है"
+                },
+                {
+                    "id": "ID_3a92f473-d84f-4a4c-a582-2d9ab05f4a68",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_3b10244a-ad09-4e66-ab48-9b7887b67564",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_143bca6b-1b4c-4666-87ef-d3d719a3569b",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_df122e0a-9fc6-440f-972c-ec3ed854942b",
+            "text": "Does the symptom have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रादरम्यान लक्षणाचे काही पैटर्न आहेत का?",
+            "display-hi": "क्या लक्षण 24 घंटे के चक्र में कोई पैटर्न दिखाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c4de9b9f-14eb-46d8-8f28-d18d0119af58",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_bf2fc03d-859d-4710-bf64-b27d1416d072",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "अंतराल पर (आता-जाता है)",
+                    "options": [
+                        {
+                            "id": "ID_53357848-003a-4300-a5ee-22989b8bc2fa",
+                            "text": "When do you get the discoloration of skin the worst?",
+                            "display-mr": "त्वचेचा रंग कधी बदलतो?",
+                            "display-hi": "आपको त्वचा का रंग बदलने की समस्या सबसे ज्यादा कब होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_9fb2b049-74d4-4f82-b3aa-1b190cf6bc3b",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_f52a6c5a-a670-4fb4-90d0-7111db4c6c31",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपार",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_cb7a64f0-d0e6-495f-9e1c-61690679bdcd",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_b790c7fe-9ad8-49a6-998a-373c95cf59af",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_3c70822b-9a62-40a9-bd62-ec1920cd44bc",
+            "text": "Do you have any local associated features around the skin patches?",
+            "display-mr": "तुमच्या त्वचेच्या ठिपक्यांच्या आसपास काही स्थानिक संबंधित वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको त्वचा के पैच के आस-पास इनमें से कोई लक्षण दिखाई देते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_853eec5b-96eb-4ecf-8af9-3edd233784f7",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0610279d-7226-455a-902e-5e643fbd38db",
+                    "text": "Itching",
+                    "display-mr": "खाज सुटणे",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_26280c2f-e8af-4d35-9f8a-5141b39ce413",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_0b2d4c39-aa72-4e60-85e8-0526e2ce150d",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_d99ac128-4d2f-4f7d-a7c4-a996bfd02f73",
+                    "text": "Red margins",
+                    "display-mr": "रेड मार्जिन",
+                    "display-hi": "लाल किनारे"
+                },
+                {
+                    "id": "ID_3b94f66d-e42d-4260-8b33-c4266e8b9180",
+                    "text": "Hair loss",
+                    "display-mr": "केस गळणे",
+                    "display-hi": "बालों का झड़ना"
+                },
+                {
+                    "id": "ID_a8cb987e-6f1d-4ada-93c6-bbfd3c2e9981",
+                    "text": "Loss of sensation",
+                    "display-mr": "संवेदना कमी होणे",
+                    "display-hi": "संवेदना का खत्म होना"
+                },
+                {
+                    "id": "ID_6f769dd9-1787-459e-874e-ba923f3b487b",
+                    "text": "Ulceration",
+                    "display-mr": "व्रण",
+                    "display-hi": "छाले पड़ना"
+                },
+                {
+                    "id": "ID_a5ebe34e-bd7a-4f51-a457-8f8530e64187",
+                    "text": "Scaling",
+                    "display-mr": "स्केलिंग",
+                    "display-hi": "पपड़ी उतरना"
+                },
+                {
+                    "id": "ID_11168727-1c09-4d4b-8d99-186721d1f564",
+                    "text": "Oozing",
+                    "display-mr": "वाहणे",
+                    "display-hi": "रिसना"
+                },
+                {
+                    "id": "ID_3849d075-37e2-44f7-8387-5a5afd307c2d",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e858d287-eada-4a54-8b3f-9e0e85463605",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c1b131a7-1f40-4f40-8680-e0e6e2a89652",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "रूखी त्वचा"
+                },
+                {
+                    "id": "ID_16752df0-9bd7-448f-8231-4a6b668e6412",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेची खाज सुटणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_503a4fec-9ec1-4f4e-9b48-8f5b55ccca05",
+                    "text": "Oral ulcers",
+                    "display-mr": "तोंडाचे व्रण",
+                    "display-hi": "मौखिक छाले"
+                },
+                {
+                    "id": "ID_eeda5fdb-322e-4a62-995d-8130318d98b8",
+                    "text": "Skin nodules",
+                    "display-mr": "त्वचेच्या गाठी",
+                    "display-hi": "त्वचा की गांठें"
+                },
+                {
+                    "id": "ID_9fc492f3-8d84-4702-94b4-0893688f3814",
+                    "text": "Skin ulcers",
+                    "display-mr": "त्वचेचे व्रण",
+                    "display-hi": "त्वचा के छाले"
+                },
+                {
+                    "id": "ID_1b2b900f-1fc8-41c5-b2fd-54f3fba73af8",
+                    "text": "Blisters",
+                    "display-mr": "फोड",
+                    "display-hi": "छाले"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_c2a132a0-1865-462e-8a58-a81f9f302a3b",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_cb838a24-d9ea-4989-9d07-0a4c33a2050d",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_d15f7e82-7f61-42d4-b530-2737ab64d8e4",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_2e86e6b3-6984-4567-967d-3aa6d9eb28f3",
+                    "text": "Swollen fingers",
+                    "display-mr": "सुजलेली बोटं",
+                    "display-hi": "उंगलियों में सूजन"
+                },
+                {
+                    "id": "ID_97619c5b-9bcd-411e-849a-278804e07b57",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_7739f156-8015-448e-bce1-ea5cf0f3b52d",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_6adb8d22-79af-48bd-8446-1dfe1add27aa",
+                    "text": "Joint swelling",
+                    "display-mr": "सांधे सूज",
+                    "display-hi": "जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_d291b899-86ce-4a2a-85d4-c10d8f4e852d",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_554028a2-657e-4ccf-be00-07918a1983e7",
+                    "text": "Swollen lymph nodes",
+                    "display-mr": "सुजलेल्या लिम्फ नोड्स",
+                    "display-hi": "सूजी हुई लिम्फ नोड्स"
+                },
+                {
+                    "id": "ID_1737dfa6-c7b3-4952-b79a-8a7d63f4b2fe",
+                    "text": "Nose bleeding",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                },
+                {
+                    "id": "ID_64549811-8fce-4f3e-8057-853d9f1534d7",
+                    "text": "Gum bleeding",
+                    "display-mr": "हिरड्यातून रक्तस्त्राव होणे",
+                    "display-hi": "मसूड़ों से खून आना"
+                },
+                {
+                    "id": "ID_ab485673-0175-43c7-8cf0-24b0320c14b0",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_36383089-42fc-4a97-a56e-86a2816e19c3",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f2a434b4-da5c-4945-879b-fbfdc0c41601",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_c2d333cc-61d9-43fc-8019-1fcc80419473",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_fc3b6bac-072e-4e83-a58e-f074d71e4991",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_5d74aa52-888a-499d-b1e3-616fb20648a7",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_593b5bc8-0c2f-49c1-b751-d104cc7c0d0e",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

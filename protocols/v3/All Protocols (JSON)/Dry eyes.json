@@ -1,0 +1,513 @@
+{
+    "id": "ID_8fef99c6-8464-48c1-bf8f-afe1e8e26853",
+    "text": "Dry eyes",
+    "engineVersion": "3.0",
+    "display-mr": "डोळ्याच्या कोरडेपणा",
+    "display-hi": "सूखी आंखें",
+    "options": [
+        {
+            "id": "ID_c34ceb45-eb25-4977-898e-3de95a8b2746",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d0180585-aac8-47b3-9fd3-3f13cd45722a",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_115797d1-8f80-4595-90c4-987ce82ae2d7",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_94a10d7f-5974-42ec-b7cb-d4c24e2122ff",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_7012c9eb-3406-4120-9315-c94ca58c0872",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_c0e5b9e8-f638-4e63-8b9d-2d0c5bb4dab9",
+            "text": "Which eye are you facing this dryness problem?",
+            "display-mr": "तुम्हाला कोणत्या डोळ्याच्या कोरडेपणाच्या समस्येचा सामना करावा लागतो?",
+            "display-hi": "आपको किस आंख में यह सूखापन की समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9ebe5844-a808-48f1-b7fc-b8d5c999f5ad",
+                    "text": "Left eye",
+                    "display-mr": "डावा डोळा",
+                    "display-hi": "बाईं आंख"
+                },
+                {
+                    "id": "ID_71600d51-9298-41c8-b948-4b42cb8990a1",
+                    "text": "Right eye",
+                    "display-mr": "उजवा डोळा",
+                    "display-hi": "दाईं आंख"
+                },
+                {
+                    "id": "ID_64d83a48-f608-4908-9a79-56e799e2d574",
+                    "text": "Both eyes",
+                    "display-mr": "दोन्ही डोळे",
+                    "display-hi": "दोनों आंखें"
+                }
+            ]
+        },
+        {
+            "id": "ID_9c695c53-9a39-4c57-b5da-ec030c84910b",
+            "text": "Do you have any of the prior associated features with dryness of eyes?",
+            "display-mr": "तुमच्या डोळ्यांच्या कोरडेपणाशी संबंधित कोणतीही वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको आंखों के सूखेपन से जुड़ी कोई पिछली समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3f46a0aa-8426-44fd-be29-505360842368",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_42fe5d4d-becd-40e9-acd1-fb9910b5adbb",
+                    "text": "Eye injury",
+                    "display-mr": "डोळा दुखापत",
+                    "display-hi": "आंख की चोट"
+                },
+                {
+                    "id": "ID_b9e44283-8070-431b-bfb1-1e188ce44611",
+                    "text": "Foreign body",
+                    "display-mr": "परदेशी शरीर",
+                    "display-hi": "बाहरी वस्तु"
+                },
+                {
+                    "id": "ID_c72eef6c-cb48-4674-a695-72ab35e7e552",
+                    "text": "Eye surgery",
+                    "display-mr": "डोळ्याची शस्त्रक्रिया",
+                    "display-hi": "आंख की सर्जरी"
+                },
+                {
+                    "id": "ID_9374fe52-c3b0-4db0-a6d5-fb38ecd2883a",
+                    "text": "Exposure to excess heat",
+                    "display-mr": "अति उष्णतेशी संपर्क",
+                    "display-hi": "अत्यधिक गर्मी के संपर्क में आना"
+                },
+                {
+                    "id": "ID_c734e129-2dfd-4591-acde-8fc30c5c54d5",
+                    "text": "Exposure to excess light",
+                    "display-mr": "अति प्रकाशाचा संपर्कात",
+                    "display-hi": "अत्यधिक रोशनी के संपर्क में आना"
+                },
+                {
+                    "id": "ID_9dc38ee4-bc81-4cd3-8895-89b6a50f6a98",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_2030451a-b4ab-4b04-8523-974df081c337",
+            "text": "What relieves the dryness of eyes?",
+            "display-mr": "डोळ्यांचा कोरडेपणा कशाने दूर होतो?",
+            "display-hi": "आंखों के सूखेपन से क्या राहत दिलाती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c8f5506a-44ab-44ff-817a-1a6961711baf",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_ae7ebf80-0012-4140-bf78-a4db8fa26efc",
+                    "text": "Warm compresses",
+                    "display-mr": "उबदार कॉम्प्रेस/शेक",
+                    "display-hi": "गर्म सेंक"
+                },
+                {
+                    "id": "ID_c46af343-a782-4903-994c-7ba5672d36ae",
+                    "text": "Coild compresses",
+                    "display-mr": "कोल्ड कॉम्प्रेस /शेक",
+                    "display-hi": "ठंडी सेंक"
+                },
+                {
+                    "id": "ID_478e46cc-9613-47f3-89b5-f9f9b468c405",
+                    "text": "Blinking",
+                    "display-mr": "डोळे मिचकावणे",
+                    "display-hi": "पलक झपकाना"
+                },
+                {
+                    "id": "ID_964897b5-638e-4aa2-a900-df40f6f7937e",
+                    "text": "Hydration",
+                    "display-mr": "हायड्रेशन",
+                    "display-hi": "हाइड्रेशन"
+                },
+                {
+                    "id": "ID_d8d153ab-13c4-46d7-9736-189c698fec9e",
+                    "text": "Eye drops",
+                    "display-mr": "आय ड्रॉप्स",
+                    "display-hi": "आंखों के ड्राप्स"
+                },
+                {
+                    "id": "ID_e0f0aac6-81a8-4d62-8ba2-8b9b92119d77",
+                    "text": "Resting eyes",
+                    "display-mr": "आराम करणारे डोळे",
+                    "display-hi": "आंखों को आराम देना"
+                },
+                {
+                    "id": "ID_ace811ab-1e9b-4327-b98a-4f7a8c7d160f",
+                    "text": "Sleep",
+                    "display-mr": "झोप",
+                    "display-hi": "नींद"
+                }
+            ]
+        },
+        {
+            "id": "ID_b016d715-6cb9-43ab-a915-cdfbc007f348",
+            "text": "What increases or worsens the dryness of eyes?",
+            "display-mr": "डोळ्यांचा कोरडेपणा कशामुळे वाढतो किंवा खराब होतो?",
+            "display-hi": "क्या आंखों के सूखेपन को बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_cd3d96d3-5b30-4043-a628-c9fb4002da2c",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a4560cc4-3094-4b84-b176-9cd07e12c03f",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_1e275f02-abbe-42c3-baa7-0d6646b8a290",
+                    "text": "Dust",
+                    "display-mr": "धूळ",
+                    "display-hi": "धूल"
+                },
+                {
+                    "id": "ID_1870b294-86cc-4669-9afd-f7bf040b7556",
+                    "text": "Excess viewing of screen",
+                    "display-mr": "स्क्रीन जास्त पाहणे",
+                    "display-hi": "स्क्रीन को ज्यादा देखना"
+                },
+                {
+                    "id": "ID_c4338fb5-fe6f-4a55-baa4-dda0a783163e",
+                    "text": "Smoke",
+                    "display-mr": "धूर",
+                    "display-hi": "धुआं"
+                },
+                {
+                    "id": "ID_075701e6-7b7a-4229-9ed9-560e5ee82f0c",
+                    "text": "Pollution",
+                    "display-mr": "प्रदूषण",
+                    "display-hi": "प्रदूषण"
+                },
+                {
+                    "id": "ID_e00a24f9-6b6b-452f-bead-cdd107bb0b5e",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_1a10062d-db23-419e-bff1-1705098334d9",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8c424792-67c4-421f-998c-07d6b231de8d",
+            "text": "How is the dryness of eyes progressing?",
+            "display-mr": "डोळ्यातील कोरडेपणा मध्ये काही बदल झाला का?",
+            "display-hi": "आंखों के सूखेपन में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6095668e-a6f8-487b-aa9f-6fbd9a176ab4",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_ef104ff2-a9d5-4116-a272-de288d4bda61",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_3fca3554-73a9-440d-9621-7dfe7145ccfc",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_c797bdb5-4ecf-47a3-be47-2bd01e3e342c",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_8d4dd022-d2d7-4369-800b-9c19bfe7eed1",
+            "text": "Did you notice any pattern of the dryness of eyes in a day?",
+            "display-mr": "एका दिवसात डोळ्यांच्या कोरडेपणाचा कोणताही नमुना तुम्हाला दिसला का?",
+            "display-hi": "क्या आपको दिन में आंखों के सूखेपन का कोई पैटर्न दिखाई दिया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_285225be-fe44-4d6e-b375-3ceb8fff729f",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_57456730-b2d4-4680-810d-5cc6654c52eb",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतो आणि जातो)",
+                    "display-hi": "रुक-रुक कर (आता—जाता है)",
+                    "options": [
+                        {
+                            "id": "ID_c949c3a5-edc4-4e5e-a7c8-73bdb934bd93",
+                            "text": "At what time of the day do you have eyes dryness the worst?",
+                            "display-mr": "दिवसाच्या कोणत्या वेळी तुमचे डोळे सर्वात जास्त कोरडे पडतात?",
+                            "display-hi": "दिन के किस समय आपको आंखों का सूखापन सबसे ज्यादा होता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_4d5481e5-f0b0-448c-9fe4-02a34bd1f302",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_5bcf3628-43b3-42d8-bba0-352d7d8ebf57",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपार",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_480e3972-e105-4b43-b24b-11776e89d783",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_7e6b4018-1d65-4c1d-b058-a2741443c934",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_2313e8ba-9ae4-4cfb-ad0f-ef16b6d7fd0f",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_032a1684-8303-47fb-a341-13a4d19e6770",
+                    "text": "Itching of eyelids",
+                    "display-mr": "पापण्यांना खाज सुटणे",
+                    "display-hi": "पलकों में खुजली"
+                },
+                {
+                    "id": "ID_31fd5dc2-bb22-4883-a3bd-676cad36303c",
+                    "text": "Blurred vision",
+                    "display-mr": "अंधुक दृष्टी",
+                    "display-hi": "धुंधला दिखना"
+                },
+                {
+                    "id": "ID_c49edf20-d847-4c77-be7a-40eb4974f8f1",
+                    "text": "Difficulty in reading",
+                    "display-mr": "वाचनात अडचण येते",
+                    "display-hi": "पढ़ने में दिक्कत"
+                },
+                {
+                    "id": "ID_78fffd0b-2385-4d4a-b6e9-858e3496f346",
+                    "text": "Eye discharge",
+                    "display-mr": "डोळा स्त्राव",
+                    "display-hi": "आंखों से पानी आना"
+                },
+                {
+                    "id": "ID_0c960547-9225-4ef2-8fbe-25464ce8306a",
+                    "text": "Excessive blinking",
+                    "display-mr": "अति डोळे मिचकावणे",
+                    "display-hi": "अत्यधिक पलक झपकना"
+                },
+                {
+                    "id": "ID_15ef2eb7-4825-449b-8c09-322c4895fd04",
+                    "text": "Irritation of eyes",
+                    "display-mr": "डोळ्यांची जळजळ होणे",
+                    "display-hi": "आंखों में जलन"
+                },
+                {
+                    "id": "ID_93669f64-0e6b-444a-b92f-6ad62b9be91a",
+                    "text": "Incomplete closure of eyelid",
+                    "display-mr": "पापणीचे अपूर्ण बंद होणे",
+                    "display-hi": "पलकों का पूरी तरह बंद न होना"
+                },
+                {
+                    "id": "ID_80db7d31-6844-49df-8890-573332568a6f",
+                    "text": "Red eyes",
+                    "display-mr": "लाल डोळे होणे",
+                    "display-hi": "आंखों का लाल होना"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_6fd0d43e-200d-46ba-994f-cf05b3b377be",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e790649d-848b-4f09-9ccb-a3c7499d99b0",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_94171f92-0d1a-4c09-8e38-0cb94fc30af3",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_3d13026a-4479-44c0-aa0d-f78903da5206",
+                    "text": "Dry mouth",
+                    "display-mr": "कोरडे तोंड",
+                    "display-hi": "सूखा मुंह"
+                },
+                {
+                    "id": "ID_f7539ba8-026d-4b8b-adbc-a150e32dd3c3",
+                    "text": "Tingling and numbness",
+                    "display-mr": "मुंग्या येणे आणि बधीरपणा",
+                    "display-hi": "झुनझुनी और सुन्नता"
+                },
+                {
+                    "id": "ID_be4a55fd-634e-41b5-919a-3461e3627492",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेची खाज सुटणे",
+                    "display-hi": "त्वचा की खुजली"
+                },
+                {
+                    "id": "ID_df2223de-fac8-4811-904b-69c7105fe632",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_01cdb06d-2bbe-4873-961f-8649e049c44f",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_8fc07d2b-c312-4636-832f-981244c82381",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_ae160e11-d95c-4703-8ad6-f9907b50b44b",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ef43effa-6472-4d1f-a545-cdfbed780c7c",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5ff4bbbc-b55b-4b2a-9d74-dd33317d6874",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_94b53ca5-7c72-4b6f-954e-18aa770c22e3",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_b5f479e4-8b92-4976-a691-bb00036e7989",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e382aea2-6c52-4a52-b34b-2c4df37f9844",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_43690307-5c3f-46c2-88df-7f70ee37c972",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

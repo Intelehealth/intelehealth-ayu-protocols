@@ -1,0 +1,551 @@
+{
+    "id": "ID_1012239835",
+    "text": "Ear pain",
+    "perform-physical-exam": "Ear:Bleeding;Ear:Discharge;Ear:Swelling;Ear:Redness;Ear:Mastoid;",
+    "display-or": "କାନ ଯନ୍ତ୍ରଣା",
+    "engineVersion": "3.0",
+    "options": [
+        {
+            "id": "ID_330731525",
+            "text": "Site",
+            "display": "Which ear is affected?*",
+            "isRequired": true,
+            "multi-choice": false,
+            "language": "Affected ear(s):",
+            "display-or": "କେଉଁ କାନ*",
+            "options": [
+                {
+                    "id": "ID_955973178",
+                    "text": "Left ear",
+                    "display-or": "ବାମ",
+                    "display-hi": "बायां कान",
+                    "display-gu": "ડાબા કાનમાં",
+                    "display-as": "বাওঁ কাণ",
+                    "display-bn": "বাম কান",
+                    "display-kn": "ಎಡ ಕಿವಿ",
+                    "display-mr": "डावा कान"
+                },
+                {
+                    "id": "ID_244019968",
+                    "text": "Right ear",
+                    "display-or": "ଡ଼ାହାଣ",
+                    "display-hi": "दायां कान",
+                    "display-gu": "જમણા કાનમાં",
+                    "display-as": "সোঁ কাণ",
+                    "display-bn": "ডান কান",
+                    "display-kn": "ಬಲ ಕಿವಿ",
+                    "display-mr": "उजवा कान"
+                },
+                {
+                    "id": "ID_1823718011",
+                    "text": "Both ears",
+                    "display-or": "ଉଭୟ",
+                    "display-hi": "दोनों कान",
+                    "display-gu": "બંને કાનમાં",
+                    "display-as": "দুটা কাণ",
+                    "display-bn": "উভয় কান",
+                    "display-kn": "ಎರಡೂ ಕಿವಿಗಳು",
+                    "display-mr": "दोन्ही कान"
+                }
+            ],
+            "display-hi": "कौन-सा कान प्रभावित है?*",
+            "display-gu": "કયા કાનમાં તકલીફ છે?*",
+            "display-as": "কোন কাণ আক্রান্ত হয়?*",
+            "display-bn": "কোন কান প্রভাবিত হয়?*",
+            "display-kn": "ಯಾವ ಕಿವಿಯು ಪರಿಣಾಮ ಬೀರಿದೆ?*",
+            "display-mr": "कोणत्या कानामध्ये वेदना होतेय?"
+        },
+        {
+            "id": "ID_1627177310",
+            "text": "Duration",
+            "display": "Since when have you had this symptom?*",
+            "isRequired": true,
+            "display-or": "କେବେଠାରୁ*",
+            "options": [
+                {
+                    "id": "ID_253233837",
+                    "text": "[Enter since when]",
+                    "input-type": "duration",
+                    "language": "since",
+                    "display-or": "କେବେଠାରୁ",
+                    "display-hi": "(कब से है- दर्ज करें)",
+                    "display-gu": "[ક્યારથી તે લખી જણાવો]",
+                    "display-as": "যেতিয়া পৰা আৰম্ভ লিখা",
+                    "display-bn": "[কখন থেকে লিখুন]",
+                    "display-kn": "[ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]",
+                    "display-mr": "(केव्हा पासून आहे ते भरा)"
+                }
+            ],
+            "display-hi": "आपको ये लक्षण कब से है?*",
+            "display-gu": "તમને આ લક્ષણ ક્યારથી છે?*",
+            "display-as": "কেতিয়াৰ পৰা আপুনি এই লক্ষণবোৰ পাইছে ?*",
+            "display-bn": "কবে থেকে আপনার এই উপসর্গ আছে?*",
+            "display-kn": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*",
+            "display-mr": "तुम्हाला हे लक्षण केव्हा पासून आहे?"
+        },
+        {
+            "id": "ID_25630603",
+            "text": "Associated symptoms",
+            "display": "Do you have the following symptom(s)?*",
+            "isRequired": true,
+            "pos-condition": "c.",
+            "neg-condition": "s.",
+            "display-or": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?*",
+            "options": [
+                {
+                    "id": "ID_471545653",
+                    "text": "Difficulty hearing",
+                    "display-or": "ଶ୍ରବଣ ସମସ୍ଯା",
+
+                    "display-hi": "सुनने में तकलीफ",
+                    "display-gu": "સાંભળવામાં તકલીફ",
+                    "display-as": "শুনাত অসুবিধা (শ্রবণ)",
+                    "display-bn": "শুনতে অসুবিধা",
+                    "display-kn": "ಶ್ರವಣ ತೊಂದರೆ",
+                    "display-mr": "ऐकण्यास अडचण"
+                },
+                {
+                    "id": "ID_1852081039",
+                    "text": "Fever",
+                    "display-or": "ଜ୍ୱର",
+                    "display-hi": "बुखार",
+                    "display-gu": "તાવ",
+                    "display-as": "জ্বৰ",
+                    "display-bn": "জ্বর",
+                    "display-kn": "ಜ್ವರ",
+                    "display-mr": "ताप"
+                },
+                {
+                    "id": "ID_101328664",
+                    "text": "Ear tenderness",
+                    "display-or": "କାନ ଦରଜ",
+                    "display-hi": "कान छूने पर दर्द",
+                    "display-gu": "કાનમાં કુમળાશ",
+                    "display-as": "কাণৰ কোমলতা",
+                    "display-bn": "কানের কোমলতা",
+                    "display-kn": "ಕಿವಿಯ  ಮೃದುತ್ವ",
+                    "display-mr": "कानामध्ये स्पर्श केल्यावर वेदना"
+                },
+                {
+                    "id": "ID_87486851",
+                    "text": "Ear swelling",
+                    "display-or": "କାନ ଫୁଲା",
+
+                    "display-hi": "कान की सूजन",
+                    "display-gu": "કાનમાં સોજો",
+                    "display-as": "কাণৰ ফোলাভাব",
+                    "display-bn": "কান ফুলে যাওয়া",
+                    "display-kn": "ಕಿವಿಯ ಊತ",
+                    "display-mr": "कानावर सूज"
+                },
+                {
+                    "id": "ID_421619111",
+                    "text": "Ear discharge",
+                    "display-or": "କାନରୁ ଝରିବା",
+
+                    "display-hi": "कान बहना",
+                    "display-gu": "કાનમાંથી સ્રાવ નીકળવો",
+                    "display-as": "কাণৰ স্রাব",
+                    "display-bn": "কানের স্রাব",
+                    "display-kn": "ಕಿವಿಯಿಂದ ಸ್ರಾವ",
+                    "display-mr": "कानामधुन स्त्राव"
+                },
+                {
+                    "id": "ID_250348148",
+                    "text": "Cough",
+                    "display-or": "କାଶ",
+
+                    "display-hi": "खांसी",
+                    "display-gu": "કફ",
+                    "display-as": "কাহ",
+                    "display-bn": "কাশি",
+                    "display-kn": "ಕೆಮ್ಮು",
+                    "display-mr": "खोकला"
+                },
+                {
+                    "id": "ID_972051670",
+                    "text": "Nasal congestion/Stuffy nose",
+                    "display-or": "ନାକ ବନ୍ଦ ବା ନାକରୁ ପାଣି",
+                    "display-hi": "बंद नाक / भरी हुई नाक",
+                    "display-gu": "નાક ભરાઈ જવું",
+                    "display-as": "নাক বন্ধ / নাক ৰ্ভতি",
+                    "display-bn": "নাক বন্ধ / নাক ঠাসা",
+                    "display-kn": "ಮೂಗಿನ ದಟ್ಟಣೆ / ಉಸಿರುಕಟ್ಟಿಕೊಳ್ಳುವ ಮೂಗು",
+                    "display-mr": "नाक चोंदणे"
+                },
+                {
+                    "id": "ID_1535512112",
+                    "text": "Runny nose",
+                    "display-or": "ନାକରୁ ବାର ବାର ପାଣି ବୋହି ବା",
+                    "display-hi": "बहती हुई नाक",
+                    "display-gu": "ગળતું નાક",
+                    "display-as": "সর্দি",
+                    "display-bn": "সর্দি",
+                    "display-kn": "ಸ್ರವಿಸುವ ಮೂಗು",
+                    "display-mr": "नाक वाहणे"
+                },
+                {
+                    "id": "ID_1075314164",
+                    "text": "Other [describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ୟାନ୍ୟ (ବର୍ଣନା କର)",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય [વિગતે જણાવો]",
+                    "display-as": "অন্যান্য [বর্ণনা]",
+                    "display-bn": "অন্যান্য [বর্ণনা]",
+                    "display-kn": "ಇತರೆ [ವಿವರಿಸಿ]",
+                    "display-mr": "इतर (वर्णन करा)"
+                }
+            ],
+            "display-hi": "क्या आपको निम्न लक्षण है/हैं?*",
+            "display-gu": "તમે નીચેનાં લક્ષણ(લક્ષણો) છે?*",
+            "display-as": "আপোনাৰ কি নিম্নলিখিত লক্ষণবোৰ আছে ?*",
+            "display-bn": "আপনার কি নিম্নলিখিত উপসর্গ(গুলি) আছে?*",
+            "display-kn": "ನೀವು ಈ ಕೆಳಗಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ?*",
+            "display-mr": "आपल्याला खालील लक्षणे आहेत का"
+        },
+        {
+            "id": "ID_84119587",
+            "text": "Radiation",
+            "display": "Does this pain go to other areas of the body?*",
+            "isRequired": true,
+            "display-or": "ଯନ୍ତ୍ରଣା ଅନ୍ୟ ଜାଗା ଯାଉଛି*",
+            "options": [
+                {
+                    "id": "ID_1151943913",
+                    "text": "Does not move",
+                    "language": "Pain does not radiate",
+                    "display-or": "ନାହିଁ, ଯଦିହିଁ",
+                    "display-hi": "नहीं जाता है",
+                    "display-gu": "ફરતો નથી",
+                    "display-as": "চলাচল নকৰা",
+                    "display-bn": "নড়াচড়া করে না",
+                    "display-kn": "ಚಲಿಸುವುದಿಲ್ಲ",
+                    "display-mr": "नाही जात"
+                },
+                {
+                    "id": "ID_1772239459",
+                    "text": "Mouth/teeth",
+                    "language": "to mouth/teeth",
+                    "display-or": "ପାଟି ବା ଦାନ୍ତ",
+                    "display-hi": "मुंह/दांत",
+                    "display-gu": "મોં/દાંત",
+                    "display-as": "মুখ / দাঁত",
+                    "display-bn": "মুখ/দাঁত",
+                    "display-kn": "ಬಾಯಿ/ಹಲ್ಲು",
+                    "display-mr": "तोंड / दात"
+                },
+                {
+                    "id": "ID_169864638",
+                    "text": "Face",
+                    "language": "to face",
+                    "display-or": "ମୁହଁ",
+                    "display-hi": "चेहरा",
+                    "display-gu": "ચહેરો",
+                    "display-as": "মুখ",
+                    "display-bn": "মুখ",
+                    "display-kn": "ಮುಖ",
+                    "display-mr": "चेहरा"
+                },
+                {
+                    "id": "ID_58953754",
+                    "text": "Head",
+                    "language": "to head",
+                    "display-or": "ମୁଣ୍ଡ",
+                    "display-hi": "सर",
+                    "display-gu": "માથું",
+                    "display-as": "মূৰ",
+                    "display-bn": "মাথা",
+                    "display-kn": "ತಲೆ",
+                    "display-mr": "डोके"
+                },
+                {
+                    "id": "ID_976829245",
+                    "text": "Neck",
+                    "display-or": "ବେକ",
+                    "display-hi": "गर्दन",
+                    "display-gu": "ગરદન",
+                    "display-as": "ডিঙি",
+                    "display-bn": "ঘাড়",
+                    "display-kn": "ಕುತ್ತಿಗೆ",
+                    "display-mr": "मान"
+                },
+                {
+                    "id": "ID_564798014",
+                    "text": "Throat",
+                    "display-or": "ଗଳା",
+                    "display-hi": "गला",
+                    "display-gu": "ગળું",
+                    "display-as": "নেলু(ডিঙিৰ)",
+                    "display-bn": "গলা",
+                    "display-kn": "ಗಂಟಲು",
+                    "display-mr": "घसा"
+                },
+                {
+                    "id": "ID_308150373",
+                    "text": "Other (Describe)",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅନ୍ଯାନ୍ଯ",
+                    "display-hi": "अन्य (वर्णन करें)",
+                    "display-gu": "અન્ય (વિગતે જણાવો)",
+                    "display-as": "অন্যান্য (বর্ণনা)",
+                    "display-bn": "অন্যান্য (বর্ণনা করুন)",
+                    "display-kn": "ಇತರೆ (ವಿವರಿಸಿ)",
+                    "display-mr": "इतर ( वर्णन करा)"
+                }
+            ],
+            "display-hi": "क्या दर्द शरीर के अन्य भाग में जाता है?*",
+            "display-gu": "શું આ દુઃખાવો શરીરના અન્ય હિસ્સાઓમાં જાય છે?*",
+            "display-as": "এই বিষ শৰীৰৰ অন্যান্য অংগত যায়?*",
+            "display-bn": "এই ব্যথা কি শরীরের অন্য জায়গায় যায়?*",
+            "display-kn": "ಈ ನೋವು ದೇಹದ ಇತರ ಭಾಗಗಳಿಗೆ ಹರಡುತ್ತದೆಯೇ?*",
+            "display-mr": "वेदना शरीराच्या इतर भागात जाते का"
+        },
+        {
+            "id": "ID_549649173",
+            "text": "H/o specific illness",
+            "display": "Have you ever been diagnosed with any of the following specific diseases?*",
+            "isRequired": true,
+            "pos-condition": "h/o",
+            "neg-condition": "no h/o",
+            "display-or": "ତମକୁ କେବେ ଆଗରୁ ନିମ୍ନ ଲିଖିତ ବିଶିଷ୍ଟ ରୋଗ ଚିହ୍ନଟ ହୋଇଥିଲା କି?*",
+            "options": [
+                {
+                    "id": "ID_1290478611",
+                    "text": "Recent cold / URI",
+                    "display": "Recent cold or Upper Respiratory tract infection",
+                    "display-or": "ଶ୍ଵାସ ନଳୀ ଗତ ସମସ୍ୟା ବା ଥଣ୍ଡା ହୋଇଥିଲା କି",
+                    "options": [
+                        {
+                            "id": "ID_927558961",
+                            "text": "When",
+                            "input-type": "date",
+                            "language": "occured on",
+                            "display-or": "କେବେଠାରୁ",
+                            "display-hi": "कब",
+                            "display-gu": "ક્યારે",
+                            "display-as": "কেতিয়া",
+                            "display-bn": "কখন",
+                            "display-kn": "ಯಾವಾಗ",
+                            "display-mr": "कधी"
+                        }
+                    ],
+                    "display-hi": "हाल में सर्दी हुई थी या सांस की ऊपरी नली का संक्रमण हुआ था",
+                    "display-gu": "હાલમાં શરદી થઈ હોય અથવા શ્વાસનળીના ઉપલા ભાગમાં ચેપ લાગ્યો હોય",
+                    "display-as": "তকালিন ঠান্ডা বা উচ্চ শ্বাসযন্ত্রের সংক্রমণ",
+                    "display-bn": "সাম্প্রতিক ঠান্ডা বা আপার রেসপিরেটরি ট্র্যাক্ট ইনফেকশন",
+                    "display-kn": "ಇತ್ತೀಚೆಗೆ ಕಾಣಿಸಿಕೊಂಡ  ಶೀತ ಅಥವಾ ಮೇಲ್ಭಾಗದ ಶ್ವಾಸೇಂದ್ರಿಯದ ಸೋಂಕು",
+                    "display-mr": "अलीकडे सर्दी झाली आहे"
+                },
+                {
+                    "id": "ID_1155154321",
+                    "text": "Ear Trauma",
+                    "display-or": "କାନ ଅାଘାତ",
+                    "options": [
+                        {
+                            "id": "ID_1502079201",
+                            "text": "When",
+                            "input-type": "date",
+                            "language": "occured on",
+                            "display-or": "କେବେଠାରୁ",
+                            "display-hi": "कब",
+                            "display-gu": "ક્યારે",
+                            "display-as": "কেতিয়া",
+                            "display-bn": "কখন",
+                            "display-kn": "ಯಾವಾಗ",
+                            "display-mr": "कधी"
+                        }
+                    ],
+                    "display-hi": "कान की चोट",
+                    "display-gu": "કાનમાં ઇજા",
+                    "display-as": "কাণৰ আঘাত",
+                    "display-bn": "কানের ট্রমা",
+                    "display-kn": "ಕಿವಿಗೆ  ಆಘಾತ",
+                    "display-mr": "कानाला इजा"
+                },
+                {
+                    "id": "ID_1119468151",
+                    "text": "Syphilis",
+                    "display-or": "ସିଫିଲିସ",
+                    "display-hi": "गर्मी",
+                    "display-gu": "સિફિલિસ",
+                    "display-as": "উপদংশ,ব্যাধিযুক্ত",
+                    "display-bn": "সিফিলিস",
+                    "display-kn": "ಸಿಫಿಲಿಸ್",
+                    "display-mr": "गुप्तरोग"
+                },
+                {
+                    "id": "ID_1139305189",
+                    "text": "HIV/AIDS",
+                    "display-or": "ଏଡ୍ସ",
+                    "options": [
+                        {
+                            "id": "ID_463725280",
+                            "text": "Since when",
+                            "input-type": "duration",
+                            "language": "since",
+                            "display-or": "କେବେଠାରୁ",
+                            "display-hi": "कब से है",
+                            "display-gu": "ક્યારથી",
+                            "display-as": "কেতিয়া পৰা",
+                            "display-bn": "কখন থেকে",
+                            "display-kn": "ಯಾವತ್ತಿಂದ",
+                            "display-mr": "कधी पासून आहे"
+                        }
+                    ],
+                    "display-hi": "एचआईवी/एड्स",
+                    "display-gu": "એચઆઇવી/એઇડ્સ",
+                    "display-as": "এইচআইভি / এইডচ",
+                    "display-bn": "এইচআইভি/এইডস",
+                    "display-kn": "ಎಚ್ಐವಿ/ಏಡ್ಸ್",
+                    "display-mr": "एच.आय. व्हि."
+                },
+                {
+                    "id": "ID_1790008958",
+                    "text": "None",
+                    "display-or": "କିଛି ନକଲେ/ ମନା",
+                    "exclude-from-multi-choice": true,
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "या पैकी कोणतेही नाही"
+                }
+            ],
+            "display-hi": "क्या कभी आपमें किसी निम्न बीमारी को निदान किया गया है?*",
+            "display-gu": "તમને નીચેનામાંથી કોઇ ચોક્કસ રોગ હોવાનું નિદાન ક્યારેય થયું છે?*",
+            "display-as": "আপুনি কি নিম্নলিখিত নির্দিষ্ট ৰোগৰ লগত নিদান কৰিছিলে ?*",
+            "display-bn": "আপনি কি কখনও নিম্নলিখিত নির্দিষ্ট রোগে আক্রান্ত হয়েছেন?*",
+            "display-kn": "ನೀವು ಎಂದಾದರೂ ಈ ಕೆಳಗಿನ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ರೋಗಗಳನ್ನು ಹೊಂದಿದ್ದೀರ ?*",
+            "display-mr": "तुम्हाला कधी खालील रोगांचे निदान झाले आहे का?"
+        },
+        {
+            "id": "ID_6300302",
+            "text": "Recent swimming history ",
+            "display": "Did you swim in ponds/river recently?*",
+            "isRequired": true,
+            "language": "%",
+            "display-or": "ଏବେ କୌଣସି ପୋଖରୀ ବା ନଦୀ ଗାଧୋଇଛନ୍ତି*",
+            "options": [
+                {
+                    "id": "ID_1057495591",
+                    "text": "Yes",
+                    "language": "Patient has been swimming recently in pond/river",
+                    "display-or": "ହଁ",
+                    "options": [
+                        {
+                            "id": "ID_1999001086",
+                            "text": "When",
+                            "input-type": "date",
+                            "language": "occured on",
+                            "display-or": "କେବେ",
+                            "display-hi": "कब",
+                            "display-gu": "ક્યારે",
+                            "display-as": "কেতিয়া",
+                            "display-bn": "কখন",
+                            "display-kn": "ಯಾವಾಗ",
+                            "display-mr": "कधी"
+                        }
+                    ],
+                    "display-hi": "हां",
+                    "display-gu": "હા",
+                    "display-as": "হয়",
+                    "display-bn": "হ্যাঁ",
+                    "display-kn": "ಹೌದು",
+                    "display-mr": "हो"
+                },
+                {
+                    "id": "ID_275791370",
+                    "text": "No",
+                    "language": "Patient has not been swimming recently in pond/river",
+                    "display-or": "ନା",
+                    "display-hi": "नहीं",
+                    "display-gu": "ના",
+                    "display-as": "নহয়",
+                    "display-bn": "না",
+                    "display-kn": "ಅಲ್ಲ",
+                    "display-mr": "नाही"
+                }
+            ],
+            "display-hi": "क्या आपने नदी/तालाब में तैराकी की है?*",
+            "display-gu": "શું તમે તાજેતરમાં તળાવ/નદીમાં તર્યા હતા?*",
+            "display-as": "শেহতীয়াকৈ পুখুৰী/নদীত সাঁতুৰিছিল নেকি?*",
+            "display-bn": "আপনি কি সম্প্রতি পুকুর/নদীতে সাঁতার কেটেছেন?*",
+            "display-kn": "ನೀವು ಇತ್ತೀಚೆಗೆ ಕೊಳ/ನದಿಗಳಲ್ಲಿ ಈಜಿದ್ದೀರಾ?*",
+            "display-mr": "तुम्ही अलीकडे तलावात/नदीत पोहला आहात का?"
+        },
+        {
+            "id": "ID_522317897",
+            "text": "Prior treatment sought",
+            "display": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?",
+            "display-or": "ତମେ ଆଗରୁ କୌଣସି  ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)",
+            "options": [
+                {
+                    "id": "ID_82134826",
+                    "text": "Yes [Describe]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ହାଁ (ବର୍ଣନା କର)",
+                    "display-hi": "हां (वर्णन करें)",
+                    "display-gu": "હા  [વિગતે જણાવો]",
+                    "display-as": "হ্য় [বর্ণনা কৰা]",
+                    "display-bn": "হ্যাঁ [বর্ণনা]",
+                    "display-kn": "ಹೌದು [ವಿವರಿಸಿ]",
+                    "display-mr": "हो (वर्णन करा)"
+                },
+                {
+                    "id": "ID_1226925547",
+                    "text": "None",
+                    "display-or": "କିଛି ନାହିଁ",
+                    "display-hi": "इनमें से कोई नहीं",
+                    "display-gu": "ના",
+                    "display-as": "একো নাই",
+                    "display-bn": "কোনোটিই নয়",
+                    "display-kn": "ಯಾವುದೂ ಇಲ್ಲ",
+                    "display-mr": "या पैकी कोणतेही नाही"
+                }
+            ],
+            "display-hi": "क्या आपने आज यहां आने से पहले इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?",
+            "display-gu": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?",
+            "display-as": "আজি ইয়াত আহা আগতে আপুনি কি কোনো চিকিৎসা কৰিছিলে (স্ব-ঔষধ বা ঘৰোৱা প্রতিকাৰ সহ ) বা কোনো স্বাস্থ্য সৰবৰাহকাৰীক এই সমস্যাৰ বিষযে দেখোছিলে ?",
+            "display-bn": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?",
+            "display-kn": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?",
+            "display-mr": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरला दाखवले आहे का?"
+        },
+        {
+            "id": "ID_1065741634",
+            "text": "Additional information",
+            "display-or": "ଅତିରିକ୍ତ ସୂଚନା",
+            "options": [
+                {
+                    "id": "ID_1894895710",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-or": "ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା",
+                    "display-hi": "(अन्य जानकारी दर्ज करें)",
+                    "display-gu": "[વધારાની માહિતી લખો]",
+                    "display-as": "[অতিৰিক্ত তথ্য লিখা]",
+                    "display-bn": "[অতিরিক্ত তথ্য লিখুন]",
+                    "display-kn": "[ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]",
+                    "display-mr": "(अजून काही माहिती असल्यास भरा)"
+                }
+            ],
+            "display-hi": "अन्य जानकारी",
+            "display-gu": "વધારાની માહિતી",
+            "display-as": "অতিৰিক্ত তথ্য",
+            "display-bn": "অতিরিক্ত তথ্য",
+            "display-kn": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ",
+            "display-mr": "अजून काही माहिती असल्यास भरा"
+        }
+    ],
+    "display-hi": "कान दर्द",
+    "display-gu": "કાનમાં દુખાવો",
+    "display-as": "কাণৰ বিষ",
+    "display-bn": "কানের ব্যথা",
+    "display-kn": "ಕಿವಿ ನೋವು",
+    "display-mr": "कानामध्ये वेदना होणे"
+}

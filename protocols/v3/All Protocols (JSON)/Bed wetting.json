@@ -1,0 +1,390 @@
+{
+    "id": "ID_5419e0c2-601a-4165-b395-edc526111119",
+    "text": "Bed wetting",
+    "engineVersion": "3.0",
+    "display-mr": "बिछाना ओला करणे",
+    "display-hi": "बिस्तर गीला करना",
+    "options": [
+        {
+            "id": "ID_ba0544ef-1b3d-4934-b49d-8e6b89bfe451",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_083d3c91-e68a-43a4-8480-c1b9a1d70919",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_8a454e1f-d1e7-4101-b4e8-b9f79cc1254d",
+            "text": "How fast did bed wetting develop?",
+            "display-mr": "बिछाना ओला करणे किती झपाट्याने वाढले?",
+            "display-hi": "बिस्तर गीला करने की समस्या कितनी जल्दी बढ़ी है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_920ac99d-f543-4d2a-b135-c050d84aad28",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_3dca83e2-8216-4906-bf70-76d22a26cf87",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_7f9aeb73-394c-48cc-89d0-69ce004e7f79",
+            "text": "When do you have bed wetting?",
+            "display-mr": "तुम्ही बिछाना कधी ओला करता?",
+            "display-hi": "आपको बिस्तर गीला करने की समस्या कब होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_67877226-8771-485b-9e1e-ab3c62194d4f",
+                    "text": "Day time",
+                    "display-mr": "दिवसा",
+                    "display-hi": "दिन के समय"
+                },
+                {
+                    "id": "ID_316d506c-882c-4ee3-b1e4-34881d10bd74",
+                    "text": "Night time",
+                    "display-mr": "रात्रीच्या वेळी",
+                    "display-hi": "रात के समय"
+                },
+                {
+                    "id": "ID_30f0c01f-0dc7-446d-b4a9-25075c503164",
+                    "text": "Day and night",
+                    "display-mr": "दिवसा व रात्री",
+                    "display-hi": "दिन और रात"
+                }
+            ]
+        },
+        {
+            "id": "ID_57f1e67c-934a-4fa3-99ac-d78a2a913153",
+            "text": "How often does bedwetting occur in a week?",
+            "display-mr": "एका आठवड्यामध्ये कितीवेळा बिछाना ओला होतो?",
+            "display-hi": "एक सप्ताह में बिस्तर गीला करने की समस्या कितनी बार होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a7dc00ef-5068-49c6-bc2a-9dbda7157062",
+                    "text": "Occassionally",
+                    "display-mr": "क्वचित",
+                    "display-hi": "कभी-कभी"
+                },
+                {
+                    "id": "ID_716a6836-6f70-413c-b385-aa7e8c843f9f",
+                    "text": "Once in a week",
+                    "display-mr": "आठवड्यातून एकदा",
+                    "display-hi": "सप्ताह में एक बार"
+                },
+                {
+                    "id": "ID_bf5444d0-189a-43b2-b3c7-adf18d79074a",
+                    "text": "Twice in a week",
+                    "display-mr": "आठवड्यातून दोनदा",
+                    "display-hi": "सप्ताह में दो बार"
+                },
+                {
+                    "id": "ID_4f73cc44-3c71-4602-af99-3aef5eb38067",
+                    "text": "Thrice in a week",
+                    "display-mr": "आवड्यातून तिनदा",
+                    "display-hi": "सप्ताह में तीन बार"
+                },
+                {
+                    "id": "ID_457e7b09-4325-4f57-a7da-003f54c8b4d0",
+                    "text": "Four times or more in a week",
+                    "display-mr": "आठवड्यातून चारदा किंवा अधिक वेळा",
+                    "display-hi": "सप्ताह में चार बार या उससे अधिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_d02abab6-0ce0-40c3-8bd3-23dc840ebcfc",
+            "text": "What does trigger or worsen the bed wetting?",
+            "display-mr": "बिछाना ओला करण्यास कारणीभूत किंवा ते अधिक बळावण्यास कारणीभूत कोणते घटक आहेत?",
+            "display-hi": "बिस्तर गीला करने की समस्या किस वजह से होती है या और भी गंभीर क्यों होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_da82a6d7-74fb-4780-aa8e-3ec6ad0454d8",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाहीत",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fa6e2714-0c71-445b-8b92-7f9ffc80ed47",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_acc8aea9-6767-4a22-93b8-1f10d0cd4ec3",
+                    "text": "Coffee",
+                    "display-mr": "कॉफी",
+                    "display-hi": "कॉफी"
+                },
+                {
+                    "id": "ID_c282cd57-dbc8-40cf-ba25-d308f772fd34",
+                    "text": "Tea",
+                    "display-mr": "चहा",
+                    "display-hi": "चाय"
+                },
+                {
+                    "id": "ID_afd042d8-8f06-416f-8ba6-110770f3ccc6",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_831f5396-7c8e-46e5-933b-d2aed597373a",
+                    "text": "Anxiety",
+                    "display-mr": "चिंता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_3a7a11fe-ed7a-49e9-9576-0263d3f2a2ee",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fc949dc7-d9c7-47a8-9a6b-cf0e237b2aff",
+            "text": "Has there been any change in frequency or severity over time?",
+            "display-mr": "काळाच्या ओघात त्याच्या वारंवारतेमध्ये  किंवा तीव्रतेमध्ये काही फरक पडला आहे का?",
+            "display-hi": "क्या समय के साथ इसकी आवृत्ति या गंभीरता में कोई बदलाव आया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+               
+                {
+                    "id": "ID_b979b084-e4a9-4b3f-b742-ce957706697c",
+                    "text": "Worsening",
+                    "display-mr": "बळावले",
+                    "display-hi": "बिगड़ना"
+                },
+                {
+                    "id": "ID_dc7e6d7a-fe88-45e8-aa24-846e3311a854",
+                    "text": "Decreasing",
+                    "display-mr": "कमी झाले",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_954db9a9-46ee-44b7-91af-bc5b96b4dd72",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_f0cfd052-fdcc-469f-a370-4b9e94862901",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_b983924c-ac68-4c26-8ade-5ddf88d966a4",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढील लक्षणे जाणवत आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_0531db4d-9230-4588-893e-52132a09d092",
+                    "text": "Burning urination",
+                    "display-mr": "लघवी करताना जळजळ होणे",
+                    "display-hi": "पेशाब में जलन"
+                },
+                {
+                    "id": "ID_0e936117-298c-4c36-8452-80cb7b4a3a70",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_97f875bc-ab15-4351-8362-c35763b103d3",
+                    "text": "Poor stream of urine",
+                    "display-mr": "लघवीची धार अतिशय बारिक असणे",
+                    "display-hi": "पेशाब की धार का कम होना"
+                },
+                {
+                    "id": "ID_6d5c2778-eb43-41a4-bd7e-6bc08019820b",
+                    "text": "Terminal dribling of urine",
+                    "display-mr": "लघवी झाल्यानंतर शेवटी थेंब पडणे",
+                    "display-hi": "पेशाब के अंत में बूंद-बूंद टपकना"
+                },
+                {
+                    "id": "ID_1694dde6-34e5-4594-8088-d337dd3e600e",
+                    "text": "Difficulty waking up",
+                    "display-mr": "उठताना अडचण येणे",
+                    "display-hi": "सुबह जगने में परेशानी"
+                },
+                {
+                    "id": "ID_97f2eb63-a825-49c7-916c-92d9d70b00d3",
+                    "text": "Swelling on back",
+                    "display-mr": "पाठीवर सूज",
+                    "display-hi": "पीठ पर सूजन"
+                },
+                {
+                    "id": "ID_d4a4fab7-c591-4a11-b502-0e949c2f68cf",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_fdaf517f-2cec-4929-bf2e-a2977b90ac17",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढील लक्षणे जाणवत आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_36b401ae-3a06-4ff3-b353-2915fdb76a52",
+                    "text": "None",
+                    "display-mr": "अजिबात नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_82a188a0-7662-44eb-a194-9684f41488ef",
+                    "text": "Excessive thirst",
+                    "display-mr": "अतिशय तहान लागणे",
+                    "display-hi": "अत्यधिक प्यास"
+                },
+                {
+                    "id": "ID_63afc20c-72ac-40fb-810d-1228d16f2a7f",
+                    "text": "Sleep disturbance",
+                    "display-mr": "गाढ झोप न लागणे",
+                    "display-hi": "नींद में गड़बड़ी"
+                },
+                {
+                    "id": "ID_559a1dde-b13f-4d8f-9141-910debfed75c",
+                    "text": "Hyperactivity",
+                    "display-mr": "अति सक्रियता",
+                    "display-hi": "अति सक्रियता"
+                },
+                {
+                    "id": "ID_1d6b27ea-643f-4a0a-8b91-866f41208ed5",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_bab91906-0b85-438d-96a5-1934eaa4b208",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_cc2fdc74-6643-4fde-b934-cc03e743d84e",
+                    "text": "Weight gain",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_5195709f-580c-46d4-8769-8b58d0c7c8b5",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_46c77b57-a56c-44ba-b8ff-acfb698054d8",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_22a1a9b8-a314-4042-bacf-fa5127ccdcd1",
+                    "text": "Memory impairment",
+                    "display-mr": "स्मृतीभ्रंश",
+                    "display-hi": "याददाश्त कमजोर होना"
+                },
+                {
+                    "id": "ID_a6062e23-3a27-4c49-831a-c36745ee0152",
+                    "text": "Leg cramps",
+                    "display-mr": "पायामध्ये पेटके येणे",
+                    "display-hi": "पैरों में ऐंठन"
+                },
+                {
+                    "id": "ID_37a2824e-1608-43d1-a759-a3d477c70dce",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4a0dbc8d-2ac6-4097-a987-3b060e1e1892",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ecaf8d43-1373-470e-8117-73bd376ae6e8",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0a9f48db-0d81-4cc0-ace6-021f78fb6fb6",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_68fb67a1-b282-49f6-82fe-9c8f25ffc58f",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9d5ba6a2-6933-48dc-aef3-268c5fef3fc5",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c75e615c-1fee-4a9a-8f95-ffafadfe77e8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

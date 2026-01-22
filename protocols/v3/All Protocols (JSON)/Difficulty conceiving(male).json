@@ -1,0 +1,354 @@
+{
+    "id": "ID_89b7241d-0ef7-4203-8d67-496b45cc080b",
+    "text": "Difficulty conceiving(male)",
+    "engineVersion": "3.0",
+    "display-mr": "गर्भधारणा होण्यात अडचण",
+    "display-hi": "गर्भधारण करने में परेशानी",
+    "age_min": "21",
+    "options": [
+        {
+            "id": "ID_188b6477-2770-45ac-b2d4-40509c9830b6",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bcc6ec78-4fab-4173-9766-4687d1e9bde1",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_57bba3a5-7e7b-4459-bb0f-dad7d2561196",
+            "text": "Since how long have you been trying to conceive?",
+            "display-mr": "किती दिवसांपासून तुम्ही गर्भधारणेसाठी प्रयत्न करत आहात?",
+            "display-hi": "आप कब से गर्भधारण की कोशिश कर रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9da1661c-e2a5-45f9-bab3-e0ec08b1b462",
+                    "text": "Since how long have you been trying to conceive?",
+                    "display-mr": "किती दिवसांपासून तुम्ही गर्भधारणेसाठी प्रयत्न करत आहात?",
+                    "display-hi": "आप कब से गर्भधारण की कोशिश कर रहे हैं?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_b0549dd4-ec58-49d1-8812-caa462f91acd",
+            "text": "Are you using any contraceptive or family planning methods currently?",
+            "display-mr": "तुम्ही सध्या कोणत्याही गर्भनिरोधक किंवा कुटुंब नियोजनाच्या पद्धतीचा वापर करत आहात का?",
+            "display-hi": "क्या आप वर्तमान में किसी गर्भनिरोधक या परिवार नियोजन के तरीकों का उपयोग कर रहे हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8ae07ac3-55a5-4ab1-bd0f-7d0dde09f572",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_4b8b7460-9ce9-403d-8572-2ce835eb6bfd",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_bb8cac2e-6583-4b2c-80f6-ac2573c04913",
+            "text": "Did you use any contraceptive or family planning method in the past?",
+            "display-mr": "तुम्ही यापूर्वी  कोणत्याही गर्भनिरोधक किंवा कुटुंब नियोजनाच्या पद्धतीचा वापर केला आहे का?",
+            "display-hi": "क्या आपने पहले किसी गर्भनिरोधक या परिवार नियोजन विधि का उपयोग किया था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4fb92fc4-624c-4dfd-9289-52a6c70a4df8",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_617a25e2-7740-4823-afde-eb2f4baa2067",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_78147532-2ccf-4f35-ad6d-02a97e101759",
+                            "text": "What was the method used in the past?",
+                            "display-mr": "पूर्वी वापरलेली पद्धत कोणती होती?",
+                            "display-hi": "पहले कौन सी विधि का इस्तेमाल करते थे?",
+                            "multi-choice": true,
+                            "options": [
+                                {
+                                    "id": "ID_8bb09c6e-b967-4fef-8a77-7f91ac0f3e5a",
+                                    "text": "Don't know",
+                                    "display-mr": "माहीत नाही",
+                                    "display-hi": "पता नहीं"
+                                },
+                                {
+                                    "id": "ID_d5641eea-e674-434c-b7a1-ee354a0515d7",
+                                    "text": "Condom",
+                                    "display-mr": "कंडोम",
+                                    "display-hi": "कंडोम"
+                                },
+                                {
+                                    "id": "ID_0e5696f3-042d-44da-972e-27dc65425611",
+                                    "text": "Copper-T device",
+                                    "display-mr": "कॉपर-टी उपकरण",
+                                    "display-hi": "कॉपर-टी डिवाइस"
+                                },
+                                {
+                                    "id": "ID_9da279f1-f4d1-43cb-aa02-2474e1ee4e3e",
+                                    "text": "Oral contraceptive pills",
+                                    "display-mr": "तोंडावाटे घ्यायच्या गर्भनिरोधक गोळ्या",
+                                    "display-hi": "मौखिक गर्भ निरोधक गोलियां"
+                                },
+                                {
+                                    "id": "ID_5e9a7735-509a-4783-89f2-c2e34eb49896",
+                                    "text": "Injectable Contraceptive",
+                                    "display-mr": "इंजेक्शनावाटे घेण्याचे गर्भनिरोधक",
+                                    "display-hi": "इंजेक्शन द्वारा गर्भ निरोधक"
+                                },
+                                {
+                                    "id": "ID_c43d8f24-efa5-4c9f-9445-aabf87d92789",
+                                    "text": "Other",
+                                    "display-mr": "इतर",
+                                    "display-hi": "अन्य",
+                                    "input-type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_b64860cb-ea5c-4bb6-a069-e03dd786aca3",
+                            "text": "How long ago did you stop using the method?",
+                            "display-mr": "किती काळापूर्वी तुम्ही पद्धत वापरणे थांबवले?",
+                            "display-hi": "आपने इस पद्धति का उपयोग कब बंद किया था?",
+                            "multi-choice": false,
+                            "input-type": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_4f5bc345-ffd2-45ce-b49e-aec4ebece18f",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c3979c3b-45f9-4809-b303-770242d35c43",
+                    "text": "Breast enlargement",
+                    "display-mr": "स्तनांचा आकार वाढणे",
+                    "display-hi": "स्तन वर्धन"
+                },
+                {
+                    "id": "ID_fcecd2b4-8a2e-40e3-9d02-495ef5eb1927",
+                    "text": "Scrotal swelling",
+                    "display-mr": "अंडकोषाला सूज",
+                    "display-hi": "अंडकोष की सूजन"
+                },
+                {
+                    "id": "ID_329480e7-40e0-4158-b299-eda7890f3731",
+                    "text": "Scrotal pain",
+                    "display-mr": "अंडकोषाची वेदना",
+                    "display-hi": "अंडकोष में दर्द"
+                },
+                {
+                    "id": "ID_f06d7a01-90d6-495c-a962-e5b869f49928",
+                    "text": "Undescended testes",
+                    "display-mr": "न उतरलेली वृषणे",
+                    "display-hi": "अधूरे अंडकोष"
+                },
+                {
+                    "id": "ID_004d5ca2-a5f2-4b9d-ba5c-684c3ca08d0f",
+                    "text": "Loss of body hair",
+                    "display-mr": "शरीराचे केस गळणे",
+                    "display-hi": "शरीर के बालों का झड़ना"
+                },
+                {
+                    "id": "ID_cf2a8b06-a887-49d0-98f8-8ea8f6060fdf",
+                    "text": "Poor erection",
+                    "display-mr": "शिश्न ताठर न होणे",
+                    "display-hi": "लिंग पूरी तरह कड़ा न होना"
+                },
+                {
+                    "id": "ID_deb883fa-f020-4418-8df7-246322b2c69d",
+                    "text": "Absence of ejaculation",
+                    "display-mr": "स्खलन न होणे",
+                    "display-hi": "स्खलन न होना"
+                },
+                {
+                    "id": "ID_a10dfe73-af4f-4e7e-99a5-8c796d4f234d",
+                    "text": "Lack of sex desire",
+                    "display-mr": "लैंगिक इच्छा नसणे",
+                    "display-hi": "सेक्स की इच्छा की कमी"
+                },
+                {
+                    "id": "ID_010ddb9e-c260-40bb-b195-7298cf2d9c77",
+                    "text": "History of parotid swelling",
+                    "display-mr": "पॅरोटीड सूजेचा इतिहास",
+                    "display-hi": "पैरोटिड की सूजन का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_37b9b0da-ff41-4794-b040-abee72a42631",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2a5d3137-2e3e-4d9d-ac1f-4bc7d73c113d",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fb0cb7eb-ec6a-403d-8c4d-b43694efc584",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_e9c603c9-5720-4fb5-a67a-517b13313a8c",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड सहन न कर पाना"
+                },
+                {
+                    "id": "ID_66f3bb31-52ce-4608-af10-f7a9e29734bd",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिर दर्द"
+                },
+                {
+                    "id": "ID_8ad6a042-872d-4898-99c3-f40fcfb402a7",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "दिल की धड़कन"
+                },
+                {
+                    "id": "ID_8e6dae72-158f-46ef-beaa-33a49789bf9f",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_b5707c40-f2fa-4913-aa76-94c763b8d63b",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_33ab3a6d-011a-4726-9e98-ac5fb164ad40",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_d26a9ecd-27f0-44d9-8aea-0d543943e228",
+                    "text": "Loss of smell",
+                    "display-mr": "वास न येणे",
+                    "display-hi": "गंध महसूस न कर पाना"
+                },
+                {
+                    "id": "ID_bf097869-eac6-453b-837b-a3411058c8da",
+                    "text": "Visual disturbance",
+                    "display-mr": "दिसण्यात अडथळा",
+                    "display-hi": "दिखाई देने में गड़बड़ी"
+                },
+                {
+                    "id": "ID_b4e9d353-e3c2-4f69-98ba-8ea8ec6839d0",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_5396a05a-bfd6-4de6-b565-3bf6d5cb2ca2",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_e449c3c5-161b-43c3-a634-f1d316e34e6c",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ना"
+                },
+                {
+                    "id": "ID_56f5f909-0987-424c-a0f7-b4dc7f7fd803",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_315ac809-09a8-45be-85e2-fa29c035da34",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bd315f93-0ab1-40f3-8b68-ce2d674a6eff",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_dc8c5d9b-a9f1-4795-8838-ea4a9d18e3e5",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_90b4ac09-2461-465a-8d22-7a631e3543db",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_684499cc-af30-4f9e-89bf-06768286fc10",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_aa38d260-5810-4695-b2f9-9b7c8162034c",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
