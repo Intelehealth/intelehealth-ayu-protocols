@@ -1,0 +1,431 @@
+{
+    "id": "ID_a097fad5-fb7a-4900-92d0-90ae94c8cbcc",
+    "text": "Sneezing",
+    "engineVersion": "3.0",
+    "display-mr": "शिंका येणे",
+    "display-hi": "छींकना",
+    "options": [
+        {
+            "id": "ID_9cca5800-a479-4bfc-a9e8-917a94f63d5f",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e51311e7-d4b5-4077-b9e8-d7d5fc924aac",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_5f9036db-a37a-4d19-ad6c-6c87ef831516",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_609aba43-4077-48f8-9476-c55251073706",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_478d8e43-d0ed-4b34-a1b6-fcfd6717846f",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_402fc9e8-639b-4607-9206-daf96233755f",
+            "text": "How frequently you are having sneezing?",
+            "display-mr": "तुम्हाला किती वारंवार शिंका येत आहे?",
+            "display-hi": "आपको कितनी बार छींक आती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7ee66ad1-1a13-4b88-aaf2-53644f792715",
+                    "text": "Occassional",
+                    "display-mr": "अधूनमधून",
+                    "display-hi": "कभी-कभी"
+                },
+                {
+                    "id": "ID_9f58efb2-6e70-4734-976b-fdc1e1914f6f",
+                    "text": "Continuous",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                }
+            ]
+        },
+        {
+            "id": "ID_b8ffbea2-f92a-415b-94c2-147f94020c2c",
+            "text": "What increases or worsens the  sneezing?",
+            "display-mr": "शिंका येणे कशामुळे वाढते किंवा खराब होते?",
+            "display-hi": "छींक की समस्या को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_2eb8bc24-776e-466a-8c52-19a5eb7d7f01",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2024c2f5-65d8-4235-9e8e-f3866fd28b35",
+                    "text": "Exercise",
+                    "display-mr": "व्यायाम",
+                    "display-hi": "व्यायाम"
+                },
+                {
+                    "id": "ID_1667eb83-89c0-4f27-90c9-faab5952270d",
+                    "text": "Cold weather",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडा मौसम"
+                },
+                {
+                    "id": "ID_ca5d5b41-6e54-40d5-a471-e7d4752bacc9",
+                    "text": "Cosmetics",
+                    "display-mr": "सौंदर्य प्रसाधने",
+                    "display-hi": "सौंदर्य प्रसाधन"
+                },
+                {
+                    "id": "ID_0e5d53d6-59a5-44ef-954d-d303668db554",
+                    "text": "Smoke",
+                    "display-mr": "धूर",
+                    "display-hi": "धुआं"
+                },
+                {
+                    "id": "ID_338c6ec1-00c2-4004-9af4-9faa11282c81",
+                    "text": "Dust",
+                    "display-mr": "धूळ",
+                    "display-hi": "धूल"
+                },
+                {
+                    "id": "ID_1339f29f-cb66-423d-ac77-c4767a5a14ef",
+                    "text": "Pollen",
+                    "display-mr": "परागकण",
+                    "display-hi": "पराग"
+                },
+                {
+                    "id": "ID_b52c00a2-8396-4f6b-82d5-bf3e00e6da27",
+                    "text": "Pets",
+                    "display-mr": "पाळीव प्राणी",
+                    "display-hi": "पालतू जानवर"
+                },
+                {
+                    "id": "ID_d39d3bc2-a0de-4aa4-ba0c-df65074228ac",
+                    "text": "Certain medication",
+                    "display-mr": "ठराविक औषधोपचार",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_636af7d8-d21f-4e38-a308-cb0f78135917",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_fa4445eb-8408-4759-a61e-e8dc0f9b3cd0",
+            "text": "How is the progress of the sneezing?",
+            "display-mr": "शिंकण्यामध्ये काही बदल झाला का?",
+            "display-hi": "छींकने की समस्या में कुछ बदलाव है क्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5de24dae-35e2-452f-a884-54a5369d42ee",
+                    "text": "Increasing",
+                    "display-mr": "वाढणे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_7039448a-157c-4391-9ac7-5d4f3a0ebf26",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होणे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_2da7fabf-63df-48e6-8ca3-3608c88dd5d4",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_dd67a7f3-16d5-43df-83f1-3e171364d889",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_31807be9-a5f1-4936-b6b0-26a5e4f45661",
+            "text": "Did you notice any pattern of the symptom?",
+            "display-mr": "तुम्हाला लक्षणाचे कोणतेही ठराविक चक्र लक्षात आले आहे का?",
+            "display-hi": "क्या आपको लक्षण का कोई पैटर्न नजर आया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_489512a6-fc54-479f-9ac8-9164360d691e",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_cce805b9-ca17-4efe-9cf7-c6ce36f00b90",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतो आणि जातो)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_19297a7f-efe4-4edb-98a4-c6298d9df034",
+                            "text": "When do you get the sneezing the worst?",
+                            "display-mr": "तुम्हाला सर्वात जास्त शिंका कधी येतात?",
+                            "display-hi": "आपको सबसे ज्यादा छींक कब आती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_318d1e8b-a958-46fd-940b-dbcab4eac193",
+                                    "text": "Early Morning",
+                                    "display-mr": "पहाटे",
+                                    "display-hi": "अहले सुबह"
+                                },
+                                {
+                                    "id": "ID_4bb60f6c-520e-4895-b01b-54d91f4d997d",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपार",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_353f1c54-34f4-4bfe-8d11-84a682509e93",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_0c794e13-c2f2-4b00-9e8b-2913ab7dcbb7",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_4bd999b9-a3eb-44bc-855d-235735ff5f69",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्न लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1b053cca-6088-41f0-a5b5-d4b008219843",
+                    "text": "Nose block",
+                    "display-mr": "नाक चोंदणे",
+                    "display-hi": "नाक बंद होना"
+                },
+                {
+                    "id": "ID_0235f964-103e-48dd-9795-41151b603561",
+                    "text": "Stuffy nose",
+                    "display-mr": "नाक भरल्यासारखे वाटणे",
+                    "display-hi": "नाक भरी होना"
+                },
+                {
+                    "id": "ID_22c0a8c2-d6ba-40a2-81a6-7768fe181f44",
+                    "text": "Nose bleeding",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                },
+                {
+                    "id": "ID_50136737-f6b7-4e35-801c-bfac4d251845",
+                    "text": "Facial pain",
+                    "display-mr": "चेहऱ्यावरचे  दुखणे",
+                    "display-hi": "चेहरे में दर्द"
+                },
+                {
+                    "id": "ID_6b5454cb-40cf-43e8-a9fa-bdb8955578c0",
+                    "text": "Loss of smell sensation",
+                    "display-mr": "गंध संवेदना कमी होणे",
+                    "display-hi": "गंध महसूस न कर पाना"
+                },
+                {
+                    "id": "ID_cba7252a-11d2-4331-8f7b-881382c73059",
+                    "text": "Snoring",
+                    "display-mr": "घोरणे",
+                    "display-hi": "खर्राटे"
+                },
+                {
+                    "id": "ID_e7426369-c630-488c-bad4-f6cc30d00537",
+                    "text": "Mouth breathing",
+                    "display-mr": "तोंडाने श्वास घेणे",
+                    "display-hi": "मुंह से सांस लेना"
+                },
+                {
+                    "id": "ID_0617add4-69fa-4827-a742-2627c499531e",
+                    "text": "Postnasal drip",
+                    "display-mr": "पोस्ट नेजल ड्रिप",
+                    "display-hi": "पोस्ट नेजल ड्रिप"
+                },
+                {
+                    "id": "ID_dbcbe354-2e1d-459c-baea-bc8555320391",
+                    "text": "Bad smell (foul smell) from nose",
+                    "display-mr": "नाकातून वास येणे (दुर्गंधी)",
+                    "display-hi": "नाक से दुर्गंध आना"
+                },
+                {
+                    "id": "ID_14e10d44-6dde-407d-8d28-d5ba1aca0959",
+                    "text": "Swelling of nose",
+                    "display-mr": "नाकाला सूज येणे",
+                    "display-hi": "नाक में सूजन"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_04ade0bc-d5db-4813-b1ae-c667969d2b77",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a998ae42-1ea0-48f1-b0a7-7a9c37fa1dd9",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_7f10281f-aff5-422a-a57d-666f7f6a4f56",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_c2bacb70-e091-4fcd-8b4e-76fb6e675c1b",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_5ab757ca-4b34-407e-9f34-5fd1a15c889c",
+                    "text": "Body pain",
+                    "display-mr": "अंगदुखी",
+                    "display-hi": "शरीर में दर्द"
+                },
+                {
+                    "id": "ID_5bf83b0a-b2d2-4902-8736-4f6e84be39d4",
+                    "text": "Throat pain",
+                    "display-mr": "घसा दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_fcff9672-6f89-42e2-9a97-180f57b7ffba",
+                    "text": "Ear pain",
+                    "display-mr": "कान दुखणे",
+                    "display-hi": "कान में दर्द"
+                },
+                {
+                    "id": "ID_336ac3b2-bc8f-4c36-9992-33b0148a63a0",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_f25b6f38-e732-447a-bb5c-6fe9557b0ef3",
+                    "text": "Dust allergy",
+                    "display-mr": "धुळीची एलर्जी",
+                    "display-hi": "धूल से एलर्जी"
+                },
+                {
+                    "id": "ID_1e5a1713-0bc4-43ce-9152-5b77f2bba18f",
+                    "text": "Food allergies",
+                    "display-mr": "अन्न ऍलर्जी",
+                    "display-hi": "खाद्य पदार्थों से एलर्जी"
+                },
+                {
+                    "id": "ID_5e2d208a-6f4e-4b94-9c25-a313019bf028",
+                    "text": "Watery itchy eyes",
+                    "display-mr": "डोळ्यांना पाणी येणे खाज सुटणे",
+                    "display-hi": "आंखों में पानी आना खुजली होना"
+                },
+                {
+                    "id": "ID_f0bf2f1f-248e-49f7-8f15-365bb163f257",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_81b8691e-c0c0-4941-bcf1-3e5fe3f48ff3",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ed6a80b8-5edb-428c-b6c3-fa85f3d3360c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_4cf16e7a-4030-4aac-b935-9e9a31b095ef",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_1a30acb3-1e92-46e1-9a01-2efb0f245400",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_2d4cbb29-f57d-471a-8a17-6be7e0ca8d6c",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_c7d4398e-41fe-4c18-a34b-5c3e2f603849",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

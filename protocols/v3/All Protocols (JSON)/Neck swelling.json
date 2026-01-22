@@ -1,0 +1,782 @@
+{
+    "id": "ID_4f1203f8-48b8-42f3-8a6d-6a6552305e72",
+    "text": "Neck swelling",
+    "engineVersion": "3.0",
+    "display-mr": "मानेला सूज",
+    "display-hi": "गर्दन में सूजन",
+    "options": [
+        {
+            "id": "ID_aca11924-787d-42e9-8047-9a5cb12369a8",
+            "text": "Since when have you had neck swelling?",
+            "display-mr": "तुमच्या मानेला कधीपासून सूज आहे?",
+            "display-hi": "आपको गर्दन में सूजन कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fa829c71-eedf-4a2e-aaaa-ccab0681e0dd",
+                    "text": "Since when have you had neck swelling?",
+                    "display-mr": "तुमच्या मानेला कधीपासून सूज आहे?",
+                    "display-hi": "आपको गर्दन में सूजन कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_57970ae7-e49a-46b6-b0c3-545c37596282",
+            "text": "How fast did the swelling appear?",
+            "display-mr": "सूज किती जलद वेगाने वाढली?",
+            "display-hi": "त्वचा में खुजली कितनी तेजी से बढ़ी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ded45dd8-47c9-42a9-af28-edefb3a8768a",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_bac7d448-10b1-42d4-945a-197c733a9360",
+                    "text": "Slowly",
+                    "display-mr": "संथपणे",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_c15e6464-35a8-483a-acfe-61883b0b4101",
+            "text": "Which plane of neck do you have the swelling?",
+            "display-mr": "मानेच्या कोणत्या बाजूला तुम्हाला सूज आहे?",
+            "display-hi": "गर्दन के किस तल पर सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5585e368-d99d-47a7-a980-7dc0aaa4c9eb",
+                    "text": "Front of neck",
+                    "display-mr": "मानेचा पुढील भाग",
+                    "display-hi": "गर्दन के आगे"
+                },
+                {
+                    "id": "ID_c4f66f3c-d334-4f05-ac12-501241aca100",
+                    "text": "Side of neck",
+                    "display-mr": "मानेची बाजू",
+                    "display-hi": "गर्दन के किनारे"
+                },
+                {
+                    "id": "ID_16b24896-bed7-4825-b782-0b4d766bbf4c",
+                    "text": "Back of neck",
+                    "display-mr": "मानेचा मागील भाग",
+                    "display-hi": "गर्दन के पीछे"
+                }
+            ]
+        },
+        {
+            "id": "ID_aa142785-fc35-48d2-9a1d-9429d91cdfd2",
+            "text": "Which side of neck do you have the swelling?",
+            "display-mr": "मानेच्या कोणत्या बाजूला तुम्हाला सूज आहे?",
+            "display-hi": "गर्दन के किस तरफ सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ac38485a-cfc4-4865-8c4b-4532e6077d41",
+                    "text": "Left",
+                    "display-mr": "डावीकडे",
+                    "display-hi": "बाएं"
+                },
+                {
+                    "id": "ID_3882ef3f-c9b1-4833-afa6-b46c4a98a5b5",
+                    "text": "Right",
+                    "display-mr": "उजवीकडे",
+                    "display-hi": "दाएं"
+                },
+                {
+                    "id": "ID_13dc6697-d09d-416c-adb5-52849fd60af8",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजूंना",
+                    "display-hi": "दोनों तरफ"
+                },
+                {
+                    "id": "ID_1158d8a7-5477-404a-b7c5-f2184a5aa43d",
+                    "text": "Middle of neck",
+                    "display-mr": "मानेच्या मध्यभागी",
+                    "display-hi": "गर्दन के बीच में"
+                }
+            ]
+        },
+        {
+            "id": "ID_add3acbf-7105-4ed9-aab3-39b9eed8c541",
+            "text": "Did the swelling develop after any of these events?",
+            "display-mr": "यापैकी कोणत्याही प्रसंगानंतर सूज विकसित झाली का?",
+            "display-hi": "क्या इनमें से किसी भी घटना के बाद सूजन हुई?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_49421479-2fa3-42bf-aab2-3be57426b22c",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c218a688-abc6-41fe-ad94-4e6ad1ced620",
+                    "text": "Injury",
+                    "display-mr": "इजा",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_b3764a3e-3bcd-4575-8e0f-12a507525eec",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_7a02872f-f0e8-4bbf-a76e-34a962963232",
+            "text": "How can you describe the neck swelling?",
+            "display-mr": "तुम्ही मानेला आलेल्या सूजेचे वर्णन कसे करू शकाल?",
+            "display-hi": "आप गर्दन की सूजन का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4bac732d-1a50-468e-ad8c-25924c95af7f",
+                    "text": "Single swelling",
+                    "display-mr": "एकच सूज",
+                    "display-hi": "एकल सूजन"
+                },
+                {
+                    "id": "ID_39a81105-f5ba-489d-86a8-51197d074186",
+                    "text": "Multiple swellings",
+                    "display-mr": "एकापेक्षा जास्त सूज",
+                    "display-hi": "कई सूजन"
+                },
+                {
+                    "id": "ID_f9b720c3-1b2f-4e2e-91d7-dd604c0b9895",
+                    "text": "Hard consistency",
+                    "display-mr": "कठोर संहती",
+                    "display-hi": "छूने पर कठोर"
+                },
+                {
+                    "id": "ID_b85be1d6-7ffc-4533-b021-32ba2fd5477e",
+                    "text": "Firm consistency",
+                    "display-mr": "दृढ संहती",
+                    "display-hi": "छूने पर दृढ़"
+                },
+                {
+                    "id": "ID_1f4d98eb-97ff-4e54-8dfc-f2550dae1c4a",
+                    "text": "Soft consistency",
+                    "display-mr": "सौम्य संहती",
+                    "display-hi": "छूने पर नरम"
+                },
+                {
+                    "id": "ID_d6fd6820-a4d8-4e2b-99c6-c30a14ecfaa4",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_aa8f5e46-44f6-4582-8e96-88e75187b133",
+            "text": "Do you have any of the local associated features with the swelling?",
+            "display-mr": "तुमच्यात सूजेशी संबंधित स्थानिक वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको सूजन के साथ जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_b45d1bb6-0944-4b8d-842c-ae5ff668493f",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_456a28f7-6fe8-4532-9dae-f67f445d73eb",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_bfc9abae-400b-4e98-99b7-446f50555b51",
+                    "text": "Pain on touch",
+                    "display-mr": "स्पर्श करताना वेदना",
+                    "display-hi": "छूने पर दर्द"
+                },
+                {
+                    "id": "ID_8e5af72f-91eb-45ed-afb2-646f3413db95",
+                    "text": "Warmth",
+                    "display-mr": "अंग गरम राहणे",
+                    "display-hi": "गर्माहट"
+                },
+                {
+                    "id": "ID_6674ca14-5233-4b10-980c-b499848de08d",
+                    "text": "Ulcer",
+                    "display-mr": "अल्सर",
+                    "display-hi": "अल्सर"
+                },
+                {
+                    "id": "ID_c7038e9d-066a-4936-bcf2-f62120db5d80",
+                    "text": "Skin discoloration",
+                    "display-mr": "त्वचेचा रंग बदलणे",
+                    "display-hi": "त्वचा का रंग बदलना"
+                },
+                {
+                    "id": "ID_85c04b0d-3bf8-4d9e-bba3-301059585b8d",
+                    "text": "Discharge",
+                    "display-mr": "स्राव",
+                    "display-hi": "स्राव"
+                },
+                {
+                    "id": "ID_6ca8c20b-84c9-4214-aa3a-3da14313a8b2",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_456f255e-ef3c-4a3d-b637-82d067942d62",
+            "text": "Do you have pain associated with neck swelling?",
+            "display-mr": "तुम्हाला मानेच्या सूजेशी संबंधित वेदना आहे का?",
+            "display-hi": "क्या आपको गर्दन की सूजन के साथ दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0da490b2-701b-4ca4-af0d-9913d27e9596",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_19503969-346d-463f-81a7-de1968bc0357",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_7afddb89-6fe6-4073-88ee-6739478aa5f4",
+                            "text": "How can you describe the character of pain?",
+                            "display-mr": "तुम्ही या वेदनेच्या स्वरूपाचे वर्णन कसे करू शकाल?",
+                            "display-hi": "आप दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_362d77cb-da70-4912-8906-76c465e6ef59",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळणारी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_c650bb41-d9d6-4f2c-83b3-9cfc2b642025",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_17b6238d-feb1-46a7-a2a4-919c317f49dc",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                                    "display-hi": "चीरे जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_28c5a9c4-47fb-4355-944c-c9ddce4528a5",
+                                    "text": "Pressure pain",
+                                    "display-mr": "दाब वेदना",
+                                    "display-hi": "दबाव वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_c0188002-099e-4670-838a-209c7024cbdc",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "सतत मंद वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_ec840c3a-b6c8-4fe8-9c42-893ea99b069b",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_d7356fac-e3b0-4e21-b4d7-7ca34511c3d1",
+                                    "text": "Shooting pain",
+                                    "display-mr": "एकदम वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_ca73949b-ee58-4006-bc6b-149c6142fbdd",
+                                    "text": "Don't know",
+                                    "display-mr": "माहीत नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_fb301b1e-63e4-4067-b1ce-ff2782cf5db3",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e2c1816f-327e-4bd6-98fb-cdca802145c1",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_129658cb-8757-4c2a-bfd7-5f3a6d110398",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_6754708c-1cc3-4cf1-9aef-41ec9f81b80a",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_2edd1e1d-09d6-4bff-83ce-63d4cb0052c8",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "अतिशय तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_eaa4850c-996f-48f0-b32a-3b9c9cfe80b6",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_f6acc755-d48c-4854-b3bc-ff5656fcb9cb",
+            "text": "Does the pain moves to other parts of body?",
+            "display-mr": "वेदना शरीराच्या इतर अवयवांपर्यंत पसरते का?",
+            "display-hi": "क्या दर्द शरीर के अन्य भागों में फैल जाता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_33db3458-9a4a-4a3d-9fb7-b65007b8f5bc",
+                    "text": "None",
+                    "display-mr": "कोणत्याही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_0bff1feb-f3e3-42ae-a62d-2bf77e5793bc",
+                    "text": "Ear",
+                    "display-mr": "कान",
+                    "display-hi": "कान"
+                },
+                {
+                    "id": "ID_dd0cdda9-dd41-4aae-8827-3587f5e27bea",
+                    "text": "Throat",
+                    "display-mr": "घसा",
+                    "display-hi": "गला"
+                },
+                {
+                    "id": "ID_a6bcdc97-9124-4947-9b12-c7b48dbe8381",
+                    "text": "Chest",
+                    "display-mr": "छाती",
+                    "display-hi": "छाती"
+                },
+                {
+                    "id": "ID_cc396b62-b86e-4eed-8586-a9664ee5c773",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_6f3f6bc7-e1e8-49af-9815-a58b456a7052",
+            "text": "Does the swelling move with the act of swallowing or drinking?",
+            "display-mr": "गिळण्याच्या किंवा पिण्याच्या क्रियेने सूज दुसरीकडे पसरते का?",
+            "display-hi": "क्या सूजन निगलने या पीने के कार्य के साथ बढ़ता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ddcdbaf0-43a7-4766-95c4-fc6a354be585",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_a913b056-0a85-4691-a95a-0fe517d4586c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_1783b72b-46e9-41cc-a163-9573a850a1b9",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_f7fafe17-6725-466e-97c0-431c3ab37785",
+            "text": "What reduces the swelling?",
+            "display-mr": "सूज कशामुळे कमी होते?",
+            "display-hi": "सूजन को क्या कम करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a9599a03-2e56-4995-a9c9-4e1c653d3751",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_658fa351-dd80-4164-a4fd-4e437c9aac9e",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_7c44b7a4-4d6c-4631-bb91-b391153525f0",
+                    "text": "Lying down",
+                    "display-mr": "पडून राहणे",
+                    "display-hi": "लेटना"
+                },
+                {
+                    "id": "ID_467fe8bf-0e31-400d-865f-a94ea84f8aa3",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_ce79fe41-670a-4e50-8366-1206cb18fdde",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_144d01ba-37b0-4ced-ac0a-43760da93084",
+            "text": "What increases the size of neck swelling?",
+            "display-mr": "मानेच्या सूजेचा आकार कशामुळे वाढतो?",
+            "display-hi": "गर्दन की सूजन के आकार को क्या बढ़ाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d64295ac-56ff-4016-90b2-29019ab614cf",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_94f6a965-98f6-4125-80d8-b47a595f8f6d",
+                    "text": "Coughing",
+                    "display-mr": "खोकणे",
+                    "display-hi": "खांसना"
+                },
+                {
+                    "id": "ID_b4dd1a2f-6bab-4e74-b6d7-fd2d026f61b9",
+                    "text": "Sneezing",
+                    "display-mr": "शिंकणे",
+                    "display-hi": "छींकना"
+                },
+                {
+                    "id": "ID_af8dac90-dd0c-4a78-8698-357a22aa4e18",
+                    "text": "Straining",
+                    "display-mr": "श्रमाचे काम",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_f9f9359b-b4f0-4db1-88d6-44c3cdd0a81f",
+                    "text": "Talking",
+                    "display-mr": "बोलताना",
+                    "display-hi": "बात करना"
+                },
+                {
+                    "id": "ID_0f27cf01-1cf6-495e-b8b0-deb21120dd60",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_8dc54b5d-c555-41bd-8d3e-376c59ff1aa4",
+            "text": "How is the swelling size progressing?",
+            "display-mr": "सूजेचा आकार कसा बदलत आहे?",
+            "display-hi": "सूजन के आकार में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ba21267c-cfe1-4150-a894-44b8b60945a3",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_abae6e9b-9c10-48f2-bebb-a3e3c9399cba",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_f536d529-440a-41a1-bbe8-5395a17fab6d",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा येत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_6b19f7df-f5b3-4a93-8c6e-0401d9a6221f",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_ba8136a6-d93c-4fae-bfa9-5fee6ea5412a",
+            "text": "Does the swelling have any patterns during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रामध्ये सूज येण्याचा काही विशिष्ट नमुना आहे का?",
+            "display-hi": "क्या सूजन का 24 घंटे के चक्र के दौरान कोई पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7199fad0-4fcb-4d10-8f42-38caf5667090",
+                    "text": "Constant",
+                    "display-mr": "सातत्यपूर्ण",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_a0f6fe6e-14e8-4578-b0f1-47146acd4b1e",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुककर (आता-जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_0ffd547b-791f-430d-9702-96d44369101c",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_109b81cf-9cb8-401f-a342-b3bbac40cda5",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाजाचा कर्कशपणा",
+                    "display-hi": "आवाज में कर्कशता"
+                },
+                {
+                    "id": "ID_1a7bfb20-df92-46c7-b8e8-06d0dfcf1fc6",
+                    "text": "Throat pain",
+                    "display-mr": "घशात दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_6f787b80-232e-4d8b-8bdd-5ca09ec73667",
+                    "text": "Stiffness of neck",
+                    "display-mr": "मान कडक होणे",
+                    "display-hi": "गर्दन में अकड़न"
+                },
+                {
+                    "id": "ID_68b0bf76-fca7-4340-8268-2f15ce258c36",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होणे",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_341b4879-d9cc-476b-9107-f1469953a2af",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्‍यात त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_1e88a711-039b-482e-b66f-e49727861fb7",
+                    "text": "Painful swallowing",
+                    "display-mr": "गिळताना वेदना होणे",
+                    "display-hi": "निगलने में दर्द होना"
+                },
+                {
+                    "id": "ID_6a90edc3-0611-4b85-abd2-c43f43eb3d9a",
+                    "text": "Tooth cavities",
+                    "display-mr": "दाता मधील पोकळी",
+                    "display-hi": "दांतों में सड़न"
+                },
+                {
+                    "id": "ID_e828cc56-fe7a-4071-88f6-9313b8373d1b",
+                    "text": "Bad breath",
+                    "display-mr": "श्वासाला दुर्गंधी येणे",
+                    "display-hi": "सांसों से बदबू"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_2b9fd255-14d9-4118-a659-f3bc4f4d94b5",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ccbca576-255d-4c08-99f8-4efb3aa8cb2c",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3231a352-91d3-44b2-860c-c7583328455e",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_9f5ec7e9-0ebe-4e2f-9756-b43439302df6",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "ठंड लगना और जकड़न"
+                },
+                {
+                    "id": "ID_607551f2-dabb-49cd-8ef7-7d2532e9a45e",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_2e91ab63-fc08-4c07-ac7f-a30aeaff68e4",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_708afb4c-f9da-4242-a88d-c572d1cd7fff",
+                    "text": "Increased appetite",
+                    "display-mr": "भूक वाढणे",
+                    "display-hi": "भूख में बढ़ोतरी"
+                },
+                {
+                    "id": "ID_6e1b358c-2688-4553-ace7-095bfee71354",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_12835554-e924-4590-88c6-ac69e325fe3d",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_dad50cf1-aef3-4626-8abd-cf51c72d2e14",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_52a6f4ee-bc85-4d7b-be3b-74240305a113",
+                    "text": "Excessive sweating",
+                    "display-mr": "अतिशय घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_d7971901-a702-4490-ba03-9a9973d75703",
+                    "text": "Dry skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "सूखी त्वचा"
+                },
+                {
+                    "id": "ID_e5e7556c-4578-4e18-a0ad-af191b61d42a",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "तेज धड़कन"
+                },
+                {
+                    "id": "ID_eca0ce7e-bcfa-45f0-8222-0cd7de86032b",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_f2e7701b-b593-4997-9403-6f7b715e1a2e",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ec597fa9-3583-4f93-ab3b-e0cf779b984e",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_82be0a25-ef22-496d-b750-23da9b17a0e1",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_240a804b-a57c-4529-ab6d-172b5739dca3",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_cde128f9-f411-4b69-a3d1-f2219033cc0d",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_67a6ac8f-473c-4a8c-b217-ee3ce4907d3a",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_7241fec8-42c7-49d2-b2b7-700624f42652",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

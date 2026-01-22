@@ -1,0 +1,445 @@
+{
+    "id": "ID_5df80e0d-174e-4a3c-96ef-b98d35c65316",
+    "text": "Sticky eyes",
+    "engineVersion": "3.0",
+    "display-mr": "डोळे चिकट होणे",
+    "display-hi": "चिपचिपी आंखें",
+    "options": [
+        {
+            "id": "ID_1bbf9439-332a-4f51-a302-2d52bcd4921d",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a140bddf-b187-4895-8183-eabc62baa37d",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_1e660602-4b19-4cd0-bd71-b5e844814713",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5145d7ee-494f-4594-80fd-e2b8b89f1c0f",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_49356ae1-0fdc-4142-a3f6-99d551e27fb5",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_7d5ccd79-0e36-4350-a04c-8fb40f207f76",
+            "text": "In which eye do you have the stickiness problem?",
+            "display-mr": "तुम्हाला कोणत्या डोळ्यात चिकटपणाचा त्रास आहे?",
+            "display-hi": "आपको किस आंख में चिपचिपाहट की समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e260255c-918a-4433-825b-e32cb454555e",
+                    "text": "Left eye",
+                    "display-mr": "डावा डोळा",
+                    "display-hi": "बाईं आंख"
+                },
+                {
+                    "id": "ID_b824143f-835e-45fa-8af6-77f17b8ca6ed",
+                    "text": "Right eye",
+                    "display-mr": "उजवा डोळा",
+                    "display-hi": "दाईं आंख"
+                },
+                {
+                    "id": "ID_2df9de8b-3a3b-4a5e-af99-f1eb7242b7da",
+                    "text": "Both eyes",
+                    "display-mr": "दोन्ही डोळे",
+                    "display-hi": "दोनों आंखें"
+                }
+            ]
+        },
+        {
+            "id": "ID_9f895d57-1dcc-4c76-8df7-68b88f1a6de5",
+            "text": "Do you have any of the associated features with sticky eyes?",
+            "display-mr": "तुमच्याकडे चिकट डोळ्यांशी संबंधित कोणतीही वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको चिपचिपी आंखों से जुड़ी कोई समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6d9ee530-f3a9-4d56-a7d7-7ec31831fe93",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c61c1889-65b0-4efa-85ca-37b753f82cd8",
+                    "text": "Eye injury",
+                    "display-mr": "डोळ्याला इजा",
+                    "display-hi": "आंख की चोट"
+                },
+                {
+                    "id": "ID_c57a649b-fb66-47c3-8277-895eaf1f4874",
+                    "text": "Foreign body",
+                    "display-mr": "बाहेरील वस्तू डोळ्यात जाणे",
+                    "display-hi": "बाहरी वस्तु"
+                },
+                {
+                    "id": "ID_7dfe51b2-cbc4-4d8c-ac7e-1379eec62375",
+                    "text": "Red eye",
+                    "display-mr": "लाल डोळा",
+                    "display-hi": "लाल आंख"
+                },
+                {
+                    "id": "ID_235058bc-2102-47c3-869f-b9be9007a09b",
+                    "text": "Eye pain",
+                    "display-mr": "डोळा दुखणे",
+                    "display-hi": "आंख में दर्द"
+                }
+            ]
+        },
+        {
+            "id": "ID_07999a8a-b64a-44dc-99a6-9d1fdd83c65c",
+            "text": "What increases or worsens eye stickiness?",
+            "display-mr": "डोळ्यांची चिकटपणा कशामुळे वाढतो किंवा बिघडतो?",
+            "display-hi": "किस चीज से आंखों की चिपचिपाहट बढ़ती या बिगड़ती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ed12d9aa-59b1-40d3-8bb6-d5ea3b044f99",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_c2f430a9-cf58-457b-9478-d9d36ebb5f9b",
+                    "text": "Cold climate",
+                    "display-mr": "थंड हवामान",
+                    "display-hi": "ठंडी जलवायु"
+                },
+                {
+                    "id": "ID_f80d8c70-94af-45d2-af8f-967e556cccec",
+                    "text": "Dust",
+                    "display-mr": "धूळ",
+                    "display-hi": "धूल"
+                },
+                {
+                    "id": "ID_e26688ee-3daf-4189-9b42-1a54f3ba2757",
+                    "text": "Smoke",
+                    "display-mr": "धूर",
+                    "display-hi": "धुआं"
+                },
+                {
+                    "id": "ID_2a77833f-91cd-4b11-8a2d-af05970d857b",
+                    "text": "Pollen",
+                    "display-mr": "परागकण",
+                    "display-hi": "पराग कण"
+                },
+                {
+                    "id": "ID_db0fc103-06d5-422d-b839-f24f1625c66f",
+                    "text": "Contact lens",
+                    "display-mr": "कॉन्टॅक्ट लेन्स",
+                    "display-hi": "कॉन्टेक्ट लेंस"
+                },
+                {
+                    "id": "ID_c27ec4d0-0a55-47d2-9ca7-979690f9cf64",
+                    "text": "Watching screen",
+                    "display-mr": "स्क्रीन पाहणे",
+                    "display-hi": "स्क्रीन देखना"
+                },
+                {
+                    "id": "ID_4e144562-19a3-4781-98d5-8e4a228094dc",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_741a43be-fa34-4b3a-b143-0e7ad24de33b",
+            "text": "How is eye stickiness progressing?",
+            "display-mr": "डोळ्यांचा चिकटपणा मध्ये  काही बदल झाला का?",
+            "display-hi": "आंखों की चिपचिपाहट में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fc9da684-8931-4eeb-a68c-0fb94f510886",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_f850fd6c-e657-4770-a83b-807c22672069",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_387fb1c5-fa6d-4308-bca6-f11e53fdfd9c",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_07d5d6d6-533b-40d4-92f6-73002137aabc",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_e7b37f04-cf0d-40c5-9b31-024f07128347",
+            "text": "Did you notice any pattern of eye stickiness in a complete day?",
+            "display-mr": "संपूर्ण दिवसात डोळ्यांच्या चिकटपणा चे काही चक्र आहे का?",
+            "display-hi": "क्या आपको पूरे दिन में आंखों की चिपचिपाहट का कोई पैटर्न दिखाई दिया?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_cd0b3067-d3c2-4e32-b630-2e6ee55abf14",
+                    "text": "Constant",
+                    "display-mr": "स्थिर",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_2a0c55f4-cb58-4327-9898-3c69ac3d9e74",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_2261e656-bbb5-4390-ae1b-3b2869fa0c9b",
+            "text": "When do you have eye stickiness the worst?",
+            "display-mr": "तुमच्या डोळ्यांचा चिकटपणा सर्वात वाईट केव्हा होतो?",
+            "display-hi": "आपको आंखों की चिपचिपाहट सबसे ज्यादा कब होती है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_54a9a09b-e3e3-4491-8e64-9cc1f177222f",
+                    "text": "Morning",
+                    "display-mr": "सकाळ",
+                    "display-hi": "सुबह"
+                },
+                {
+                    "id": "ID_d4ba8224-bf7f-4667-8ace-557e2ea9766c",
+                    "text": "Afternoon",
+                    "display-mr": "दुपार",
+                    "display-hi": "दोपहर"
+                },
+                {
+                    "id": "ID_0539fe29-a0e4-4d25-913e-d386aff7e571",
+                    "text": "Evening",
+                    "display-mr": "संध्याकाळ",
+                    "display-hi": "शाम"
+                },
+                {
+                    "id": "ID_850464ef-27a6-4741-ba0e-99cabb69d638",
+                    "text": "Night",
+                    "display-mr": "रात्री",
+                    "display-hi": "रात"
+                }
+            ]
+        },
+        {
+            "id": "ID_88ac6427-adfe-4543-a3e2-1e20ff8c48c6",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_86617531-be5a-4ea8-bc8a-b186fc4df494",
+                    "text": "Eye discharge",
+                    "display-mr": "डोळ्यांचा स्त्राव",
+                    "display-hi": "आंखों से पानी आना"
+                },
+                {
+                    "id": "ID_ff2d1aa0-ccc0-4721-8a23-e12858785d4d",
+                    "text": "Itching of eyes",
+                    "display-mr": "डोळ्यांना खाज सुटणे",
+                    "display-hi": "आंखों में खुजली"
+                },
+                {
+                    "id": "ID_60bf8829-d46d-4af1-98ee-6de5cdf1c67f",
+                    "text": "Watering from eyes",
+                    "display-mr": "डोळ्यांतून पाणी येणे",
+                    "display-hi": "आंखों से पानी आना"
+                },
+                {
+                    "id": "ID_bb40e03a-d254-4351-bb12-35262064d31a",
+                    "text": "Crusting of eyelids",
+                    "display-mr": "पापण्यांचा पापुद्रा निघणे/ क्रस्टिंग",
+                    "display-hi": "पलकों पर पपड़ी जमना"
+                },
+                {
+                    "id": "ID_47b29d2a-1c01-49a0-b012-1f8466107046",
+                    "text": "Swelling of eyelid",
+                    "display-mr": "पापण्यांची सूज",
+                    "display-hi": "पलकों में सूजन"
+                },
+                {
+                    "id": "ID_6042c67e-05e3-4763-97c8-05508ed963ba",
+                    "text": "Itching of eyes",
+                    "display-mr": "डोळ्यांना खाज सुटणे",
+                    "display-hi": "आंखों में खुजली"
+                },
+                {
+                    "id": "ID_0e09e579-77b2-4fc0-b945-f9532cc0ba36",
+                    "text": "Sensitivity to light (photophobia)",
+                    "display-mr": "प्रकाशाची संवेदनशीलता (फोटोफोबिया)",
+                    "display-hi": "सूरज की रोशनी से चिढ़ (फोटोफोबिया)"
+                },
+                {
+                    "id": "ID_1da088d8-ffa8-474e-8d9d-ea772ee5ab49",
+                    "text": "Blurred vision",
+                    "display-mr": "अंधुक दृष्टी",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_5b9bcb98-bcaf-4f52-b1c1-4ae07e07d8eb",
+                    "text": "Loss of eye lashes",
+                    "display-mr": "डोळ्यांच्या पापण्यांवरील केसांची हानी",
+                    "display-hi": "आंखों की पलकों का झड़ना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_0c2b8646-ff7f-479d-a2fa-f6ba70d3b56e",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_3d76946e-fe8b-47ce-b643-7de25fa5b1ad",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2811492f-a7d0-4f7f-b506-08d00e5af6d6",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_da095918-dd15-4663-9c60-5e7c7bc549e4",
+                    "text": "Dandruff",
+                    "display-mr": "कोंडा",
+                    "display-hi": "रूसी"
+                },
+                {
+                    "id": "ID_e54e9641-921e-4229-8555-de1153b8589c",
+                    "text": "Pimples",
+                    "display-mr": "मुरूम",
+                    "display-hi": "मुंहासे"
+                },
+                {
+                    "id": "ID_b38b6be8-2915-48a0-a23e-a456d4e3f72e",
+                    "text": "Itchy skin",
+                    "display-mr": "त्वचेला खाज सुटणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_b27e38c1-ead7-4c3b-b5a6-a4a182d60d59",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_285cb9a9-c967-4eb1-8720-06c06aaa7774",
+                    "text": "Oily skin",
+                    "display-mr": "तेलकट त्वचा",
+                    "display-hi": "तैलीय त्वचा"
+                },
+                {
+                    "id": "ID_3da02c6d-606a-47da-8189-37c8b77c9950",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_b071ed70-ae61-4316-8c4d-66b5597ee2cd",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_30560c5d-d04c-4dd3-8b04-265f851b4dac",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_39e04627-2c90-459b-b139-246d758b400a",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_246845de-420c-4270-811a-8a1414d5aa1f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_f0282395-e697-442c-be66-4682f31cc528",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_586cd4cb-c190-4205-8f0f-ee96051df560",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_4758d87d-b76a-49ee-a2aa-5bba0207842b",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

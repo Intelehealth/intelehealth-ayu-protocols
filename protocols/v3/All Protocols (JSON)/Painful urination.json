@@ -1,0 +1,449 @@
+{
+    "id": "ID_884338f7-6ec5-43e8-aad8-269e7b082dd5",
+    "text": "Painful urination",
+    "engineVersion": "3.0",
+    "display-mr": "वेदनादायक लघवी",
+    "display-hi": "पेशाब के समय दर्द",
+    "options": [
+        {
+            "id": "ID_eed5d351-be99-41f9-9b84-cd314dfe42af",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f7d9ace7-712f-4974-98df-8ec4eac13b44",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_033e1d40-7078-4a49-8fbe-afc2f2e504b9",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_33823664-1cc2-4574-9254-d83780e26364",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_5113e115-8e1f-4b8f-81a0-005aa3c94c19",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_ff7f9ce5-d39a-4de6-80c0-7ffc124b4b23",
+            "text": "At what time of urine stream do you have the pain ?",
+            "display-mr": "मूत्र प्रवाहाच्या कोणत्या वेळी आपल्याला वेदना होत आहे?",
+            "display-hi": "पेशाब प्रवाह के किस समय आपको दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c2b03009-0111-4f64-9a21-4b199549d484",
+                    "text": "At the begining",
+                    "display-mr": "सुरुवातीच्या काळात",
+                    "display-hi": "शुरुआत में"
+                },
+                {
+                    "id": "ID_8b5d4bf7-b5da-42fd-8cab-4204b66b80c5",
+                    "text": "At the end",
+                    "display-mr": "शेवटी",
+                    "display-hi": "अंत में"
+                },
+                {
+                    "id": "ID_f50ad4ab-63bc-4fe4-8c6d-920624bca715",
+                    "text": "Throughout",
+                    "display-mr": "पूर्णवेळ",
+                    "display-hi": "पूरे समय"
+                }
+            ]
+        },
+        {
+            "id": "ID_43c83dad-b404-49ea-af8c-8728ae93b352",
+            "text": "How do you describe the nature of painful urination?",
+            "display-mr": "वेदनादायक लघवीचे स्वरूप कसे वर्णन कराल?",
+            "display-hi": "आप पेशाब करते समय होने वाले दर्द के बारे में कैसे बताएंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d24e1e5-e2d3-43b3-a813-26841e458c56",
+                    "text": "Burning",
+                    "display-mr": "जळजळणे",
+                    "display-hi": "जलन"
+                },
+                {
+                    "id": "ID_03aa26eb-8b91-4425-9b90-0f89bca80c15",
+                    "text": "Stinging",
+                    "display-mr": "डंख मारल्यासारख",
+                    "display-hi": "चुभन"
+                },
+                {
+                    "id": "ID_db9c1265-b285-4841-addc-37d4b8721034",
+                    "text": "Discomfort",
+                    "display-mr": "अस्वस्थता",
+                    "display-hi": "असुविधा"
+                }
+            ]
+        },
+        {
+            "id": "ID_9a48d258-0a94-4846-b555-a72469b96f50",
+            "text": "How severe is the pain ?",
+            "display-mr": "वेदना किती तीव्र आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_da38bcc5-53c8-457f-aa88-1a87d281a2eb",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than  3)",
+                    "display-hi": "हल्का दर्द (1 से less than  3)"
+                },
+                {
+                    "id": "ID_ca2c310f-5d01-4694-8a6f-9ce1bf01fa5f",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than  5)",
+                    "display-hi": "मध्यम दर्द (3 से less than  5)"
+                },
+                {
+                    "id": "ID_aff7da3f-fd8e-4777-abfc-2b2080f7c88e",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than  7)",
+                    "display-hi": "गंभीर दर्द (5 से less than  7)"
+                },
+                {
+                    "id": "ID_3518e683-cdf5-4465-8032-04dae501df2a",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "तीव्र वेदना (7 ते less than  9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than  9)"
+                },
+                {
+                    "id": "ID_feb7d089-bae0-4685-b0f7-4ea9c23853f6",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_85a6476d-aae9-4416-b232-e86a9b905c51",
+            "text": "How is the pain on urination progressing?",
+            "display-mr": "लघवी करताना वेदनेमध्ये काही बदल?",
+            "display-hi": "पेशाब करने पर दर्द में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_18449ad5-99d5-45ba-a5b2-dac7e1cd25db",
+                    "text": "Increasing",
+                    "display-mr": "वाढवत आहे",
+                    "display-hi": "बढ़ रहा है"
+                },
+                {
+                    "id": "ID_8dad7acf-a56d-4f60-9a7d-3711320a506e",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घट रहा है"
+                },
+                {
+                    "id": "ID_6ce92db4-6d19-471b-95f2-3d61b9608a38",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार"
+                },
+                {
+                    "id": "ID_f6ea558f-902a-424e-8418-671542a6f1da",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_a8783825-7913-4057-9d28-568c5ed2a3f1",
+            "text": "What is the timing pattern of Painful urination during a 24 hr cycle?",
+            "display-mr": "24 तासांच्या चक्रात वेदनादायक लघवीचा टाइमिंग पॅटर्न काय आहे?",
+            "display-hi": "24 घंटे के चक्र के दौरान दर्दनाक पेशाब का समय पैटर्न क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6c643abc-5953-4bd6-9523-fdde43645c59",
+                    "text": "Constant pain",
+                    "display-mr": "सतत वेदना",
+                    "display-hi": "लगातार दर्द"
+                },
+                {
+                    "id": "ID_ce444a6d-2a3d-4fa3-ab65-34731cad93b1",
+                    "text": "Intermittent pain (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "रुक-रुककर (आता और जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_0e815d89-aedd-45c6-8cc6-69d5b939715b",
+            "text": "Does the pain on urination move to other parts of the body?",
+            "display-mr": "वेदना शरीराच्या इतर भागात जातात का?",
+            "display-hi": "क्या पेशाब करते समय दर्द शरीर के अन्य हिस्सों तक भी फैल जाता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_4d082cfd-ee92-4c4b-b4ae-fa1709e52646",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_36ef0796-1301-47e2-9407-0f3c64c629ec",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_5515f7aa-235c-4526-9d17-e5daad232f14",
+                            "text": "The pain moves to",
+                            "display-mr": "वेदना पुढे सरकते",
+                            "display-hi": "दर्द किस तरफ बढ़ता है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_4aeba9ef-7f0c-4180-be97-60138a2f3c57",
+                                    "text": "Urethral opening",
+                                    "display-mr": "मूत्रमार्ग सुरुवातीचा भाग",
+                                    "display-hi": "युरेथ्रल ओपनिंग या पेशाबमार्ग का छिद्र"
+                                },
+                                {
+                                    "id": "ID_966107ff-1672-440f-a4d3-8f03de521358",
+                                    "text": "Groin",
+                                    "display-mr": "मांडीचा सांधा",
+                                    "display-hi": "कमर का निचला हिस्सा (जघन प्रदेश)"
+                                },
+                                {
+                                    "id": "ID_0859dc1b-9347-4e4a-a839-34bc42a265ef",
+                                    "text": "Pubic area",
+                                    "display-mr": "जनांग क्षेत्र",
+                                    "display-hi": "जनांग क्षेत्र या प्यूबिक एरिया"
+                                },
+                                {
+                                    "id": "ID_9de94594-4145-4eb8-94c2-7e55a64738af",
+                                    "text": "Flank",
+                                    "display-mr": "पार्श्व",
+                                    "display-hi": "पसलियां"
+                                },
+                                {
+                                    "id": "ID_b2921c93-13f9-4a67-a383-e12e57488296",
+                                    "text": "Lower back",
+                                    "display-mr": "पाठीचा खालील भाग",
+                                    "display-hi": "कमर के निचले हिस्से"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_c8a3b5a7-c6b9-4d5c-bee1-d90e9913476f",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपमें निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_76db5800-f10a-4b64-be33-f5851acff7a2",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीमध्ये रक्त",
+                    "display-hi": "पेशाब में खून आना"
+                },
+                {
+                    "id": "ID_56394f1a-25b7-4d67-9489-1738af9d4bfb",
+                    "text": "Frequency of urination",
+                    "display-mr": "लघवीची वारंवारता",
+                    "display-hi": "बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_3db3c97b-8e09-4694-8f68-c21aa712e4c1",
+                    "text": "Urinary urgency",
+                    "display-mr": "तातडीने लघवी करण्याची गरज/ईच्छा",
+                    "display-hi": "पेशाब आने की जल्दी"
+                },
+                {
+                    "id": "ID_07bffc90-256d-4395-9e81-14542c71d34f",
+                    "text": "Urinary hesitancy",
+                    "display-mr": "लघवीचा संकोच",
+                    "display-hi": "पेशाब संबंधी झिझक"
+                },
+                {
+                    "id": "ID_3bfc3a94-e068-4014-b4fc-f55787773b16",
+                    "text": "Poor stream of urine",
+                    "display-mr": "लघवीचा कमी वेगाचा प्रवाह",
+                    "display-hi": "पेशाब की धीमी धार"
+                },
+                {
+                    "id": "ID_1ccc9602-db8a-482b-be89-6d80e43218ae",
+                    "text": "Terminal dribbling of urine",
+                    "display-mr": "शेवटी थेंब थेंब लघवी वाहणे",
+                    "display-hi": "पेशाब का अंत में टपकना"
+                },
+                {
+                    "id": "ID_051db870-af5a-4890-98ec-82a97d1c741e",
+                    "text": "Flank pain",
+                    "display-mr": "पार्श्वभाग वेदना",
+                    "display-hi": "पसलियों में दर्द"
+                },
+                {
+                    "id": "ID_fb9eb32d-a16e-4376-bf9f-da9b9e00ad29",
+                    "text": "History of unprotected sexual activity",
+                    "display-mr": "असुरक्षित लैंगिक क्रियाकलापांचा इतिहास",
+                    "display-hi": "असुरक्षित यौन गतिविधि का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_291bd53e-61f7-4886-8b62-0995bf1b23ff",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_79abfbd2-86c8-4f9e-91db-3831e609e097",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_6530ce19-b022-4f1d-a2e7-28a533a02f45",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_516654f8-5608-4e13-b60b-b24df6fbaaab",
+                    "text": "Chills & rigors",
+                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
+                    "display-hi": "ठंड और कंपकंपी"
+                },
+                {
+                    "id": "ID_3961af03-75c1-4840-8ddf-2121c3aaf910",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_1914e557-60ca-4886-a8bc-601ade5661c7",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ में दर्द"
+                },
+                {
+                    "id": "ID_671d3934-90de-4b4f-95f5-43b3479ac329",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_14db803e-741a-42d8-a369-43f9314f85f0",
+                    "text": "Discharge from penis",
+                    "display-mr": "पुरुषाचे जननेंद्रिय पासून स्त्राव",
+                    "display-hi": "लिंग से तरल का निकलना"
+                },
+                {
+                    "id": "ID_d9d6c415-d3f1-43a3-abf7-81c6a5cfaaf0",
+                    "text": "Vaginal discharge",
+                    "display-mr": "योनिमार्गाचा स्त्राव",
+                    "display-hi": "योनि से तरल का निकलना"
+                },
+                {
+                    "id": "ID_be97607d-7055-4206-a338-63e2addf5c15",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_df9c8673-1f1f-46f1-9260-6b0a8fc7530a",
+                    "text": "Diarrhea",
+                    "display-mr": "अतिसार",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_7824478e-d9ad-426c-b15e-5835fb55ce32",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_475256a8-0d08-40eb-8724-eaa28cbda93d",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7ad8b9da-ca3b-450c-954c-6fe43a1bca37",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_08322250-539e-4dd4-b441-265f5669fcce",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_167b0484-2aa1-429c-a320-0c455f509da2",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_953df9f7-d054-4bba-aee3-443e657d3ba2",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_26b772bb-6f3b-4b63-a12b-b8eec00aa8b0",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

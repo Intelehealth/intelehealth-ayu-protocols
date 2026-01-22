@@ -1,0 +1,427 @@
+{
+    "id": "ID_7930f04f-72f7-4cee-9d71-4c575a56863e",
+    "text": "Snake bite",
+    "engineVersion": "3.0",
+    "display-mr": "साप चावणे / सर्पदंश",
+    "display-hi": "सांप का काटना",
+    "options": [
+        {
+            "id": "ID_03340856-307c-4a59-a0e6-0489a1755393",
+            "text": "When did the snake bite?",
+            "display-mr": "तुम्हाला साप कधी चावला?",
+            "display-hi": "सांप ने कब काटा?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f6921f10-f00d-463f-9b97-7875671659df",
+                    "text": "When did the snake bite?",
+                    "display-mr": "तुम्हाला साप कधी चावला?",
+                    "display-hi": "सांप ने कब काटा?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_0c5eb3bb-4bfc-4555-8ad9-c39fbfbcf5f6",
+            "text": "What part of the body did it bite?",
+            "display-mr": "तो शरीराच्या कोणत्या भागाला चावला?",
+            "display-hi": "उसने शरीर के किस अंग पर काटा?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_5dc43681-a2ab-47d4-851e-184d6dda8e4f",
+                    "text": "Left leg",
+                    "display-mr": "डावा पाय",
+                    "display-hi": "बायां पैर"
+                },
+                {
+                    "id": "ID_efb49d8b-a275-4949-a852-16aa99a089e4",
+                    "text": "Right leg",
+                    "display-mr": "उजवा पाय",
+                    "display-hi": "दायां पैर"
+                },
+                {
+                    "id": "ID_f37f7d2e-4d4a-41ae-8f66-bc448ce3a805",
+                    "text": "Left hand",
+                    "display-mr": "डावा हात",
+                    "display-hi": "बायां हाथ"
+                },
+                {
+                    "id": "ID_1365eba6-fc3e-4ba2-b609-46268f2948ad",
+                    "text": "Right hand",
+                    "display-mr": "उजवा हात",
+                    "display-hi": "दायां हाथ"
+                },
+                {
+                    "id": "ID_d9387ec5-cadd-4cf1-a2c6-e671d65281ea",
+                    "text": "Front of body",
+                    "display-mr": "शरीराचा पुढचा भाग",
+                    "display-hi": "शरीर का अगला भाग"
+                },
+                {
+                    "id": "ID_040dca58-8eed-4868-b333-de43c5a15202",
+                    "text": "Back of body",
+                    "display-mr": "शरीराच्या मागील बाजूस",
+                    "display-hi": "शरीर का पिछला भाग"
+                },
+                {
+                    "id": "ID_b6a494fa-a55f-4fcd-97d5-8b29b3e14fec",
+                    "text": "Head",
+                    "display-mr": "डोके",
+                    "display-hi": "सिर"
+                },
+                {
+                    "id": "ID_eb829d28-5368-4c36-8ed0-58e61f74fd8b",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_7462f0cf-fa62-453f-8c10-09627cf1d8ce",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_ab1e18ca-c8d4-42b0-a1a9-0143ceedcb55",
+            "text": "Was the bite area washed and cleaned?",
+            "display-mr": "जिथे तो चावला ती जागा धुऊन स्वच्छ केली होती का?",
+            "display-hi": "क्या काटने वाले स्थान को धोया और साफ किया गया था?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_10b65f9f-3d7e-4011-9a4b-bf6d2311e50f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_28f85116-799d-4259-9456-50570841a551",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_dfe5233c-788d-4c5a-8287-18adb4827315",
+            "text": "Did you have had the following symptoms after snake bite?",
+            "display-mr": "साप चावला त्या जागेवर खालील वैशिष्ट्ये आहेत का?",
+            "display-hi": "क्या आपको सांप के काटने के बाद निम्नलिखित लक्षण हुए थे?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4dd94433-754b-4799-82a9-9cb15b6a20a4",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_b9dd9ed8-deed-4014-9620-25bb21640742",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_b338832c-e6c4-4e62-b24b-5fc2402d77c5",
+                    "text": "Bleeding",
+                    "display-mr": "रक्तस्त्राव",
+                    "display-hi": "खून निकलना"
+                },
+                {
+                    "id": "ID_26084e57-3d9b-49e0-8825-f7cfc8ca2276",
+                    "text": "Numbness",
+                    "display-mr": "बधीरपणा",
+                    "display-hi": "सुन्नता"
+                },
+                {
+                    "id": "ID_dd272fc1-d6aa-49b0-bfbf-a042c27d1b9c",
+                    "text": "Swelling",
+                    "display-mr": "सूज येणे",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_c7731467-7042-4d4a-94b6-578ce32789f1",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_bd05b343-df7e-4b5f-8b72-0d347b85efc2",
+                    "text": "Ulceration",
+                    "display-mr": "व्रण",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_fdd46ef7-3661-486d-8f29-b747d47a5708",
+                    "text": "Fang marks",
+                    "display-mr": "तीक्ष्ण दातांच्या खुणा",
+                    "display-hi": "दांत के निशान"
+                },
+                {
+                    "id": "ID_83960086-731e-467a-805e-02a963430045",
+                    "text": "Bruise",
+                    "display-mr": "जखम",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_df72f6fb-a717-4986-b465-22ac230e1193",
+                    "text": "Blisters",
+                    "display-mr": "फोड",
+                    "display-hi": "छाले"
+                },
+                {
+                    "id": "ID_36962593-5856-4f22-ae14-c2e353247ba5",
+                    "text": "Others",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e25c292b-277d-4f65-a257-24d031500d80",
+            "text": "How severe is the pain?",
+            "display-mr": "वेदना किती गंभीर आहे?",
+            "display-hi": "दर्द कितना अधिक है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0d0c601a-8959-4088-b324-70f290b84384",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                },
+                {
+                    "id": "ID_005b408d-a9ff-4018-89ed-e3bfa9f12246",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                },
+                {
+                    "id": "ID_6ef7faa5-205a-4de9-8375-432b901a5266",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                },
+                {
+                    "id": "ID_960f2b41-3af9-4978-9b64-7caa9908da6a",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "खूप तीव्र वेदना (7 ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than 9)"
+                },
+                {
+                    "id": "ID_29be7b3b-852e-4eca-827e-9ac28f2139c5",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "शक्य आहे तितक्या सर्वात जास्त वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_79e3a011-7575-452c-8700-c4ffbaa9b38d",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपके निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_5fe675f8-7549-4c8c-a431-abac6411aba8",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_a160f4e0-02ea-42fb-98c5-528fab29e9b6",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_2bde0d12-3fcb-46b2-b377-cfa2ae528cd7",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_53b828ef-592d-4be5-9cd0-6c604137c032",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायू कमकुवत होणे",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_23636d5c-7576-4c86-bc15-b777ec74b8cb",
+                    "text": "Restlessness",
+                    "display-mr": "अस्वस्थता",
+                    "display-hi": "बेचैनी"
+                },
+                {
+                    "id": "ID_8bb00063-d00d-4e42-9823-f1c908533134",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_61917534-145a-409c-9020-0108629db809",
+                    "text": "Palpitation",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_3a052eb8-1629-42e3-a0e7-83979f215e24",
+                    "text": "Blurred vision",
+                    "display-mr": "अंधुक दृष्टी",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_0363fa4b-4018-4a07-a38d-ee67e7a8a9d1",
+                    "text": "Drowsiness",
+                    "display-mr": "ग्लानी",
+                    "display-hi": "उनींदापन"
+                },
+                {
+                    "id": "ID_94278779-518c-41ef-a1df-ff9dd4d0f109",
+                    "text": "Gum bleeding",
+                    "display-mr": "हिरड्यातून रक्तस्त्राव होणे",
+                    "display-hi": "मसूड़ों से खून आना"
+                },
+                {
+                    "id": "ID_4377b4a3-b090-453f-a168-be2a859713ca",
+                    "text": "Nose bleeding",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_0d26482f-634b-47cf-9cb4-fea7220ffd45",
+            "text": "Did you have any of these symptoms after snake bite ?",
+            "display-mr": "साप चावल्यानंतर तुम्हाला खालील लक्षणे आढळली का?",
+            "display-hi": "क्या सांप के काटने के बाद आपको निम्नलिखित लक्षण दिखाई दिए?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_e672827e-481e-4509-be2d-a1bde2ad1f06",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_877b46e9-8aa9-412d-8f0a-fc2bccbe2a92",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_ee98ea11-0c21-4ff8-96a5-e5638f6a0389",
+                    "text": "Fainting",
+                    "display-mr": "मूर्च्छा येणे",
+                    "display-hi": "बेहोशी"
+                },
+                {
+                    "id": "ID_1be82684-2d4b-497b-8f63-73d92311c3d4",
+                    "text": "Numbness in mouth",
+                    "display-mr": "तोंडात बधिरता",
+                    "display-hi": "मुंह में सुन्नपन"
+                },
+                {
+                    "id": "ID_32c33e80-a3a6-4bf6-a519-a9a9dc580526",
+                    "text": "Swelling of face",
+                    "display-mr": "चेहऱ्यावर सूज येणे",
+                    "display-hi": "चेहरे पर सूजन"
+                },
+                {
+                    "id": "ID_976f6b92-bbeb-4266-a2b8-7efa8c379928",
+                    "text": "Vomiting of blood",
+                    "display-mr": "रक्ताच्या उलट्या",
+                    "display-hi": "खून की उल्टी"
+                },
+                {
+                    "id": "ID_5fad3c4c-0f8f-4509-bddb-7790a2ab08e0",
+                    "text": "Dark urine",
+                    "display-mr": "गडद लघवी होणे",
+                    "display-hi": "गहरे रंग का पेशाब"
+                },
+                {
+                    "id": "ID_9d46ff21-8704-4e90-93d4-07751dae2a73",
+                    "text": "Drooping of eye lids",
+                    "display-mr": "डोळ्यांच्या पापण्या खाली पडणे",
+                    "display-hi": "आंखों की पलकें झुकना"
+                },
+                {
+                    "id": "ID_bfd5ce06-6dd5-46fe-9381-fd5260f0f2fe",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_6e7f0ed4-869b-4317-bc1a-3cbb5ab95a2d",
+                    "text": "Others",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_e945d437-a8d2-4d30-adfa-c797dacb0999",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1b5c9a90-1838-427e-bdbd-01e259abface",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_6342979d-235d-4c7a-af18-bfcd498aa8d7",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_74cb736a-2b92-41c6-a637-eb9cd3549ab8",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_e388edb2-e1b3-41c9-b26f-84c61a9d4fe0",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_0ea9525d-d71e-46c8-9d42-dabf7555835f",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

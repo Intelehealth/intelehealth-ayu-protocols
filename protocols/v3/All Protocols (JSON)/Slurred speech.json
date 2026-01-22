@@ -1,0 +1,569 @@
+{
+    "id": "ID_fdab25b6-7785-4244-a1d5-51d23515af59",
+    "text": "Slurred speech",
+    "engineVersion": "3.0",
+    "display-mr": "अस्पष्ट बोलणे",
+    "display-hi": "बोलने में दिक्कत",
+    "options": [
+        {
+            "id": "ID_43470a17-411d-4693-9623-44ed97035055",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fbd9e2ad-df56-4fc2-b8e2-948cacf0a057",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_bf344baa-1470-43bb-856c-90886dd501d3",
+            "text": "How fast did slurred speech develop?",
+            "display-mr": "अस्पष्ट बोलण्याची समस्या किती वेगाने वाढली?",
+            "display-hi": "बोलने में दिक्कत कितनी तेजी से बढ़ी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_33692130-6670-4cb3-a640-03be181efa7a",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_fa37fba5-aa67-4ac3-8dc9-f6fd5605ade1",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_979cc8ba-455c-41c7-837a-6b121e672628",
+            "text": "How can you describe the slurred speech?",
+            "display-mr": "तुमच्या अस्पष्ट बोलण्याच्या समस्येचे वर्णन कसे कराल?",
+            "display-hi": "आप बोलने में दिक्कत का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d70ca169-97a1-4543-8ebc-9e134024eb79",
+                    "text": "Slow speech",
+                    "display-mr": "हळूहळू बोलणे",
+                    "display-hi": "धीमी आवाज"
+                },
+                {
+                    "id": "ID_ac327126-77bf-4547-975a-046c03917289",
+                    "text": "Rapid speech",
+                    "display-mr": "भरभर बोलणे",
+                    "display-hi": "तेज आवाज"
+                },
+                {
+                    "id": "ID_3a63fda8-0280-428b-bee5-8990d55745a1",
+                    "text": "Harsh speech",
+                    "display-mr": "कर्कश्श बोलणे",
+                    "display-hi": "कठोर आवाज"
+                },
+                {
+                    "id": "ID_27b7f95d-a2d8-4e7e-827a-88609b703713",
+                    "text": "Nasal speech",
+                    "display-mr": "नाकातून बोलणे",
+                    "display-hi": "नाक से आवाज"
+                },
+                {
+                    "id": "ID_1a1a2c0d-ada8-4db9-bca4-fe31224f2189",
+                    "text": "Jerky speech",
+                    "display-mr": "शब्द गिळणे",
+                    "display-hi": "झटकेदार आवाज"
+                },
+                {
+                    "id": "ID_87b2737d-3eb8-4eb0-bc2a-bc401b8830b1",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_87599867-95be-4504-b83b-69e06e93affa",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_33d3a86d-e942-42d0-bee9-dcf9a5491302",
+            "text": "Do you have any prior history to slurred speech?",
+            "display-mr": "अस्पष्ट बोलण्याच्या त्रासाआधी तुम्हाला त्यासंबंधी काही पूर्वइतिहास होता का ?",
+            "display-hi": "क्या आपको बोलने में दिक्कत का कोई पुराना इतिहास है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_dadcbb87-5e36-4a26-a68b-84e63a4a5a7b",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3fa52d90-b28b-478a-b1c5-43afb6fa0e43",
+                    "text": "Head inury",
+                    "display-mr": "डोक्याला दुखापत",
+                    "display-hi": "सिर में चोट"
+                },
+                {
+                    "id": "ID_f01437f6-e3a2-4652-90bb-9d1e7a475be5",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य"
+                }
+            ]
+        },
+        {
+            "id": "ID_cb0bc1ca-cbd7-4796-9b73-626ef33c1552",
+            "text": "Does slurred speeach have any pattern during a 24 hr cycle?",
+            "display-mr": "दिवसाच्या 24 तासांमध्ये अस्पष्ट बोलण्याचे काही विशिष्ट चक्र आहे का?",
+            "display-hi": "क्या बोलने में दिक्कत का 24 घंटे के चक्र में कोई पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_a231430f-ef9f-4a50-a9e8-ae98ac3fd4dc",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_6e677492-719d-430e-8771-3bb47ba078b9",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)",
+                    "options": [
+                        {
+                            "id": "ID_8aa80c86-12ba-44b7-9b88-6a96ed7f3f85",
+                            "text": "When do you have the slurring of speech worst?",
+                            "display-mr": "तुम्हाला अस्पष्ट बोलण्याचा त्रास सर्वात जास्त कधी होते?",
+                            "display-hi": "आपको बोलने में दिक्कत कब सबसे ज्यादा होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_1c7444a3-f913-452b-a857-117682038051",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_96f39be6-33b2-4dfe-a82a-8f50cc486860",
+                                    "text": "Afternoon",
+                                    "display-mr": "दुपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_df1cbd20-3782-4fa0-9235-4ceae20cc64d",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळी",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_7916a6fe-2898-4495-b44f-d81bb2fe93b7",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_1f8e8ae8-7f05-43fb-a926-a64990a52037",
+                            "text": "How long does the slurring of speech last?",
+                            "display-mr": "अस्पष्ट बोलण्याचा त्रास/ पुटपुटण्याचा त्रास किती वेळ राहतो?",
+                            "display-hi": "बोलने में दिक्कत कितने समय तक रहती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_353d98e5-dc34-4f6a-a7ba-1872773d4136",
+                                    "text": "A few seconds",
+                                    "display-mr": "काही सेकंद",
+                                    "display-hi": "कुछ सेकंड"
+                                },
+                                {
+                                    "id": "ID_5249a6a4-ce0f-4b97-a450-7b405d4dd305",
+                                    "text": "Afew minutes",
+                                    "display-mr": "काही मिनिटे",
+                                    "display-hi": "कुछ मिनट"
+                                },
+                                {
+                                    "id": "ID_54e55d95-9640-4c69-a8f1-04b3f905816b",
+                                    "text": "A few hours",
+                                    "display-mr": "काही तास",
+                                    "display-hi": "कुछ घंटे"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_4c5c7a5d-4630-4dfa-9a45-cf998257853f",
+            "text": "What does trigger or worsen the slurred speech?",
+            "display-mr": "अस्पष्ट बोलण्याचा त्रास कशामुळे सुरु होतो किंवा वाढतो?",
+            "display-hi": "बोलने में दिक्कत किस वजह से होती है या बिगड़ती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d5df6f46-7739-4356-8126-ff573687a8a8",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_403dcb7a-cb9c-43ab-ba4b-d0f1eff55d42",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_d9edff09-dc6a-4608-9836-4916271277bd",
+                    "text": "Anxiety",
+                    "display-mr": "अस्वस्थता",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_e6f4ab4c-b0b6-44ff-a63f-983aeecabf3d",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_9b59b6d6-0f20-4c77-a072-1a92b29a7b8c",
+                    "text": "Lack of sleep",
+                    "display-mr": "झोप पूर्ण न झाल्यास",
+                    "display-hi": "नींद की कमी"
+                },
+                {
+                    "id": "ID_8f3ccf0c-6d54-4a6e-8259-b1b8d260d591",
+                    "text": "Speaking quickly",
+                    "display-mr": "भराभर बोलणे",
+                    "display-hi": "तेजी से बोलना"
+                },
+                {
+                    "id": "ID_447d5f77-b2b5-4a7d-9525-9670e4b82618",
+                    "text": "Prolonged speaking",
+                    "display-mr": "खूप वेळ बोलणे",
+                    "display-hi": "लंबे समय तक बोलना"
+                },
+                {
+                    "id": "ID_1df8cfed-79e2-40c2-ab45-85882a8323e7",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_caa3b4c5-babb-419f-a490-257c539b0b9a",
+            "text": "What does make the slurred speech better?",
+            "display-mr": "अस्पष्ट बोलण्याचा त्रास कधी सुधारतो?",
+            "display-hi": "बोलने में दिक्कत को क्या बेहतर बनाता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f8864925-bb18-455a-af5c-3de9dbde2946",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_bed4f581-8668-450c-83c5-5df4e084f045",
+                    "text": "Rest",
+                    "display-mr": "आराम",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_b401f294-1aa5-4920-b074-04e34aa97696",
+                    "text": "Speaking slowly",
+                    "display-mr": "हळूहळू बोलणे",
+                    "display-hi": "धीरे-धीरे बोलना"
+                },
+                {
+                    "id": "ID_eb0cea64-d071-40fe-9887-47ecfe1f30a0",
+                    "text": "Speaking deliberately",
+                    "display-mr": "जाणीवपूर्वक बोलणे",
+                    "display-hi": "जानबूझकर बोलना"
+                },
+                {
+                    "id": "ID_8b196a5d-bbf2-4500-abac-4fae0158bafe",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_008e5d27-df01-489b-8b95-893f07c664ba",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4f724653-ca1f-4b48-bcb0-bd3dcd2d7a52",
+            "text": "How is the slurred speech progressing?",
+            "display-mr": "अस्पष्ट बोलण्या च्या त्रासामध्ये मध्ये काही बदल झाला का?",
+            "display-hi": "बोलने में दिक्कत में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7a37f5d7-57c4-422b-bf11-4d76e2daec2b",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_30d2d1c7-40cc-43cc-b61d-97dabcc40c24",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_f3eb33cc-beeb-4cf4-af73-046bc0b51481",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_94ec7996-1c7d-4a77-9407-cd012bb63c77",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_c0e8af02-4ef6-4f5b-b5c5-6423eec76c8b",
+            "text": "How severe is the slurred speech?",
+            "display-mr": "अस्पष्ट बोलण्याचा त्रास किती तीव्र आहे?",
+            "display-hi": "बोलने में दिक्कत कितनी अधिक है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ebd8b792-30b0-4d32-8d1b-9be17d475519",
+                    "text": "Mild (not noticeable)",
+                    "display-mr": "कमी (लक्षात न येण्याजोगा)",
+                    "display-hi": "हल्का (ध्यान देने योग्य नहीं)"
+                },
+                {
+                    "id": "ID_3aea09c8-a3fb-417b-86d0-73a4e8d87cb6",
+                    "text": "Moderate (noticeable)",
+                    "display-mr": "मध्यम ( लक्षात येण्याजोगा)",
+                    "display-hi": "मध्यम (ध्यान देने योग्य)"
+                },
+                {
+                    "id": "ID_f731bac3-bed4-4fb1-9552-58b3fc5f40a9",
+                    "text": "Severe (affects communication)",
+                    "display-mr": "गंभीर (संवादावर परिणाम होणारा)",
+                    "display-hi": "गंभीर (संचार को प्रभावित करता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_020a11a4-be6b-4279-8191-a51a1f6b9889",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a0c201e8-f74b-4635-87f7-c31cec72a701",
+                    "text": "Fits",
+                    "display-mr": "फिट येणे",
+                    "display-hi": "दौरे"
+                },
+                {
+                    "id": "ID_bdf373d7-6894-4cd5-9b71-d16d7a383c7d",
+                    "text": "Deviation of mouth",
+                    "display-mr": "तोंडाची विचित्र हालचाल",
+                    "display-hi": "मुंह का टेढ़ापन"
+                },
+                {
+                    "id": "ID_888f5c0e-3561-427b-acf7-6322792c4579",
+                    "text": "Drooling of saliva",
+                    "display-mr": "लाळ गळणे",
+                    "display-hi": "लार टपकना"
+                },
+                {
+                    "id": "ID_e35d57aa-8381-47d3-83b2-3ed2369da7bb",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातापाय गळून जाणे",
+                    "display-hi": "अंगों में कमजोरी"
+                },
+                {
+                    "id": "ID_add9f35f-5a37-45df-b6b3-474cede5db87",
+                    "text": "Difficulty swallowing",
+                    "display-mr": "गिळण्यास त्रास होणे",
+                    "display-hi": "निगलने में दिक्कत"
+                },
+                {
+                    "id": "ID_e4b1982c-a312-4fca-86b5-888e89c78ce2",
+                    "text": "Loss of balance",
+                    "display-mr": "बॅलन्स जाणे",
+                    "display-hi": "संतुलन खोना"
+                },
+                {
+                    "id": "ID_df94071a-beab-4c97-820b-8bd6c4a06160",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाज बसणे",
+                    "display-hi": "आवाज में कर्कशता"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_98aed05c-2560-4977-8d33-a8afb263ff43",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_f846ea44-1bb0-4bde-9b1e-67ac006ae2b4",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_bbae54c9-8f66-4efd-9290-98e32e360007",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_9d163016-e8be-4335-84fb-0da1ea21eb17",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_9d74c1a2-fd58-42bb-9a71-147c7f82f5a3",
+                    "text": "Blurred vision",
+                    "display-mr": "दृष्टी धूसर होणे",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_1b7c47b9-3c5f-48ee-a89b-8200a35be1ee",
+                    "text": "Double vision",
+                    "display-mr": "एक गोष्ट दोनदोन दिसणे",
+                    "display-hi": "दोहरी दृष्टि"
+                },
+                {
+                    "id": "ID_b1165f07-a0aa-4fbf-95b1-8430d0ded5c1",
+                    "text": "Confusion",
+                    "display-mr": "गोंधळ/ संभ्रम",
+                    "display-hi": "भ्रम"
+                },
+                {
+                    "id": "ID_8d4311e9-cd4d-4348-81f3-2b36994db2be",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_aaaffa97-ac1e-4f8e-8717-6bee37cc213b",
+                    "text": "Loss of consciousness",
+                    "display-mr": "शुध्द हरपणे",
+                    "display-hi": "अचेत हो जाना"
+                },
+                {
+                    "id": "ID_4446b515-2c93-4dc6-bc0b-eeecbf7fe3cd",
+                    "text": "Tremors",
+                    "display-mr": "हादरा/ झटका",
+                    "display-hi": "कंपन"
+                },
+                {
+                    "id": "ID_6875796c-82dc-4566-8526-85df4c29019a",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_a08ede42-f835-4773-9c07-8ac0a5840342",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_4f549636-3923-4250-85d7-ad77611d9147",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d1b60e5c-7083-46d8-9806-39ade126f488",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_bed301ce-7e97-495d-ba4d-0f1c84ef8341",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_da42c9c9-b238-47b8-9237-a11feb157d70",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_b1be63c8-6778-4ead-b8c6-d304b1787507",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_f96cb7c8-e23f-4e5b-a5e8-ba73bf2334c0",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_63e2d00f-6a30-4010-83f5-1cc7c3c3581a",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,689 @@
+{
+    "id": "ID_135baabe-e92a-4ff9-8511-878c79fa6c38",
+    "text": "Swelling of elbow joint",
+    "engineVersion": "3.0",
+    "display-mr": "कोपराच्या सांध्याला सूज येणे",
+    "display-hi": "कोहनी के जोड़ में सूजन",
+    "options": [
+        {
+            "id": "ID_8e89aa3c-b379-45cd-81c2-3c5f725c3f26",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_75e93216-6980-4939-adc1-c21573cb0a20",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_da634717-f202-41a7-aa3a-61b8982eca14",
+            "text": "How fast did the elbow swelling appear?",
+            "display-mr": "कोपराची सूज किती जलद दिसून आली?",
+            "display-hi": "कोहनी में सूजन कितनी जल्दी दिखाई दी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_c94687fc-3004-4017-8d38-c7102d7a6966",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_c84232ad-9881-4a57-8fed-001d9f945a19",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_9f02c808-352e-49b7-b8f2-04053f4aa9d8",
+            "text": "Which elbow joint has the swelling ?",
+            "display-mr": "कोणत्या कोपरच्या सांध्याला सूज आहे?",
+            "display-hi": "किस कोहनी के जोड़ में सूजन है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_06600ecb-dfee-4e8c-b078-bbdf195515ad",
+                    "text": "Left elbow",
+                    "display-mr": "डावा कोपर",
+                    "display-hi": "बाईं कोहनी"
+                },
+                {
+                    "id": "ID_ab661957-ac74-4ade-b0a1-eb20fb6295af",
+                    "text": "Right elbow",
+                    "display-mr": "उजवी कोपर",
+                    "display-hi": "दाहिनी कोहनी"
+                },
+                {
+                    "id": "ID_e144266f-65dc-4dde-a903-f06607aaaa77",
+                    "text": "Both elbows",
+                    "display-mr": "दोन्ही कोपर",
+                    "display-hi": "दोनों कोहनी"
+                }
+            ]
+        },
+        {
+            "id": "ID_313e12d9-8d59-4c3b-a69e-5ec6813eeb15",
+            "text": "Which part of the elbow do you have the swelling?",
+            "display-mr": "कोपराच्या कोणत्या भागाला सूज आली आहे का?",
+            "display-hi": "कोहनी के किस हिस्से में सूजन है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9a639681-9eae-4286-ad73-d42381ae3e9b",
+                    "text": "Front",
+                    "display-mr": "समोर",
+                    "display-hi": "आगे"
+                },
+                {
+                    "id": "ID_1089c169-02cd-42ec-ba8d-1f2aa6e90732",
+                    "text": "Back",
+                    "display-mr": "मागे",
+                    "display-hi": "पीछे"
+                },
+                {
+                    "id": "ID_b8567c1d-ecda-4f97-89b9-780b7e5b6822",
+                    "text": "Outer side",
+                    "display-mr": "बाहेरील बाजू",
+                    "display-hi": "बाहरी भाग"
+                },
+                {
+                    "id": "ID_0f191f77-720c-4232-8b93-95081acb606e",
+                    "text": "Inner side",
+                    "display-mr": "आतील बाजू",
+                    "display-hi": "भीतरी भाग"
+                },
+                {
+                    "id": "ID_78490c66-a7b9-4816-8b0b-aadf44428a39",
+                    "text": "Entire elbow joint",
+                    "display-mr": "संपूर्ण कोपराचे सांधे",
+                    "display-hi": "पूरी कोहनी का जोड़"
+                }
+            ]
+        },
+        {
+            "id": "ID_9d3bbbf7-6019-4f03-a676-2cdc4ec9bbc4",
+            "text": "Did the elbow swelling develop after any of these events?",
+            "display-mr": "यापैकी कोणत्या घटनेनंतर कोपराला  सूज आली?",
+            "display-hi": "क्या इनमें से किसी घटना के बाद कोहनी में सूजन आई?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_68e873f2-bed2-4f69-8c90-bc5dc078b789",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_163e5c70-8bfc-4f0d-9634-a285cb4ccc24",
+                    "text": "Injury",
+                    "display-mr": "दुखापत",
+                    "display-hi": "चोट"
+                },
+                {
+                    "id": "ID_4a6a7914-b692-4c6e-a2d6-9244f775378c",
+                    "text": "Sprain",
+                    "display-mr": "लचक",
+                    "display-hi": "मोच"
+                }
+            ]
+        },
+        {
+            "id": "ID_3ca502a8-148f-4ff1-8a3e-7a1683d50717",
+            "text": "Do you have pain associated with elbow swelling?",
+            "display-mr": "तुम्हाला कोपराच्या सूजेशी संबंधित वेदना आहेत का?",
+            "display-hi": "क्या आपको कोहनी में सूजन के साथ दर्द भी होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_38d16479-dfb6-42f2-9463-f82e218d839c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_4205dfb4-5cff-4cee-bddf-5a375fff853a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_51363c1b-ff60-4e39-8cb9-ada3a1a39b2c",
+                            "text": "How can you describe the character of elbow pain?",
+                            "display-mr": "आपण कोपर दुखण्याचे वैशिष्ट्य कसे वर्णन करू शकता?",
+                            "display-hi": "आप कोहनी के दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_f3c54e34-7e68-4fb4-84bf-b8b13793ce8f",
+                                    "text": "Don't know",
+                                    "display-mr": "माहीत नाही",
+                                    "display-hi": "पता नहीं"
+                                },
+                                {
+                                    "id": "ID_149c8a70-4760-476c-83c6-008e09a9d506",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळीत वेदना",
+                                    "display-hi": "जलनभरा दर्द"
+                                },
+                                {
+                                    "id": "ID_4e21a062-11b8-491c-8d38-03e65c1e2039",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीक्ष्ण वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_13352a1c-f3cd-42d3-995f-536ffff9bb9f",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "वार दुखणे",
+                                    "display-hi": "चीरे जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_eb798a01-b564-4b57-9cf8-569b8b90253f",
+                                    "text": "Pressure pain",
+                                    "display-mr": "दाब वेदना",
+                                    "display-hi": "दबावयुक्त दर्द"
+                                },
+                                {
+                                    "id": "ID_52bab25a-7c3b-4944-99d1-f72b79814db4",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "निस्तेज वेदनादायक वेदना",
+                                    "display-hi": "धीमा दर्द"
+                                },
+                                {
+                                    "id": "ID_98de42ba-2d0e-4c37-afe4-ef4bc23424df",
+                                    "text": "Throbbing pain",
+                                    "display-mr": "धडधडणारी वेदना",
+                                    "display-hi": "धड़कता हुआ दर्द"
+                                },
+                                {
+                                    "id": "ID_bae594f3-5ad5-4dc0-b864-43a327564cdc",
+                                    "text": "Shooting pain",
+                                    "display-mr": "रुतणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_1529a0fe-4d08-4234-ad07-32e00998bbe4",
+            "text": "How severe is the elbow pain?",
+            "display-mr": "कोपराचे दुखणे किती तीव्र आहे?",
+            "display-hi": "कोहनी में दर्द कितना अधिक है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b4d558ce-325f-4e75-9b33-4f6270faddae",
+                    "text": "Mild pain (1 to less than  3)",
+                    "display-mr": "सौम्य वेदना (1 ते less than 3)",
+                    "display-hi": "हल्का दर्द (1 से less than 3)"
+                },
+                {
+                    "id": "ID_469bfce9-f581-4652-9b4a-24117049335a",
+                    "text": "Moderate pain (3 to less than  5)",
+                    "display-mr": "मध्यम वेदना (3 ते less than 5)",
+                    "display-hi": "मध्यम दर्द (3 से less than 5)"
+                },
+                {
+                    "id": "ID_b59625ee-c096-49b6-9a59-093d9c6215db",
+                    "text": "Severe pain (5 to less than  7)",
+                    "display-mr": "तीव्र वेदना (5 ते less than 7)",
+                    "display-hi": "गंभीर दर्द (5 से less than 7)"
+                },
+                {
+                    "id": "ID_fa4495c6-e01d-4d01-ae60-b7dccb4d672c",
+                    "text": "Very severe pain (7 to less than  9)",
+                    "display-mr": "खूप तीव्र वेदना (7 ते less than 9)",
+                    "display-hi": "बहुत गंभीर दर्द (7 से less than 9)"
+                },
+                {
+                    "id": "ID_3779a50a-e21b-4d1a-a159-9187a4c5f348",
+                    "text": "Worst pain possible (9 to 10)",
+                    "display-mr": "सर्वात वाईट वेदना (9 ते 10)",
+                    "display-hi": "असहनीय दर्द (9 से 10)"
+                }
+            ]
+        },
+        {
+            "id": "ID_6709850d-ed9e-4302-87dd-e357010ca90b",
+            "text": "Does the elbow pain moves to other parts?",
+            "display-mr": "कोपर दुखणे इतर भागांमध्ये पसरते का?",
+            "display-hi": "क्या कोहनी का दर्द दूसरे हिस्सों में भी फैल जाता है?",
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5b8a81e7-b12c-47e6-9650-fd7330f10cdd",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_81d34fc0-0325-4cfc-b7ed-bc389f080451",
+                    "text": "Wrist",
+                    "display-mr": "मनगट",
+                    "display-hi": "कलाई"
+                },
+                {
+                    "id": "ID_0119e0f2-c933-4581-9943-e767617019a8",
+                    "text": "Shoulder",
+                    "display-mr": "खांदा",
+                    "display-hi": "कंधा"
+                },
+                {
+                    "id": "ID_e7c8857d-5a60-4afa-98c9-a02238208cd7",
+                    "text": "Forearm",
+                    "display-mr": "पुढचा हात",
+                    "display-hi": "आगे की भुजा"
+                },
+                {
+                    "id": "ID_20c21ca7-7e1d-46b1-9a6f-a1be9eef1d91",
+                    "text": "Upper arm",
+                    "display-mr": "वरचा हात",
+                    "display-hi": "ऊपरी भुजा"
+                }
+            ]
+        },
+        {
+            "id": "ID_b2dbaf8f-03f4-4af7-af4e-67bf214ac66a",
+            "text": "Do you have any of the local associated features with the elbow swelling?",
+            "display-mr": "तुमच्या कोपरात सूज येण्याशी संबंधित काही स्थानिक लक्षणे आहेत का?",
+            "display-hi": "क्या कोहनी में सूजन के साथ इनमें से कोई समस्याएं जूड़ी हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4d542ab6-92f1-4113-994b-73d5974a4c77",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5f80c9af-5ee3-4ebb-98aa-118e9fee044c",
+                    "text": "Pain on touch",
+                    "display-mr": "पायांना स्पर्श करणे",
+                    "display-hi": "स्पर्श करने पर दर्द"
+                },
+                {
+                    "id": "ID_b9773a59-4599-4a1b-a833-bfc48e3b85c8",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_ca01f4a3-81ff-4e56-90ab-97d25bbba1da",
+                    "text": "Warmth",
+                    "display-mr": "उबदारपणा",
+                    "display-hi": "गर्माहट"
+                },
+                {
+                    "id": "ID_ed6747b1-9589-43a2-b174-221c1e0a80f1",
+                    "text": "Instability",
+                    "display-mr": "अस्थिरता",
+                    "display-hi": "अस्थिरता"
+                },
+                {
+                    "id": "ID_784a43c8-c64a-486c-a147-b73f8816bedc",
+                    "text": "Stiffness",
+                    "display-mr": "कडकपणा",
+                    "display-hi": "कठोरता"
+                },
+                {
+                    "id": "ID_f43b8a2f-1cc1-409d-90f2-e8dd524752e1",
+                    "text": "Locking",
+                    "display-mr": "लॉकिंग",
+                    "display-hi": "लॉकिंग"
+                },
+                {
+                    "id": "ID_a36fd881-8d3b-4bf4-ad6e-2dba85f76209",
+                    "text": "Catching",
+                    "display-mr": "कॅचिंग",
+                    "display-hi": "अटकना"
+                },
+                {
+                    "id": "ID_4de8b6cf-0a9c-4318-b1c0-0a481e8d4d3f",
+                    "text": "Deformity",
+                    "display-mr": "विकृती",
+                    "display-hi": "विकृति"
+                }
+            ]
+        },
+        {
+            "id": "ID_9d9482d9-45eb-4a80-a33d-e273c2395fc0",
+            "text": "How is elbow swelling progressing?",
+            "display-mr": "कोपराच्या सूजेमध्ये काही बदल झाला का?",
+            "display-hi": "कोहनी में सूजन में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6f7c4a7b-2352-41cc-97ab-1b66c559d0a1",
+                    "text": "Increasing",
+                    "display-mr": "वाढणे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_7f7572b0-fab2-426c-a32e-2e64443d160d",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होणे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_e8bc3858-e216-4bed-9b39-e9d0179fc837",
+                    "text": "Recurrent",
+                    "display-mr": "आवर्ती",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_650dc180-55a0-47dc-92c5-e6a6539e3c0b",
+                    "text": "No change",
+                    "display-mr": "बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_7b70a9e4-1de2-4b74-8cd7-3c54304f5a55",
+            "text": "Does the elbow swelling size increase or decrease by any of the activities?",
+            "display-mr": "कोणत्याही क्रियाकलापाने कोपराच्या सूजेचा आकार वाढतो किंवा कमी होतो?",
+            "display-hi": "क्या किसी गतिविधि से कोहनी की सूजन का आकार बढ़ा या घटा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0f1125fb-3d9e-408d-ad04-8595f29d784f",
+                    "text": "None",
+                    "display-mr": "कोणीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3430c8b9-3854-49b6-b905-0c8d6b16e554",
+                    "text": "Bending at elbow joint",
+                    "display-mr": "कोपरच्या सांध्यावर वाकणे",
+                    "display-hi": "कोहनी के जोड़ पर मोड़ना"
+                },
+                {
+                    "id": "ID_07edf083-4915-48b0-9728-42d20bd47f32",
+                    "text": "Stretching elbow joint",
+                    "display-mr": "कोपरच्या सांध्यावर ताण",
+                    "display-hi": "कोहनी के जोड़ को खींचना"
+                },
+                {
+                    "id": "ID_dccb87cb-cb7e-4ed9-b480-35698dbaeb2c",
+                    "text": "Rotating at elbow joint",
+                    "display-mr": "कोपरच्या सांध्यावर फिरणे",
+                    "display-hi": "कोहनी के जोड़ पर घूमाना"
+                }
+            ]
+        },
+        {
+            "id": "ID_0eefe0c9-4bc1-49f8-b447-0f9afadb8639",
+            "text": "Does the elbow swelling affect any of your daily activities?",
+            "display-mr": "कोपर सुजल्याने तुमच्या कोणत्याही दैनंदिन कामांवर परिणाम होतो का?",
+            "display-hi": "क्या कोहनी की सूजन आपके किसी रोजमर्रा के काम को प्रभावित करती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_d0033116-86fb-46b9-96ef-e49a481c5e4c",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_cf63a041-87ac-47fb-84c7-92198f931c57",
+                    "text": "Holding objects",
+                    "display-mr": "वस्तू धरून ठेवणे",
+                    "display-hi": "वस्तुओं को पकड़ना"
+                },
+                {
+                    "id": "ID_dea1429b-8824-4486-9571-c27a79ab7a66",
+                    "text": "Writing",
+                    "display-mr": "लेखन",
+                    "display-hi": "लिखना"
+                },
+                {
+                    "id": "ID_1b8ac4ab-3b5f-4acb-bddc-556928ff5ed6",
+                    "text": "Typing",
+                    "display-mr": "टायपिंग",
+                    "display-hi": "टाइप करना"
+                },
+                {
+                    "id": "ID_5fd0dc1d-ab42-4361-b6f3-d1b8cb7b1109",
+                    "text": "Bending elbow",
+                    "display-mr": "वाकलेले कोपर",
+                    "display-hi": "कोहनी को मोड़ना"
+                },
+                {
+                    "id": "ID_98646c3f-7b44-4680-8506-4888aa9c6aa3",
+                    "text": "Extending elbow",
+                    "display-mr": "कोपर वाढणे",
+                    "display-hi": "कोहनी को फैलाना"
+                }
+            ]
+        },
+        {
+            "id": "ID_0fcd6ac3-b39a-434d-914a-d5e7785220ea",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_312363c9-d993-4913-b0af-e673e151129d",
+                    "text": "Swelling of finger joints",
+                    "display-mr": "बोटांच्या सांध्यांना सूज येणे",
+                    "display-hi": "उंगलियों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_1898d875-c5ee-4428-8806-c10acf114932",
+                    "text": "Swelling of wrist joints",
+                    "display-mr": "मनगटाच्या सांध्यांना सूज येणे",
+                    "display-hi": "कलाई के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_c565e06c-972a-4082-8130-c56a71ac0580",
+                    "text": "Wrist pain",
+                    "display-mr": "मनगटात दुखणे",
+                    "display-hi": "कलाई का दर्द"
+                },
+                {
+                    "id": "ID_b4955b59-771f-4372-b11a-3dd27c0cf265",
+                    "text": "Shoulder pain",
+                    "display-mr": "खांदा दुखणे",
+                    "display-hi": "कंधे का दर्द"
+                },
+                {
+                    "id": "ID_e6003375-d21e-4f4d-be34-79d403c009c9",
+                    "text": "Knee pain",
+                    "display-mr": "गुडघा दुखणे",
+                    "display-hi": "घुटने का दर्द"
+                },
+                {
+                    "id": "ID_119a3d44-55c4-4d47-a125-2158c8105714",
+                    "text": "Swelling of knee joints",
+                    "display-mr": "गुडघ्याच्या सांध्यांना सूज येणे",
+                    "display-hi": "घुटने के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_3ffddcb0-7619-45eb-b361-45e993ef5751",
+                    "text": "Ankle pain",
+                    "display-mr": "घोट्याचे दुखणे",
+                    "display-hi": "टखने का दर्द"
+                },
+                {
+                    "id": "ID_829c91a9-a7b2-41f2-9e36-6fa3d3902b55",
+                    "text": "Swelling of ankle joints",
+                    "display-mr": "घोट्याच्या सांध्यांना सूज येणे",
+                    "display-hi": "टखने के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_e3192970-6d20-4b2a-a889-2b52fc2350ce",
+                    "text": "Swelling of toe joints",
+                    "display-mr": "पायाच्या सांध्याला सूज येणे",
+                    "display-hi": "पैर की उंगलियों के जोड़ों में सूजन"
+                },
+                {
+                    "id": "ID_b182373d-27c9-4a53-8dea-a76116f4d99a",
+                    "text": "Numbness of hand",
+                    "display-mr": "हात सुन्न होणे",
+                    "display-hi": "हाथ का सुन्न होना"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_a179f656-cef7-471f-8447-516315b28d79",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_4681edc4-33b6-4748-a2b8-3373828a070a",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_004ea569-43a7-4e61-8253-e6df947e9146",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_ee5553e4-4461-4a4e-b40f-b83fd9133bba",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_4dbc4571-d8f5-4d5c-ab67-0ca5055aa584",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यात अडचण",
+                    "display-hi": "सांस लेने में तकलीफ"
+                },
+                {
+                    "id": "ID_b6a77509-c160-42f4-b376-319e63e0ae8a",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "सीने में दर्द"
+                },
+                {
+                    "id": "ID_b5fc3156-8b58-4050-8147-03d16fb15def",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येतो",
+                    "display-hi": "रात में पसीना आना"
+                },
+                {
+                    "id": "ID_f4427530-3070-42d1-a647-656a3cb8124a",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_41146b91-a73b-467d-9455-e1ac2e927946",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_5253ea3e-39c8-4a41-a0b1-7e17cfa8eed4",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "धड़कन तेज होना"
+                },
+                {
+                    "id": "ID_e380a801-790a-4055-b4a3-b31faf3c67f9",
+                    "text": "Eye redness",
+                    "display-mr": "डोळे लाल होणे",
+                    "display-hi": "आंखों का लाल होना"
+                },
+                {
+                    "id": "ID_ea1fe77c-6691-4a8d-afd8-64d85cebfaa0",
+                    "text": "Photosensitivity",
+                    "display-mr": "प्रकाशसंवेदनशीलता",
+                    "display-hi": "सूरज की रोशनी से चिढ़"
+                },
+                {
+                    "id": "ID_399b019a-651e-4578-b18b-4d54647b4098",
+                    "text": "Fatigue (general weakness)",
+                    "display-mr": "थकवा (सामान्य कमजोरी)",
+                    "display-hi": "थकान (सामान्य कमजोरी)"
+                }
+            ]
+        },
+        {
+            "id": "ID_eee63be3-cdbe-47b0-a984-acec33e5110c",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_15217590-3104-4ea5-b550-9fecfa3cb354",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_527ad6ea-c64d-48cf-bcab-d40afef3e9c3",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_128aa996-8f64-48b2-a414-baed9af63f7d",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_29c24ae1-bf7b-4f12-a98c-7b17e8c1c380",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_ba79a52d-fa6a-4b8c-84d1-ea6ab257b494",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

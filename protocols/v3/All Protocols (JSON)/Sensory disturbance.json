@@ -1,0 +1,589 @@
+{
+    "id": "ID_3a1fd97c-a37a-413f-b00e-53ecbdab95b8",
+    "text": "Sensory disturbance",
+    "engineVersion": "3.0",
+    "display-mr": "संवेदनांसंबंधी त्रास",
+    "display-hi": "संवेदी विकार",
+    "options": [
+        {
+            "id": "ID_e24cf8a2-836a-4811-bc12-2e1bd67b5e9f",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_66bbcec1-f4b9-447c-bac5-0b34aa523569",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_d76aa6eb-e16e-4c90-a5f6-e830aabbe29b",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1c0669fd-4477-4dc3-b612-dac94116a7b9",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_04484343-b1bd-4037-8946-941f25837f46",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_d5364af7-b6da-438a-a253-d0d2393eeb13",
+            "text": "Which part of body you have the sensory disturbance?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या अवयवामध्ये संवेदनांसंबंधी त्रास आहे?",
+            "display-hi": "आपके शरीर के किस अंग में महसूस करने संबंधी समस्या है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_6b59deaf-1588-4ce9-a51b-b648e9b567c4",
+                    "text": "Fingers",
+                    "display-mr": "बोटे",
+                    "display-hi": "उंगलियां"
+                },
+                {
+                    "id": "ID_cda3cab6-97b3-458f-b91d-9c799cafa50c",
+                    "text": "Hand",
+                    "display-mr": "हात",
+                    "display-hi": "हाथ"
+                },
+                {
+                    "id": "ID_3175015d-1ebf-4612-af45-f5bf1c555627",
+                    "text": "Arm",
+                    "display-mr": "हात",
+                    "display-hi": "बांह"
+                },
+                {
+                    "id": "ID_143b6a10-e757-49cd-af8d-86f73d35c9b9",
+                    "text": "Toes",
+                    "display-mr": "पायाची बोटे",
+                    "display-hi": "पैर की उंगलियां"
+                },
+                {
+                    "id": "ID_3576b0b2-8860-4049-908d-f1f1e111b51d",
+                    "text": "Foot",
+                    "display-mr": "पाऊल",
+                    "display-hi": "पैर"
+                },
+                {
+                    "id": "ID_3668a350-34a8-4d7f-81e0-ee1a9b9d1ab9",
+                    "text": "Leg",
+                    "display-mr": "पाय",
+                    "display-hi": "टांग"
+                },
+                {
+                    "id": "ID_a2d6e196-7df3-4167-ace0-5f801f849e91",
+                    "text": "Scalp",
+                    "display-mr": "टाळू",
+                    "display-hi": "सिर की त्वचा"
+                },
+                {
+                    "id": "ID_2c9ab63f-5e8d-4d20-9863-1fa95057ae18",
+                    "text": "Forehead",
+                    "display-mr": "कपाळ",
+                    "display-hi": "माथा"
+                },
+                {
+                    "id": "ID_0915e12b-be0d-4d39-84dd-9f05e095731a",
+                    "text": "Face",
+                    "display-mr": "चेहरा",
+                    "display-hi": "चेहरा"
+                },
+                {
+                    "id": "ID_73ed7dc4-d763-4f83-aab6-1732d9c77f79",
+                    "text": "Ear",
+                    "display-mr": "कान",
+                    "display-hi": "कान"
+                },
+                {
+                    "id": "ID_c31cbdc8-64f6-4c51-8c6e-f94ca0fe5944",
+                    "text": "Upper lip",
+                    "display-mr": "वरचे ओठ",
+                    "display-hi": "ऊपरी होंठ"
+                },
+                {
+                    "id": "ID_3d960ede-10b7-42c7-9a8d-91a49761978b",
+                    "text": "Lower lip",
+                    "display-mr": "खालचे ओठ",
+                    "display-hi": "निचला होंठ"
+                },
+                {
+                    "id": "ID_ccb00a5b-bd41-421a-b5cb-3f7294a7c2d8",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_3b29d9ea-ea73-4055-bae4-b98e1936d1b5",
+                    "text": "Chest",
+                    "display-mr": "छाती",
+                    "display-hi": "छाती"
+                },
+                {
+                    "id": "ID_16355273-7a9e-4f2b-936e-b99efebe4cbd",
+                    "text": "Abdomen",
+                    "display-mr": "ओटीपोट",
+                    "display-hi": "पेट"
+                },
+                {
+                    "id": "ID_f1ee0357-8a0d-4001-abeb-50922eb0f88a",
+                    "text": "Back",
+                    "display-mr": "पाठ",
+                    "display-hi": "पीठ"
+                },
+                {
+                    "id": "ID_1c6352b1-3b4f-4806-99f1-674fb54023fc",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4a969ec5-aa80-43c2-93e8-efcba5297e1c",
+            "text": "Which side of body you have the sensory disturbance?",
+            "display-mr": "शरीराच्या कोणत्या बाजूला तुम्हाला संवेदनांसंबंधी  त्रास आहे?",
+            "display-hi": "आपके शरीर के किस तरफ महसूस करने संबंधी समस्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9e437733-ae1f-49ba-8e53-40cfd2e51b6d",
+                    "text": "Left",
+                    "display-mr": "डावीकडे",
+                    "display-hi": "बायां"
+                },
+                {
+                    "id": "ID_15d570c4-8809-420a-87ee-50ebade68ed7",
+                    "text": "Right",
+                    "display-mr": "उजवीकडे",
+                    "display-hi": "दायां"
+                },
+                {
+                    "id": "ID_414c3f3c-c35b-443f-ba10-2f8422151bcc",
+                    "text": "Both sides",
+                    "display-mr": "दोन्ही बाजू",
+                    "display-hi": "दोनों ओर"
+                }
+            ]
+        },
+        {
+            "id": "ID_7cd5c954-8ed9-4497-bbaf-d05ea95099f9",
+            "text": "How can you describe the sensory disturbance?",
+            "display-mr": "तुम्ही संवेदनांसंबंधी त्रासाचे वर्णन कसे करू शकाल?",
+            "display-hi": "आप महसूस करने संबंधी समस्या का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_fa18204e-5f7c-41e0-adbd-a9f835f69084",
+                    "text": "Loss of sensation (numbness)",
+                    "display-mr": "संवेदना कमी (नष्ट) होणे (बधीरपणा)",
+                    "display-hi": "महसूस नहीं होना (सुन्न होना)"
+                },
+                {
+                    "id": "ID_e214b80a-72ed-4f3b-8f91-39e1b8035b0d",
+                    "text": "Decreased sensation",
+                    "display-mr": "संवेदना कमी होणे",
+                    "display-hi": "कम महसूस होना"
+                },
+                {
+                    "id": "ID_a48de4fc-1632-4866-a5f4-0bc38df1b0e0",
+                    "text": "Tingling (pins and needles)",
+                    "display-mr": "मुंग्या येणे (पिन आणि सुया)",
+                    "display-hi": "झुनझुनी (सुई की तरह चुभन)"
+                },
+                {
+                    "id": "ID_43f2fde5-2c57-47ea-9d7e-34d38b40a7d3",
+                    "text": "Increased sensation",
+                    "display-mr": "वाढलेली संवेदना",
+                    "display-hi": "संवेदना में वृद्धि"
+                },
+                {
+                    "id": "ID_52ac04f3-e663-4cc2-8fae-acf7f9842d51",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_922386f6-7c62-41cc-b624-39fe9137a91f",
+                    "text": "Don't know",
+                    "display-mr": "माहित नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_0f30164c-4919-4b86-bf80-815339ab88e8",
+            "text": "What does aggravate or worsen the sensory disturbance?",
+            "display-mr": "संवेदनांसंबंधी त्रास कशामुळे वाढतो किंवा बिघडतो?",
+            "display-hi": "महसूस करने संबंधी समस्या को क्या बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_94467394-c6c2-4690-a30a-8207a0c4b07b",
+                    "text": "None",
+                    "display-mr": "काहीच नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_a6a0e6f1-101d-4711-8c35-d2c041c460f3",
+                    "text": "Certain posture",
+                    "display-mr": "विशिष्ट शरीरस्थिती",
+                    "display-hi": "विशिष्ट मुद्रा"
+                },
+                {
+                    "id": "ID_fe92d0d6-6655-45bc-b2e9-9741a53e132d",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_a34db2a3-5614-4dd8-b35f-86ef0ffb1a81",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_a05287af-e9a2-44d7-b5f2-9d587107f5b2",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c19f149c-3731-4d7c-a182-7d8080733648",
+            "text": "Is there any pattern of the sensory disturbance in 24 hours of a day?",
+            "display-mr": "दिवसाच्या 24 तासांमध्ये संवेदनांसंबंधी (त्रासाचे काही चक्र) त्रासाचा कोणताही नमुना आहे का?",
+            "display-hi": "क्या दिन के 24 घंटों में महसूस करने संबंधी समस्या का कोई पैटर्न है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d4b1768b-cb93-48d4-9c71-e2c71fc5f8f1",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_e76f6985-9401-44cc-b894-fd6cde736055",
+                    "text": "Transient",
+                    "display-mr": "संक्रमणात",
+                    "display-hi": "अस्थायी"
+                },
+                {
+                    "id": "ID_a273c651-2aad-497c-9294-73d2bbce7eae",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूनमधून (येते आणि जाते)",
+                    "display-hi": "रुक-रुककर (आता और जाता है)",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_9270cc91-d5b7-4f70-8ed0-b432abe67125",
+                            "text": "Which part of the day is the sensory disturbance present or the worst?",
+                            "display-mr": "दिवसाच्या कोणत्या वेळी संवेदनांसंबंधी त्रास होतो किंवा सर्वात वाईट असतो?",
+                            "display-hi": "दिन में किस समय महसूस करने संबंधी समस्या होती है या सबसे खराब रहती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_779b5b4f-b6e5-41bb-881c-9621efb39789",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळी",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_193e4b4d-f223-4df4-a9cd-6acba584d2f5",
+                                    "text": "Afternoon",
+                                    "display-mr": "दूपारी",
+                                    "display-hi": "दोपहर"
+                                },
+                                {
+                                    "id": "ID_2e8a8b75-ccc8-402c-baae-7d7233c3375a",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_1adc632e-376e-44c2-89c0-5b8caa97433a",
+                                    "text": "Night",
+                                    "display-mr": "रात्री",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_5a8e3bff-431a-4be7-8d1a-d57069d69af7",
+            "text": "How is the symptom progressing?",
+            "display-mr": "लक्षणांमध्ये काही बदल?",
+            "display-hi": "लक्षणों में कुछ बदलाव?",
+            "options": [
+                {
+                    "id": "ID_bb901a21-17c0-4786-ad77-06669d5f447e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_4285caa4-2914-44ef-8790-aa19d833ef21",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_6004b845-e844-4ded-ab87-c67a26818e6a",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_3c976bef-0f46-465d-9105-8e2f3def2049",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_41b98229-0d31-4c45-a162-87adb4f44aea",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_7af17af8-2b99-4657-b9e5-eb323e1c6fd9",
+                    "text": "Discoloration of skin",
+                    "display-mr": "त्वचेचा रंग बदलणे",
+                    "display-hi": "त्वचा का रंग दलना"
+                },
+                {
+                    "id": "ID_23d33d58-b4ab-46b5-aee3-e1cef3283e3f",
+                    "text": "Muscle weakness",
+                    "display-mr": "स्नायूंचा अशक्तपणा",
+                    "display-hi": "मांसपेशियों में कमजोरी"
+                },
+                {
+                    "id": "ID_dd4d7217-7d5d-4f08-b4c5-56980ec7f4cc",
+                    "text": "Tingling",
+                    "display-mr": "मुंग्या येणे",
+                    "display-hi": "झुनझुनी"
+                },
+                {
+                    "id": "ID_9864f221-61aa-4f50-a3f5-3fcce7136f00",
+                    "text": "Loss of balance",
+                    "display-mr": "संतुलन गमावणे",
+                    "display-hi": "असंतुलन"
+                },
+                {
+                    "id": "ID_1e71928c-aa4f-4410-a20c-2691934297d1",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार बार पेशाब आना"
+                },
+                {
+                    "id": "ID_37212a78-31f0-4edf-8de7-d938b5f3a39f",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीवर असंयम",
+                    "display-hi": "पेशाब रोकने में दिक्कत"
+                },
+                {
+                    "id": "ID_ebce7a96-b45c-4b04-8abd-fe520768ab79",
+                    "text": "Excessive thirst",
+                    "display-mr": "जास्त तहान लागणे",
+                    "display-hi": "अधिक प्यास"
+                },
+                {
+                    "id": "ID_78dbd566-476f-4f3c-9faf-7c45c21cce56",
+                    "text": "Excessive sweating",
+                    "display-mr": "जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_211c00c6-6c70-4272-8718-125bce530af7",
+                    "text": "History of frequent falls",
+                    "display-mr": "वारंवार पडण्याचा इतिहास",
+                    "display-hi": "बार-बार गिरने का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_e623c1cc-18a8-4fa9-819a-08bfcb670b5a",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_153f8b9c-e530-40ef-be07-0b3b308a3304",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_5c980936-95e4-4437-b64d-ddf50c64420b",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_562ba78c-8bdb-417e-9255-4ac2c1d488c7",
+                    "text": "Dizziness",
+                    "display-mr": "चक्कर येणे",
+                    "display-hi": "चक्कर आना"
+                },
+                {
+                    "id": "ID_c33a4834-7473-4ac2-8680-7158298dccef",
+                    "text": "Tremor",
+                    "display-mr": "थरथरणे",
+                    "display-hi": "कंपकंपी"
+                },
+                {
+                    "id": "ID_cc0f6167-5067-438a-9069-883b70fc4388",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_b968866a-d823-4dbe-8c8b-aad0728013a5",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_d7856184-34e5-4a8b-bd45-16f1dc577759",
+                    "text": "Blurred vision",
+                    "display-mr": "अंधुक दृष्टी",
+                    "display-hi": "धुंधली दृष्टि"
+                },
+                {
+                    "id": "ID_8535cd1c-2f4b-4633-aff1-f52a8aeff2a7",
+                    "text": "Dry eyes",
+                    "display-mr": "कोरडे डोळे",
+                    "display-hi": "सूखी आंखें"
+                },
+                {
+                    "id": "ID_8a06d7d0-fcd7-4d5e-ad2a-57ed83ad833f",
+                    "text": "Dry mouth",
+                    "display-mr": "कोरडे तोंड",
+                    "display-hi": "सूखा मुंह"
+                },
+                {
+                    "id": "ID_33b4a55f-bb4c-4244-aaee-f314506ced10",
+                    "text": "Neck pain",
+                    "display-mr": "मान दुखणे",
+                    "display-hi": "गर्दन में दर्द"
+                },
+                {
+                    "id": "ID_ff19ab92-132f-48a8-bda0-68cf066423fb",
+                    "text": "Back pain",
+                    "display-mr": "पाठदुखी",
+                    "display-hi": "पीठ दर्द"
+                },
+                {
+                    "id": "ID_ddfe97a6-f318-4195-9ffe-1004df5f0eb1",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हातापाय दुर्बळ होणे",
+                    "display-hi": "अंगों की कमजोरी"
+                },
+                {
+                    "id": "ID_97105ef7-c8ba-409e-a225-1833f77a5389",
+                    "text": "Memory loss",
+                    "display-mr": "स्मरणशक्ती कमी होणे",
+                    "display-hi": "याददाश्त में कमी"
+                },
+                {
+                    "id": "ID_907457c1-c647-4931-af92-889f09163e2b",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_2a65f885-4d83-406c-bc83-eea32b6fad96",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_d78fbf0a-deed-4903-b82c-d82219c3dc8a",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8037d9ee-cd75-4624-87dd-58176c34a5c3",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_dcc5628e-f5c4-46fd-ad51-61729086cb1d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_3cd55a51-e490-41c1-baf3-94c91f0343c6",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d66083be-21b3-4969-b032-256d4f2b0672",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_da0a1b74-46c3-427a-9ddb-cb114feb9a9f",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

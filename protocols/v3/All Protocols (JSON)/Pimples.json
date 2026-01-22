@@ -1,0 +1,564 @@
+{
+    "id": "ID_06283c7b-4a8f-4549-93c3-85f4e2b80940",
+    "text": "Pimples",
+    "engineVersion": "3.0",
+    "display-mr": "मुरुम",
+    "display-hi": "मुंहासे",
+    "options": [
+        {
+            "id": "ID_9ec4c82f-5794-4ee0-999c-a013364d5bea",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_861d7f37-8976-45f6-b0ae-818ef340ee5f",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_8cc1bab1-3e0f-43c2-848f-9b0105f5202b",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने विकसित झाली?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5c6fe51e-e502-4d6e-a9d7-ddafc672dc08",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_65cd055f-aaef-4508-9714-b9f7aea1bd23",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_9d2fb345-c0ca-4382-98d9-88a559718806",
+            "text": "Which part of body do you have pimples?",
+            "display-mr": "तुमच्या शरीराच्या कोणत्या भागावर मुरुमं आहेत?",
+            "display-hi": "आपके शरीर के किस हिस्से पर मुंहासे हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ce1c6a75-20e1-4891-8e56-e169719c16d8",
+                    "text": "Forehead",
+                    "display-mr": "कपाळ",
+                    "display-hi": "माथा"
+                },
+                {
+                    "id": "ID_f81ea189-0177-4bca-8d4b-ffac2a0905e5",
+                    "text": "Cheeks",
+                    "display-mr": "गाल",
+                    "display-hi": "गाल"
+                },
+                {
+                    "id": "ID_7e97cee5-f4dd-43ae-8b38-ad82a120d23b",
+                    "text": "Chin",
+                    "display-mr": "हनुवटी",
+                    "display-hi": "ठोड़ी"
+                },
+                {
+                    "id": "ID_ad398003-ce67-4bf0-b0b2-c9e99da151c9",
+                    "text": "Jawline",
+                    "display-mr": "जबडा / जॉलाईन",
+                    "display-hi": "जबड़े की रेखा"
+                },
+                {
+                    "id": "ID_3b7b7d67-fba4-4725-a142-29ebe2c75c84",
+                    "text": "Neck",
+                    "display-mr": "मान",
+                    "display-hi": "गर्दन"
+                },
+                {
+                    "id": "ID_5a9bcb9a-4de2-49c8-8030-112dde7fad68",
+                    "text": "Shoulders",
+                    "display-mr": "खांदे",
+                    "display-hi": "कंधे"
+                },
+                {
+                    "id": "ID_55e49e08-3cb4-4a9a-875f-86d379a7834c",
+                    "text": "Chest",
+                    "display-mr": "छाती",
+                    "display-hi": "छाती"
+                },
+                {
+                    "id": "ID_dca582fa-d134-419f-a69a-0c867e327454",
+                    "text": "Forearms",
+                    "display-mr": "मनगटापासून कोपऱ्यापर्यंतचा हात / फोरआर्म्स",
+                    "display-hi": "अग्रबाहु"
+                },
+                {
+                    "id": "ID_341ed702-4ba6-42de-be66-976d3ce07248",
+                    "text": "Abdomen",
+                    "display-mr": "पोट",
+                    "display-hi": "पेट"
+                },
+                {
+                    "id": "ID_ba112040-0f97-498f-a265-cf3f69520fbc",
+                    "text": "Back",
+                    "display-mr": "पाठ",
+                    "display-hi": "पीठ"
+                },
+                {
+                    "id": "ID_6e2d016d-c293-4fa6-b985-b1bba6d8de01",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8e39e719-1689-442b-9c72-366e71adf824",
+            "text": "How can you describe the pimples?",
+            "display-mr": "मुरुमांचे वर्णन कसे कराल?",
+            "display-hi": "आप मुंहासे का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_49d9133f-b61e-4b2c-b119-d549f1b7e7ea",
+                    "text": "Blackhead",
+                    "display-mr": "ब्लॅकहेड",
+                    "display-hi": "ब्लैकहैड"
+                },
+                {
+                    "id": "ID_c8d5fd9d-2d16-4800-8b1b-6d8cbb84d060",
+                    "text": "Whitehead",
+                    "display-mr": "ल्हाईटहेड",
+                    "display-hi": "व्हाइटहैड"
+                },
+                {
+                    "id": "ID_8b2d9890-01d3-4422-9bd7-ecfd70cd306a",
+                    "text": "Small bumps",
+                    "display-mr": "छोटे फोड",
+                    "display-hi": "छोटे-छोटे उभार"
+                },
+                {
+                    "id": "ID_ac3c745e-7760-416b-b010-d1a5ce8805d4",
+                    "text": "Red bumps",
+                    "display-mr": "लाल फोड",
+                    "display-hi": "लाल उभार"
+                },
+                {
+                    "id": "ID_1e82a0fe-7e0b-42e5-a07e-bbf25fb208d2",
+                    "text": "Pus filled bumps",
+                    "display-mr": "पू भरलेले फोड",
+                    "display-hi": "मवाद से भरे उभार"
+                },
+                {
+                    "id": "ID_ede4bfab-bceb-40b4-b81d-e30226a11422",
+                    "text": "Large bumps",
+                    "display-mr": "मोठे फोड",
+                    "display-hi": "बड़े उभार"
+                },
+                {
+                    "id": "ID_f3b7161a-e68d-4bc0-9333-be3aa8035453",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_e6234983-59d9-410a-aaf8-8bbfb694943d",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_9d1dfab7-e7c5-4ab1-9482-c128f998723c",
+            "text": "What triggers or worsen the pimples?",
+            "display-mr": "मुरुम/ फोड कधी येतात किंवा वाढतात?",
+            "display-hi": "मुंहासे को क्या ट्रिगर करता है या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_27fb69d8-296e-4607-a778-8dc86a4d2446",
+                    "text": "None",
+                    "display-mr": "काही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_709f2a11-5e9f-4404-b680-389ee1ccec7d",
+                    "text": "Menstrual periods",
+                    "display-mr": "मासिक पाळी",
+                    "display-hi": "माहवारी"
+                },
+                {
+                    "id": "ID_8bf0df16-64e5-40db-ba96-afbe92953fce",
+                    "text": "Puberty",
+                    "display-mr": "तारुण्य",
+                    "display-hi": "यौवन"
+                },
+                {
+                    "id": "ID_4ca384e6-9221-4c6c-955e-0c5b86da47ef",
+                    "text": "Pregnancy",
+                    "display-mr": "गर्भधारणा",
+                    "display-hi": "गर्भावस्था"
+                },
+                {
+                    "id": "ID_eb5e0d47-9315-4978-94b9-74fa7a1e1901",
+                    "text": "Lack of sleep",
+                    "display-mr": "झोप न लागणे",
+                    "display-hi": "नींद की कमी"
+                },
+                {
+                    "id": "ID_1d79a647-8fe3-4a11-a450-cf0a272d25d1",
+                    "text": "Certain medication",
+                    "display-mr": "काही विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाएं"
+                },
+                {
+                    "id": "ID_cd2c32cc-6e41-4622-8def-136d40cc5200",
+                    "text": "Oily food",
+                    "display-mr": "तेलकट खाद्यपदार्थ",
+                    "display-hi": "तैलीय भोजन"
+                },
+                {
+                    "id": "ID_760674fa-e63f-4e96-a79c-f3014a75fd3c",
+                    "text": "Milk",
+                    "display-mr": "दूध",
+                    "display-hi": "दूध"
+                },
+                {
+                    "id": "ID_46218d59-cab3-49f3-adad-cc1e769ba86a",
+                    "text": "Cosmetics",
+                    "display-mr": "सौंदर्यप्रसाधने/ कॉस्मेटिक्स",
+                    "display-hi": "सौंदर्य प्रसाधन"
+                },
+                {
+                    "id": "ID_5f94c28b-f78a-421b-ba2e-551664763a73",
+                    "text": "Smoking",
+                    "display-mr": "धूम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_962f7b0f-d6ec-47cd-82d5-76e71cbba900",
+                    "text": "Alcohol",
+                    "display-mr": "मद्यपान/ दारु",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_aad68195-d88c-45d0-aff7-a2dfc459f167",
+                    "text": "Birth control pills",
+                    "display-mr": "गर्भ नियंत्रण गोळ्या",
+                    "display-hi": "गर्भनिरोधक गोलियां"
+                },
+                {
+                    "id": "ID_8e16c59e-580b-4974-bf66-e4b997a31d99",
+                    "text": "Hot weather",
+                    "display-mr": "उष्ण वातावरण",
+                    "display-hi": "गर्म मौसम"
+                },
+                {
+                    "id": "ID_f186ba22-472c-41c4-a99a-788bc8a773c9",
+                    "text": "Pollution",
+                    "display-mr": "प्रदूषण",
+                    "display-hi": "प्रदूषण"
+                },
+                {
+                    "id": "ID_38ae0dc4-3158-4e65-8fdb-cf85baccb06d",
+                    "text": "Stress",
+                    "display-mr": "ताण",
+                    "display-hi": "तनाव"
+                },
+                {
+                    "id": "ID_1eada672-fef7-4a1d-8a77-6ab92d66ab48",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_12bbbe31-594e-425b-8ee7-f954ecd557d7",
+            "text": "Do you have the following features associated with pimples?",
+            "display-mr": "तुम्हाला मुरुमांशी संबंधित खालील समस्याही आहेत का?",
+            "display-hi": "क्या आपको मुंहासे से जुड़ी निम्नलिखित विशेषताएं हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_ec4f5d86-352f-4274-b7c9-e7606bc18fbb",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9c0abe5a-858c-41eb-b38d-a24cbd9eb58f",
+                    "text": "Oily skin",
+                    "display-mr": "तेलकट त्वचा",
+                    "display-hi": "तैलीय त्वचा"
+                },
+                {
+                    "id": "ID_ebd3b902-caaa-4a85-9da2-959196327d20",
+                    "text": "Itching",
+                    "display-mr": "खाज",
+                    "display-hi": "खुजली"
+                },
+                {
+                    "id": "ID_b638e11a-71a5-4bf1-a22d-5aeec2661b3b",
+                    "text": "Rough skin",
+                    "display-mr": "कोरडी त्वचा",
+                    "display-hi": "खुरदरी त्वचा"
+                },
+                {
+                    "id": "ID_6067f27f-00b5-49a7-abe3-b48810045a46",
+                    "text": "Pus",
+                    "display-mr": "पू भरलेले फोड",
+                    "display-hi": "मवाद"
+                },
+                {
+                    "id": "ID_b4dd5c43-a34e-4bdd-821b-2f39919ef88a",
+                    "text": "Redness",
+                    "display-mr": "लालसरपणा",
+                    "display-hi": "लालिमा"
+                },
+                {
+                    "id": "ID_a3deb36a-4bf8-40e0-b097-e28579d01608",
+                    "text": "Dark spots",
+                    "display-mr": "डार्क स्पॉट्स",
+                    "display-hi": "काले धब्बे"
+                },
+                {
+                    "id": "ID_8b242010-4faa-4e9a-97a1-2edb522edcfa",
+                    "text": "Scars",
+                    "display-mr": "व्रण",
+                    "display-hi": "निशान"
+                },
+                {
+                    "id": "ID_9ec65f53-7389-4422-85e6-b7a8b2e0625d",
+                    "text": "Swelling",
+                    "display-mr": "सूज",
+                    "display-hi": "सूजन"
+                },
+                {
+                    "id": "ID_fd599e96-b825-46db-8965-8ed7a73d9ace",
+                    "text": "Pain",
+                    "display-mr": "वेदना",
+                    "display-hi": "दर्द"
+                },
+                {
+                    "id": "ID_69e275dd-d478-4182-acb4-610c2a760c6f",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_c28f448f-fdc1-4464-8860-53cd2608fb6c",
+            "text": "How are pimples progressing?",
+            "display-mr": "मुरुमांची वाढ कशी होत आहे?",
+            "display-hi": "मुंहासे कैसे बढ़ रहे  हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0f7af8e9-73d4-448a-bb11-987ec40df693",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_f7d0cd22-ca2e-439b-a585-5391c8c187df",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_6b084001-e51a-4ba4-97f1-5a91dfa0de03",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_7767a538-a26c-4457-8d05-82563cc3da24",
+                    "text": "No change",
+                    "display-mr": "काही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_af23c477-1a64-419c-b657-56f94322797b",
+            "text": "Do you have the following symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2ecc7018-5f5b-41e5-a146-8af17e3de42d",
+                    "text": "Excess body hair",
+                    "display-mr": "शरीरावर जास्तीचे केस",
+                    "display-hi": "शरीर पर अत्यधिक बाल"
+                },
+                {
+                    "id": "ID_7b7805e9-574d-4e27-a936-6aec1b778556",
+                    "text": "Absent periods",
+                    "display-mr": "मासिक पाळी चुकणे/ पाळी न येणे",
+                    "display-hi": "माहवारी का न होना"
+                },
+                {
+                    "id": "ID_98fd2e40-382b-4f68-9cbb-188c74e340d1",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटात दुखणे",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_d9896218-faa7-4da3-9006-f1c5141ddaa8",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_352bf94d-c3e1-4908-8bca-4453c78d45e4",
+                    "text": "Hair fall",
+                    "display-mr": "केस गळणे",
+                    "display-hi": "बालों का झड़ना"
+                }
+            ]
+        },
+        {
+            "id": "ID_7c82ffff-94f5-4a71-96b7-c45e0196d7ce",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_c45a7e3c-251c-4b3d-bd67-af7a34210021",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_efded2dd-4cd3-4cb9-9891-f60834637044",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_bfc25265-16b6-4d47-b803-3d1dcb1fa906",
+                    "text": "Anxiety",
+                    "display-mr": "काळजी/ अस्वस्थपणा",
+                    "display-hi": "चिंता"
+                },
+                {
+                    "id": "ID_f862951d-6821-4aeb-834b-7994e3cd8327",
+                    "text": "Low mood",
+                    "display-mr": "खराब मूड",
+                    "display-hi": "उदासी"
+                },
+                {
+                    "id": "ID_6b9f8ced-13d0-4043-a4d2-115128234978",
+                    "text": "Irregular periods",
+                    "display-mr": "अनियमित मासिक पाळी",
+                    "display-hi": "अनियमित माहवारी"
+                },
+                {
+                    "id": "ID_1868ce07-865e-4d75-812a-ef3ccdf8a790",
+                    "text": "Heavy periods",
+                    "display-mr": "वेदनादायी मासिक पाळी",
+                    "display-hi": "बहुत अधिक माहवारी"
+                },
+                {
+                    "id": "ID_303e35a0-8d33-46ab-817d-9447bc6aaee0",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_71a4f42d-1c0f-4fc5-8ea1-43260400e062",
+                    "text": "Joint pain",
+                    "display-mr": "सांधेदुखी",
+                    "display-hi": "जोड़ों में दर्द"
+                },
+                {
+                    "id": "ID_a7e13850-3d17-41a9-9c8e-8b394b4cece7",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_7a6c5882-fcd0-496c-8ae3-5fd9437e8d37",
+                    "text": "Other",
+                    "display-mr": "अन्य",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_bbf27e80-5cce-4667-90cd-38a8fe288933",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_9874bba7-a7f3-45fb-9b96-c67761427100",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_93cbfba7-902a-4d71-bbbb-e15f40c169fd",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_21c4af04-4d0a-49c9-817f-bd924ab883ab",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_1be2015e-e8b5-4a14-a1f3-6c9f313c646a",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_37d11996-0446-4672-acdf-5708afe39b38",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
