@@ -1,0 +1,586 @@
+{
+    "id": "ID_6c8dd0d7-9020-49ff-8cb3-e2b54085c54d",
+    "text": "Difficulty breathing",
+    "engineVersion": "3.0",
+    "display-mr": "श्वास घेण्यात अडचण",
+    "display-hi": "सांस लेने में दिक्क्त",
+    "options": [
+        {
+            "id": "ID_dfbac99a-3097-4817-979e-40e3750e4307",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_60e8996c-c50d-4224-be58-4cf0bc7d7728",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_f53eeae4-4bff-48fc-a290-faf21146b48d",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "ही लक्षणे किती वेगाने जाणवू लागली?",
+            "display-hi": "यह लक्षण कितनी तेजी से विकसित हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_8f1cfe17-8811-4bf5-8ee3-7d7e106d3f25",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                },
+                {
+                    "id": "ID_19c4a0fb-83db-4388-a27e-e5ea17027bf5",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                }
+            ]
+        },
+        {
+            "id": "ID_8793c063-56dc-4a50-938a-c82fa112830f",
+            "text": "How would you describe the difficulty breathing?",
+            "display-mr": "तुम्ही श्वास घेण्याच्या त्रासाचे वर्णन कसे कराल?",
+            "display-hi": "आप अपनी सांस लेने में परेशानी का वर्णन कैसे करेंगे?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fbe971f5-ed26-4e2a-af08-0c7b9df3e049",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_98a8f9e6-4c62-4576-a437-6b8124b51ead",
+                    "text": "Tight chest",
+                    "display-mr": "छाती भरणे",
+                    "display-hi": "छाती में तंगी"
+                },
+                {
+                    "id": "ID_4932e4f7-fa57-4c98-8ff0-2a136aecfa7a",
+                    "text": "Painful (pleurisy)",
+                    "display-mr": "वेदनादायक (फुफ्फुसाचा दाह)",
+                    "display-hi": "दर्दनाक (प्ल्यूरिसी)"
+                },
+                {
+                    "id": "ID_c90d44cc-62a4-4530-bbce-180518e43371",
+                    "text": "Wheezy",
+                    "display-mr": "घरघर",
+                    "display-hi": "घरघराहट"
+                },
+                {
+                    "id": "ID_91427a46-01dd-4bfb-a3d7-84589cc547c1",
+                    "text": "Difficulty inhaling",
+                    "display-mr": "श्वास घेण्यात अडचण",
+                    "display-hi": "सांस लेना मुश्किल"
+                },
+                {
+                    "id": "ID_400108b6-db5d-4a50-864b-17aa07ed9abc",
+                    "text": "Difficulty exhaling",
+                    "display-mr": "श्वास सोडण्यात अडचण",
+                    "display-hi": "सांस छोड़ना मुश्किल"
+                }
+            ]
+        },
+        {
+            "id": "ID_4d4c9715-6e14-4836-bc32-315dd3174b52",
+            "text": "What increases or worsens the breathing difficulty?",
+            "display-mr": "कोणत्या गोष्टीमुळे श्वसनाचा त्रास वाढतो किंवा अधिक वाईट होतो?",
+            "display-hi": "सांस लेने में परेशानी को क्या बढ़ाता या खराब करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_caadabf2-71b7-4157-ba11-a9bf17e873fe",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_dc33d2f8-4dfa-47c1-b82b-8ddfeb7bbd58",
+                    "text": "Cold air",
+                    "display-mr": "थंड हवा",
+                    "display-hi": "ठंडी हवा"
+                },
+                {
+                    "id": "ID_103f09c1-3f07-4a23-9da0-ceda53076ff2",
+                    "text": "Animals or birds (pets)",
+                    "display-mr": "प्राणी किंवा पक्षी (पाळीव प्राणी)",
+                    "display-hi": "जानवर या पक्षी (पालतू)"
+                },
+                {
+                    "id": "ID_bfbc3796-57f7-451d-b6ac-43ad073a728b",
+                    "text": "Dust exposure",
+                    "display-mr": "धुळीच्या संपर्कात",
+                    "display-hi": "धूल का संपर्क"
+                },
+                {
+                    "id": "ID_8aba9832-7ddf-4216-999c-b432ce657ecd",
+                    "text": "Smoke",
+                    "display-mr": "धुम्रपान",
+                    "display-hi": "धुआं"
+                },
+                {
+                    "id": "ID_f8762c4f-8675-4b3d-9113-ea34328b1ada",
+                    "text": "Lying down",
+                    "display-mr": "झोपल्यावर",
+                    "display-hi": "लेटने पर"
+                },
+                {
+                    "id": "ID_5865f7f9-b87f-46d5-bd5d-d2b8574d062e",
+                    "text": "Exertion",
+                    "display-mr": "मेहनत केल्यावर",
+                    "display-hi": "शारीरिक मेहनत"
+                }
+            ]
+        },
+        {
+            "id": "ID_d8bbab86-41bd-4ea8-ae29-e6dd2068d63c",
+            "text": "Does anything reduce the breathing difficulty?",
+            "display-mr": "यामुळे श्वसनाचा त्रास कमी होतो का?",
+            "display-hi": "क्या कुछ ऐसा है जो सांस लेने की परेशानी को कम करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1fd6691a-469f-4160-9240-57357db792b8",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_8dd0b678-d2df-4c66-9dd9-f9c555729e18",
+                    "text": "Rest",
+                    "display-mr": "विश्रांती",
+                    "display-hi": "आराम"
+                },
+                {
+                    "id": "ID_0b6f02a7-3d9c-417b-a71e-45dc61bcfddd",
+                    "text": "Sitting position",
+                    "display-mr": "बसल्या स्थितीमध्ये",
+                    "display-hi": "बैठने की खास स्थिति"
+                },
+                {
+                    "id": "ID_cdb3fd6a-c510-41df-beb4-cc4104b85e0e",
+                    "text": "Inhalers",
+                    "display-mr": "इनहेलर",
+                    "display-hi": "इनहेलर"
+                }
+            ]
+        },
+        {
+            "id": "ID_bb97321c-9dba-4340-908a-8d0eff97dc76",
+            "text": "How is breathing difficulty progressing?",
+            "display-mr": "श्वसनाच्या त्रासांमध्ये काही बदल जाणवतो का?",
+            "display-hi": "सांस लेने की परेशानी में कुछ बदलाव है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_351b13fb-2ef0-4161-b228-d48a7131e16e",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ रही है"
+                },
+                {
+                    "id": "ID_fc77231a-78cf-4541-a74e-16cf8af219e7",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होणारा",
+                    "display-hi": "घट रही है"
+                },
+                {
+                    "id": "ID_cde37bb5-e9e3-4e3d-bc0f-ca456f84151e",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होणारा",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_8c14346d-bab9-4b21-9f3f-6435b6f6aed5",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_329a2ebf-9c83-42db-8212-454c315e4911",
+            "text": "Does breathing difficulty have any pattern of occurence during a 24 hr cycle?",
+            "display-mr": "24 तासांमध्ये श्वसनाच्या त्रासाचे काही विशिष्ट चक्र आहे का?",
+            "display-hi": "क्या सांस लेने की परेशानी 24 घंटे के चक्र में किसी खास तरीके से होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fe94c8b1-0cf1-4897-96a6-4978077a3915",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "लगातार"
+                },
+                {
+                    "id": "ID_61288605-6020-4582-83c5-b925d04b3c06",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "मधूनमधून (येतात आणि जातात)",
+                    "display-hi": "आती है और जाती है",
+                    "havingNestedQuestion": "true",
+                    "options": [
+                        {
+                            "id": "ID_da7d6b0e-433b-4112-8172-56ac4762f5a8",
+                            "text": "Which part of the day you will get the Breathing difficulty?",
+                            "display-mr": "दिवसाच्या कोणत्या वेळेमध्ये तुम्हाला श्वास घेण्यास त्रास होईल?",
+                            "display-hi": "दिन के किस समय आपको सांस लेने में परेशानी होती है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_a6c648ae-d79a-4861-968d-275c174dbed4",
+                                    "text": "Morning",
+                                    "display-mr": "सकाळ",
+                                    "display-hi": "सुबह"
+                                },
+                                {
+                                    "id": "ID_ec500501-6b45-48e3-97f4-cc61ef92d1c2",
+                                    "text": "Evening",
+                                    "display-mr": "संध्याकाळ",
+                                    "display-hi": "शाम"
+                                },
+                                {
+                                    "id": "ID_0a8ff013-69c1-455f-a08b-e1abc102ad4b",
+                                    "text": "Night",
+                                    "display-mr": "रात्र",
+                                    "display-hi": "रात"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_d9c2cd0e-08d4-4a8b-a8e2-19d558d091ac",
+            "text": "Severity of breathing difficulty?",
+            "display-mr": "श्वसनाच्या त्रासाची तीव्रता किती आहे?",
+            "display-hi": "सांस लेने की परेशानी की गंभीरता क्या है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e13fb989-9c2c-44bb-b253-ca14ee6e752d",
+                    "text": "Mild (breathlessness on climbing)",
+                    "display-mr": "सौम्य (चढावर चालताना श्वास लागणे)",
+                    "display-hi": "सौम्य (चढ़ाई पर सांस की कमी)"
+                },
+                {
+                    "id": "ID_1aede190-448f-4192-b965-85ff2d03f1fa",
+                    "text": "Moderate (breathlessness on walking or talking))",
+                    "display-mr": "मध्यम (चालताना किंवा बोलण्यावर श्वास लागणे)",
+                    "display-hi": "मध्यम (चलने या बात करने पर सांस की कमी)"
+                },
+                {
+                    "id": "ID_0acc24c6-73f7-4622-b8c1-99bc3ac4cc4a",
+                    "text": "Severe (breathlessness at rest)",
+                    "display-mr": "तीव्र (विश्रांती घेताना श्वास लागणे)",
+                    "display-hi": "गंभीर (आराम करते समय सांस की कमी)"
+                }
+            ]
+        },
+        {
+            "id": "ID_c23ecf5d-ea4c-4fc1-a4a7-b30452ea0d67",
+            "text": "Do you notice that the breathing difficulty worsening on lying flat?",
+            "display-mr": "सरळ झोपल्यावर श्वास घेण्यास त्रास होत असल्याचे तुमच्या लक्षात आले आहे का?",
+            "display-hi": "क्या आप यह पाते हैं कि सीधे लेटने पर सांस लेने में परेशानी बढ़ती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_85645b03-3fb2-4a34-9252-2249eb288ad1",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_40059f79-ba88-4a69-8b5a-f7579eeb14f6",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_82cd6a62-d82f-4f95-9ac9-adb1a3df798d",
+            "text": "Do you wake up at night with breathlessness?",
+            "display-mr": "तुम्हाला रात्री धाप लागल्याने रात्री उठता का?",
+            "display-hi": "क्या आप रात में सांस की कमी के कारण जागते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_1e40bf01-fcfc-40e8-a2e5-72fc73efb3ff",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_e259294c-2f0d-45fa-b1e7-f1d3174f1e8c",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_5ea6a679-2833-422b-b5f0-96bfbaa8cc50",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a40e84ab-1346-4e6c-a566-16824bca53f8",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_6e6551fe-237a-4645-a2db-3c425fa8c2fe",
+                    "text": "Coughing up blood",
+                    "display-mr": "खोकताना रक्त येणे",
+                    "display-hi": "खून के साथ खांसी"
+                },
+                {
+                    "id": "ID_db3d2b2a-a4e7-4da3-9031-8b5757d115ab",
+                    "text": "Chest pain",
+                    "display-mr": "छातीत दुखणे",
+                    "display-hi": "छाती में दर्द"
+                },
+                {
+                    "id": "ID_18b2431c-63cf-45ad-95c3-60ad40894b54",
+                    "text": "Wheezing",
+                    "display-mr": "घरघर",
+                    "display-hi": "घरघराहट"
+                },
+                {
+                    "id": "ID_cfb0a0a3-c295-423e-b87e-8df8d77df0d2",
+                    "text": "Throat pain",
+                    "display-mr": "घशात दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_5b005ee7-1754-449c-bc8b-1bacb11300b6",
+                    "text": "Stridor",
+                    "display-mr": "श्वास घेताना आवाज येणे",
+                    "display-hi": "श्वास में घरघराहट"
+                },
+                {
+                    "id": "ID_9f7e54a1-7f45-492a-9079-e5c96f0b64c9",
+                    "text": "Palpitations",
+                    "display-mr": "धडधडणे",
+                    "display-hi": "दिल की धड़कन का तेज़ होना"
+                },
+                {
+                    "id": "ID_07c4bf85-af8c-483a-94e5-0c3395a6e438",
+                    "text": "Running nose",
+                    "display-mr": "वाहणारे नाक",
+                    "display-hi": "बहती नाक"
+                },
+                {
+                    "id": "ID_a231931e-4974-46d3-a722-92693f414978",
+                    "text": "Hoarseness of voice",
+                    "display-mr": "आवाजाचा कर्कशपणा",
+                    "display-hi": "आवाज का कर्कश होना"
+                },
+                {
+                    "id": "ID_857e9d7d-ceb0-40ac-82ef-884260a68e5b",
+                    "text": "Chest wall pain",
+                    "display-mr": "छातीत वेदना",
+                    "display-hi": "छाती की दीवार में दर्द"
+                },
+                {
+                    "id": "ID_a02080b5-9070-4a7b-9380-bd64ae70a12e",
+                    "text": "Choking or foreign body aspiration",
+                    "display-mr": "गुदमरणे किंवा एखादी वस्तू श्वासनलिकेत अडकणे",
+                    "display-hi": "दम घुटना (या बाहरी वस्तु का साँस की नली में अटकना)"
+                },
+                {
+                    "id": "ID_f8c4d368-3403-4c6e-834a-033b19ef1a05",
+                    "text": "Pain or swelling of calf muscles",
+                    "display-mr": "पोटरीचे स्नायू दुखणे किंवा सूज येणे",
+                    "display-hi": "पिंडली की मांसपेशियों में दर्द या सूजन"
+                },
+                {
+                    "id": "ID_b895bf16-4d05-413e-ad4b-183938d1e9ab",
+                    "text": "History of injury to chest",
+                    "display-mr": "छातीच्या दुखापतीचा इतिहास",
+                    "display-hi": "छाती में चोट का इतिहास"
+                },
+                {
+                    "id": "ID_7cedd9a9-19a6-4d23-8a2e-120e0c18e51b",
+                    "text": "History of recent travel",
+                    "display-mr": "अलीकडील प्रवासाचा इतिहास",
+                    "display-hi": "हाल की यात्रा का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_6f2b30ec-3e06-42dc-a667-f178cd64e77c",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+            "display-hi": "क्या आपमें निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_25739b5d-d1d5-49de-a1ef-18529c4fe2a2",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2fb103d5-54ca-4205-81d0-656c45ddef95",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_b1b1c6e9-6573-4660-a906-07feea6069c1",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख में कमी"
+                },
+                {
+                    "id": "ID_5e80e25d-a0e1-459c-8025-c704b31e400c",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन कम होना"
+                },
+                {
+                    "id": "ID_b228e344-b1e6-4bcc-ac2a-8a6fd674a9cc",
+                    "text": "Weight gain",
+                    "display-mr": "वजन वाढणे",
+                    "display-hi": "वजन बढ़ना"
+                },
+                {
+                    "id": "ID_34223371-d49c-4f44-98f7-6010742de8eb",
+                    "text": "Night sweats",
+                    "display-mr": "रात्री घाम येणे",
+                    "display-hi": "रात में पसीना"
+                },
+                {
+                    "id": "ID_92e6360a-4786-49f1-af4f-ebe93b10bee2",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_2e579531-9a96-4710-bde3-f61ac849d4e1",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_b74fadd6-df71-4bfd-bdbf-5aef4a0531c9",
+                    "text": "Abdominal pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेट में दर्द"
+                },
+                {
+                    "id": "ID_deb771c0-be93-42a8-9692-df5de06a2948",
+                    "text": "Difficulty in swallowing",
+                    "display-mr": "गिळण्यात अडचण",
+                    "display-hi": "निगलने में परेशानी"
+                },
+                {
+                    "id": "ID_215d7da4-de72-4355-9f4f-69e87890baae",
+                    "text": "Decreased urine",
+                    "display-mr": "लघवी कमी येणे",
+                    "display-hi": "पेशाब की कमी"
+                },
+                {
+                    "id": "ID_d1eb1512-caef-4406-8ebf-296e3eba55bb",
+                    "text": "Excessive urination",
+                    "display-mr": "जास्त लघवी होणे",
+                    "display-hi": "अधिक पेशाब"
+                },
+                {
+                    "id": "ID_0a2d9d4d-453e-47d3-aac2-103147a878d9",
+                    "text": "Swelling of feet",
+                    "display-mr": "पायांना सूज येणे",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_ff270d05-800d-4ba3-b46c-627b3f9f9c57",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर दाने"
+                },
+                {
+                    "id": "ID_dc715253-e760-489a-a645-36782face493",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य लक्षण",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_5605e2de-9b1f-46ea-9879-53415214ea4b",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7a703c68-7873-4522-b865-242157d85018",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_d330609f-6273-46e3-a6eb-5f9fd54d1b0d",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_bec4d07f-5e9c-455e-bb56-5ad0715eaa41",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_511b8828-6eac-4afa-a851-aaeeb15dad92",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_4fbe8e86-402d-408b-a956-9513a9b28a21",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

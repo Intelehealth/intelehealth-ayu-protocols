@@ -1,0 +1,350 @@
+{
+    "id": "ID_3973c7d2-30e0-4a04-9d6b-74b251de636d",
+    "text": "Birth defect",
+    "engineVersion": "3.0",
+    "display-mr": "जन्मजात व्यंग",
+    "display-hi": "जन्म दोष",
+    "options": [
+        {
+            "id": "ID_ef1ce0c4-a7f6-41e8-8696-94f9fdbb8739",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ca67d9f7-7721-4332-8ad9-ec38733c98f3",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_095f3e81-8fff-404b-a14b-c78d3ee24b23",
+            "text": "When was the birth defect identified?",
+            "display-mr": "जन्मजात व्यंग कधी आढळले?",
+            "display-hi": "जन्मगत  दोष की पहचान कब हुई थी?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_95f95f12-cd70-41a3-b967-401016521e8c",
+                    "text": "During pregnancy",
+                    "display-mr": "गरोदरपणात",
+                    "display-hi": "गर्भावस्था के दौरान"
+                },
+                {
+                    "id": "ID_f59b6ccc-cfb0-46fc-a249-c3d7c1474f19",
+                    "text": "At birth",
+                    "display-mr": "जन्माच्या वेळी",
+                    "display-hi": "जन्म के समय"
+                },
+                {
+                    "id": "ID_523c5fa0-d51a-4665-b6ad-7689e33c644e",
+                    "text": "After birth",
+                    "display-mr": "जन्माच्या नंतर",
+                    "display-hi": "जन्म के बाद"
+                }
+            ]
+        },
+        {
+            "id": "ID_cc501d61-8c41-4d82-8975-8314f6c14a21",
+            "text": "How can you describe the birth defect?",
+            "display-mr": "तुम्ही जन्मजात व्यंगाचे वर्णन कसे कराल?",
+            "display-hi": "आप जन्मगत दोष का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a5d978e5-f170-4f4f-a995-bbccef428f42",
+                    "text": "Large head",
+                    "display-mr": "मोठे डोके",
+                    "display-hi": "बड़ा सिर"
+                },
+                {
+                    "id": "ID_6c13a5e6-c292-4ead-86e2-37ed2ca95c44",
+                    "text": "Small head",
+                    "display-mr": "लहान डोके",
+                    "display-hi": "छोटा सिर"
+                },
+                {
+                    "id": "ID_26ae458f-dd39-4835-a76a-8eb0b07746f6",
+                    "text": "Squint",
+                    "display-mr": "तिरळेपणा",
+                    "display-hi": "भेंगापन"
+                },
+                {
+                    "id": "ID_a4485e54-c27e-45b9-b484-c01f4b59a78e",
+                    "text": "Cleft lip",
+                    "display-mr": "ओठ कापलेला असणे",
+                    "display-hi": "फटे होंठ"
+                },
+                {
+                    "id": "ID_546ee44e-a732-4c97-8666-eaac64212625",
+                    "text": "Cleft palate",
+                    "display-mr": "टाळू कापलेली असणे",
+                    "display-hi": "फटे तालु"
+                },
+                {
+                    "id": "ID_76e6dfee-6098-41d4-9570-4ea3a562c93b",
+                    "text": "Cleft lip and palate",
+                    "display-mr": "ओठ व टाळू कापलेली असणे",
+                    "display-hi": "फटे होंठ और तालु"
+                },
+                {
+                    "id": "ID_e068cbeb-7103-41e3-b3f0-45c27cfee0e0",
+                    "text": "Short neck",
+                    "display-mr": "अखुड मान",
+                    "display-hi": "छोटी गर्दन"
+                },
+                {
+                    "id": "ID_ef13c4ba-3b6a-4d27-95d5-63d246c02ffe",
+                    "text": "Club foot",
+                    "display-mr": "पाऊल वाकडे असणे",
+                    "display-hi": "टेढ़े-मेढ़े पैर"
+                },
+                {
+                    "id": "ID_7314dcac-d821-4dae-9311-52fb61ca8c1e",
+                    "text": "Spinal defect",
+                    "display-mr": "पाठीच्या कण्याचा दोष",
+                    "display-hi": "रीढ़ की हड्डी में दोष"
+                },
+                {
+                    "id": "ID_133c8cf0-51c0-4bba-89d1-6ead8f9c6238",
+                    "text": "Extra fingers",
+                    "display-mr": "अतिरिक्त बोटे",
+                    "display-hi": "अतिरिक्त उंगलियां"
+                },
+                {
+                    "id": "ID_4a457261-d976-437e-99ce-4fcb06ffbd5c",
+                    "text": "Cataract",
+                    "display-mr": "मोतिबिंदू",
+                    "display-hi": "मोतियाबिंद"
+                },
+                {
+                    "id": "ID_e1104b20-9707-4dcb-88aa-bcafe90c072d",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_175b90cf-94a4-4712-97af-a8a0e763682c",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_cb008dc5-53b8-42d2-9104-e89351e19a6d",
+            "text": "Has the patient undergone any surgeries or procedures related to the defect?",
+            "display-mr": "रुग्णाच्या जन्मजात व्यंगासंबंधी काही शस्त्रक्रिया किंवा प्रक्रिया झाल्या आहेत का?",
+            "display-hi": "क्या मरीज ने दोष से संबंधित कोई सर्जरी या प्रक्रिया करवाई है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_0261ee68-23f1-411a-bf7d-187ccc56a53a",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                },
+                {
+                    "id": "ID_58688273-4b31-49c4-9e53-721ee2e0bd77",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_24be29b9-19fd-4079-ad93-5b712895858b",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f8bfe0ff-97e7-4dc5-834a-49a9a14b8ea1",
+                    "text": "Seizures",
+                    "display-mr": "झटके",
+                    "display-hi": "दौरे (सीजर)"
+                },
+                {
+                    "id": "ID_ff528301-0445-4e8f-bcb9-24a18410ca00",
+                    "text": "Feeding difficulty",
+                    "display-mr": "दूध पाजताना त्रास होणे",
+                    "display-hi": "खाने में परेशानी"
+                },
+                {
+                    "id": "ID_1ae4c8a9-386c-4bf1-9f1d-a0e7e4e7000e",
+                    "text": "Developmental delay",
+                    "display-mr": "विकासातील उशीर",
+                    "display-hi": "शरीर के विकसित होने में देरी"
+                },
+                {
+                    "id": "ID_ab74a0e5-83f7-4292-845a-63216d73d9a2",
+                    "text": "Speech delay",
+                    "display-mr": "उशीरा बोलणे",
+                    "display-hi": "बोलने में देरी"
+                },
+                {
+                    "id": "ID_81f7c59b-b2fd-4904-9ea4-8d29511daa15",
+                    "text": "Weakness of limbs",
+                    "display-mr": "हाता-पायांचा अशक्तपणा",
+                    "display-hi": "अंगों की कमजोरी"
+                },
+                {
+                    "id": "ID_3c7877f4-7aff-4c13-9f37-c3fc2b99ebf1",
+                    "text": "Umbilical swelling",
+                    "display-mr": "नाळेला सूज येणे",
+                    "display-hi": "नाभि में सूजन"
+                },
+                {
+                    "id": "ID_69078ae5-eb0e-4ff4-bff7-979162b17047",
+                    "text": "Extra toes",
+                    "display-mr": "अतिरिक्त बोटे",
+                    "display-hi": "अतिरिक्त पैर की उंगलियां"
+                },
+                {
+                    "id": "ID_5e633fd6-10bf-4ea3-a40b-da96d0898e24",
+                    "text": "Poor weight gain",
+                    "display-mr": "वजन पुरेसे न वाढणे",
+                    "display-hi": "वजन में कमी"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_78f9b3bb-a5f6-464e-b71e-a0b1c55d9ea1",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1fee16c6-9d8f-4ece-941c-1517cb889b86",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_fc6f65d4-9bc9-4c9f-8784-e7df5f0211a5",
+                    "text": "Fast breathing",
+                    "display-mr": "वेगाने श्वास घेणे",
+                    "display-hi": "तेज सांस लेना"
+                },
+                {
+                    "id": "ID_33669840-319b-4075-b46d-e8a8f9d4f460",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_fb99b03d-24ba-4a6b-90b4-344857b1d831",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_9d834bb2-91fc-408e-9127-1253da0c3abc",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_2b271e98-957a-4a5f-a90e-9cfb1ffd45d1",
+                    "text": "Cold intolerance",
+                    "display-mr": "थंडी सहन न होणे",
+                    "display-hi": "ठंड बर्दाश्त न होना"
+                },
+                {
+                    "id": "ID_d302b9dd-01cd-406f-9769-9b284a8d8d75",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोट फुगणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_e518fdf9-baf9-4cbb-93e9-a50b5a24ae83",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटता हुआ"
+                },
+                {
+                    "id": "ID_b16cc71e-e91f-477a-b5ee-313a15e8841b",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_8e5168d6-3966-45d0-8bbf-dfa40dea5a3f",
+                    "text": "Vomiting",
+                    "display-mr": "उलटी",
+                    "display-hi": "उल्टी"
+                },
+                {
+                    "id": "ID_586513d8-0fb4-48ee-ab03-13e1e2302d5c",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_855e24f9-447e-4fed-a3f7-b53e1f421c54",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_16e98ca5-e417-472c-b1eb-8ffa24cbef7c",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_0a4a3b98-25da-4d57-a596-5727e89ba107",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_a3f06b2f-49eb-4404-bfcc-dda8cc816db3",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_cd5a78fe-133f-4b31-9e78-9096c3334854",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_2fa6f26c-ebd9-42e7-a874-78162826c4fb",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,495 @@
+{
+    "id": "ID_7dc24d73-d8c0-47b7-8b7a-75f3095988fb",
+    "text": "Anal itch",
+    "engineVersion": "3.0",
+    "display-mr": "गुदद्वाराला खाज",
+    "display-hi": "गुदा में खुजली",
+    "options": [
+        {
+            "id": "ID_743468da-eb24-4d2d-8075-d91ec52a63f1",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_571a74af-9e58-4ae9-83a8-f96920f35376",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_20ee7afc-923a-4f30-938f-a768385f3713",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_6f43c496-d0b9-4457-ae6c-0efcb4851716",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_356955a3-c20f-4526-9ef6-733974936ba9",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_3dc51031-065c-4b95-8050-c13771d915de",
+            "text": "Do you have pain in anus along with itching?",
+            "display-mr": "तुम्हाला गुदद्वाराला खाज येताना वेदना होतात का?",
+            "display-hi": "क्या आपको गुदा में खुजली के साथ दर्द भी होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_7de595cf-b90b-40e6-9263-cacf2bce8fdc",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_9dd20b6b-9c75-4d92-a1d7-9e7128582426",
+                    "text": "Yes",
+                    "display-mr": "हो",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_646eb763-294a-4630-b08e-94c9fa046ebe",
+                            "text": "How can you describe the character of pain?",
+                            "display-mr": "वेदनांच्या स्वरूपाचे कसे वर्णन कराल?",
+                            "display-hi": "आप दर्द के प्रकार के बारे में कैसे बताएंगे?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_706fe882-d6cc-4443-a71e-a3eb3907087d",
+                                    "text": "Burning pain",
+                                    "display-mr": "जळजळणारी वेदना",
+                                    "display-hi": "जलन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_f2ae6581-2beb-42c2-b0a6-83169ac6d599",
+                                    "text": "Sharp pain",
+                                    "display-mr": "तीव्र वेदना",
+                                    "display-hi": "चुभने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_7f0bf723-f76c-4b15-a396-f7e4e5116792",
+                                    "text": "Stabbing pain",
+                                    "display-mr": "चाकूने भोसकल्यासारखी वेदना",
+                                    "display-hi": "छुरा घोंपने जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_fbda5de3-1bea-4da2-82ef-34dbfa754c5b",
+                                    "text": "Dull aching pain",
+                                    "display-mr": "मंद दुखणारी वेदना",
+                                    "display-hi": "धीमे परंतु सतत होने वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_bc154e70-076c-4885-99a8-65f174cce2d4",
+                                    "text": "Cramping pain",
+                                    "display-mr": "पेटके येणारी वेदना",
+                                    "display-hi": "ऐंठन वाला दर्द"
+                                },
+                                {
+                                    "id": "ID_86e69d0c-5aa4-417a-8416-caed515a6322",
+                                    "text": "Shooting pain",
+                                    "display-mr": "अचानक वाढणारी वेदना",
+                                    "display-hi": "अचानक तेज दर्द"
+                                },
+                                {
+                                    "id": "ID_aafb1200-2bd4-49f9-8d8c-2b18ab375e6e",
+                                    "text": "Gnawing (chewing) pain",
+                                    "display-mr": "कुरतडल्यासारखी वेदना",
+                                    "display-hi": "चबाने जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_206c8f40-34e0-46bd-8fbc-329d5d36c022",
+                                    "text": "Gripping pain",
+                                    "display-mr": "विदारक वेदना",
+                                    "display-hi": "पकड़ने जैसा दर्द"
+                                },
+                                {
+                                    "id": "ID_10f69506-6ad1-4350-a009-5d826f5a7147",
+                                    "text": "Don't know",
+                                    "display-mr": "माहित नाही",
+                                    "display-hi": "पता नहीं"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ID_37a2db78-e1a5-4661-a429-5b1fdc4e95a9",
+                            "text": "How severe is the pain?",
+                            "display-mr": "वेदना किती तीव्र आहे?",
+                            "display-hi": "दर्द कितना अधिक है?",
+                            "multi-choice": false,
+                            "options": [
+                                {
+                                    "id": "ID_93a8c4e2-6658-4e25-9b34-d422b2308341",
+                                    "text": "Mild pain (1 to < 3)",
+                                    "display-mr": "सौम्य वेदना (1 ते < 3)",
+                                    "display-hi": "हल्का दर्द (1 से < 3)"
+                                },
+                                {
+                                    "id": "ID_c6d7022e-edb6-4199-a65a-7a72136d04a7",
+                                    "text": "Moderate pain (3 to < 5)",
+                                    "display-mr": "मध्यम वेदना (3 ते < 5)",
+                                    "display-hi": "मध्यम दर्द (3 से < 5)"
+                                },
+                                {
+                                    "id": "ID_5111214b-4302-472b-83e9-4ee4d72cac8c",
+                                    "text": "Severe pain (5 to < 7)",
+                                    "display-mr": "तीव्र वेदना (5 ते < 7)",
+                                    "display-hi": "गंभीर दर्द (5 से < 7)"
+                                },
+                                {
+                                    "id": "ID_b73b7973-9376-49cd-8f4f-9ce2d8853724",
+                                    "text": "Very severe pain (7 to < 9)",
+                                    "display-mr": "खूप तीव्र वेदना (7 ते < 9)",
+                                    "display-hi": "बहुत गंभीर दर्द (7 से < 9)"
+                                },
+                                {
+                                    "id": "ID_ab2f8a8b-267f-4fb0-af75-d5be731d9e15",
+                                    "text": "Worst pain possible (9 to 10)",
+                                    "display-mr": "शक्य असलेली सर्वात वाईट वेदना (9 ते 10)",
+                                    "display-hi": "असहनीय दर्द (9 से 10)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_09b90b5c-7d39-4ac6-b2f5-efe3b405fd65",
+            "text": "What does relieve or lessen the anal itching?",
+            "display-mr": "गुदद्वाराच्या खाजेला कशाने आराम पडतो किंवा ती कमी होते?",
+            "display-hi": "क्या कुछ ऐसा है जो गुदा की खुजली को कम या दूर करता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9197a543-719f-46d6-b6ef-ddc05bcf7237",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2ef26bed-cbec-441e-8a23-68a44cdfeb8e",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाइयां"
+                },
+                {
+                    "id": "ID_54a3b7fd-446e-4f90-b081-15f3ffbac570",
+                    "text": "Certain food",
+                    "display-mr": "विशिष्ट अन्न",
+                    "display-hi": "कुछ खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_1cbe801e-c97e-42b5-8a93-d48bd2d97240",
+                    "text": "Defecation",
+                    "display-mr": "मलविसर्जन",
+                    "display-hi": "मल त्याग"
+                },
+                {
+                    "id": "ID_4d2b844f-c083-454f-a96b-5c5b4bf6dae3",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4db96003-924a-442c-822f-44c9d2ae3871",
+            "text": "What does increase or worsen the anal itching?",
+            "display-mr": "गुदद्वाराची खाज कशामुळे वाढते किंवा बिघडते?",
+            "display-hi": "गुदा की खुजली को बढ़ाने या खराब करने का क्या कारण है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_a61518f3-eb72-4870-b703-6f77b66d2bf9",
+                    "text": "None",
+                    "display-mr": "कशानेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_3b689233-38fa-4624-8d01-5d8271ee3379",
+                    "text": "Wipes",
+                    "display-mr": "कागदाने पुसल्याने",
+                    "display-hi": "वाइप्स"
+                },
+                {
+                    "id": "ID_49ee35aa-62ed-4bb4-80f8-f75bc7c460cf",
+                    "text": "Defecation",
+                    "display-mr": "मलविसर्जन",
+                    "display-hi": "मल त्याग"
+                },
+                {
+                    "id": "ID_39598409-9ec1-4f3a-adfe-81f2f8bf4416",
+                    "text": "Leakage of feces",
+                    "display-mr": "मलगळती",
+                    "display-hi": "मल का रिसाव"
+                },
+                {
+                    "id": "ID_110af2d4-4686-4b1d-88cb-1bbf20e7ed89",
+                    "text": "Certain food",
+                    "display-mr": "विशिष्ट अन्न",
+                    "display-hi": "कुछ खाद्य पदार्थ"
+                },
+                {
+                    "id": "ID_c700b4b6-aa86-4c33-8b43-ee919cbddae6",
+                    "text": "Alcohol",
+                    "display-mr": "दारू",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_04fdef4a-eb69-4437-bbb8-86d09a23172d",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे",
+                    "display-hi": "कुछ दवाइयां"
+                },
+                {
+                    "id": "ID_2ba4a629-e2f6-44be-b549-3e5ea08e8aef",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_024e012b-7d40-4e32-98a7-7530c06ad47c",
+            "text": "How is the symptom progressing?",
+            "display-mr": "लक्षणामध्ये काही बदल झाला का?",
+            "display-hi": "लक्षण में कुछ बदलाव है ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_14420cc3-7897-4aab-8fb7-49886ac3cd13",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_f1d9c7d3-e599-48c4-b485-858217fd7524",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_6a68e4bf-4ae5-41d5-bf65-978f6fa8a035",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_229ccdde-ee9c-4979-874e-c9c80e3710a7",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_f61dc52b-1cff-478d-9d55-f1d8278bcc23",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_fcabcd76-4273-473d-a5b0-f8a1fd0c5000",
+                    "text": "Constipation",
+                    "display-mr": "बद्धकोष्ठता",
+                    "display-hi": "कब्ज"
+                },
+                {
+                    "id": "ID_88f269ee-e86c-4c7a-b1ef-1145c00de64b",
+                    "text": "Skin rash",
+                    "display-mr": "त्वचेवर पुरळ",
+                    "display-hi": "त्वचा पर लाल चकत्ते"
+                },
+                {
+                    "id": "ID_a38cf55d-1d10-4e2b-b149-bf1b588aaef8",
+                    "text": "Fecal incontinence",
+                    "display-mr": "मलावर असंयम",
+                    "display-hi": "शौच रोका नहीं जाता"
+                },
+                {
+                    "id": "ID_b7b459f2-1aaa-4727-96c2-0088022b0f0e",
+                    "text": "Worms in stools",
+                    "display-mr": "मलामध्ये कृमी",
+                    "display-hi": "मल में कीड़े"
+                },
+                {
+                    "id": "ID_64401766-439d-4eec-9f47-16330be53273",
+                    "text": "Blood in stool",
+                    "display-mr": "मलामध्ये रक्त",
+                    "display-hi": "मल में खून"
+                },
+                {
+                    "id": "ID_386aac87-eb6b-4fd8-9cb8-c86b9104287c",
+                    "text": "Mucus in stool",
+                    "display-mr": "मलामध्ये श्लेष्मा",
+                    "display-hi": "मल में आंव आना"
+                },
+                {
+                    "id": "ID_ea0361ec-3a91-43a1-ac0e-e961fedcba92",
+                    "text": "Anal skin tag",
+                    "display-mr": "गुदद्वाराचा स्किन टॅग",
+                    "display-hi": "गुदा का मस्सा"
+                },
+                {
+                    "id": "ID_9e089c6f-1310-41e2-8e49-253497138373",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीवर असंयम",
+                    "display-hi": "पेशाब रोकने में दिक्कत"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_0557f4ee-8f0b-425c-8420-32a6392cec5c",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_aa98ff66-5bf3-48c2-a099-7fffb005726a",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_69e17f8e-fa58-438a-8eea-4d6a37231f29",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_865a99e1-82a2-40c2-a6f8-a40b80c0a4d9",
+                    "text": "Loss of appetite",
+                    "display-mr": "भूक न लागणे",
+                    "display-hi": "भूख न लगना"
+                },
+                {
+                    "id": "ID_a8040bf4-3b86-4063-b6ac-088fcaef0763",
+                    "text": "Nocturia",
+                    "display-mr": "रात्री वारंवार लघवी लागणे",
+                    "display-hi": "रात में बार-बार पेशाब आना"
+                },
+                {
+                    "id": "ID_03b60477-ba68-4b2c-8a12-0c168f8466a2",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_9f820d78-5a76-4591-99c0-c959b4a6e86a",
+                    "text": "Fatigue",
+                    "display-mr": "थकवा",
+                    "display-hi": "थकान"
+                },
+                {
+                    "id": "ID_42528157-c27d-48f1-a834-c994fad7e044",
+                    "text": "Weight loss",
+                    "display-mr": "वजन कमी होणे",
+                    "display-hi": "वजन घटना"
+                },
+                {
+                    "id": "ID_5eeb4de7-cd63-4adf-a8c1-01a754d2107d",
+                    "text": "Abdominal pain",
+                    "display-mr": "पोटदुखी",
+                    "display-hi": "पेट दर्द"
+                },
+                {
+                    "id": "ID_54ee103a-9d37-4726-9968-0a3095bff1d3",
+                    "text": "Itching of skin",
+                    "display-mr": "त्वचेला खाज सुटणे",
+                    "display-hi": "त्वचा में खुजली"
+                },
+                {
+                    "id": "ID_57f7954c-75d8-4806-974d-a3ffd7703925",
+                    "text": "Scaly skin",
+                    "display-mr": "त्वचेच्या खपल्या निघणे",
+                    "display-hi": "पपड़ीदार त्वचा"
+                },
+                {
+                    "id": "ID_07d5ef0a-e0c7-4a04-bd31-9f8c61b4e316",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_79a02552-027a-48d9-81a4-f3a12812f482",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_ba1fc4e3-6655-4adb-9fc8-bf92ec64820f",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_6d5c3525-7bc5-4519-b4be-b1c7dc68a77e",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_83c22f0c-323b-4e6f-abcd-07cf82dc11ae",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_9a56cb1f-45d0-49c8-b67a-1cac052b3777",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_1a8af6a8-e806-45d7-bb8b-533c5db341a3",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

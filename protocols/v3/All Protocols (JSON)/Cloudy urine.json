@@ -1,0 +1,455 @@
+{
+    "id": "ID_ae95bfb1-6ed0-4993-bce0-dab2d7acb3cb",
+    "text": "Cloudy urine",
+    "engineVersion": "3.0",
+    "display-mr": "गढूळ लघवी",
+    "display-hi": "मटमैला पेशाब",
+    "options": [
+        {
+            "id": "ID_f63046a2-83ef-48f5-b204-29acb8067862",
+            "text": "Since when have you had cloudy urine?",
+            "display-mr": "तुम्हाला गढूळ लघवी कधीपासून होते?",
+            "display-hi": "आपको कब से मटमैला पेशाब आ रहा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_12d5a96d-f72d-4dad-8d1d-ea2a4da432f9",
+                    "text": "Since when have you had cloudy urine?",
+                    "display-mr": "तुम्हाला गढूळ लघवी कधीपासून होते?",
+                    "display-hi": "आपको कब से मटमैला पेशाब आ रहा है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_3488d5e0-32d3-4fd1-b2e2-0a2e1f7b0058",
+            "text": "How fast did your symptom start?",
+            "display-mr": "तुमचे लक्षण किती वेगाने सुरू झाले?",
+            "display-hi": "आपका लक्षण कितनी तेजी से शुरू हुआ?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_980a07f6-2bf2-47d8-adfb-18bc38eee6fb",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_a605f37f-cc65-4b9b-9396-6e2c3f0432f1",
+                    "text": "Slowly",
+                    "display-mr": "हळूहळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_167e233b-0254-4d2e-9bba-e0c2ab191aed",
+            "text": "What is the colour of urine?",
+            "display-mr": "लघवीचा रंग कसा आहे?",
+            "display-hi": "पेशाब का रंग कैसा होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_fc448986-dadd-4cfe-8edc-bbf83413a62c",
+                    "text": "Normal",
+                    "display-mr": "सामान्य",
+                    "display-hi": "सामान्य"
+                },
+                {
+                    "id": "ID_4b42f096-6b46-41d7-ba9f-e5084adeb760",
+                    "text": "White like milk",
+                    "display-mr": "दुधासारखा पांढरा",
+                    "display-hi": "दूध जैसा सफेद"
+                },
+                {
+                    "id": "ID_9643f650-005f-4c93-b90f-f1572f43aca7",
+                    "text": "Yellow",
+                    "display-mr": "पिवळा",
+                    "display-hi": "पीला"
+                },
+                {
+                    "id": "ID_83937122-f5d4-4447-9e47-12d4a1f288b4",
+                    "text": "Brown",
+                    "display-mr": "तपकिरी",
+                    "display-hi": "भूरा"
+                },
+                {
+                    "id": "ID_338da221-23a6-48e3-b8b5-ace957edd478",
+                    "text": "Dark yellow",
+                    "display-mr": "गडद पिवळा",
+                    "display-hi": "गहरा पीला"
+                },
+                {
+                    "id": "ID_a2c80abd-aef3-400c-b353-58c98f87674b",
+                    "text": "Red",
+                    "display-mr": "लाल",
+                    "display-hi": "लाल"
+                },
+                {
+                    "id": "ID_6397bc0c-60c1-44b1-8c27-b406689190a1",
+                    "text": "Orange",
+                    "display-mr": "नारिंगी",
+                    "display-hi": "नारंगी"
+                }
+            ]
+        },
+        {
+            "id": "ID_149ec3c5-6196-4451-ad73-ac86826460de",
+            "text": "How much water do you drink daily?",
+            "display-mr": "तुम्ही रोज किती पाणी पिता?",
+            "display-hi": "आप प्रतिदिन कितना पानी पीते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_93e242d9-5d05-4107-be42-c1840d7dfcb3",
+                    "text": "Less than 1 litre",
+                    "display-mr": "1 लिटरपेक्षा कमी",
+                    "display-hi": "1 लीटर से भी कम"
+                },
+                {
+                    "id": "ID_255791a6-969b-479a-86da-2cf79ccf7545",
+                    "text": "1 to 2 litres",
+                    "display-mr": "1 ते 2 लिटर",
+                    "display-hi": "1 से 2 लीटर"
+                },
+                {
+                    "id": "ID_db66014b-856e-4e2f-82db-63b8881a3e20",
+                    "text": "2 to 3 litres",
+                    "display-mr": "2 ते 3 लिटर",
+                    "display-hi": "2 से 3 लीटर"
+                },
+                {
+                    "id": "ID_be75fb71-da63-4c92-8e7f-651075b794a2",
+                    "text": "More than 3 litres",
+                    "display-mr": "3 लिटरपेक्षा जास्त",
+                    "display-hi": "3 लीटर से अधिक"
+                }
+            ]
+        },
+        {
+            "id": "ID_5b2067a1-05f2-4f45-bf0b-9038dea93c9a",
+            "text": "What is the smell of urine?",
+            "display-mr": "लघवीचा वास कसा आहे?",
+            "display-hi": "पेशाब की गंध कैसी होती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_3198e4b6-9a01-4866-8587-e8f35824ce3d",
+                    "text": "No smell",
+                    "display-mr": "वास नाही",
+                    "display-hi": "कोई गंध नहीं"
+                },
+                {
+                    "id": "ID_780c2682-530b-445f-93fd-7a878e2f757c",
+                    "text": "Foul smell",
+                    "display-mr": "दुर्गंध",
+                    "display-hi": "दुर्गंध"
+                },
+                {
+                    "id": "ID_9afbd4d3-f180-4c23-b544-3b1797fb3a28",
+                    "text": "Sweet smell",
+                    "display-mr": "गोड वास",
+                    "display-hi": "मीठी गंध"
+                },
+                {
+                    "id": "ID_c589abe8-a40d-4384-aae8-effc72954cbd",
+                    "text": "Fishy smell",
+                    "display-mr": "माशांसारखा वास",
+                    "display-hi": "मछली जैसी गंध"
+                },
+                {
+                    "id": "ID_0effba40-457c-4cba-b82e-c4a3dc09136b",
+                    "text": "Musty smell",
+                    "display-mr": "उग्र वास",
+                    "display-hi": "बासी गंध"
+                },
+                {
+                    "id": "ID_b8408944-9e82-4426-93e5-a93edfb7093e",
+                    "text": "Don't know",
+                    "display-mr": "माहीत नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_9b2362ea-feca-4b88-a64f-1721846bf0cc",
+            "text": "Do you have pain during urination?",
+            "display-mr": "लघवी करताना वेदना होतात का?",
+            "display-hi": "क्या आपको पेशाब करते समय दर्द होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b2144266-4543-4005-b8cc-7c6d7bed8de9",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_4f52b009-fbdb-4028-b363-1a3efee8c81f",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां"
+                }
+            ]
+        },
+        {
+            "id": "ID_01cbd28e-b21b-4a2e-9d21-1b4fa37eb248",
+            "text": "What time of day do you pass cloudy urine?",
+            "display-mr": "दिवसाच्या कोणत्या वेळी तुम्हाला गढूळ लघवी होते?",
+            "display-hi": "दिन के किस समय आपको मटमैला पेशाब आता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_40207aed-ece5-4eed-b1cf-7a12f243dab3",
+                    "text": "Early morning",
+                    "display-mr": "पहाटे",
+                    "display-hi": "बहुत सवेरे"
+                },
+                {
+                    "id": "ID_472beabf-d31d-49d3-94fe-95287ed681e9",
+                    "text": "Daytime",
+                    "display-mr": "दिवसा",
+                    "display-hi": "दिन"
+                },
+                {
+                    "id": "ID_8af6f170-1c11-4fbd-99b2-2c8716c481f3",
+                    "text": "Night time",
+                    "display-mr": "रात्रीची वेळ",
+                    "display-hi": "रात का समय"
+                },
+                {
+                    "id": "ID_da4e77af-9bc2-4a9d-b2e6-564f56cf8aef",
+                    "text": "Always",
+                    "display-mr": "नेहमी",
+                    "display-hi": "हमेशा"
+                }
+            ]
+        },
+        {
+            "id": "ID_bfe24e14-ac1e-4347-b9f0-b48bbccc1d7a",
+            "text": "How is the symptom progressing?",
+            "display-mr": "लक्षणांमध्ये काही बदल झाला का?",
+            "display-hi": "लक्षण में कुछ बदलाव है क्या?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b60bcd36-0b39-454a-a985-ccc54005c969",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_c68bdc86-3fc7-4786-a697-88a357bf0afc",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_5a79b660-9fa6-458f-97ce-5d42356e23e6",
+                    "text": "Recurrent",
+                    "display-mr": "पुन्हा पुन्हा होत आहे",
+                    "display-hi": "बार-बार होना"
+                },
+                {
+                    "id": "ID_f661a666-21f7-406b-84d7-b1ba40eb3d89",
+                    "text": "No change",
+                    "display-mr": "कोणताही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_25648b4a-52a0-4a8a-8eb3-227f08e99a59",
+            "text": "Associated symptoms",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_f2b83dd9-be6f-4d00-9bef-1d3a5af64264",
+                    "text": "Urethral discharge",
+                    "display-mr": "मूत्रमार्गातून स्राव",
+                    "display-hi": "पेशाबमार्ग से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_1060a82a-5f61-406b-a397-2eeadc46af55",
+                    "text": "Discharge from penis",
+                    "display-mr": "शिश्नामधून स्राव",
+                    "display-hi": "लिंग से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_6670d4c8-9ef6-44fd-8437-6f691415cc18",
+                    "text": "Excessive thirst",
+                    "display-mr": "जास्त तहान लागणे",
+                    "display-hi": "अधिक प्यास"
+                },
+                {
+                    "id": "ID_33e9c097-a599-47c5-9682-83894f7c9e81",
+                    "text": "Frequent urination",
+                    "display-mr": "वारंवार लघवी होणे",
+                    "display-hi": "बार बार पेशाब आना"
+                },
+                {
+                    "id": "ID_12cd5f59-5ddf-45ec-96d3-870757c0e673",
+                    "text": "Burning urination",
+                    "display-mr": "लघवी करताना जळजळ होणे",
+                    "display-hi": "पेशाब में जलन होना"
+                },
+                {
+                    "id": "ID_a5cb0300-dfdf-48da-b19a-fd75cbda5615",
+                    "text": "Flank pain",
+                    "display-mr": "मागील बाजूला वेदना होणे",
+                    "display-hi": "कमर में तेज दर्द"
+                },
+                {
+                    "id": "ID_3777ec0c-3e3f-4fcf-b7a6-4c1760396dd0",
+                    "text": "Blood in urine",
+                    "display-mr": "लघवीवाटे रक्त जाणे",
+                    "display-hi": "पेशाब में खून आना"
+                },
+                {
+                    "id": "ID_92687ff8-7184-4e60-8543-c688cd4efacd",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_79898f29-6403-4ca1-9dc1-a349d8170706",
+                    "text": "History of kidney stones",
+                    "display-mr": "मूतखड्यांचा इतिहास",
+                    "display-hi": "गुर्दे की पथरी का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptom(s)?"
+        },
+        {
+            "id": "ID_fac37629-364b-49f2-b92d-0657366b2b9c",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_8f78bc7f-c901-430a-a8ef-192502ab1351",
+                    "text": "None",
+                    "display-mr": "कोणतेही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_9ce4a786-919a-4ac5-81c7-ae3db1924a23",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_a494617d-7df8-4457-8cb0-8bc7cacbfe40",
+                    "text": "Vomiting",
+                    "display-mr": "उलट्या होणे",
+                    "display-hi": "उल्टी करना"
+                },
+                {
+                    "id": "ID_737cdae4-3db5-4308-b3a9-d1b7834b836a",
+                    "text": "Loose stools",
+                    "display-mr": "पातळ मलविसर्जन",
+                    "display-hi": "पतले दस्त"
+                },
+                {
+                    "id": "ID_ef8acdb9-3d51-4e31-81c9-8ea92a2ae0b0",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_06f3159e-7aed-45cb-8f01-edb80d105c19",
+                    "text": "Pelvic pain",
+                    "display-mr": "ओटीपोटात वेदना",
+                    "display-hi": "पेल्विक हिस्से या कूल्हों के पास दर्द"
+                },
+                {
+                    "id": "ID_394f919e-f7e8-4498-bf49-aeaacf04451b",
+                    "text": "Excessive sweating",
+                    "display-mr": "जास्त घाम येणे",
+                    "display-hi": "अत्यधिक पसीना आना"
+                },
+                {
+                    "id": "ID_572a09ef-e3e8-437a-b190-a648f3e61ca3",
+                    "text": "Incontinence of urine",
+                    "display-mr": "लघवीवर संयम नसणे",
+                    "display-hi": "पेशाब रोकने में दिक्कत"
+                },
+                {
+                    "id": "ID_e8206dea-6714-4823-bb22-1a81292be960",
+                    "text": "Swelling of feet",
+                    "display-mr": "पायांना सूज येणे",
+                    "display-hi": "पैरों में सूजन"
+                },
+                {
+                    "id": "ID_b6cc243b-2fea-4262-80fc-2c3fc8e28b32",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_df7313e6-c91b-4eb5-acbf-2a1d56738379",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_b10af791-cd28-46a0-837f-89b9557ceb65",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_06258e56-32cd-4e7f-8b63-aa339bc07631",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_f74ffadb-fdac-400f-a07f-f3030de721e0",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_528d502a-df44-4eeb-b748-f48b6aec9368",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_a3e81ee2-b99a-487b-8f49-91ecc397e7d8",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}

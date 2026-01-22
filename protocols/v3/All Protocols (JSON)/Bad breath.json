@@ -1,0 +1,628 @@
+{
+    "id": "ID_5a79df07-ce61-40c7-9b74-1e876c82a241",
+    "text": "Bad breath",
+    "engineVersion": "3.0",
+    "display-mr": "दुर्गंधीयुक्त श्वास",
+    "display-hi": "सांसों की बदबू",
+    "options": [
+        {
+            "id": "ID_907a7e6d-8443-4a19-a22b-bbdba4f31775",
+            "text": "Since when have you had this symptom?",
+            "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+            "display-hi": "आपको यह लक्षण कब से है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_2d10ebf9-3f21-4e17-9dd2-de2106d1eb1d",
+                    "text": "Since when have you had this symptom?",
+                    "display-mr": "तुम्हाला ही लक्षणे कधीपासून जाणवत आहेत?",
+                    "display-hi": "आपको यह लक्षण कब से है?",
+                    "input-type": "duration"
+                }
+            ]
+        },
+        {
+            "id": "ID_4f3a6558-48a1-4ed6-8d90-7cbc4412c9a6",
+            "text": "How fast did this symptom develop?",
+            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_78d86e9b-957c-467d-8ff1-0275c4b71f34",
+                    "text": "Suddenly",
+                    "display-mr": "अचानक",
+                    "display-hi": "अचानक"
+                },
+                {
+                    "id": "ID_22f09ab7-b3c0-499b-a73e-a1df242dac6b",
+                    "text": "Slowly",
+                    "display-mr": "हळू हळू",
+                    "display-hi": "धीरे-धीरे"
+                }
+            ]
+        },
+        {
+            "id": "ID_fd17d929-fffe-4977-be7c-d120c14c59b2",
+            "text": "Where do you have the bad breath?",
+            "display-mr": "तुम्हाला दुर्गंधीयुक्त श्वास कुठल्या भागात जाणवत आहे?",
+            "display-hi": "आपको सांसों की बदबू  कहां से आती है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_e0f14bc9-7d21-43bd-ade7-3163bfb2484e",
+                    "text": "Nose",
+                    "display-mr": "नाक",
+                    "display-hi": "नाक"
+                },
+                {
+                    "id": "ID_75b40162-1bda-4ee7-8fcd-cfb0cfd965fe",
+                    "text": "Mouth",
+                    "display-mr": "तोंड",
+                    "display-hi": "मुंह"
+                },
+                {
+                    "id": "ID_51f79232-d1eb-4b79-9132-02862b60e1fe",
+                    "text": "Nose and mouth",
+                    "display-mr": "नाक व तोंड",
+                    "display-hi": "नाक और मुंह"
+                }
+            ]
+        },
+        {
+            "id": "ID_1a73f08d-8bc6-4dcb-9f1e-5f12d2a0f6fa",
+            "text": "How can you describe the smell of bad breath?",
+            "display-mr": "तुम्ही दुर्गंधीयुक्त श्वासाचे वर्णन कसे करू शकता?",
+            "display-hi": "आप सांसों की बदबू का वर्णन कैसे कर सकते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_5bca80f3-1b5b-407e-b59e-4690290a9ad7",
+                    "text": "Garlic smell",
+                    "display-mr": "लसणाचा वास",
+                    "display-hi": "लहसुन की गंध"
+                },
+                {
+                    "id": "ID_174062e0-e47a-43cc-a3b0-257d74f1c0be",
+                    "text": "Fishy smell",
+                    "display-mr": "माशाचा वास",
+                    "display-hi": "मछली जैसी गंध"
+                },
+                {
+                    "id": "ID_ae900a2e-f6d2-4f7e-a283-4470cc48ff3e",
+                    "text": "Foul smell",
+                    "display-mr": "दुर्गंधित वास",
+                    "display-hi": "गंदी गंध"
+                },
+                {
+                    "id": "ID_3bb95139-99d2-4b8d-a148-9b78aa84455c",
+                    "text": "Onion smell",
+                    "display-mr": "कांद्याचा वास",
+                    "display-hi": "प्याज की गंध"
+                },
+                {
+                    "id": "ID_62be0215-6c73-4d8d-a305-295d57901feb",
+                    "text": "Fruity smell",
+                    "display-mr": "फळांचा वास",
+                    "display-hi": "फलों जैसी गंध"
+                },
+                {
+                    "id": "ID_efdc023d-1755-41f2-97e0-0207dcce05a7",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                },
+                {
+                    "id": "ID_deca2600-1109-4f29-b824-d91d3c30da72",
+                    "text": "Don't know",
+                    "display-mr": "माहिती नाही",
+                    "display-hi": "पता नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_d3e91a91-92d0-443e-90e1-ddf926fd3b46",
+            "text": "Do you have any of the local associated features with bad breath?",
+            "display-mr": "तुम्हाला दुर्गंधीयुक्त श्वासाशी संबंधित कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपकी सांसों की बदबू  के साथ जुड़ी इनमें से कोई विशेषता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_9e01fa3b-8e8d-448d-8c73-e2b681885912",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_1481616b-f24f-49ba-a413-f47b4123c868",
+                    "text": "Swelling of gums",
+                    "display-mr": "हिरड्यांवर सूज",
+                    "display-hi": "मसूड़ों की सूजन"
+                },
+                {
+                    "id": "ID_ab8d3b89-c3fe-461b-a389-763e0f024944",
+                    "text": "Ulcers in mouth",
+                    "display-mr": "तोंडामध्ये व्रण",
+                    "display-hi": "मुंह में छाले"
+                },
+                {
+                    "id": "ID_99bb8c7b-f75f-40cc-addb-206629147605",
+                    "text": "Bleeding gums",
+                    "display-mr": "हिरड्यांमधून रक्त येणे",
+                    "display-hi": "मसूड़ों से खून आना"
+                },
+                {
+                    "id": "ID_028ff426-20b3-420e-badf-ef02de578101",
+                    "text": "White patches in mouth",
+                    "display-mr": "तोंडामध्ये पांढरे चट्टे",
+                    "display-hi": "मुंह में सफेद दाग"
+                },
+                {
+                    "id": "ID_22350a17-dbd0-48ed-a4bf-e37aa3f9e9a8",
+                    "text": "Nasal discharge",
+                    "display-mr": "नाकातून स्राव",
+                    "display-hi": "नाक से तरल पदार्थ निकलना"
+                },
+                {
+                    "id": "ID_aa6d4bf2-48da-4d03-a790-7bf7a8486d6b",
+                    "text": "Nose bleed",
+                    "display-mr": "नाकातून रक्त येणे",
+                    "display-hi": "नाक से खून आना"
+                },
+                {
+                    "id": "ID_0cf44422-3fe1-49ab-a24c-1be9e390fe24",
+                    "text": "Swelling inside nostrils",
+                    "display-mr": "नाकपुड्यांमध्ये सूज",
+                    "display-hi": "नाक के अंदर सूजन"
+                },
+                {
+                    "id": "ID_81734aaa-1a5c-45bc-8644-0e0433dc4a09",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_071e4c6d-7d7f-4930-a053-52af49e8211e",
+            "text": "Do you consume these products frequently?",
+            "display-mr": "तुम्ही या उत्पादनांचे वारंवार सेवन करता का?",
+            "display-hi": "क्या आप इन उत्पादों का अक्सर सेवन करते हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_7291c3c9-90ee-4992-a3a7-9b68747d6841",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_934110d4-2f90-4e1c-a1a3-3a283f32743e",
+                    "text": "Garlic",
+                    "display-mr": "लसूण",
+                    "display-hi": "लहसुन"
+                },
+                {
+                    "id": "ID_92f1d320-c839-4daf-8729-57b082b178e7",
+                    "text": "Onions",
+                    "display-mr": "कांदा",
+                    "display-hi": "प्याज"
+                },
+                {
+                    "id": "ID_ededf225-22e1-4e2a-a31b-170d3f28bb51",
+                    "text": "Spices",
+                    "display-mr": "मसाले",
+                    "display-hi": "मसाले"
+                },
+                {
+                    "id": "ID_1c3a7c19-54d8-46ea-b4f5-7b65d5750786",
+                    "text": "Tobacco products",
+                    "display-mr": "तंबाखुची उत्पादने",
+                    "display-hi": "तम्बाकू उत्पाद"
+                },
+                {
+                    "id": "ID_ae2e38d4-8175-402f-b270-72e7fb229822",
+                    "text": "Smoking",
+                    "display-mr": "धूम्रपान",
+                    "display-hi": "धूम्रपान"
+                },
+                {
+                    "id": "ID_b5d847a0-d30d-4843-99a0-ae815a8229d9",
+                    "text": "Alcohol",
+                    "display-mr": "मद्य",
+                    "display-hi": "शराब"
+                },
+                {
+                    "id": "ID_1b85ce7f-abd3-4dfa-866e-3612d1fcb5b0",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_cd8e3b20-25b2-4560-bb25-c03b19a03ccf",
+            "text": "Does the bad breath have any time pattern during a 24 hour cycle?",
+            "display-mr": "दुर्गंधीयुक्त श्वासाचे 24 तासांच्या आवर्तनादरम्यान काही स्वरूप आहे का?",
+            "display-hi": "क्या 24 घंटे के चक्र के दौरान सांसों की बदबू का कोई समय पैटर्न होता है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_5378055c-0259-4054-8b13-57a0b2e16035",
+                    "text": "Constant",
+                    "display-mr": "सतत",
+                    "display-hi": "निरंतर"
+                },
+                {
+                    "id": "ID_a94dde47-2df0-4dc1-81e5-e3116380e554",
+                    "text": "Intermittent (comes & goes)",
+                    "display-mr": "अधूम-मधून (येतो व जातो)",
+                    "display-hi": "रुक-रुक कर (आता-जाता है)"
+                }
+            ]
+        },
+        {
+            "id": "ID_b2ff339a-c117-4743-89ef-f1a61e56ecf7",
+            "text": "How much water do you drink daily?",
+            "display-mr": "तुम्ही रोज किती पाणी पिता?",
+            "display-hi": "आप प्रतिदिन कितना पानी पीते हैं?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_f1b57f4a-c9d0-4707-94ad-3a29b10936da",
+                    "text": "Less than 1 litre",
+                    "display-mr": "1 लिटरपेक्षा कमी",
+                    "display-hi": "1 लीटर से कम"
+                },
+                {
+                    "id": "ID_53562b0e-edbe-4a97-a719-f66a7d0452c8",
+                    "text": "1-2 litres",
+                    "display-mr": "1-2 लिटर",
+                    "display-hi": "1-2 लीटर"
+                },
+                {
+                    "id": "ID_fda2b7cd-1ab3-477c-b0ee-2eb16399b37e",
+                    "text": "More than 2 litres",
+                    "display-mr": "2 लिटरपेक्षा अधिक",
+                    "display-hi": "2 लीटर से ज्यादा"
+                }
+            ]
+        },
+        {
+            "id": "ID_ea9c42fa-8fdc-4a8f-83d5-5cbdadb44b12",
+            "text": "What does relieve or lessen the bad breath?",
+            "display-mr": "श्वासातील दुर्गंध कशामुळे नाहीसा किंवा कमी होतो?",
+            "display-hi": "क्या सांसों की बदबू से राहत मिलती है या कम होती है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_1423899a-2151-4fcb-b0c2-54e537ce3ff1",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_21cab504-da89-4f2d-a5ff-fb2cdb1ce652",
+                    "text": "Mouth wash",
+                    "display-mr": "माउथ वॉश"
+                },
+                {
+                    "id": "ID_bea777ec-3de7-4277-84cf-b8078882f5ba",
+                    "text": "Plenty of oral fluids",
+                    "display-mr": "तोंडावाटे भरपूर द्रवपदार्थ घेऊन"
+                },
+                {
+                    "id": "ID_aee41a31-a456-480d-9fa6-9f3c87d08230",
+                    "text": "Avoiding certain foods",
+                    "display-mr": "विशिष्ट अन्नपदार्थ टाळणे"
+                },
+                {
+                    "id": "ID_10d282e2-e38d-4852-bd49-a3f587b0a157",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे"
+                },
+                {
+                    "id": "ID_ddfd90e5-e424-4a3b-8f0c-3dd94b6236ba",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_3869b38a-07fb-4b41-be88-5aac0b75bb8d",
+            "text": "What does increase or worsen the bad breath?",
+            "display-mr": "श्वासातील दुर्गंध कशामुळे वाढतो किंवा बळावतो?",
+            "display-hi": "सांसों की बदबू को क्या बढ़ाता या बिगाड़ता है?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_93437eda-db3f-458a-8f2c-674a94c09006",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_2e59775a-523d-45f1-a3e2-42c44fc75c80",
+                    "text": "Certain medication",
+                    "display-mr": "विशिष्ट औषधे"
+                },
+                {
+                    "id": "ID_871ccca0-1854-4faf-b06a-230704ab722f",
+                    "text": "Certain foods",
+                    "display-mr": "विशिष्ट अन्नपदार्थ"
+                },
+                {
+                    "id": "ID_afc335da-c43c-4d44-b1e8-f75bb073f4de",
+                    "text": "Smoking",
+                    "display-mr": "धूम्रपान"
+                },
+                {
+                    "id": "ID_1f1e9726-341d-4a31-932b-ed05e22b36f5",
+                    "text": "Alcohol",
+                    "display-mr": "मद्य"
+                },
+                {
+                    "id": "ID_23ea734c-c3b3-4db1-8bf7-44b7bf839aae",
+                    "text": "Dry mouth",
+                    "display-mr": "कोरडे तोंड"
+                },
+                {
+                    "id": "ID_e5526921-c4f2-4c98-8e85-6d637740603c",
+                    "text": "Tobacco chewing",
+                    "display-mr": "तंबाखू चघळणे"
+                },
+                {
+                    "id": "ID_f69bfb21-4339-4991-b1bc-8853b52dda8c",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_8d72a7ee-f8cb-41db-adcb-6a04078930ff",
+            "text": "How is bad breath progressing?",
+            "display-mr": "दुर्गंधीयुक्त श्वासा मध्ये काही बदल झाला का?",
+            "display-hi": "सांसों की बदबू की समस्या में कुछ बदलाव?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_229abbea-54a9-4df8-8eeb-245ee1aeae1c",
+                    "text": "Increasing",
+                    "display-mr": "वाढत आहे",
+                    "display-hi": "बढ़ता हुआ"
+                },
+                {
+                    "id": "ID_de0607d3-c95f-4ed4-b2bf-caf5c99c495c",
+                    "text": "Decreasing",
+                    "display-mr": "कमी होत आहे",
+                    "display-hi": "घटता हुआ"
+                },
+                {
+                    "id": "ID_16bf852a-5c73-43fa-bc1e-16f38ccc494f",
+                    "text": "Recurrent",
+                    "display-mr": "वारंवार होत आहे",
+                    "display-hi": "बार—बार होना"
+                },
+                {
+                    "id": "ID_28c8bfc5-9261-462a-83a0-f873c7d85afe",
+                    "text": "No change",
+                    "display-mr": "काहीही बदल नाही",
+                    "display-hi": "कोई बदलाव नहीं"
+                }
+            ]
+        },
+        {
+            "id": "ID_39bf07b1-62db-437b-8c46-79e23ae157ad",
+            "text": "Associated symptoms",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_88e5f988-9bac-4d47-a044-b6bb5f3cce87",
+                    "text": "Nausea",
+                    "display-mr": "मळमळ",
+                    "display-hi": "मतली"
+                },
+                {
+                    "id": "ID_c29494e3-99f1-4fde-8404-a9e33d215f76",
+                    "text": "Toothache",
+                    "display-mr": "दात दुखणे",
+                    "display-hi": "दांत दर्द"
+                },
+                {
+                    "id": "ID_6a3bff31-580a-406e-858b-b8c095fc8275",
+                    "text": "Indigestion",
+                    "display-mr": "अपचन",
+                    "display-hi": "अपच"
+                },
+                {
+                    "id": "ID_f6be507b-29e2-445c-a049-669e9b3ae9cc",
+                    "text": "Throat pain",
+                    "display-mr": "घसा दुखणे",
+                    "display-hi": "गले में दर्द"
+                },
+                {
+                    "id": "ID_26450142-f679-4cac-bc28-ac6f23edf125",
+                    "text": "Facial pain",
+                    "display-mr": "चेहरा दुखणे",
+                    "display-hi": "चेहरे में दर्द"
+                },
+                {
+                    "id": "ID_648c3361-1edc-4be5-a5e2-58642ef159b2",
+                    "text": "Burping (belching)",
+                    "display-mr": "ढेकर (उद्वमन)",
+                    "display-hi": "डकार"
+                },
+                {
+                    "id": "ID_6081f2ab-e3c5-4c7c-8727-418b8adb3a44",
+                    "text": "Heartburn",
+                    "display-mr": "छातीत जळजळ होणे",
+                    "display-hi": "सीने में जलन"
+                },
+                {
+                    "id": "ID_e5cb4905-7146-4ec7-a59d-135219860e5f",
+                    "text": "Cough",
+                    "display-mr": "खोकला",
+                    "display-hi": "खांसी"
+                },
+                {
+                    "id": "ID_85faff3d-2691-48ce-b9c0-dd637abb45b2",
+                    "text": "History of foreign body in nose",
+                    "display-mr": "नाकामध्ये बाह्य घटक जाण्याचा इतिहास",
+                    "display-hi": "नाक में किसी बाहरी वस्तु का इतिहास"
+                }
+            ],
+            "display": "Do you have the following symptoms?"
+        },
+        {
+            "id": "ID_daae6867-fc0d-444b-8f6a-e1fbe8dd5127",
+            "text": "Do you have any other symptoms?",
+            "display-mr": "तुम्हाला पुढीलपैकी कोणतीही लक्षणे आहेत का?",
+            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+            "isRequired": true,
+            "multi-choice": true,
+            "options": [
+                {
+                    "id": "ID_aef340ba-13db-4e77-aa18-47505340ee23",
+                    "text": "None",
+                    "display-mr": "काहीही नाही",
+                    "display-hi": "कोई नहीं",
+                    "exclude-from-multi-choice": "true"
+                },
+                {
+                    "id": "ID_765583d3-322d-4b48-9015-e2272f500ffe",
+                    "text": "Fever",
+                    "display-mr": "ताप",
+                    "display-hi": "बुखार"
+                },
+                {
+                    "id": "ID_00484bcf-5b49-46cc-9e61-59150844f65d",
+                    "text": "Headache",
+                    "display-mr": "डोकेदुखी",
+                    "display-hi": "सिरदर्द"
+                },
+                {
+                    "id": "ID_512c4e5b-7417-424e-8737-68f32a4cdf6e",
+                    "text": "Excessive thirst",
+                    "display-mr": "अतिशय जास्त तहान लागणे",
+                    "display-hi": "अत्यधिक प्यास"
+                },
+                {
+                    "id": "ID_0a502174-f849-442c-87ce-bc6e88f7b4e7",
+                    "text": "Excessive urination",
+                    "display-mr": "अतिशय जास्त लघवी होणे",
+                    "display-hi": "अत्यधिक पेशाब"
+                },
+                {
+                    "id": "ID_9cb01f39-a69b-4053-8ddb-210e927df2b5",
+                    "text": "Nasal congestion",
+                    "display-mr": "नाक चोंदणे",
+                    "display-hi": "नाक बंद होना"
+                },
+                {
+                    "id": "ID_c98bd25a-3e60-4661-9a01-be45b77e7eb0",
+                    "text": "Mouth breathing",
+                    "display-mr": "तोंडाने श्वास घेणे",
+                    "display-hi": "मुंह से सांस लेना"
+                },
+                {
+                    "id": "ID_22007aaa-16b7-48b4-9b8a-567688ab7c8b",
+                    "text": "Jaundice",
+                    "display-mr": "कावीळ",
+                    "display-hi": "पीलिया"
+                },
+                {
+                    "id": "ID_6051639b-a2e2-4ad5-b9ac-4bf759f06c89",
+                    "text": "Difficulty breathing",
+                    "display-mr": "श्वास घेण्यास त्रास होणे",
+                    "display-hi": "सांस लेने में परेशानी"
+                },
+                {
+                    "id": "ID_270660ef-ec8c-463d-b692-d7e73a841a9f",
+                    "text": "Abdominal distention",
+                    "display-mr": "ओटीपोट ताणले जाणे",
+                    "display-hi": "पेट फूलना"
+                },
+                {
+                    "id": "ID_9a2eba25-aae0-4f5f-b62d-8d422f13c321",
+                    "text": "Other",
+                    "display-mr": "इतर",
+                    "display-hi": "अन्य",
+                    "input-type": "text"
+                }
+            ]
+        },
+        {
+            "id": "ID_4b24ae8a-299a-4081-a8c6-8b6e85a6f57e",
+            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+            "isRequired": true,
+            "multi-choice": false,
+            "options": [
+                {
+                    "id": "ID_d8801484-4d61-4490-8390-c629879cf4b9",
+                    "text": "No",
+                    "display-mr": "नाही",
+                    "display-hi": "नहीं"
+                },
+                {
+                    "id": "ID_ceaf615b-eceb-4886-a59e-dececb7c7392",
+                    "text": "Yes",
+                    "display-mr": "होय",
+                    "display-hi": "हां",
+                    "options": [
+                        {
+                            "id": "ID_cde78089-2f5c-4fd9-a34e-3b88d5e6daa9",
+                            "text": "Describe",
+                            "display-mr": "वर्णन करा",
+                            "display-hi": "वर्णन करें",
+                            "isRequired": true,
+                            "input-type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ID_62e3f1d3-877d-448a-b70a-998d01442d27",
+            "text": "Additional Information",
+            "display-mr": "अतिरिक्त माहिती",
+            "display-hi": "अतिरिक्त जानकारी",
+            "isRequired": true,
+            "options": [
+                {
+                    "id": "ID_82d6bce8-c99c-4bd6-b194-68d2c8b6c8cc",
+                    "text": "[Enter additional information]",
+                    "input-type": "text",
+                    "language": "%",
+                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
+                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
+                }
+            ]
+        }
+    ]
+}
