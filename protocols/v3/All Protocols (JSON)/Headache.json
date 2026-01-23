@@ -1,816 +1,862 @@
 {
-    "id": "ID_c027bee0-70a8-44a8-8590-4f5849873ed2",
-    "text": "Fever",
-    "engineVersion": "3.0",
-    "display-mr": "ताप",
-    "display-hi": "बुखार",
-    "options": [
+  "id": "ID_434179cd-112d-4f8c-94cc-8ef13d2f1d2a",
+  "text": "﻿Headache",
+  "display-mr": "डोकेदुखी",
+  "display-hi": "सिर दर्द",
+  "options": [
+    {
+      "id": "ID_86e3ede7-88f6-46c9-a569-f0a62d8cfd30",
+      "text": "Since when have you had this symptom?",
+      "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
+      "display-hi": "आपको यह लक्षण कब से है?",
+      "options": [
         {
-            "id": "ID_555ccfbd-5e02-41f1-a71d-50754a145753",
-            "text": "Since when have you had this symptom?",
-            "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
-            "display-hi": "आपको यह लक्षण कब से है?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_f611328d-a069-4574-997a-e2f7e1e5b02e",
-                    "text": "Since when have you had this symptom?",
-                    "display-mr": "तुम्हाला हे लक्षण कधीपासून आहे?",
-                    "display-hi": "आपको यह लक्षण कब से है?",
-                    "input-type": "duration"
-                },
-                {
-                    "id": "ID_7974bea7-690f-4bdb-850e-350e33959cb5",
-                    "text": "Hours",
-                    "display-mr": "तास",
-                    "display-hi": "घंटे"
-                },
-                {
-                    "id": "ID_ad8190c8-bfbd-40bf-b85d-4ba9812776f1",
-                    "text": "Days",
-                    "display-mr": "दिवस",
-                    "display-hi": "दिन"
-                },
-                {
-                    "id": "ID_6075f019-7c67-4e95-ba79-1d088e235569",
-                    "text": "Weeks",
-                    "display-mr": "आठवडा (आठवडे)",
-                    "display-hi": "सप्ताह"
-                },
-                {
-                    "id": "ID_1f980737-c328-4057-a20e-5a9c487ea282",
-                    "text": "Months",
-                    "display-mr": "महिना (ने)",
-                    "display-hi": "माह"
-                },
-                {
-                    "id": "ID_c72ea9dd-2d1e-4b85-87a8-0132ca184837",
-                    "text": "Years",
-                    "display-mr": "वर्ष (र्षे)",
-                    "display-hi": "वर्ष"
-                }
-            ]
+          "id": "ID_837f8822-3f2e-403e-b48b-778685ff96ec",
+          "text": "Hours",
+          "display-mr": "तास",
+          "display-hi": "घंटे"
         },
         {
-            "id": "ID_f1785eff-0815-413c-90d1-f942b98843e9",
-            "text": "How fast did this symptom develop?",
-            "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
-            "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_53e54f3b-2832-4226-a250-4a28160a0765",
-                    "text": "Suddenly",
-                    "display-mr": "अचानक",
-                    "display-hi": "अचानक"
-                },
-                {
-                    "id": "ID_e9e2b807-31ff-463d-9af5-5717c52ed705",
-                    "text": "Slowly",
-                    "display-mr": "हळू हळू",
-                    "display-hi": "धीरे-धीरे"
-                }
-            ]
+          "id": "ID_c2a97be6-f7d1-43fc-9150-66c71415aae9",
+          "text": "Days",
+          "display-mr": "दिवस",
+          "display-hi": "दिन"
         },
         {
-            "id": "ID_78e069ca-d114-4de0-8a19-07243a276a9a",
-            "text": "How can you describe the nature of Fever?",
-            "display-mr": "तापाचे स्वरूप कसे वर्णन करावे?",
-            "display-hi": "बुखार की स्थिति आप कैसे बता पाएंगे?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_77bb2970-253a-4d58-919f-cc4034492554",
-                    "text": "Continuous (constant)",
-                    "display-mr": "सतत (स्थिर)",
-                    "display-hi": "निरंतर (स्थायी)"
-                },
-                {
-                    "id": "ID_dc9bd0a8-8650-411d-b5b6-acf619fd1b5b",
-                    "text": "Intermittent (comes & goes)",
-                    "display-mr": "मधूनमधून येतो आणि जातो",
-                    "display-hi": "कभी आने वाला और कभी जाने वाला",
-                    "options": [
-                        {
-                            "id": "ID_7c96914c-4908-493d-b824-7af7824c73b5",
-                            "text": "How frequently you are getting the fever?",
-                            "display-mr": "तुम्हाला किती वेळा ताप येतो?",
-                            "display-hi": "आपको बुखार कितनी जल्दी-जल्दी (बार) आता है?",
-                            "multi-choice": false,
-                            "options": [
-                                {
-                                    "id": "ID_9cdf75d3-7ec6-45ad-a092-2123a6171292",
-                                    "text": "Every few hours a day",
-                                    "display-mr": "दररोज काही तास",
-                                    "display-hi": "हर कुछ घंटे में एक बार"
-                                },
-                                {
-                                    "id": "ID_ff97544a-1285-48db-8dcf-bda5d5563bf4",
-                                    "text": "Alternate days",
-                                    "display-mr": "एक दिवसा आड",
-                                    "display-hi": "वैकल्पिक दिन"
-                                },
-                                {
-                                    "id": "ID_fb1da260-c582-49ab-bb76-70cf44c88b1a",
-                                    "text": "Once in two days",
-                                    "display-mr": "दोन दिवसात एकदा",
-                                    "display-hi": "हर दो दिन में एक बार"
-                                },
-                                {
-                                    "id": "ID_6f71cbe9-68f0-4c26-9652-43714da90c92",
-                                    "text": "Once in three days",
-                                    "display-mr": "तीन दिवसांत एकदा",
-                                    "display-hi": "हर तीन दिन में एक बार"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "id": "ID_a5cebe37-3f8d-4e60-8973-8a4407e5ccc3",
+          "text": "Weeks",
+          "display-mr": "आठवडा (आठवडे)",
+          "display-hi": "सप्ताह"
         },
         {
-            "id": "ID_0bb14429-c227-4ea0-9dd0-527c684a4fa4",
-            "text": "How severe is the fever?",
-            "display-mr": "ताप किती तीव्र असतो?",
-            "display-hi": "बुखार कितना तेज है?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_2aa2a289-faf3-4bee-9205-1db8cf422064",
-                    "text": "Low-grade",
-                    "display-mr": "कमी",
-                    "display-hi": "निम्न स्तर की"
-                },
-                {
-                    "id": "ID_5714d3a4-3b79-4e0a-a832-1c1da32725bc",
-                    "text": "Moderate",
-                    "display-mr": "मध्यम",
-                    "display-hi": "मध्यम"
-                },
-                {
-                    "id": "ID_a6d030f0-9bd6-41a3-8078-0cdb22898cf3",
-                    "text": "High-grade",
-                    "display-mr": "उच्च दर्जाचा",
-                    "display-hi": "अधिक बुखार"
-                },
-                {
-                    "id": "ID_806b07ed-e33e-4717-810e-d7ca79d18e4f",
-                    "text": "Very high grade",
-                    "display-mr": "खूप उच्च दर्जाचा",
-                    "display-hi": "बहुत अधिक बुखार"
-                }
-            ]
+          "id": "ID_c1b54b6e-2dd4-40c3-a83a-fdac81f072eb",
+          "text": "Months",
+          "display-mr": "महिना (ने)",
+          "display-hi": "माह"
         },
         {
-            "id": "ID_5dac210c-e704-4f89-bccc-91b400ff5b37",
-            "text": "When do you feel the fever most in a day?",
-            "display-mr": "एका दिवसात तुम्हाला सर्वात जास्त ताप कधी येतो?",
-            "display-hi": "आप दिन में कब सबसे ज्यादा बुखार महसूस करते हैं?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_f0603374-d5d8-4ee7-a4c3-1739245db4f7",
-                    "text": "All day",
-                    "display-mr": "संपूर्ण दिवस",
-                    "display-hi": "सारा दिन"
-                },
-                {
-                    "id": "ID_ab1ed016-7475-42d9-a733-3236c9838d62",
-                    "text": "Morning",
-                    "display-mr": "सकाळ",
-                    "display-hi": "सुबह"
-                },
-                {
-                    "id": "ID_7c04bce3-8e26-4f5e-a03a-469c7a9d79a2",
-                    "text": "Evening",
-                    "display-mr": "संध्याकाळ",
-                    "display-hi": "शाम"
-                },
-                {
-                    "id": "ID_906f43ee-e661-41e2-b4e0-52ecc1464b07",
-                    "text": "Night",
-                    "display-mr": "रात्र",
-                    "display-hi": "रात"
-                }
-            ]
-        },
-        {
-            "id": "ID_c4664676-35d2-4d9f-adcd-9b6938f4b1d7",
-            "text": "Do you have these features associated with fever?",
-            "display-mr": "तुमच्याकडे ही वैशिष्ट्ये तापाशी संबंधित आहेत का?",
-            "display-hi": "क्या आपको बुखार के साथ ये लक्षण हैं?",
-            "isRequired": true,
-            "multi-choice": true,
-            "options": [
-                {
-                    "id": "ID_3586c280-8285-4f6f-b015-c5dedab5bbac",
-                    "text": "None",
-                    "display-mr": "काहीही नाही",
-                    "display-hi": "कोई नहीं",
-                    "exclude-from-multi-choice": "true"
-                },
-                {
-                    "id": "ID_0570e937-19ec-499d-83aa-7327dea6b231",
-                    "text": "Chills & rigors",
-                    "display-mr": "थंडी वाजून येणे आणि कडकपणा",
-                    "display-hi": "ठंड और कंपकंपी"
-                },
-                {
-                    "id": "ID_4765c16b-6e5b-4b5c-9950-02a1bf3ab132",
-                    "text": "Muscle pain",
-                    "display-mr": "स्नायू दुखणे",
-                    "display-hi": "पेशियों में दर्द"
-                },
-                {
-                    "id": "ID_e62fe86c-4caf-4253-97cf-db0c7271a6a1",
-                    "text": "Malaise",
-                    "display-mr": "दुर्बलता",
-                    "display-hi": "सामान्य अस्वस्थता"
-                },
-                {
-                    "id": "ID_a2482c66-a170-4554-b7b3-a8159fac5987",
-                    "text": "Night sweats",
-                    "display-mr": "रात्री घाम येणे",
-                    "display-hi": "रात में पसीना"
-                },
-                {
-                    "id": "ID_ad81d303-b5dd-486a-aa3a-d66125ad452c",
-                    "text": "Fatigue",
-                    "display-mr": "थकवा",
-                    "display-hi": "थकान"
-                }
-            ]
-        },
-        {
-            "id": "ID_64c804a5-98ad-4434-9029-ffac70e2805d",
-            "text": "How is fever progressing?",
-            "display-mr": "तापा मध्ये काही बदल आहे का?",
-            "display-hi": "बुखार में कुछ बदलाव है क्या?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_2d9f7ef0-d646-465c-8b33-4eb998749f35",
-                    "text": "Increasing",
-                    "display-mr": "वाढवत आहे",
-                    "display-hi": "बढ़ रहा है"
-                },
-                {
-                    "id": "ID_a2ee6b5b-587f-44fa-aa48-288f4223b3d2",
-                    "text": "Decreasing",
-                    "display-mr": "कमी होत आहे",
-                    "display-hi": "घट रहा है"
-                },
-                {
-                    "id": "ID_6dc41974-e6a4-4195-86bc-76280747499a",
-                    "text": "Recurrent",
-                    "display-mr": "वारंवार",
-                    "display-hi": "बार—बार होना"
-                },
-                {
-                    "id": "ID_49f56bd9-3379-4129-9ffd-513a47c1c036",
-                    "text": "No change",
-                    "display-mr": "कोणताही बदल नाही",
-                    "display-hi": "कोई बदलाव नहीं"
-                }
-            ]
-        },
-        {
-            "id": "ID_bd87660c-a86f-4706-bc9d-b33a5c95b3cd",
-            "text": "Do you have the following symptoms?",
-            "display-mr": "तुमच्यामध्ये पुढील लक्षणे आहेत का?",
-            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
-            "isRequired": true,
-            "options": [
-                {
-                    "id": "ID_87db7909-a8e9-4b15-be1d-7bdf78caa043",
-                    "text": "Headache",
-                    "display-mr": "डोकेदुखी",
-                    "display-hi": "सिरदर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_d2dd9e7e-967a-47b2-8ac4-5631e8a6916d",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_a8d8f294-b40a-4caa-9472-c86f4a579d23",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_29378086-471d-4f92-894b-20556e3e85a3",
-                    "text": "Vomiting",
-                    "display-mr": "उलट्या होणे",
-                    "display-hi": "उल्टी",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_053ff6e0-b59c-4c15-920a-3cb278dc8ab2",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_d378de6a-f6a8-4ff8-966d-0cd796be2102",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_ddafce5a-75f0-4299-ac6a-6721d7f0c30d",
-                    "text": "Throat pain",
-                    "display-mr": "घशात दुखणे",
-                    "display-hi": "गले में दर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_b8e3c129-14b8-445f-8a4f-08dde037c641",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_85a7b30c-79f5-4d15-ab0a-cd4f515e2f8d",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_d84ac468-9d64-4c9f-bf35-1124a74f1605",
-                    "text": "Ear pain",
-                    "display-mr": "कान दुखणे",
-                    "display-hi": "कान में दर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_3b3cb058-033f-427d-a8c7-d70921bf54b8",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_7ca79b86-772c-494e-8f2a-a18e6d9ae32e",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_55f9651f-58d6-48e6-88e5-1fb064a4fd2a",
-                    "text": "Skin rash",
-                    "display-mr": "त्वचेवर पुरळ",
-                    "display-hi": "त्वचा पर दाने",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_9996eb05-b338-4810-98ef-5c4c7759bbca",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_ba208484-b1b6-4549-bb09-af84634adb18",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_385179a2-1f87-4550-8d0a-f48bf82a7d80",
-                    "text": "Burning urination",
-                    "display-mr": "लघवीच्यावेळी  जळजळ",
-                    "display-hi": "पेशाब करते समय जलन",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_4ffe18c3-102f-4b75-a0d0-02472b3195ff",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_062db952-e886-4cc8-a50e-d117f51dab05",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_2aebe041-f842-46a2-94df-6c3ed0ae17af",
-                    "text": "Cough",
-                    "display-mr": "खोकला",
-                    "display-hi": "खांसी",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_d545a568-8ad5-498a-9a03-d6f44484b5ba",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_fe920297-4303-411c-9f08-b140e5acf735",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_1b7c1e42-90ce-4b46-9ac5-2b89402acaaf",
-                    "text": "Runny nose",
-                    "display-mr": "वाहणारे नाक",
-                    "display-hi": "नाक बहना",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_7410033c-69c7-4086-879b-b74b6dcfb045",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_28069a5f-c741-4365-a3b3-4af76ff7f6c6",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_0eb6829e-01b6-4df1-ab20-30e58cfe8c70",
-                    "text": "Loss of smell",
-                    "display-mr": "वासाची भावना कमी होणे",
-                    "display-hi": "गंध महसूस न होना",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_cab726f9-e3ef-4cd6-87f6-864c2cbd2cd6",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_97bfc294-4945-42ad-b4f2-c00ba1e1627c",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_cf0f9a06-ef7f-4121-b8c5-ef58ac27fd0b",
-                    "text": "Loss of taste",
-                    "display-mr": "चवीची भावना कमी होणे",
-                    "display-hi": "स्वाद महसूस न होना",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_ad55ba5e-2556-482a-ab68-dd33cd9cf9cc",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_61092941-6a32-46da-aab0-14db0154c48e",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_de057881-e109-495c-a444-cebe5bf4d995",
-                    "text": "Sinus pain",
-                    "display-mr": "सायनस वेदना",
-                    "display-hi": "साइनस में दर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_00d37de6-8487-4080-a989-9f615fd06ade",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_c80965a5-9725-41a2-943a-7923e2a6b8b0",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_8e7947ac-80cb-41b3-b339-c29a573eb7a6",
-                    "text": "Loose stools",
-                    "display-mr": "सैल शौच",
-                    "display-hi": "पतले दस्त",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_0b29deb6-1376-4f71-9082-787e672b1304",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_dd8cd5fc-624e-4e36-870a-913c15f2eae0",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_6456622a-ea7c-4bd5-9f6d-893465e113b4",
-                    "text": "Abdominal pain",
-                    "display-mr": "ओटीपोटात वेदना",
-                    "display-hi": "पेट में दर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_028df9f3-920b-4944-84ea-7a737c9d7936",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_a7c2f0ed-35d5-4627-814b-bd5e08940e74",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_16d6790e-f32b-4f54-b292-d7320eb9ad6e",
-                    "text": "Jaundice",
-                    "display-mr": "कावीळ",
-                    "display-hi": "जॉन्डिस",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_188d2494-42a4-4b2b-b606-3caf7d5a2e9c",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_f070327c-f8ac-47a2-8233-69ae3f318d43",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_95633cbc-d2fe-48f7-a50b-1f625228eac0",
-                    "text": "Flank pain",
-                    "display-mr": "पाठीत वेदना",
-                    "display-hi": "बगलों में दर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_78806393-c0b2-4369-a130-ec6e9e1eb2b8",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_642f43ff-f413-4398-b98d-5263b40d0eb0",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_0bb29e87-c6f2-4745-8f34-bded75b3807f",
-                    "text": "Chest pain",
-                    "display-mr": "छातीत दुखणे",
-                    "display-hi": "छाती में दर्द",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_36bcb403-15c0-4c93-a28b-a3b41607c237",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_8186a9d5-d809-457c-bda3-16f74a035432",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_ba81f1c2-12b3-421c-9a10-3827bc2de793",
-                    "text": "History of contact with sick persons or family members",
-                    "display-mr": "आजारी व्यक्ती किंवा कुटुंबातील सदस्यांशी संपर्काचा इतिहास",
-                    "display-hi": "बीमार लोगों या परिवार के सदस्यों के साथ संपर्क का इतिहास",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_c7e221c4-d2c0-4359-bc0b-6e2d726ee895",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_ba2729ed-fa42-48e5-a129-56ef1c5d5140",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                },
-                {
-                    "id": "ID_4c654965-0df6-4450-ae6b-cb1aa9424384",
-                    "text": "History of recent travel",
-                    "display-mr": "अलीकडील प्रवासाचा इतिहास",
-                    "display-hi": "हाल की यात्रा का इतिहास",
-                    "multi-choice": false,
-                    "options": [
-                        {
-                            "id": "ID_21bc52bb-6996-4207-ab3c-e30cc25b423f",
-                            "text": "No",
-                            "display-mr": "नाही",
-                            "display-hi": "नहीं"
-                        },
-                        {
-                            "id": "ID_841d9ce8-d721-4ff7-9a33-a6504173d450",
-                            "text": "Yes",
-                            "display-mr": "होय",
-                            "display-hi": "हां"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "ID_4db09175-ebd6-4282-8afc-63d03bedfe8d",
-            "text": "Do you have the following symptoms?",
-            "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
-            "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
-            "isRequired": true,
-            "multi-choice": true,
-            "options": [
-                {
-                    "id": "ID_5ea38288-c1ae-4552-9538-c861f6e54c24",
-                    "text": "None",
-                    "display-mr": "काहीही नाही",
-                    "display-hi": "कोई नहीं",
-                    "exclude-from-multi-choice": "true"
-                },
-                {
-                    "id": "ID_419187a8-9809-4844-8028-0c1ac19a6601",
-                    "text": "Loss of appetite",
-                    "display-mr": "भूक न लागणे",
-                    "display-hi": "भूख नहीं लगना"
-                },
-                {
-                    "id": "ID_6d50977d-473a-4106-98e9-a1c58169bd97",
-                    "text": "Weight loss",
-                    "display-mr": "वजन कमी होणे",
-                    "display-hi": "वजन कम होना"
-                },
-                {
-                    "id": "ID_d83e1885-a3e3-429a-b03e-10dfd4ac3c3e",
-                    "text": "Difficulty in breathing",
-                    "display-mr": "श्वास घेण्यास त्रास होणे",
-                    "display-hi": "सांस लेने में परेशानी"
-                },
-                {
-                    "id": "ID_4cc3c341-37f5-4c6c-9e9f-3cb4e4ac3464",
-                    "text": "Blood in urine",
-                    "display-mr": "मूत्रा मध्ये रक्त",
-                    "display-hi": "पेशाब में खून"
-                },
-                {
-                    "id": "ID_dee53021-71db-4429-a11d-4d4be7b42985",
-                    "text": "Bloody diarrhea",
-                    "display-mr": "रक्तरंजित अतिसार",
-                    "display-hi": "खून के साथ पतले दस्त"
-                },
-                {
-                    "id": "ID_d9d099ec-d52c-4b6d-a78b-e9cb9f3574e5",
-                    "text": "Bone pain",
-                    "display-mr": "हाडांचे दुखणे",
-                    "display-hi": "हड्डियों में दर्द"
-                },
-                {
-                    "id": "ID_7d14f505-7bf8-40ea-a716-e29b5a968b04",
-                    "text": "Joint pain",
-                    "display-mr": "सांधेदुखी",
-                    "display-hi": "जोड़ों में दर्द"
-                },
-                {
-                    "id": "ID_08ab60c5-3b4d-446c-a775-a90a80bbfe69",
-                    "text": "Joint swelling",
-                    "display-mr": "सांधे सूज",
-                    "display-hi": "जोड़ों की सूजन"
-                },
-                {
-                    "id": "ID_a8d73f43-a590-4a02-9671-d7e53e02e451",
-                    "text": "Neck stiffness",
-                    "display-mr": "मान कडक होणे",
-                    "display-hi": "गर्दन में जकड़न"
-                },
-                {
-                    "id": "ID_1d09e875-aafa-4525-837e-9b0c02bd0b82",
-                    "text": "Swollen lymph nodes",
-                    "display-mr": "सूजलेल्या लिम्फ  नोड्स",
-                    "display-hi": "सूजे हुए लिम्फ नोड्स"
-                },
-                {
-                    "id": "ID_4cf89416-8cbb-4548-9839-80ac0403aca1",
-                    "text": "Frequent urination",
-                    "display-mr": "वारंवार लघवी होणे",
-                    "display-hi": "बार-बार पेशाब आना"
-                },
-                {
-                    "id": "ID_b98e1108-0800-4e6e-ac76-e5c514882e3d",
-                    "text": "Oral ulcers",
-                    "display-mr": "तोंडाचा अल्सर/तोंड येणे",
-                    "display-hi": "मुंह में छाले"
-                },
-                {
-                    "id": "ID_142d4e78-9e5e-41ce-b655-b432ba29eaac",
-                    "text": "Other",
-                    "display-mr": "इतर",
-                    "display-hi": "अन्य लक्षण",
-                    "input-type": "text"
-                }
-            ]
-        },
-        {
-            "id": "ID_5f366154-a3d3-4dbe-b6bb-d19db760e596",
-            "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
-            "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
-            "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
-            "isRequired": true,
-            "multi-choice": false,
-            "options": [
-                {
-                    "id": "ID_260bdfa0-8c4b-4dc5-9663-99e4664d97c2",
-                    "text": "No",
-                    "display-mr": "नाही",
-                    "display-hi": "नहीं"
-                },
-                {
-                    "id": "ID_d1a3cea9-6f75-4252-9731-2ad89e3bb0fa",
-                    "text": "Yes",
-                    "display-mr": "होय",
-                    "display-hi": "हां",
-                    "options": [
-                        {
-                            "id": "ID_85168344-3ebb-4f2f-9cd3-13a920c71b84",
-                            "text": "Describe",
-                            "display-mr": "वर्णन करा",
-                            "display-hi": "वर्णन करें",
-                            "isRequired": true,
-                            "input-type": "text"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "ID_87201bed-4366-464c-9142-a48d289602c1",
-            "text": "Additional Information",
-            "display-mr": "अतिरिक्त माहिती",
-            "display-hi": "अतिरिक्त जानकारी",
-            "isRequired": true,
-            "options": [
-                {
-                    "id": "ID_ecb49751-ac1f-43c4-9d65-ebe7c0be16fb",
-                    "text": "[Enter additional information]",
-                    "input-type": "text",
-                    "language": "%",
-                    "display-hi": "[अतिरिक्त जानकारी दर्ज करें]",
-                    "display-mr": "[अजून काही माहिती असल्यास भरा]"
-                }
-            ]
+          "id": "ID_5ccaad1c-c294-464d-b740-78855dd44bdd",
+          "text": "Years",
+          "display-mr": "वर्ष (र्षे)",
+          "display-hi": "वर्ष"
         }
-    ]
+      ],
+      "isRequired": true,
+      "multi-choice": false,
+      "input-type": "duration"
+    },
+    {
+      "id": "ID_c714fd74-b32d-4db6-9d5c-df24d5be18ce",
+      "text": "How fast did this symptom develop?",
+      "display-mr": "हे लक्षण किती वेगाने विकसित झाले?",
+      "display-hi": "यह लक्षण कितनी तेजी से बढ़ा है?",
+      "options": [
+        {
+          "id": "ID_92b31724-af49-4fd5-8473-db222e5b18c7",
+          "text": "Suddenly",
+          "display-mr": "अचानक",
+          "display-hi": "अचानक"
+        },
+        {
+          "id": "ID_17f77f77-d226-4e7a-bf83-4e578cdcad20",
+          "text": "Slowly",
+          "display-mr": "हळू हळू",
+          "display-hi": "धीरे-धीरे"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_4d48a89d-307f-4665-8b36-5ae889c2621d",
+      "text": "Which part of your head do you feel pain?",
+      "display-mr": "तुमच्या डोक्याच्या कोणत्या  भागात",
+      "display-hi": "तुम्हाला वेदना जाणवतात?",
+      "options": [
+        {
+          "id": "ID_b920c5b4-5ae8-40c4-8e23-d01fc272e961",
+          "text": "All over",
+          "display-mr": "सगळी कडे",
+          "display-hi": "सभी जगह"
+        },
+        {
+          "id": "ID_4d0cf717-1343-4b01-9e7d-fe815101b523",
+          "text": "One part of head",
+          "display-mr": "डोक्याच्या एका भागात",
+          "display-hi": "सिर का एक भाग",
+          "options": [
+            {
+              "id": "ID_acd325f1-3adb-4121-a3ae-6a88dd3c3420",
+              "text": "Which one part of head do you feel pain?",
+              "display-mr": "डोक्याचा कोणता भाग दुखतोय?",
+              "display-hi": "सिर के किस एक हिस्से में आपको दर्द महसूस होता है?",
+              "options": [
+                {
+                  "id": "ID_3d99d430-e10c-4e73-8c0b-29c0df58ab05",
+                  "text": "Right side",
+                  "display-mr": "उजवी बाजू",
+                  "display-hi": "दाएं तरफ"
+                },
+                {
+                  "id": "ID_d7cc19ad-823b-4a48-ac9e-ed85739b638c",
+                  "text": "Left side",
+                  "display-mr": "डावी बाजू",
+                  "display-hi": "बाएं तरफ"
+                },
+                {
+                  "id": "ID_323e0cc6-b846-4397-8eda-1016381e8597",
+                  "text": "Forehead",
+                  "display-mr": "कपाळ",
+                  "display-hi": "माथे पर"
+                },
+                {
+                  "id": "ID_0b6831f9-a60b-4aed-9cb3-5d0f884af982",
+                  "text": "Back of head",
+                  "display-mr": "डोक्याच्या मागील बाजूस",
+                  "display-hi": "सिर के पिछले हिस्से में"
+                },
+                {
+                  "id": "ID_493c51be-bd50-4921-888a-089095fd81c8",
+                  "text": "Upper part",
+                  "display-mr": "वरचा भाग",
+                  "display-hi": "ऊपरी हिस्से में"
+                }
+              ],
+              "isRequired": true,
+              "multi-choice": true
+            }
+          ]
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_a8e41bbd-e56e-4a70-929f-aaac59830371",
+      "text": "How can you describe the character of pain?",
+      "display-mr": "दुखण्याचं वर्णन कसं करता येईल?",
+      "display-hi": "आप अपने दर्द के बारे में कैसे बताएंगे?",
+      "options": [
+        {
+          "id": "ID_bc0bd100-9451-4975-b5c1-2f66cef48600",
+          "text": "Aching pain",
+          "display-mr": "मंद सतत वेदना",
+          "display-hi": "मंद दर्द"
+        },
+        {
+          "id": "ID_debe546e-1d61-446a-89ff-51f1968cbe10",
+          "text": "Throbing pain",
+          "display-mr": "धडधडणारी वेदना",
+          "display-hi": "धड़कता हुआ दर्द"
+        },
+        {
+          "id": "ID_8e5e0d43-202d-422a-8459-0828a02dce87",
+          "text": "Pulsating pain",
+          "display-mr": "धडधडणारी वेदना",
+          "display-hi": "धड़कन वाला दर्द"
+        },
+        {
+          "id": "ID_2be1a624-c166-43b2-bca6-f5bb33ae0dcd",
+          "text": "Pounding pain",
+          "display-mr": "तीव्र वेदना",
+          "display-hi": "धड़कने वाला दर्द"
+        },
+        {
+          "id": "ID_2206ae46-9d69-464f-b774-4787f42ad63d",
+          "text": "Pressure pain",
+          "display-mr": "दबाव वेदना",
+          "display-hi": "दबाव वाला दर्द"
+        },
+        {
+          "id": "ID_e6c50de0-7979-4794-953f-988f7b2ffbf2",
+          "text": "Pins and needles pain",
+          "display-mr": "पिन आणि सुया टोचल्या सारख्यावेदना",
+          "display-hi": "चुभन और सुन्नता"
+        },
+        {
+          "id": "ID_22a2e2b4-1450-4474-a2af-d686628c36ea",
+          "text": "Stabbing pain",
+          "display-mr": "घाव घातल्यासारखे दुखणे",
+          "display-hi": "तीव्र चुभने वाला दर्द"
+        },
+        {
+          "id": "ID_d3dea7e1-9c67-40d5-a7d3-f223f0cbb85b",
+          "text": "Don't know",
+          "display-mr": "माहित नाही",
+          "display-hi": "पता नहीं"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_5e74ae2e-5b18-428f-9f7b-58a1bd22062e",
+      "text": "How severe is the pain?",
+      "display-mr": "वेदना किती तीव्र आहे?",
+      "display-hi": "दर्द की गंभीरता कितनी है?",
+      "options": [
+        {
+          "id": "ID_e62a86e9-1433-4431-8852-033638a9bd14",
+          "text": "Mild pain (1 to < 3)",
+          "display-mr": "सौम्य वेदना (1 ते < 3)",
+          "display-hi": "हल्का दर्द (1 से < 3)"
+        },
+        {
+          "id": "ID_4c1e3be2-0546-4571-9432-eb334168e064",
+          "text": "Moderate pain (3 to < 5)",
+          "display-mr": "मध्यम वेदना (3 ते < 5)",
+          "display-hi": "मामूली से थोड़ा ज्यादा दर्द (3 से < 5)"
+        },
+        {
+          "id": "ID_0243d5af-6911-4780-9779-87a5e2453dcc",
+          "text": "Severe pain (5 to < 7)",
+          "display-mr": "तीव्र वेदना (5 ते < 7)",
+          "display-hi": "गंभीर दर्द (5 से < 7)"
+        },
+        {
+          "id": "ID_8487c39e-9aac-4d84-9731-203d794b923e",
+          "text": "Very severe pain (7 to < 9)",
+          "display-mr": "तीव्र वेदना (7 ते < 9)",
+          "display-hi": "बहुत गंभीर दर्द (7 से < 9)"
+        },
+        {
+          "id": "ID_2f5edd27-a3ad-41c4-8edd-945b4c2ac122",
+          "text": "Worst pain possible (9 to 10)",
+          "display-mr": "सर्वात वाईट वेदना शक्य (9 ते 10)",
+          "display-hi": "असहनीय दर्द (9 से 10)"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_d46a952a-abe0-45b5-baac-f09811c52b33",
+      "text": "What relieves or lessens the pain?",
+      "display-mr": "काय वेदना आराम देते किंवा कमी करते?",
+      "display-hi": "दर्द को क्या राहत देता या कम करता है?",
+      "options": [
+        {
+          "id": "ID_a003b09b-6a5a-41de-83e0-06c746c5a15c",
+          "text": "None",
+          "display-mr": "काहीही नाही",
+          "display-hi": "कोई नहीं",
+          "exclude-from-multi-choice": true
+        },
+        {
+          "id": "ID_9e495f5e-f730-4a51-adc8-5dc074a89bac",
+          "text": "Hydration",
+          "display-mr": "पाणी पिणे",
+          "display-hi": "पानी पीना"
+        },
+        {
+          "id": "ID_547f8dca-8d6e-460d-8c88-1dc3d15cdd50",
+          "text": "Standing up",
+          "display-mr": "उभे राहणे",
+          "display-hi": "खड़े होना"
+        },
+        {
+          "id": "ID_4c9a96ef-5511-4b18-879d-1953f0634369",
+          "text": "Lying down",
+          "display-mr": "आडवे झोपल्याने",
+          "display-hi": "लेटना"
+        },
+        {
+          "id": "ID_e84b846e-4417-4495-8ca1-e6df9d2e6220",
+          "text": "Pressure",
+          "display-mr": "दबाव दिल्यावर",
+          "display-hi": "दबाने पर"
+        },
+        {
+          "id": "ID_49d8de2a-f2e5-46df-8b8f-c878f01bf158",
+          "text": "Rest",
+          "display-mr": "विश्रांती",
+          "display-hi": "आराम"
+        },
+        {
+          "id": "ID_8de8c560-ccff-475d-8ae2-2bf7b920ba7a",
+          "text": "Sleep",
+          "display-mr": "झोप",
+          "display-hi": "सोना"
+        },
+        {
+          "id": "ID_fe817f51-2bff-40a6-982c-a9e7b78b63d8",
+          "text": "Medication",
+          "display-mr": "औषध",
+          "display-hi": "दवा"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": true
+    },
+    {
+      "id": "ID_2c873c2c-f265-4929-8bd6-b71173042509",
+      "text": "What increases or worsens the pain?",
+      "display-mr": "कशाने वेदना वाढतात किंवा अधिक वाईट होतात?",
+      "display-hi": "दर्द को क्या बढ़ाता या खराब करता है?",
+      "options": [
+        {
+          "id": "ID_605b32cc-a3e5-4763-a7bc-e8e66ca9fee8",
+          "text": "None",
+          "display-mr": "काहीही नाही",
+          "display-hi": "कोई नहीं",
+          "exclude-from-multi-choice": true
+        },
+        {
+          "id": "ID_75449d0f-9d9f-4ea1-b389-f6df2143f49a",
+          "text": "Coffee",
+          "display-mr": "कॉफी",
+          "display-hi": "कॉफी"
+        },
+        {
+          "id": "ID_4d5bc5a0-7ce6-4292-b4fd-242172a5abbd",
+          "text": "Exertion",
+          "display-mr": "मेहनत",
+          "display-hi": "शारीरिक मेहनत"
+        },
+        {
+          "id": "ID_a8346c3a-d5aa-4ec4-aec8-7de6848d3981",
+          "text": "Stress",
+          "display-mr": "तणाव",
+          "display-hi": "तनाव"
+        },
+        {
+          "id": "ID_2eafe208-328a-4f0f-b25d-697c3c8009dd",
+          "text": "Coughing",
+          "display-mr": "खोकला",
+          "display-hi": "खांसी"
+        },
+        {
+          "id": "ID_884c3579-64bd-47c6-9cd3-8ba706c75297",
+          "text": "Lying flat",
+          "display-mr": "आडवे झोपल्याने",
+          "display-hi": "सीधा लेटना"
+        },
+        {
+          "id": "ID_5f29912f-4a88-46d2-a07a-02ee0248fcd2",
+          "text": "Standing up",
+          "display-mr": "उभे राहणे",
+          "display-hi": "खड़े होने पर"
+        },
+        {
+          "id": "ID_342086a7-51c3-4111-8156-29d0d8c4a82e",
+          "text": "Sounds",
+          "display-mr": "आवाज",
+          "display-hi": "आवाजें"
+        },
+        {
+          "id": "ID_315ed16b-f3b6-4288-a7aa-85d368e077b8",
+          "text": "Light",
+          "display-mr": "प्रकाश",
+          "display-hi": "रोशनी"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": true
+    },
+    {
+      "id": "ID_6a0fd618-787f-40fa-9596-b4008bd79d16",
+      "text": "How is headache progressing?",
+      "display-mr": "डोकेदुखी मध्ये काही बदल?",
+      "display-hi": "सिरदर्द में कुछ बदलाव?",
+      "options": [
+        {
+          "id": "ID_ee70926f-149c-4c3f-a766-ec04842770ca",
+          "text": "Increasing",
+          "display-mr": "वाढवत आहे",
+          "display-hi": "बढ़ रहा है"
+        },
+        {
+          "id": "ID_a8767475-bf3a-4b79-8b14-6bd5f806019f",
+          "text": "Decreasing",
+          "display-mr": "कमी होत आहे",
+          "display-hi": "घट रहा है"
+        },
+        {
+          "id": "ID_39e51d59-cfd5-4991-adcc-01e8a59d35d9",
+          "text": "Recurrent",
+          "display-mr": "वारंवार",
+          "display-hi": "बार-बार होना"
+        },
+        {
+          "id": "ID_f24b7161-5c84-46eb-b02e-0fa4b0e76e96",
+          "text": "No change",
+          "display-mr": "कोणताही बदल नाही",
+          "display-hi": "कोई बदलाव नहीं"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_1a228c36-9821-4272-b4d1-e0615d6094e0",
+      "text": "Does the pain have any patterns during a 24 hr cycle?",
+      "display-mr": "वेदना दरम्यान कोणत्याही नमुन्यांची आहे का २४ तासां दरम्यान? (२४ तासांमध्ये वेदनेचे काही चक्र आहे का?)",
+      "display-hi": "क्या दर्द 24 घंटे के चक्र में किसी खास समय पर बढ़ता है?",
+      "options": [
+        {
+          "id": "ID_f0a84008-bd35-4fe1-991a-f157e8e7f056",
+          "text": "Constant pain",
+          "display-mr": "सतत वेदना",
+          "display-hi": "लगातार दर्द"
+        },
+        {
+          "id": "ID_9a6b93f3-5f78-41f4-816e-54876d3c42cd",
+          "text": "Intermittent pain (comes & goes)",
+          "display-mr": "मधूनमधून (येतात आणि जातात)",
+          "display-hi": "कभी आने वाला और कभी जाने वाला दर्द",
+          "options": [
+            {
+              "id": "ID_9524e3e4-2f3c-430e-8e73-ceb4c53c1604",
+              "text": "Which part of the day you will get Headache?",
+              "display-mr": "दिवसाच्या कोणत्या वेळी तुम्हाला डोकेदुखीचा त्रास होतो?",
+              "display-hi": "आपको दिन में किस समय सिरदर्द होता है?",
+              "options": [
+                {
+                  "id": "ID_47609796-56ca-44ea-975c-7072dba1132a",
+                  "text": "Early morning",
+                  "display-mr": "पहाटेची वेळ",
+                  "display-hi": "सुबह जल्दी"
+                },
+                {
+                  "id": "ID_9d646a69-5520-47a8-9e6c-dbf789bccf6f",
+                  "text": "Evening",
+                  "display-mr": "संध्याकाळ",
+                  "display-hi": "शाम"
+                },
+                {
+                  "id": "ID_c92997e7-4a27-48b0-86f8-fc6721932a49",
+                  "text": "After certain food",
+                  "display-mr": "काही अन्नपदार्थ खाल्ल्यानंतर",
+                  "display-hi": "कुछ खास खाने के बाद"
+                }
+              ],
+              "isRequired": true,
+              "multi-choice": false
+            }
+          ]
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_5b9ee209-29bb-4e75-a0fd-9fcccaf07441",
+      "text": "How often does the head pain?",
+      "display-mr": "किती वेळा डोके दुखते?",
+      "display-hi": "सिर का दर्द कितनी बार होता है?",
+      "options": [
+        {
+          "id": "ID_1f20596b-730d-472b-89ed-245c50a5ed4f",
+          "text": "Daily",
+          "display-mr": "दररोज",
+          "display-hi": "प्रतिदिन"
+        },
+        {
+          "id": "ID_d1a6f232-b0c5-4412-8d8d-480446677ca3",
+          "text": "Weekly",
+          "display-mr": "साप्ताहिक",
+          "display-hi": "साप्ताहिक"
+        },
+        {
+          "id": "ID_f1e3fb2b-0ef7-427c-8a70-2dec86ff2e85",
+          "text": "Monthly",
+          "display-mr": "मासिक",
+          "display-hi": "मासिक"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_e17fb10a-229c-4fd6-bbc8-303c3a6566f4",
+      "text": "How long does each headache attack last?",
+      "display-mr": "प्रत्येक डोकेदुखीचा हल्ला किती काळ टिकतो?",
+      "display-hi": "हर सिरदर्द का दौरा कितनी देर तक रहता है?",
+      "options": [
+        {
+          "id": "ID_42bf2c5e-c8a6-4d6a-95b4-3e9bab171de5",
+          "text": "< 4 hours",
+          "display-mr": "< 4 तास",
+          "display-hi": "< 4 घंटे"
+        },
+        {
+          "id": "ID_f767b390-60ee-4fda-b487-e8c0440f65ed",
+          "text": "> 4 hours",
+          "display-mr": "> 4 तास",
+          "display-hi": "> 4 घंटे"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_e46545bf-4618-497c-96ca-a76108d1f637",
+      "text": "Does the pain move to other parts of the body?",
+      "display-mr": "वेदना शरीराच्या इतर भागात जातात का?",
+      "display-hi": "क्या दर्द शरीर के अन्य हिस्सों में फैलता है?",
+      "options": [
+        {
+          "id": "ID_60555742-93f8-4dc6-90c4-c40a288c4c1b",
+          "text": "No",
+          "display-mr": "नाही",
+          "display-hi": "नहीं"
+        },
+        {
+          "id": "ID_9c0a87d1-1dfb-4a53-b4ca-d09e9df4b925",
+          "text": "Yes",
+          "display-mr": "होय",
+          "display-hi": "हां",
+          "options": [
+            {
+              "id": "ID_ada81209-e814-4866-a911-0c7daa360e0d",
+              "text": "The pain moves to",
+              "display-mr": "वेदना या भागात सरकते",
+              "display-hi": "दर्द कहां फैलता है?",
+              "options": [
+                {
+                  "id": "ID_3a68a61c-7c69-4a87-9715-306307a2ea1c",
+                  "text": "Neck",
+                  "display-mr": "मान",
+                  "display-hi": "गर्दन"
+                },
+                {
+                  "id": "ID_43682a96-dd9f-44fb-806f-6dce9557d6fc",
+                  "text": "Face",
+                  "display-mr": "चेहरा",
+                  "display-hi": "चेहरा"
+                },
+                {
+                  "id": "ID_bbdf2223-3a12-4cc6-92dc-b658871940e2",
+                  "text": "Eye",
+                  "display-mr": "डोळे",
+                  "display-hi": "आंख"
+                }
+              ],
+              "isRequired": true,
+              "multi-choice": false
+            }
+          ]
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_bd2214a3-1b9b-4774-8c52-25ff9cd7977f",
+      "text": "Do you have the following symptoms?",
+      "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+      "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+      "options": [
+        {
+          "id": "ID_e56ba6d3-2940-4ea0-83e0-b082fb4a0f97",
+          "text": "Visual disturbance",
+          "display-mr": "दृष्टी दोष",
+          "display-hi": "दृष्टि में परेशानी",
+          "options": [
+            {
+              "id": "ID_ac7f952c-68e7-4760-8365-ba5b95049ff7",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_c440c79b-3e12-4751-ae0e-5f0e8bea9bdd",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_e5e823fe-2ef0-4801-a407-9126e00acd34",
+          "text": "Photophobia",
+          "display-mr": "प्रकाशाकडे पाहताना त्रास होणे",
+          "display-hi": "रोशनी में तकलीफ",
+          "options": [
+            {
+              "id": "ID_c2dfe021-fe24-40af-898e-b0e5ec122f47",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_47d26917-a888-4afb-8dcf-23aa40842278",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_2475c758-cdd1-452c-a044-a4f52df3308a",
+          "text": "Neck stiffness",
+          "display-mr": "मान आखडणे",
+          "display-hi": "गर्दन में जकड़न",
+          "options": [
+            {
+              "id": "ID_55440f96-2eb8-484d-ab3c-1823cf3c9df4",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_aa4b218f-f292-4bbb-9505-30fc8f21aa10",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_49993071-f392-408d-b24c-178949e62e13",
+          "text": "Sleep disturbance",
+          "display-mr": "झोपेचा त्रास",
+          "display-hi": "नींद में परेशानी",
+          "options": [
+            {
+              "id": "ID_2ddf8d2d-fe06-4654-a6d9-4158ca01f753",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_66bd4ef3-5579-4cda-be0d-3c341cc187c9",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_6ab679aa-465b-4afc-b89f-cf897b8c7d9b",
+          "text": "Scalp pain in temple region",
+          "display-mr": "कानशिलाच्या बाजूने टाळू दुखणे",
+          "display-hi": "सिर के पार्श्व क्षेत्र में त्वचा का दर्द",
+          "options": [
+            {
+              "id": "ID_407360ae-9e75-4679-b151-316b1bdc7f58",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_31593df0-3506-462e-b8b9-a894cd85edc3",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_2c12a19a-ef12-45f4-93d8-774f873e576b",
+          "text": "Eye pain",
+          "display-mr": "डोळ्यांचे दुखणे",
+          "display-hi": "आंख का दर्द",
+          "options": [
+            {
+              "id": "ID_9a44afae-b624-4673-b691-3beca8ad17ec",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_429ca615-c175-4c5c-82ec-c8039e80b227",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_b2e1633f-22c0-44cb-b2dc-0d36647368d7",
+          "text": "Neck pain",
+          "display-mr": "मान दुखणे",
+          "display-hi": "गर्दन का दर्द",
+          "options": [
+            {
+              "id": "ID_12ff8ef2-641a-4463-a6da-02f29f7d566a",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_6f1bc2a4-a055-49bd-8b8d-f896440b1ab6",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_8c8fae51-67c9-41c0-8b9c-09e1a79d47c4",
+          "text": "Weakness of limbs",
+          "display-mr": "हातापायांची कमजोरी",
+          "display-hi": "अंगों में कमजोरी",
+          "options": [
+            {
+              "id": "ID_89298bcd-6b69-4846-a074-d484b1438284",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_33acb258-a40b-4cc6-8a3a-6e94d3a7108b",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        },
+        {
+          "id": "ID_f7697986-d0a2-4b84-98ff-d9bcaece4dc6",
+          "text": "History of head injury",
+          "display-mr": "डोक्याला दुखापत झाल्याचा इतिहास",
+          "display-hi": "सिर की चोट का इतिहास",
+          "options": [
+            {
+              "id": "ID_650d74f9-9343-4a0b-87db-803d956fc503",
+              "text": "No",
+              "display-mr": "नाही",
+              "display-hi": "नहीं"
+            },
+            {
+              "id": "ID_1d78d290-3b3e-43ee-be57-5176c1608adc",
+              "text": "Yes",
+              "display-mr": "होय",
+              "display-hi": "हां"
+            }
+          ],
+          "multi-choice": false
+        }
+      ],
+      "isRequired": true
+    },
+    {
+      "id": "ID_407cb887-bc68-4e09-bfa0-5588b73d6c21",
+      "text": "Do you have the following symptoms?",
+      "display-mr": "तुम्हाला खालील लक्षणं आहेत का?",
+      "display-hi": "क्या आपको निम्नलिखित लक्षण हैं?",
+      "options": [
+        {
+          "id": "ID_d362e814-af40-4e10-9d0f-7e83489c7fbd",
+          "text": "None",
+          "display-mr": "काहीही नाही",
+          "display-hi": "कोई नहीं",
+          "exclude-from-multi-choice": true
+        },
+        {
+          "id": "ID_853d31ed-e51d-456f-a28c-ccc82c3dfbe7",
+          "text": "Fever",
+          "display-mr": "ताप",
+          "display-hi": "बुखार"
+        },
+        {
+          "id": "ID_4208a6c0-f44f-47d4-a092-2401cf425b33",
+          "text": "Nausea",
+          "display-mr": "मळमळ",
+          "display-hi": "उल्टी जैसा लगना"
+        },
+        {
+          "id": "ID_35f9734c-cbfe-4670-b702-bbeaeeef12b4",
+          "text": "Vomiting",
+          "display-mr": "उलट्या होणे",
+          "display-hi": "उल्टी"
+        },
+        {
+          "id": "ID_5644e9b9-670d-4334-9803-3f49f17656e7",
+          "text": "Runny nose",
+          "display-mr": "वाहणारे नाक",
+          "display-hi": "नाक बहना"
+        },
+        {
+          "id": "ID_95cdd0ea-4842-41b2-990e-173ea85ec6be",
+          "text": "Sinus pain",
+          "display-mr": "सायनस वेदना",
+          "display-hi": "साइनस दर्द"
+        },
+        {
+          "id": "ID_112dbae1-9243-4e8b-b11e-95338ca383a7",
+          "text": "Skin rash",
+          "display-mr": "त्वचेवर पुरळ",
+          "display-hi": "त्वचा पर दाने"
+        },
+        {
+          "id": "ID_74e6cccd-d424-4bbe-82ab-b7ec5f1c9e64",
+          "text": "Weight loss",
+          "display-mr": "वजन कमी होणे",
+          "display-hi": "वजन कम होना"
+        },
+        {
+          "id": "ID_7343de59-9b2d-4d7a-b5dc-fe916dbfc002",
+          "text": "Loss of appetite",
+          "display-mr": "भूक न लागणे",
+          "display-hi": "भूख में कमी"
+        },
+        {
+          "id": "ID_6e299f50-d6eb-46ed-8e1f-a156688d9c64",
+          "text": "Palpitations",
+          "display-mr": "धडधडणे",
+          "display-hi": "दिल की धड़कन का तेज़ होना"
+        },
+        {
+          "id": "ID_1d24837d-b5ab-4022-8a38-eb2f8236b5d3",
+          "text": "Other",
+          "display-mr": "इतर",
+          "display-hi": "अन्य लक्षण",
+          "input-type": "text"
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": true
+    },
+    {
+      "id": "ID_4fc4bc6d-b80a-4929-a9fb-8e96cabf2343",
+      "text": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem?",
+      "display-mr": "तुम्ही यासाठी कोणतेही उपचार (स्वत: घेतलेली किंवा घरगुती औषधे घेतली आहेत का किंवा या समस्येसाठी वैद्यकीय मदत घेतली आहे का?",
+      "display-hi": "क्या आपने इस समस्या के लिए कोई उपचार (स्वयं दवाएं या घरेलू उपचार सहित) लिया है या किसी स्वास्थ्य प्रदाता से परामर्श किया है?",
+      "options": [
+        {
+          "id": "ID_dcbbe1d5-15e2-44b7-83b8-93acd62f1e38",
+          "text": "No",
+          "display-mr": "नाही",
+          "display-hi": "नहीं"
+        },
+        {
+          "id": "ID_e1243f05-ff00-464c-927a-b3b674fe9301",
+          "text": "Yes",
+          "display-mr": "होय",
+          "display-hi": "हां",
+          "options": [
+            {
+              "id": "ID_44943470-8a0e-4149-92a3-9174ef3a59b7",
+              "text": "Describe",
+              "display-mr": "वर्णन करा",
+              "display-hi": "वर्णन करें",
+              "isRequired": true,
+              "input-type": "text"
+            }
+          ]
+        }
+      ],
+      "isRequired": true,
+      "multi-choice": false
+    },
+    {
+      "id": "ID_25c0ca6c-8c5d-46cf-829f-99594fb2639c",
+      "text": "Additional Information",
+      "display-mr": "अतिरिक्त माहिती",
+      "display-hi": "अतिरिक्त जानकारी",
+      "isRequired": true,
+      "input-type": "text"
+    }
+  ]
 }
+ 
