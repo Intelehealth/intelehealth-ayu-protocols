@@ -1,0 +1,3855 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "ID-876050683",
+  "title": "Oral Pain",
+  "name": "OralPain",
+  "status": "active",
+  "publisher": "www.intelehealth.org",
+  "language": "en",
+  "item": [
+    {
+      "linkId": "ID-204570730",
+      "text": "Duration - [Enter since when]",
+      "type": "quantity",
+      "required": true,
+      "_text": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "or"
+              },
+              {
+                "url": "content",
+                "valueString": "କେବେଠାରୁ* - କେବେଠାରୁ ଲେଖ"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "hi"
+              },
+              {
+                "url": "content",
+                "valueString": "यह लक्षण आपको कब से है?* - [कब से है- दर्ज करें]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "gu"
+              },
+              {
+                "url": "content",
+                "valueString": "તમને આ લક્ષણ ક્યારથી છે?* - [ક્યારથી તે લખી જણાવો]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "as"
+              },
+              {
+                "url": "content",
+                "valueString": "কেতিয়াৰ পৰা আপুনি এই লক্ষণবোৰ পাইছে ?* - যেতিয়া পৰা আৰম্ভ লিখা"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "bn"
+              },
+              {
+                "url": "content",
+                "valueString": "কবে থেকে আপনার এই উপসর্গ আছে?* - [কখন থেকে লিখুন]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "kn"
+              },
+              {
+                "url": "content",
+                "valueString": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?* - [ಯಾವಾಗಿನಿಂದ ನಮೂದಿಸಿ]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "mr"
+              },
+              {
+                "url": "content",
+                "valueString": "तुम्हाला हे लक्षण कधीपासून आहे? - (कधीपासून ते भरा)"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "te"
+              },
+              {
+                "url": "content",
+                "valueString": "మీకు ఈ లక్షణం ఎప్పటి నుండి ఉంది?* - [ఎప్పటి నుండి నమోదు చేయండి]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "ta"
+              },
+              {
+                "url": "content",
+                "valueString": "இந்த அறிகுறி எப்போது தொடங்கியது?* - [எப்போது தொடங்கியது என்பதை உள்ளிடவும்]"
+              }
+            ]
+          }
+        ]
+      },
+      "extension": [
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/display",
+          "valueString": "Since when have you had this symptom?*"
+        },
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+          "valueString": "since"
+        }
+      ]
+    },
+    {
+      "linkId": "ID-211021709",
+      "text": "Onset",
+      "type": "choice",
+      "required": true,
+      "_text": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "or"
+              },
+              {
+                "url": "content",
+                "valueString": "କେମିତି ଆରମ୍ଭ ହେଲା*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "hi"
+              },
+              {
+                "url": "content",
+                "valueString": "यह लक्षण कैसे शुरू हुआ?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "gu"
+              },
+              {
+                "url": "content",
+                "valueString": "લક્ષણની શરૂઆત કેવી રીતે થઇ?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "as"
+              },
+              {
+                "url": "content",
+                "valueString": "লক্ষণটো কি ভাবে আৰম্ভ হৈছিল?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "bn"
+              },
+              {
+                "url": "content",
+                "valueString": "কিভাবে উপসর্গ শুরু?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "kn"
+              },
+              {
+                "url": "content",
+                "valueString": "ನಿಮಗೆ ಯಾವಾಗಿನಿಂದ ಈ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಿದೆ?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "mr"
+              },
+              {
+                "url": "content",
+                "valueString": "लक्षण कसे सुरू झाले?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "te"
+              },
+              {
+                "url": "content",
+                "valueString": "లక్షణం ఎలా మొదలైంది?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "ta"
+              },
+              {
+                "url": "content",
+                "valueString": "அறிகுறி எவ்வாறு தொடங்கியது?*"
+              }
+            ]
+          }
+        ]
+      },
+      "extension": [
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/display",
+          "valueString": "How did the symptom start?*"
+        }
+      ],
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1696872731",
+            "display": "Very sudden",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ହଠାତ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "तुरंत"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "અચાનક જ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "হঠাৎ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "খুব আকস্মিক"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ತುಂಬಾ ಹಠಾತ್"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "अचानक"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "చాలా ఆకస్మికంగా"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மிகவும் திடீரென"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1753690119",
+            "display": "Gradual",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଧୀରେ ଧୀରେ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "धीरे-धीरे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ધીમે ધીમે"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "লাহে-লাহে"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ক্রমান্বয়ে"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಹಂತಹಂತವಾಗಿ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "हळूहळू"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "క్రమంగా"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மெதுவாக"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "ID-1279353240",
+      "text": "Aggravating factor",
+      "type": "choice",
+      "required": true,
+      "repeats": true,
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "check-box"
+              }
+            ]
+          }
+        },
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/display",
+          "valueString": "Do the following situations make the symptom worse?*"
+        }
+      ],
+      "_text": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "or"
+              },
+              {
+                "url": "content",
+                "valueString": "ନିମ୍ନ ଲିହିତ କାରଣପାଇଁ ଆପଣଙ୍କ ଲକ୍ଷଣ ବଢ଼ୁ ଛି କି?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "hi"
+              },
+              {
+                "url": "content",
+                "valueString": "क्या निम्न स्थिति में यह लक्षण और बिगड़ जाता है?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "gu"
+              },
+              {
+                "url": "content",
+                "valueString": "શું અહીં નીચે જણાવેલ પરિસ્થિતિઓમાં દુઃખાવો બદત્તર થઈ જાય છે?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "as"
+              },
+              {
+                "url": "content",
+                "valueString": "নিম্নলিখিত পৰিস্থিতিত লক্ষণবোৰ আৰু বেছি বেয়া কৰি তোলে?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "bn"
+              },
+              {
+                "url": "content",
+                "valueString": "নিম্নলিখিত পরিস্থিতিগুলি কি উপসর্গটিকে আরও খারাপ করে তোলে?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "kn"
+              },
+              {
+                "url": "content",
+                "valueString": "ಕೆಳಗಿನ ಸಂದರ್ಭಗಳಲ್ಲಿ ರೋಗಲಕ್ಷಣವನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುವುದೇ?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "mr"
+              },
+              {
+                "url": "content",
+                "valueString": "खालील परिस्थितींमध्ये त्रास जास्त वाढतो का?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "te"
+              },
+              {
+                "url": "content",
+                "valueString": "కింది పరిస్థితులు లక్షణాన్ని మరింత తీవ్రతరం చేస్తాయా?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "ta"
+              },
+              {
+                "url": "content",
+                "valueString": "பின்வரும் சூழ்நிலைகள் இந்த அறிகுறியை அதிகப்படுத்துகிறதா?*"
+              }
+            ]
+          }
+        ]
+      },
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_965584604",
+            "display": "Chewing",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଚୋବେଇଲେ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "चबाना"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ચાવવું"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "চোৱাতে"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "চিবানো"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಜಗೆಯುವಿಕೆ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "चघळणे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "నమలడం"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மென்று சாப்பிடும்போது"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_560422688",
+            "display": "Coughing / sneezing",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଛିଙ୍କିବା/କଷିଲେ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "खांसना/छिंकना"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ખાંસવું / છીંકવું"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "কাহ / হাঁচি"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "কাশি/ হাঁচি"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಕೆಮ್ಮುವಿಕೆ / ಸೀನುವಿಕೆ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "खोकणे/शिंकणे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "దగ్గు / తుమ్ము"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "இருமல் / தும்மல்"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_400084289",
+            "display": "Swallowing",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଗିଲିଲେ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "निगलना"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "સોજો આવવો"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "গিলোতে লাগিছে"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "গিলছে"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ನುಂಗುವುದು"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "गिळणे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "మింగడం"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "விழுங்கும்போது"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_837844276",
+            "display": "Other [describe]",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଅନ୍ୟାନ୍ୟ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "अन्य [वर्णन करें]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "અન્ય [વિગતે જણાવો]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "অন্যান্য [বর্ণনা]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "অন্যান্য [বর্ণনা]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಇತರೆ [ವಿವರಿಸಿ]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "इतर (वर्णन करा)"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ఇతర [వివరించు]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மற்றவை [விவரிக்கவும்]"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "item": [
+        {
+          "linkId": "ID-1279353240_ID_837844276",
+          "text": "Other [describe]",
+          "type": "string",
+          "enableWhen": [
+            {
+              "question": "ID-1279353240",
+              "operator": "=",
+              "answerCoding": {
+                "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+                "code": "ID_837844276"
+              }
+            }
+          ],
+          "extension": [
+            {
+              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+              "valueString": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "ID-1331830542",
+      "text": "Associated symptoms",
+      "type": "choice",
+      "required": true,
+      "repeats": true,
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "check-box"
+              }
+            ]
+          }
+        },
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/display",
+          "valueString": "Do you have the following symptom(s)?*"
+        }
+      ],
+      "_text": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "or"
+              },
+              {
+                "url": "content",
+                "valueString": "ତମର ଏହି ଲକ୍ଷଣ ସବୁ ଅଛି କି?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "hi"
+              },
+              {
+                "url": "content",
+                "valueString": "क्या आपको निम्नलिखित लक्षण हैं?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "gu"
+              },
+              {
+                "url": "content",
+                "valueString": "શું તમને નીચે મુજબના લક્ષણો છે?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "as"
+              },
+              {
+                "url": "content",
+                "valueString": "আপোনাৰ কি তলত দিয়া লক্ষণ আছে?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "bn"
+              },
+              {
+                "url": "content",
+                "valueString": "আপনার কি নিম্নলিখিত উপসর্গ রয়েছে?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "kn"
+              },
+              {
+                "url": "content",
+                "valueString": "ನಿಮಗೆ ಕೆಳಗಿನ ಲಕ್ಷಣಗಳಿವೆಯೆ?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "mr"
+              },
+              {
+                "url": "content",
+                "valueString": "आपल्याला खालील लक्षणे आहेत का?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "te"
+              },
+              {
+                "url": "content",
+                "valueString": "మీకు క్రింది లక్షణాలు ఉన్నాయా?*"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "ta"
+              },
+              {
+                "url": "content",
+                "valueString": "உங்களுக்கு பின்வரும் அறிகுறிகள் உள்ளதா?*"
+              }
+            ]
+          }
+        ]
+      },
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_359789162",
+            "display": "Stomatitis",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ପାଟିଭିତରେ ଚମ ନାଲି ଦେଖାଯିବା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "मुँह के अंदर की त्वचा का लाल होना"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "મોંની અંદર ત્વચાની લાલાશ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মুখৰ ভিতৰত ছাল ৰঙা পৰা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মুখের ভিতর ত্বকের লালভাব"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಬಾಯಿಯೊಳಗೆ ಚರ್ಮ ಕೆಂಪಾಗುವುದು"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "तोंडाच्या आत त्वचेला लालसरपणा"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "నోటి లోపల చర్మం యొక్క ఎరుపు"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "வாயின் உள்ளே தோலில் சிவப்பு"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1365684950",
+            "display": "Toothache",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଦାନ୍ତବଥା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "दाँत में दर्द "
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "દાંત નું દુઃખાવા"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "দাঁতৰ বিষ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "দাঁতে ব্যথা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಹಲ್ಲುನೋವು"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "दातदुखी"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "పంటి నొప్పి"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "பல்லுவலி"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_43202720",
+            "display": "Chest pain/discomfort",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଛାତି କଷ୍ଟ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "छाती में दर्द / बेचैनी"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "છાતીમાં દુખાવો/અસુખ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "বুকু বিষ / অস্বস্তি"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "বুকে ব্যথা/অস্বস্তি"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಎದೆ ನೋವು / ಅಸ್ವಸ್ಥತೆ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "छातीत दुखणे / अस्वस्थता"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ఛాతీ నొప్పి/అసౌకర్యం"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மார்பு வலி/அசௌகரியம்"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_711152349",
+            "display": "Facial weakness",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ମୁଁହ ଦୁର୍ବଳ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "चेहरे में कमजोरी"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ચહેરાની નબળાઇ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মুখৰ দুর্বলতা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মুখের দুর্বলতা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಮುಖದ ದೌರ್ಬಲ್ಯ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "चेहऱ्याच्या स्नायूंमध्ये अशक्तपणा"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ముఖ బలహీనత"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "முக பலவீனம்"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1534962232",
+            "display": "Fever",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଜ୍ୱର"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "बुखार"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "તાવ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "জ্বৰ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "জ্বর"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಜ್ವರ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ताप"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "జ్వరం"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "காய்ச்சல்"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1712977402",
+            "display": "Facial swelling",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ମୁହଁ ରେ ଫୁଲା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "चेहरे पर सूजन"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ચહેરા પર સોજો"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মুখৰ ফোলা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মুখের ফুলে যাওয়া"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಮುಖದ ಊತ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "चेहऱ्यावर सूज येणे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ముఖ వాపు"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "முக வீக்கம்"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1614137174",
+            "display": "Gum bleeding",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ମାଢ଼ିରୁ ରକ୍ତ ଝରିବା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "मसूड़ों से खून आना"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "પેઢાંમાંથી લોહી નીકળવું"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "দাঁতৰ আলুত তেজ ওলাই"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "মাড়ির রক্তপাত"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಗಮ್ ರಕ್ತಸ್ರಾವ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "हिरड्यामधून रक्तस्त्राव"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "గమ్ రక్తస్రావం"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "இலகு இரத்தச் சிந்தல் (ஈறுகளில் இரத்தப்போக்கு)"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_122115015",
+            "display": "Limited mandibular movement",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ମାଢି ହଲଚଲରେ କଷ୍ଟ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "जबड़े के हिलाने-डुलाने में कमी"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "જડબાનું મર્યાદિત હલનચલન"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "সীমিত ম্যান্ডিবুলাৰ(দাঁতৰ হাড) লৰচৰ কৰা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "সীমিত ম্যান্ডিবুলার আন্দোলন"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ದವಡೆಯ ಸೀಮಿತ ಚಲನೆ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "खालच्या जबड्याची मर्यादित हालचाल"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "పరిమిత మాండిబ్యులర్ కదలిక"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "கீழ்தோள் அசைவில் கட்டுப்பாடு"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_498837327",
+            "display": "Jaw pain",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ମାଢି ଯନ୍ତ୍ରଣା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "जबड़े में दर्द"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "જડબામાં દુઃખાવો"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "দাঁতৰ আলুত বিষ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "চোয়ালের ব্যথা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ದವಡೆಯ ನೋವು"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "जबडा दुखणे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "దవడ నొప్పి"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "தாடை வலி"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1265671189",
+            "display": "Joint pain",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଗଣ୍ଠି ଯନ୍ତ୍ରଣା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "जोड़ों में दर्द"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "સાંધાનો દુખાવો"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "সংযোগ (যোৰাত) বিষ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "সংযোগে ব্যথা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಕೀಲು ನೋವು"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "सांधे दुखी"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "కీళ్ల నొప్పి"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மூட்டு வலி"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1154934234",
+            "display": "Recurrent diarrhea",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ବାରମ୍ବାର ଝାଡା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "बार-बार दस्त"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "વારંવાર ઝાડા"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "বাৰবাৰ ডায়ৰিয়া হয়"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "বারবার ডায়রিয়া"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಮತ್ತೆ ಮತ್ತೆ ಬರುವ ಅತಿಸಾರ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "वारंवार होणारा अतिसार"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "పునరావృత అతిసారం"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "அடிக்கடி வயிற்றில் கொப்பளிப்பு"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_878812064",
+            "display": "Bloody diarrhea",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ରକ୍ତ ଝାଡା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "दस्त में खून आना"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ઝાડામાં લોહી પડવું"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "তেজৰ ডায়ৰিয়া"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "রক্তাক্ত ডায়রিয়া"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ರಕ್ತಸಿಕ್ತ ಅತಿಸಾರ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "अतिसारावेळी विष्ठेतून रक्त येणे"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "బ్లడీ డయేరియా"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "இரத்தம் கலந்த கொப்பளிப்பு"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1055037560",
+            "display": "Abdominal pain",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ପେଟ ଯନ୍ତ୍ରଣା"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "पेट दर्द"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "પેટમાં દુખાવો"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "পেটৰ বিষ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "পেটে ব্যথা"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಹೊಟ್ಟೆ ನೋವು"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "पोटदुखी"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "పొత్తి కడుపు నొప్పి"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "வயிற்று வலி"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_433599421",
+            "display": "Other [describe]",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ଅନ୍ୟାନ୍ୟ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "अन्य [वर्णन करें]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "અન્ય [વિગતે જણાવો]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "অন্যান্য [বর্ণনা]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "অন্যান্য [বর্ণনা]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಇತರೆ [ವಿವರಿಸಿ]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "इतर (वर्णन करा)"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ఇతర [వివరించు]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "மற்றவை [விவரிக்கவும்]"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "item": [
+        {
+          "linkId": "ID-1331830542_ID_433599421",
+          "text": "Other [describe]",
+          "type": "string",
+          "enableWhen": [
+            {
+              "question": "ID-1331830542",
+              "operator": "=",
+              "answerCoding": {
+                "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+                "code": "ID_433599421"
+              }
+            }
+          ],
+          "extension": [
+            {
+              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+              "valueString": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "ID-1214078762",
+      "text": "Prior treatment sought",
+      "type": "choice",
+      "_text": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "or"
+              },
+              {
+                "url": "content",
+                "valueString": "ତମେ ଆଗରୁ କୌଣସି  ପ୍ରାକାର ଔଷଦ ନଇଥିଲ କି? (ନିଜେ ସ୍ୱାସ୍ଥ୍ୟ ଏବଂ ଘରୋଇ ଉପଚାର)"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "hi"
+              },
+              {
+                "url": "content",
+                "valueString": "क्या आपने आज यहां आने से पहले इस तकलीफ के लिए कोई उपचार किया (स्वयं-दवा या घरेलू उपचार सहित) या किसी डॉक्टर को दिखाया है?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "gu"
+              },
+              {
+                "url": "content",
+                "valueString": "આજે અહીં આવવા પહેલાં તમે કોઇ ઉપચાર (પોતે જાતે જ દવાઓ લેવી અથવા ઘરેલુ ઉપાયો) કર્યો છે અથવા કોઇ આરોગ્યકર્મી (હેલ્થ પ્રોવાઇડર)ને મળ્યા છો?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "as"
+              },
+              {
+                "url": "content",
+                "valueString": "আজি ইয়াত আহা আগতে আপুনি কি কোনো চিকিৎসা কৰিছিলে (স্ব-ঔষধ বা ঘৰোৱা প্রতিকাৰ সহ ) বা কোনো স্বাস্থ্য সৰবৰাহকাৰীক এই সমস্যাৰ বিষযে দেখোছিলে ?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "bn"
+              },
+              {
+                "url": "content",
+                "valueString": "আজ এখানে আসার আগে আপনি কি কোনো চিকিৎসা নিয়েছেন (স্ব-ওষুধ বা ঘরোয়া প্রতিকার সহ) বা এই সমস্যার জন্য কোনো স্বাস্থ্য প্রদানকারীকে দেখেছেন?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "kn"
+              },
+              {
+                "url": "content",
+                "valueString": "ಇಂದು ಇಲ್ಲಿಗೆ ಬರುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು (ಸ್ವಯಂ-ಔಷಧಿ ಅಥವಾ ಮನೆಮದ್ದುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ) ತೆಗೆದುಕೊಂಡಿದ್ದೀರಾ ಅಥವಾ ಈ ಸಮಸ್ಯೆಗೆ ಯಾವುದೇ ಆರೋಗ್ಯ ಪೂರೈಕೆದಾರರನ್ನು ನೋಡಿದ್ದೀರಾ?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "mr"
+              },
+              {
+                "url": "content",
+                "valueString": "आज येथे येण्यापूर्वी तुम्ही या समस्येसाठी कोणतेही उपचार (स्वयं-उपचार किंवा घरगुती उपचारांसह) घेतले आहेत किंवा कोणत्याही डॉक्टरांना दाखवले आहे का?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "te"
+              },
+              {
+                "url": "content",
+                "valueString": "ఈరోజు ఇక్కడికి వచ్చే ముందు మీరు ఏదైనా చికిత్స (స్వీయ-మందులు లేదా ఇంటి నివారణలతో సహా) తీసుకున్నారా లేదా ఈ సమస్య కోసం ఏదైనా ఆరోగ్య ప్రదాతని చూసారా?"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "ta"
+              },
+              {
+                "url": "content",
+                "valueString": "இன்றைக்கு இங்கே வருவதற்கு முன் இந்த பிரச்சனைக்காக சிகிச்சை (சுய சிகிச்சை அல்லது வீட்டு வைத்தியம் உட்பட) எடுத்துள்ளீர்களா?"
+              }
+            ]
+          }
+        ]
+      },
+      "extension": [
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/display",
+          "valueString": "Have you taken any treatment (including self-medication or home remedies) or seen any health provider for this problem before coming here today?"
+        }
+      ],
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1810689556",
+            "display": "Yes [Describe]",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ହାଁ (ବର୍ଣନା କର)"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "हाँ [वर्णन करें]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "હા [વિગતે જણાવો]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "হয়[বর্ণনা কৰা]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "হ্যাঁ [বর্ণনা]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಹೌದು [ವಿವರಿಸಿ]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "होय (वर्णन करा)"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "అవును [వివరించండి]"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ஆம் [விவரிக்கவும்]"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+            "code": "ID_1226925547",
+            "display": "None",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "or"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "କିଛି ନାହିଁ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hi"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "इनमें से कोई भी नहीं"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "gu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ના"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "as"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "একো নাই"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "bn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "কোনোটিই নয়"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "kn"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ಯಾವುದೂ ಇಲ್ಲ"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "mr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "यापैकी काहीही नाही"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "te"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ఏదీ లేదు"
+                    }
+                  ]
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "ta"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "இல்லை"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "item": [
+        {
+          "linkId": "ID-1214078762_ID_1810689556",
+          "text": "Yes [Describe]",
+          "type": "string",
+          "enableWhen": [
+            {
+              "question": "ID-1214078762",
+              "operator": "=",
+              "answerCoding": {
+                "system": "https://intelehealth.org/fhir/CodeSystem/questionnaire-options",
+                "code": "ID_1810689556"
+              }
+            }
+          ],
+          "extension": [
+            {
+              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+              "valueString": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "ID-960725576",
+      "text": "Additional information - [Enter additional information]",
+      "type": "string",
+      "_text": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "or"
+              },
+              {
+                "url": "content",
+                "valueString": "ଅତିରିକ୍ତ ସୂଚନା - ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "hi"
+              },
+              {
+                "url": "content",
+                "valueString": "अन्य जानकारी - [अन्य जानकारी - दर्ज करें]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "gu"
+              },
+              {
+                "url": "content",
+                "valueString": "વધારાની માહિતી - [વધારાની માહિતી લખો]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "as"
+              },
+              {
+                "url": "content",
+                "valueString": "অতিৰিক্ত তথ্য - [অতিৰিক্ত তথ্য লিখা]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "bn"
+              },
+              {
+                "url": "content",
+                "valueString": "অতিরিক্ত তথ্য - [অতিরিক্ত তথ্য লিখুন]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "kn"
+              },
+              {
+                "url": "content",
+                "valueString": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ - [ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "mr"
+              },
+              {
+                "url": "content",
+                "valueString": "अजून काही माहिती असल्यास भरा - (अजून काही माहिती असल्यास भरा)"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "te"
+              },
+              {
+                "url": "content",
+                "valueString": "అదనపు సమాచారం - [అదనపు సమాచారాన్ని నమోదు చేయండి]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+            "extension": [
+              {
+                "url": "lang",
+                "valueCode": "ta"
+              },
+              {
+                "url": "content",
+                "valueString": "கூடுதல் தகவல் - [கூடுதல் தகவலை உள்ளிடவும்]"
+              }
+            ]
+          }
+        ]
+      },
+      "extension": [
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+          "valueString": "%"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://intelehealth.org/fhir/StructureDefinition/performPhysicalExam",
+      "valueString": "Face:Swollen Face;Mouth:Swelling of Gums;Mouth:Gum bleeding;Mouth:Oral thrush;"
+    }
+  ],
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "or"
+          },
+          {
+            "url": "content",
+            "valueString": "ପାଟି ଯନ୍ତ୍ରଣା"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "hi"
+          },
+          {
+            "url": "content",
+            "valueString": "मुँह का दर्द (ओरल पेन)"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "gu"
+          },
+          {
+            "url": "content",
+            "valueString": "મોંમાં દુઃખાવો"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "as"
+          },
+          {
+            "url": "content",
+            "valueString": "মৌখিক বিষ"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "bn"
+          },
+          {
+            "url": "content",
+            "valueString": "ওরাল পেইন"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "kn"
+          },
+          {
+            "url": "content",
+            "valueString": "ಬಾಯಿಯ ನೋವು"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "mr"
+          },
+          {
+            "url": "content",
+            "valueString": "तोंडामध्ये वेदना /  तोंडात त्रास होणे"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "te"
+          },
+          {
+            "url": "content",
+            "valueString": "నోటి నొప్పి"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "ta"
+          },
+          {
+            "url": "content",
+            "valueString": "வாய்ப் பகுதி வலி"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2229,13 +2229,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -2253,127 +2247,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -3172,13 +3045,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -3196,127 +3063,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -4115,13 +3861,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -4139,127 +3879,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -5058,13 +4677,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -5082,127 +4695,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -6001,13 +5493,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -6025,127 +5511,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -6944,13 +6309,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -6968,127 +6327,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -7887,13 +7125,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -7911,127 +7143,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -8830,13 +7941,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "%"
-                }
-              ]
+              }
             }
           ],
           "item": [
@@ -8854,127 +7959,6 @@
                   }
                 }
               ],
-              "_text": {
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "or"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "ଅନ୍ଯ ସମ୍ପର୍କୀୟ"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "hi"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[संबंध बताएं]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "gu"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[તેમની સાથેનો સંબધ જણાવો] "
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "as"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পৰ্ক বৰ্ণনা কৰা]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "bn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[সম্পর্ক বর্ণনা করুন]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "kn"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[ಸಂಬಂಧವನ್ನು ವಿವರಿಸಿ]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "mr"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "(नात्याचे वर्णन करा)"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "te"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "[సంబంధాన్ని వివరించండి]"
-                      }
-                    ]
-                  },
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                    "extension": [
-                      {
-                        "url": "lang",
-                        "valueCode": "ta"
-                      },
-                      {
-                        "url": "content",
-                        "valueString": "உறவினரை விவரிக்கவும்"
-                      }
-                    ]
-                  }
-                ]
-              },
               "extension": [
                 {
                   "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -8997,128 +7981,7 @@
                 "code": "ID_525209857"
               }
             }
-          ],
-          "_text": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "or"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ଅନ୍ଯାନ୍ଯ"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "hi"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "अन्य"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "gu"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "અન્ય"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "as"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "bn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "kn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ಇತರ"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "mr"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "इतर"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "te"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ఇతర"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "ta"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "மற்றவை"
-                  }
-                ]
-              }
-            ]
-          }
+          ]
         }
       ]
     }

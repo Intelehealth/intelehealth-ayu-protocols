@@ -1681,19 +1681,13 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "%"
-            }
-          ]
+          }
         }
       ],
       "item": [
         {
           "linkId": "ID-1232137411",
-          "text": "Seasonal",
+          "text": "Seasonal - Which season",
           "type": "string",
           "enableWhen": [
             {
@@ -1716,7 +1710,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "ଋତୁ ପରିବର୍ତ୍ତନ ହେଲେ"
+                    "valueString": "ଋତୁ ପରିବର୍ତ୍ତନ ହେଲେ - କେଉଁ ରୂତୁରେ"
                   }
                 ]
               },
@@ -1729,7 +1723,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "मौसमी"
+                    "valueString": "मौसमी - कौन-सा मौसम"
                   }
                 ]
               },
@@ -1742,7 +1736,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "મોસમી"
+                    "valueString": "મોસમી - કઈ ઋતુ"
                   }
                 ]
               },
@@ -1755,7 +1749,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "ঋতু সলনিত"
+                    "valueString": "ঋতু সলনিত - কোন ঋতুত"
                   }
                 ]
               },
@@ -1768,7 +1762,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "মৌসুমী"
+                    "valueString": "মৌসুমী - কোন ঋতু"
                   }
                 ]
               },
@@ -1781,7 +1775,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "ಋತುವಿಗೆ ತಕ್ಕ"
+                    "valueString": "ಋತುವಿಗೆ ತಕ್ಕ - ಯಾವ ಋತು"
                   }
                 ]
               },
@@ -1794,7 +1788,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "ऋतू नुसार"
+                    "valueString": "ऋतू नुसार - कोणत्या ऋतूत"
                   }
                 ]
               },
@@ -1807,7 +1801,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "సీజనల్"
+                    "valueString": "సీజనల్ - ఏ సీజన్"
                   }
                 ]
               },
@@ -1820,12 +1814,18 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "காலநிலை சார்ந்த"
+                    "valueString": "காலநிலை சார்ந்த - எந்த பருவத்தில்?"
                   }
                 ]
               }
             ]
-          }
+          },
+          "extension": [
+            {
+              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+              "valueString": "%"
+            }
+          ]
         },
         {
           "linkId": "ID-1487351204_ID_1165513348",
@@ -1841,127 +1841,6 @@
               }
             }
           ],
-          "_text": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "or"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "hi"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "अन्य (वर्णन करें)"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "gu"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "અન્ય [વિગતે જણાવો]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "as"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য[বৰ্ণনা কৰক]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "bn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য [বর্ণনা]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "kn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ಇತರೆ (ವಿವರಿಸಿ)"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "mr"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "इतर[वर्णन करा]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "te"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ఇతర[వివరించండి]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "ta"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "மற்றவை [விவரிக்கவும்]"
-                  }
-                ]
-              }
-            ]
-          },
           "extension": [
             {
               "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -2632,13 +2511,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "%"
-            }
-          ]
+          }
         }
       ],
       "item": [
@@ -2656,127 +2529,6 @@
               }
             }
           ],
-          "_text": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "or"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ଅନ୍ୟାନ୍ୟ [ବର୍ଣନା କର]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "hi"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "अन्य (वर्णन करें)"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "gu"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "અન્ય [વિગતે જણાવો]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "as"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য[বৰ্ণনা কৰক]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "bn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য [বর্ণনা]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "kn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ಇತರೆ (ವಿವರಿಸಿ)"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "mr"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "इतर[वर्णन करा]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "te"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ఇతర[వివరించండి]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "ta"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "மற்றவை [விவரிக்கவும்]"
-                  }
-                ]
-              }
-            ]
-          },
           "extension": [
             {
               "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -4759,13 +4511,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/display",
-              "valueString": "Bloody sputum"
-            }
-          ]
+          }
         },
         {
           "valueCoding": {
@@ -4893,13 +4639,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "Weight change"
-            }
-          ]
+          }
         },
         {
           "valueCoding": {
@@ -5667,13 +5407,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/display",
-              "valueString": "Does mucous drip in the back of your throat?"
-            }
-          ]
+          }
         },
         {
           "valueCoding": {
@@ -6057,13 +5791,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "%"
-            }
-          ]
+          }
         }
       ],
       "item": [
@@ -6081,127 +5809,6 @@
               }
             }
           ],
-          "_text": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "or"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ଅନ୍ଯାନ୍ଯ"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "hi"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "अन्य [वर्णन करें]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "gu"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "અન્ય [વિગતે જણાવો]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "as"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য [বর্ণনা]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "bn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "অন্যান্য [বর্ণনা]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "kn"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ಇತರೆ [ವಿವರಿಸಿ]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "mr"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "इतर (वर्णन करा)"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "te"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "ఇతర [వివరించు]"
-                  }
-                ]
-              },
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                "extension": [
-                  {
-                    "url": "lang",
-                    "valueCode": "ta"
-                  },
-                  {
-                    "url": "content",
-                    "valueString": "மற்றவை [விளக்கம்]"
-                  }
-                ]
-              }
-            ]
-          },
           "extension": [
             {
               "url": "https://intelehealth.org/fhir/StructureDefinition/language",
@@ -6863,7 +6470,13 @@
                 ]
               }
             ]
-          }
+          },
+          "extension": [
+            {
+              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+              "valueString": "%"
+            }
+          ]
         }
       ]
     },
@@ -7126,13 +6739,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "Patient has h/o smoking"
-            }
-          ]
+          }
         },
         {
           "valueCoding": {
@@ -7260,13 +6867,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "No h/o of smoking"
-            }
-          ]
+          }
         },
         {
           "valueCoding": {
@@ -7394,13 +6995,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "Patient was a smoker"
-            }
-          ]
+          }
         }
       ],
       "item": [
@@ -7656,7 +7251,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "ఎప్పటి నుండి నమోదు చేయండి"
+                    "valueString": "ఎప్పటి నుండి నమోదు చేయండి - [ఎప్పటి నుండి నమోదు చేయండి]"
                   }
                 ]
               },
@@ -8337,17 +7932,7 @@
                 }
               ]
             }
-          },
-          "extension": [
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/display",
-              "valueString": "Any exposure to dusts/fumes?"
-            },
-            {
-              "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-              "valueString": "%"
-            }
-          ]
+          }
         },
         {
           "valueCoding": {
@@ -8888,13 +8473,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "Patient is exposed to dust/fumes"
-                }
-              ]
+              }
             },
             {
               "valueCoding": {
@@ -9022,13 +8601,7 @@
                     }
                   ]
                 }
-              },
-              "extension": [
-                {
-                  "url": "https://intelehealth.org/fhir/StructureDefinition/language",
-                  "valueString": "Patient is not exposed to dust/fumes"
-                }
-              ]
+              }
             }
           ]
         }
@@ -9564,7 +9137,7 @@
     },
     {
       "linkId": "ID-1962864824",
-      "text": "Additional information",
+      "text": "Additional information - [Enter additional information]",
       "type": "string",
       "_text": {
         "extension": [
@@ -9577,7 +9150,7 @@
               },
               {
                 "url": "content",
-                "valueString": "ଅତିରିକ୍ତ ସୂଚନା"
+                "valueString": "ଅତିରିକ୍ତ ସୂଚନା - ଅତିରିକ୍ତ ସୂଚନା ପ୍ରଦାନ କରିବା"
               }
             ]
           },
@@ -9590,7 +9163,7 @@
               },
               {
                 "url": "content",
-                "valueString": "अतिरिक्त जानकारी"
+                "valueString": "अतिरिक्त जानकारी - [अतिरिक्त जानकारी दर्ज करें]"
               }
             ]
           },
@@ -9603,7 +9176,7 @@
               },
               {
                 "url": "content",
-                "valueString": "વધારાની માહિતી"
+                "valueString": "વધારાની માહિતી - [વધારાની માહિતી લખો]"
               }
             ]
           },
@@ -9616,7 +9189,7 @@
               },
               {
                 "url": "content",
-                "valueString": "অতিৰিক্ত তথ্য"
+                "valueString": "অতিৰিক্ত তথ্য - [অতিৰিক্ত তথ্য লিখা]"
               }
             ]
           },
@@ -9629,7 +9202,7 @@
               },
               {
                 "url": "content",
-                "valueString": "অতিরিক্ত তথ্য"
+                "valueString": "অতিরিক্ত তথ্য - [অতিরিক্ত তথ্য লিখুন]"
               }
             ]
           },
@@ -9642,7 +9215,7 @@
               },
               {
                 "url": "content",
-                "valueString": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ"
+                "valueString": "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ - [ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ]"
               }
             ]
           },
@@ -9655,7 +9228,7 @@
               },
               {
                 "url": "content",
-                "valueString": "अजून काही माहिती असल्यास भरा"
+                "valueString": "अजून काही माहिती असल्यास भरा - (अजून काही माहिती असल्यास भरा)"
               }
             ]
           },
@@ -9668,7 +9241,7 @@
               },
               {
                 "url": "content",
-                "valueString": "అదనపు సమాచారం"
+                "valueString": "అదనపు సమాచారం - [అదనపు సమాచారాన్ని నమోదు చేయండి]"
               }
             ]
           },
@@ -9681,12 +9254,18 @@
               },
               {
                 "url": "content",
-                "valueString": "மேலும் தகவல்"
+                "valueString": "மேலும் தகவல் - [மேலும் தகவல் உள்ளிடவும்]"
               }
             ]
           }
         ]
-      }
+      },
+      "extension": [
+        {
+          "url": "https://intelehealth.org/fhir/StructureDefinition/language",
+          "valueString": "%"
+        }
+      ]
     }
   ],
   "extension": [
